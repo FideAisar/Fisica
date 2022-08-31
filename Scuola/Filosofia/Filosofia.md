@@ -1,0 +1,21 @@
+## 0.1. Filosofia
+- [[Gorgia]]
+- [[Socrate]]
+- [[Parmenide]]
+- [[Empedocle]]
+- [[Democrito]]
+- [[Protagora]]
+- [[Anassagora]]
+- [[Zenone di Elea]]
+- [[Aristotele, sillogismi]]
+
+- [[Platone]]
+- [[Galileo]]
+- [[Hobbes]]
+- [[Cartesio]]
+- [[Pascal]]
+- [[Spinoza]]
+- [[Leibniz]]
+
+- [[Hume]]
+- [[Kant]]

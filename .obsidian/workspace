@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "f5a506caeb4d11ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "57a6adba47ff5fee",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Scuola/Filosofia/1711 Hume/Hume - 01 Generale.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d23b4ee392ad50e",
+    "type": "split",
+    "children": [
+      {
+        "id": "526f30151aafdd62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44382f4d1874a73c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2b3935c81a8dde2e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "df040a240169c692",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0403522f4dca2673",
+    "type": "split",
+    "children": [
+      {
+        "id": "99e89e5b47fd084c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f80ff0f7c986646a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Scuola/Filosofia/1711 Hume/Hume - 01 Generale.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f12d3d5500be9510",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Scuola/Filosofia/1711 Hume/Hume - 01 Generale.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "65a844878d12ab04",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "08a51ded24746de6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Scuola/Filosofia/1711 Hume/Hume - 01 Generale.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "57a6adba47ff5fee",
+  "lastOpenFiles": [
+    "Scuola/Filosofia/1711 Hume/Hume.md",
+    "Scuola/Filosofia/1588 Hobbes/Thomas Hobbes.md",
+    "Scuola/Filosofia/428 Platone/Compiti_ESTATE_-_Simposio_relazione.pdf"
+  ]
+}
