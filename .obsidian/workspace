@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "57a6adba47ff5fee",
+        "id": "1de147d617fbaa52",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Scuola/Filosofia/1711 Hume/Hume - 01 Generale.md",
+            "file": "Scuola/Inglese/Grammar/Venture U12.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 282
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -71,35 +71,6 @@
         "id": "99e89e5b47fd084c",
         "type": "tabs",
         "children": [
-          {
-            "id": "f80ff0f7c986646a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Scuola/Filosofia/1711 Hume/Hume - 01 Generale.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f12d3d5500be9510",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Scuola/Filosofia/1711 Hume/Hume - 01 Generale.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "65a844878d12ab04",
             "type": "leaf",
@@ -117,21 +88,65 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Filosofia/1711 Hume/Hume - 01 Generale.md"
+                "file": "Scuola/Inglese/Grammar/Venture U12.md"
+              }
+            }
+          },
+          {
+            "id": "c88087e0870fbf0d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "549d7ef6c16d28c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Scuola/Inglese/Grammar/Venture U12.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "675b0a90cffbdb78",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Scuola/Inglese/Grammar/Venture U12.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "57a6adba47ff5fee",
+  "active": "1de147d617fbaa52",
   "lastOpenFiles": [
-    "Scuola/Filosofia/1711 Hume/Hume.md",
-    "Scuola/Filosofia/1588 Hobbes/Thomas Hobbes.md",
-    "Scuola/Filosofia/428 Platone/Compiti_ESTATE_-_Simposio_relazione.pdf"
+    "Scuola/Fisica/Fisica.md",
+    "Scuola/Fisica/Elettricità- 01 Legge di Coulomb.md",
+    "Scuola/Fisica/alfabeto greco.md",
+    "Templates/Untitled.md",
+    "Altro/todo.md",
+    "Altro/Altro.md",
+    "Scuola/Inglese/Grammar/Venture U12.md",
+    "Scuola/Inglese/Grammar/Venture - U9.md",
+    "Scuola/Inglese/Grammar/Venture U10.md",
+    "Templates/Template yml.md"
   ]
 }
