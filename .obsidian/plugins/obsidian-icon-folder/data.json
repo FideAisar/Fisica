@@ -5,6 +5,7 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabLinux",
       "RiBookLine",
       "FarFileCode",
       "FarPenToSquare"
@@ -19,7 +20,7 @@
     }
   },
   "Excalidraw": "FarPenToSquare",
-  "Linux": "FarFileCode",
+  "Linux": "FabLinux",
   "Scuola": "RiBookLine",
   "Scuola/Fisica/Fisica.md": {
     "iconName": null,
