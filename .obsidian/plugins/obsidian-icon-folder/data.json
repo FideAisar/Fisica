@@ -5,10 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbDocumentText",
+      "FabPython",
       "FabLinux",
       "RiBookLine",
-      "FarFileCode",
-      "FarPenToSquare"
+      "FarFileCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -25,5 +26,7 @@
   "Scuola/Fisica/Fisica.md": {
     "iconName": null,
     "inheritanceIcon": "RiBookLine"
-  }
+  },
+  "Python": "FabPython",
+  "Python/Managing text files.md": "IbDocumentText"
 }
