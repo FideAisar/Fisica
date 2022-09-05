@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasListOl",
       "IbDocumentText",
       "FabPython",
       "FabLinux",
-      "RiBookLine",
-      "FarFileCode"
+      "RiBookLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -27,6 +27,5 @@
     "iconName": null,
     "inheritanceIcon": "RiBookLine"
   },
-  "Python": "FabPython",
-  "Python/Managing text files.md": "IbDocumentText"
+  "Python": "FabPython"
 }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Python/Managing text files.md",
+            "file": "Scuola/@Scuola.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Managing text files.md"
+                "file": "Scuola/@Scuola.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Managing text files.md",
+                "file": "Scuola/@Scuola.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Managing text files.md",
+                "file": "Scuola/@Scuola.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,15 +138,15 @@
   },
   "active": "520d3d347cefd9ac",
   "lastOpenFiles": [
-    "Python/Inputs.md",
-    "Python/Managing text files.md",
-    "Scuola/Inglese/Grammar/Venture U12.md",
-    "Linux/VoidLinux/Void Linux - knowledge base.md",
+    "Scuola/Inglese/Inglese.md",
+    "Scuola/@Scuola.md",
+    "Scuola/Italiano/Letteratura.md",
+    "Python/@Python.md",
     "Linux/VoidLinux/Voidlinux.md",
-    "Scuola/Fisica/Fisica.md",
-    "Scuola/Fisica/Elettricità- 01 Legge di Coulomb.md",
-    "Scuola/Fisica/alfabeto greco.md",
-    "Templates/Untitled.md",
-    "Altro/todo.md"
+    "Linux/EndeavourOS/EndeavourOS.md",
+    "Linux/EndeavourOS/Endeavouros - git.md",
+    "Linux/EndeavourOS/Endevouros - Bluetooth.md",
+    "Linux/@Linux.md",
+    "Excalidraw/@Excalidraw.md"
   ]
 }

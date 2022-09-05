@@ -1,3 +1,0 @@
-### Linux
-- [[Voidlinux]]
-- [[EndeavourOS]]

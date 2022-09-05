@@ -1,2 +1,0 @@
-- [[Endevouros - Bluetooth]]
-- [[Endeavouros - git]]
