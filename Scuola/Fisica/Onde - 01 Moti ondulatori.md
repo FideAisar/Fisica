@@ -2,6 +2,7 @@
 title: Onde meccaniche - moti ondulatorie
 author: Federico Cesari
 tags: [Doc]
+date: 00.04.2022
 ---
 ## Moti ondulatori
 > Un'onda è una **perturbazione** che si propaga trasportando energia e quantità di moto ma **non materia**.

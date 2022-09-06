@@ -1,6 +1,10 @@
 ---
+title: Venture - U2
+author: Federico Cesari
 tags: [Exrc]
+date: 00.00.2021
 ---
+
 ### P.22 -Leonardo Di Caprio
 Leonardo grew up in Los Angeles next to film studios. His neighbourhood wasn't a very quite one, in fact he was used to see any type of crime near his house. Also his parent were quite strange.
 At school he had roblems to socialize and he was bullied.

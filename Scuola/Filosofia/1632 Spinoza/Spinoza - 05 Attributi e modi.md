@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Spinoza - 05 Attributi e modi
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 
 ## Attributi e modi

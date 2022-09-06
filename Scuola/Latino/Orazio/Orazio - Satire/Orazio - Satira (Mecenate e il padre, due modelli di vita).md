@@ -1,3 +1,9 @@
+---
+title: Orazio, Mecenate e il padre, due modelli di vita
+author: Federico Cesari 
+tags: [Doc]
+date: 00.04.2022
+---
 # Mecenate e il padre: due modelli di vita
 Orazio in questa satira presenta le due figure più influenti della sua vita: Mecenate e il padre.  Il tema centrale della satira è *come l''opinione comune sia spesso fondata sulle apparenze, sul lignaggio o sui natali e non sulla vera identità dell''individuo*. Possiamo vedere come Orazio riesca a staccarsi da mere *opinioni personali* trasformandole in brillanti strumenti per parlare di qualcosa di più alto.
 

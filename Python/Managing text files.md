@@ -1,3 +1,9 @@
+---
+title: Managing text files
+author: Federico Cesari
+tags: [Doc]
+date: 03.09.2022
+---
 # Text files
 ## Open function
 	Syntax: open(filename, 'mode')

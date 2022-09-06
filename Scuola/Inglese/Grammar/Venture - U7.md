@@ -1,5 +1,8 @@
 ---
+title: Venture - U7
+author: Federico Cesari
 tags: [Exrc]
+date: 00.00.2021
 ---
 ### P.76 es Getting Started
 

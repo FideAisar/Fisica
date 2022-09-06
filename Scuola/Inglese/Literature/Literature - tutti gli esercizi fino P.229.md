@@ -1,5 +1,8 @@
 ---
+title: Literature - tutti gli esercizi fino P.229
+author: Federico Cesari
 tags: [Exrc]
+date: 00.00.2022
 ---
 ## P.117 es 6
 He was the first Stuart monarch and was King of both England and

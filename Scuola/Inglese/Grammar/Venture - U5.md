@@ -1,5 +1,8 @@
 ---
+title: Venture - U2
+author: Federico Cesari
 tags: [Exrc]
+date: 00.00.2021
 ---
 ### P.57 es.10 *_text_
 

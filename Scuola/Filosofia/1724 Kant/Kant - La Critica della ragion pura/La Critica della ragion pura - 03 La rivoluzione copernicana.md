@@ -1,7 +1,8 @@
 ---
 title: La Critica della ragion pura - La rivoluzione copernicana
 author: Federico Cesari
-tags: [Doc/subDoc]
+tags: [Doc]
+date: 00.04.2022
 ---
 # La Rivoluzione copernicana
 Dopo aver compreso che *la conoscenza poggia sui giudizi sintetici a priori*  Kant vuole verificarne la provenienza. Per fare ciò Kant riprende i concetti di materia e forma legandoli alla conoscenza umana.

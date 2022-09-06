@@ -2,6 +2,7 @@
 title: Elettricità - Legge di Coulomb
 author: Federico Cesari
 tags: [Doc]
+date: 00.04.2022
 ---
 ## Conduzione elettrica 
 ### Conduzione per strofinio

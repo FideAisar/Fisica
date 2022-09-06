@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Pascal - 06 Metafilosofia, Dio
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 ## Metafilosofia e cristianesimo
 L'unica filosofia in grado di spiegare la condizione dell'uomo è la metafilosofia = *riconoscere i limiti della filosofia e andare oltre a essa*. Questa **unisce ragione e religione** rintracciata(nel cristianesimo).

@@ -2,6 +2,7 @@
 title: Onde meccaniche - Interferenza
 author: Federico Cesari
 tags: [Doc]
+date: 00.04.2022
 ---
 ## Interferenza
 >**Principio di sovrapposizione:** quando due o più onde attraversano uno stesso mezzo producono una perturbazione uguale alla somma delle perturbazioni create singolarmente da ognuna delle onde.

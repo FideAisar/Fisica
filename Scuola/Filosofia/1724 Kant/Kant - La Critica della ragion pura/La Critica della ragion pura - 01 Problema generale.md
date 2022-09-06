@@ -1,7 +1,8 @@
 ---
 title: La Critica della ragion pura -  Problema generale del sapere
 author: Federico Cesari
-tags: [Doc/subDoc]
+tags: [Doc]
+date: 00.04.2022
 ---
 # Problema generale del sapere
 Kant nella Critica della ragion pura prende in esame la **scienza** e la **metafisica**. Queste sono considerate dal filosofo le *basi fondanti della conoscenza.* Inoltre sono argomenti centrali delle filosofie passate: la scienza sembrava ormai essere lo studio con più credito (soprattutto dopo le ricerche di Galileo e Newton) mentre la filosofia appariva a Kant come una materia più vacillante considerando le idee contrastanti dei filosofi passati (senza contare le severe accuse da parte di Hume alla metafisica).

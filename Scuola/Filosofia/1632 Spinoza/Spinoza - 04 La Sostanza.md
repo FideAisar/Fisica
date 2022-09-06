@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Spinoza - 04 La Sostanza
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 
 ## Etica dimostrata secondo l'ordine geometrico

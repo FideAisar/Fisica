@@ -1,5 +1,8 @@
 ---
+title: Leibniz integrale
+author: Federico Cesari
 tags: [Doc]
+date: 00.03.2022
 ---
 # Leibniz
 ### 10-02-2022

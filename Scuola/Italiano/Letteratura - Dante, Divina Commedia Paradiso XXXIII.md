@@ -2,6 +2,7 @@
 title: Divina Commedia, Paradiso XXXIII
 author: Federico Cesari
 tags: [Doc]
+date: 00.00.2022
 ---
 # Divina Commedia, Paradiso XXXIII
 Nei canti precedenti era comparso San Bernardo. Si trovano nella Rosa Mistica, un anfiteatro nel quale Dante è al centro.

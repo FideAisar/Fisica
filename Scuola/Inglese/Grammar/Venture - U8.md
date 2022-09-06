@@ -1,5 +1,8 @@
 ---
+title: Venture - U8
+author: Federico Cesari
 tags: [Exrc]
+date: 00.00.2021
 ---
 ### P.86 getting started
 

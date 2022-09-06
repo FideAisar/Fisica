@@ -1,3 +1,9 @@
+---
+title: Kant
+author:  
+tags: [index]
+date: 00.00.2022
+---
 # Kant
 - [[Kant - 01 Vita e opere]]
 - [[Kant - 02 La Dissertazione del 1770]]

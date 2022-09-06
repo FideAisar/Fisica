@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Leibniz - 02 Le Monadi
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 ## L'universo Monadistico
 Leibniz riconosce come elemento ultimo della sostanza la **monade.**

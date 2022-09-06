@@ -1,7 +1,7 @@
 {
   "cssTheme": "Minimal",
   "textFontFamily": "Times,Cambria Math",
-  "theme": "moonstone",
-  "baseFontSize": 16,
+  "theme": "obsidian",
+  "baseFontSize": 15,
   "translucency": false
 }

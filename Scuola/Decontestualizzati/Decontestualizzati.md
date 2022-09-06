@@ -1,2 +1,0 @@
-## Decontestualizzati
-- [[Oropa - scaletta]]

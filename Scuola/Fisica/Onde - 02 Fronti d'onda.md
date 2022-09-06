@@ -2,6 +2,7 @@
 title: Onde meccaniche - Fronti d onda
 author: Federico Cesari
 tags: [Doc]
+date: 00.04.2022
 ---
 ## Fronti d'onda
 >Il **fronte d'onda** è l'insieme dei punti nei quali la variazione di grandezza al passare dell'onda ha lo stesso valore in qualunque istante. Questi oscillano concordemente, in modo tale che **la fase dell'onda passante per quei punti sia la medesima**.

@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Spinoza - 01 Vita
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 ## Vita
 Brauch Spinoza nasce ad Amsetrdam nel 1632 da una famiglia ebraica scappata dall Spagna. Viene educato nella comunità israelita della città ma venne scomunicato per eresie pratiche d insegnate.

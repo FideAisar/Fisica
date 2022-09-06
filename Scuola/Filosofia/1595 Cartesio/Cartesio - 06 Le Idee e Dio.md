@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Cartesio - 06 Le Idee e Dio
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 
 ## Le idee e Dio

@@ -1,5 +1,8 @@
 ---
+title: Venture - U9
+author: Federico Cesari
 tags: [Exrc]
+date: 00.00.2021
 ---
 ### U9 Vocabulary [[Vocabulary#U9]]
 

@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Pascal - 01 Vita
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 ## Vita
 Blaise Pascal è il maggior esponente dell'**esistenzialismo**. Nasce a Clermont nel 1623; iniziò con lo studio della matematica e della fisica (ottenendo anche risultati notevoli ([[Pascal - 02 Opere|opere]])) approdando anche al pensiero filosofico e religioso. Pascal ha sempre avuto una **forte vocazione religiosa.**

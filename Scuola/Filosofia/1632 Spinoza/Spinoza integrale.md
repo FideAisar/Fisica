@@ -1,5 +1,8 @@
 ---
+title: Spinoza integrale
+author: Federico Cesari
 tags: [Doc]
+date: 00.03.2022
 ---
 # Spinoza
 ### 20-01-2022

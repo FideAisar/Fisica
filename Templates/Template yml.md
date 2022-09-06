@@ -1,5 +1,6 @@
 ---
-title: title
-author: Federico Cesari
+title: 
+author:  
 tags: []
+date:
 ---

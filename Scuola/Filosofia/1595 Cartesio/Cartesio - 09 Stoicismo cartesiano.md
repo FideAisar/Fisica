@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Cartesio - 09 Stoicismo cartesiano
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 ## Stoicismo cartesiano
 Cartesio si può definire stoico quando dice di **vivere secondo ragione**, pensiero che condivide con la corrente stoica.

@@ -1,2 +1,0 @@
-## Hobbes
-- [[Thomas Hobbes]]

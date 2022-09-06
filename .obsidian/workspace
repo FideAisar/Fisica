@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "520d3d347cefd9ac",
+        "id": "7b0ad5c60c46b870",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Scuola/@Scuola.md",
-            "mode": "source",
+            "file": "Dataview.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -41,7 +41,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -77,8 +77,8 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "sortOrder": "alphabetical",
+                "useHierarchy": false
               }
             }
           },
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/@Scuola.md"
+                "file": "Dataview.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scuola/@Scuola.md",
+                "file": "Dataview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/@Scuola.md",
+                "file": "Dataview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "520d3d347cefd9ac",
+  "active": "c88087e0870fbf0d",
   "lastOpenFiles": [
-    "Scuola/Inglese/Inglese.md",
+    "Templates/Template yml.md",
+    "Dataview.md",
+    "Templates/@Templates.md",
+    "Scuola/Latino/@Latino.md",
     "Scuola/@Scuola.md",
-    "Scuola/Italiano/Letteratura.md",
-    "Python/@Python.md",
-    "Linux/VoidLinux/Voidlinux.md",
-    "Linux/EndeavourOS/EndeavourOS.md",
-    "Linux/EndeavourOS/Endeavouros - git.md",
-    "Linux/EndeavourOS/Endevouros - Bluetooth.md",
-    "Linux/@Linux.md",
-    "Excalidraw/@Excalidraw.md"
+    "Scuola/Fisica/@Fisica.md",
+    "Storia.md",
+    "Scuola/Storia/Storia.md",
+    "Scuola/Storia/Storia - 1000  1300 d.C..md",
+    "Scuola/Storia/Storia - guerra dei 100 anni.md"
   ]
 }

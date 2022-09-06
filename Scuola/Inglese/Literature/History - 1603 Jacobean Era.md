@@ -1,6 +1,10 @@
 ---
+title: History - 1603 Jacobean Era
+author: Federico Cesari 
 tags: [Doc]
+date: 00.00.2021
 ---
+
 ## James I
 In 1603 the Tudor dynasty ended with the *James VI Stuart reign*. He was nominated **James I of England and Scotland**. His reign was characterized by a strict regime imposed by the king, who tried to impose the absolute monarchy and a strict Anglican worship. He excluded Catholics and Puritans from the government.
 

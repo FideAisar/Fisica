@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Cartesio - 03 Il Metodo
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 ## Il Metodo
 Cartesio si accorge di non essere capace di distinguere il vero dal falso (aiutato anche dalla sua esperienza a [[Cartesio - 01 Vita#^fee43c|La Flèche]]).

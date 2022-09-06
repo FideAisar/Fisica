@@ -1,3 +1,10 @@
+---
+title: Inputs
+author: Federico Cesari
+tags: [Doc]
+date: 04.09.2022
+---
+
 # Different input methods
 ## Input
 Asks the userfor an imput. It accepts strings only.

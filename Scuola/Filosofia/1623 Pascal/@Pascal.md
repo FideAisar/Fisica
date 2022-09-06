@@ -1,3 +1,9 @@
+---
+title: Pascal
+author:  
+tags: [index]
+date: 00.00.2021
+---
 ## Pascal
 - [[Pascal integrale]]
 

@@ -1,3 +1,9 @@
+---
+title: Orazio
+author: Federico Cesari
+tags: [Doc]
+date: 00.04.2022
+---
 # Satire
 Orazio prende come fondatore della satira Lucilio, il genere infatti non vede antenati proveninti dalla Grecia. Orazio fa della satira un mezzo per rappresentare, con uno stile complesso ed elaborato, i vizi e i comportamenti dell'uomo. Nonostante gli spunti presi dal Lucilio, Orazio prende le distanze dalla sua *forma* considerata non curata e dal suo stile prolisso. L'autore crede infatti che la forma sia essenziale e applica il principio del *labor limae*, ovvero un'elaborata cura stilistica e formale.
 I due principi seguiti da Orazio nelle satire sono: la *metriotes*, ovvero la moderazione, e l'*autarkeia*, ovvero l'autosufficienza o limitazione dei desideri.

@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Pascal - 04 Divertissement
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 ## Divertissement
 Il divertissement è l'atteggiamento comune nei confronti dei problemi esistenziali e corrisponde all'**oblio o stordimento di sé nelle occupazioni quotidiane e negli intrattenimenti sociali.** Senza fare niente l'uomo è costretto ad abbandonarsi ai propri pensieri comprendendo la sua *insufficienza esistenziale, il suo abbandono, il suo vuoto interiore.*

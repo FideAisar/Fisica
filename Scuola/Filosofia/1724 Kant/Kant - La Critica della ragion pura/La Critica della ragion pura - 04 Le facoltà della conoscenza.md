@@ -1,7 +1,8 @@
 ---
 title: La Critica della ragion pura -  Le facoltà della conoscenza
 author: Federico Cesari
-tags: [Doc/subDoc]
+tags: [Doc]
+date: 00.04.2022
 ---
 # Le facoltà della conoscenza
 Secondo Kant le informazioni che ci arrivano dall'esterno passano dai **sensi** poi vengono interpretati dall'**intelletto** per poi finire nella **ragione**.

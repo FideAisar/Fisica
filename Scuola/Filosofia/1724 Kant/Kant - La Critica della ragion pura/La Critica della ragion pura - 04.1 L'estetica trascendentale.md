@@ -1,3 +1,9 @@
+---
+title: La Critica della ragion pura - 04.1 L estetica trascendentale
+author: Federico Cesari
+tags: [Doc]
+date: 00.04.2022
+---
 # L'estetica trascendentale
 Nell'estetica trascendentale Kant prende in esame la **sensibilità** e le sue forme a priori (spazio e tempo). Kant descrive la sensibilità in due modi: **ricettiva**, riceve passivamente le informazioni dalla realtà esterna, e **attiva** in quanto elabora le informazioni attivamente tramite le *forme pure a priori*.
 ## Teoria dello spazio e del tempo

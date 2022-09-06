@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Petrarca, Era il giorno ch’al sol si scoloraro
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2020
 ---
 ## **Testo della poesia**
 

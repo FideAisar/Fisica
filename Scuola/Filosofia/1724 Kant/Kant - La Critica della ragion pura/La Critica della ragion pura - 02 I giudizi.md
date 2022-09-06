@@ -1,7 +1,8 @@
 ---
 title: La Critica della ragion pura - I Giudizi
 author: Federico Cesari
-tags: [Doc/subDoc]
+tags: [Doc]
+date: 00.04.2022
 ---
 # I Giudizi
 Kant crede che benché ogni cosa che sappiamo deriva dall'esperienza non vuol dire che questa sia l'unica causa del sapere. L'idea di Kant è quella che vede dei **giudizi sintetici a priori** che vanno a sommarsi all'esperienza.

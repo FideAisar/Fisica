@@ -1,7 +1,8 @@
 ---
 title: Kant - La Dissertazione del 1770
 author: Federico Cesari
-tags: [Doc/subDoc]
+tags: [Doc]
+date: 00.04.2022
 ---
 
 # La Dissertazione del 1770

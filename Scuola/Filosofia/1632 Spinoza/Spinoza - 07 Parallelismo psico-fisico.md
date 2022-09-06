@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Spinoza - 07 Parallelismo psico-fisico
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 ## Parallelismo psico-fisico
 Spinoza crede che pensiero ed estensione siano concetti **qualitativamente eterogenee** (lo spirito non può essere materiale e la materia non può essere spirituale). In questo modo le due entità non si possono influenzare l'un l'altra.

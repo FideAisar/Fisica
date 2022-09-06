@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Leibniz - 01 Ordine contengente e vertità
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 ## Ordine contingente
 La ricerca filosofica di Leibniz si basa quasi interamente sul concetto di un **ordine universale spontaneamente organizzato** e non geometrico (come quello di [[Spinoza - 04 La Sostanza|Spinoza]]). Secondo Leibniz l'ordine è il frutto di una scelta, tra tutti gli ordini possibili ed esistenti Dio avrebbe scelto quello **migliore/più perfetto**. Viene riconosciuta in Dio una volontà antecedente che voleva il bene e una conseguente che prende in esame anche l'imperfezione e la presenza del male quindi finisce per scegliere il migliore.

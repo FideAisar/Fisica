@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Cartesio - 07 Dualismo cartesiano
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 
 ## Res cogitans e res extensa

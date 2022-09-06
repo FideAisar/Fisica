@@ -1,5 +1,8 @@
 ---
+title: Venture - U1 
+author: Federico Cesari
 tags: [Exrc]
+date: 00.00.2021
 ---
 ### P.13 -Opposites attract!
 

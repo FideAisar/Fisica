@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Spinoza - 08 I gradi della conoscenza
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 ## I gradi della conoscenza
 Per comprendere *Dio sive natura* Spinoza riconosce tre gradi di conoscenza:

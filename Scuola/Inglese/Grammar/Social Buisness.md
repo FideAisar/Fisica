@@ -1,6 +1,10 @@
 ---
+title: Social Buisness 
+author: Federico Cesari
 tags: [Exrc]
+date: 00.00.2021
 ---
+
 ### Social Buisness
 1.  Social buisness is characterised by:
     

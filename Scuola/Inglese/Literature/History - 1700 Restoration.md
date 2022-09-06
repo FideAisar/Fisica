@@ -1,5 +1,8 @@
 ---
+title: History - 1700 Restoration
+author: Federico Cesari 
 tags: [Doc]
+date: 00.00.2021
 ---
 ## Restoration
 With the reign of Charles II the **restoration began**. **Theaters** reopened and the whole literacy had a deep restoration. **Women writers** became more visible and the **novel** became the most popular genre and emerged as the *dominant form and conception of the individual*.

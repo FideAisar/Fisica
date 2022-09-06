@@ -1,6 +1,10 @@
 ---
+title: Literature - Compiti estate 2021
+author: Federico Cesari 
 tags: [Exrc]
+date: 00.00.2021
 ---
+
 ### P.111 es 1
 
 The title of the song is "Changes". This is so related to the topic of the unit in fact, this unit talk about the renaissance period in England. This period is object of many changes in several activities and arts like astronomy, religion, exploration, and much more.

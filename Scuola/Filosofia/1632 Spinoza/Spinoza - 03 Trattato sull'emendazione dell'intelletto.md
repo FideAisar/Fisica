@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Spinoza - 03 Trattato sull emendazione dell intelletto
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 ## Trattato sull'emendazione dell'intelletto
 E stato considerato dai critici una sorta di [[Cartesio - 02 Opere#^b95976|Discorso sul metodo]].  Nel trattato si evidenzia come il pensiero Spinoziano **nasca da una delusione** di fondo nei confronti dei comuni valori della vita e si alimeta **cercando un bene vero** capace di dare un significato all'esistenza (**emendare l'intelletto**).

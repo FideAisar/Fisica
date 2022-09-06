@@ -1,5 +1,8 @@
 ---
+title: Orazio, Est modus in rebus
+author: Federico Cesari 
 tags: [Doc]
+date: 00.04.2022
 ---
 # Est modus in rebus
 La satira ha come argomento centrale la **metriotes**. Orazio si concentra sull'avidità e l'insoddisfazione dell'uomo osservandone gli effetti disastrosi.

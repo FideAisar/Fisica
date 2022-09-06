@@ -2,13 +2,9 @@
 title: Daniel Defoe
 author: Federico Cesari
 tags: [Doc]
+date: 00.00.2022
 ---
-
-<h1 style="text-align: center; font-weight: 400;">Daniel Defoe</h1>
-<h2 style="text-align: center; font-weight: 300;">Federico Cesari</h2>
-<h2 style="text-align: center; font-weight: 300;">31/03/2022</h2>
-
-
+# Daniel Defoe
 # 1. Life
 He was born i London in 1660 in a protestant family. He studied in London and finished his stuudies he began his merchant career. Thanks to his job he travelled a lot, in England but also abroad.
 

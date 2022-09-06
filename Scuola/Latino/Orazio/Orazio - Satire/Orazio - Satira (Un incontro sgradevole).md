@@ -1,3 +1,9 @@
+---
+title: Orazio, Un incontro sgradevole
+author: Federico Cesari 
+tags: [Doc]
+date: 00.04.2022
+---
 # Un incontro sgradevole
 Esempio perfetto di satira narrativa. Questa si sviluppa attorno un aneddoto raccontato da Orazio: mentre passeggia per la strada uno scocciatore lo prende di mira senza dargli tregua. Ogni tentativo dello scocciatore di introdurre una conversazione è respinto da qalche brillante battuta di Orazio che con *elegante distacco* cerca di liberarsene.
 

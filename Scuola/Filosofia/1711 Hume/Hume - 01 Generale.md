@@ -1,5 +1,8 @@
 ---
-tags: [writing]
+title: Hume - 01 Generale
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 
 ## Hume

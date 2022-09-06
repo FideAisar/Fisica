@@ -1,3 +1,10 @@
+---
+title: Appunti per esame First
+author: Fedrico Cesari  
+tags: [Doc]
+date: 00.05.2022
+---
+
 # Orale
 ## Part 1 - Talk about yourself
 ##### Characteristics:

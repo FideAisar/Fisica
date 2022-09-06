@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Spinoza - 09 Il Conatus e gli affetti
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 
 ## Conatus

@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Spinoza - 06 Critica al finalismo e al Dio biblico
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 ## Critica al finalismo
 La concezione di Dio come [[Spinoza - 05 Attributi e modi#^aff1a0|ordine geometrico del mondo]] va in contrasto con l'idea ormai millenaria che Dio avesse creato il mondo secondo una subordinazione universale -> idea **finalistica**.

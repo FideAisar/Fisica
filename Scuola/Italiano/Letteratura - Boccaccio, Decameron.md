@@ -1,6 +1,10 @@
 ---
+title: Boccaccio, Decameron
+author: internet 
 tags: [Doc]
+date: 00.00.2021
 ---
+
 # Boccaccio -Ser Ciappeletto
 
 > Narratore → Panfilo

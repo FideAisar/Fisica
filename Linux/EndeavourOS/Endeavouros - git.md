@@ -1,3 +1,9 @@
+---
+title: Endeavouros - git
+author: Federico Cesari 
+tags: [Wiki]
+date: 05.09.2022
+---
 ## Git setup
 if you can't push to origin try:
 ```

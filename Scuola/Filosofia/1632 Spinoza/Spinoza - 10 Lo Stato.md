@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Spinoza - 10 Lo stato
+author: Federico Cesari
+tags: [Doc]
+date: 00.03.2022
 ---
 ## Lo Stato
 Spinoza, come [[Thomas Hobbes|Hobbes]] muove la sua teoria sullo Stato partendo dallo stato di natura, dove l'uomo è di diritto altrui finché è sotto il potere altrui. Poiché l'uomo per sostentarsi ha bisogno dell'aiuto degli altri uomini inizia ad aggregarsi e a stringere accordi. Così facendo tanto più grande si fa l'associazione tanto più grande sarà il diritto degli uomini. Questo processo porta alla formazione di un **governo**.

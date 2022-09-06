@@ -2,6 +2,7 @@
 title: Onde meccaniche - Onde armoniche
 author: Federico Cesari
 tags: [Doc]
+date: 00.04.2022
 ---
 ## Onde armoniche
 

@@ -1,5 +1,8 @@
 ---
+title: Stil Novo
+author: Federico Cesari
 tags: [Doc]
+date: 00.00.2020
 ---
 # Stil Novo
 

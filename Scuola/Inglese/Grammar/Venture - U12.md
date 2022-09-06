@@ -1,3 +1,9 @@
+---
+title: Venture - U12
+author: Federico Cesari
+tags: [Exrc]
+date: 00.09.2022
+---
 ## P.128 Getting started
 Technology today, plays a very important role in our society. For example it makes much easier looking for information and other teaching methods have been developed with the use of projectors and computers. 
 Smartphones and computers deeply changed also the way we interact with the world; socialising saw a big transformation and a transition becoming more and more digital. 

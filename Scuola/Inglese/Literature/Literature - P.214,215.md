@@ -1,5 +1,8 @@
 ---
+title: Literature - P.214,215
+author: Federico Cesari 
 tags: [Exrc]
+date: 00.00.2021
 ---
 ## P.215
 ### 2

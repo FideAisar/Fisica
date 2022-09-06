@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Cartesio - 02 Opere
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 
 ## Opere

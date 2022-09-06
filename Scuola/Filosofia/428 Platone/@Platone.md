@@ -1,3 +1,6 @@
+---
+tags: [broken]
+---
 ## Platone
 - [[Platone - Evidenza]]
 - [[Platone - Idee]]

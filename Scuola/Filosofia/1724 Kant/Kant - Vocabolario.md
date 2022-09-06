@@ -1,7 +1,8 @@
 ---
-title: Kant Vocabolario
+title: Kant - Vocabolario
 author: Federico Cesari
-tags: [Doc/subDoc]
+tags: [Doc]
+date: 00.04.2022
 ---
 # Spazio
 # Tempo

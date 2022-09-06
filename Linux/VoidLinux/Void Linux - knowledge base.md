@@ -1,6 +1,10 @@
 ---
+title: Void Linux - knowledge base
+author: Void Linux 
 tags: [Wiki]
+date: 05.09.2022
 ---
+
 # Installation GUIDE
 	sudo void-installer
 ## Install and update packages 

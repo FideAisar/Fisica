@@ -1,13 +1,10 @@
 ---
-title: My document title
+title: Literature - Robinson Crusoe
 author: Federico Cesari
 tags: [Doc]
+date: 00.00.2022
 ---
-<h1 style="text-align: center; font-weight: 400;">Robinson Crusoe</h1>
-<h2 style="text-align: center; font-weight: 300;">Daniel Defoe</h2>
-<h2 style="text-align: center; font-weight: 300;">25/04/1719</h2>
-
-
+# Robinson Crusoe
 # 1. Plot
 The plot is divided in three sections:
 1. The story begin recounting about Robinson Crusoe, a young man who goes to sea *despite his father's opposition*. During his **journey** he arrives in Brazil where he starts a sugar plantation. Then he goes to Africa but unfortunately, during the **sea voyage** he is **shipwrecked** on a desert island.

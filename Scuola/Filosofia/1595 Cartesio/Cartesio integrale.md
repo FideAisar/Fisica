@@ -1,5 +1,8 @@
 ---
+title: Cartesio integrale
+author: Federico Cesari
 tags: [Doc]
+date: 00.00.2021
 ---
 # Cartesio
 ### 20-12-2021

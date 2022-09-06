@@ -1,6 +1,10 @@
 ---
+title: Endevouros - Bluetooth
+author: EndeavourOS
 tags: [Wiki]
+date: 05.09.2022
 ---
+
  ## Enable and setup Bluetooth devices
 ---
  If you are using [pipewire](https://discovery.endeavouros.com/wp-admin/post.php?post=2519&action=edit) (default since Atlantis release):

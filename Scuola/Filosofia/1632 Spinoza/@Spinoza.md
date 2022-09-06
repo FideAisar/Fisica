@@ -1,3 +1,9 @@
+---
+title: Spinoza
+author:  
+tags: [index]
+date: 00.00.2022
+---
 ## Spinoza
 - [[Spinoza integrale]]
 

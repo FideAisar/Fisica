@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Pascal - 02 Opere
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 ## Opere
 - ***Trattato delle sezioni coniche***

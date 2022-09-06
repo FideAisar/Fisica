@@ -1,5 +1,8 @@
 ---
+title: Pascal integrale
+author: Federico Cesari
 tags: [Doc]
+date: 00.00.2021
 ---
 # Pascal
 ### 13-01-2022

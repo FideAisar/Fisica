@@ -2,6 +2,7 @@
 title: Onde meccaniche - Onde periodiche
 author: Federico Cesari
 tags: [Doc]
+date: 00.04.2022
 ---
 ## Onde periodiche
 >Un'onda periodica è un'onda la cui sorgente compie un moto periodico e il cui profilo si ripete identico a distanze regolari. (Il profilo può anche essere irregolare e non sinusoidale, lo è se la sorgente oscilla in modo armonico)

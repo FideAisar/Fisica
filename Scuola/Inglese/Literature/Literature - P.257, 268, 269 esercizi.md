@@ -1,3 +1,9 @@
+---
+title: Literature - P.257, 268, 269 esercizi
+author: Federico Cesari 
+tags: [Exrc]
+date: 00.00.2021
+---
 ## P.257
 2. The straight line is associated with many views and it represents the path-way for christians divines, the moral rectitude for Cicero, the best line for cubbage planters and for Archimedes is the shortest line.
 4. He might have chosen these three targets because in that period emerged the middle class who started reading a lot of books so traditional writing had to adapt to the new audience. 

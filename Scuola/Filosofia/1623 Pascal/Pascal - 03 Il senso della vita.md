@@ -1,5 +1,8 @@
 ---
-tags: [Doc/subDoc]
+title: Pascal - 03 Il senso della vita
+author: Federico Cesari
+tags: [Doc]
+date: 00.00.2021
 ---
 ## Il senso della vita
 L'interrogativo più importante della vita di Pascal è il **senso della vita**. L'uomo ha il compito di dare un senso alla vita.
