@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Dataview.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c88087e0870fbf0d",
+  "active": "7b0ad5c60c46b870",
   "lastOpenFiles": [
-    "Templates/Template yml.md",
+    "Scuola/Inglese/@Inglese.md",
+    "Scuola/@Scuola.md",
     "Dataview.md",
+    "Templates/Template yml.md",
     "Templates/@Templates.md",
     "Scuola/Latino/@Latino.md",
-    "Scuola/@Scuola.md",
     "Scuola/Fisica/@Fisica.md",
     "Storia.md",
     "Scuola/Storia/Storia.md",
-    "Scuola/Storia/Storia - 1000  1300 d.C..md",
-    "Scuola/Storia/Storia - guerra dei 100 anni.md"
+    "Scuola/Storia/Storia - 1000  1300 d.C..md"
   ]
 }
