@@ -1,7 +1,9 @@
 {
   "cssTheme": "Minimal",
-  "textFontFamily": "Times,Cambria Math",
-  "theme": "moonstone",
-  "baseFontSize": 15,
-  "translucency": false
+  "textFontFamily": "Times New Roman,Arial",
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "translucency": false,
+  "monospaceFontFamily": "Liberation Mono,Luxi Mono,FreeMono,DejaVu Sans Mono",
+  "interfaceFontFamily": ""
 }

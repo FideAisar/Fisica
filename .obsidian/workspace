@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition.md",
+            "file": "Scuola/Inglese/Literature/2ds1w.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition.md"
+                "file": "Scuola/Inglese/Literature/2ds1w.md"
               }
             }
           },
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition.md",
+                "file": "Scuola/Inglese/Literature/2ds1w.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,30 +115,30 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition.md",
+                "file": "Scuola/Inglese/Literature/2ds1w.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 100,
+    "collapsed": true
   },
   "active": "703c38dba94c691d",
   "lastOpenFiles": [
-    "Scuola/Inglese/@Inglese.md",
-    "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition.md",
     "Dataview.md",
+    "Scuola/Inglese/Literature/2ds1w.md",
+    "Python/@Python.md",
+    "Python/Inputs.md",
+    "Python/Managing text files.md",
+    "Scuola/Inglese/@Inglese.md",
     "Scuola/@Scuola.md",
     "Templates/Template yml.md",
     "Templates/@Templates.md",
-    "Scuola/Latino/@Latino.md",
-    "Scuola/Fisica/@Fisica.md",
-    "Storia.md",
-    "Scuola/Storia/Storia.md"
+    "Scuola/Latino/@Latino.md"
   ]
 }

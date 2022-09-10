@@ -13,6 +13,7 @@
   "spellcheckLanguages": [
     "en-GB"
   ],
-  "spellcheck": false,
-  "fileSortOrder": "alphabetical"
+  "spellcheck": true,
+  "fileSortOrder": "alphabetical",
+  "newFileLocation": "current"
 }
