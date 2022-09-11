@@ -5,12 +5,41 @@ tags: [Exrc]
 date: 09.09.2022
 ---
 
+## P.25 ex 1
+1. They spent a year in France and then travelled all over the world where they could meet rich people who played polo.
+2. Nick is not such a wealthy person while Tom is so rich and he travelled a lot during his life.
+3. They are friends but they hardly know each other.
+4. Miss Baker was the other woman who was sat on the couch with Daisy.
+5. She knows Gatsby.
+6. He started to have a more violent attitude.
+7. Tom's woman in New York
+8. She objects to the phone call because they were having dinner.
+9. Because she is a golf professional player.
+10. He was disgusted and confused.
+
 ## P.25 ex 2
 For our series of articles"The Young and the Restless" we visited the exclusive home of Mr and Mrs Tom Buchanan in fashionable East Egg, Long Island. Their house is a red and white colonial mansion, tastefully decorated in every aspect: from the beach to the garden.
 Tom is a rich man who plays polo; Daisy, his wife is Nick's second cousin. Miss baker is a famous golf player.
 Before their life in New York Tom and Daisy travelled across the world and they stayed for few years in France.
 Mr Buchanan's way of talking is characterised by strong opinions about race and black people. He thinks in fact that the white race is the one that must dominate over the black one. He also says that what he is talking about is not something that he thinks but he strongly believe that it is scientific approved.
 The visit seemed to be enjoyable and interesting, It is always fun meeting strange people especially when they are that rich. 
+
+## P.37 ex 3
+1. He was rich and he had a beautiful aspect and it was predictable he had a mistress. While it wasn't predictable that he was so attached to his book.
+2. Because he doesn't want to end his marriage even if he has another woman.
+3. -
+
+## P.38 ex 4
+To convince her to live her life in the best way with him.
+
+## P.50 ex 2
+1. -
+2. -
+3. -
+4. -
+
+## P.52 ex 5
+By now I find difficult to describe precisely what Gatsby is. He is both mysterious and showy, lonely but with a lot of friends. 
 
 ## P.56 ex 1
 1. A nation who doesn't want any contact with other nations.
@@ -21,6 +50,11 @@ The visit seemed to be enjoyable and interesting, It is always fun meeting stran
 6. It was a term used to call who sold illegal alcohol.
 7. Because in 1919 alcohol became illegal.
 8. The New York stock exchange market felt dramatically.
+
+## P.56 ex 2
+1. 20's in Italy had been a difficult due to world war I.
+2. the 70's in Italy also had been a difficult period characterised by street violence, armed struggle and terrorism.
+3. 70's are called lead years.
 
 ## P.68 ex 1
 1. It was huge and shiny, a rich cream colour with green leather seats.
@@ -36,6 +70,10 @@ The visit seemed to be enjoyable and interesting, It is always fun meeting stran
 11. -
 12. Gatsby want Nick to convince Daisy to go to visit him
 
+## P.68 ex 2
+1. -
+2. -
+3. -
 ## P.68 ex 3
 1. Everyone, especially in traditional restaurant in the centre of the city.
 2. My favourite restaurant is Amigos, it specialised in steaks.
@@ -79,4 +117,14 @@ I can see Tom coming round the corner  in that big yellow car he was driving bef
 ## P.134 ex 1
 1. -
 2. He was so amazed by Daisy house because the first time he saw it he was still poor.
-3. He 
+3. -
+4. He travelled a lot in Paris before and then at Oxford.
+5. -
+6. Daisy decided to marry Tom because he was more stable than Gatsby.
+7. He was in a miserable condition and poor.
+8. "You're worth the whole bunch of them"
+9. It was the only compliment he said to him because he totally disapproved him.
+10. He discovered it when she returned from the drawer with an expensive dog leash.
+11. He discovered the yellow car was hit and he was the cover of his wife who used to hit her.
+12. He committed suicide.
+

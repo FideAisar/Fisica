@@ -34,7 +34,7 @@ date: 05.09.2022
 - [[Literature - P.257, 268, 269 esercizi]]
 - [[Literature - Robinson Crusoe]]
 - [[Literature - tutti gli esercizi fino P.229]]
-- [[2ds1w]]
+- [[The Great Gatsby, Black Cat edition (esercizi)]]
 
 
 [[Vocabulary]]
