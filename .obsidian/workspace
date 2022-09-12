@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "703c38dba94c691d",
+        "id": "96710c223fca3d06",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition (esercizi).md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -87,58 +83,35 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition (esercizi).md"
-              }
+              "state": {}
             }
           },
           {
-            "id": "549d7ef6c16d28c1",
+            "id": "26f0ad8dd024ca8d",
             "type": "leaf",
             "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition (esercizi).md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "675b0a90cffbdb78",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition (esercizi).md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+              "type": "git-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 100,
-    "collapsed": true
+    "width": 264.0279846191406
   },
-  "active": "703c38dba94c691d",
+  "active": "96710c223fca3d06",
   "lastOpenFiles": [
+    "transactions.ledger",
     "Dataview.md",
+    "Linux/VoidLinux/Void Linux - knowledge base.md",
+    "Linux/VoidLinux/Distro - Void+i3gaps.md",
+    "Linux/@Linux.md",
+    "Excalidraw/@Excalidraw.md",
+    "Templates/@Templates.md",
     "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition (esercizi).md",
     "Python/@Python.md",
-    "Python/Inputs.md",
-    "Python/Managing text files.md",
-    "Scuola/Inglese/@Inglese.md",
-    "Scuola/@Scuola.md",
-    "Templates/Template yml.md",
-    "Templates/@Templates.md",
-    "Scuola/Latino/@Latino.md"
+    "Python/Inputs.md"
   ]
 }
