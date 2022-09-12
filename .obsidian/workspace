@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "96710c223fca3d06",
+        "id": "b2b90d80feb216c1",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Scuola/Inglese/Grammar/Venture - U12.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -83,7 +87,38 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Scuola/Inglese/Grammar/Venture - U12.md"
+              }
+            }
+          },
+          {
+            "id": "f16e22dd6f941bb3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Scuola/Inglese/Grammar/Venture - U12.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8cad9dabd22afe74",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Scuola/Inglese/Grammar/Venture - U12.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ],
@@ -91,20 +126,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.0279846191406,
-    "collapsed": true
+    "width": 264.0279846191406
   },
-  "active": "96710c223fca3d06",
+  "active": "b2b90d80feb216c1",
   "lastOpenFiles": [
-    "transactions.ledger",
     "Dataview.md",
+    "11-80076_Report_2008_Annex_D.pdf",
+    "Scuola/Inglese/Grammar/Venture - U12.md",
+    "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition (esercizi).md",
+    "transactions.ledger",
     "Linux/VoidLinux/Void Linux - knowledge base.md",
     "Linux/VoidLinux/Distro - Void+i3gaps.md",
     "Linux/@Linux.md",
     "Excalidraw/@Excalidraw.md",
-    "Templates/@Templates.md",
-    "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition (esercizi).md",
-    "Python/@Python.md",
-    "Python/Inputs.md"
+    "Templates/@Templates.md"
   ]
 }

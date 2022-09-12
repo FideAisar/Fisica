@@ -4,6 +4,7 @@ author: Federico Cesari
 tags: [Exrc]
 date: 00.09.2022
 ---
+# Venture - U12
 ## P.128 Getting started
 Technology today, plays a very important role in our society. For example it makes much easier looking for information and other teaching methods have been developed with the use of projectors and computers. 
 Smartphones and computers deeply changed also the way we interact with the world; socialising saw a big transformation and a transition becoming more and more digital. 
@@ -26,5 +27,10 @@ One of the newest building in the city is San Paolo skyscraper. It's something n
 Completed in 2015, with its 166 meters of height it is the third tallest building in Turin. It can count 38 floors and in the rooftop there is a restaurant where you can eat enjoying the sight from the 38th floor. Renzo Piano, the architect who designed the building, managed to create something modern but that fit to the city.
 
  I'm really into modern architecture and I also appreciated how the architect decided to make the area around it something where everyone can go to relax thanks to a big park. 
-
+## P.232 es.1
+1. Clocky, self-purfuming clothes, Bow-Lingual Dog Translator, Cool Breeze Shoes.
+2. Massacchusets, South Korea, Japan, Japan
 ## P.237 es.21 Article
+The internet certainly is one of the most useful and used invention of the entire time. It gives access to every information in every type of format to everyone almost for free. Tthe internet is convenient. This is the primary reason the internet is so great; millions of websites can be accessed with a click of the mouse. It is used for many different reasons, with communication being one of the most important.
+Because of the internet, e-mail can be used by individuals to communicate. E-mail allows communication between businesses to be faster while remaining formal.  Without internet, every e-mail would be individually mailed letters.
+The Internet contains also the majority of money logistic like bank accounts and transactions; in this way the process is way more functional and with less errors.
