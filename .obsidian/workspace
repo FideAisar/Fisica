@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f169cb751aa2b22c",
+        "id": "2cc3221ebc126e0d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Scuola/Chimica/Legami chimici.md",
+            "file": "Python/Inputs.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Chimica/Legami chimici.md"
+                "file": "Python/Inputs.md"
               }
             }
           },
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scuola/Chimica/Legami chimici.md",
+                "file": "Python/Inputs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Chimica/Legami chimici.md",
+                "file": "Python/Inputs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,19 +125,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.0279846191406
+    "width": 264.0279846191406,
+    "collapsed": true
   },
-  "active": "f169cb751aa2b22c",
+  "active": "44382f4d1874a73c",
   "lastOpenFiles": [
-    "Scuola/Chimica/@Chimica.md",
+    "Python/Functions.md",
+    "Python/Inputs.md",
+    "Python/Managing text files.md",
+    "Python/@Python.md",
     "Scuola/Chimica/Legami chimici.md",
+    "Scuola/Chimica/@Chimica.md",
     "Scuola/@Scuola.md",
     "Linux/Vim CheatSheet.md",
     "Linux/Ranger CheatSheet.md",
-    "Linux/@Linux.md",
-    "Scuola/Inglese/Grammar/Venture - U12.md",
-    "Dataview.md",
-    "11-80076_Report_2008_Annex_D.pdf",
-    "Scuola/Inglese/Literature/The Great Gatsby, Black Cat edition (esercizi).md"
+    "Linux/@Linux.md"
   ]
 }
