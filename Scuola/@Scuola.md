@@ -16,3 +16,5 @@ date: 10.09.2021
 - [[@Filosofia]]
 ### Fisica
 - [[@Fisica]]
+## Chimica
+- [[@Chimica]]

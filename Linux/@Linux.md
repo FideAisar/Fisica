@@ -11,3 +11,6 @@ date: 05.09.2022
 ## EndeavourOS
 - [[Endeavouros - git]]
 - [[Endevouros - Bluetooth]]
+
+[[Ranger CheatSheet]]
+[[Vim CheatSheet]]
