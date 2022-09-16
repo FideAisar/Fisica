@@ -27,5 +27,6 @@
     "iconName": null,
     "inheritanceIcon": "RiBookLine"
   },
-  "Python": "FabPython"
+  "Python": "FabPython",
+  "Altro": "IbDocumentText"
 }

@@ -14,3 +14,5 @@ date: 05.09.2022
 - [[Letteratura - Petrarca, Era il giorno ch’al sol si scoloraro]]
 - [[Letteratura - Petrarca, Voi ch’ascoltate in rime sparse il suono]]
 - [[Letteratura - Stil Novo]]
+
+- [[Leopardi]]

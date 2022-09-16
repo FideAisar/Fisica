@@ -35,6 +35,7 @@ date: 05.09.2022
 - [[Literature - Robinson Crusoe]]
 - [[Literature - tutti gli esercizi fino P.229]]
 - [[The Great Gatsby, Black Cat edition (esercizi)]]
+- [[Romantic Poetry]]
 
 
 [[Vocabulary]]

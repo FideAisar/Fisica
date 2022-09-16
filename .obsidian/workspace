@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2cc3221ebc126e0d",
+        "id": "bf680c6e08232f86",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Python/Inputs.md",
+            "file": "Scuola/Italiano/Leopardi.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Inputs.md"
+                "file": "Scuola/Italiano/Leopardi.md"
               }
             }
           },
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Inputs.md",
+                "file": "Scuola/Italiano/Leopardi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Inputs.md",
+                "file": "Scuola/Italiano/Leopardi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,17 +128,17 @@
     "width": 264.0279846191406,
     "collapsed": true
   },
-  "active": "44382f4d1874a73c",
+  "active": "bf680c6e08232f86",
   "lastOpenFiles": [
-    "Python/Functions.md",
+    "Scuola/Italiano/@Italiano.md",
+    "Scuola/Italiano/Leopardi.md",
+    "Scuola/Storia dell'Arte/Romanticismo.md",
+    "Scuola/Storia dell'Arte/@Storia dell Arte.md",
+    "Scuola/Inglese/Romantic Poetry.md",
+    "Scuola/Inglese/@Inglese.md",
+    "Altro/@Altro.md",
+    "Altro/Sul nucleare.md",
     "Python/Inputs.md",
-    "Python/Managing text files.md",
-    "Python/@Python.md",
-    "Scuola/Chimica/Legami chimici.md",
-    "Scuola/Chimica/@Chimica.md",
-    "Scuola/@Scuola.md",
-    "Linux/Vim CheatSheet.md",
-    "Linux/Ranger CheatSheet.md",
-    "Linux/@Linux.md"
+    "Python/Functions.md"
   ]
 }
