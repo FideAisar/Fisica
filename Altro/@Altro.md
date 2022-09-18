@@ -6,4 +6,4 @@ date: 16.09.2022
 ---
 
 # Altro
-[[Sul nucleare]]
+[[Sul Nucleare - index]]

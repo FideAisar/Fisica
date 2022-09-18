@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf680c6e08232f86",
+        "id": "7580d9ea247578c3",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Scuola/Italiano/Leopardi.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -87,9 +83,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Scuola/Italiano/Leopardi.md"
-              }
+              "state": {}
             }
           },
           {
@@ -98,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scuola/Italiano/Leopardi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Italiano/Leopardi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,17 +120,17 @@
     "width": 264.0279846191406,
     "collapsed": true
   },
-  "active": "bf680c6e08232f86",
+  "active": "7580d9ea247578c3",
   "lastOpenFiles": [
-    "Scuola/Italiano/@Italiano.md",
-    "Scuola/Italiano/Leopardi.md",
-    "Scuola/Storia dell'Arte/Romanticismo.md",
-    "Scuola/Storia dell'Arte/@Storia dell Arte.md",
-    "Scuola/Inglese/Romantic Poetry.md",
-    "Scuola/Inglese/@Inglese.md",
+    "Altro/Incidente di Fukushima.md",
+    "Altro/Prova.md",
+    "Altro/J-value_assessment_of relocation_measures_Fukushima_Chernobyl.pdf",
+    "Altro/UNSCEAR_2020_21_Report_Vol.II.pdf",
+    "Altro/Sul Nucleare - index.md",
     "Altro/@Altro.md",
-    "Altro/Sul nucleare.md",
-    "Python/Inputs.md",
-    "Python/Functions.md"
+    "Scuola/Italiano/Leopardi.md",
+    "Scuola/Italiano/@Italiano.md",
+    "Scuola/Storia dell'Arte/Romanticismo.md",
+    "Scuola/Storia dell'Arte/@Storia dell Arte.md"
   ]
 }
