@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7580d9ea247578c3",
+        "id": "94118b623e40815c",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Scuola/Inglese/Literature/The Sublime - exercises.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -83,7 +87,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Scuola/Inglese/Literature/The Sublime - exercises.md"
+              }
             }
           },
           {
@@ -92,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Scuola/Inglese/Literature/The Sublime - exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,29 +115,38 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Scuola/Inglese/Literature/The Sublime - exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "9a047af9da906d0c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 264.0279846191406,
-    "collapsed": true
+    "width": 264.0279846191406
   },
-  "active": "7580d9ea247578c3",
+  "active": "94118b623e40815c",
   "lastOpenFiles": [
-    "Altro/Incidente di Fukushima.md",
-    "Altro/Prova.md",
-    "Altro/J-value_assessment_of relocation_measures_Fukushima_Chernobyl.pdf",
-    "Altro/UNSCEAR_2020_21_Report_Vol.II.pdf",
-    "Altro/Sul Nucleare - index.md",
-    "Altro/@Altro.md",
+    "Scuola/Inglese/@Inglese.md",
+    "Scuola/Inglese/Literature/The Sublime - exercises.md",
+    "Scuola/Inglese/img/TheSublime.png",
+    "Linux/Rclone commands.md",
     "Scuola/Italiano/Leopardi.md",
-    "Scuola/Italiano/@Italiano.md",
-    "Scuola/Storia dell'Arte/Romanticismo.md",
-    "Scuola/Storia dell'Arte/@Storia dell Arte.md"
+    "Scuola/Italiano/Untitled.md",
+    "Scuola/Chimica/@Chimica.md",
+    "Scuola/Chimica/Legami chimici.md",
+    "Linux/@Linux.md",
+    "Altro/Incidente di Fukushima.md"
   ]
 }
