@@ -1,9 +1,13 @@
 {
   "cssTheme": "Minimal",
   "textFontFamily": "Times New Roman,Arial",
-  "theme": "obsidian",
-  "baseFontSize": 18,
+  "theme": "moonstone",
+  "baseFontSize": 20,
   "translucency": false,
   "monospaceFontFamily": "Liberation Mono,Luxi Mono,FreeMono,DejaVu Sans Mono",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "custom",
+    "centered_images"
+  ]
 }

@@ -6,15 +6,17 @@ date: 10.09.2021
 ---
 # Scuola
 ---
-### Italiano
+## Italiano
 - [[@Italiano]]
-### Inglese
+## Inglese
 - [[@Inglese]]
-### Latino
+## Latino
 - [[@Latino]]
-### Filosofia
+## Filosofia
 - [[@Filosofia]]
-### Fisica
+## Fisica
 - [[@Fisica]]
 ## Chimica
 - [[@Chimica]]
+## Matematica
+- [[@Matematica]]

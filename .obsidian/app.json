@@ -11,7 +11,8 @@
     "downscalePercent": 100
   },
   "spellcheckLanguages": [
-    "en-GB"
+    "en-GB",
+    "it"
   ],
   "spellcheck": true,
   "fileSortOrder": "alphabetical",

@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "94118b623e40815c",
+        "id": "85ca40d46ba40afd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Scuola/Inglese/Literature/The Sublime - exercises.md",
-            "mode": "preview",
+            "file": "Scuola/Matematica/Funzioni.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Inglese/Literature/The Sublime - exercises.md"
+                "file": "Scuola/Matematica/Funzioni.md"
               }
             }
           },
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scuola/Inglese/Literature/The Sublime - exercises.md",
+                "file": "Scuola/Matematica/Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Inglese/Literature/The Sublime - exercises.md",
+                "file": "Scuola/Matematica/Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,19 +134,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.0279846191406
+    "width": 264.0279846191406,
+    "collapsed": true
   },
-  "active": "94118b623e40815c",
+  "active": "85ca40d46ba40afd",
   "lastOpenFiles": [
-    "Scuola/Inglese/@Inglese.md",
-    "Scuola/Inglese/Literature/The Sublime - exercises.md",
-    "Scuola/Inglese/img/TheSublime.png",
-    "Linux/Rclone commands.md",
-    "Scuola/Italiano/Leopardi.md",
-    "Scuola/Italiano/Untitled.md",
-    "Scuola/Chimica/@Chimica.md",
-    "Scuola/Chimica/Legami chimici.md",
-    "Linux/@Linux.md",
-    "Altro/Incidente di Fukushima.md"
+    "Scuola/Matematica/Pasted.md",
+    "Scuola/Matematica/Funzioni.md",
+    "insiemi.png",
+    "Scuola/Matematica/@Matematica.md",
+    "Excalidraw/Grafico.excalidraw.md",
+    "Excalidraw/provaMate.excalidraw.md",
+    "Attachmetns/Electroscope.png",
+    "Attachmetns/bilanciaDiTorsioneCoulomb.png",
+    "Attachmetns/VimCheatSheet.png",
+    "Attachmetns/TheSublime.png"
   ]
 }
