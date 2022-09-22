@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "85ca40d46ba40afd",
+        "id": "32739b29344e29ac",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Scuola/Matematica/Funzioni.md",
+            "file": "Scuola/Inglese/Literature/Manifesto of romanticism - exercises.md",
             "mode": "source",
             "source": false
           }
@@ -56,12 +56,22 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "41dfa1507a88870d",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 282
+    "width": 282,
+    "collapsed": true
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -88,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Matematica/Funzioni.md"
+                "file": "Scuola/Inglese/Literature/Manifesto of romanticism - exercises.md"
               }
             }
           },
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scuola/Matematica/Funzioni.md",
+                "file": "Scuola/Inglese/Literature/Manifesto of romanticism - exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Matematica/Funzioni.md",
+                "file": "Scuola/Inglese/Literature/Manifesto of romanticism - exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +147,17 @@
     "width": 264.0279846191406,
     "collapsed": true
   },
-  "active": "85ca40d46ba40afd",
+  "active": "9a047af9da906d0c",
   "lastOpenFiles": [
-    "Scuola/Matematica/Pasted.md",
-    "Scuola/Matematica/Funzioni.md",
-    "insiemi.png",
-    "Scuola/Matematica/@Matematica.md",
+    "Scuola/Inglese/@Inglese.md",
+    "Scuola/Inglese/Literature/Manifesto of romanticism - exercises.md",
+    "Scuola/Fisica/Condensatori.md",
+    "Attachmetns/graficorc.svg",
     "Excalidraw/Grafico.excalidraw.md",
-    "Excalidraw/provaMate.excalidraw.md",
-    "Attachmetns/Electroscope.png",
-    "Attachmetns/bilanciaDiTorsioneCoulomb.png",
-    "Attachmetns/VimCheatSheet.png",
-    "Attachmetns/TheSublime.png"
+    "Attachmetns/circuito_1.svg",
+    "Attachmetns/geogebra-export.svg",
+    "Scuola/Matematica/@Matematica.md",
+    "Scuola/Matematica/Funzioni.md",
+    "Attachmetns/circuito_1.png"
   ]
 }

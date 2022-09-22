@@ -1,8 +1,8 @@
 {
   "cssTheme": "Minimal",
   "textFontFamily": "Times New Roman,Arial",
-  "theme": "moonstone",
-  "baseFontSize": 20,
+  "theme": "obsidian",
+  "baseFontSize": 18,
   "translucency": false,
   "monospaceFontFamily": "Liberation Mono,Luxi Mono,FreeMono,DejaVu Sans Mono",
   "interfaceFontFamily": "",

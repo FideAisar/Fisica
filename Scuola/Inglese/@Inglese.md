@@ -5,7 +5,7 @@ tags: [index]
 date: 05.09.2022
 ---
 # Inglese
-### 0.1 Grammar
+### Grammar
 - [[Grammar in progress - Compiti estate 2021]]
 - [[Appunti per esame First]]
 - [[Venture - U1]]
@@ -19,7 +19,7 @@ date: 05.09.2022
 - [[Venture - U12]]
 - [[Social Buisness]]
 
-## 1 Literature
+## Literature
 - [[History - 1603 Jacobean Era]]
 - [[History - 1700 Restoration]]
 - [[Jonathan Swift - Gulliver's Travels]]
@@ -37,6 +37,7 @@ date: 05.09.2022
 - [[The Great Gatsby, Black Cat edition (esercizi)]]
 - [[Romantic Poetry]]
 - [[The Sublime - exercises]]
+- [[Manifesto of romanticism - exercises]]
 
 
 [[Vocabulary]]

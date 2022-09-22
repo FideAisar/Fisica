@@ -3,7 +3,6 @@ title: Funzioni
 author: Federico Cesari
 tags: [Doc]
 date: 21.09.2022
-\usepackage{pgfplots}
 ---
 # Funzioni
 >Si dice funzione una relazione tra due insiemi $A$ e $B$ se a ogni elemento di $A$ corrisponde uno e un solo elemento di $B$. 
@@ -15,12 +14,10 @@ $$
 $$
 
 
-![480](grafico_co_dominio.png)
+![300](grafico_co_dominio.png)
 ## Zeri e segno di una funzione
 >Un numero reale $a$ è uno *zero di una funzione* $y = f(x)$ se $f(a) = 0$
-$$
-''
-$$
+
 
 
 
