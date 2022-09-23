@@ -22,3 +22,11 @@ date: 22.09.2022
 |                                                 | l.13: plainer                                             |                               |                                              |
 4. The speaker is a voice inside the text.
 5. simple, informal, concrete, specific, entertaining.
+6. The main objects chosen by Wordsworth for his poems are incidents and situation from common life mixed with imagination. In fact the manners of rural life generate elementary feelings and the passion of men are incorporated with the beautiful forms of nature.
+7. Sensory experience, emotion, contemplation, pleasure, enjoyment, poetry.
+8. 
+| New poetry                                             | tradition                                                          |
+| ------------------------------------------------------ | ------------------------------------------------------------------ |
+| Language purified. Simple and unelaborated expressions | Language full of lasting and rational causes of dislike or disgust |
+| Spontaneous overflow of powerful feel                  |                                                                    |
+| Incidents and situations from common life coloured by some imagination, whereby ordinary things should be presented to the mind in an unusual way.                                                      | Under the influence of  social vanity                                                                   |
