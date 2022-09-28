@@ -11,5 +11,7 @@
   "highlightr-plugin",
   "obsidian-annotator",
   "oz-image-plugin",
-  "file-tree-alternative"
+  "file-tree-alternative",
+  "obsidian-tikzjax",
+  "obsidian-show-file-path"
 ]
