@@ -38,6 +38,7 @@ date: 05.09.2022
 - [[Romantic Poetry]]
 - [[The Sublime - exercises]]
 - [[Manifesto of romanticism - exercises]]
+- [[Samuel Taylor - Water, water everywhere (analisi)]]
 
 
 [[Vocabulary]]

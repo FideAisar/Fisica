@@ -4,7 +4,7 @@ author: Federico Cesari
 tags: [Wiki]
 date: 15.09.2022
 ---
-# Ranger CheatSheet
+# Ranger Cheat Sheet
 ## General
 Shortcut | Description 
 ---|---

@@ -6,7 +6,7 @@ date: 00.09.2021
 ---
 # Fisica
 - [[Elettricità- 01 Legge di Coulomb]]
-- [[Condensatori]]
+- [[Elettromagnetismo]]
 - [[Onde - 01 Moti ondulatori]]
 - [[Onde - 02 Fronti d'onda]]
 - [[Onde - 03  Onde periodiche]]

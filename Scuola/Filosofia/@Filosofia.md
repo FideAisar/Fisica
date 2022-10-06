@@ -26,3 +26,4 @@ date: 00.00.2021
 - [[@Hume]]
 - [[@Kant]]
 - [[@Idealismo tedesco]]
+	- [[Giovanni Gentile - lo stato etico]]

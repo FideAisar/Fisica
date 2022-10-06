@@ -17,6 +17,6 @@ date: 10.09.2021
 ## Fisica
 - [[@Fisica]]
 ## Chimica
-- [[@Chimica]]
+- [[@Chimica Organica]]
 ## Matematica
 - [[@Matematica]]

@@ -18,7 +18,11 @@ $$
 ## Zeri e segno di una funzione
 >Un numero reale $a$ è uno *zero di una funzione* $y = f(x)$ se $f(a) = 0$
 
-
+## Dominio di una funzione
+### Logaritmi
+$$
+\log_{f(x)}[g(x)] \to \begin{cases}f(x)>0 \\ f(x) \neq 1 \\ g(x) > 0\end{cases}
+$$
 
 
 
