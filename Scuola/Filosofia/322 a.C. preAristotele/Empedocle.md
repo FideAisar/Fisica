@@ -1,6 +1,10 @@
 ---
-tags: [broken]
+title: Empedocle
+author: Federico Cesari 
+tags: [Doc, broken]
+date: 2019/00/00
 ---
+
 ## Empedocle 🤼
 492 ad Agrigento →pluralista → tenta di risolvere l'AFORIA
 

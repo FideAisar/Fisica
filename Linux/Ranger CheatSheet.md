@@ -2,7 +2,7 @@
 title: Ranger CheatSheet
 author: Federico Cesari
 tags: [Wiki]
-date: 15.09.2022
+date: 2022/09/15
 ---
 # Ranger Cheat Sheet
 ## General

@@ -2,7 +2,7 @@
 title: Cartesio - 04 Le regole del metodo
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## Regole del metodo
 Nella seconda parte del [[Cartesio - 02 Opere#^b95976|Discorso sul metodo]] formula le 4 regole del metodo:

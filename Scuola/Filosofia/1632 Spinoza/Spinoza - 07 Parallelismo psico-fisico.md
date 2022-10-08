@@ -5,7 +5,7 @@ tags: [Doc]
 date: 00.03.2022
 ---
 ## Parallelismo psico-fisico
-Spinoza crede che pensiero ed estensione siano concetti **qualitativamente eterogenee** (lo spirito non può essere materiale e la materia non può essere spirituale). In questo modo le due entità non si possono influenzare l'un l'altra.
+Spinoza crede che pensiero ed estensione siano concetti **qualitativamente eterogenei** (lo spirito non può essere materiale e la materia non può essere spirituale). In questo modo le due entità non si possono influenzare l'un l'altra.
 Pur non influenzando però corpi e idee sono strettamente connessi, a ogni moto corrisponde un'idea e viceversa -> **corrispondenza biunivoca**. Difatti il corpo non è altro che l'aspetto esteriore della mente così come la mente è quello interiore del corpo.
 
 >Il **parallelismo psico-fisico** è un nuovo modo per rappresentare la connessione tra anima e corpo.

@@ -1,6 +1,11 @@
 ---
-tags: [broken]
+title: Machiavelli - Il Principe 
+author: Federico Cesari 
+tags: [Doc]
+date: 2020/11/10
 ---
+
+
 ### cap. I
 
 Testo di poche righe in cui imposta i temi fondamentali del libro, la **natura dei principati** (ereditari o nuovi) e i **modi per conquistarli**.

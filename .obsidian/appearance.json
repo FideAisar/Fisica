@@ -2,8 +2,8 @@
   "cssTheme": "Minimal",
   "textFontFamily": "Times New Roman,Arial",
   "theme": "obsidian",
-  "baseFontSize": 16,
-  "translucency": false,
+  "baseFontSize": 15,
+  "translucency": true,
   "monospaceFontFamily": "Liberation Mono,Luxi Mono,FreeMono,DejaVu Sans Mono",
   "interfaceFontFamily": "",
   "enabledCssSnippets": [

@@ -2,7 +2,7 @@
 title: Literature - P.257, 268, 269 esercizi
 author: Federico Cesari 
 tags: [Exrc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## P.257
 2. The straight line is associated with many views and it represents the path-way for christians divines, the moral rectitude for Cicero, the best line for cubbage planters and for Archimedes is the shortest line.

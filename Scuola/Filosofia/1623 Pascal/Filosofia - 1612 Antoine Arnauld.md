@@ -2,7 +2,7 @@
 title: Antoine Arnauld
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## Antoine Arnauld
 Antoine Arnauld fu il maggiore rappresentante del **giansenismo** del 1600. I giansenisti riprendevano le idee di Agostino della teoria della grazia. Arnauld cerca di **conciliare il cartesianesimo con l'agostinismo**.

@@ -1,5 +1,0 @@
----
-tags: [blank]
----
-## Thomas Hobbes
-

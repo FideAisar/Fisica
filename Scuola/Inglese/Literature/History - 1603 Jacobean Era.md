@@ -2,7 +2,7 @@
 title: History - 1603 Jacobean Era
 author: Federico Cesari 
 tags: [Doc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 
 ## James I

@@ -1,6 +1,10 @@
 ---
-tags: [broken]
+title: Anassagora
+author: Federico Cesari 
+tags: [Doc, broken]
+date: 2019/00/00
 ---
+
 ## Anassagora 🤼
 500 a.C. a Clazomene → introduce la filosofia ad Atene. → scrive:"sulla natura"
 

@@ -1,5 +1,5 @@
 ---
-title: Samuel Taylor -  Water, water everywhere (analisi)
+title: Samuel Taylor Coleridge -  Water, water everywhere (analisi)
 author: Federico Cesari
 tags: [Exrc]
 date: 04.10.2022

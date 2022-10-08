@@ -1,6 +1,10 @@
 ---
-tags: [broken]
+title: Socrate  
+author: Federico Cesari
+tags: [Doc, broken]
+date: 2019/00/00
 ---
+
 ## Socrate
 
 Naque ad Atene nel 470 a.C. dal padre Sofronisco, scultore e dalla madre Fenarete, levatrice.

@@ -2,7 +2,7 @@
 title: Altro
 author:  
 tags: [index]
-date: 16.09.2022
+date: 2022/09/16
 ---
 
 # Altro

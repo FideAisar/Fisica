@@ -1,6 +1,10 @@
 ---
-tags: [broken]
+title: Aristotele - sillogismi
+author: internet
+tags: [Doc, broken]
+date: 2019/00/00
 ---
+
 **ARISTOTELE**
 
 La deduzione o "sillogismo"Aristotele non ha in mente una maniera qualsiasi di argomentare e ragionare: si concentra sul procedimento di deduzione, per cui, date certe proposizioni come premesse, segue come conclusione una proposizione diversa. Lo stesso titolo Analitici, sebbene non risalga ad Aristotele, si riferisce al ragionamento analitico o analisi, che nel pensiero antico indica la **riconduzione di una certa proposizione alle premesse da cui deriva.**

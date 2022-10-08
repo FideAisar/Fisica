@@ -2,7 +2,7 @@
 title: Petrarca, Voi ch’ascoltate in rime sparse il suono
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2020
+date: 2020/00/00
 ---
 ## **Testo della poesia**
 

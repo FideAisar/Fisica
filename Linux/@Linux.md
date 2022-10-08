@@ -2,15 +2,21 @@
 title: Linux
 author: 
 tags: [index]
-date: 05.09.2022
+date: 2022/09/05
 ---
 # Linux
-## 1 Void
+
+## Void
 - [[Void Linux - knowledge base]]
 - [[Distro - Void+i3gaps]]
-## 2 EndeavourOS
+- [[Prova]]
+
+## EndeavourOS
 - [[Endeavouros - git]]
 - [[Endevouros - Bluetooth]]
+
+## Fedora
+- [[Fedora - knowledge base]]
 
 [[Ranger CheatSheet]]
 [[Vim CheatSheet]]

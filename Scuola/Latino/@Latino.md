@@ -2,7 +2,7 @@
 title: Latino
 author:  
 tags: [index]
-date: 00.00.2021
+date: 2021/00/00
 ---
 # Latino
 - [[Plauto]]
@@ -17,5 +17,13 @@ date: 00.00.2021
 - [[Orazio - Satira (Mecenate e il padre, due modelli di vita)]]
 - [[Orazio - Satira (Non chiedo di più)]]
 - [[Orazio - Satira (Un incontro sgradevole)]]
+## Lucrezio
+- [[Lucrezio - toc]]
+- [[De rerum natura, Proemio]]
 
 - [[Versioni - Compiti estate]]
+
+## Seneca
+- [[Seneca - toc]]
+- [[Seneca (diviso per opere)]]
+- [[Seneca (diviso per temi)]]

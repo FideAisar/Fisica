@@ -2,7 +2,7 @@
 title: Functions
 author: Federico Cesari
 tags: [Doc]
-date: 15.09.2022
+date: 2022/09/15
 ---
 # Functions
 Functions *name* a peace of code like a variable does with strings, numbers... and they *take arguments* in a similar way of [[Inputs#sys argv|argv]]. With these two abilities function are able to define **mini-scripts**.

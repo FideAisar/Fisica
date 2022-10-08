@@ -2,7 +2,7 @@
 title: Python
 author: 
 tags: [index]
-date: 01.09.2022
+date: 2022/09/01
 ---
 # Python the hard way
 - [[Inputs]]

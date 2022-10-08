@@ -2,7 +2,7 @@
 title: Literature - P.218 es 1-7
 author: Federico Cesari 
 tags: [Exrc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## P.218 es 1-7
 1. Charles II was a weak ruler because his position on the throne was bound to the will of the economic forces that had worked for his return and which supported him, They are d the wealthy lanowners, the merchants and the bankers.

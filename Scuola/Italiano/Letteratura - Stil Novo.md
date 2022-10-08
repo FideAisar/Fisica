@@ -2,7 +2,7 @@
 title: Stil Novo
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2020
+date: 2022/00/00
 ---
 # Stil Novo
 

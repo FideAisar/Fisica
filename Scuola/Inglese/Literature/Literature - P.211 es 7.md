@@ -2,7 +2,7 @@
 title: Literature - P.211 es 7
 author: Federico Cesari 
 tags: [Exrc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ### P.211 es 7
 

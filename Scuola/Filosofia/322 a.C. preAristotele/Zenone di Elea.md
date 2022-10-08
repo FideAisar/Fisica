@@ -1,6 +1,10 @@
 ---
-tags: [broken]
+title: Zenone di Elea
+author: Federico Cesari
+tags: [Doc, broken]
+date: 2019/00/00
 ---
+
 ## Zenone di Elea 🧠
 489 a.C ad Elea → Appoggia le Idee di Parmenide
 

@@ -2,7 +2,7 @@
 title: Kant
 author:  
 tags: [index]
-date: 00.00.2022
+date: 2022/00/00
 ---
 # Kant
 - [[Kant - 01 Vita e opere]]

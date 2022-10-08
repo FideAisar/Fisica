@@ -2,7 +2,7 @@
 title: Jonathan Swift - Gulliver s Travels
 author: Federico Cesari
 tags: [Map]
-date: 00.00.2022
+date: 2022/00/00
 ---
 # Guliver's Travels 1726
 ## Plot

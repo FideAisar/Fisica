@@ -2,7 +2,7 @@
 title: Cartesio - 01 Vita
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## Vita
 La personalità di Cartesio segna la svolta decisiva dal Rinascimento all'età moderna. I temi  fondamentali della filosofia rinascimentale - il riconoscimento della soggettività umana e l'esigenza di approfondirla e chiarirla con un ritorno a se stessi, e il riconoscimento del rapporto dell'uomo con il mondo e l'esigenza di risolverlo in favore dell'uomo - diventano nella filosofia cartesiana i termini di un nuovo problema, in cui sono coinvolti sia l'uomo come soggetto, sia il mondo oggettivo. Nello stesso tempo, Cartesio è il **fondatore del razionalismo**, ossia di quella corrente della filosofia moderna (rappresentata, oltre che dal filosofo francese, soprattutto da [[@Spinoza]] e da [[@Leibniz]]) che vede nella [[Cartesio - 08 Regole della filosofia pratica#^15b3fe|ragione]] il principale organo di verità, nonché lo strumento per elaborare una nuova visione complessiva del mondo.   ^fee43c

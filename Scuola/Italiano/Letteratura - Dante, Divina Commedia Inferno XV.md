@@ -2,7 +2,7 @@
 title: Divina Commedia - Inferno XV
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2020
+date: 2020/00/00
 ---
 ### GENERALE
 ---

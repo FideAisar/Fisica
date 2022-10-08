@@ -63,3 +63,58 @@ Add user to **audio** group → `sudo usermod -a -G audio <username>`
 
 	ln -sf /etc/sv/sddm /var/service
 
+---
+## Programs
+
+Install:
+
+| Program   | desc                                        |
+| --------- | ------------------------------------------- |
+| `dbus`    | *provide a system bus and/or a session bus* |
+| `elogind` | *manage logins and power management*        |
+| `vim`     | *text editor*                               |
+
+## Video
+
+Install video driver:
+
+|        | Drivers | Wayland | Xorg |
+| ------ | ------- | ------- | ---- |
+| NVIDIA | `nouveau`        | `mesa-dri`        | `xf86-video-nouveau`     |
+| AMD    |         |         |      |
+
+
+## Graphical session
+- Wayland: `Weston` / `Sway` / `Wayfire` / `Hikari` / `Cage` / `River`
+- Xorg: `xorg`
+
+Wayland compositors require `elogind` or `seatd` service.
+Qt5-based applications require installing the `qt5-wayland` package and setting the environment variable `QT_QPA_PLATFORM=wayland-egl`. Some KDE specific applications also require installing the `kwayland` package. EFL-based applications require setting the environment variable `ELM_DISPLAY=wl`.
+
+## Fonts*
+
+To customize font display in your graphical session, you can use configurations provided in `/usr/share/fontconfig/conf.avail/`. To do so, create a symlink to the relevant `.conf` file in `/etc/fonts/conf.d/`, then use `xbps-reconfigure` to reconfigure the `fontconfig` package.
+
+To disable bitmap fonts:
+```bash
+ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/ 
+xbps-reconfigure -f fontconfig
+```
+
+## Icons*
+By default the system uses Adwaita theme for icons. If you want to customize it:
+Install `gtk+3` package, specify other themes in `/etc/gtk-3.0/settings`.
+
+## Audio*
+1. Install `pipewire` package and `libspa-bluetooth` and `bluez` (for bluetooth to work).
+2. Enable `pipewire` and `bluetoothd` packages
+
+```bash
+xbps-install -S pipewire libspa-bluetooth bluez
+ln -sf /etc/sv/pipewire /var/service
+ln -sf /etc/sv/bluetoothd /var/service
+```
+## Services
+```bash
+ln -sf /etc/sv/dbus /var/service
+```

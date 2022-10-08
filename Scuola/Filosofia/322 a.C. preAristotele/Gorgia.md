@@ -1,5 +1,8 @@
 ---
-tags: [broken]
+title: Gorgia 
+author: Federico Cesari 
+tags: [Doc, broken]
+date: 2019/00/00
 ---
 ## Gorgia
 

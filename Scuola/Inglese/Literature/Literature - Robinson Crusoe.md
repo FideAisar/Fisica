@@ -2,7 +2,7 @@
 title: Literature - Robinson Crusoe
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2022
+date: 2022/00/00
 ---
 # Robinson Crusoe
 # 1. Plot

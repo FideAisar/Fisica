@@ -18,16 +18,13 @@ Terminato il soggiorno fiorentino trova dimora a Napoli; qui stipula un contratt
 Il 14 giugno 1837 Leopardi muore gravemente malato a Napoli. 
 ### 1.2 Studi
 Inizialmente gli studi di Leopardi erano di tipo erudito, scriveva trattati e saggi di carattere letterario e scientifico. Successivamente si applica allo *studio del bello* per poi darsi allo *studio del vero* attuando una vera e propria transizione filosofica.
-## 2 Pensiero e poetica
-## 3 Teoria del piacere
+## 2 Teoria del piacere
 Viene ripresa da Leopardi dopo gli interventi di sensisti e illuministi, venne introdotta da [[Lucrezio]].
 La *teoria del piacere* sostiene che l'uomo nella sua vita tenda sempre a ricercare un piacere infinito come soddisfazione di un desiderio illimitato, Leopardi rielabora questa teoria aggiungendo che l'uomo trova piacere solo nell'attesa e nell'inconsapevolezza di ciò che accadrà in futuro. La natura porta l'uomo ad un'illusoria felicità.
-### 3.1 Pessimismo
+### 2.1 Pessimismo
 L'intera esistenza di Leopardi è caratterizzata dal *pessimismo*; individuale ma che si evolve in *storico* e poi *cosmico*.  Il dolore è strumento di conoscenza in quanto fonte di una riflessione che accompagna tutta la vita del poet; lo porta a scrivere poesie come "La sera del dì di festa".
 **Pessimismo storico:** Leopardi credeva che gli uomini antichi non fossero razionali ma più legati all'azione e all'immaginazione. La razionalità è stata sviluppata in seguito ed è la *causa dell'infelicità dell'uomo.*
 Più precisamente Leopardi sosteneva che più l'uomo era vicino alla natura più era felice, in questa fase l'immagine della Natura è buona benefica. Nello [[Zibaldone]] fa un'attenta analisi del mito della genesi.
 **Pessimismo cosmico:** è l'esasperazione del pessimismo storico esteso a tutta l'umanità anche presente. La natura, che ora viene considerata maligna, dopo aver generato un uomo, tende a eliminarlo per dar luogo ad altri individui in una lunga vicenda di produzione e distruzione. Quindi Leopardi è *darwiniano ante litteram*, crede che lo scopo unico dell'uomo sia quello di propagarsi e che *l'unico bene sia il **non essere***, non nascere è la cosa migliore.
-### 3.2 Ottimismo
+### 2.2 Ottimismo
 Al concludersi della sua vita Leopardi riacquista una visione *ottimista* del mondo. Ragiona sul fatto che gli uomini, pur sottostanti alla natura, la possono sconfiggere coalizzandosi contro di essa.
-# Opere
-- [[Leopardi - L'Infinito]]

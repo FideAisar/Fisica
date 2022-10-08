@@ -2,7 +2,7 @@
 title: Cartesio - 07.1 La res extensa e le sue proprietà
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 
 ## La res extensa e le sue proprietà

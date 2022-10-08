@@ -2,7 +2,7 @@
 title: Cartesio - 08 Regole della filosofia pratica
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## Filosofia pratica
 Cartesio nella terza parte del *Discorso sul metodo* stabilisce alcune regole di **morale provvisoria**. La finalità delle regole era quella di svolgere una vita felice.

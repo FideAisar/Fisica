@@ -2,7 +2,7 @@
 title: Incidente di Fukushima
 author: Federico Cesari  
 tags: [Doc]
-date: 18.09.2022
+date: 2022/09/18
 ---
 # Incidente di Fukushima
 ## 1 United Nations Scientific Committee on the Effects of Atomic Radiation: 

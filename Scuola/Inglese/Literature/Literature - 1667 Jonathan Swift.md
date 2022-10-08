@@ -2,7 +2,7 @@
 title: Jonathan Swift
 author: Federico Cesari
 tags: [Map]
-date: 00.00.2022
+date: 2022/00/00
 ---
 
 # Jonathann Swift

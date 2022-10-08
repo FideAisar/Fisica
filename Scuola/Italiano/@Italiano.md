@@ -16,3 +16,4 @@ date: 05.09.2022
 - [[Letteratura - Stil Novo]]
 
 - [[Leopardi]]
+- [[Leopardi - L'Infinito]]

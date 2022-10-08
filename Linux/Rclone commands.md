@@ -2,7 +2,7 @@
 title: Rclone commands 
 author: Federico Cesari 
 tags: [Doc]
-date: 19.09.2022
+date: 2022/09/19
 ---
 # Rclone commands
 ~~~bash

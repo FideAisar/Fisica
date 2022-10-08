@@ -1,5 +1,8 @@
 ---
+title: Versioni - Compiti estate
 tags: [Exrc]
+author: Federico Cesari
+date: 2020/08/20
 ---
 ### P.510 T5 - I scarifici umani presso i Galli
 

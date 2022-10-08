@@ -1,6 +1,11 @@
 ---
+title: Vocabulary U9 Venture into First
+author: Federico Cesari 
 tags: [Wiki]
+date: 2021/04/20
 ---
+
+
 ### U9
 
 | bin              | verbs                    |     | vocabulary                     |

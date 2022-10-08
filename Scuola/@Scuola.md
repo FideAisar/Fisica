@@ -2,7 +2,7 @@
 title: Scuola 
 author: 
 tags: [index]
-date: 10.09.2021
+date: 2021/09/10
 ---
 # Scuola
 ---
@@ -20,3 +20,5 @@ date: 10.09.2021
 - [[@Chimica Organica]]
 ## Matematica
 - [[@Matematica]]
+## Storia
+- [[@Storia]]

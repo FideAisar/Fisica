@@ -2,7 +2,7 @@
 title: Pascal - 05 I limiti del pensiero scientifico e della filosofia
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## I limiti del pensiero scientifico
 Pascal nei *Pensieri* espone quelli che secondo lui sono i limiti del pensiero scientifico.

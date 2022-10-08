@@ -7,3 +7,7 @@ img {
  .markdown-source-view.mod-cm6 .cm-content > * {
         margin: auto auto !important;
 }
+p {
+text-indent: 0.7em;
+}
+

@@ -10,5 +10,6 @@
   "minimal-style@@h2-weight": 600,
   "minimal-style@@h3-weight": 600,
   "minimal-style@@h4-weight": 600,
-  "minimal-style@@ig-adjust-edit": -1
+  "minimal-style@@ig-adjust-edit": -1,
+  "minimal-advanced@@cursor": "crosshair"
 }

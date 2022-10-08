@@ -1,6 +1,10 @@
 ---
-tags: [broken]
+title: Parmenide
+author: Federico Cesari
+tags: [Doc, broken]
+date: 2019/00/00
 ---
+
 ## Parmenide 🧠
 550 - 450 a.C. ad Elea → Scrisse: "Attorno alla natura" → Fondatore della scuola eleatica
 Tratta di: gnoseologia e di ontologia.

@@ -1,6 +1,10 @@
 ---
-tags: [broken]
+title: Democrito
+author: Federico Cesari 
+tags: [Doc, broken]
+date: 2019/00/00
 ---
+
 ## Democrito ⚛️
 
 460 a.C. ad Abdera → Atomista → molto ricco si dedicò agli studi e ai viaggi.

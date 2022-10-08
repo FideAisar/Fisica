@@ -1,6 +1,10 @@
 ---
-tags: [broken]
+title: Protagora
+author: Federico Cesari 
+tags: [Doc, broken]
+date: 2019/00/00
 ---
+
 ## Protagora
 
 490 a.C. ad Abdera → il più importante sofista, influenzato da Eraclito

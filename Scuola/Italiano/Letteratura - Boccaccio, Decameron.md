@@ -2,7 +2,7 @@
 title: Boccaccio, Decameron
 author: internet 
 tags: [Doc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 
 # Boccaccio -Ser Ciappeletto

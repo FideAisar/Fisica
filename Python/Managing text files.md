@@ -2,7 +2,7 @@
 title: Managing text files
 author: Federico Cesari
 tags: [Doc]
-date: 03.09.2022
+date: 2022/09/03
 ---
 # Text files
 ## Open function

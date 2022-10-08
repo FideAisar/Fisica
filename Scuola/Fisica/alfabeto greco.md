@@ -2,7 +2,7 @@
 title: Alfabeto Greco
 author: Federico Cesari
 tags: [Wiki]
-date:
+date: 2022/09/01
 ---
 
 | Lettera | abc | ABC |

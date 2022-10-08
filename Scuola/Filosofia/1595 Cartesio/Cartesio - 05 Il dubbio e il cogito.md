@@ -2,7 +2,7 @@
 title: Cartesio - 05 Il dubbio e il cogito
 author: Federico Cesari
 tags: [Doc]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## Il Dubbio
 Cartesio utilizza il **dubbio** come mezzo per **risalire alla radice delle regole del metodo.** Il dubbio cartesiano non approderà all'epoké (sospensione del giudizio) in quanto il suo è un dubbio metodico, non un dubbio per principio.

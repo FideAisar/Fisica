@@ -2,7 +2,7 @@
 title: Inputs
 author: Federico Cesari
 tags: [Doc]
-date: 04.09.2022
+date: 2022/09/04
 ---
 
 # Different input methods

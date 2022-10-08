@@ -2,7 +2,7 @@
 title: Filosofia
 author:  
 tags: [index]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## 0.1. Filosofia
 - [[Gorgia]]
@@ -26,4 +26,9 @@ date: 00.00.2021
 - [[@Hume]]
 - [[@Kant]]
 - [[@Idealismo tedesco]]
+- [[Romanticismo]]
 	- [[Giovanni Gentile - lo stato etico]]
+	- [[Naturephilosophie]]
+- [[Feuerbach]]
+
+- [[Diritto alla proprietà - Marx e Costituzione a confronto]]

@@ -16,6 +16,10 @@ date: 30.09.2022
 >	2. [[Idrocarburi#Reazioni degli alcheni|Reazioni degli alcheni]]
 >4. [[Idrocarburi#Alchini|Alchini]]
 >	1. [[Idrocarburi#Reazioni degli alchini|Reazioni degli alchini]]
+>5. Idrocarburi Aliciclici
+>6. Idrocarburi Aromatici
+>	1. Benzene
+
 
 
 ## 1 Famiglie di idrocarburi

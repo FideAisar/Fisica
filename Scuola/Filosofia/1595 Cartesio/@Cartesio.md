@@ -2,7 +2,7 @@
 title: Cartesio
 author:  
 tags: [index]
-date: 00.00.2021
+date: 2021/00/00
 ---
 ## Cartesio
 - [[Cartesio integrale]]
