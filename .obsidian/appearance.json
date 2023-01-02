@@ -1,13 +1,16 @@
 {
-  "cssTheme": "Minimal",
-  "textFontFamily": "Times New Roman,Arial",
+  "cssTheme": "",
+  "textFontFamily": "Cascadia Code,Arial Black",
   "theme": "obsidian",
-  "baseFontSize": 15,
-  "translucency": true,
-  "monospaceFontFamily": "Liberation Mono,Luxi Mono,FreeMono,DejaVu Sans Mono",
+  "baseFontSize": 14,
+  "translucency": false,
+  "monospaceFontFamily": "Cascadia Mono",
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
     "custom",
     "centered_images"
-  ]
+  ],
+  "accentColor": "#8180a3",
+  "showViewHeader": true,
+  "nativeMenus": false
 }

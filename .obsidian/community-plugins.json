@@ -1,6 +1,4 @@
 [
-  "obsidian-minimal-settings",
-  "obsidian-style-settings",
   "obsidian-latex-suite",
   "number-headings-obsidian",
   "obsidian-icon-folder",
@@ -12,6 +10,9 @@
   "obsidian-annotator",
   "oz-image-plugin",
   "file-tree-alternative",
+  "obsidian-show-file-path",
   "obsidian-tikzjax",
-  "obsidian-show-file-path"
+  "tag-wrangler",
+  "text-snippets-obsidian",
+  "obsidian-hider"
 ]

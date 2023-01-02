@@ -4,32 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3bd908ff267b436c",
+        "id": "58dd0cb3339743d0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Scuola/Fisica/Elettromagnetismo.md",
+            "file": "Linux/VoidLinux/Void Linux - knowledge base.md",
             "mode": "source",
             "backlinks": false,
             "source": false
           }
-        },
-        "group": "1254fd25f575d3af"
-      },
-      {
-        "id": "08198e52f3dbc964",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Scuola/Fisica/Elettromagnetismo.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": false
-          }
-        },
-        "group": "1254fd25f575d3af"
+        }
       }
     ],
     "direction": "vertical"
@@ -86,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5136413574219
+    "width": 243,
+    "collapsed": true
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -113,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Fisica/Elettromagnetismo.md"
+                "file": "Linux/VoidLinux/Void Linux - knowledge base.md"
               }
             }
           },
@@ -123,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Fisica/Elettromagnetismo.md",
+                "file": "Linux/VoidLinux/Void Linux - knowledge base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,17 +131,17 @@
     "width": 264.0279846191406,
     "collapsed": true
   },
-  "active": "08198e52f3dbc964",
+  "active": "58dd0cb3339743d0",
   "lastOpenFiles": [
-    "Scuola/Fisica/@Fisica.md",
-    "Scuola/Fisica/Onde - 01 Moti ondulatori.md",
+    "LaTex/Pgfplots.md",
     "Scuola/Fisica/Elettromagnetismo.md",
     "Scuola/Fisica/Elettricità- 01 Legge di Coulomb.md",
-    "Scuola/Chimica/Chimica Organica generale.md",
-    "Attachmetns/RiconoscimentoAntigeni.jpg",
-    "Attachmetns/InterferenzaCostruttiva.gif",
-    "Attachmetns/graficorc.svg",
-    "Attachmetns/grafico_co_dominio.png",
-    "Attachmetns/geogebra-export.svg"
+    "Scuola/Filosofia/@Filosofia.md",
+    "Scuola/Filosofia/Romanticismo.md",
+    "Scuola/Storia dell'Arte/@Storia dell Arte.md",
+    "Linux/VoidLinux/Void Linux - knowledge base.md",
+    "Linux/VoidLinux/Untitled.md",
+    "Linux/VoidLinux/vi.md",
+    "Scuola/Filosofia/Naturephilosophie.md"
   ]
 }

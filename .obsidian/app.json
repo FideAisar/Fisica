@@ -8,13 +8,14 @@
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 100
+    "downscalePercent": 81
   },
   "spellcheckLanguages": [
     "en-GB",
     "it"
   ],
-  "spellcheck": true,
+  "spellcheck": false,
   "fileSortOrder": "alphabetical",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "showInlineTitle": false
 }
