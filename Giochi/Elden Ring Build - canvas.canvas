@@ -1,8 +1,9 @@
 {
 	"nodes":[
-		{"id":"5b7f21823aab5695","x":-563,"y":-244,"width":400,"height":400,"type":"file","file":"Giochi/Elden Ring/Black Knife Build.md"},
-		{"id":"c4e2f4bbc23a9d56","x":-114,"y":-244,"width":400,"height":400,"type":"file","file":"Giochi/Elden Ring/Faith Builld.md"},
-		{"id":"48701c5a5ea97241","x":-288,"y":-392,"width":250,"height":60,"type":"text","text":""}
+		{"id":"c4e2f4bbc23a9d56","x":-563,"y":-244,"width":849,"height":400,"type":"file","file":"Giochi/Elden Ring/Faith Builld.md"},
+		{"id":"5b7f21823aab5695","x":-563,"y":-244,"width":849,"height":400,"type":"file","file":"Giochi/Elden Ring/Black Knife Build.md"},
+		{"id":"48701c5a5ea97241","x":-563,"y":-392,"width":849,"height":60,"type":"text","text":""},
+		{"id":"572f678453239eb0","x":-340,"y":-531,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[]
 }
