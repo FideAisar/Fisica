@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scuola/Storia/La controrivoluzione riformatrice.md",
+                "file": "Scuola/Italiano/@DAnnunzio.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,66 +21,20 @@
             }
           },
           {
-            "id": "c8745ea09cc651dc",
+            "id": "8ba4cfaa7cf428d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scuola/Filosofia/1883 Marx/Diritto alla proprietà - Marx e Costituzione a confronto.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31b5b72c5972c895",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ToDo/Untitled.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38bff9d615dfb028",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scuola/Filosofia/1883 Marx/Diritto alla proprietà - Marx e Costituzione a confronto.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c875691bd32b399",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "86be6f4287faace8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Giochi/Elden Ring/Black Knife Build.md",
+                "file": "Scuola/Italiano/@DAnnunzio.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,12 +100,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 239.5110321044922,
-    "collapsed": true
+    "width": 239.5110321044922
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -167,19 +120,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Storia/La controrivoluzione riformatrice.md",
+                "file": "Scuola/Italiano/@DAnnunzio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "bd4c4f645aec9992",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Scuola/Storia/La controrivoluzione riformatrice.md"
               }
             }
           }
@@ -187,32 +130,32 @@
       }
     ],
     "direction": "horizontal",
-    "width": 410.5,
+    "width": 394.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "command-palette:Open command palette": false,
-      "graph:Open graph view": false,
       "templates:Insert template": true,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": true,
       "switcher:Open quick switcher": true,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-excalidraw-plugin:New Excalidraw drawing": true
     }
   },
-  "active": "df39764ed5da95ee",
+  "active": "8ba4cfaa7cf428d4",
   "lastOpenFiles": [
-    "Scuola/Storia/@Storia.md",
-    "Scuola/Filosofia/Schopenhauer.md",
-    "Scuola/Filosofia/Feuerbach.md",
-    "Scuola/Filosofia/@Filosofia.md",
-    "Scuola/Chimica/Glucidi.md",
-    "Scuola/Chimica/@Chimica Organica.md",
-    "Scuola/Chimica/Lavorare con le catene.md",
-    "Scuola/Chimica/Idrocarburi.md",
-    "Scuola/Chimica/Chimica Organica generale.md",
-    "Scuola/Filosofia/1623 Pascal/Pascal integrale.md"
+    "Scuola/Italiano/Alcione - DAnnunzio.md",
+    "Scuola/Italiano/@DAnnunzio.md",
+    "Scuola/Italiano/Il libro segreto - DAnnunzio.md",
+    "Scuola/Italiano/Il Piacere - DAnnunzio.md",
+    "Scuola/Italiano/Il Notturno - Dannunzio.md",
+    "Excalidraw/Sistema Linfatico.excalidraw.md",
+    "Scuola/Inglese/@Inglese.md",
+    "Scuola/Italiano/@Italiano.md",
+    "Scuola/Filosofia/1724 Kant/@Kant.md",
+    "Scuola/Storia/La controrivoluzione riformatrice.md"
   ]
 }

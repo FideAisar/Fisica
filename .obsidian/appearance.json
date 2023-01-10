@@ -1,11 +1,11 @@
 {
   "cssTheme": "",
-  "textFontFamily": "Times New Roman,JetBrains Mono,JetBrains Mono NL",
+  "textFontFamily": "Roboto,Times New Roman,JetBrains Mono,JetBrains Mono NL",
   "theme": "moonstone",
   "baseFontSize": 14,
   "translucency": false,
   "monospaceFontFamily": "Cascadia Mono",
-  "interfaceFontFamily": "",
+  "interfaceFontFamily": "Roboto,Roboto Condensed,Courier New,Arial",
   "enabledCssSnippets": [
     "custom",
     "centered_images"

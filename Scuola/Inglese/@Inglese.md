@@ -32,6 +32,7 @@ date: 05.09.2022
 - [[Literature - P.214,215]]
 - [[Literature - P.218 es 1-7]]
 - [[Literature - P.257, 268, 269 esercizi]]
+- [[Jonathan Swift - Gulliver_s Travels]]
 - [[Literature - Robinson Crusoe]]
 - [[Literature - tutti gli esercizi fino P.229]]
 - [[The Great Gatsby, Black Cat edition (esercizi)]]
