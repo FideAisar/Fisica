@@ -32,3 +32,4 @@ date: 2021/00/00
 - [[Feuerbach]]
 
 - [[Diritto alla proprietà - Marx e Costituzione a confronto]]
+- [[Schopenhauer]]

@@ -1,7 +1,7 @@
 {
   "cssTheme": "",
-  "textFontFamily": "JetBrains Mono,JetBrains Mono NL",
-  "theme": "obsidian",
+  "textFontFamily": "Times New Roman,JetBrains Mono,JetBrains Mono NL",
+  "theme": "moonstone",
   "baseFontSize": 14,
   "translucency": false,
   "monospaceFontFamily": "Cascadia Mono",

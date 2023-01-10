@@ -11,8 +11,13 @@
             "id": "df39764ed5da95ee",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Scuola/Storia/La controrivoluzione riformatrice.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           },
           {
@@ -162,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Scuola/Storia/La controrivoluzione riformatrice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Scuola/Storia/La controrivoluzione riformatrice.md"
+              }
             }
           }
         ]
@@ -196,15 +204,15 @@
   },
   "active": "df39764ed5da95ee",
   "lastOpenFiles": [
+    "Scuola/Storia/@Storia.md",
+    "Scuola/Filosofia/Schopenhauer.md",
+    "Scuola/Filosofia/Feuerbach.md",
+    "Scuola/Filosofia/@Filosofia.md",
     "Scuola/Chimica/Glucidi.md",
     "Scuola/Chimica/@Chimica Organica.md",
     "Scuola/Chimica/Lavorare con le catene.md",
     "Scuola/Chimica/Idrocarburi.md",
     "Scuola/Chimica/Chimica Organica generale.md",
-    "Scuola/Filosofia/@Filosofia.md",
-    "Scuola/Filosofia/1623 Pascal/Pascal integrale.md",
-    "Scuola/Filosofia/1623 Pascal/@Pascal.md",
-    "Scuola/Filosofia/1595 Cartesio/Cartesio integrale.md",
-    "Scuola/Filosofia/1724 Kant/Kant - La Critica della ragion pura/La Critica della ragion pura - 01 Problema generale.md"
+    "Scuola/Filosofia/1623 Pascal/Pascal integrale.md"
   ]
 }
