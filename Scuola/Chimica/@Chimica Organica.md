@@ -5,4 +5,8 @@ tags: [index]
 date: 15.09.2022
 ---
 # Chimica Organica
-[[Glucidi]]
+### Biochimica
+- [[Glucidi]]
+- [[Lipidi]]
+- [[Proteine]]
+- [[Enzimi]]

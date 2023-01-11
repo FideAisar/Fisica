@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scuola/Italiano/@DAnnunzio.md",
-                "mode": "source",
+                "file": "Scuola/Chimica/Lipidi.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -100,11 +100,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 239.5110321044922
+    "width": 200
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -120,9 +120,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Italiano/@DAnnunzio.md",
+                "file": "Scuola/Chimica/Lipidi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "435b22df05cea59d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Scuola/Chimica/Lipidi.md"
               }
             }
           }
@@ -147,15 +157,15 @@
   },
   "active": "8ba4cfaa7cf428d4",
   "lastOpenFiles": [
-    "Scuola/Italiano/Alcione - DAnnunzio.md",
-    "Scuola/Italiano/@DAnnunzio.md",
-    "Scuola/Italiano/Il libro segreto - DAnnunzio.md",
-    "Scuola/Italiano/Il Piacere - DAnnunzio.md",
-    "Scuola/Italiano/Il Notturno - Dannunzio.md",
-    "Excalidraw/Sistema Linfatico.excalidraw.md",
-    "Scuola/Inglese/@Inglese.md",
-    "Scuola/Italiano/@Italiano.md",
-    "Scuola/Filosofia/1724 Kant/@Kant.md",
-    "Scuola/Storia/La controrivoluzione riformatrice.md"
+    "Scuola/Chimica/@Chimica Organica.md",
+    "Scuola/Chimica/Glucidi.md",
+    "Scuola/Chimica/Enzimi.md",
+    "Scuola/Chimica/Proteine.md",
+    "Scuola/Chimica/Lipidi.md",
+    "Scuola/Inglese/Grammar/Appunti per esame First.md",
+    "Scuola/Italiano/Letteratura - Dante, Divina Commedia Paradiso XXXIII.md",
+    "Scuola/Filosofia/Romanticismo.md",
+    "Templates/Template yml.md",
+    "Scuola/Italiano/@DAnnunzio.md"
   ]
 }
