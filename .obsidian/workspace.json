@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scuola/Chimica/@Chimica Organica.md",
+                "file": "Scuola/Storia dell_Arte/@Storia dell Arte.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Chimica/@Chimica Organica.md",
+                "file": "Scuola/Storia dell_Arte/@Storia dell Arte.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Chimica/@Chimica Organica.md"
+                "file": "Scuola/Storia dell_Arte/@Storia dell Arte.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   },
   "active": "8ba4cfaa7cf428d4",
   "lastOpenFiles": [
+    "Scuola/Chimica/@Chimica Organica.md",
     "Scuola/Italiano/@DAnnunzio.md",
     "Scuola/Italiano/Alcione - DAnnunzio.md",
     "Scuola/Italiano/Il libro segreto - DAnnunzio.md",
@@ -165,7 +166,6 @@
     "Excalidraw/Sistema Linfatico.excalidraw.md",
     "Scuola/Inglese/@Inglese.md",
     "Scuola/Italiano/@Italiano.md",
-    "Scuola/Filosofia/1724 Kant/@Kant.md",
-    "Scuola/Storia/La controrivoluzione riformatrice.md"
+    "Scuola/Filosofia/1724 Kant/@Kant.md"
   ]
 }
