@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scuola/Italiano/@DAnnunzio.md",
+                "file": "Scuola/Chimica/@Chimica Organica.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -120,9 +120,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Italiano/@DAnnunzio.md",
+                "file": "Scuola/Chimica/@Chimica Organica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e9d41fa7a4b38cdf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Scuola/Chimica/@Chimica Organica.md"
               }
             }
           }
@@ -147,8 +157,8 @@
   },
   "active": "8ba4cfaa7cf428d4",
   "lastOpenFiles": [
-    "Scuola/Italiano/Alcione - DAnnunzio.md",
     "Scuola/Italiano/@DAnnunzio.md",
+    "Scuola/Italiano/Alcione - DAnnunzio.md",
     "Scuola/Italiano/Il libro segreto - DAnnunzio.md",
     "Scuola/Italiano/Il Piacere - DAnnunzio.md",
     "Scuola/Italiano/Il Notturno - Dannunzio.md",
