@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scuola/Italiano/@DAnnunzio.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ba4cfaa7cf428d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scuola/Storia dell_Arte/@Storia dell Arte.md",
+                "file": "Scuola/Storia dell_Arte/Georges Seurat.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#toc",
+                "query": "postimp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,11 +86,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 239.5110321044922
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -120,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Storia dell_Arte/@Storia dell Arte.md",
+                "file": "Scuola/Storia dell_Arte/Georges Seurat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Storia dell_Arte/@Storia dell Arte.md"
+                "file": "Scuola/Storia dell_Arte/Georges Seurat.md"
               }
             }
           }
@@ -155,17 +142,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": true
     }
   },
-  "active": "8ba4cfaa7cf428d4",
+  "active": "df39764ed5da95ee",
   "lastOpenFiles": [
-    "Scuola/Chimica/@Chimica Organica.md",
-    "Scuola/Italiano/@DAnnunzio.md",
-    "Scuola/Italiano/Alcione - DAnnunzio.md",
-    "Scuola/Italiano/Il libro segreto - DAnnunzio.md",
-    "Scuola/Italiano/Il Piacere - DAnnunzio.md",
-    "Scuola/Italiano/Il Notturno - Dannunzio.md",
-    "Excalidraw/Sistema Linfatico.excalidraw.md",
-    "Scuola/Inglese/@Inglese.md",
-    "Scuola/Italiano/@Italiano.md",
-    "Scuola/Filosofia/1724 Kant/@Kant.md"
+    "Scuola/Storia dell_Arte/Postimpressionismo.md",
+    "Scuola/Storia dell_Arte/Michel-Eugène Chevreul.md",
+    "ToDo/Untitled.md",
+    "2022/12/24 - Vacanze Natale.md",
+    "Altro/@Altro.md",
+    "Scuola/Filosofia/@Filosofia.md",
+    "Scuola/Filosofia/1595 Cartesio/@Cartesio.md",
+    "Scuola/Filosofia/1595 Cartesio/Cartesio - 07.1 La res extensa e le sue proprietà.md",
+    "Scuola/Filosofia/1595 Cartesio/Cartesio integrale.md",
+    "Scuola/Filosofia/322 a.C. preAristotele/Socrate.md"
   ]
 }
