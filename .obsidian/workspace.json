@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb453d32c0f9e037",
+        "id": "4d80fe9a80ed59dc",
         "type": "tabs",
         "children": [
           {
-            "id": "df39764ed5da95ee",
+            "id": "6ba4509db583312d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "111239e508e29921",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scuola/Inglese/White Man Burden - analysis.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -107,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Storia dell_Arte/Georges Seurat.md",
+                "file": "Scuola/Inglese/White Man Burden - analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Storia dell_Arte/Georges Seurat.md"
+                "file": "Scuola/Inglese/White Man Burden - analysis.md"
               }
             }
           }
@@ -142,17 +156,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": true
     }
   },
-  "active": "df39764ed5da95ee",
+  "active": "111239e508e29921",
   "lastOpenFiles": [
-    "Scuola/Storia dell_Arte/Postimpressionismo.md",
-    "Scuola/Storia dell_Arte/Michel-Eugène Chevreul.md",
-    "ToDo/Untitled.md",
-    "2022/12/24 - Vacanze Natale.md",
-    "Altro/@Altro.md",
-    "Scuola/Filosofia/@Filosofia.md",
-    "Scuola/Filosofia/1595 Cartesio/@Cartesio.md",
-    "Scuola/Filosofia/1595 Cartesio/Cartesio - 07.1 La res extensa e le sue proprietà.md",
-    "Scuola/Filosofia/1595 Cartesio/Cartesio integrale.md",
-    "Scuola/Filosofia/322 a.C. preAristotele/Socrate.md"
+    "Scuola/Inglese/@Inglese.md",
+    "Scuola/Italiano/Alcione - DAnnunzio.md",
+    "Scuola/Italiano/Alcione.pdf",
+    "Scuola/Italiano/@DAnnunzio.md",
+    "Scuola/Latino/Seneca/Seneca (diviso per temi).md",
+    "Scuola/Latino/Seneca/Seneca (diviso per opere).md",
+    "Scuola/Latino/@Latino.md",
+    "Scuola/Latino/Seneca/Seneca - toc.md",
+    "Scuola/Storia dell_Arte/Vincent Van Gogh.md",
+    "Scuola/Storia dell_Arte/Postimpressionismo.md"
   ]
 }

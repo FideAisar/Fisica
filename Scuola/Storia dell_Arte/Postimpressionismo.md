@@ -18,5 +18,5 @@ I maggiori esponenti di questa espressione artistica furono:
 - [[Paul Cézanne]]
 - [[Michel-Eugène Chevreul]]
 - [[Georges Seurat]]
-- [[Paul Gaugin]]
+- [[Paul Gauguin]]
 - [[Vincent Van Gogh]]

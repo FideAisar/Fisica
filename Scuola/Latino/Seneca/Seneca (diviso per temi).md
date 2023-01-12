@@ -63,7 +63,7 @@ Dedicato al tema politico e a Nerone viene presentato come uno specchio nel qual
 1. T13 Il principe allo specchio
 
 
-### De tranquillitate animi                                                                    
+### De tranquillitate animi                      vibrante finalizzata a catturare i giochi lumin                                              
 Seneca confuta la tesi dello stoico Atenodòro il quale affermava che la partecipazione alla vita politica è un bene in generale ma dal momento che la società è dominata dalla corruzione, non resta che il ritiro a vita privata. Seneca invece espone l'idea di una partecipazione alla vita politica dalla quale ritirarsi solo se si è costretti "a poco a poco". Così risolve la contrapposizione tra otium (vita contemplativa) e negotium (vita politica).
 
 1. T14 La partecipazione alla vita politica
