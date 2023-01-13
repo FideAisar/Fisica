@@ -30,3 +30,5 @@ Il coinvolgimento nella guerra di 2.5 mln di contadini aveva strappato alle clas
 ## Occupazione delle fabbriche
 Giolitti dovette fronteggiare l'occupazione di 300 officine da parte di 500 mila operai. Per soddisfare socialisti e popolari, Giolitti concepì coraggiose riforme.
 
+## Sconfitta del movimento operaio
+Il fascismo nasce in questo contesto di occupazioni e movimenti operai. Il partito socialista finì per dividersi e a causa dalle occupazioni delle fabbriche il partito comunista italiano si staccò da esso.

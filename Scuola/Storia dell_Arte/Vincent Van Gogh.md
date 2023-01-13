@@ -6,7 +6,6 @@ date: 2023/01
 ---
 # Vincent Van Gogh
 ## I mangiatori di patate
-
 Cinque contadini consumano il loro pasto a base di patate e caffè al lume di una singola candela. I loro visi spigolosi e scavati dalla fatica, tagliati dalla luce sono i protagonisti del dipinto. Le cinque figure sono disposte di schiena, di fronte e di tre quarti. 
 
 Van Gogh si concentra sulla rappresentazione della gestualità dei contadini, sui loro sguardi e sulla loro personalità rispecchiata anche dall'ambiente circostante. Un crocifisso appeso rappresenta la cristianità schietta della famiglia. Con questo quadro Van Gogh si dimostra capace di trattare temi duri e di saper descrivere egregiamente la vita amara dei ceti più poveri.
@@ -14,7 +13,6 @@ Van Gogh si concentra sulla rappresentazione della gestualità dei contadini, su
 Secondo Van Gogh il soggetto trattato fa variare il criterio di bellezza del dipinto e questo quadro, dai colori cupo terrosi e pastosi che fanno apparire la tela quasi monocromatica, rispecchiano perfettamente lo stile di vita narrato.
 
 ## Girasoli
-
 Van Gogh ne produsse due serie, realizzate per decorare il suo atelier e la "casa gialla". i girasoli rappresentano l'anima di Van Gogh, rappresentano il sole che non tramonta mai e inonda la casa gialla di caldi raggi in ogni momento. I girasoli di Van Gogh saranno quello che erano i crisantemi per Hokusai, a testimonianza della forte influenza dell'arte giapponese sull'artista.
 
 Il pittore decide di appiattire i soggetti utilizzando ampie aree di colore monocromo e diluendo molto il colore. Così facendo, e con l'assenza di ombre, ne annulla quasi completamente la tridimensionalità. Le pennellate grasse e piene di colore aggiungono una qualità plastica che fa fuoriuscire i girasoli dal quadro rendendolo fortemente materico.
