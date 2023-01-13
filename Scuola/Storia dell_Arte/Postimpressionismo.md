@@ -20,3 +20,4 @@ I maggiori esponenti di questa espressione artistica furono:
 - [[Georges Seurat]]
 - [[Paul Gauguin]]
 - [[Vincent Van Gogh]]
+- [[Henri de Toulouse-Lautrec]]
