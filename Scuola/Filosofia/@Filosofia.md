@@ -33,3 +33,4 @@ date: 2021/00/00
 
 - [[Diritto alla proprietà - Marx e Costituzione a confronto]]
 - [[Schopenhauer]]
+- [[Nietzsche]]

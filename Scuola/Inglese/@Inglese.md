@@ -44,6 +44,6 @@ date: 05.09.2022
 - [[Pride and Prejudice (analysis)]]
 - [[William Blake]]
 - [[William Wordsworth]]
-
+- [[White Man Burden - analysis]]
 
 [[Vocabulary]]

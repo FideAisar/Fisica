@@ -30,3 +30,12 @@ Il coinvolgimento nella guerra di 2.5 mln di contadini aveva strappato alle clas
 ## Occupazione delle fabbriche
 Giolitti dovette fronteggiare l'occupazione di 300 officine da parte di 500 mila operai. Per soddisfare socialisti e popolari, Giolitti concepì coraggiose riforme.
 
+## Sconfitta del movimento operaio
+Il fascismo nasce in questo contesto di occupazioni e movimenti operai. Il partito socialista finì per dividersi e a causa dalle occupazioni delle fabbriche il partito comunista italiano si staccò da esso.
+
+---
+## Fasci di combattimento
+Mussolini il 23 marzo 1919 a Milano nella sede di Confindustria fonda i Fasci di Combattimento. un movimento a cui aderirono futuristi, nazionalisti, sindacalisti e ex socialisti. Il programma di Mussolini fu complesso e molto articolato. Il centro del programma erano i giovani (l'inno era rinominato "giovinezza"). I neologismi erano frequentissimi e aiutò ad attirare l'attenzione del popolo. Il fascismo degli esordi è anti statale, contro la classe dirigente, Mussolini adotto lo stato etico gentiliano quando fu eletto presidente del consiglio. Mussolini durante il periodo socialista combattè sempre il parlamento come luogo di sterile dibattito; di fatto Mussolini distruggerà il parlamento a partire dal 1925. Questo odio nei confronti delle istituzioni democratiche è quello che accomuna il Mussolini marxista e il Mussolini fascista.
+
+### Il fascismo rurale
+Nel corso del biennio rosso si erano avute agitazioni (occupazioni di latifondi al sud, leghe dei braccianti al nord che erano riusciti a imporre ai padroni le loro condizioni). I piccoli proprietari si erano mossi per proteggere gli interessi agrari contro le leghe bracciantili socialiste. In questo periodo bastava pochissimo per far esplodere la violenza. 

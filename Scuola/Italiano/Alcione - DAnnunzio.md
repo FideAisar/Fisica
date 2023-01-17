@@ -7,4 +7,3 @@ date:
 
 # Alcione
 [[Alcione.pdf]]
-Raccolta di liriche
