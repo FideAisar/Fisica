@@ -14,7 +14,7 @@
     "en-GB",
     "it"
   ],
-  "spellcheck": true,
+  "spellcheck": false,
   "fileSortOrder": "alphabetical",
   "newFileLocation": "current",
   "showInlineTitle": false

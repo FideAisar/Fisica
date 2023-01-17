@@ -19,6 +19,9 @@ Dedicatario Paolino, Seneca lo esorta a rivolgere la sua vita interamente allo s
 4. T5  Il rammollito e l'erudito
 
 ### Epistulae ad Lucilium
+
+^02abb1
+
 Seneca avverte l'insensatezza della sua vita passata; nelle lettere rivolge a se stesso le stesse accuse che muoveva a Paolino nel "De brevitate vitae" invitando l'amico Lucilio ad abbandonare la carriera politica.
 
 1. T6  Riappropriarsi di sé e del proprio tempo

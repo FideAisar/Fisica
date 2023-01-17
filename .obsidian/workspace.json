@@ -4,37 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "bb453d32c0f9e037",
+        "id": "2401aae53fcc06cc",
         "type": "tabs",
+        "dimension": 49.733475479744136,
         "children": [
-          {
-            "id": "df39764ed5da95ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scuola/Italiano/@DAnnunzio.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
           {
             "id": "8ba4cfaa7cf428d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scuola/Chimica/Lipidi.md",
-                "mode": "preview",
+                "file": "Scuola/Latino/Seneca - testi in latino.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "bb453d32c0f9e037",
+        "type": "tabs",
+        "dimension": 50.266524520255864,
+        "children": [
+          {
+            "id": "fd48ff81dda9b21a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scuola/Latino/Seneca - testi in italiano.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -120,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Chimica/Lipidi.md",
+                "file": "Scuola/Latino/Seneca - testi in latino.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Chimica/Lipidi.md"
+                "file": "Scuola/Latino/Seneca - testi in latino.md"
               }
             }
           }
@@ -157,15 +165,15 @@
   },
   "active": "8ba4cfaa7cf428d4",
   "lastOpenFiles": [
+    "Scuola/Latino/Seneca - testi in italiano.md",
+    "Scuola/Latino/Seneca - testi in latino.md",
+    "Scuola/Italiano/@DAnnunzio.md",
+    "Scuola/Chimica/Lipidi.md",
     "Scuola/Chimica/@Chimica Organica.md",
     "Scuola/Chimica/Glucidi.md",
     "Scuola/Chimica/Enzimi.md",
     "Scuola/Chimica/Proteine.md",
-    "Scuola/Chimica/Lipidi.md",
     "Scuola/Inglese/Grammar/Appunti per esame First.md",
-    "Scuola/Italiano/Letteratura - Dante, Divina Commedia Paradiso XXXIII.md",
-    "Scuola/Filosofia/Romanticismo.md",
-    "Templates/Template yml.md",
-    "Scuola/Italiano/@DAnnunzio.md"
+    "Scuola/Italiano/Letteratura - Dante, Divina Commedia Paradiso XXXIII.md"
   ]
 }
