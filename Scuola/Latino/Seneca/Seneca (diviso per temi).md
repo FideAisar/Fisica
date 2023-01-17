@@ -71,6 +71,9 @@ Seneca confuta la tesi dello stoico Atenodòro il quale affermava che la parteci
 
 
 ## I rapporti umani
+
+^7604b0
+
 ---
 ### Epistulae ad Lucilium                      
 Seneca espone all'amico Lucilio i doveri derivanti dalla solidarietà reciproca. Questa unisce tutti gli uomini e li sostiene nelle situazioni avverse. Infatti il sapiente stoico deve collaborare alla realizzazione del logos, principio ultimo che governa il mondo, rivolgendo le proprie attenzioni alla società in cui vive.

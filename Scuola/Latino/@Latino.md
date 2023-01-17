@@ -25,5 +25,6 @@ date: 2021/00/00
 
 ## Seneca
 - [[Seneca - toc]]
-- [[Seneca (diviso per opere)]]
 - [[Seneca (diviso per temi)]]
+- [[Seneca - testi in latino]]
+- [[Seneca - testi in italiano]]

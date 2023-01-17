@@ -47,4 +47,3 @@ Come [[@Kant|Kant]] Schopenhauer riprende la condizione umana del piacere esteti
 
 ## Nirvana
 Marco Aurelio, Epiteto... Gli stoici definirono la vita come un teatro nel quale ogni uomo è chiamato a recitare la sua parte. Il Nirvana / noluntas / beatitudine  è la vera felicità, è l'aponia degli storici, l'atarassia di Epicuro...
-
