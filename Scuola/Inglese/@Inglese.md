@@ -46,4 +46,6 @@ date: 05.09.2022
 - [[William Wordsworth]]
 - [[White Man Burden - analysis]]
 
+
 [[Vocabulary]]
+[[1 orale 2023]]

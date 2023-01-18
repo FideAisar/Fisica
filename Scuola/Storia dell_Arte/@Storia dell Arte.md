@@ -8,3 +8,6 @@ date: 16.09.2022
 - [[Romanticismo]]
 ## Postimpressionismo
 - [[Postimpressionismo]]
+
+# Avanguardie 
+- [[Matisse]]
