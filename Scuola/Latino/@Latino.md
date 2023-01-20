@@ -28,3 +28,5 @@ date: 2021/00/00
 - [[Seneca (diviso per temi)]]
 - [[Seneca - testi in latino]]
 - [[Seneca - testi in italiano]]
+- [[Seneca - Il tempo]]
+- [[Seneca - Gli schiavi]]

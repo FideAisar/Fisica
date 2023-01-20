@@ -4,29 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "2401aae53fcc06cc",
-        "type": "tabs",
-        "dimension": 49.733475479744136,
-        "children": [
-          {
-            "id": "8ba4cfaa7cf428d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scuola/Latino/Seneca - testi in latino.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "bb453d32c0f9e037",
         "type": "tabs",
-        "dimension": 50.266524520255864,
         "children": [
           {
             "id": "fd48ff81dda9b21a",
@@ -34,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scuola/Latino/Seneca - testi in italiano.md",
+                "file": "Scuola/Latino/Seneca - Gli schiavi.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -111,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -128,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Latino/Seneca - testi in latino.md",
+                "file": "Scuola/Latino/Seneca - Gli schiavi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Latino/Seneca - testi in latino.md"
+                "file": "Scuola/Latino/Seneca - Gli schiavi.md"
               }
             }
           }
@@ -163,17 +141,17 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": true
     }
   },
-  "active": "8ba4cfaa7cf428d4",
+  "active": "fd48ff81dda9b21a",
   "lastOpenFiles": [
+    "Scuola/Latino/@Latino.md",
+    "Scuola/Latino/Seneca - Il tempo.md",
+    "Scuola/Storia dell_Arte/@Storia dell Arte.md",
+    "Scuola/Storia dell_Arte/Matisse.md",
+    "Scuola/Latino/Seneca/Seneca (diviso per temi).md",
     "Scuola/Latino/Seneca - testi in italiano.md",
     "Scuola/Latino/Seneca - testi in latino.md",
     "Scuola/Italiano/@DAnnunzio.md",
     "Scuola/Chimica/Lipidi.md",
-    "Scuola/Chimica/@Chimica Organica.md",
-    "Scuola/Chimica/Glucidi.md",
-    "Scuola/Chimica/Enzimi.md",
-    "Scuola/Chimica/Proteine.md",
-    "Scuola/Inglese/Grammar/Appunti per esame First.md",
-    "Scuola/Italiano/Letteratura - Dante, Divina Commedia Paradiso XXXIII.md"
+    "Scuola/Chimica/@Chimica Organica.md"
   ]
 }
