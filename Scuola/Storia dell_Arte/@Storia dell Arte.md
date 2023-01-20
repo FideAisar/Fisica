@@ -11,3 +11,8 @@ date: 16.09.2022
 
 # Avanguardie 
 - [[Matisse]]
+### Espressionismo
+- [[Munch]]
+### Espressionismo austriaco
+- [[Schiele]]
+- [[Kokoschka]]

@@ -23,12 +23,12 @@ Era fondamentale ora per Mussolini conquistare il Parlamento. Decise quindi che 
 
 ## Matteotti
 Giacomo Matteotti, avvocato socialista, era diventato nel 22 segretario del partito socialista riformista, aveva difeso le lotte dei braccianti con grande competenze, aveva un'autorevolezza che preoccupava Mussolini. All'indomani delle elezioni Matteotti, in parlamento, denunciò i brogli che avevano accompagnato le elezioni e chiese che queste venissero invalidate. Matteotti il giorno (10 giugno 1924) dopo fu catturato da una squadra fascista e il 16 agosto fu trovato in un campo vicino a Roma.
-La scomparsa di Matteotti provocò una reazione degli oppositori (non nei comunisti) che decisero di abbandonare l'aula del parlamento. *Turati: ''si ritirarono nell'aventino delle loro coscienze'.* Vittorio Eanuele III scelse il silenzio aspettando un voto di sfiducia.
+La scomparsa di Matteotti provocò una reazione degli oppositori (non nei comunisti) che decisero di abbandonare l'aula del parlamento. *Turati: ''si ritirarono nell'aventino delle loro coscienze'.* Vittorio Emanuele III scelse il silenzio aspettando un voto di sfiducia.
 
 ## Nascita dello stato totalitario 
 Mussolini si presentò a Montecitorio e tenne un discorso nel quale rivendicò l'operato del partito inclusa la violenza. Mussolini disse che l'Italia aveva bisogno di pace e lui gliela avrebbe data, con la forza se necessario. Il parlamento era ormai in maggioranza fascista; finito il discorso vennero chiuse le camere fino a data non precisata.
 
-Venne soppressa la libertà di stampa, chi cercava di entrare in parlamento per occupare il seggio vinto nelle elezioni veniva manganellato dalle squadre fasciste a guardia dell'edificio. Don Luigi Sturzo che aveva fondato il partito popolare cattolico riparò a New York, così molti altri partiti dovettero prendere la via dell'esilio: Nitti, Treves, Togliatti, Saragat, Salvemini.
+Venne soppressa la libertà di stampa, chi cercava di entrare in parlamento per occupare il seggio vinto nelle elezioni veniva manganellato dalle squadre fasciste a guardia dell'edificio. Don Luigi Sturzo che aveva fondato il partito popolare cattolico riparò a New York, così molti altri partiti dovettero prendere la via dell'esilio: Nitti, Treves, Togliatti, Saragat (compagno di partito di Mussolini che partecipò alle lotte ante-guerra con Mussolini), Salvemini.
 
 ## Leggi fascistissime
-Fu creato il tribunale per la difesa dello Stato. Il reato di offesa al Duce fu punito con la reclusione da 1 a 5 anni. Fu ristabilita la pena di morte, fu istituito il confino di polizioa come atto amministrativo non soggetto a controllo giudiziario.
+Fu creato il tribunale per la difesa dello Stato. Il reato di offesa al Duce fu punito con la reclusione da 1 a 5 anni. Fu ristabilita la pena di morte, fu istituito il confino di polizia come atto amministrativo non soggetto a controllo giudiziario.
