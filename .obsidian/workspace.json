@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scuola/Latino/Seneca - Gli schiavi.md",
+                "file": "Scuola/Storia dell_Arte/Salvador Dali.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Latino/Seneca - Gli schiavi.md",
+                "file": "Scuola/Storia dell_Arte/Salvador Dali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Latino/Seneca - Gli schiavi.md"
+                "file": "Scuola/Storia dell_Arte/Salvador Dali.md"
               }
             }
           }
@@ -143,15 +144,15 @@
   },
   "active": "fd48ff81dda9b21a",
   "lastOpenFiles": [
+    "Scuola/Storia dell_Arte/@Storia dell Arte.md",
+    "Scuola/Latino/Seneca - Gli schiavi.md",
     "Scuola/Latino/@Latino.md",
     "Scuola/Latino/Seneca - Il tempo.md",
-    "Scuola/Storia dell_Arte/@Storia dell Arte.md",
     "Scuola/Storia dell_Arte/Matisse.md",
     "Scuola/Latino/Seneca/Seneca (diviso per temi).md",
     "Scuola/Latino/Seneca - testi in italiano.md",
     "Scuola/Latino/Seneca - testi in latino.md",
     "Scuola/Italiano/@DAnnunzio.md",
-    "Scuola/Chimica/Lipidi.md",
-    "Scuola/Chimica/@Chimica Organica.md"
+    "Scuola/Chimica/Lipidi.md"
   ]
 }

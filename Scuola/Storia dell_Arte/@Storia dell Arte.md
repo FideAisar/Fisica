@@ -16,3 +16,6 @@ date: 16.09.2022
 ### Espressionismo austriaco
 - [[Schiele]]
 - [[Kokoschka]]
+
+### Surrealismo
+- [[Salvador Dali]]
