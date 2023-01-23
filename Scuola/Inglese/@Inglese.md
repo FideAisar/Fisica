@@ -44,7 +44,12 @@ date: 05.09.2022
 - [[Pride and Prejudice (analysis)]]
 - [[William Blake]]
 - [[William Wordsworth]]
+
+### Victorian age
+- [[Charles Dickens]]
 - [[White Man Burden - analysis]]
+
+- [[Moby Dick - analysis]]
 
 
 [[Vocabulary]]
