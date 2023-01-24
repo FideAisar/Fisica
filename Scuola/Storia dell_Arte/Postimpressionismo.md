@@ -14,10 +14,3 @@ Le caratteristiche comuni a tutti i Postimpressionisti sono:
 - Tendenza a ricercare figure più solide
 - Utilizzo del contorno
 
-I maggiori esponenti di questa espressione artistica furono:
-- [[Paul Cézanne]]
-- [[Michel-Eugène Chevreul]]
-- [[Georges Seurat]]
-- [[Paul Gauguin]]
-- [[Vincent Van Gogh]]
-- [[Henri de Toulouse-Lautrec]]

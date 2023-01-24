@@ -47,7 +47,11 @@ date: 05.09.2022
 
 ### Victorian age
 - [[Charles Dickens]]
-- [[White Man Burden - analysis]]
+- [[Robert Louis Stevenson]]
+- [[Oscar Wilde]]
+- [[Rudyard Kipling]]
+	- [[White Man Burden - analysis]]
+- [[Herman Melville]]
 
 - [[Moby Dick - analysis]]
 

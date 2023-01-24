@@ -1,4 +1,9 @@
-
+---
+title: Moby Dick - analysis
+author: Federico Cesari 
+tags: [Exrc]
+date: 2023/01/23
+---
 1. Because Moby Dick after repeated assaults has always escaped alive, it is considered not only ubiquitous but also immortal.
 2. The White Wale had uncommon characteristics that made it easily distinguished by other sperm whales. It had a peculiar snow-white wrinkled forehead and a pyramidical white hump. All these unique traits revealed its identity at a long distance. 
 3. The rest of its body was murbled white, streaked and spotted; for this reason it gained the name of  "The White Whale".

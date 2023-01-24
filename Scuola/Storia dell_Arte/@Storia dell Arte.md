@@ -8,6 +8,12 @@ date: 16.09.2022
 - [[Romanticismo]]
 ## Postimpressionismo
 - [[Postimpressionismo]]
+	- - [[Paul Cézanne]]
+	- [[Michel-Eugène Chevreul]]
+	- [[Georges Seurat]]
+	- [[Paul Gauguin]]
+	- [[Vincent Van Gogh]]
+	- [[Henri de Toulouse-Lautrec]]
 
 # Avanguardie 
 - [[Matisse]]

@@ -43,4 +43,22 @@ Il libro "Umano, troppo umano" è una collezione di pensieri sul tema del freige
 ## Il mezzogiorno
 "Così parlò Zarathustra". Libro scritto ispirato al vangelo, per parabole. Come messaggio però non ha l'arrivo del messia ma la *morte di Dio*. Come nel mito della caverna, nel quale il sapiente ritorna nella caverna per aiutare i compagni, così per Nietzsche è il ruolo dell'intellettuale occidentale. Per Nietzsche la filosofia e la conoscenza è *educazione*. Tornare nella caverna è molto pericoloso: rischi di essere ammazzato come Cristo e [[Socrate]]. 
 
-Il Superuomo è il senso della terra
+## Also sprach Zarathustra
+Testo con trama debole nella quale è facile perdersi. La discesa di Zarathustra è molto simile a quella del filosofo liberato che scende nella caverna a liberare i compagni che, bloccati dalle catene dell'ignoranza e della sensibilità, non potevano ascendere al mondo ideale. Per Nietzsche non c'è un mondo al di là di ciò che appare, ha quindi idee fortemente antimetafisiche. 
+
+Ciò che è importante sono le intuizioni di Zarathustra e non la trama, che consiste per lo più in una discesa e ascesa dell'uomo sulla e dalla Terra. Il Superuomo è il senso della terra.
+
+> Dio è morto e con lui tutta la metafisica, il vero dio è la Terra. Il sacrilegio più grande è quello contro la Terrascesa dell'uomo sulla e dalla Terra. Il Superuomo è il senso della terra.
+
+L'uomo ha cercato la sua immortalità in Dio, per convincersi della sua immortalità ha abusato delle cose materiali, della natura per adornare in nome di questo immaginato mondo delle idee. L'appello di Zarathustra al superuomo è quello di tornare alla concretezza della nostra fisicità, la corporeità non è più condannata (anche [[Schopenhauer]] fa della corporeità la via per accedere al noumeno e quindi alla conoscenza; anche [[Feuerbach]] e [[Jonas]] parleranno in questi termini del corpo). Condanna la chiesa e le sue *sovraterrene speranze* che svalutano la vita stessa, la vita naturale che Zarathustra insegna ad apprezzare e a esaltare.
+
+**Delle tre metamorfosi:** parabola che descrive la progressiva liberazione dell'uomo dagli ideali. Lo spirito diventa cammello, diventa leone e poi fanciullo. Il cammello è l'animale che porta i pesi e si identifica con la *morale kantiana*; lìuomo obbediente al comando della ragione e all'imperativo categorico (il "tu devi") che doma l'istinto. Questa prima fase è superata dal leone: animale simbolo dell'uomo che si sbarazza dei pesi, che dice no al sacro dio del dovere; si tratta però di una libertà negativa basata sul "no". Esiste poi una libertà postiva: quella del fanciullo che inaugura la libertà creativa, il gioco che consiste nel sacro dire sì.
+
+### Critica ai simboli imperituri
+L'unico limite dell'uomo diventa la natura, la sua fisicità: il corpo prima o poi invecchia e muore. 
+"Ogni imperituro diventa un simbolo": ogni credenza in qualcosa di immortale è falsa. I miglior isimboli invece devono parlare del tempo e del divenire. La filosofia di Nietzsche ha la caratteristica di esaltare la vita, critica aspramente il carattere antivitalistico della filosofia e della religione occidentale.
+
+La vita è un continuo e necessario superamento di se stessi, necessario perché ogni volta la vita si supera e rinasce dopo la morte.
+
+## Annuncio di un folle della morte di Dio
+L'uomo folle balza in mezzo a noi all'improvviso. Il folle ha dei riferimenti di [[Diogene]]. Il folle gira per la folla dicendo di cerare Dio. Poi afferma che Dio è morto e lo abbiamo ucciso noi, i filosofi del suo tempo. Proclamare la morte di Dio e proclamarsi atei è descritto con l'immagine "strusciar via l'orizzonte con una spugna": eliminare ogni riferimento. Oppure viene detto "sciolgliere la terra dalla catena del suo sole" oppure "via da tutti i soli": riferimenti alla rivoluzione scientifica  e copernicana; 
