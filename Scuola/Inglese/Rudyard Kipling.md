@@ -14,7 +14,7 @@ He was born in Mumbai in 1865. He was sent to England in order to receive a form
 > Kipling's ideas were also supported by a new pseudo-science called **phrenology**. It claimed that the biological features like the shape of the skull of each group determined its social attributes. Europeans were considered clever, asian were melancholic, Native Americans prone to anger...
 
 ## Style
-Kipling's fame was due mostly to his incredible ability of story-telling: his novels are characterised by short, concise and concrete sentences, by a vivid narration and playful language. Kipling ad also a special gift in reproducing local dialects
+Kipling's fame was due mostly to his incredible ability of story-telling: his novels are characterised by short, concise and concrete sentences, by a vivid narration and playful language. Kipling had also a special gift in reproducing local dialects.
 
 ---
 

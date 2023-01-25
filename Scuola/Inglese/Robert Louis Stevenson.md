@@ -10,7 +10,10 @@ Stevenson literary career was influenced by his interest in travel. His first no
 Just from "The treasure Island" we can understand the second main theme Stevenson care about: **the myth of the double**. In The treasure island this characteristic is found in the main pirate, who is both a pirate, a source of threat and danger, and a father figure for the protagonist.
 
 ## The Strange Case of Dr Jekyll and Mr Hyde
-The extract recounts the encounter between Mr Hyde and Dr Lanyon. Dr Lanyon sees in Mr Hyde a devilish nature  but he is also fascinated by him. Mr Hyde produce conflicting feelings in Dr Lyndon. The entire extract revolves around the duality of Good and Evil, elements that can be seen in Dr Lyndon and Mr Hyde, rationality against irrationality in Dr Lyndon.
+The extract recounts the encounter between Mr Hyde and Dr Lanyon. Dr Lanyon sees in Mr Hyde a devilish nature  but he is also fascinated by him. Mr Hyde produce conflicting feelings in Dr Lanyon. The entire extract revolves around the duality of Good and Evil, elements that can be seen in Dr Lanyon and Mr Hyde, rationality against irrationality in Dr Lanyon.
+
+Dr Lanyon is a man of science and tells the story from his point of view. He describes Mr Hyde using objective and subjective adjectives: he was small with great apparent debility. He says that that man caused in him a disgustful curiosity
+
 
 Stevenson writes this story with the purpose of deepening the complexity and ambiguity of human nature. Dr Jekyll is a Faustian characters whose ambition is to divide good and evil side of human soul with his experiments; his excess of ambition led him to destroy himself. Mr Hyde in the novel could be interpreted as:
 - A suggestion to men to find a balance between good and evil in their life.

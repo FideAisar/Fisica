@@ -15,13 +15,15 @@ date: 16.09.2022
 	- [[Vincent Van Gogh]]
 	- [[Henri de Toulouse-Lautrec]]
 
-# Avanguardie 
+## Avanguardie 
 - [[Matisse]]
 ### Espressionismo
 - [[Munch]]
 ### Espressionismo austriaco
 - [[Schiele]]
 - [[Kokoschka]]
-
+### Cubismo
+- [[Introduzione al Cubismo]]
+- [[Pablo Picasso]]
 ### Surrealismo
 - [[Salvador Dali]]
