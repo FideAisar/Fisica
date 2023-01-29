@@ -28,3 +28,7 @@ Più precisamente Leopardi sosteneva che più l'uomo era vicino alla natura più
 **Pessimismo cosmico:** è l'esasperazione del pessimismo storico esteso a tutta l'umanità anche presente. La natura, che ora viene considerata maligna, dopo aver generato un uomo, tende a eliminarlo per dar luogo ad altri individui in una lunga vicenda di produzione e distruzione. Quindi Leopardi è *darwiniano ante litteram*, crede che lo scopo unico dell'uomo sia quello di propagarsi e che *l'unico bene sia il **non essere***, non nascere è la cosa migliore.
 ### 2.2 Ottimismo
 Al concludersi della sua vita Leopardi riacquista una visione *ottimista* del mondo. Ragiona sul fatto che gli uomini, pur sottostanti alla natura, la possono sconfiggere coalizzandosi contro di essa.
+
+---
+### La ginestra
+[[Il fu Mattia Pascal]] Nell'introduzione filosofica stesso tema della piccolezza dell'uomo
