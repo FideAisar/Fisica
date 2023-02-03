@@ -20,11 +20,7 @@ date: 05.09.2022
 - [[Social Buisness]]
 
 ## Literature
-- [[History - 1603 Jacobean Era]]
-- [[History - 1700 Restoration]]
-- [[Jonathan Swift - Gulliver's Travels]]
-- [[Literature - 1660 Daniel Defoe]]
-- [[Literature - 1667 Jonathan Swift]]
+### Exrc
 - [[Literature - Compiti estate 2021]]
 - [[Literature - P.143 es 1]]
 - [[Literature - P.208 es 2]]
@@ -32,29 +28,39 @@ date: 05.09.2022
 - [[Literature - P.214,215]]
 - [[Literature - P.218 es 1-7]]
 - [[Literature - P.257, 268, 269 esercizi]]
-- [[Jonathan Swift - Gulliver_s Travels]]
-- [[Literature - Robinson Crusoe]]
 - [[Literature - tutti gli esercizi fino P.229]]
 - [[The Great Gatsby, Black Cat edition (esercizi)]]
-- [[Romantic Poetry]]
 - [[The Sublime - exercises]]
 - [[Manifesto of romanticism - exercises]]
-- [[Samuel Taylor Coleridge - Water, water everywhere (analisi)]]
+- [[Literature2 - P.143 es 6]]
+
+### Reneissance
+- [[Jacobean Era]]
+- [[Restoration]]
+- [[Jonathan Swift - Gulliver's Travels]]
+- [[Daniel Defoe]]
+- [[Jonathan Swift]]
+	- [[Jonathan Swift - Gulliver_s Travels]]
+- [[Robinson Crusoe]]
+
+#### Romanticism
+- [[Romantic Poetry]]
 - [[Samuel Taylor Coleridge]]
+	- [[Samuel Taylor Coleridge - Water, water everywhere (analisi)]]
 - [[Pride and Prejudice (analysis)]]
 - [[William Blake]]
 - [[William Wordsworth]]
 
-### Victorian age
+#### Victorian age
+[[1 orale 2023]]
 - [[Charles Dickens]]
 - [[Robert Louis Stevenson]]
 - [[Oscar Wilde]]
 - [[Rudyard Kipling]]
 	- [[White Man Burden - analysis]]
 - [[Herman Melville]]
+	- [[Moby Dick - analysis]]
 
-- [[Moby Dick - analysis]]
 
 
 [[Vocabulary]]
-[[1 orale 2023]]

@@ -1,5 +1,5 @@
 ---
-title: History - 1700 Restoration
+title:  Restoration
 author: Federico Cesari 
 tags: [Doc]
 date: 2021/00/00

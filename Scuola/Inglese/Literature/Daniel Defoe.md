@@ -19,7 +19,7 @@ Then he bagan his career as a pamphleteer and journalist. He founded *The Review
 He wrote:
 - Poems - *Hymn to the pillory*
 - Pamphlets, political essays - *An essay upon projects*
-- Novels - *[[Literature - Robinson Crusoe|Robinson Crusoe]]*
+- Novels - *[[Robinson Crusoe|Robinson Crusoe]]*
 
 # 2. Themes and styles
 He wrote about many themes, from *proposal to social and economic improvement* in **An essay upon projects** to *the fundamental of British economy* in the **Complete English Tradesman**.

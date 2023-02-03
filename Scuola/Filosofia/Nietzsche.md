@@ -14,7 +14,7 @@ Scrive sotto l'influenza di Schopenhauer e di Wagner, mentre parla della tragedi
 
 Nietzsche avrebbe voluto far tornare lo spirito dionisiaco e credeva fosse possibile grazie all'opera di Wagner. Il dionisiaco significava tornare a una riconciliazione con la natura alla quale la cultura occidentale e socratica aveva voltato le spalle.
 
-## La tragedia
+### la tragedia
 I satiri, metà umani e metà bestiali, lo spettatore civilizzato vede le differenze prodotte dalla civiltà e dalle istituzioni; La civiltà è una realtà illusoria che sulla scena si toglie la maschera e lo spettatore si vede per quello che è: il satiro barbuto. Di fronte al satiro barbuto l'uomo civile si contrae in una caricatura menzognera e ipocrita. La tragedia antica è quindi un momento di verità (se getta via le maschere). Questa è la vera funzione della tragedia che è andata perduta con [[Socrate]] e il razionalismo.
 
 Tramite la tragedia il greco si consola, l'arte dà una speranza e una fuga in alternativa alla crudeltà della natura.
@@ -43,7 +43,7 @@ Il libro "Umano, troppo umano" è una collezione di pensieri sul tema del freige
 ## Il mezzogiorno
 "Così parlò Zarathustra". Libro scritto ispirato al vangelo, per parabole. Come messaggio però non ha l'arrivo del messia ma la *morte di Dio*. Come nel mito della caverna, nel quale il sapiente ritorna nella caverna per aiutare i compagni, così per Nietzsche è il ruolo dell'intellettuale occidentale. Per Nietzsche la filosofia e la conoscenza è *educazione*. Tornare nella caverna è molto pericoloso: rischi di essere ammazzato come Cristo e [[Socrate]]. 
 
-## Also sprach Zarathustra
+### Also sprach Zarathustra
 Testo con trama debole nella quale è facile perdersi. La discesa di Zarathustra è molto simile a quella del filosofo liberato che scende nella caverna a liberare i compagni che, bloccati dalle catene dell'ignoranza e della sensibilità, non potevano ascendere al mondo ideale. Per Nietzsche non c'è un mondo al di là di ciò che appare, ha quindi idee fortemente antimetafisiche. 
 
 Ciò che è importante sono le intuizioni di Zarathustra e non la trama, che consiste per lo più in una discesa e ascesa dell'uomo sulla e dalla Terra. Il Superuomo è il senso della terra.
@@ -54,11 +54,34 @@ L'uomo ha cercato la sua immortalità in Dio, per convincersi della sua immortal
 
 **Delle tre metamorfosi:** parabola che descrive la progressiva liberazione dell'uomo dagli ideali. Lo spirito diventa cammello, diventa leone e poi fanciullo. Il cammello è l'animale che porta i pesi e si identifica con la *morale kantiana*; lìuomo obbediente al comando della ragione e all'imperativo categorico (il "tu devi") che doma l'istinto. Questa prima fase è superata dal leone: animale simbolo dell'uomo che si sbarazza dei pesi, che dice no al sacro dio del dovere; si tratta però di una libertà negativa basata sul "no". Esiste poi una libertà postiva: quella del fanciullo che inaugura la libertà creativa, il gioco che consiste nel sacro dire sì.
 
-### Critica ai simboli imperituri
+### critica ai simboli imperituri
 L'unico limite dell'uomo diventa la natura, la sua fisicità: il corpo prima o poi invecchia e muore. 
 "Ogni imperituro diventa un simbolo": ogni credenza in qualcosa di immortale è falsa. I miglior isimboli invece devono parlare del tempo e del divenire. La filosofia di Nietzsche ha la caratteristica di esaltare la vita, critica aspramente il carattere antivitalistico della filosofia e della religione occidentale.
 
 La vita è un continuo e necessario superamento di se stessi, necessario perché ogni volta la vita si supera e rinasce dopo la morte.
 
-## Annuncio di un folle della morte di Dio
+### Annuncio di un folle della morte di Dio
 L'uomo folle balza in mezzo a noi all'improvviso. Il folle ha dei riferimenti di [[Diogene]]. Il folle gira per la folla dicendo di cerare Dio. Poi afferma che Dio è morto e lo abbiamo ucciso noi, i filosofi del suo tempo. Proclamare la morte di Dio e proclamarsi atei è descritto con l'immagine "strusciar via l'orizzonte con una spugna": eliminare ogni riferimento. Oppure viene detto "sciolgliere la terra dalla catena del suo sole" oppure "via da tutti i soli": riferimenti alla rivoluzione scientifica  e copernicana; 
+
+## Critica al cristianesimo
+Se in Zarathustra il tema era la morte di Dio, negli ultimi scritti il tema polemico è il cristianesimo, o comunque il suo carattere plebeo. 
+
+Nietzsche afferma che non c'è solo una morale; Callicle sosteneva che le leggi siano state create dai deboli per assoggettare i forti e i potenti. Esistono due morali: una morale dei signori: espressione di una categoria particolare di umani, ovvero l'aristocrazia guerriera; i valori sono la fierezza la gioia, l'orgogli. Poi c'è una morale degli schiavi che Nietzsche identifica con il cristianesimo, improntata a valori antivitali e alimentata dal risentimento nei  confronti dei signori. Nietzsche identifica il cristianesimo con tutte quelle ideologie che rivendicavano uguaglianza e giustizia, siamo nel pieno della grande depressione e i movimenti più grandi erano quelli socialisti, quelli che stavano trasformando la politica europea.
+
+Come si spiega la vittoria della morale degli schiavi su quella dei signori? Nietzsche avanza l'ipotesi che in origine la morale dei signori non comprendesse solo la morale dei signori ma anche quella dei sacerdoti. Poiché la natura è irresistibile, il sacerdote non potendo fare a meno di provare invidia verso i signori i sacerdoti elaborarono una morale antitetica a quella dei guerriera fondata sulla castità, l'umiltà e sullo spirito. Questo rovesciamento di valori caratterizzerebbe sopratutto il popolo ebraico.
+
+Gli ebrei vennero conquistati dai romani (i guerrieri) e si vendicarono con una morale antivitalistica, così la morale dei cristiani è arrivata a superare quella dei signori. La giudea conquistò Roma. 
+
+**Repressione delle passioni:** Il cristianesimo ha prodotto un nuovo malato: l'uomo preda dei sesi di colpa;  Ha inibito gli impulsi primari e sle sorgenti naturali della gioia mediante la nozione di *peccato.
+
+**Napoleone:** Solo Napoleone in mezzo alla rivolta della plebe appare come grande nobile uomo.
+Questa visione di grandi uomini che hanno fatto la storia era già stata espressa da [[Hegel]] con gli *eroi cosmico-storici*.
+
+### l'anticristo
+In questa opera  Cristo è descritto come un uomo mite e debole. Il fondatore della chiesa è Paolo invece di Cristo. In paolo si incarna il tipo antitetico della buona novella, il genio dell'odio. Paolo significa il dominio di tutti i valori della decadenza (il livellamento: pietà, umiltà, in generale i valori antivitali) nel nome di Dio; il Cristianesimo viene visto come avvelenamento della vita per mezzo del pensiero del peccato.
+
+
+> Nietzsche critica il Cristianesimo in quanto morale che ricerca il livellamento e il ribaltamento della gerarchia naturale dell'uomo. Nietzsche crede di vivere in una società in cui le masse predominano e si sono imposte sui nobili. Quindi lui si erge come un sopravvissuto al potere delle masse.
+
+Il cristianesimo viene descritto come un Platonismo per ignoranti. le due ideologie condividono una metafisica, la credenza di una realtà ferma nel tempo
+

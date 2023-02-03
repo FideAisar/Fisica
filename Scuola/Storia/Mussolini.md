@@ -4,7 +4,7 @@ author: Federico Cesari
 tags: [Doc]
 date: 2023/01/17
 ---
-# Titolone 
+# Mussolini 
 Il movimento degli squadristi si era formanto abbastanza autonomamente, Mussolini era riuscito a coordinarlo. All'interno del partito si formeranno anche ideologie contrastante: ci saranno i fascisti di destra e i fascisti di sinistra. 
 Il re affidò il potere a un uomo con solamente 35 rappresentanti in parlamento e che non aveva svolto alcun incarico istituzionale fino ad allora.  Secondo gli oppositori quella era una nuova fase della lotta di classe e il fascismo era la vera faccia della borghesia che finalmente si era scoperta il volto. Socialisti e comunisti furono responsabili ella debolezza delle opposizioni; lo stesso Giolitti, interpellato, mostrò nei confronti del nuovo governo un atteggiamento critico, lasciando capire che un governo intransigente avrebbe potuto pacificare un paese sull'orlo della guerra civile. 
 

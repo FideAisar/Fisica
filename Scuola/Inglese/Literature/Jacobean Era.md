@@ -1,5 +1,5 @@
 ---
-title: History - 1603 Jacobean Era
+title: Jacobean Era
 author: Federico Cesari 
 tags: [Doc]
 date: 2021/00/00

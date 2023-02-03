@@ -12,3 +12,5 @@ Guglielmo II fu uno dei più grandi interventisti ma il binomio imperatore su cu
 
 ## Governo socialista e popolare
 In Germania c'erano i socialisti riformisti, come lo era Turati in Italia, e i socialisti che all'inizio delle ostilità si erano rifiutati di votare i finanziamenti per gli armamenti. Il governo socialista prevedeva il suffragio universale maschile e femmiinle, le otto ore lavorative, assistenza ai disoccupati, riassunzione dei reduci, vietati i licenziamenti arbitrari.
+
+## Repubblica di Weimer
