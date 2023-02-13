@@ -28,5 +28,10 @@ Il fine della terapia deve essere quello di riannettere i complessi mentali divi
 Riconosce  l' IO, l'ES e il SUPER IO come componenti della psiche.
 L'io è una sorta di biga, il super io è il cavallo bianco e l'es il cavallo nero.
 
+## L'interpretazione dei sogni
+Nel 1899 pubblica "L'interpretazione dei sogni", un  opera che rompe i ponti con l'ambiente positivista formatasi in Europa. Il sogno è la realizzazione dei desideri.
 
+## Le masse
+1889 Gustave Le Bon pubblica "la psicologia delle folle". Elias Canetti, Ortega, Gasset, sono numerosi gli studiosi che si interessarono alle masse. Nel 1921 anche Freud si chiede in che modo la massa ha la capacità di influire sulla vita psichica del singolo e in cosa consiste questa influenza.
+[[Munch#^98c15a|Munch: Sera nel corso Karl Johan]]
 

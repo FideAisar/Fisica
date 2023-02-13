@@ -33,11 +33,11 @@ Nello stesso periodo anche [[Leopardi]] criticava il progresso come Schopenhauer
 ## Religione atea
 L'ateismo di Schopenhauer intende creare una nuova religione atea per coloro che hanno perduto la fede in seguito al progresso della conoscenza. Questa religione che non obbliga a nulla è il *buddhismo*. 
 
-## Gnoseologia
+## Gnoseologiaon la diffusione nel mondo moderno di un certo numero di cognizion
 Schopenhauer guarda con interesse a Platone  e a Kant (fenomeno vs cosa in sè) per quanto riguarda i dualismo. 
 
 ## Le vie della liberazione dal dolore
-Per Nietzsche la risposta al dolore del mondo consiste nella liberazione dalla volontà di vivere. Schopenhauer scrive ce sono negli individui eccezionali come i geni dell'arte, i santi, gli eremiti, la *voluntas* tende a farsi *noluntas*. Secondo Schopenhauer il suicidio non è negazione della volontà di vivere ma una riaffermazione. Il suicida afferma la vita con ulteriore forza; esso sopprime il fenomeno lasciando sussistere la cosa in sé. Suicidandosi esprime un grande desiderio di vivere guidato dal malcontento per le condizioni che gli sono toccate e quindi il suicidio diventa un gesto di protesta contro le condizioni di vita dell'itera umanità.
+Per Nietzsche la risposta al dolore del mondo consiste nella liberazione dalla volontà di vivere. Schopenhauer scrive che solo negli individui eccezionali come i geni dell'arte, i santi, gli eremiti, la *voluntas* tende a farsi *noluntas*. Secondo Schopenhauer il suicidio non è negazione della volontà di vivere ma una riaffermazione. Il suicida afferma la vita con ulteriore forza; esso sopprime il fenomeno lasciando sussistere la cosa in sé. Suicidandosi esprime un grande desiderio di vivere guidato dal malcontento per le condizioni che gli sono toccate e quindi il suicidio diventa un gesto di protesta contro le condizioni di vita dell'itera umanità.
 
 > Ne "Il Fu Mattia Pascal", Mattia abbandona la vita precedente promettendosi di vivere felice. Anche Pirandello crede che il dolore di vivere esiste ed è sempre presente. Adriano Meis si illude di poter abbandonare la sua esistenza e di poterla cambiare. La sua identità è pesante in quanto vincola a un ruolo (Mattia è un marito, un padre) di cui non è pienamente soddisfatto, sente che il ruolo attribuitogli in qualche modo lo limita e cerca di liberarsene per raggiungere la felicità.
 > [[Pirandello]]
@@ -47,3 +47,13 @@ Come [[@Kant|Kant]] Schopenhauer riprende la condizione umana del piacere esteti
 
 ## Nirvana
 Marco Aurelio, Epiteto... Gli stoici definirono la vita come un teatro nel quale ogni uomo è chiamato a recitare la sua parte. Il Nirvana / noluntas / beatitudine  è la vera felicità, è l'aponia degli storici, l'atarassia di Epicuro...
+
+---
+con Kierkegaard è il maggior anti hegeliano dell'800. Hegel=ottimista e vincente in concomitanza a rivoluzioni proletarie, crescita economica e industriale. -> hegelismo non può che essere la filosofia vincente in questo periodo.
+S. dice che il mondo è la produzione della volontà di vivere, cieca irrazionale infinita e eterna. La radice del mondo è la volontà di vivere.
+La filosofia di S. avrà successo dopo i moti rivoluzionistici del 1848, negli anni '50 quando il sistema ottimistico del tempo presenta le prime falle.
+
+razionalismo ottimistico hegel -> la storia è progresso razionale. Per hegel le singole esistenze sono delle pedine del tutto, per Kierkegaard sono loro il tutto (esistenzialismo)
+irrazionalismo pessimistico S. -> storia è ripetizione incessante della stessa tragedia, continua reiterazione di dramma e guerra. Il negativo non è figlio di un passaggio al positivo.
+
+L'hegelismo verrà sostituite dal materialismo di Marx e dal positivismo

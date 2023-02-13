@@ -12,10 +12,12 @@
   },
   "spellcheckLanguages": [
     "en-GB",
-    "it"
+    "it",
+    "de"
   ],
-  "spellcheck": false,
+  "spellcheck": true,
   "fileSortOrder": "alphabetical",
   "newFileLocation": "current",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "promptDelete": false
 }

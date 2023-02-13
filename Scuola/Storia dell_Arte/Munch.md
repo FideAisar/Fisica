@@ -14,6 +14,7 @@ Il soggetto è la sorella di Munch morta di tubercolosi. E' seduta su una sedia 
 Essenzialità, una giovane ragazza seduta su un letto in una stanza asettica. Geometricamente parlando la donna è disposta in senso verticale, il letto orizzontale e l'ombra in diagonale. La ragazzina è spaesata, l'ombra non è realistica, è deformata: Munch si interessa ai problemi sociali.
 
 ## Sera nel corso Karl Johan
+^98c15a
 Munch all'apparenza ritrae una folla vestita bene che passeggia. In realtà il soggetto è la borghesia di fine '800, la fiumana di gente tutta uguale; tutti hanno lo stesso pallore anonimo e sembrano dei fantasmi. L'atmosfera è quindi surreale e l'unico contraltare alla fiumana è Much ritratto di spalle che cammina in senso opposto. Munch vuole staccarsi dal conformismo e procedere per una via propria.
 
 ## L'urlo o il grido
