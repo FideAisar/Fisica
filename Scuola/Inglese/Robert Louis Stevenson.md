@@ -14,10 +14,10 @@ The extract recounts the encounter between Mr Hyde and Dr Lanyon. Dr Lanyon sees
 
 Dr Lanyon is a man of science and tells the story from his point of view. He describes Mr Hyde using objective and subjective adjectives: he was small with great apparent debility. He says that that man caused in him a disgustful curiosity
 
-
 Stevenson writes this story with the purpose of deepening the complexity and ambiguity of human nature. Dr Jekyll is a Faustian characters whose ambition is to divide good and evil side of human soul with his experiments; his excess of ambition led him to destroy himself. Mr Hyde in the novel could be interpreted as:
 - A suggestion to men to find a balance between good and evil in their life.
 - The embodiment of the negative aspect of Victorian age: corruption, violence hidden behind the image of England as a progressive and civilised country. 
 
-
 **Transformation:** The main event of the extract consists in the transformation of Mr Hyde that becomes Dr Jekyll after swallowing a potion. This event emphasises the most the devilish nature of Mr Hyde through detailed description of the transformation.
+
+![[Stevenson_.pdf]]

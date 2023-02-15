@@ -37,3 +37,5 @@ The speaker lays out what will be the goals of the whites who go forth to conque
  The speaker insists, the non-white peoples will see through the ruse. They will know instantly that the audience declined the challenge from exhaustion and fear, and they will judge them accordingly. If the task is declined, the non-white peoples will judge not just the whites themselves, but the things the whites hold dearest, including their religion and their tradition, as unworthy.
 
 The speaker then encourages the audience to grow up and put childish ways behind them. This will let the audience refuse tasks that will get them easy praise. Instead, the white audience will have to prove themselves to be adults, even if this task offers little reward over the years. 
+
+![[Kipling.pdf]]

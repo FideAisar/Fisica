@@ -41,7 +41,4 @@ In the extract we can read about the myths and legends that surround the figure 
 	2. Ahab sees the whale as  a monomaniac incarnation of his own struggle and obsession
 
 
-
-
-
-
+![[Melville.pdf]]
