@@ -4,7 +4,7 @@ author: Federico Cesari
 tags: [Tema]
 date: 2023/02/04
 ---
-# Conquista del potere da parte del partito nazionale fascista
+# Conquista del potere da parte del partito fascista
 
 Benito Mussolini fondò i Fasci di combattimento nel 1919, anno nel quale lui era già piuttosto noto come ex socialista ed ex direttore dell’”Avanti!”. 
 
