@@ -1,7 +1,7 @@
 ---
 title: Giovanni Gentile - Lo stato etico
 author:  Federico Cesari
-tags: [Doc]
+tags: [Tema]
 date: 02.10.2022
 ---
 ## Lo stato etico

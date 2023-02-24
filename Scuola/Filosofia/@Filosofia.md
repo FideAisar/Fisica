@@ -4,7 +4,7 @@ author:
 tags: [index]
 date: 2021/00/00
 ---
-## 0.1. Filosofia
+## Filosofia
 - [[Gorgia]]
 - [[Socrate]]
 - [[Parmenide]]
@@ -31,7 +31,12 @@ date: 2021/00/00
 	- [[Naturephilosophie]]
 - [[Feuerbach]]
 
+- [[Domande interrogazione filosofia]]
 - [[Diritto alla proprietà - Marx e Costituzione a confronto]]
+- 
 - [[Schopenhauer]]
 - [[Nietzsche]]
 - [[Freud]]
+
+---
+- [[Progresso]]
