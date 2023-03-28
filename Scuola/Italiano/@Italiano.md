@@ -38,6 +38,7 @@ date: 05.09.2022
 ### Pascoli 
 ### D'Annunzio
 - [[@DAnnunzio]]
+- [[DAnnunzio]]
 
 ## Futurismo, Ermetismo
 ### Pirandello

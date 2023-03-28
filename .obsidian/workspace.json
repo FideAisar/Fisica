@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "e07ca150aaee5e34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scuola/Storia/1929_Grande_depressione.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00e739a89158d0b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scuola/Italiano/DAnnunzio.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "56da89254c992621",
             "type": "leaf",
             "state": {
@@ -46,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +131,7 @@
             }
           },
           {
-            "id": "e9ea5acba2c5ab03",
+            "id": "4b87fc30abeeb353",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -116,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -132,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Filosofia/Domande interrogazione filosofia.md",
+                "file": "Scuola/Italiano/DAnnunzio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Filosofia/Domande interrogazione filosofia.md"
+                "file": "Scuola/Italiano/DAnnunzio.md"
               }
             }
           }
@@ -167,32 +195,33 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "f843c0b5cf854bff",
+  "active": "00e739a89158d0b4",
   "lastOpenFiles": [
-    "Scuola/Filosofia/@Filosofia.md",
-    "Scuola/Filosofia/322 a.C. preAristotele/Socrate.md",
-    "Scuola/Filosofia/322 a.C. preAristotele/Empedocle.md",
-    "Scuola/Filosofia/Positivismo.md",
-    "Scuola/Storia dell_Arte/Salvador Dali.md",
-    "Scuola/Latino/Quintiliano - toc.md",
-    "Scuola/Italiano/prova Kanban.md",
-    "Scuola/Filosofia/Progresso.md",
-    "Scuola/Filosofia/Domande interrogazione filosofia.md",
-    "Scuola/Storia/Come poté il partito nazionale fascista conquistare il potere con solo 35 deputati in parlamento.md",
-    "Scuola/Storia dell_Arte/@Storia dell Arte.md",
+    "Scuola/Inglese/@Inglese.md",
+    "Scuola/Inglese/Literature/Daniel Defoe.md",
+    "Scuola/Inglese/Oscar Wilde.md",
+    "Scuola/Inglese/Literature/Robinson Crusoe.md",
+    "Scuola/Inglese/Literature/Romantic Poetry.md",
+    "Scuola/Latino/Orazio/Orazio - Satire/Orazio - Satira (Il topo di campagna e il topo di città).md",
+    "Scuola/Italiano/DAnnunzio.md",
     "Scuola/Italiano/@Italiano.md",
-    "Scuola/Filosofia/Giovanni Gentile - lo stato etico.md",
-    "Scuola/Filosofia/1883 Marx/Diritto alla proprietà - Marx e Costituzione a confronto.md",
-    "Scuola/Storia/Come poté il partito nazionale fascista conquistare il potere con solo 35 deputati in parlamento?.md",
-    "Scuola/Chimica/@Chimica Organica.md",
-    "Scuola/Chimica/Biochimica.md",
-    "Scuola/Chimica/Metabolismo energetico.md",
-    "Scuola/Chimica/Composti della chimica organica.md",
-    "Scuola/Italiano/Leopardi.md",
-    "Scuola/Latino/Marziale - toc.md",
-    "Scuola/Latino/@Latino.md",
-    "Scuola/Italiano/Untitled Kanban.md",
     "Scuola/Italiano/@DAnnunzio.md",
-    "Scuola/Latino/Seneca/Seneca - toc.md"
+    "Scuola/Italiano/Il Piacere - DAnnunzio.md",
+    "Scuola/Storia/1929_Grande_depressione.md",
+    "Scuola/Storia/@Storia.md",
+    "Scuola/Storia/1918-1937_Wiemar_Nazismo.md",
+    "Scuola/Filosofia/@Filosofia.md",
+    "Scuola/Storia/Untitled.md",
+    "Scuola/Storia/1919-1939_Fascismo.md",
+    "Scuola/Inglese/Grammar/Venture - U10.md",
+    "Scuola/Inglese/Rudyard Kipling.md",
+    "Scuola/Inglese/Conrad.md",
+    "Scuola/Inglese/Rupert Brook.md",
+    "Scuola/Inglese/Modernism.md",
+    "Excalidraw/Sistema Linfatico.excalidraw.md",
+    "Excalidraw/@Excalidraw.md",
+    "LaTex/Pgfplots.md",
+    "Scuola/Fisica/Onde - 02 Fronti d_onda.md",
+    "Excalidraw/Grafico.excalidraw.md"
   ]
 }

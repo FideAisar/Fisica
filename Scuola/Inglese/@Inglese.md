@@ -43,7 +43,7 @@ date: 05.09.2022
 	- [[Jonathan Swift - Gulliver_s Travels]]
 - [[Robinson Crusoe]]
 
-#### Romanticism
+### Romanticism
 - [[Romantic Poetry]]
 - [[Samuel Taylor Coleridge]]
 	- [[Samuel Taylor Coleridge - Water, water everywhere (analisi)]]
@@ -51,7 +51,7 @@ date: 05.09.2022
 - [[William Blake]]
 - [[William Wordsworth]]
 
-#### Victorian age
+### Victorian age
 [[1 orale 2023]]
 - [[Charles Dickens]]
 - [[Robert Louis Stevenson]]
@@ -61,6 +61,12 @@ date: 05.09.2022
 - [[Herman Melville]]
 	- [[Moby Dick - analysis]]
 
+### Edwardian age
+- [[Modernism]]
+- [[Conrad]]
+
+### War Poets
+- [[Rupert Brook]]
 
 
 [[Vocabulary]]

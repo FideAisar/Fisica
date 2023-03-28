@@ -1,7 +1,7 @@
 {
   "cssTheme": "",
   "textFontFamily": "Roboto,Times New Roman,JetBrains Mono,JetBrains Mono NL",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "baseFontSize": 15,
   "translucency": false,
   "monospaceFontFamily": "Cascadia Mono",
@@ -10,7 +10,7 @@
     "custom",
     "centered_images"
   ],
-  "accentColor": "#7b00ff",
+  "accentColor": "#966e85",
   "showViewHeader": true,
   "nativeMenus": false
 }
