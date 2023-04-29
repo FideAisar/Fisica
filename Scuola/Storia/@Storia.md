@@ -17,4 +17,6 @@ date: 26.10.2022
 - [[1929_Grande_depressione]]             %% 7              %%
 - [[1928_Stalin]]                                        %% 7.4 %%
 
+- [[Seconda guerra mondiale]]
+
 ## Ordine cronologico

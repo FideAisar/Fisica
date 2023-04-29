@@ -31,11 +31,6 @@ date: 2021/00/00
 - [[Seneca - Il tempo]]
 - [[Seneca - Gli schiavi]]
 
-## Petronio
-## Lucano
-
-## Marziale
 - [[Marziale - toc]]
-
-## Quintiliano
 - [[Quintiliano - toc]]
+- [[Giovenale]]

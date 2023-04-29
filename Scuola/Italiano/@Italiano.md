@@ -27,19 +27,9 @@ date: 05.09.2022
 [[Leopardi]]
 [[Leopardi - L'Infinito]]
 
-## Realismo, Impressionismo, Espressionismo
-### de Balzac
-### Flaubert
 
-## Naturalismo e Verismo
-### Verga
 
-## Decadentismo
-### Pascoli 
-### D'Annunzio
-- [[@DAnnunzio]]
 - [[DAnnunzio]]
-
-## Futurismo, Ermetismo
-### Pirandello
+- [[Italo Svevo]]
+- [[Pirandello]]
 ### Pasolini

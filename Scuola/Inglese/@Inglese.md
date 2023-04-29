@@ -67,6 +67,10 @@ date: 05.09.2022
 
 ### War Poets
 - [[Rupert Brook]]
+- [[Owen]]
 
+	- [[Eliot]]
+- [[James Joyce]]
+- [[Virginia Woolf]]
 
 [[Vocabulary]]
