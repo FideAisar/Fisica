@@ -52,20 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8c5cf5533bb7bb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scuola/Inglese/Rupert Brook.md",
+                "file": "Scuola/Inglese/Virginia Woolf.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Inglese/Rupert Brook.md",
+                "file": "Scuola/Inglese/Virginia Woolf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scuola/Inglese/Rupert Brook.md"
+                "file": "Scuola/Inglese/Virginia Woolf.md"
               }
             }
           }
@@ -196,38 +183,38 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "f8c5cf5533bb7bb6",
+  "active": "edcc6f6150fb1a0b",
   "lastOpenFiles": [
+    "Scuola/Matematica/Prova.md",
+    "Pasted image 20230502103600.png",
+    "Scuola/Matematica/@Matematica.md",
+    "Excalidraw/Grafico.excalidraw.md",
+    "Excalidraw/@Excalidraw.md",
+    "Scuola/Matematica/esercizi.md",
+    "Scuola/Inglese/Virginia Woolf.md",
     "Scuola/Inglese/@Inglese.md",
+    "Scuola/Inglese/Eliot.md",
+    "LaTex/Test.md",
+    "LaTex/@LaTex.md",
+    "Scuola/@Scuola.md",
+    "Scuola/Inglese/Literature/Pride and Prejudice (analysis).md",
+    "temp.md",
+    "Scuola/Inglese/Literature/Samuel Taylor Coleridge - Water, water everywhere (analisi).md",
+    "Scuola/Inglese/Literature/Romantic Poetry.md",
+    "Scuola/Inglese/Owen.md",
+    "Scuola/Filosofia/1646 Leibniz/Leibniz - 01 Ordine contingente e verità.md",
+    "Scuola/Inglese/Rupert Brook.md",
     "Scuola/Inglese/James Joyce.md",
     "Scuola/Filosofia/1623 Pascal/Pascal - 04 Divertissement.md",
     "Scuola/Filosofia/@Filosofia.md",
     "Scuola/Filosofia/Feuerbach.md",
-    "Scuola/Inglese/Virginia Woolf.md",
-    "Scuola/Matematica/@Matematica.md",
     "Scuola/Matematica/Funzioni.md",
-    "Scuola/Inglese/Rupert Brook.md",
     "Scuola/Italiano/Leopardi.md",
-    "temp.md",
     "Scuola/Filosofia/Schopenhauer.md",
-    "Scuola/Italiano/Pirandello.md",
-    "Scuola/Italiano/DAnnunzio.md",
-    "Scuola/Storia/Seconda guerra mondiale.md",
     "Recording 20230331135518.webm",
     "Recording 20230331134519.webm",
     "Recording 20230331132940.webm",
     "Recording 20230331132535.webm",
-    "Recording 20230331132013.webm",
-    "Scuola/Storia/@Storia.md",
-    "Scuola/Inglese/Eliot.md",
-    "Scuola/Latino/Giovenale.md",
-    "Scuola/Latino/@Latino.md",
-    "Linux/VoidLinux/Void Linux - knowledge base.md",
-    "Scuola/Italiano/Italo Svevo.md",
-    "Scuola/Italiano/@Italiano.md",
-    "Scuola/Storia/1929_Grande_depressione.md",
-    "Scuola/Italiano/@DAnnunzio.md",
-    "Scuola/Italiano/Alcione - DAnnunzio.md",
-    "Scuola/Italiano/Il libro segreto - DAnnunzio.md"
+    "Recording 20230331132013.webm"
   ]
 }

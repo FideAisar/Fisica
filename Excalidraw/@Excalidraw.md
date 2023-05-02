@@ -6,5 +6,5 @@ date: 2022/12/23
 ---
 
 # Excalidraw
-- [[Grafico.excalidraw]]]
+- [[Grafico.excalidraw]]
 - [[Sistema Linfatico.excalidraw]]

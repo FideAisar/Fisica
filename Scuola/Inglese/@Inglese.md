@@ -37,7 +37,6 @@ date: 05.09.2022
 ### Reneissance
 - [[Jacobean Era]]
 - [[Restoration]]
-- [[Jonathan Swift - Gulliver's Travels]]
 - [[Daniel Defoe]]
 - [[Jonathan Swift]]
 	- [[Jonathan Swift - Gulliver_s Travels]]
@@ -46,7 +45,6 @@ date: 05.09.2022
 ### Romanticism
 - [[Romantic Poetry]]
 - [[Samuel Taylor Coleridge]]
-	- [[Samuel Taylor Coleridge - Water, water everywhere (analisi)]]
 - [[Pride and Prejudice (analysis)]]
 - [[William Blake]]
 - [[William Wordsworth]]
@@ -68,8 +66,7 @@ date: 05.09.2022
 ### War Poets
 - [[Rupert Brook]]
 - [[Owen]]
-
-	- [[Eliot]]
+- [[Eliot]]
 - [[James Joyce]]
 - [[Virginia Woolf]]
 

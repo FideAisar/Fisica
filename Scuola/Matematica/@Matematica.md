@@ -7,3 +7,5 @@ date: 21.09.2022
 # Matematica
 ## Funzioni
 -  [[Funzioni]]
+- [[esercizi]]
+- [[Prova]]
