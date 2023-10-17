@@ -1,0 +1,7 @@
+Need to issue:
+
+setenv LD_LIBRARY_PATH /Users/maina/local/LHAPDF-6.2.0_work/lib
+or
+export LD_LIBRARY_PATH=/Users/maina/local/LHAPDF-6.2.0_work/lib
+
+before running

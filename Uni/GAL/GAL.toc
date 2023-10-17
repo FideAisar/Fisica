@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Spazi Vettoriali}{2}{}%
+\contentsline {subsubsection}{Proprietà della somma}{2}{}%
+\contentsline {subsubsection}{Proprietà del prodotto}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Sottospazi vettoriali}{2}{}%
+\contentsline {subsubsection}{Esempi di sottospazi vettoriali}{2}{}%
+\contentsline {section}{\numberline {2}Matrici}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Spazio vettoriale delle matrici}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Operazioni tra matrici}{4}{}%
+\contentsline {subsubsection}{La trasposta di una matrice}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Determinante}{5}{}%
+\contentsline {subsubsection}{Calcolo del determinante}{5}{}%
+\contentsline {subsubsection}{Teorema: determinante}{5}{}%
+\contentsline {paragraph}{osservazioni su matrici inverse}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Teoremi di Laplace}{6}{}%
+\contentsline {subsubsection}{Primo Teorema di Laplace}{6}{}%
+\contentsline {subsubsection}{Secondo Teorema di Laplace}{7}{}%
+\contentsline {subsection}{\numberline {2.5}Matrici inverse}{7}{}%
+\contentsline {subsubsection}{Teorema: matrici inverse}{7}{}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 1}{8}{}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 2}{8}{}%
+\contentsline {subsubsection}{Teorema: matrice inversa 2}{8}{}%
+\contentsline {subsection}{\numberline {2.6}Teorema di Cramer}{8}{}%
+\contentsline {section}{\numberline {3}Esercizi rilevanti}{9}{}%
+\contentsline {subsubsection}{Dimostrazione per assurdo}{9}{}%
+\contentsline {subsubsection}{Dimostrazione per induzione}{9}{}%

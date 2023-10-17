@@ -1,0 +1,30 @@
+
+Quando parlo di nuova versione intendo i file in ~phantom/phantom/phantom_1_2_7
+
+
+
+
+1) Eliminare  phsp1_1_4_multi5_c.f  phsp1_1_4_multi5_cjac.f phsp2_4_multi5_c.f phsp2_4_multi5_cjac.f
+
+2) Introdurre phsp1_1_4_multi7_c.f  phsp1_1_4_multi7_cjac.f phsp2_4_multi7_c.f phsp2_4_multi7_cjac.f phsp_7.f phsp_ini7.f
+
+3) Usare nuova versione di procextraini.f dove tra le altre cose i common COMMON/phspinput_proc/ e COMMON/phspinput_data/ sono modificati
+rispetto a 1_2_7ref. procextraini.f ha come owner ballestr. Hai fatto ulteriori modifiche? COMMON/phspinput_proc/ compare anche in fxn.f e
+storeLH.f
+
+4) Usare nuova versione di procini.f.
+
+5) Eliminare *OLD*
+
+6) Usare nuova versione di fxn.f.  ATTENZIONE: mentre controllavo i cambiamenti ho trovato un errore in phantom_1_2_7/fxn.f.
+A linea 1464 avevo un p al posto di paux. L'HO CORRETTO.
+
+7) Usare nuova versione di util.f. util.f ha come owner ballestr. Hai fatto ulteriori modifiche?
+
+8) usare nuova versione di makefile
+
+9) Come ti ho detto al telefone ho assunto che rmhh<0 significasse niente extra Higgs.
+
+10) Usare nuova versione di storeLH.f
+
+Non mi pare ci sia altro.

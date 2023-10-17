@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd mh0/c_s-ee_muvm_; condor_submit  condor.sub

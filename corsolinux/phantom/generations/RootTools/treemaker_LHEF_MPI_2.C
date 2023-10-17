@@ -1,0 +1,372 @@
+/*
+ *treemaker_LHEF_MPI_2.C
+ *
+ *
+ *Last update: January 12,2012
+ *
+ * modified dimensions of
+ *   TString gen[nlhef][nproc]; 
+ * and TString line[nproc];
+ * because of errors 
+ *       error: variable length array of non-POD element type 'TString' TString gen[nlhef][nproc];
+ * in root on OS X 10.7 which were not present in previous OS X.
+ *   
+ *
+ *Last update: March 31,  2009
+ *
+ *This routine stores the information from a Les Houches Event File (LHEF) in a
+ *ROOT file tree.root.
+ *The file consists of a ROOT tree which provides, for each EXTERNAL
+ *(i.e. not intermediate) particle, the following information:
+ *  - IDUP
+ *  - ISTUP
+ *  - px
+ *  - py
+ *  - pz
+ *  - E
+ *Moreover the tree stores the value of the total cross section, which is
+ *required to be entered as input.
+ *This particular version is geared to deal with multiple particle interactions.
+ *It combines nproc separate generations event by event superimposing the two sets
+ *of particles. This is the most  naive approach to MPI.
+ *It is assumed that the numer of LH files and of events is the same in all the
+ *generations.
+ ******************************************************************************/
+
+#if !defined(_CINT_) || defined(_MAKECINT_)
+#include <Riostream.h>
+#include "TROOT.h"
+#include <stdio.h>
+#include <iostream>
+#include "TString.h"
+#include "TFile.h"
+#include "TTree.h"
+#include "TMath.h"
+#include "TObjString.h"
+#include "TPaveText.h"
+#include "TCanvas.h"
+#endif
+
+void treemakerMPI()
+{
+
+//  gROOT->Reset();
+
+  Int_t nmax_partons=12;
+  Double_t px[nmax_partons], py[nmax_partons], pz[nmax_partons], E[nmax_partons];
+  Int_t idup[nmax_partons];             //Les Houches IDUP (particle ID)
+  Int_t istup[nmax_partons];            //Les Houches ISTUP
+  Int_t imotherstatus;       //Les Houches mother status:
+                             // if abs(imotherstatus)!=1, particle is a mother
+                             // i.e. it does not belong to the effective final 
+                             // state
+  Double_t xsec_tot,xsec_eff;             //total cross section
+
+  TString LHEFfilename[20];
+  char line_aux[300];
+  char str[300];
+  Double_t dummy_double[7];
+  TString dummy_string; 
+
+  Int_t nproc_max=5;
+  Int_t nlhef_max=20;
+  TString gen[20][5];
+  Double_t xsec[5];
+  TString line[5];
+  
+
+
+//  xsec_eff=14.5e9;  // In pb (14.5 mb)
+  xsec_eff=12.0e9;  // In pb (12.0 mb)
+  for(Int_t kp=0;kp<nmax_partons;kp++){
+     px[kp]=0.0;
+     py[kp]=0.0;
+     pz[kp]=0.0;
+     E[kp]=0.0;
+     idup[kp]=0;
+     istup[kp]=0;
+   }
+  
+  Int_t nevts, nparticle;
+  nevts = 0;
+
+  cout.precision(10);
+
+  cout<<endl;
+  cout<<"**************************************************************"<<endl;
+  cout<<"                    -- treemaker_LHEF --                      "<<endl;
+  cout<<"   version adapted to Les Houches Event File (LHEF) format    "<<endl;
+  cout<<"**************************************************************"<<endl;
+  cout<<endl;
+
+  cout<<"Enter the number processes to combine: "<<endl;
+  Int_t nproc=0;
+  cin>>nproc>>dummy_string;
+  cout<<"Number processes to combine is: "<<nproc<<endl;
+
+  cout<<"Enter the symmetry factor: "<<endl;
+  Int_t nsym=0;
+  cin>>nsym>>dummy_string;
+  cout<<"Symmetry factor is: "<<nsym<<endl;
+
+  cout<<"Enter the number of LHEF files of each type  to be read: "<<endl;
+  Int_t nlhef=0;
+  cin>>nlhef>>dummy_string;
+  cout<<"Number of LHEF files of each type  to be read is: "<<nlhef<<endl;
+
+  for(Int_t kp=0;kp<nproc;kp++){
+    cout<<"Enter the  absolute path of the "<< nlhef <<" LHEF files for process "<< kp <<": "<<endl;
+    for(Int_t ki=0;ki<nlhef;ki++){
+      cin>>gen[ki][kp];
+    cout<<"File "<<ki+1<<" for process "<< kp+1 <<" is : "<<gen[ki][kp]<<endl;
+    }
+    cout<<"Enter the value of total cross section for process "<< kp+1 <<": ";
+    cin>>xsec[kp];
+    cout.precision(10);
+    cout<<endl;
+    cout<<"read total cross section: xs1 = "<<xsec[kp]<<" pb"<<endl;
+    cout<<endl;
+  }
+  
+  xsec_tot=xsec[0]/nsym;
+  for(Int_t kp=1;kp<nproc;kp++){
+  xsec_tot*=xsec[kp]/xsec_eff;
+  }
+  cout<<"total cross section: xsec_tot=xsec1*xsec2/xsec_eff*xsec3/xsec_eff ..... = "<<xsec_tot<<" pb"<<endl;
+  cout<<endl;
+  cout<<"Processing. Please wait..."<<endl;
+
+
+  TString rootfilename = "tree.root";
+  TFile *rootfile = new TFile(rootfilename.Data(),"RECREATE");
+  cout<<"created ROOT file "<<rootfilename.Data()<<endl;
+
+  // create tree and set branches
+  TTree *tree = new TTree("events","Kinematics of the event (four-momenta and particle ID's)");
+//  tree->Branch("px",px,"px[nmax_partons]/D");
+//  tree->Branch("py",py,"py[nmax_partons]/D");
+//  tree->Branch("pz",pz,"pz[nmax_partons]/D");
+//  tree->Branch("E",E,"E[nmax_partons]/D");
+//  tree->Branch("IDUP",idup,"idup[nmax_partons]/I");
+//  tree->Branch("ISTUP",istup,"istup[nmax_partons]/I");
+  tree->Branch("px",px,"px[12]/D");
+  tree->Branch("py",py,"py[12]/D");
+  tree->Branch("pz",pz,"pz[12]/D");
+  tree->Branch("E",E,"E[12]/D");
+  tree->Branch("IDUP",idup,"idup[12]/I");
+  tree->Branch("ISTUP",istup,"istup[12]/I");
+
+
+  // store information about the total cross section
+  TString sxsec;
+  sxsec.Form("%f",xsec_tot);
+  TObjString *osxsec = new TObjString(sxsec.Data());
+  tree->GetUserInfo()->Add(osxsec);
+  
+  //Information about the integrated cross sections will be stored in a canvas
+  TPaveText text_xsec(0.1,0.1,0.9,0.9);
+  text_xsec.SetLabel("Integrated cross sections");
+  TString s;
+  s="Total cross section:";
+  s+="    ";
+  s+=xsec_tot;
+  s+=" pb";
+  text_xsec.AddText(s.Data());
+  text_xsec.AddText(" ");
+
+  //Information about the effective cross section
+  s="Effective cross section for normalization:";
+  s+="    ";
+  s+=xsec_eff;
+  s+=" pb";
+  text_xsec.AddText(s.Data());
+  text_xsec.AddText(" ");
+
+  TCanvas c_xsec("total_cross_section");
+  text_xsec.Draw();
+  c_xsec.Write();
+
+
+
+
+
+  // Start analysis_____________________________________________________________
+  cout<<"Starting analysis "<<endl;
+
+
+  FILE *fp[nproc];
+  Int_t ninitlines[nproc],nline[nproc],nline_local[nproc];
+
+  for(Int_t ki=0;ki<nlhef;ki++){
+
+// Open files and check first line
+
+    for(Int_t kp=0;kp<nproc;kp++){
+      LHEFfilename[kp] = gen[ki][kp];
+      cout<<"Processing file "<<LHEFfilename[kp]<<endl;
+
+      // Check if the input file is in Les Houches (LHEF) format. LHEF requires 
+      // the first line to look like: "<LesHouchesEvents version="X.X">"
+      fp[kp] = fopen(LHEFfilename[kp].Data(),"r");
+      fgets(&line_aux[0],300,fp[kp]);
+      sscanf(&line_aux[0], "%s",&str[0]);
+      line[kp] = str;
+      if(!line[kp].Contains("<LesHouchesEvents")) {
+        cout<<"***ERROR: event file "<< LHEFfilename[kp] <<" is not in standard LHEF format.!!!"<<endl;
+        exit(0);
+      }
+
+      fclose(fp[kp]);
+    }
+    
+  // Scan LHEF files____________________________________________________________
+
+
+    for(Int_t kp=0;kp<nproc;kp++){
+      fp[kp] = fopen(LHEFfilename[kp].Data(),"r");
+      ninitlines[kp]=0;
+      line[kp]="";
+
+      while(line[kp] != "<event>") {
+        fgets(&line_aux[0],300,fp[kp]);
+        sscanf(&line_aux[0], "%s",&str[0]);
+        line[kp] = str;
+/*
+        if(line1.Contains(EOF)){
+            cout<<"File "<<LHEFfilename1.Data()<<"does not contain events!!!"<<endl;
+            exit(1);
+            }
+*/
+        ninitlines[kp]++;
+      }
+
+    }
+
+
+    //At this point line[0,---,nproc-1] contain the first "<event>" encountered: this is the
+    //starting point for data acquisition.
+    for(Int_t kp=0;kp<nproc;kp++){
+      nline[kp] = 0;
+      nline_local[kp] = 1;
+    }
+    nevts = 0;
+    nparticle = 0;
+
+    while (line[0] != "</LesHouchesEvents>") {
+
+      fgets(&line_aux[0],300,fp[0]);
+      sscanf(&line_aux[0], "%s",&str[0]);
+      line[0] = str;
+      nline[0]++;
+
+      if(line[0].Contains("<event>")){
+	nline_local[0]=1;
+	continue;  //returns at beginning of the WHILE loop
+      }
+      else if(line[0].BeginsWith("#")){
+	continue;
+      }
+      else if(nline_local[0]==1){ // line contains common event information
+	nline_local[0]++;
+	continue;
+      }
+      else if(line[0].Contains("</event>")){
+
+        // Scan all other files: always stop on "</event>"
+        // line[] is cleared at the end in order to have a clean start
+       for(Int_t kp=1;kp<nproc;kp++){
+
+         while (1){
+           fgets(&line_aux[0],300,fp[kp]);
+           sscanf(&line_aux[0], "%s",&str[0]);
+           line[kp] = str;
+           nline[kp]++;
+           if(line[kp].Contains("<event>")){
+	     nline_local[kp]=1;
+	     continue;  //returns at beginning of the WHILE loop
+           }
+           else if(line[kp].BeginsWith("#")){
+           continue;
+           }
+           else if(nline_local[kp]==1){ // line contains common event information
+	     nline_local[kp]++;
+       	continue;
+           }
+           else if(line[kp].Contains("</event>")){
+	     break;  // stop loop while (1)
+           }
+           else{  // analyse line content
+          	 nline_local[kp]++;
+        	 sscanf(&line_aux[0], "%*i %d %*i %*i %*i %*i %le %le %le %le %le %le %le",&imotherstatus,&dummy_double[0],&dummy_double[1],&dummy_double[2],&dummy_double[3],&dummy_double[4],&dummy_double[5],&dummy_double[6]);
+
+        	 if(TMath::Abs(imotherstatus)==1){
+	       sscanf(&line_aux[0], "%i %d %*i %*i %*i %*i %le %le %le %le %le %le %le",&idup[nparticle],&istup[nparticle],&px[nparticle],&py[nparticle],&pz[nparticle],&E[nparticle],&dummy_double[0],&dummy_double[1],&dummy_double[2]);
+ 	       nparticle++;
+	     }
+         }  
+       } // End while (line2 != "</event>")
+     } // End for(Int_t kp=0;kp<nproc;kp++)
+
+
+
+
+/*
+// Test
+//  if(nevts<=10 || nevts>=49990){
+   cout<<"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++"<<endl;
+   cout<<"file:"<<ki<<endl;
+   cout<<"event"<<nevts<<endl;
+  for(Int_t kj=0;kj<nparticle;kj++){
+    cout<<idup[kj]<<" "<<istup[kj]<<" "<<px[kj]<<" "<<py[kj]<<" "<<pz[kj]<<" "<<E[kj]<<endl;
+     }
+//  }
+// End Test
+*/
+
+    	    tree->Fill();
+	    nparticle=0;
+	    nevts++;
+          
+         for(Int_t kp=1;kp<nproc;kp++){
+	     nline_local[kp]=0;
+           line[kp]="";
+         }
+	   nline_local[0]=0;
+         
+      }
+      else{  // analyse line content
+	  nline_local[0]++;
+	  sscanf(&line_aux[0], "%*i %d %*i %*i %*i %*i %le %le %le %le %le %le %le",&imotherstatus,&dummy_double[0],&dummy_double[1],&dummy_double[2],&dummy_double[3],&dummy_double[4],&dummy_double[5],&dummy_double[6]);
+
+	  if(TMath::Abs(imotherstatus)==1){
+	    sscanf(&line_aux[0], "%i %d %*i %*i %*i %*i %le %le %le %le %le %le %le",&idup[nparticle],&istup[nparticle],&px[nparticle],&py[nparticle],&pz[nparticle],&E[nparticle],&dummy_double[0],&dummy_double[1],&dummy_double[2]);
+	    nparticle++;
+	  }
+      } // End if(line[0].Contains("<event>"))
+
+
+    }  // end  while (line[0] != "</LesHouchesEvents>") {
+
+
+    for(Int_t kp=0;kp<nproc;kp++){
+      fclose(fp[kp]);
+
+      cout<<endl<<ki+1<<"  >>>>>"<<gen[ki][kp].Data()<<"<<<<<"<<":"<<endl;
+      cout<<nline[kp]+ninitlines[kp]<<" lines read in "<<LHEFfilename[kp].Data()<<endl;
+      cout<<endl<<ki+1<<"  >>>>>"<<gen[ki][kp].Data()<<"<<<<<"<<":"<<endl;
+    }
+    cout<<nevts<<" events processed"<<endl;
+    cout<<endl;
+  
+  } //end for(Int_t ki=0;ki<nlhef;ki++){
+
+
+
+  rootfile->Write();
+
+  cout<<endl;
+  cout<<"Execution successful."<<endl;
+  cout<<endl;
+
+
+}

@@ -1,0 +1,207 @@
+#!/bin/bash
+
+# This script assumes that you have already created a working directory gen1
+#  with the correct r.in and run files (if running at CERN also the condor.sub script), 
+# and that in r.in idum is -123456789 
+# The script, starting from gen1 creates other XMAX-1 directories with proper
+#  run and different idum random number seeds in r.in. 
+# XMAX must be  <= 50.
+
+
+RUNFILE=run
+SUBMITFILE=submitfile
+CONDORFILE=condor.sub
+
+
+NPARAMETER=8
+if [ $# -ne $NPARAMETER ]
+then
+        echo "Usage:"
+        echo ""
+        echo "gendir.scr -l LOCATION -q QUEUE -d NDIR -i INPUTDIR"
+        echo "        LOCATION = TO, CERN"
+        echo "        QUEUE = local queue (TO: slow; CERN: espresso, microcentury, longlunch, workday, tomorrow, testmatch, nextweek)" 
+        echo "        NDIR = Number of generation samples (max 100)"
+        echo "        INPUTDIR = location of the gen1 prototype"
+        echo ""
+        echo "ALL PARAMETRS >MUST< BE SUPPLIED"
+        echo ""
+        exit
+fi
+
+while [ -n "$(echo $1 | grep '-')" ]; do
+	echo "processing $1"
+	case $1 in
+	        -l ) LOCATION=$2 ;;
+	        -d ) XMAX=$2 ;;
+	        -i ) INPUTDIR=$2 ;;
+	        -q ) QUEUE=$2 ;;
+	         * ) echo "Unrecognized parameter: $1 $2";exit;
+	esac
+	
+        shift 2
+done
+
+#XMAX=50
+#INPUTDIR=/Users/maina/test
+#LOCATION=CERN
+
+
+RAN[1]=-123456789
+RAN[2]=-28693509
+RAN[3]=-32049304
+RAN[4]=-35550367
+RAN[5]=-13575136
+RAN[6]=-21398711
+RAN[7]=-87889730
+RAN[8]=-55888342
+RAN[9]=-52049303
+RAN[10]=-93333595
+RAN[11]=-58311969
+RAN[12]=-49754792
+RAN[13]=-14081484
+RAN[14]=-94089806
+RAN[15]=-89160269
+RAN[16]=-10806787
+RAN[17]=-14004433
+RAN[18]=-72201627
+RAN[19]=-94212520
+RAN[20]=-64801603
+RAN[21]=-82007443
+RAN[22]=-72401970
+RAN[23]=-32091826
+RAN[24]=-50586664
+RAN[25]=-70722067
+RAN[26]=-26007133
+RAN[27]=-38164389
+RAN[28]=-16999311
+RAN[29]=-91765405
+RAN[30]=-79928371
+RAN[31]=-46802467
+RAN[32]=-40430313
+RAN[33]=-6705329
+RAN[34]=-2763357
+RAN[35]=-80807653
+RAN[36]=-19478977
+RAN[37]=-5876221
+RAN[38]=-9901237
+RAN[39]=-2426883
+RAN[40]=-5509441
+RAN[41]=-63085319
+RAN[42]=-8778987
+RAN[43]=-90007435
+RAN[44]=-1538843
+RAN[45]=-3467091
+RAN[46]=-22700869
+RAN[47]=-4153387
+RAN[48]=-6663203
+RAN[49]=-3141575
+RAN[50]=-9876357
+RAN[51]=-50818896
+RAN[52]=-89984571
+RAN[53]=-53829389
+RAN[54]=-30312836
+RAN[55]=-40723603
+RAN[56]=-18003557
+RAN[57]=-19327241
+RAN[58]=-77235430
+RAN[59]=-17778113
+RAN[60]=-72147786
+RAN[61]=-16624879
+RAN[62]=-57503861
+RAN[63]=-48600888
+RAN[64]=-37630639
+RAN[65]=-41913505
+RAN[66]=-11847665
+RAN[67]=-87129646
+RAN[68]=-12502269
+RAN[69]=-35960441
+RAN[70]=-42646598
+RAN[71]=-79822331
+RAN[72]=-72974842
+RAN[73]=-74107187
+RAN[74]=-26135006
+RAN[75]=-24926087
+RAN[76]=-16119579
+RAN[77]=-74073326
+RAN[78]=-55238926
+RAN[79]=-92076885
+RAN[80]=-74566167
+RAN[81]=-34078612
+RAN[82]=-98549976
+RAN[83]=-50725049
+RAN[84]=-62264006
+RAN[85]=-26479876
+RAN[86]=-82288853
+RAN[87]=-54827290
+RAN[88]=-30242940
+RAN[89]=-49142391
+RAN[90]=-65674954
+RAN[91]=-16312667
+RAN[92]=-93511444
+RAN[93]=-18732108
+RAN[94]=-20696780
+RAN[95]=-78350052
+RAN[96]=-58617539
+RAN[97]=-33199051
+RAN[98]=-43795445
+RAN[99]=-48598352
+RAN[100]=-13021379
+
+
+################################################################################
+# CODE:
+################################################################################
+
+
+cd $INPUTDIR
+
+if [ "$LOCATION" == "CERN" ]
+then
+    echo "executable              = $RUNFILE" >> gen1/$CONDORFILE
+    echo "arguments               = $RUNFILE.\$(ClusterId)\$(ProcId)" >> gen1/$CONDORFILE
+    echo "output                  = $RUNFILE.\$(ClusterId).\$(ProcId).out" >> gen1/$CONDORFILE
+    echo "error                   = $RUNFILE.\$(ClusterId).\$(ProcId).err" >> gen1/$CONDORFILE
+    echo "log                     = $runfilename.\$(ClusterId).\$(ProcId).log" >> gen1/$CONDORFILE
+    echo "+JobFlavour = \"$QUEUE\"" >> gen1/$CONDORFILE
+    echo "queue" >> gen1/$CONDORFILE
+fi
+
+X=2
+while [ $X -le $XMAX ]
+do
+    cp -r gen1 gen$X
+    sed s/"gen1"/"gen$X"/g gen$X/$RUNFILE > out
+    mv out gen$X/$RUNFILE
+    
+# The space in " ${RAN[$X]}" is necessary otherwise the shell does not
+# substitute
+    sed s/"-123456789"/" ${RAN[$X]}"/ gen$X/r.in > out
+    mv out gen$X/r.in
+
+    X=$((X+1))
+done
+
+# Submission file
+echo "#!/bin/bash" >> $SUBMITFILE
+X=1
+while [ $X -le $XMAX ]
+do
+# -u pippopluto to avoid being notified by mail when each execution is completed	
+	case $LOCATION in
+
+
+	        CERN )    echo "cd $INPUTDIR/gen$X; condor_submit  $CONDORFILE" >> $SUBMITFILE ;;
+
+
+		TO )      echo "subcheck $INPUTDIR/gen$X $RUNFILE $QUEUE" >> $SUBMITFILE ;;
+	esac
+    
+    X=$((X+1))
+done
+
+chmod +x  $SUBMITFILE  
+
+exit
+
+
