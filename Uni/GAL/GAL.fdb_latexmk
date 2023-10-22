@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1697398199 "GAL.tex" "GAL.pdf" "GAL" 1697398201 0
+["pdflatex"] 1697981720 "GAL.tex" "GAL.pdf" "GAL" 1697981723 2
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncb8r.tfm" 1136768653 3220 7b5d1a9569a08754f1bdfbc1c7ad8dbd ""
@@ -23,6 +23,7 @@
   "/opt/texlive/2023/texmf-dist/fonts/tfm/public/fouriernc/fncsy.tfm" 1177591358 1468 cf5c4cb2bf4b2c1807b5813f5820e2dd ""
   "/opt/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1229303445 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/opt/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1229303445 684 3a51bd4fd9600428d5264cf25f04bb9a ""
+  "/opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb" 1136849748 6232 c3fc7954848548c26c82678efc1400a6 ""
   "/opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb" 1575236847 35376 a07df24b37ec077fc9f917f37a80f694 ""
   "/opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb" 1136849748 13137 9cf0e1f3fa8b74ec708377d745022d53 ""
@@ -301,9 +302,9 @@
   "/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1697209300 4710145 64fc64f4a91cd02b389c08f10ac58053 ""
   "/opt/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1697209612 8183116 743bfc5cf8d1e1e5bb62c51cd9349819 ""
   "/opt/texlive/2023/texmf.cnf" 1693597305 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "GAL.aux" 1697398201 2793 01fecc0d1a29a25ca34ec756ce990f86 "pdflatex"
-  "GAL.tex" 1697398194 29800 538f7be1a06e9f4866c126fdafcc8b84 ""
-  "GAL.toc" 1697398201 1641 90edf16f19de387b6baf8e0a331588b7 "pdflatex"
+  "GAL.aux" 1697981723 3317 fd4864ac82bb44a37ad25cc22bd8fedd "pdflatex"
+  "GAL.tex" 1697981719 33229 4970f3ec460851d45d3e29228a7e172f ""
+  "GAL.toc" 1697981723 2001 2c6791540227751ae5824af62c18a1a6 "pdflatex"
   "pngegg.png" 1697227685 95012 73099c42e618cc2ae5db5a2364fe3d44 ""
   "titlepage.tex" 1697227568 518 8cc9e83995d4833b55c0de4f4a591de0 ""
   (generated)

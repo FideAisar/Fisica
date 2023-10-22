@@ -408,8 +408,9 @@ Sia $f:\left[a,b\right] \rightarrow \mathbb{R}$ una funzione \textit{continua} n
 	f\left(a\right)f\left(b\right) < 0 \quad \Rightarrow \quad \exists c \in \left(a,b\right) : f\left(c\right) = 0
 .\] 
 Inoltre se $f$ è strettamente monotona in $\left[a,b\right]$, allora lo zero è unico nell'intervallo.
+\vspace{3cm}
 \begin{center}
-\includesvg[scale=0.8]{figures/zeri_func}
+\includesvg[scale=0.9]{figures/zeri_func}
 \end{center}
 
 \begin{es}{dimostrazione: teorema esistenza degli zeri}
@@ -484,31 +485,76 @@ f\left(a_{n}\right) < 0 < f\left(b_{n}\right) \quad \Rightarrow \quad f\left(c\r
 \textbf{Dunque $f\left(c\right) = 0$, $c \in \left(a,b\right)$ } 
 \end{es}
 
-\paragraph{Corollario}
+\paragraph{Corollario $7.1$}
 Definiamo un intervallo $I \subseteq \mathbb{R}$ e sia $f:I \rightarrow \mathbb{R}$ una funzione continua. Se esistono (finiti o infiniti) i limiti sinistro e destro di $f$ agli estremi di $I$, e se tali limiti hanno segno discorde, allore esiste uno zero di $f$ in $I$ ; tale zero è unico se $f$ è strettamente monotona in $I$.
 \textit{In soldoni: se a sinistra la curva se ne va in basso verso $-\infty$ e a destra se ne va in alto verso $+\infty$ chiaramente dovrà intersecare l'asse $x$ a un certo punto}.
 
+\paragraph{Corollario $7.2$}
+Siano $f$ e $g$ due funzioni continue in $\left[a,b\right]$.  Se $f\left(a\right)<g\left(a\right)$ e $f\left(b\right)>g\left(b\right)$ allora esiste almeno un punto in $\left(a,b\right)$ tale che:
+\[
+f\left(x_0\right) = g\left(x_0\right)
+.\] 
+Inoltre se $f$ è strettamente crescente e $g$ strettamente decrescente in $\left[a,b\right]$ il punto $x_0$ è unico. \textit{In soldoni: presi due punti $a$ e $b$ sull'asse $x$ e ricavati gli intervalli $\left(f\left(a\right),f\left(b\right)\right)$ e $\left(g\left(a\right),g\left(b\right)\right)$ sull'asse $y$ se l'intervallo di $g$ contiene quello di $f$, allora esiste sicuramente un punto $x_0$ in $f$ contenente $f\left(x_0\right)$}
+\begin{center}
+\includesvg[scale=0.9]{figures/corollario_72}
+\end{center}
 
-\subsubsection{Teorema dei valori intermedi}
+\subsubsection{Teorema dei valori intermedi (0.9)}
 Il teorema si concentra sullo studio dell'immagine di una funzione continua definita su un intervallo  della retta reale.
 \\ \\
-Sia $f: \left[a,b\right]\rightarrow \mathbb{R}$ una funzione continua nell'intervallo $\left[a,b\right]$. Allora $f$ assume tutti i valori compresi tra $f\left(a\right)$ e $f\left(b\right)$.
+Sia $f:\left[a,b\right] \rightarrow \mathbb{R}$ continua. Allora $f$ assume tutti i valori compresi tra $f\left(a\right)$ e $f\left(b\right)$.
+\\
+Ovvero:
+\[
+	\forall y \in \left(f\left(a\right),f\left(b\right)\right) \quad \exists c \in \left[a,b\right] : f\left(c\right) = y
+.\] 
+
 
 \begin{center}
-\includesvg[scale=1]{figures/intermedi}
+\includesvg[scale=0.9]{figures/baby.svg}
 \end{center}
 
 \begin{es}{dimostrazione: teorema valori intermedi}
-Chiamiamo la funzione nell'intervallo $\left[y_2,y_1\right]$ $f\left(I\right)$. Il teorema mi dice che $y_1,y_2 \in f\left(I\right)$, con $y_1 < y_2$, allora:
+Se $f\left(a\right) = f\left(b\right)$ non c'è niente da dimostrare.
+\\ \\
+Se invece supponiamo $f\left(a\right) < f\left(b\right)$ e definiamo la funzione costante $g\left(z\right) = y$ prendendo come $y$ un qualsiasi punto compreso tra $f\left(a\right)$ e $f\left(b\right)$, otteniamo subito le seguenti disuguaglianze:
 \[
-	\left(y_1,y_2\right) \subseteq f\left(I\right) \quad \rightarrow \quad  \forall y \in \left(y_1,y_2\right) \quad \exists c \in I \quad : f\left(c\right) = y
+f\left(a\right) < y < f\left(b\right)
 .\] 
-Poiché $y_1 < y_2$ è sicuro che $x_1 \neq x_2$; supponiamo quindi $x_1 < x_2$ e condideriamo $f:\left[x_1,x_2\right] \rightarrow \mathbb{R}$.
-La funzione   $f$ assume tutti i valori tra $f\left(x_1\right)=y_1$ e $f\left(x_2\right)=y_2$.
-
+\[
+f\left(a\right) < g\left(a\right) \qquad f\left(b\right) > g\left(b\right)
+.\] 
+Notiamo la somiglianza al corollario $7.2$. Secondo il corollario otteniamo in  $\left[a,b\right]$ l'esistenza di un punto $c$ tale che:
+\[
+f\left(c\right) = g\left(c\right) = y
+.\] 
+Il teorema garantisce che l'immagine di $\left[a,b\right]$ contiene almeno l'intervallo chiuso di estremi $f\left(a\right)$ e $f\left(b\right)$ :
+\[
+	\left[f\left(a\right),f\left(b\right)\right] \subseteq f\left(\left[a,b\right]\right) \qquad \text{se} \quad f\left(a\right) \leq f\left(b\right)
+.\] 
+La formula equivalente con $f\left(b\right) \leq f\left(a\right)$ è ovvia.
 \end{es}
 
+\paragraph{Corollario $7.3$}
+Il teorema ha come conseguenza importante il fatto che una funzione continua "trasforma intervalli in intervalli": l'immagina di tale funzione $f\left(I\right)$ attraverso l'intervallo è ancora un intervallo.
 
+\begin{es}{dimostrazione: corollario 7.3}
+Presi $y_1 < y_2$ due punti di $f\left(I\right)$ ; allora esistono in $I$ due punti $x_1$ e $x_2$ tali che:
+\[
+f\left(x_1\right) = y_1 \qquad f\left(x_2\right) = y_2
+.\] 
+Supponiamo che $x_1 < x_2$ e consideriamo $f:\left[x_1,x_2\right] \rightarrow \mathbb{R}$ ; per il teorema dei valori intermedi sappiamo che $f$ assume tutti i valori tra $y_1$ e $y_2$.
+\end{es}
+
+\newpage
+\subsubsection{Teorema di Weierstrass}
+Se $I$ è chiuso e limitato (cioè $I=\left[a,b\right]$ vale il teorema di Weierstrass.
+\\ \\
+Sia $f:\left[a,b\right] \rightarrow \mathbb{R}$ continua. ALlora $f\left(\left[a,b\right]\right)$ è un intervallo chiuso e limitato, cioè:
+ \[
+f\left(\left[a,\right]\right) = \left[m,M\right]
+.\] 
+in cui $m$ e $M$ sono massimo e minimo. Quindi $f$ assume valore massimo, valore minimo e tutti i valori intermedi.
 
 
 

@@ -15,5 +15,8 @@
 \contentsline {section}{\numberline {6}Confronto locale di funzioni}{9}{}%
 \contentsline {section}{\numberline {7}Proprietà globali delle funzioni continue}{10}{}%
 \contentsline {subsubsection}{Teorema di esistenza degli zeri}{10}{}%
-\contentsline {paragraph}{Corollario}{12}{}%
-\contentsline {subsubsection}{Teorema dei valori intermedi}{12}{}%
+\contentsline {paragraph}{Corollario $7.1$}{12}{}%
+\contentsline {paragraph}{Corollario $7.2$}{12}{}%
+\contentsline {subsubsection}{Teorema dei valori intermedi (0.9)}{12}{}%
+\contentsline {paragraph}{Corollario $7.3$}{13}{}%
+\contentsline {subsubsection}{Teorema di Weierstrass}{14}{}%

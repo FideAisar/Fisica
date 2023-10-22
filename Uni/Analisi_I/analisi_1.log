@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  16 OCT 2023 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  17 OCT 2023 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1484,19 +1484,19 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 403--404
  [][][][][][] 
  []
 
-Package svg Info: Last page of `./svg-inkscape/zeri_func_svg-tex.pdf' is 1 on input line 412.
+Package svg Info: Last page of `./svg-inkscape/zeri_func_svg-tex.pdf' is 1 on input line 413.
 (./svg-inkscape/zeri_func_svg-tex.pdf_tex
 <./svg-inkscape/zeri_func_svg-tex.pdf, id=50, page=1, 331.12769pt x 310.39268pt>
 File: ./svg-inkscape/zeri_func_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/zeri_func_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/zeri_func_svg-tex.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 264.90312pt x 248.31447pt.
+(pdftex.def)             Requested size: 298.01286pt x 279.35081pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 416--422
+Underfull \hbox (badness 10000) in paragraph at lines 417--423
 
  []
 
-Package svg Info: Last page of `./svg-inkscape/due_casi_1_svg-tex.pdf' is 1 on input line 429.
+Package svg Info: Last page of `./svg-inkscape/due_casi_1_svg-tex.pdf' is 1 on input line 430.
 (./svg-inkscape/due_casi_1_svg-tex.pdf_tex
 <./svg-inkscape/due_casi_1_svg-tex.pdf, id=52, page=1, 574.1648pt x 279.45876pt>
 File: ./svg-inkscape/due_casi_1_svg-tex.pdf Graphic file (type pdf)
@@ -1504,46 +1504,59 @@ File: ./svg-inkscape/due_casi_1_svg-tex.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./svg-inkscape/due_casi_1_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 401.9136pt x 195.61978pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 458--461
+Underfull \hbox (badness 10000) in paragraph at lines 459--462
 
  []
 
 [10 <./svg-inkscape/zeri_func_svg-tex.pdf>] [11 <./svg-inkscape/due_casi_1_svg-tex.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 493--496
+Package svg Info: Last page of `./svg-inkscape/corollario_72_svg-tex.pdf' is 1 on input line 499.
+ (./svg-inkscape/corollario_72_svg-tex.pdf_tex
+<./svg-inkscape/corollario_72_svg-tex.pdf, id=64, page=1, 331.12769pt x 311.37515pt>
+File: ./svg-inkscape/corollario_72_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/corollario_72_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/corollario_72_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 298.01286pt x 280.23505pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 503--508
 
  []
 
+Package svg Info: Last page of `./svg-inkscape/baby_svg-tex.pdf' is 1 on input line 514.
+(./svg-inkscape/baby_svg-tex.pdf_tex
+<./svg-inkscape/baby_svg-tex.pdf, id=66, page=1, 331.12769pt x 311.37515pt>
+File: ./svg-inkscape/baby_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/baby_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/baby_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 298.01286pt x 280.23505pt.
+) [12 <./svg-inkscape/corollario_72_svg-tex.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 518--521
 
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `figures/intermedi.svg' on input line 498.
+ []
 
-Package svg Info: Last page of `./svg-inkscape/intermedi_svg-tex.pdf' is 1 on input line 498.
-(./svg-inkscape/intermedi_svg-tex.pdf_tex
-<./svg-inkscape/intermedi_svg-tex.pdf, id=64, page=1, 278.67418pt x 279.85036pt>
-File: ./svg-inkscape/intermedi_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/intermedi_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/intermedi_svg-tex.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 278.67418pt x 279.86673pt.
-) [12 <./svg-inkscape/intermedi_svg-tex.pdf>] (./analisi_1.aux)
+[13 <./svg-inkscape/baby_svg-tex.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 551--554
+
+ []
+
+[14] (./analisi_1.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 44788 strings out of 474934
- 1073765 string characters out of 5762810
- 1947807 words of memory out of 5000000
- 65477 multiletter control sequences out of 15000+600000
+ 44806 strings out of 474934
+ 1074444 string characters out of 5762810
+ 1948807 words of memory out of 5000000
+ 65492 multiletter control sequences out of 15000+600000
  608530 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,15n,109p,724b,2518s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on analisi_1.pdf (13 pages, 120592 bytes).
+Output written on analisi_1.pdf (15 pages, 137799 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
