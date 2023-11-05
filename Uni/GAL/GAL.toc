@@ -1,29 +1,36 @@
-\contentsline {section}{\numberline {1}Spazi Vettoriali}{2}{}%
-\contentsline {subsubsection}{Proprietà della somma}{2}{}%
-\contentsline {subsubsection}{Proprietà del prodotto}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Sottospazi vettoriali}{2}{}%
-\contentsline {subsubsection}{Esempi di sottospazi vettoriali}{2}{}%
-\contentsline {section}{\numberline {2}Matrici}{3}{}%
-\contentsline {subsection}{\numberline {2.1}Spazio vettoriale delle matrici}{4}{}%
-\contentsline {subsection}{\numberline {2.2}Operazioni tra matrici}{4}{}%
-\contentsline {subsubsection}{La trasposta di una matrice}{4}{}%
-\contentsline {subsubsection}{Proposizione: $rk\left (a\right ) \leq min\{r,n\} $}{5}{}%
-\contentsline {subsection}{\numberline {2.3}Matrici e sistemi}{5}{}%
-\contentsline {subsubsection}{Teorema: Rouchè-Capelli}{6}{}%
-\contentsline {subsubsection}{Soluzioni di un sistema utilizzando il suo omogeneo associato}{6}{}%
-\contentsline {subsection}{\numberline {2.4}Determinante}{7}{}%
-\contentsline {subsubsection}{Calcolo del determinante}{7}{}%
-\contentsline {subsubsection}{Teorema: come cambia il determinante dopo le 3 mosse?}{8}{}%
+\contentsline {section}{\numberline {1}Sistemi Lineari}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Teorema di Rouchè-Capelli}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Soluzioni di un sistema utilizzando il suo omogeneo associato}{3}{}%
+\contentsline {section}{\numberline {2}Matrici}{5}{}%
+\contentsline {paragraph}{Proposizione}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Operazioni tra matrici}{5}{}%
+\contentsline {subsubsection}{Prodotto come combinazione lineare}{6}{}%
+\contentsline {subsubsection}{La trasposta di una matrice}{6}{}%
+\contentsline {subsection}{\numberline {2.2}Determinante}{7}{}%
+\contentsline {subsubsection}{Calcolo del determinante}{8}{}%
+\contentsline {subsubsection}{Come cambia il determinante dopo le 3 mosse?}{8}{}%
 \contentsline {paragraph}{osservazioni su matrici inverse}{9}{}%
-\contentsline {subsection}{\numberline {2.5}Teoremi di Laplace}{9}{}%
-\contentsline {subsubsection}{Primo Teorema di Laplace}{9}{}%
-\contentsline {subsubsection}{Secondo Teorema di Laplace}{9}{}%
-\contentsline {subsection}{\numberline {2.6}Matrici inverse}{10}{}%
-\contentsline {subsubsection}{Teorema: matrici inverse}{10}{}%
-\contentsline {subsubsection}{Calcolo della matrice inversa 1}{10}{}%
-\contentsline {subsubsection}{Calcolo della matrice inversa 2}{10}{}%
-\contentsline {subsubsection}{Teorema: matrice inversa 2}{11}{}%
-\contentsline {subsection}{\numberline {2.7}Teorema di Cramer}{11}{}%
-\contentsline {section}{\numberline {3}Esercizi rilevanti}{11}{}%
-\contentsline {subsubsection}{Dimostrazione per assurdo}{11}{}%
-\contentsline {subsubsection}{Dimostrazione per induzione}{11}{}%
+\contentsline {subsection}{\numberline {2.3}Teoremi di Laplace}{9}{}%
+\contentsline {subsubsection}{Primo Teorema di Laplace}{10}{}%
+\contentsline {subsubsection}{Secondo Teorema di Laplace}{10}{}%
+\contentsline {subsection}{\numberline {2.4}Matrici inverse}{10}{}%
+\contentsline {paragraph}{Teorema}{11}{}%
+\contentsline {paragraph}{Teorema}{11}{}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 1}{12}{}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 2}{12}{}%
+\contentsline {subsection}{\numberline {2.5}Teorema di Cramer}{12}{}%
+\contentsline {section}{\numberline {3}Spazi Vettoriali}{13}{}%
+\contentsline {subsubsection}{Proprietà della somma}{13}{}%
+\contentsline {subsubsection}{Proprietà del prodotto}{13}{}%
+\contentsline {subsection}{\numberline {3.1}Sottospazi vettoriali}{13}{}%
+\contentsline {subsubsection}{Somma di due sottospazi}{13}{}%
+\contentsline {paragraph}{Proposizione}{14}{}%
+\contentsline {subsection}{\numberline {3.2}Combinazione lineare}{14}{}%
+\contentsline {section}{\numberline {4}Prodotto scalare}{15}{}%
+\contentsline {subsection}{\numberline {4.1}Proprietà del prodotto scalare}{15}{}%
+\contentsline {subsection}{\numberline {4.2}Interpretazione geometrica del prodotto scalare}{16}{}%
+\contentsline {paragraph}{Teorema: vettore proiezione ortogonale}{16}{}%
+\contentsline {section}{\numberline {5}Prodotto vettoriale}{16}{}%
+\contentsline {section}{\numberline {6}Esercizi rilevanti}{16}{}%
+\contentsline {subsubsection}{Dimostrazione per assurdo}{16}{}%
+\contentsline {subsubsection}{Dimostrazione per induzione}{16}{}%

@@ -4,63 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "dbd5bed36f26e8ef",
+        "id": "4ca42a711474b42f",
         "type": "tabs",
         "children": [
           {
-            "id": "f843c0b5cf854bff",
+            "id": "520b2a1121d4d8e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scuola/Filosofia/Domande interrogazione filosofia.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e07ca150aaee5e34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scuola/Storia/Seconda guerra mondiale.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37bc2ab2214d45d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scuola/Italiano/@Italiano.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edcc6f6150fb1a0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scuola/Inglese/Virginia Woolf.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tema",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,20 +73,19 @@
             }
           },
           {
-            "id": "4b87fc30abeeb353",
+            "id": "c3f02d4b3a3fa766",
             "type": "leaf",
             "state": {
-              "type": "file-tree-view",
+              "type": "bookmarks",
               "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0403522f4dca2673",
@@ -147,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scuola/Inglese/Virginia Woolf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,9 +111,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Scuola/Inglese/Virginia Woolf.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -177,21 +128,21 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
       "switcher:Open quick switcher": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "edcc6f6150fb1a0b",
+  "active": "44382f4d1874a73c",
   "lastOpenFiles": [
+    "Uni/progr/prova.py",
+    "Uni/GAL/GAL.pdf",
+    "Scuola/Inglese/Virginia Woolf.md",
     "Scuola/Matematica/Prova.md",
     "Pasted image 20230502103600.png",
     "Scuola/Matematica/@Matematica.md",
     "Excalidraw/Grafico.excalidraw.md",
     "Excalidraw/@Excalidraw.md",
     "Scuola/Matematica/esercizi.md",
-    "Scuola/Inglese/Virginia Woolf.md",
     "Scuola/Inglese/@Inglese.md",
     "Scuola/Inglese/Eliot.md",
     "LaTex/Test.md",

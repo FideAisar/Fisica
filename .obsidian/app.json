@@ -10,7 +10,7 @@
     "margin": "0",
     "downscalePercent": 81
   },
-  "spellcheckLanguages": [],
+  "spellcheckLanguages": null,
   "spellcheck": true,
   "fileSortOrder": "alphabetical",
   "newFileLocation": "current",
