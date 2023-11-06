@@ -1,8 +1,0 @@
-Con treemaker creo tree da un phamom.dat (eventualmente uso catphamom per
-mettere tutti i file in uno unico)
-
-Il file principale di analisi e' analisi_munu.C
-(La versione compilata .so si ottiene con .L nomefile++)
-
-Si puo' far correre con il file makeplot.scr
-oppure con i makeplot*.C che sono macro di root (.x)

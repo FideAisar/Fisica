@@ -1,4 +1,0 @@
-#!/bin/bash
-
-bsub -q  -u pippopluto -o /home/ballestr/cern/phantom/phantom_1_2/tools/c_s-bb_ee_muvm_/run.out -J c_s-bb_ee_muvm_ < /home/ballestr/cern/phantom/phantom_1_2/tools/c_s-bb_ee_muvm_/run
-bsub -q  -u pippopluto -o /home/ballestr/cern/phantom/phantom_1_2/tools/bs-bcee_muvm_/run.out -J bs-bcee_muvm_ < /home/ballestr/cern/phantom/phantom_1_2/tools/bs-bcee_muvm_/run

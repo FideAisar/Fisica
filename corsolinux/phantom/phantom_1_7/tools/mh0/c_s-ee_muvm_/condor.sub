@@ -1,7 +1,0 @@
-executable              = run
-arguments               = run.$(ClusterId)$(ProcId)
-output                  = run.$(ClusterId).$(ProcId).out
-error                   = run.$(ClusterId).$(ProcId).err
-log                     = run.$(ClusterId).$(ProcId).log
-+JobFlavour = "workday"
-queue
