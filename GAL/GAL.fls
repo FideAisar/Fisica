@@ -1,4 +1,4 @@
-PWD /home/fide/Documenti/Obsidian/Uni/GAL
+PWD /home/fide/Documenti/Fisica/GAL
 INPUT /opt/texlive/2023/texmf.cnf
 INPUT /opt/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /opt/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -687,6 +687,7 @@ INPUT /opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb
 INPUT /opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb
 INPUT /opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb
 INPUT /opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+INPUT /opt/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
 INPUT /opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb
 INPUT /opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb
 INPUT /opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb

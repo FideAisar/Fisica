@@ -26,6 +26,7 @@
 \usepackage{pdfpages}
 \usepackage{transparent}
 \usepackage{amssymb}
+\usepackage{mathrsfs}
 
 
 
@@ -55,7 +56,7 @@
 
 \newtcolorbox{yes1}[2][]{%
   enhanced,colback=Bisque1,colframe=Bisque1,coltitle=black,
-  sharp corners,boxrule=0.1pt,
+  sharp corners,boxrule=0.1pt, 
   fonttitle=\itshape,
   attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
   boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
@@ -95,6 +96,7 @@
 }
 \newcommand*{\QEDA}{\null\nobreak\hfill\ensuremath{\blacksquare}}%
 \newcommand*{\QEDB}{\null\nobreak\hfill\ensuremath{\square}}%
+
 
 %% regole
 \renewcommand*\contentsname{Indice}
@@ -136,7 +138,7 @@
 %% %% %%
 %% %% %%  SISTEMI LINEARI
 %% %% %% 
-
+\null\newpage
 \section{Sistemi Lineari}
  Prima di parlare di sistemi definiamo cosa si intende per \textit{equazione lineare}: un'equazione lineare è un'uguaglianza del tipo  
  $$a_{1}x_{1} + a_{2}x_{2}... a_nx_n=b$$ 
@@ -1012,10 +1014,6 @@ da cui:
 %% %% %% 
 \newpage
 \section{Spazi Vettoriali}
-Possiamo vedere i vettori da diversi punti di vista, tutti validi, ma con intenti applicativi differenti. Possiamo definire vettori una freccia nello spazio caratterizzata da un modulo, una direzione e da un verso; oppure possiamo intendere un vettore una lista ordinata di numeri.
-
-Se in fisica non importa la posizione nello spazio di un vettore, in algebra lineare questo sarà quasi sempre attaccato all'origine del nostro sistema di riferimento.
-
 \begin{center}
 \fboxsep11pt
 \colorbox{Azure2}{\begin{minipage}{5.75in}
@@ -1167,6 +1165,8 @@ Ogni sottospazio possiamo dire essere generato da combinazioni lineari dei vetto
 %% %% %%  PRODOTTO SCALARE e VETTORIALE
 %% %% %% 
 
+
+
 \section{Prodotto scalare}
 Prima di parlare di prodotto scalare è necessario introdurre due concetti fondamentali:
 
@@ -1269,6 +1269,7 @@ p = \frac{u\cdot a}{\|a\|^2}a
 .\] 
 \end{es}
 
+\subsection{}
 
 
 \section{Prodotto vettoriale}
@@ -1301,6 +1302,133 @@ Il verso del vettore risultante dal prodotto vettoriale ha il verso che segue la
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%% %% %%
+%% %% %%  APPLICAZIONI LINEARI
+%% %% %% 
+\newpage
+\section{Applicazioni Lineari}
+Le applicazioni lineari sono particolari tipi di \textit{funzioni} che preservano la struttura di spazio vettoriale.
+\[
+f: V \longrightarrow W \qquad V,W \text{ sottospazi vettoriali}
+.\] 
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{Azure2}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Applicazione lineare}
+	Dati due spazi vettoriali reali $V,W$, si dice applicazione lineare o \textbf{omomorfismo} o trasformazione lineare da $V$ in  $W$ una funzione
+\[
+f: V \longrightarrow W 
+.\] 
+che verifica le seguenti proprietà:
+\[
+f\left(0\right) = 0
+\] 
+\[
+f\left(x+y\right) = f\left(x\right) + f\left(y\right)
+\] 
+\[
+f\left(\lambda x + \mu y\right) = \lambda f\left(x\right) + \mu f\left(y\right) 
+.\] 
+per ogni $x$ e  $y$ in $V$ e per ogni $\lambda$ e $\mu$ in $\mathbb{R}$.
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+
+
+\subsection{Matrice associata ad un'applicazione lineare}
+
+\begin{center}
+\fboxsep11pt
+\colorbox{Bisque1}{\begin{minipage}{5.75in}
+\begin{yes1}{}
+\paragraph{Teorema fondamentale delle applicazioni lineari }
+Dati $V$ e  $W$ spazi vettoriali,
+\[
+\mathscr{B} = \{\overline{v}_{1},\dots,\overline{v}_{n}\} \text{ base di }V
+\] 
+\[
+\mathscr{C} = \{\overline{a}_{1},\dots,\overline{a}_{n}\} \text{ insieme di vettori in }W
+.\] 
+Allora esiste ed è \textbf{unica} l'applicazione lineare
+\[
+f: V \longrightarrow W \text{ t.c. }
+\] 
+\[
+f\left(\overline{v}_{i}\right) = \overline{a}_{i} \quad \forall i \in \{1,\dots,n\}
+.\] 
+In altre parole per assegnare un'applicazione lineare tra due spazi vettoirali $V$ e $W$, di cui almeno $V$ di dimenzione finita, è sufficiente conoscere le immagini dei vettori di una vase di $V$.
+\end{yes1}
+\end{minipage}}        
+\end{center}
+
+\begin{es}{dimostrazione}
+\[
+\overline{x} \in V
+.\] 
+\[
+\overline{x} = x_1 \overline{v}_{1} + x_2\overline{v}_{2} + \dots + x_{n}\overline{v}_{n}
+.\] 
+\begin{align*}
+	f\left(\overline{x}\right) &= f\left(x_1 \overline{v}_{1} + x_2\overline{v}_{2} + \dots + x_{n}\overline{v}_{n}\right) \\
+				   &= x_1 f\left(\overline{v}_{1}\right) + x_2 f\left(\overline{v}_{2}\right) + \dots + x_{n}f\left(\overline{v}_{n}\right) \\
+				   &= x_1 \overline{a}_{1} + x_2 \overline{a}_{2} + \dots + x_{n} \overline{a}_{n}
+\end{align*}
+Vicecersa se definiamo $f$ dicendo che 
+\[
+f\left(\overline{x}\right) = x_1 \overline{a}_{1} + x_2 \overline{a}_{2} + \dots + x_{n} \overline{a}_{n}
+.\] 
+Allora
+\begin{itemize}
+	\item $f$ è lineare: $\quad f\left(\lambda \overline{x} + \mu \overline{y}\right) = \lambda f\left(\overline{x}\right) + \mu f\left(\overline{y}\right)$.
+	\item $f\left(\overline{v}_{i}\right) = \overline{a}_{i} \quad \forall i$
+\end{itemize}
+\end{es}
+
+
+Quindi definitre un'applicazione lineare tra due spazi vettoriali equivale a \textit{conoscere le immagini degli elementi di una base del dominio}.
 
 
 
