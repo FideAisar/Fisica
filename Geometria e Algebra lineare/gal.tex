@@ -47,7 +47,6 @@
 \newtcolorbox{blues}[2][]{%
   enhanced,colback=myblue,colframe=black,coltitle=black,
   sharp corners,boxrule=0.4pt,
-  fonttitle=\itshape,
   attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
   boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
     colback=myblue,before upper=\strut},
@@ -1376,9 +1375,96 @@ Viene chiamata base di $V$ un insieme di vettori che \textbf{genera} $V$ e al co
 \end{center}
 
 
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema}
+Data una base $\mathscr{B} = \{v_1 + v_2 + \dots + v_{n}\}$ ogni vettore $v \in V$ può essere espresso nella forma
+\[
+v = c_1v_1 + c_2v_2 + \dots + c_{n}v_{n}
+\]
+in un solo modo.
+\end{redes}
+\end{minipage}}        
+\end{center}
+
+\begin{es}{dimostrazione}
+Diciamo che esista un'altra combinazione lineare che esprime $v$; abbiamo:
+\[
+v = c_1v_1 + c_2v_2 + \dots + c_{n}v_{n}
+\]
+\[
+v = k_1v_1 + k_2v_2 + \dots + k_{n}v_{n}
+\]
+allora una scrittura meno l'altra deve essere uguale zero
+\[
+c_1v_1 + c_2v_2 + \dots + c_{n}v_{n} - k_1v_1 + k_2v_2 + \dots + k_{n}v_{n} = 0
+\] 
+\[
+	\left(c_1-k_1\right)v_1 + \left(c_2-k_2\right)v_2 + \dots + \left(c_{n} - k_{n}\right)v_{n} = 0
+\] 
+da ciò risulta che
+\[
+c_1 - k_1 = c_2 - k_2 = \dots = c_{n} -k_{n} = 0
+\] 
+\[
+c_i = k_{i} \quad \forall i \in {1,\dots,n}
+.\] 
+\end{es}
+
+
 
 \subsection{Cambiamento di base}
+In moltissimi casi risulta più comodo esprimere un vettore rispetto a una base diversa da quella di partenza. Se cambiamo da una base $\mathscr{B}$ a una $\mathscr{B}'$ come saranno correlate le componenti $\left[v\right]_{B}$ e $\left[v\right]_{B'}$?
+
+\noindent
+Le vecchie coordinate sono legate alle nuove dalla seguente equazione:
+
+\[
+\left[v\right]_{B} = M_{B}^{B'} \left[v\right]_{B'}
+\] 
+$M_{B}^{B'}$ è detta  \textbf{matrice del cambiamento di base} e ha nelle colonne i vettori della base di partenza rispetto la base di arrivo. Quindi la matrice di cambiamento di base da $\mathscr{B} = {v_1,\dots,v_{n}}$ a $\mathscr{B}' = {e_{1},\dots,e_{n}}$ sarà:
+
+
+\[
+M_{B}^{B'} =
+\left[\begin{array}{c|c|c}
+     \left[v_1\right]_{B'}
+&  \dots & \left[v_{n}\right]_{B'}
+\end{array}
+\right]
+\] 
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema}
+Detta $M$ la matrice di cambiamento di base da $\mathscr{B}$ a $\mathscr{B}'$, allora $M^{-1}$ è la matrice di cambiamento di base da $\mathscr{B}'$ a $\mathscr{B}$.
+\[
+\left(M_{B}^{B'}\right)^{-1} = M_{B'}^{B} 
+.\] 
+\end{redes}
+\end{minipage}}        
+\end{center}
+
+\subsubsection{Metodo per trovare la matrice di cambiamento di base}
+Per trovare la matrice di cambiamento di base si può utilizzare un metodo simile a quello impiegato per trovare la matrice inversa: si scrive la matrice orlata con a sinistra la base $\mathscr{B}$ e a destra la base $\mathscr{B}'$. Quindi si riduce per righe fino a quando la matrice non ha la forma
+\[
+	\left[\begin{array}{c|c}
+			I & M_{B}^{B'}
+	\end{array}\right]
+\] 
+
 \subsection{Spazio delle righe, delle colonne, Nullspace}
+Prendiamo in esame la matrice
+\[
+A=
+\begin{bmatrix}a_{1,1}&a_{1,2}&\cdots &a_{1,n}\\a_{2,1}&a_{2,2}&\cdots &a_{2,n}\\ \vdots &\vdots &\ddots &\vdots \\a_{r,1}&a_{r,2}&\cdots &a_{r,n}\end{bmatrix}
+\] 
+
+Chiamiamo spazio delle colonne l'insieme dei vettori colonna nella matrice $A$ e spazio delle righe l'insieme dei vettori riga in  $A$. Il null space di $A$ invece (introdotto nel capitolo sui sistemi lineari) ricordiamo esseere la solzione dell'equazione  $AX = 0$.
+
 \subsection{Rank}
 
 
@@ -1393,7 +1479,7 @@ Viene chiamata base di $V$ un insieme di vettori che \textbf{genera} $V$ e al co
 Le applicazioni lineari sono particolari tipi di \textit{funzioni} che preservano la struttura di spazio vettoriale.
 \[
 f: V \longrightarrow W \qquad V,W \text{ sottospazi vettoriali}
-.\] 
+\] 
 
 
 \begin{center}

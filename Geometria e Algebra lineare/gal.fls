@@ -750,6 +750,10 @@ INPUT ./figures/linind2.png
 INPUT ./figures/linind2.png
 INPUT ./figures/linind2.png
 INPUT ./figures/linind2.png
+INPUT /opt/texlive/2023/texmf-dist/fonts/vf/public/fouriernc/fncsy.vf
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8r.tfm
 INPUT gal.aux
 INPUT ./gal.out
 INPUT ./gal.out

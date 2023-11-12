@@ -34,6 +34,7 @@
 \contentsline {subsection}{\numberline {4.3}Indipendenza lineare}{19}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Basi}{20}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Cambiamento di base}{20}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Spazio delle righe, delle colonne, Nullspace}{20}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Rank}{20}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Applicazioni Lineari}{21}{section.5}%
+\contentsline {subsubsection}{Metodo per trovare la matrice di cambiamento di base}{21}{section*.23}%
+\contentsline {subsection}{\numberline {4.6}Spazio delle righe, delle colonne, Nullspace}{21}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Rank}{21}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Applicazioni Lineari}{22}{section.5}%

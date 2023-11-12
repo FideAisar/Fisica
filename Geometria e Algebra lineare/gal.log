@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  12 NOV 2023 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  12 NOV 2023 21:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1301,53 +1301,53 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen394
 ))
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 92.
-LaTeX Font Info:    Trying to load font information for T1+fnc on input line 92.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 91.
+LaTeX Font Info:    Trying to load font information for T1+fnc on input line 91.
 
 (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/t1fnc.fd
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 92.
+(Font)              scaled to size 9.29993pt on input line 91.
  (./gal.aux)
 \openout1 = `gal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 92.
-LaTeX Font Info:    Trying to load font information for FML+fncmi on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 91.
+LaTeX Font Info:    Trying to load font information for FML+fncmi on input line 91.
  (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 92.
-LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 92.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 91.
+LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 91.
  (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 92.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 92.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 91.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 91.
  (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
  (/opt/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count446
@@ -1370,7 +1370,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 92.
+Package chemgreek Info: Activating mapping `fourier' on line 91.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1406,12 +1406,12 @@ Package chemgreek Info: Activating mapping `fourier' on line 92.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 92.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 92.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 91.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 91.
 (/opt/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 92.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 91.
  (/opt/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
  (/opt/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
@@ -1421,13 +1421,13 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 92.
+Package hyperref Info: Link coloring OFF on input line 91.
  (./gal.out) (./gal.out)
 \@outlinefile=\write6
 \openout6 = `gal.out'.
 
  (./titlepage.tex
-<pngegg.png, id=151, 1027.84pt x 1027.84pt>
+<pngegg.png, id=155, 1027.84pt x 1027.84pt>
 File: pngegg.png Graphic file (type png)
 <use pngegg.png>
 Package pdftex.def Info: pngegg.png  used on input line 5.
@@ -1474,9 +1474,9 @@ Non-PDF special ignored!
 <special> ps:0.8 setlinewidth 0 setgray
 {/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./pngegg.png>])
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 13.39188pt on input line 95.
+(Font)              scaled to size 13.39188pt on input line 94.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 95.
+(Font)              scaled to size 13.39188pt on input line 94.
  (./gal.toc
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 7.06795pt on input line 2.
@@ -1517,264 +1517,274 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 \newpage
+l.95 \newpage
               [1]
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 9.29993pt on input line 110.
+(Font)              scaled to size 9.29993pt on input line 109.
 LaTeX Font Info:    Font shape `T1/fnc/b/it' will be
-(Font)              scaled to size 9.29993pt on input line 139.
-Package svg Info: Last page of `./svg-inkscape/sistemi_piani_svg-tex.pdf' is 1 on input line 144.
+(Font)              scaled to size 9.29993pt on input line 138.
+Package svg Info: Last page of `./svg-inkscape/sistemi_piani_svg-tex.pdf' is 1 on input line 143.
  (./svg-inkscape/sistemi_piani_svg-tex.pdf_tex
-<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=204, page=1, 656.32918pt x 378.90564pt>
+<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=209, page=1, 656.32918pt x 378.90564pt>
 File: ./svg-inkscape/sistemi_piani_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/sistemi_piani_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/sistemi_piani_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 393.8015pt x 227.34512pt.
 )
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 158--159
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 157--158
  [][][][][][] 
  []
 
 [2 <./svg-inkscape/sistemi_piani_svg-tex.pdf>]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 191.
+(Font)              scaled to size 11.15991pt on input line 190.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 191.
+(Font)              scaled to size 11.15991pt on input line 190.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 209--210
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 208--209
  [][][][][][] 
  []
 
 [3] [4]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 328--329
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 327--328
  [][][][][][] 
  []
 
 [5]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 425--426
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 424--425
  [][][][][][] 
  []
 
-Package svg Info: Last page of `./svg-inkscape/vettori_u_svg-tex.pdf' is 1 on input line 442.
+Package svg Info: Last page of `./svg-inkscape/vettori_u_svg-tex.pdf' is 1 on input line 441.
 (./svg-inkscape/vettori_u_svg-tex.pdf_tex
-<./svg-inkscape/vettori_u_svg-tex.pdf, id=238, page=1, 209.7109pt x 194.3331pt>
+<./svg-inkscape/vettori_u_svg-tex.pdf, id=243, page=1, 209.7109pt x 194.3331pt>
 File: ./svg-inkscape/vettori_u_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_u_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/vettori_u_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 167.76936pt x 155.46964pt.
 ) [6 <./svg-inkscape/vettori_u_svg-tex.pdf>]
-Package svg Info: Last page of `./svg-inkscape/vettori_du_svg-tex.pdf' is 1 on input line 474.
+Package svg Info: Last page of `./svg-inkscape/vettori_du_svg-tex.pdf' is 1 on input line 473.
  (./svg-inkscape/vettori_du_svg-tex.pdf_tex
-<./svg-inkscape/vettori_du_svg-tex.pdf, id=250, page=1, 331.7046pt x 311.37515pt>
+<./svg-inkscape/vettori_du_svg-tex.pdf, id=255, page=1, 331.7046pt x 311.37515pt>
 File: ./svg-inkscape/vettori_du_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_du_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/vettori_du_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 265.36467pt x 249.10995pt.
 ) [7 <./svg-inkscape/vettori_du_svg-tex.pdf>]
-<figures/determ.png, id=258, 1011.78pt x 524.96124pt>
+<figures/determ.png, id=263, 1011.78pt x 524.96124pt>
 File: figures/determ.png Graphic file (type png)
 <use figures/determ.png>
-Package pdftex.def Info: figures/determ.png  used on input line 520.
+Package pdftex.def Info: figures/determ.png  used on input line 519.
 (pdftex.def)             Requested size: 303.53633pt x 157.48958pt.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 554--555
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 553--554
  [][][][][][] 
  []
 
 [8 <./figures/determ.png>] [9]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 705--706
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 704--705
  [][][][][][] 
  []
 
 [10]
-Overfull \hbox (6.51778pt too wide) in paragraph at lines 756--757
+Overfull \hbox (6.51778pt too wide) in paragraph at lines 755--756
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 792--793
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 791--792
  [][][][][][] 
  []
 
 [11]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 864--865
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 863--864
  [][][][][][] 
  []
 
 [12]
-<figures/norma.png, id=300, 793.96625pt x 529.98pt>
+<figures/norma.png, id=306, 793.96625pt x 529.98pt>
 File: figures/norma.png Graphic file (type png)
 <use figures/norma.png>
-Package pdftex.def Info: figures/norma.png  used on input line 926.
+Package pdftex.def Info: figures/norma.png  used on input line 925.
 (pdftex.def)             Requested size: 158.79044pt x 105.99411pt.
-<figures/angoli.png, id=301, 1384.17125pt x 350.30875pt>
+<figures/angoli.png, id=307, 1384.17125pt x 350.30875pt>
 File: figures/angoli.png Graphic file (type png)
 <use figures/angoli.png>
-Package pdftex.def Info: figures/angoli.png  used on input line 941.
+Package pdftex.def Info: figures/angoli.png  used on input line 940.
 (pdftex.def)             Requested size: 346.04196pt x 87.57697pt.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 962--963
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 961--962
  [][][][][][] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+fnc on input line 972.
+LaTeX Font Info:    Trying to load font information for TS1+fnc on input line 971.
 (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/ts1fnc.fd
 File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
 )
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 972.
+(Font)              scaled to size 9.29993pt on input line 971.
  [13 <./figures/norma.png> <./figures/angoli.png>]
-<figures/proj.png, id=311, 672.5125pt x 407.5225pt>
+<figures/proj.png, id=316, 672.5125pt x 407.5225pt>
 File: figures/proj.png Graphic file (type png)
 <use figures/proj.png>
-Package pdftex.def Info: figures/proj.png  used on input line 982.
+Package pdftex.def Info: figures/proj.png  used on input line 981.
 (pdftex.def)             Requested size: 168.1277pt x 101.88037pt.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 995--996
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 994--995
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1029--1030
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1028--1029
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1049--1050
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1048--1049
  [][][][][][] 
  []
 
 [14 <./figures/proj.png>]
-<figures/uedge.png, id=317, 799.98875pt x 585.18625pt>
+<figures/uedge.png, id=322, 799.98875pt x 585.18625pt>
 File: figures/uedge.png Graphic file (type png)
 <use figures/uedge.png>
-Package pdftex.def Info: figures/uedge.png  used on input line 1103.
+Package pdftex.def Info: figures/uedge.png  used on input line 1102.
 (pdftex.def)             Requested size: 199.99669pt x 146.2962pt.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1118--1119
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1117--1118
  [][][][][][] 
  []
 
 [15 <./figures/uedge.png>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1140--1141
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1139--1140
  [][][][][][] 
  []
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1144.
+(hyperref)                than one, level fixed on input line 1143.
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1174--1175
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1173--1174
  [][][][][][] 
  []
 
-<figures/subspace.png, id=323, 878.28125pt x 551.05875pt>
+<figures/subspace.png, id=328, 878.28125pt x 551.05875pt>
 File: figures/subspace.png Graphic file (type png)
 <use figures/subspace.png>
-Package pdftex.def Info: figures/subspace.png  used on input line 1178.
+Package pdftex.def Info: figures/subspace.png  used on input line 1177.
 (pdftex.def)             Requested size: 219.56978pt x 137.76434pt.
 
-LaTeX Warning: Command \` invalid in math mode on input line 1195.
+LaTeX Warning: Command \` invalid in math mode on input line 1194.
 
 [16 <./figures/subspace.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1204.
+(hyperref)                removing `math shift' on input line 1203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1204.
+(hyperref)                removing `math shift' on input line 1203.
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1243--1244
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1242--1243
  [][][][][][] 
  []
 
 [17]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1282.
+(hyperref)                removing `math shift' on input line 1281.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cap' on input line 1282.
+(hyperref)                removing `\cap' on input line 1281.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1282.
+(hyperref)                removing `math shift' on input line 1281.
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1291--1292
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1290--1291
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1304--1305
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1303--1304
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1317--1318
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1316--1317
  [][][][][][] 
  []
 
-<figures/span.png, id=344, 1379.1525pt x 539.01375pt>
+<figures/span.png, id=349, 1379.1525pt x 539.01375pt>
 File: figures/span.png Graphic file (type png)
 <use figures/span.png>
-Package pdftex.def Info: figures/span.png  used on input line 1321.
+Package pdftex.def Info: figures/span.png  used on input line 1320.
 (pdftex.def)             Requested size: 413.74895pt x 161.70537pt.
 [18]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1345--1346
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1344--1345
  [][][][][][] 
  []
 
-<figures/linind.png, id=351, 1682.285pt x 461.725pt>
+<figures/linind.png, id=356, 1682.285pt x 461.725pt>
 File: figures/linind.png Graphic file (type png)
 <use figures/linind.png>
-Package pdftex.def Info: figures/linind.png  used on input line 1349.
+Package pdftex.def Info: figures/linind.png  used on input line 1348.
 (pdftex.def)             Requested size: 370.10385pt x 101.5798pt.
-<figures/linind2.png, id=352, 1679.27374pt x 533.995pt>
+<figures/linind2.png, id=357, 1679.27374pt x 533.995pt>
 File: figures/linind2.png Graphic file (type png)
 <use figures/linind2.png>
-Package pdftex.def Info: figures/linind2.png  used on input line 1357.
+Package pdftex.def Info: figures/linind2.png  used on input line 1356.
 (pdftex.def)             Requested size: 369.44136pt x 117.47926pt.
 [19 <./figures/span.png> <./figures/linind.png> <./figures/linind2.png>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1375--1376
- [][][][][][] 
- []
-
-[20]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1419--1420
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1374--1375
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1446--1447
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1388--1389
  [][][][][][] 
  []
 
-[21] (./gal.aux)
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1448--1449
+ [][][][][][] 
+ []
+
+[20] [21]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1505--1506
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1532--1533
+ [][][][][][] 
+ []
+
+[22] (./gal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `gal.out' has not changed.
-(rerunfilecheck)             Checksum: 8A8C5ECE8FB993909EF96C318A951BE8;6614.
+(rerunfilecheck)             Checksum: C8D8522A6D4DB3E115855D2FD9694C8A;6958.
  ) 
 Here is how much of TeX's memory you used:
- 50923 strings out of 474934
- 1162854 string characters out of 5762810
- 1984481 words of memory out of 5000000
- 71437 multiletter control sequences out of 15000+600000
- 598486 words of font info for 95 fonts, out of 8000000 for 9000
+ 50935 strings out of 474934
+ 1163008 string characters out of 5762810
+ 1984468 words of memory out of 5000000
+ 71444 multiletter control sequences out of 15000+600000
+ 599835 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,16n,109p,718b,1442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on gal.pdf (22 pages, 723500 bytes).
+Output written on gal.pdf (23 pages, 727804 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 362 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 381 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 449 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
