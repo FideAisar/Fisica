@@ -1,30 +1,44 @@
-\contentsline {section}{\numberline {1}Sistemi di equazioni lineari}{2}{}%
-\contentsline {paragraph}{Teorema di Rouchè-Capelli}{3}{}%
-\contentsline {subsection}{\numberline {1.1}Sistemi omogenei}{3}{}%
-\contentsline {paragraph}{Teorema: parametri liberi}{3}{}%
-\contentsline {section}{\numberline {2}Matrici}{5}{}%
-\contentsline {paragraph}{Proposizione}{5}{}%
-\contentsline {subsection}{\numberline {2.1}Operazioni tra matrici}{5}{}%
-\contentsline {subsubsection}{Prodotto come combinazione lineare}{6}{}%
-\contentsline {subsubsection}{La trasposta di una matrice}{6}{}%
-\contentsline {subsection}{\numberline {2.2}Determinante}{8}{}%
-\contentsline {subsubsection}{Calcolo del determinante}{8}{}%
-\contentsline {subsubsection}{Come cambia il determinante dopo le 3 mosse?}{9}{}%
-\contentsline {paragraph}{osservazioni su matrici inverse}{9}{}%
-\contentsline {subsection}{\numberline {2.3}Teoremi di Laplace}{10}{}%
-\contentsline {subsubsection}{Primo Teorema di Laplace}{10}{}%
-\contentsline {subsubsection}{Secondo Teorema di Laplace}{10}{}%
-\contentsline {subsection}{\numberline {2.4}Matrici inverse}{11}{}%
-\contentsline {paragraph}{Teorema}{11}{}%
-\contentsline {paragraph}{Teorema}{12}{}%
-\contentsline {subsubsection}{Calcolo della matrice inversa 1}{12}{}%
-\contentsline {subsubsection}{Calcolo della matrice inversa 2}{12}{}%
-\contentsline {subsection}{\numberline {2.5}Teorema di Cramer}{12}{}%
-\contentsline {section}{\numberline {3}Prodotto scalare e vettoriale}{14}{}%
-\contentsline {subsection}{\numberline {3.1}Proprietà del prodotto scalare}{14}{}%
-\contentsline {subsection}{\numberline {3.2}Interpretazione geometrica del prodotto scalare}{15}{}%
-\contentsline {paragraph}{Teorema: vettore proiezione ortogonale}{15}{}%
-\contentsline {paragraph}{Teorema di Pitagora generalizzato}{15}{}%
-\contentsline {subsection}{\numberline {3.3}Prodotto vettoriale}{15}{}%
-\contentsline {section}{\numberline {4}Applicazioni Lineari}{16}{}%
-\contentsline {paragraph}{Teorema fondamentale delle applicazioni lineari }{16}{}%
+\contentsline {section}{\numberline {1}Sistemi di equazioni lineari}{2}{section.1}%
+\contentsline {paragraph}{Teorema di Rouchè-Capelli}{3}{section*.2}%
+\contentsline {subsection}{\numberline {1.1}Sistemi omogenei}{3}{subsection.1.1}%
+\contentsline {paragraph}{Teorema: parametri liberi}{3}{section*.3}%
+\contentsline {section}{\numberline {2}Matrici}{5}{section.2}%
+\contentsline {paragraph}{Proposizione}{5}{section*.4}%
+\contentsline {subsection}{\numberline {2.1}Operazioni tra matrici}{5}{subsection.2.1}%
+\contentsline {subsubsection}{Prodotto come combinazione lineare}{6}{section*.5}%
+\contentsline {subsubsection}{La trasposta di una matrice}{6}{section*.6}%
+\contentsline {subsection}{\numberline {2.2}Determinante}{8}{subsection.2.2}%
+\contentsline {subsubsection}{Calcolo del determinante}{8}{section*.10}%
+\contentsline {subsubsection}{Come cambia il determinante dopo le 3 mosse?}{8}{section*.11}%
+\contentsline {paragraph}{osservazioni su matrici inverse}{9}{section*.12}%
+\contentsline {subsection}{\numberline {2.3}Teoremi di Laplace}{9}{subsection.2.3}%
+\contentsline {subsubsection}{Primo Teorema di Laplace}{10}{section*.13}%
+\contentsline {subsubsection}{Secondo Teorema di Laplace}{10}{section*.14}%
+\contentsline {subsection}{\numberline {2.4}Matrici inverse}{10}{subsection.2.4}%
+\contentsline {paragraph}{Teorema}{11}{section*.16}%
+\contentsline {paragraph}{Teorema}{11}{section*.17}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 1}{12}{section*.18}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 2}{12}{section*.19}%
+\contentsline {subsection}{\numberline {2.5}Teorema di Cramer}{12}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Prodotto scalare e vettoriale}{13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Proprietà del prodotto scalare}{13}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Interpretazione geometrica del prodotto scalare}{14}{subsection.3.2}%
+\contentsline {paragraph}{Teorema: vettore proiezione ortogonale}{14}{section*.20}%
+\contentsline {paragraph}{Teorema di Pitagora generalizzato}{14}{section*.21}%
+\contentsline {subsection}{\numberline {3.3}Prodotto vettoriale}{14}{subsection.3.3}%
+\contentsline {subsubsection}{Proprietà del prodotto vettoriale}{15}{section*.22}%
+\contentsline {subsubsection}{Interpretazione geometrica del prodotto vettoriale}{15}{section*.23}%
+\contentsline {subsection}{\numberline {3.4}Prodotto misto}{15}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Spazi Vettoriali}{16}{section.4}%
+\contentsline {subsubsection}{Proprietà della somma}{16}{section*.24}%
+\contentsline {subsubsection}{Proprietà del prodotto}{16}{section*.25}%
+\contentsline {subsection}{\numberline {4.1}Sottospazi vettoriali}{16}{subsection.4.1}%
+\contentsline {subsubsection}{Somma di due sottospazi}{17}{section*.26}%
+\contentsline {paragraph}{Proposizione}{17}{section*.27}%
+\contentsline {subsection}{\numberline {4.2}Combinazione lineare}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Basi}{18}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Cambiamento di base}{18}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Spazio delle righe, delle colonne, Nullspace}{18}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Rank}{18}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Applicazioni Lineari}{19}{section.5}%
+\contentsline {paragraph}{Teorema fondamentale delle applicazioni lineari }{19}{section*.28}%

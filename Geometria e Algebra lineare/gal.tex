@@ -27,7 +27,9 @@
 \usepackage{transparent}
 \usepackage{amssymb}
 \usepackage{mathrsfs}
+\usepackage{hyperref}
 
+\definecolor{myblue}{RGB}{224, 245, 255} 
 
 % box
 \newtcolorbox{es}[2][]{%
@@ -42,12 +44,12 @@
 
 % box blu per definizioni
 \newtcolorbox{blues}[2][]{%
-  enhanced,colback=Azure2,colframe=black,coltitle=black,
+  enhanced,colback=myblue,colframe=black,coltitle=black,
   sharp corners,boxrule=0.4pt,
   fonttitle=\itshape,
   attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
   boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-    colback=Azure2,before upper=\strut},
+    colback=myblue,before upper=\strut},
   title=#2,#1
 }
 
@@ -139,7 +141,9 @@
  \vspace{2em}
  Definiamo invece un \textit{sistema lineare} di $r$ equazioni lineari in $n$ incognite $x_1, x_2 \dots x_n$ una struttura del tipo:
 
- $$ {\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots +a_{1n}x_{n}=b_{1}\\a_{2,1}x_{1}+a_{22}x_{2}+\cdots +a_{2n}x_{n}=b_{2}\\\vdots a_{r1}x_{1}+a_{r2}x_{2}+\cdots +a_{rn}x_{n}=b_{r}\end{cases}} $$
+ $$ 
+ {\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots +a_{1n}x_{n}=b_{1}\\a_{2,1}x_{1}+a_{22}x_{2}+\cdots +a_{2n}x_{n}=b_{2}\\\vdots a_{r1}x_{1}+a_{r2}x_{2}+\cdots +a_{rn}x_{n}=b_{r}\end{cases}} 
+ $$
  i coefficienti sono espressi nella forma $a_{ij}$ per agevolarne il riconoscimento all'interno del sistema. Il  pedice $i$ indica l'indice di riga, il pedice $j$ è l'indice di colonna. I termini noti $b$ presentandosi una sola volta per riga hanno solo l'indice di riga.
  Se i termini noti sono tutti nulli il sistema si dirà \textbf{\textit{omogeneo}}
 
@@ -320,7 +324,7 @@ $$
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: matrice ridotta}
     Una matrice si dice \textbf{ridotta} se in ogni sua riga \textit{non nulla} esiste un elemento sotto al quale ci sono solo zeri, questo elemento viene chiamato \textit{pivot}. Se una matrice è ridotta chiameremo \textit{rango della matrice} il numero di righe non nulle in essa: $rk(A) \leq min\{r,n\}$.
 \end{blues}
@@ -414,7 +418,7 @@ può anche essere scritto come:
 \subsubsection{La trasposta di una matrice}
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: matrice trasposta}
     Data una matrice $A \in \mathbb{R}^{r,n}$, si dice trasposta di A ($\leftindex^t{A}$) la matrice che si ottiene scambiano le righe con le colonne di $A$: Se $A = (a_{ij})$, $\leftindex^t{A} = (a_{ji})$.
 $$
@@ -525,13 +529,9 @@ A = \begin{bmatrix}
 detA = 3
 $$
 
-\noindent
-In questo caso, l'area tra i vettori (0,1) e (1,0) sarebbe stata $=1$. Dopo lo stretching dei due vettori l'area ($2\cdot 2 - 1\cdot 1$) diventa $= 3$.
-
 \begin{center}
-\includesvg[scale=0.8]{figures/determ}
+\includegraphics[scale=0.3]{figures/determ.png}
 \end{center}
-
 \subsubsection{Calcolo del determinante}
 Il determinante di una matrice è una funzione $det: \mathbb{R}^{nn} \Longrightarrow \mathbb{R}$ che verifica queste due proprietà:
 \begin{enumerate}
@@ -556,7 +556,7 @@ det(A) &= a_{11} a_{22} a_{33} + a_{13} a_{21} a_{32} \textcolor{Brown2}{-} a_{1
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: determinante}
 Il determinante di una matrice quadrata $A = (a_{ij})$ di ordine $n$ è dato da: 
 $$
@@ -711,7 +711,7 @@ In una matrice quadrata $A \in \mathbb{R}^{n,n}$ la somma dei prodotti tra gli e
 \subsection{Matrici inverse}
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: matrice invertibile}
     Una matrice $A \in \mathbb{R}^{n,n}$ si dice invertibile se $\exists$ una matrice $X$ tale che $AX = XA = I$.
 \end{blues}
@@ -755,8 +755,6 @@ AB(B^{-1}A^{-1})= \dots = I
 $$
 \QEDA
 \end{es}
-
-
 
 
 
@@ -855,7 +853,7 @@ Possiamo calcolare la matrice inversa anche a partire dalla nozione di determina
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: matrice aggiunta}
 Si dice \textbf{matrice aggiunta} di $A$ la trasposta della matrice contentente i \textit{cofattori } di $A$:
 $$
@@ -962,7 +960,7 @@ Ora che sappiamo cosa sono norma di un vettore e angolo tra vettori possiamo par
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: prodotto scalare}
 Il prodotto scalare (in $V_3$ ) $x\cdot y$ di due vettori $x$ e $y$ in $V_3$ è la funzione:
 \[
@@ -1001,13 +999,13 @@ Il prodotto scalare $\|a\|\|u\|\cos{\theta}$ non è altro che il prodotto della 
 \begin{center}
 \fboxsep11pt
 \colorbox{Bisque1}{\begin{minipage}{5.75in}
-\begin{yes1}{}
+\begin{yes}{}
 \paragraph{Teorema: vettore proiezione ortogonale}
 Dati due vettori $x$ e $y$ non nulli il vettore proiezione ortogonale di $y$ su $x$ è:
 \[
 p = \frac{x\cdot y}{\|x\|^2}x
 .\] 
-\end{yes1}
+\end{yes}
 \end{minipage}}        
 \end{center}
 
@@ -1051,7 +1049,7 @@ Dati $u$ e $v$ vettori ortogonali tra loro in $\mathbb{R}^n$ con prodotto standa
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: prodotto vettoriale}
 Il prodotto vettoriale (in $V_3$ ) $x\cdot y$ di due vettori $x$ e $y$ in $V_3$ è la funzione:
 \[
@@ -1066,6 +1064,228 @@ x \wedge y  = \|x\wedge y\| \|x\| \|y\| \sin{\hat{xy}}
 \end{minipage}}        
 \end{center}
 Il verso del vettore risultante dal prodotto vettoriale ha il verso che segue la \textit{regola della mano destra}.
+
+
+\noindent
+Possiamo anche scrivere il prodotto scalare tramite lo sviluppo di determinanti in questo modo:
+\[
+u \wedge v = 
+\begin{vmatrix}
+     i& j & k \\
+     u_1& u_2 & u_3 \\
+     v_1& v_2 & v_3 
+\end{vmatrix}
+\] 
+
+\[
+	=
+\left(
+\begin{vmatrix}
+    u_2 & u_3  \\
+     v_2& v_3  
+\end{vmatrix}i,
+- \begin{vmatrix}
+    u_1 &u_3 \\
+     v_1&v_3   
+\end{vmatrix}j, +
+\begin{vmatrix}
+    u_1 & u_2 \\
+     v_1 &  v_2   
+\end{vmatrix}k
+\right)
+.\] 
+
+\subsubsection{Proprietà del prodotto vettoriale}
+\begin{itemize}
+	\item $u \wedge v = -\left(v\wedge u\right)$ ;
+	\item $u \wedge \left(v+w\right) = u\wedge v + u \wedge w$;
+	\item $k\left(u\wedge v\right) = ku \wedge v = u \wedge kv$ ;
+	\item $u \wedge u = 0$
+\end{itemize}
+
+\subsubsection{Interpretazione geometrica del prodotto vettoriale}
+Dati $u$ e $v$ vettori in uno spazio tridimensionale, dall'identità di Lagrange sappaiamo che:
+\begin{align*}
+	\|u\wedge v\|^2 &= \|u\|^2\|v\|^2 - \left(u\cdot v\right)^2 \\
+			&= - \|u\|^2\|v\|^2\cos{\theta}^2 \\
+			&= \|u\|^2\|v\|^2 \left(1-\cos{\theta}^2\right) \\
+			&= \|u\|^2\|v\|^2 \sin{\theta}^2 \\
+\end{align*}
+\noindent
+Da questo possiamo notare che il prodotto vettoriale può essere inteso anche come area del parallelogramma che ha come lati i due vettori. 
+
+\begin{center}
+\includegraphics[scale=0.25]{figures/uedge.png}
+\end{center}
+
+\subsection{Prodotto misto}
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Prodotto misto}
+Dati due vettori $u$ e $v$, allora
+\[
+u \cdot \left(v \wedge w\right)
+.\] 
+è chiamato prodotto misto di $u$ $v$ e  $w$.
+\end{blues}
+\end{minipage}}        
+\end{center}
+Geometricamente il prodotto misto rappresenta $\frac{1}{6}$ del volume del tetraedro formato dai tre vettori.
+
+
+%% %% %%
+%% %% %%  SPAZI VETTORIALI
+%% %% %% 
+
+\newpage
+\section{Spazi Vettoriali}
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Spazio Vettoriale}
+    Si definisce \textbf{spazio vettoriale} sul campo dei numeri reali $\mathbb{R}$ un certo insieme $V$ nel quale sono definite le seguenti operazioni:
+    \begin{enumerate}
+        \item somma $+$: $V \times V \longrightarrow V$.
+        \item prodotto $\cdot$: $\mathbb{R} \times V \longrightarrow V$.
+        \end{enumerate}
+	Un gruppo $\left(V,\times \right)$ si dice \textit{commutativo} (o Abeliano) se $v \times y = y \times x \quad \forall x,y \in V$
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+
+\subsubsection{Proprietà della somma}
+\begin{enumerate}
+    \item commutativa: $x + y = y + x, \quad \forall x,y \in V$
+    \item associativa: $(x+y)+z = x + (y+z),\quad \forall x,y \in V$
+    \item esistenza dell'elemento neutro: $\exists 0 \in V : 0 + x = x +0, \quad \forall x,y \in V$
+    \item esistenza dell'opposto: $\forall x \in V \exists -x \in V : x + (-x) = (-x) +x = 0$
+\end{enumerate}
+\subsubsection{Proprietà del prodotto}
+\begin{enumerate}
+    \item (diciamo) distributiva: $\lambda(x+y) = \lambda x + \lambda y,\quad \forall x,y \in V, \forall \lambda \in \mathbb{R}$
+    \item $(\lambda + \mu)\cdot \overline{x} = \lambda \overline{x} + \mu \overline{x}, \quad \forall x,y \in V, \forall \lambda \in \mathbb{R}$
+    \item $(\lambda \cdot \mu)\overline{x} = \lambda(\mu \cdot \overline{x}),\quad \forall x,y \in V$
+    \item $1 \cdot \overline{x} = \overline{x}, \quad \forall x,y \in V$
+\end{enumerate}
+
+
+
+\subsection{Sottospazi vettoriali}
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: sottospazio vettoriale}
+Sia $V$ uno spazio vettoriale reale, $W \subseteq V $ è un sottospazio vettoriale di $V$ se $W$ è uno spazio vettoriale rispetto alle stesse operazioni di $V$, quindi rispetto alle operazioni di \textit{somma} e \textit{prodotto}.
+
+\begin{itemize}
+	\item Se ho 2 elementi $\overline{x},\overline{y}\in W \quad \Rightarrow \quad \overline{x} + \overline{y} \in W$;
+	\item Se ho 2 elementi $\overline{x} \in W, \lambda \in \mathbb{R} \quad \Rightarrow \quad \lambda\overline{x} \in W$.
+\end{itemize}
+
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+\begin{center}
+\includegraphics[scale=0.25]{figures/subspace.png}
+\end{center}
+In figura vediamo come $u$ e $v$ siano contenuti in $W$ ma la loro somma no.
+\subsubsection{Somma di due sottospazi}
+La somma di due sottospazi è il più piccolo sottospazio contenente l'unione dei duee si esprime come l'insieme di tutti i vettori ottenuti dalla somma di vettori appartenenti ai sottospazi sommati.
+\[
+W_1 + W_2  = \left\{\overline{x} \in V: \quad \overline{x} = \overline{y}+\overline{z}  \qquad y \in W_1, \quad z \in W_2\right\}
+.\] 
+
+Quindi $W_1 + W_2$ contiene $W_1$ e contiene $W_2$ e $W_1 + W_2$ è sottospazio.
+\begin{es}{dimostrazione}
+Possiamo dire che è sottospazio se la somma tra ogni vettore ricade in esso così come il prodotto tra ogni vettore e uno scalare.
+
+Prendiamo due vettori $\overline{x}$ e $\overline{y}$ entrambi $\in W_1 + W_2$:
+\[
+\overline{x} = \overline{x}_{1} + \overline{x}_{2} \quad \overline{x}_1 \in W_1, \quad \overline{x}_{2} \in W_2
+.\] 
+\[
+\overline{y} = \overline{y}_{1} + \overline{y}_{2} \quad \overline{y}_1 \in W_1, \quad \overline{y}_{2} \in W_2
+.\] 
+\begin{align*}
+	\left(+\right)\Rightarrow \quad \overline{x} + \overline{y} &= \overline{x}_{1} + \overline{x}_{2} + \overline{y}_{1} + \overline{y}_{2} \\
+						      &= \left(\overline{x}_{1} + \overline{y}_{1}\right) + \left(\overline{x}_{2}+\overline{y}_{2}\right) \quad \Rightarrow \quad \in W_1 + W_2 
+\end{align*}
+\begin{align*}
+	\left(\cdot\right) \Rightarrow \quad \lambda\left(\overline{x}+\overline{y}\right) &= \lambda \overline{x}_{1} + \lambda \overline{x}_{2} + \lambda \overline{y}_{1} + \lambda \overline{y}_{2} \\
+						      &= \lambda\left(\overline{x}_{1} + \overline{y}_{1}\right) + \lambda\left(\overline{x}_{2}+\overline{y}_{2}\right) \quad \Rightarrow \quad \in W_1 + W_2
+\end{align*}
+\end{es}
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Somma diretta}
+$\left(V,+,\cdot\right)$ spazio vettoriale, $W_1,W_2 \leq V$. Diciamo che la somma $W_1+W_2$ è una somma diretta se ogni $\overline{x} \in W_1+W_2$ si scrive in modo unico come $\overline{x}_1 + \overline{x}_2$ con $\overline{x}_1 \in W_1$ e $\overline{x}_2 \in W_2 $.
+
+La somma verrà scritta come:
+\[
+W_1 \oplus W_2 = V
+.\] 
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+\paragraph{Proposizione}
+In $V$ spazio vettoriale, $W_1,W_2 \leq V$. Allora:
+\[
+W_1 \quad \text{e} \quad W_2 \quad \text{sono in somma diretta} \quad \Longleftrightarrow \quad W_1 \cap W_2 = \{\overline{0}\} 
+.\] 
+
+\begin{es}{dimostrazione}
+\[
+\Leftarrow \quad \text{se esiste un x con almeno 2 decomposizioni} \quad \Rightarrow \quad \exists \overline{z} \in W_1 \cap W_2,\quad \overline{z} \neq \overline{0}
+.\] 
+Prendo allora tale $\overline{x}$ che si scompone in due coordinate x e in due y:
+\[
+\overline{x}_{1} + \overline{x}_{2} = \overline{x} = \overline{y}_{1} + \overline{y}_{2}, \quad \overline{x}_{1} \neq \overline{x}_{2}, \quad \overline{y}_{1} \neq \overline{y}_{2}
+.\] 
+\[
+\overline{x}_{1} + \overline{x}_{2} = \overline{y}_{1} + \overline{y}_{2}
+.\] 
+\[
+\overline{y}_{1} - \overline{x}_{1} = \overline{x}_{2} - \overline{y}_{2} \quad = \overline{z}
+.\] 
+Il vettore $\overline{z}$ è contenuto sia in $W_1$ sia in $W_2$, quindi $W_1 \cap W_2 \neq \overline{0}$.
+
+Contronominale: se $W_1 \cap W_2 \neq \{\overline{0}\} \quad \Rightarrow \quad \text{non ho unicità di scrittura}$
+\[
+\Rightarrow \quad \text{Se} \quad \overline{z} \in W_1 \cap W_2, \quad\overline{z} \neq 0
+.\] 
+\[
+x \in W_1 + W_2
+.\] 
+\[
+\overline{x} = \overline{x}_{1} \textcolor{red}{+\overline{z}} + \overline{x}_{2} \textcolor{red}{-\overline{z}}
+.\] 
+\QEDA
+\end{es}
+
+\subsection{Combinazione lineare}
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: combinazione lineare}
+Dato $V$ spazio vettoriale, $\overline{v}_{1},\dots,\overline{v}_{n} \in V$, una composizione lineare di $\overline{v}_{1},\dots,\overline{v}_{n}$ è una strutura del tipo $\lambda_{1}\overline{v}_{1},\dots,\lambda_{n}\overline{v}_{n}$ con ogni $\lambda \in \mathbb{R}$.
+\end{blues}
+\end{minipage}}        
+\end{center}
+Ogni sottospazio possiamo dire essere generato da combinazioni lineari dei vettori che lo generano. Per questo 
+
+\subsection{Basi}
+\subsection{Cambiamento di base}
+\subsection{Spazio delle righe, delle colonne, Nullspace}
+\subsection{Rank}
 
 
 
@@ -1084,7 +1304,7 @@ f: V \longrightarrow W \qquad V,W \text{ sottospazi vettoriali}
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: Applicazione lineare}
 	Dati due spazi vettoriali reali $V,W$, si dice applicazione lineare o \textbf{omomorfismo} o trasformazione lineare da $V$ in  $W$ una funzione
 \[
@@ -1112,7 +1332,7 @@ per ogni $x$ e  $y$ in $V$ e per ogni $\lambda$ e $\mu$ in $\mathbb{R}$.
 \begin{center}
 \fboxsep11pt
 \colorbox{Bisque1}{\begin{minipage}{5.75in}
-\begin{yes1}{}
+\begin{yes}{}
 \paragraph{Teorema fondamentale delle applicazioni lineari }
 Dati $V$ e  $W$ spazi vettoriali,
 \[
@@ -1129,7 +1349,7 @@ f: V \longrightarrow W \text{ t.c. }
 f\left(\overline{v}_{i}\right) = \overline{a}_{i} \quad \forall i \in \{1,\dots,n\}
 .\] 
 In altre parole per assegnare un'applicazione lineare tra due spazi vettoirali $V$ e $W$, di cui almeno $V$ di dimenzione finita, è sufficiente conoscere le immagini dei vettori di una vase di $V$.
-\end{yes1}
+\end{yes}
 \end{minipage}}        
 \end{center}
 
