@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {1}Sistemi di equazioni lineari}{2}{}%
+\contentsline {paragraph}{Teorema di Rouchè-Capelli}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Sistemi omogenei}{3}{}%
+\contentsline {paragraph}{Teorema: parametri liberi}{3}{}%
+\contentsline {section}{\numberline {2}Matrici}{5}{}%
+\contentsline {paragraph}{Proposizione}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Operazioni tra matrici}{5}{}%
+\contentsline {subsubsection}{Prodotto come combinazione lineare}{6}{}%
+\contentsline {subsubsection}{La trasposta di una matrice}{6}{}%
+\contentsline {subsection}{\numberline {2.2}Determinante}{8}{}%
+\contentsline {subsubsection}{Calcolo del determinante}{8}{}%
+\contentsline {subsubsection}{Come cambia il determinante dopo le 3 mosse?}{9}{}%
+\contentsline {paragraph}{osservazioni su matrici inverse}{9}{}%
+\contentsline {subsection}{\numberline {2.3}Teoremi di Laplace}{10}{}%
+\contentsline {subsubsection}{Primo Teorema di Laplace}{10}{}%
+\contentsline {subsubsection}{Secondo Teorema di Laplace}{10}{}%
+\contentsline {subsection}{\numberline {2.4}Matrici inverse}{11}{}%
+\contentsline {paragraph}{Teorema}{11}{}%
+\contentsline {paragraph}{Teorema}{12}{}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 1}{12}{}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 2}{12}{}%
+\contentsline {subsection}{\numberline {2.5}Teorema di Cramer}{12}{}%
+\contentsline {section}{\numberline {3}Prodotto scalare e vettoriale}{14}{}%
+\contentsline {subsection}{\numberline {3.1}Proprietà del prodotto scalare}{14}{}%
+\contentsline {subsection}{\numberline {3.2}Interpretazione geometrica del prodotto scalare}{15}{}%
+\contentsline {paragraph}{Teorema: vettore proiezione ortogonale}{15}{}%
+\contentsline {paragraph}{Teorema di Pitagora generalizzato}{15}{}%
+\contentsline {subsection}{\numberline {3.3}Prodotto vettoriale}{15}{}%
+\contentsline {section}{\numberline {4}Applicazioni Lineari}{16}{}%
+\contentsline {paragraph}{Teorema fondamentale delle applicazioni lineari }{16}{}%
