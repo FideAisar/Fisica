@@ -30,6 +30,7 @@
 \usepackage{hyperref}
 
 \definecolor{myblue}{RGB}{224, 245, 255} 
+\definecolor{myred}{RGB}{234, 222, 255}
 
 % box
 \newtcolorbox{es}[2][]{%
@@ -42,7 +43,7 @@
   title=#2,#1
 }
 
-% box blu per definizioni
+% definizioni
 \newtcolorbox{blues}[2][]{%
   enhanced,colback=myblue,colframe=black,coltitle=black,
   sharp corners,boxrule=0.4pt,
@@ -54,26 +55,16 @@
 }
 
 % teoremi
-\newtcolorbox{yes}[2][]{%
-  enhanced,colback=Bisque1,colframe=Bisque1,coltitle=black,
-  sharp corners,boxrule=0.1pt, 
+\newtcolorbox{redes}[2][]{%
+  enhanced,colback=myred,colframe=black,coltitle=black,
+  sharp corners,boxrule=0.4pt,
   fonttitle=\itshape,
   attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
   boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-    colback=Bisque1,before upper=\strut},
+    colback=myred,before upper=\strut},
   title=#2,#1
 }
 
-% definizioni
-\newtcolorbox{defin}[2][]{%
-  enhanced,colback=white,colframe=LightSkyBlue1,coltitle=black,
-  sharp corners,boxrule=1.5pt,
-  fonttitle=\itshape,
-  attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
-  boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-    colback=white,before upper=\strut},
-  title=#2,#1
-}
 
 % comandi per quadrati dimostrazioni
 \newcommand*{\QEDA}{\null\nobreak\hfill\ensuremath{\blacksquare}}%
@@ -155,18 +146,15 @@
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Bisque1}{\begin{minipage}{5.75in}
-\begin{yes}{}
-
-
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema di Rouchè-Capelli}
 %ROUCHE CAPELLI
-\paragraph{Teorema di Rouchè-Capelli}
 Un sistema lineare $AX = B$  con $A \in \mathbb{R}^{r,n}, \quad X \in \mathbb{R}^{n,p}, \quad B \in \mathbb{R}^{r,p}$ è compatibile se e solo se il rango della matrice
 dei coefficienti coincide con il rango della matrice completa. Se il sistema è compatibile, le soluzioni dipendono da $p \cdot \left(n-\text{rk}A\right)$ parametri liberi.
 \[
 	\text{rk}\left(A|\overline{b}\right) = \text{rk}\left(A\right) \quad \Rightarrow \quad \text{sistema compatibile}
 \] 
-\end{yes}
+\end{redes}
 \end{minipage}}        
 \end{center}
 
@@ -211,14 +199,13 @@ Particolarità dei sistemi omogenei è il fatto che operando sulle righe, non si
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Bisque1}{\begin{minipage}{5.75in}
-\begin{yes}{}
-\paragraph{Teorema: parametri liberi}
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema: parametri liberi}
 Se un sistema lineare omogeneo ha $n$ incognite e nell sua forma ridotta la sua matrice completa ha  $\text{rank}A = n$ (nessuna riga nulla), allora
 \[
 \text{parametri liberi } = n - \text{rank}A
 .\] 
-\end{yes}
+\end{redes}
 \end{minipage}}        
 \end{center}
 
@@ -580,7 +567,7 @@ dove $\sigma$ è una qualsiasi permutazione dei numeri $1,2,\dots,n$ e $\epsilon
     \end{enumerate}
             
     \item $det(A+B) \neq det(A) + det(B)\quad \forall A,B \in \mathbb{R}^{n,n}$
-\item \colorbox{Bisque1}{\begin{minipage}{3.5in}\textbf{Teorema di Binet}: $det(AB) = det(A) det(B) \quad \forall A,B \in \mathbb{R}^{n,n}$;\end{minipage}}
+\item \colorbox{myred}{\begin{minipage}{3.5in}\textbf{Teorema di Binet}: $det(AB) = det(A) det(B) \quad \forall A,B \in \mathbb{R}^{n,n}$;\end{minipage}}
     \item $det(A^{-1}) = (det(A))^{-1}$;
 \end{enumerate}
 
@@ -756,17 +743,17 @@ $$
 \QEDA
 \end{es}
 
-
-
 \begin{center}
 \fboxsep11pt
-\colorbox{Bisque1}{\begin{minipage}{5.75in}
-\paragraph{Teorema} 
+\colorbox{myred}{
+\begin{minipage}{5.75in}
+\begin{redes}{Teorema}
 Sia A una matrice quadrata di ordine $n$, se $\text{det}(A) \neq 0$ allora esiste l’inversa di $A$ ed è:
-$$
+\[
 A^{-1} = \frac{1}{\text{det}(A)}\text{adj}(A)
-$$
-\end{minipage}}        
+\]
+\end{redes}
+\end{minipage}}
 \end{center}
 
 \begin{es}{dimostrazione}
@@ -793,15 +780,15 @@ Possiamo notare quindi che dopo le opportune operazioni ci si riconduce alla for
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Bisque1}{\begin{minipage}{5.75in}
-
-\paragraph{Teorema}
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema}
 Una matrice $A$ è invertibile  $\Longleftrightarrow$ il rango è massimo ($\text{rk}A = n$).
 
 Possiamo dire che risolvere $Ax = I$ sia equivalente a scrivere  $x$ per colonne e risolvere il seguente sistema:
 \[
 	\left(*\right) \left\{ \begin{array}{c} A\overline{x}_{1} = \left(1,0,\dots,0\right) \\ A\overline{x}_{2} = \left(0,1,\dots,0\right) \\ \vdots\end{array}\right
 .\] 
+\end{redes}
 \end{minipage}}        
 \end{center}
 
@@ -998,14 +985,13 @@ Il prodotto scalare $\|a\|\|u\|\cos{\theta}$ non è altro che il prodotto della 
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Bisque1}{\begin{minipage}{5.75in}
-\begin{yes}{}
-\paragraph{Teorema: vettore proiezione ortogonale}
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema: vettore proiezione ortogonale}
 Dati due vettori $x$ e $y$ non nulli il vettore proiezione ortogonale di $y$ su $x$ è:
 \[
 p = \frac{x\cdot y}{\|x\|^2}x
 .\] 
-\end{yes}
+\end{redes}
 \end{minipage}}        
 \end{center}
 
@@ -1032,15 +1018,14 @@ p = \frac{u\cdot a}{\|a\|^2}a
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Bisque1}{\begin{minipage}{5.75in}
-\begin{yes}{}
-\paragraph{Teorema di Pitagora generalizzato}
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema di Pitagora generalizzato}
 Dati $u$ e $v$ vettori ortogonali tra loro in $\mathbb{R}^n$ con prodotto standard, allora
 \[
 \|u+v\|^2 = \|u\|^2 + \|v\|^2
 .\] 
 \textit{la dimostrazione è molto semplice, il termine $2u\cdot v$ vale zero.}
-\end{yes}
+\end{redes}
 \end{minipage}}        
 \end{center}
 
@@ -1200,11 +1185,12 @@ L'insieme delle soluzioni di un sistema lineare omogeneo di $m$ equazioni in $n$
 AX = O \qquad A \in \mathbb{R}^{m,n}, X \in \mathbb{R}^{n,1}, O \in \mathbb{R}^{m,1}
 \] 
 è detto \textit{nullspace} e coincide con l'insieme
-\[
-\mathrsfs{N}\left(A\right) = \{\left X \in \mathbb{R}^n | AX = O  \right\}
-\] 
 
-Dati $X_1$ e $X_2$ $\in \mathrsfs{N}\left(A\right)$ si deve dimostrare che 
+\[
+N\left(A\right) = \left\{ X \in \mathbb{R}^n | AX = O  \right\}
+\]
+
+Dati $X_1$ e $X_2$ $\in N\left(A\right)$ si deve dimostrare che 
 \[
 \lambda X_1 è \mu X_2 \in N\left(A\right) \quad \forall \lambda,\mu \in \mathbb{R}
 \] 
@@ -1298,11 +1284,10 @@ L'intersezione di due sottospazi vettoriali $W_1$ e $W_2$ contiene tutti i vetto
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Bisque1}{\begin{minipage}{5.75in}
-\begin{yes}{}
-\paragraph{Teorema: l'intersezione è sottospazio}
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema: l'intersezione è sottospazio}
 Immediata conseguenza delle definizioni di sottospazio vettoriale e di intersezione. Se $W_1$ e $W_2$ sono sottospazi allora lo deve essere anche $W_1 \cap W_2$.
-\end{yes}
+\end{redes}
 \end{minipage}}        
 \end{center}
 
@@ -1323,13 +1308,12 @@ Ogni sottospazio possiamo dire essere generato da combinazioni lineari dei vetto
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Bisque1}{\begin{minipage}{5.75in}
-\begin{yes}{}
-\paragraph{Teorema}
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema}
 Se $S=\{w_1,w_2,\dots,w_{r}\}$ è un insieme di vettori non nullo contenuto in $V$, allora:  \\
 L'insieme  $W = \mathscr{L}\left(\left(w_1\right),\left(w_2\right),\dots,\left(w_{r}\right)\right)$, è il \textbf{più piccolo} sottospazio di V che contiene tutti i vettori di $S$. \\
 In questo caso si dice che  $W$  \textbf{è generato} da $S$.
-\end{yes}
+\end{redes}
 \end{minipage}}        
 \end{center}
 
@@ -1362,7 +1346,7 @@ Un insieme di vettori linearmente indipendenti si dice \textbf{libero}.
 \end{center}
 
 \begin{center}
-\includegraphics[scale=0.25]{figures/linind.png}
+\includegraphics[scale=0.22]{figures/linind.png}
 \end{center}
 $$
 \begin{array}{ccc}
@@ -1370,7 +1354,7 @@ $$
 \end{array}
 $$ 
 \begin{center}
-\includegraphics[scale=0.25]{figures/linind2.png}
+\includegraphics[scale=0.22]{figures/linind2.png}
 \end{center}
 $$
 \begin{array}{ccc}
@@ -1441,9 +1425,8 @@ per ogni $x$ e  $y$ in $V$ e per ogni $\lambda$ e $\mu$ in $\mathbb{R}$.
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Bisque1}{\begin{minipage}{5.75in}
-\begin{yes}{}
-\paragraph{Teorema fondamentale delle applicazioni lineari }
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{Teorema fondamentale delle applicazioni lineari}
 Dati $V$ e  $W$ spazi vettoriali,
 \[
 \mathscr{B} = \{\overline{v}_{1},\dots,\overline{v}_{n}\} \text{ base di }V
@@ -1459,7 +1442,7 @@ f: V \longrightarrow W \text{ t.c. }
 f\left(\overline{v}_{i}\right) = \overline{a}_{i} \quad \forall i \in \{1,\dots,n\}
 .\] 
 In altre parole per assegnare un'applicazione lineare tra due spazi vettoirali $V$ e $W$, di cui almeno $V$ di dimenzione finita, è sufficiente conoscere le immagini dei vettori di una vase di $V$.
-\end{yes}
+\end{redes}
 \end{minipage}}        
 \end{center}
 

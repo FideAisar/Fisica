@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1699805847 "gal.tex" "gal.pdf" "gal" 1699805850 2
+["pdflatex"] 1699808214 "gal.tex" "gal.pdf" "gal" 1699808218 0
   "/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncb8r.tfm" 1136768653 3220 7b5d1a9569a08754f1bdfbc1c7ad8dbd ""
@@ -347,10 +347,10 @@
   "figures/uedge.png" 1699785618 32507 d3d3c082793b766f9fbc49ae83fc7d1d ""
   "figures/vettori_du.svg" 1699721245 23938 354110718366efc9bf421d6deb68e11a ""
   "figures/vettori_u.svg" 1699721245 20687 3ea579605a37d00c041d59f98a914281 ""
-  "gal.aux" 1699805850 6436 18a3ef51012a421894457ecf459f1399 "pdflatex"
-  "gal.out" 1699805850 6616 b430c56a43bf2e05faaddbf3a63a8413 "pdflatex"
-  "gal.tex" 1699805845 52269 02d0ff84d1ef81bceaaec7bc57fa2a85 ""
-  "gal.toc" 1699805850 3819 8270d20e5b02effb077d6437a57ee69c "pdflatex"
+  "gal.aux" 1699808218 5421 29f749e7add161a45731bc42db1e70be "pdflatex"
+  "gal.out" 1699808218 6614 8a8c5ece8fb993909ef96c318a951be8 "pdflatex"
+  "gal.tex" 1699808129 51847 5877c71ada7a9dcd32b719df860d8b47 ""
+  "gal.toc" 1699808218 3178 e4026b9278ace5411efb1b5bd6ab8976 "pdflatex"
   "pngegg.png" 1699344980 95012 73099c42e618cc2ae5db5a2364fe3d44 ""
   "svg-inkscape/sistemi_piani_svg-tex.pdf" 1699722073 157853 d7988af2d9a16781d2c3c224be79c91e ""
   "svg-inkscape/sistemi_piani_svg-tex.pdf_tex" 1699722073 2096 2cd6618af0d6857957f1a125a604a423 ""
