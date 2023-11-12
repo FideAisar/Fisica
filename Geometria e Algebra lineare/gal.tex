@@ -1193,7 +1193,29 @@ Sia $V$ uno spazio vettoriale reale, $W \subseteq V $ è un sottospazio vettoria
 \includegraphics[scale=0.25]{figures/subspace.png}
 \end{center}
 In figura vediamo come $u$ e $v$ siano contenuti in $W$ ma la loro somma no.
-\subsubsection{Somma di due sottospazi}
+
+\begin{es}{Esempio fondamentale di sottospazio vettoriale}
+L'insieme delle soluzioni di un sistema lineare omogeneo di $m$ equazioni in $n$ incognite è un sottospazio vettoriale di $\mathbb{R}^n$. L'insieme delle soluzioni di 
+\[
+AX = O \qquad A \in \mathbb{R}^{m,n}, X \in \mathbb{R}^{n,1}, O \in \mathbb{R}^{m,1}
+\] 
+è detto \textit{nullspace} e coincide con l'insieme
+\[
+\mathrsfs{N}\left(A\right) = \{\left X \in \mathbb{R}^n | AX = O  \right\}
+\] 
+
+Dati $X_1$ e $X_2$ $\in \mathrsfs{N}\left(A\right)$ si deve dimostrare che 
+\[
+\lambda X_1 è \mu X_2 \in N\left(A\right) \quad \forall \lambda,\mu \in \mathbb{R}
+\] 
+che sviluppando
+\[
+A\left(\lambda X_1 + \mu X_2\right) = \lambda AX_1 + \mu AX_2 = O
+.\] 
+\end{es}
+
+
+\subsubsection{$+$ Somma di due sottospazi}
 La somma di due sottospazi è il più piccolo sottospazio contenente l'unione dei duee si esprime come l'insieme di tutti i vettori ottenuti dalla somma di vettori appartenenti ai sottospazi sommati.
 \[
 W_1 + W_2  = \left\{\overline{x} \in V: \quad \overline{x} = \overline{y}+\overline{z}  \qquad y \in W_1, \quad z \in W_2\right\}
@@ -1270,6 +1292,22 @@ x \in W_1 + W_2
 \QEDA
 \end{es}
 
+
+\subsubsection{$\cap$ Intersezione di due sottospazi}
+L'intersezione di due sottospazi vettoriali $W_1$ e $W_2$ contiene tutti i vettori contenuti sia in $W_1$ sia in $W_2$.
+
+\begin{center}
+\fboxsep11pt
+\colorbox{Bisque1}{\begin{minipage}{5.75in}
+\begin{yes}{}
+\paragraph{Teorema: l'intersezione è sottospazio}
+Immediata conseguenza delle definizioni di sottospazio vettoriale e di intersezione. Se $W_1$ e $W_2$ sono sottospazi allora lo deve essere anche $W_1 \cap W_2$.
+\end{yes}
+\end{minipage}}        
+\end{center}
+
+
+
 \subsection{Combinazione lineare}
 
 \begin{center}
@@ -1280,9 +1318,81 @@ Dato $V$ spazio vettoriale, $\overline{v}_{1},\dots,\overline{v}_{n} \in V$, una
 \end{blues}
 \end{minipage}}        
 \end{center}
-Ogni sottospazio possiamo dire essere generato da combinazioni lineari dei vettori che lo generano. Per questo 
+Ogni sottospazio possiamo dire essere generato da combinazioni lineari dei vettori che lo generano. 
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{Bisque1}{\begin{minipage}{5.75in}
+\begin{yes}{}
+\paragraph{Teorema}
+Se $S=\{w_1,w_2,\dots,w_{r}\}$ è un insieme di vettori non nullo contenuto in $V$, allora:  \\
+L'insieme  $W = \mathscr{L}\left(\left(w_1\right),\left(w_2\right),\dots,\left(w_{r}\right)\right)$, è il \textbf{più piccolo} sottospazio di V che contiene tutti i vettori di $S$. \\
+In questo caso si dice che  $W$  \textbf{è generato} da $S$.
+\end{yes}
+\end{minipage}}        
+\end{center}
+
+\begin{center}
+\includegraphics[scale=0.3]{figures/span.png}
+\end{center}
+
+\noindent
+E' importante riconoscere che gli insiemi di generatori \textit{non sono unici}. Per esempio qualsiasi vettore non nullo sulla linea in figura sarebbe generatore  di $v$. Sono generatori tutte le combinazioni lineari di un insieme di generatori.
+
+\subsection{Indipendenza lineare}
+Diciamo di avere uno spazio $xy$ con vettori standard $i$ e $j$. Ogni vettore in $xy$ può essere espresso in modo unico come combinazione lineare di $i$ e $j$. Supponiamo ora di introdurre una terza coordinata $w$ a 45 gradi tra gli assi $x$ e $y$. 
+
+Questo terzo asse risulta essere totalmente superfluo poiché lui stesso può essere espresso come combinazione lineare di $i$ e $j$ per cui non aiuta a descrivere nessun vettore sul piano.
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Vettori linearmente indipendenti}
+Dato un insieme di vettori $V=\{v_1,v_2,\dots,v_{r}\}$, questo  è detto \textit{linearmente indipendente} se nessun vettore in $V$ può essere espresso come combinazione lineare di uno degli altri. Quindi se e solo se:
+\[
+k_1v_1 + k_2v_2 + \dots + k_rv_r = 0
+.\] 
+è risolto solo da $k_1 =k_2= \dots = k_r =0$.
+
+Un insieme di vettori linearmente indipendenti si dice \textbf{libero}.
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+\begin{center}
+\includegraphics[scale=0.25]{figures/linind.png}
+\end{center}
+$$
+\begin{array}{ccc}
+	l.d.\qquad \qquad \qquad \qquad \qquad \qquad& l.i. & \qquad \qquad \qquad \qquad \qquad \qquad l.i. 
+\end{array}
+$$ 
+\begin{center}
+\includegraphics[scale=0.25]{figures/linind2.png}
+\end{center}
+$$
+\begin{array}{ccc}
+	l.d.\qquad \qquad \qquad \qquad \qquad \qquad& l.d. & \qquad \qquad \qquad \qquad \qquad \qquad l.i. 
+\end{array}
+$$
 
 \subsection{Basi}
+Ora che sappiamo cosa sono un insieme di generatori e un insieme di vettori linearmente indipendenti possiamo definire il concetto di base.
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Base}
+Viene chiamata base di $V$ un insieme di vettori che \textbf{genera} $V$ e al contempo è linearmente indipendente.
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+
+
 \subsection{Cambiamento di base}
 \subsection{Spazio delle righe, delle colonne, Nullspace}
 \subsection{Rank}

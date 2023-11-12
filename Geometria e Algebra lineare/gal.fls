@@ -2,7 +2,7 @@ PWD /home/fide/Documenti/Fisica/Geometria e Algebra lineare
 INPUT /opt/texlive/2023/texmf.cnf
 INPUT /opt/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /opt/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/fide/Documenti/Fisica/Geometria e Algebra lineare/gal.tex
+INPUT gal.tex
 OUTPUT gal.log
 INPUT /opt/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT /opt/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -628,6 +628,10 @@ INPUT /opt/texlive/2023/texmf-dist/fonts/vf/adobe/ncntrsbk/pncb8t.vf
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncb8r.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/vf/adobe/ncntrsbk/pncb8t.vf
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncb8r.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/vf/public/fouriernc/fncsy.vf
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8r.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncri8t.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncbi8t.tfm
 INPUT ./figures/sistemi_piani.svg
@@ -652,10 +656,6 @@ INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8r.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncri8r.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/vf/adobe/ncntrsbk/pncr8t.vf
-INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8r.tfm
-INPUT /opt/texlive/2023/texmf-dist/fonts/vf/public/fouriernc/fncsy.vf
-INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
-INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8r.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/vf/public/fouriernc/fncmii.vf
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
@@ -735,6 +735,21 @@ INPUT ./figures/subspace.png
 INPUT ./figures/subspace.png
 INPUT ./figures/subspace.png
 INPUT ./figures/subspace.png
+INPUT ./figures/span.png
+INPUT ./figures/span.png
+INPUT ./figures/span.png
+INPUT ./figures/span.png
+INPUT ./figures/span.png
+INPUT ./figures/linind.png
+INPUT ./figures/linind.png
+INPUT ./figures/linind.png
+INPUT ./figures/linind.png
+INPUT ./figures/linind.png
+INPUT ./figures/linind2.png
+INPUT ./figures/linind2.png
+INPUT ./figures/linind2.png
+INPUT ./figures/linind2.png
+INPUT ./figures/linind2.png
 INPUT gal.aux
 INPUT ./gal.out
 INPUT ./gal.out

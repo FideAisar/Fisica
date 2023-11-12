@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  12 NOV 2023 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  12 NOV 2023 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/fide/Documenti/Fisica/Geometria e Algebra lineare/gal.tex"
-(/home/fide/Documenti/Fisica/Geometria e Algebra lineare/gal.tex
+**gal.tex
+(./gal.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (/opt/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -111,7 +111,8 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
  (/opt/texlive/2023/texmf-dist/tex/latex/xcolor/x11nam.def
 File: x11nam.def 2022/06/12 v2.14 Predefined colors according to Unix/X11 (UK)
-)) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen155
@@ -164,7 +165,8 @@ File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -238,7 +240,8 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/opt/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks30
 \t@pgfplots@tokb=\toks31
 \t@pgfplots@tokc=\toks32
@@ -257,7 +260,8 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgfplotstable@a=\toks36
 ) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count284
- (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+ (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen194
 \pgfdecoratedremainingdistance=\dimen195
 \pgfdecoratedinputsegmentcompleteddistance=\dimen196
@@ -316,7 +320,8 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 \c@svg@param@currpage=\count288
 ) (/opt/texlive/2023/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
- (/opt/texlive/2023/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
  (/opt/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
@@ -1016,7 +1021,8 @@ Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
 File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
 ) (/opt/texlive/2023/texmf-dist/tex/latex/pst-coil/pst-coil.sty
 Package: pst-coil 2010/02/01 package wrapper for pst-coil.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-coil/pst-coil.tex  v1.06, 2006/11/27 (/opt/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex))
+ (/opt/texlive/2023/texmf-dist/tex/generic/pst-coil/pst-coil.tex  v1.06, 2006/11/27
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex))
 File: pst-coil.tex 2015/05/13 v1.07 `PST-coil' (tvz,hv)
 ) (/opt/texlive/2023/texmf-dist/tex/latex/pst-text/pst-text.sty
 Package: pst-text 2018/12/28 package wrapper for pst-text.tex (hv)
@@ -1139,7 +1145,8 @@ Package: leftindex 2020/08/25 v0.1beta
 Package: import 2020/04/01  v 6.2
 ) (/opt/texlive/2023/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
- (/opt/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (/opt/texlive/2023/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
@@ -1296,7 +1303,8 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 101.
 LaTeX Font Info:    Trying to load font information for T1+fnc on input line 101.
- (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/t1fnc.fd
+
+(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/t1fnc.fd
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
@@ -1419,7 +1427,7 @@ Package hyperref Info: Link coloring OFF on input line 101.
 \openout6 = `gal.out'.
 
  (./titlepage.tex
-<pngegg.png, id=143, 1027.84pt x 1027.84pt>
+<pngegg.png, id=151, 1027.84pt x 1027.84pt>
 File: pngegg.png Graphic file (type png)
 <use pngegg.png>
 Package pdftex.def Info: pngegg.png  used on input line 5.
@@ -1517,7 +1525,7 @@ LaTeX Font Info:    Font shape `T1/fnc/b/it' will be
 (Font)              scaled to size 9.29993pt on input line 148.
 Package svg Info: Last page of `./svg-inkscape/sistemi_piani_svg-tex.pdf' is 1 on input line 153.
  (./svg-inkscape/sistemi_piani_svg-tex.pdf_tex
-<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=193, page=1, 656.32918pt x 378.90564pt>
+<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=204, page=1, 656.32918pt x 378.90564pt>
 File: ./svg-inkscape/sistemi_piani_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/sistemi_piani_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/sistemi_piani_svg-tex.pdf , page1 used on input line 56.
@@ -1549,7 +1557,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 438--439
 
 Package svg Info: Last page of `./svg-inkscape/vettori_u_svg-tex.pdf' is 1 on input line 455.
 (./svg-inkscape/vettori_u_svg-tex.pdf_tex
-<./svg-inkscape/vettori_u_svg-tex.pdf, id=230, page=1, 209.7109pt x 194.3331pt>
+<./svg-inkscape/vettori_u_svg-tex.pdf, id=240, page=1, 209.7109pt x 194.3331pt>
 File: ./svg-inkscape/vettori_u_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_u_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/vettori_u_svg-tex.pdf , page1 used on input line 56.
@@ -1557,13 +1565,13 @@ Package pdftex.def Info: ./svg-inkscape/vettori_u_svg-tex.pdf , page1 used on in
 ) [6 <./svg-inkscape/vettori_u_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/vettori_du_svg-tex.pdf' is 1 on input line 487.
  (./svg-inkscape/vettori_du_svg-tex.pdf_tex
-<./svg-inkscape/vettori_du_svg-tex.pdf, id=242, page=1, 331.7046pt x 311.37515pt>
+<./svg-inkscape/vettori_du_svg-tex.pdf, id=252, page=1, 331.7046pt x 311.37515pt>
 File: ./svg-inkscape/vettori_du_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_du_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/vettori_du_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 265.36467pt x 249.10995pt.
 ) [7 <./svg-inkscape/vettori_du_svg-tex.pdf>]
-<figures/determ.png, id=250, 1011.78pt x 524.96124pt>
+<figures/determ.png, id=260, 1011.78pt x 524.96124pt>
 File: figures/determ.png Graphic file (type png)
 <use figures/determ.png>
 Package pdftex.def Info: figures/determ.png  used on input line 533.
@@ -1594,12 +1602,12 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 877--878
  []
 
 [12]
-<figures/norma.png, id=294, 793.96625pt x 529.98pt>
+<figures/norma.png, id=305, 793.96625pt x 529.98pt>
 File: figures/norma.png Graphic file (type png)
 <use figures/norma.png>
 Package pdftex.def Info: figures/norma.png  used on input line 939.
 (pdftex.def)             Requested size: 158.79044pt x 105.99411pt.
-<figures/angoli.png, id=295, 1384.17125pt x 350.30875pt>
+<figures/angoli.png, id=306, 1384.17125pt x 350.30875pt>
 File: figures/angoli.png Graphic file (type png)
 <use figures/angoli.png>
 Package pdftex.def Info: figures/angoli.png  used on input line 954.
@@ -1616,7 +1624,7 @@ File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
 (Font)              scaled to size 9.29993pt on input line 985.
  [13 <./figures/norma.png> <./figures/angoli.png>]
-<figures/proj.png, id=305, 672.5125pt x 407.5225pt>
+<figures/proj.png, id=315, 672.5125pt x 407.5225pt>
 File: figures/proj.png Graphic file (type png)
 <use figures/proj.png>
 Package pdftex.def Info: figures/proj.png  used on input line 995.
@@ -1637,7 +1645,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1064--1065
  []
 
 [14 <./figures/proj.png>]
-<figures/uedge.png, id=313, 799.98875pt x 585.18625pt>
+<figures/uedge.png, id=323, 799.98875pt x 585.18625pt>
 File: figures/uedge.png Graphic file (type png)
 <use figures/uedge.png>
 Package pdftex.def Info: figures/uedge.png  used on input line 1118.
@@ -1661,52 +1669,142 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1189--1190
  [][][][][][] 
  []
 
-<figures/subspace.png, id=319, 878.28125pt x 551.05875pt>
+<figures/subspace.png, id=329, 878.28125pt x 551.05875pt>
 File: figures/subspace.png Graphic file (type png)
 <use figures/subspace.png>
 Package pdftex.def Info: figures/subspace.png  used on input line 1193.
 (pdftex.def)             Requested size: 219.56978pt x 137.76434pt.
+./gal.tex:1204: Undefined control sequence.
+l.1204 \mathrsfs
+                {N}\left(A\right) = \{\left X \in \mathbb{R}^n | AX = O  \ri...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./gal.tex:1204: Missing delimiter (. inserted).
+<to be read again> 
+                   X
+l.1204 \mathrsfs{N}\left(A\right) = \{\left X
+                                              \in \mathbb{R}^n | AX = O  \ri...
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+./gal.tex:1207: Undefined control sequence.
+l.1207 Dati $X_1$ e $X_2$ $\in \mathrsfs
+                                        {N}\left(A\right)$ si deve dimostrar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 1209.
+
 [16 <./figures/subspace.png>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1235--1236
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1218.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1218.
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1257--1258
+ [][][][][][] 
+ []
+
+[17]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1296.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cap' on input line 1296.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1296.
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1306--1307
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1281--1282
- [][][][][][] 
- []
-
-[17] [18]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1325--1326
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1319--1320
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1353--1354
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1333--1334
  [][][][][][] 
  []
 
-[19] (./gal.aux)
+<figures/span.png, id=350, 1379.1525pt x 539.01375pt>
+File: figures/span.png Graphic file (type png)
+<use figures/span.png>
+Package pdftex.def Info: figures/span.png  used on input line 1337.
+(pdftex.def)             Requested size: 413.74895pt x 161.70537pt.
+[18]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1361--1362
+ [][][][][][] 
+ []
+
+<figures/linind.png, id=359, 1682.285pt x 461.725pt>
+File: figures/linind.png Graphic file (type png)
+<use figures/linind.png>
+Package pdftex.def Info: figures/linind.png  used on input line 1365.
+(pdftex.def)             Requested size: 420.57022pt x 115.43097pt.
+<figures/linind2.png, id=360, 1679.27374pt x 533.995pt>
+File: figures/linind2.png Graphic file (type png)
+<use figures/linind2.png>
+Package pdftex.def Info: figures/linind2.png  used on input line 1373.
+(pdftex.def)             Requested size: 419.81741pt x 133.49841pt.
+[19 <./figures/span.png> <./figures/linind.png> <./figures/linind2.png>]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1391--1392
+ [][][][][][] 
+ []
+
+[20]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1435--1436
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1463--1464
+ [][][][][][] 
+ []
+
+[21] (./gal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `gal.out' has not changed.
-(rerunfilecheck)             Checksum: D64788B347C3E5AD1A7D30AD2C291DCB;6215.
+(rerunfilecheck)             Checksum: B430C56A43BF2E05FAADDBF3A63A8413;6616.
  ) 
 Here is how much of TeX's memory you used:
- 50888 strings out of 474934
- 1162222 string characters out of 5762810
+ 50924 strings out of 474934
+ 1162787 string characters out of 5762810
  1984781 words of memory out of 5000000
- 71398 multiletter control sequences out of 15000+600000
+ 71429 multiletter control sequences out of 15000+600000
  598486 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,16n,109p,776b,1442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,16n,109p,718b,1442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on gal.pdf (20 pages, 592248 bytes).
+Output written on gal.pdf (22 pages, 722947 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
- 350 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 450 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
