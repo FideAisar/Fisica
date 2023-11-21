@@ -1463,7 +1463,16 @@ A=
 \begin{bmatrix}a_{1,1}&a_{1,2}&\cdots &a_{1,n}\\a_{2,1}&a_{2,2}&\cdots &a_{2,n}\\ \vdots &\vdots &\ddots &\vdots \\a_{r,1}&a_{r,2}&\cdots &a_{r,n}\end{bmatrix}
 \] 
 
-Chiamiamo spazio delle colonne l'insieme dei vettori colonna nella matrice $A$ e spazio delle righe l'insieme dei vettori riga in  $A$. Il null space di $A$ invece (introdotto nel capitolo sui sistemi lineari) ricordiamo esseere la solzione dell'equazione  $AX = 0$.
+Chiamiamo spazio delle colonne l'insieme dei vettori colonna nella matrice $A$ e spazio delle righe l'insieme dei vettori riga in  $A$. Il \textbf{nullspace} di $A$ invece (introdotto nel capitolo sui sistemi lineari) ricordiamo esseere la solzione dell'equazione  $AX = 0$.
+
+\paragraph{C(A) e nullspace}
+
+Che relazione intercorre tra lo spazio delle colonne e il nullspace?
+Scriviamo l'equazione $Ax = b$ per colonne:
+\[
+	Ax = x_1c_1 + x_2c_{2} + \dots + x_{n}c_{n} = b
+\] 
+da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazione lineare delle colonne di $A$}. Allora $b \in C\left(A\right)$, $b$ fa parte dello spazio delle colonne di $A$. 
 
 \subsection{Rank}
 

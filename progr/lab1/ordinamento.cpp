@@ -26,12 +26,12 @@ int search_min(int v[], int first, int last){	// search minimum
 	return pos;
 }
 
-	int p;
-	for(int i=0;i<=n-2;i++){
-		p = search_min(v,i,n-1);
-		swap(v[i],v[p]);
-	}
+int p;
+for(int i=0;i<=n-2;i++){
+	p = search_min(v,i,n-1);
+	swap(v[i],v[p]);
 }
+
 
 						// ==MAIN== //
 int main(){

@@ -36,5 +36,6 @@
 \contentsline {subsection}{\numberline {4.5}Cambiamento di base}{20}{subsection.4.5}%
 \contentsline {subsubsection}{Metodo per trovare la matrice di cambiamento di base}{21}{section*.23}%
 \contentsline {subsection}{\numberline {4.6}Spazio delle righe, delle colonne, Nullspace}{21}{subsection.4.6}%
+\contentsline {paragraph}{C(A) e nullspace}{21}{section*.24}%
 \contentsline {subsection}{\numberline {4.7}Rank}{21}{subsection.4.7}%
 \contentsline {section}{\numberline {5}Applicazioni Lineari}{22}{section.5}%
