@@ -754,6 +754,13 @@ INPUT /opt/texlive/2023/texmf-dist/fonts/vf/public/fouriernc/fncsy.vf
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
 INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8r.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/vf/adobe/ncntrsbk/pncr8t.vf
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8r.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/vf/public/fouriernc/fncmii.vf
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8r.tfm
+INPUT /opt/texlive/2023/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncri8r.tfm
 INPUT gal.aux
 INPUT ./gal.out
 INPUT ./gal.out

@@ -39,3 +39,10 @@
 \contentsline {paragraph}{C(A) e nullspace}{21}{section*.24}%
 \contentsline {subsection}{\numberline {4.7}Rank}{21}{subsection.4.7}%
 \contentsline {section}{\numberline {5}Applicazioni Lineari}{22}{section.5}%
+\contentsline {section}{\numberline {6}Autovettori, autovalori}{23}{section.6}%
+\contentsline {paragraph}{Autospazi}{23}{section*.25}%
+\contentsline {subsection}{\numberline {6.1}Endomorfismi}{24}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Sottospazi invarianti}{24}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Autovettori e autovalori}{24}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Diagonalizzazione}{24}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Endomorfismi autoaggiunti}{24}{subsection.7.1}%

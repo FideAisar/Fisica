@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  13 NOV 2023 00:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  25 NOV 2023 13:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1427,7 +1427,7 @@ Package hyperref Info: Link coloring OFF on input line 91.
 \openout6 = `gal.out'.
 
  (./titlepage.tex
-<pngegg.png, id=155, 1027.84pt x 1027.84pt>
+<pngegg.png, id=179, 1027.84pt x 1027.84pt>
 File: pngegg.png Graphic file (type png)
 <use pngegg.png>
 Package pdftex.def Info: pngegg.png  used on input line 5.
@@ -1525,7 +1525,7 @@ LaTeX Font Info:    Font shape `T1/fnc/b/it' will be
 (Font)              scaled to size 9.29993pt on input line 138.
 Package svg Info: Last page of `./svg-inkscape/sistemi_piani_svg-tex.pdf' is 1 on input line 143.
  (./svg-inkscape/sistemi_piani_svg-tex.pdf_tex
-<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=209, page=1, 656.32918pt x 378.90564pt>
+<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=239, page=1, 656.32918pt x 378.90564pt>
 File: ./svg-inkscape/sistemi_piani_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/sistemi_piani_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/sistemi_piani_svg-tex.pdf , page1 used on input line 56.
@@ -1557,7 +1557,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 424--425
 
 Package svg Info: Last page of `./svg-inkscape/vettori_u_svg-tex.pdf' is 1 on input line 441.
 (./svg-inkscape/vettori_u_svg-tex.pdf_tex
-<./svg-inkscape/vettori_u_svg-tex.pdf, id=243, page=1, 209.7109pt x 194.3331pt>
+<./svg-inkscape/vettori_u_svg-tex.pdf, id=273, page=1, 209.7109pt x 194.3331pt>
 File: ./svg-inkscape/vettori_u_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_u_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/vettori_u_svg-tex.pdf , page1 used on input line 56.
@@ -1565,13 +1565,13 @@ Package pdftex.def Info: ./svg-inkscape/vettori_u_svg-tex.pdf , page1 used on in
 ) [6 <./svg-inkscape/vettori_u_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/vettori_du_svg-tex.pdf' is 1 on input line 473.
  (./svg-inkscape/vettori_du_svg-tex.pdf_tex
-<./svg-inkscape/vettori_du_svg-tex.pdf, id=255, page=1, 331.7046pt x 311.37515pt>
+<./svg-inkscape/vettori_du_svg-tex.pdf, id=285, page=1, 331.7046pt x 311.37515pt>
 File: ./svg-inkscape/vettori_du_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_du_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/vettori_du_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 265.36467pt x 249.10995pt.
 ) [7 <./svg-inkscape/vettori_du_svg-tex.pdf>]
-<figures/determ.png, id=263, 1011.78pt x 524.96124pt>
+<figures/determ.png, id=293, 1011.78pt x 524.96124pt>
 File: figures/determ.png Graphic file (type png)
 <use figures/determ.png>
 Package pdftex.def Info: figures/determ.png  used on input line 519.
@@ -1602,12 +1602,12 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 863--864
  []
 
 [12]
-<figures/norma.png, id=306, 793.96625pt x 529.98pt>
+<figures/norma.png, id=336, 793.96625pt x 529.98pt>
 File: figures/norma.png Graphic file (type png)
 <use figures/norma.png>
 Package pdftex.def Info: figures/norma.png  used on input line 925.
 (pdftex.def)             Requested size: 158.79044pt x 105.99411pt.
-<figures/angoli.png, id=307, 1384.17125pt x 350.30875pt>
+<figures/angoli.png, id=337, 1384.17125pt x 350.30875pt>
 File: figures/angoli.png Graphic file (type png)
 <use figures/angoli.png>
 Package pdftex.def Info: figures/angoli.png  used on input line 940.
@@ -1624,7 +1624,7 @@ File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
 (Font)              scaled to size 9.29993pt on input line 971.
  [13 <./figures/norma.png> <./figures/angoli.png>]
-<figures/proj.png, id=316, 672.5125pt x 407.5225pt>
+<figures/proj.png, id=346, 672.5125pt x 407.5225pt>
 File: figures/proj.png Graphic file (type png)
 <use figures/proj.png>
 Package pdftex.def Info: figures/proj.png  used on input line 981.
@@ -1645,7 +1645,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1048--1049
  []
 
 [14 <./figures/proj.png>]
-<figures/uedge.png, id=322, 799.98875pt x 585.18625pt>
+<figures/uedge.png, id=352, 799.98875pt x 585.18625pt>
 File: figures/uedge.png Graphic file (type png)
 <use figures/uedge.png>
 Package pdftex.def Info: figures/uedge.png  used on input line 1102.
@@ -1669,7 +1669,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1173--1174
  [][][][][][] 
  []
 
-<figures/subspace.png, id=328, 878.28125pt x 551.05875pt>
+<figures/subspace.png, id=358, 878.28125pt x 551.05875pt>
 File: figures/subspace.png Graphic file (type png)
 <use figures/subspace.png>
 Package pdftex.def Info: figures/subspace.png  used on input line 1177.
@@ -1719,7 +1719,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1316--1317
  [][][][][][] 
  []
 
-<figures/span.png, id=349, 1379.1525pt x 539.01375pt>
+<figures/span.png, id=379, 1379.1525pt x 539.01375pt>
 File: figures/span.png Graphic file (type png)
 <use figures/span.png>
 Package pdftex.def Info: figures/span.png  used on input line 1320.
@@ -1729,12 +1729,12 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1344--1345
  [][][][][][] 
  []
 
-<figures/linind.png, id=356, 1682.285pt x 461.725pt>
+<figures/linind.png, id=386, 1682.285pt x 461.725pt>
 File: figures/linind.png Graphic file (type png)
 <use figures/linind.png>
 Package pdftex.def Info: figures/linind.png  used on input line 1348.
 (pdftex.def)             Requested size: 370.10385pt x 101.5798pt.
-<figures/linind2.png, id=357, 1679.27374pt x 533.995pt>
+<figures/linind2.png, id=387, 1679.27374pt x 533.995pt>
 File: figures/linind2.png Graphic file (type png)
 <use figures/linind2.png>
 Package pdftex.def Info: figures/linind2.png  used on input line 1356.
@@ -1755,36 +1755,41 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1448--1449
  []
 
 [20] [21]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1513--1514
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1514--1515
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1540--1541
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1541--1542
  [][][][][][] 
  []
 
-[22] (./gal.aux)
+[22]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1590--1591
+ [][][][][][] 
+ []
+
+[23] [24] (./gal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `gal.out' has not changed.
-(rerunfilecheck)             Checksum: C8D8522A6D4DB3E115855D2FD9694C8A;6958.
+(rerunfilecheck)             Checksum: F19C9E5F60D08324DB89EF0B32DFA7C3;7903.
  ) 
 Here is how much of TeX's memory you used:
- 50936 strings out of 474934
- 1163019 string characters out of 5762810
- 1984466 words of memory out of 5000000
- 71444 multiletter control sequences out of 15000+600000
- 599835 words of font info for 98 fonts, out of 8000000 for 9000
+ 50962 strings out of 474934
+ 1163323 string characters out of 5762810
+ 1984468 words of memory out of 5000000
+ 71454 multiletter control sequences out of 15000+600000
+ 603227 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,16n,109p,718b,1442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on gal.pdf (23 pages, 728528 bytes).
+Output written on gal.pdf (25 pages, 736101 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
- 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 496 PDF objects out of 1000 (max. 8388607)
+ 414 compressed objects within 5 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
 

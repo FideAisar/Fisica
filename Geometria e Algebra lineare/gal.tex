@@ -1565,7 +1565,139 @@ Allora
 \end{es}
 
 
-Quindi definitre un'applicazione lineare tra due spazi vettoriali equivale a \textit{conoscere le immagini degli elementi di una base del dominio}.
+Quindi definire un'applicazione lineare tra due spazi vettoriali equivale a \textit{conoscere le immagini degli elementi di una base del dominio}.
+
+
+%% %% %%
+%% %% %%  AUTOVETTORI AUTOVALORI
+%% %% %% 
+\newpage
+\section{Autovettori, autovalori}
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Autovettori}
+Data l'endomorfismo $f:V\rightarrow V$ un vettore $\overline{x} \in V \quad \overline{x} \neq \overline{0}$  si dice \textbf{atuovettore} se 
+\[
+f\left(\overline{x}\right) = \lambda \overline{x}
+\].
+\begin{itemize}
+	\item Lo scalare $\lambda$ è l'\textbf{autovalore} associato a $\overline{x}$.
+	\item $V_{\lambda}$ si dice \textbf{autospazio} associato a $\lambda$ ed è l'insieme di tutti gli autovettori $\{\overline{x} \in V: f\left(x\right) = \lambda \overline{x}\}$.
+\end{itemize}
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+Quindi chiamiamo autovettori tutti quei vettori che vengono mandati da una certa funzione $f$ in multipli di loro stessi. Ora dobbiamo occuparci di come trovare questi autovettori e i corrispondenti autovalori. 
+
+\noindent
+Diciamo di avere $A$ matrice associata all'endomorfismo  $f:V \rightarrow V$, per trovare gli atuovalori impostiamo la seguente uguaglianza: 
+
+\begin{align*}
+A\overline{x} &= \lambda \overline{x} \\
+A\overline{x} - \lambda \overline{x} &= \overline{0}\\
+\left(A - \lambda \textcolor{red}{I}\right)\overline{x} &= \overline{0} 
+\end{align*}
+
+L'uguaglianza è rappresentata da un sistema omogeneo che ha soluzioni non banali solo se il rango della matrice $A-\lambda I$ non è massimo, quindi solo se il determinante è uguale a $0$.
+
+\[
+\text{det}\left(A - \lambda I\right) = 0
+\] 
+
+\noindent
+Il polinomio risultante dall'equazione viene chiamato \textit{polinomio caratteristico} di $A$:  $P_{A}\left(\lambda\right)$. Le radici del polinomio caratteristico sono i nostri autovalori:
+
+ \[
+\text{det}\left(A-\lambda I\right) = \begin{vmatrix}
+     a_{11}-\lambda &  &  & \\
+     & a_{22}-\lambda &  & \\
+     &  & \ddots&  & \\
+     & &  & a_{nn}-\lambda 
+\end{vmatrix}
+= \text{polinomio di grado }n \text{ in } \lambda
+\] 
+
+\paragraph{Autospazi} Vale la pena soffermarsi su cosa sono, come si trovano e su alcune proprietà degli autospazi.
+Per trovare un autospazio $V_{\lambda_{0}}$ associato a un autovalore $\lambda_{0}$ si calcola il nullspace della matrice $A-\lambda I$:
+ \[
+	 V_{\lambda_{0}} = \text{N}\left(A-\lambda_{0} I\right)
+\] 
+\noindent
+Il numero di generatori del nullspace, ovvero la sua dimensione, viene chiamata \textit{molteplicità geometrica}: $\text{m}_{\text{g}}\left(\lambda_{0}\right)$
+
+\begin{enumerate}
+	\item Ogni vettore $\overline{x} \in V_{\lambda_{1}},\dots,V_{\lambda_{k}}$ si scrive in modo unico come $\overline{x}_{1} +, \dots,+ \overline{x}_{k}$ con $x_{j} \in V_{\lambda_{j}}$, ovvero gli autospazi associati agli autovalori di un certo polinomio caratteristico sono in \textbf{somma diretta}.
+
+		\noindent
+Questo implica 
+\[
+\text{dim}\left(V_{\lambda_{1}}\oplus,\dots,\oplus V_{\lambda_{k}}\right) = \text{dim}V_{\lambda_{1}} + \dots + \text{dim}V_{\lambda_{k}}
+.\] 
+\item La molteplicità geometrica di un autospazio è minore o uguale alla molteplicità algebrica:
+	\[
+	\text{m}_{\text{g}}\left(\lambda_{0}\right) \leq \text{m}_{\text{a}}\left(\lambda_{0}\right)
+	.\] 
+\end{enumerate}
+
+\begin{es}{dimostrazione}
+Diciamo di avere un autospazio $V_{\lambda_{0}}$ di dimensione $k$ ($k = \text{m}_{\text{g}}\left(\lambda_{0}\right)$) sottospazio vettoriale di $V$ di dimensione $n$.
+
+\noindent
+Prendo una base di $V_{\lambda_{0}} $$\mathscr{B}' = \{\overline{v}_{1},\dots,\overline{v}_{k}\}$ e la completo ad una base di $V$: 
+\[
+\mathscr{B} = \{\overline{v}_{1},\dots,\overline{v}_{k},\overline{v}_{k+1},\dots,\overline{v}_{n}\}
+\] 
+La matrice associata sarà:
+\[
+M^{\mathscr{B}}\left(f\right) = \begin{bmatrix}
+     \lambda_{0}& 0 &  &  &\\
+     0&\lambda_{0}  &  &  &\\
+     \vdots& 0 &  &  &\\
+     0& 0 &  &  &\\
+\end{bmatrix}
+\] 
+Sappiamo che nelle prime $k$ colonne c'è $\lambda_{0}I$, nelle rimanenti $n-k$ colonne invece, non sappiamo dire cosa ci sia. Rimaniamo con una matrice del genere:
+ \[
+M^{\mathscr{B}}\left(f\right) = \begin{bmatrix}
+    \lambda_{o}I_{k} & B \\
+     0& C 
+\end{bmatrix}
+\qquad B \in \mathbb{R}^{k,n-k}, \quad C \in \mathbb{R}^{n-k,n-k}
+\] 
+Ora tenendo a mente che l'obiettivo è dimostrare che la molteplicità geometrica di $\lambda_{0}$ sia minore o uguale alla molteplicità geometrica, ovvero la molteplicità algebrica (il numero di radici reali del polinomio caratteristico) sia almeno $k$, andiamo a calcolare i nostri lambda.
+\[
+	 \text{det}\left(M^{\mathscr{B}}\left(f\right) - \lambda I\right) = 
+	 \begin{vmatrix}
+	\lambda_{o}I_{k} - \lambda I_{k} & B \\
+     	0& C - \lambda I 
+	\end{vmatrix} = 0
+\] 
+\[
+= \left(\lambda_{0} - \lambda\right)^{k}\left(C-\lambda I\right) = 0
+\] 
+L'ultima uguaglianza conferma che la molteplcità algebrica di $\lambda_{o}$ sia almeno uguale a $k$.
+\end{es}
+
+
+\subsection{Endomorfismi}
+\subsection{Sottospazi invarianti}
+
+\subsection{Autovettori e autovalori}
+
+
+
+
+%% %% %%
+%% %% %%  DIAGONALIZZAZIONE
+%% %% %% 
+\section{Diagonalizzazione}
+\subsection{Endomorfismi autoaggiunti}
+
+
+
 
 \end{document}
 
