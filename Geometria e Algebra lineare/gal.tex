@@ -1573,7 +1573,40 @@ Quindi definire un'applicazione lineare tra due spazi vettoriali equivale a \tex
 %% %% %% 
 \newpage
 \section{Autovettori, autovalori}
+\subsection{Automorfismi e sottospazi invarianti}
 
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Automorfismo}
+Un endomorfismo \textbf{anche biettivo} (quindi isomorfismo) lo chiamiamo \textbf{automorfismo}. Dato $f: V \rightarrow V$ posso associare a  $f$ la matrice rappresentativa $M^\mathscr{B}\left(f\right)$.
+\[
+f \text{ automorfismo} \quad \Longleftrightarrow \quad  M^\mathscr{B}\left(f\right) \text{ invertibile} \quad \Longleftrightarrow \quad \text{det}M^{\mathscr{B}}\left(f\right) \neq 0
+\] 
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Sottospazio invariante}
+Dato un sottospazio $W$ e un vettore  $w \in W$ il sottospazio si dice invariante se $f\left(w\right) \subseteq W$.
+
+Un sottospazio invariante è, per esempio, un \textit{autospazio}; infatti i vettori di un autospazio sono multipli delle loro immagini: $f\left(\overline{x}\right) = \lambda \overline{x}$.
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+
+
+
+
+
+
+\subsection{Autovettori e autovalori}
 \begin{center}
 \fboxsep11pt
 \colorbox{myblue}{\begin{minipage}{5.75in}
@@ -1620,11 +1653,26 @@ Il polinomio risultante dall'equazione viene chiamato \textit{polinomio caratter
 = \text{polinomio di grado }n \text{ in } \lambda
 \] 
 
+\[
+= \left(a_{11} - \lambda\right)\left(a_{22}-\lambda\right)\dots\left(a_{nn}-\lambda\right)
+\] 
+\[
+= \lambda^n + c_{1}\lambda^{n-1} + \dots + c_{n} 
+.\] 
+\noindent
+Dato un certo polinomio caratteristico, è chiamata \textit{molteplicità algebrica} il numero di volte che un certo $\lambda_{0}$ annulla il polinomio: $\text{m}_{\text{a}}\left(\lambda_{0}\right)$.
+
+\paragraph{Un altro punto di vista} Abbiamo detto che per trovare gli autovalori dobbiamo risolvere la sequante equazione:
+\[
+	\left(A - \lambda I \right)\overline{x} = \overline{0}
+\] 
+Dal capitolo sul determinante di una matrice sappiamo che il determinante rappresenta un fattore di stretching; nel nostro caso serve che un vettore non nullo ($\overline{x}$) venga mandato in zero dalla matrice $A - \lambda I$, l'unico caso in cui questo è possibile è quando il determinante di tale matrice è uguale a zero.
+
 \paragraph{Autospazi} Vale la pena soffermarsi su cosa sono, come si trovano e su alcune proprietà degli autospazi.
-Per trovare un autospazio $V_{\lambda_{0}}$ associato a un autovalore $\lambda_{0}$ si calcola il nullspace della matrice $A-\lambda I$:
+Per trovare un autospazio $V_{\lambda_{0}}$ associato a un autovalore $\lambda_{0}$ si calcola il nullspace della matrice $A-\lambda_{0} I$:
  \[
 	 V_{\lambda_{0}} = \text{N}\left(A-\lambda_{0} I\right)
-\] 
+\]
 \noindent
 Il numero di generatori del nullspace, ovvero la sua dimensione, viene chiamata \textit{molteplicità geometrica}: $\text{m}_{\text{g}}\left(\lambda_{0}\right)$
 
@@ -1682,11 +1730,22 @@ L'ultima uguaglianza conferma che la molteplcità algebrica di $\lambda_{o}$ sia
 \end{es}
 
 
-\subsection{Endomorfismi}
-\subsection{Sottospazi invarianti}
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\paragraph{Teorema}
+Una matrice quadrata associata a una funzione $f$ è invertiile se e solo se $\lambda = 0$ non è un suo autovalore. 
 
-\subsection{Autovettori e autovalori}
-
+\noindent
+Se ci riflettiamo, se eiste un $\lambda_0 = 0$, vuol dire che la funzione manda un vettore non nullo in  un vettore nullo:
+\[
+f\left(\overline{x}\right) = 0\overline{x}
+.\] 
+Questo ci dice che la funzione è \textit{non-iniettiva} e che di conseguenza non può essere biettiva, condizione necessaria perché una funzione sia invertibile.
+\end{redes}
+\end{minipage}}        
+\end{center}
 
 
 
@@ -1694,6 +1753,69 @@ L'ultima uguaglianza conferma che la molteplcità algebrica di $\lambda_{o}$ sia
 %% %% %%  DIAGONALIZZAZIONE
 %% %% %% 
 \section{Diagonalizzazione}
+Scopo principale della diagonalizzazione sarà quello di trovare basi di soli autovettori. Il processo è schematizzato in questo modo:
+\begin{center}
+\includesvg[scale=0.8]{figures/quad}
+\end{center}
+
+\noindent
+Data una matrice scritta rispetto alla base $B'$ la si riscrive rispetto alla base  $B$, si applica la trasformazione lineare  $f$ e si ritorna alla base  $B'$. 
+ \[
+ M^{B'}_{B'}\left(f\right) = M^{B}_{B'}\left(\text{id}\right) M^{B}_{B}\left(f\right) M^{B'}_{B}\left(\text{id}\right)
+.\] 
+
+\noindent
+Quindi se chiamiamo
+\[
+A = M^{B}_{B}\left(f\right) \qquad A' = M^{B'}_{B'}\left(f\right) \qquad P = M^{B'}_{B}\left(\text{id}\right)
+.\] 
+
+\noindent
+possiamo riscrivere la precedente come:
+\[
+A' = P^{-1} A P
+.\] 
+
+\noindent
+Diremo che $A'$ è  \textbf{simile} a $A$. Le matrici simili condividono molte caratteristiche:
+\begin{enumerate}
+	\item $A$ e  $P^{-1}AP$ hanno stesso determinante;
+\begin{align*}
+	\text{det}\left(A'\right) &= \text{det}\left(P^{-1}AP\right)\\ 
+		   &= \text{det}\left(P^{-1}\right)\text{det}\left(A\right)\text{det}\left(P\right) \\
+		   &= \frac{1}{\text{det}\left(P\right)} \text{det}\left(A\right) \text{det}\left(P\right) \\
+		   &=\text{det}\left(A\right)
+\end{align*}
+\item $A$ invertibile  $\Longleftrightarrow$  $A'$ invertibile;
+\item  $A$ e  $A'$ hanno stesso  \textit{rango}, \textit{nullspace}, \textit{polinomio caratteristico}.
+\end{enumerate}
+
+\noindent
+Allo scopo di diagonalizzare una matrice le matrici simili sono essenziali, infatti, una matrice quadrata $A$ si dice \textbf{diagonalizzabile} se è simile a un'altra matrice diagonale.
+
+\subsection{Criteri di diagonalizzabilità}
+ \[
+f: V \longrightarrow V \text{ endomorfismo.} \quad \text{ Sono equivalenti: }
+\] 
+\begin{enumerate}
+	\item $f$ diagonalizzabile ;
+	\item $P_{f}\left(\lambda\right)$ ha solo radici reali e per ogni $\lambda_{j}$ si ha $\text{m}_{\text{g}}\left(\lambda_{j}\right) = \text{m}_{\text{a}}\left(\lambda_{j}\right)$ ;
+	\item Se gli autovalori sono tutti distinti, $\text{dim}\left(V_{\lambda_{1}}\right) + \dots + \text{dim}\left(V_{\lambda_{k}}\right) = \text{dim}\left(V\right)$;
+	\item Se gli autovalori sono tutti distinti, $V = V_{\lambda_{1}} \oplus \dots \oplus V_{\lambda_{k}}$.
+\end{enumerate}
+
+\begin{es}{dimostrazione}
+$1 \Rightarrow \qquad$ Sia  $f$ diagonalizzabile e  $\mathscr{B}$ base di autovettori.
+\begin{center}
+\includesvg[scale=0.7]{figures/matriceblu}
+\end{center}
+\end{es}
+
+\[
+P_{f}\left(\lambda\right) = \text{det}\left(\right)
+.\] 
+
+
 \subsection{Endomorfismi autoaggiunti}
 
 
