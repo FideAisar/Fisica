@@ -47,4 +47,6 @@
 \contentsline {paragraph}{Teorema}{25}{section*.27}%
 \contentsline {section}{\numberline {7}Diagonalizzazione}{25}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Criteri di diagonalizzabilità}{25}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{26}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{27}{subsection.7.2}%
+\contentsline {paragraph}{Teorema: Teorema spettrale}{28}{section*.28}%
+\contentsline {paragraph}{Corollario}{28}{section*.29}%

@@ -1804,20 +1804,177 @@ f: V \longrightarrow V \text{ endomorfismo.} \quad \text{ Sono equivalenti: }
 	\item Se gli autovalori sono tutti distinti, $V = V_{\lambda_{1}} \oplus \dots \oplus V_{\lambda_{k}}$.
 \end{enumerate}
 
-\begin{es}{dimostrazione}
-$1 \Rightarrow \qquad$ Sia  $f$ diagonalizzabile e  $\mathscr{B}$ base di autovettori.
+\begin{es}{dimostrazione $1 \Rightarrow 2$}
+Sia  $f$ diagonalizzabile e  $\mathscr{B}$ base di autovettori.
 \begin{center}
 \includesvg[scale=0.7]{figures/matriceblu}
 \end{center}
-\end{es}
 
 \[
-P_{f}\left(\lambda\right) = \text{det}\left(\right)
+P_{f}\left(\lambda\right) = \text{det}\left(M^{B}\left(f\right)-\lambda I\right) \qquad = \left(\lambda_1 - \lambda\right)^{m_1}\left(\lambda_2 - \lambda\right)^{m_2} \dots \left(\lambda_{k} - \lambda\right)^{m_{k}}
+\] 
+Il polinomio ha solo radici reali; il massimo grado del polinomio lo si trova sommando gli esponenti:
+\[
+m_1 + m_2 + \dots + m_{k} = \text{dim}V
+\]
+Infatti il numero di colonne della matrice è uguale alla dimensione di $V$ (essendo le colonne sicuramente linearmente indipendenti) ed è uguale al numero di righe, uguale a $m_1 + \dots + m_{k}$. \\ 
+
+Ora dobbiamo dimostrare che per ogni $\lambda_{j}$ si ha $\text{m}_{\text{g}}\left(\lambda_{j}\right) = \text{m}_{\text{a}}\left(\lambda_{j}\right)$.
+
+Troviamo il sottospazio associato a $\lambda_1$:
+
+\[
+V_{\lambda_{1}} = \text{N}\left(M^B\left(f\right) - \lambda_1 I\right)
+\] 
+
+\begin{center}
+\includesvg[scale=0.7]{figures/matricelunga}
+\end{center}
+
+Le prime righe (contrassegnate da $m_1$ ) sono nulle, quindi il rank della matrice è $\text{rk}M^B\left(f\right) = \text{dim}V - m_1$.  Quindi la dimensione del nullspace è
+\[
+\text{dim}V - \text{rank}\left(A-\lambda_1 I\right) = m_1
+\] 
+
+\[
+\Longrightarrow \text{m}_{\text{g}}\left(\lambda_{1}\right) = \text{m}_{\text{a}}\left(\lambda_{1}\right) = m_1
+\] 
+\end{es}
+
+\begin{es}{dimostrazione $2 \Rightarrow 3$}
+Sappiamo che il polinomio caratteristico si scompone in equazioni lineari:
+\[
+P_{f}\left(\lambda\right) = \left(\lambda_1 - \lambda\right)^{m_1}\dots\left(\lambda_{k} - \lambda\right)^{m_{k}}
 .\] 
+Dalla dimostrazione precedente sappiamo che la molteplicità algebrica è uguale a quella geometrica. Ricordando che $\text{m}_{\text{g}}\left(\lambda_{j}\right)=\text{dim}\left(V_{\lambda_{j}}\right)$ e che $m_j = \text{m}_{\text{a}}\left(\lambda_{j}\right)$
+
+\[
+m_1 + m_2 + \dots + m_{k} = \text{dim}V
+\] 
+\[
+\text{m}_{\text{g}}\left(\lambda_{j}\right) = \text{m}_{\text{a}}\left(\lambda_{j}\right)
+\] 
+\[
+ \text{m}_{\text{a}}\left(\lambda_{1}\right) + \dots +  \text{m}_{\text{a}}\left(\lambda_{k}\right) = \text{dim}V
+\]
+\[
+\Longrightarrow \text{dim}\left(V_{\lambda_{1}}\right) + \dots + \text{dim}\left(V_{\lambda_{k}}\right) = \text{dim}V
+.\] 
+\end{es}
+
+\begin{es}{dimostrazione: $3 \Rightarrow 4$}
+\[
+\text{dim}\left(V_{\lambda_{1}} \oplus \dots \oplus V_{\lambda_{k}}\right) = \text{dim}\left(V_{\lambda_{1}}\right) + \dots + \text{dim}V_{\lambda_{k}} = \text{dim}V
+\] 
+Sappiamo infatti che $V_{\lambda_{1}} \oplus \dots \oplus V_{\lambda_{k}}$ è un sottospazio di $V$ con la stessa dimensione.
+\end{es}
+
+\begin{es}{dimostrazione $4 \Rightarrow 1$}
+So che $V$ si decompone in somma diretta di autospazi
+\[
+V = V_{\lambda_{1}} \oplus \dots \oplus V_{\lambda_{k}}
+\] 
+Ora prendo una base per ogni autospazio
+\[
+\begin{array}{ccc}
+	B_1 & \text{base per } & V_{\lambda_{1}} \\
+	\vdots & & \vdots \\
+	B_k & \text{base per } & V_{\lambda_{k}} \\
+\end{array}
+\] 
+Sappiamo che $B$ base di V si ottiene unendo tutte le basi $B_1, \dots, B_{k}$ degli autospazi:
+\[
+B = B_1 \cup \dots \cup B_{k}
+\]
+$B$ è fatta da autovettori, quindi $f$ diagonalizzabile.
+\end{es}
+
 
 
 \subsection{Endomorfismi autoaggiunti}
 
+\begin{center}
+\fboxsep11pt
+\colorbox{myblue}{\begin{minipage}{5.75in}
+\begin{blues}{Definizione: Endomorfismo autoaggiunto}
+Chiamiamo \textbf{autoaggiunto} l'endomorfismo  nel qual vale:\[
+f\left(\overline{x}\right)\cdot \overline{y} = \overline{x}f\left(\overline{y}\right) \qquad \forall\overline{x},\overline{y} \in V
+\] 
+\end{blues}
+\end{minipage}}        
+\end{center}
+
+Dato l'endomorfismo $f: V \longrightarrow V$ con  $\left(V,\cdot\right)$ euclideo, sono equivalenti:
+
+\begin{enumerate}
+	\item $f$ autoaggiunto;
+	\item $\forall B$ ortonormale, $M^B\left(f\right)$ è simmetrica.
+	\item $\exists B$ ortonormale t.c. $M^B\left(f\right)$ simmetrica.
+\end{enumerate}
+
+\begin{es}{dimostrazione $1\Rightarrow 2$}
+Prendo $B = \{\overline{v}_{1},\dots,\overline{v}_{n}\}$ base ortonormale e due vettori $\overline{x}$ e $\overline{y} \in V$.\\
+
+Scritti come vettori colonna abbiamo $X$,$Y$,$AX$ e  $AY$ rispettivamente per  $x$,  $y$,  $f\left(x\right)$ e $f\left(y\right)$. 
+
+Possiamo riscrivere (poiché il prodotto è standard)
+\[
+f\left(\overline{x}\right)\cdot \overline{y} = \overline{x}f\left(\overline{y}\right)
+\] 
+come 
+\[
+	\leftindex^t{\left(AX\right)}Y = \leftindex^t{X}AY
+\] 
+\[
+\leftindex^t{X}\leftindex^t{A}Y = \leftindex^t{X}AY
+.\] 
+dalla quale risulta che $A = \leftindex^t{A}$.
+\end{es}
+
+\noindent
+Ora che abbiamo studiato le applicazioni lineari che hanno come matrice associata una matrice simmetrica, introduciamo un teorema fondamentale.
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\paragraph{Teorema: Teorema spettrale}
+Dato $\left(V,\cdot\right)$ euclideo e $f \in \text{End}\left(V\right)$, allora: $f \text{ autoaggiunto} \Longleftrightarrow \exists B \text{ ortonorm. di autovettori}$. In particolare:
+\[
+f \text{ autoaggiunto}  \quad \Rightarrow \quad f \text{diagonalizzabile}
+.\] 
+\end{redes}
+\end{minipage}}        
+\end{center}
+
+\begin{es}{dimostrazione}
+$\Longleftarrow$ diretta conseguenza della proposizione: se $B$ ortonormale di autovettori, $M^B\left(f\right)$ è diagonale (quindi simmetrica).
+$\Longrightarrow$ 
+\begin{enumerate}
+	\item Voglio solo radici reali;
+	\item Mostro che gli autospazi sono ortogonali fra loro;
+	\item Mostro che 
+\end{enumerate}
+\end{es}
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\paragraph{Corollario}
+Sia una matrice $A$ simmetrica, $A$ è sempre diagonalizzabile. Esiste allora una matrice  $D$ diagonale e una $P$ invertibile tale che:
+ \[
+D = P^{-1}AP
+\] 
+E' inoltre possibile individuare una matrice ortogonale $Q$ tale che:
+\[
+D = Q^{-1}AQ = \leftindex^t{Q}AQ
+.\] 
+\end{redes}
+\end{minipage}}        
+\end{center}
 
 
 

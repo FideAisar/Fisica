@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  26 NOV 2023 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  26 NOV 2023 20:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1804,7 +1804,47 @@ File: ./svg-inkscape/matriceblu_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/matriceblu_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/matriceblu_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 179.30003pt x 74.01866pt.
-) [25 <./svg-inkscape/quad_svg-tex.pdf>] [26 <./svg-inkscape/matriceblu_svg-tex.pdf>] (./gal.aux)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1819--1821
+
+ []
+
+Package svg Info: Last page of `./svg-inkscape/matricelunga_svg-tex.pdf' is 1 on input line 1831.
+(./svg-inkscape/matricelunga_svg-tex.pdf_tex
+<./svg-inkscape/matricelunga_svg-tex.pdf, id=426, page=1, 420.68227pt x 187.10251pt>
+File: ./svg-inkscape/matricelunga_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/matricelunga_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/matricelunga_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 294.47629pt x 130.97656pt.
+) [25 <./svg-inkscape/quad_svg-tex.pdf>] [26 <./svg-inkscape/matriceblu_svg-tex.pdf> <./svg-inkscape/matricelunga_svg-tex.pdf
+
+pdfTeX warning: pdflatex (file ./svg-inkscape/matricelunga_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1904--1905
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1916--1917
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1948--1948
+ []\T1/fnc/b/n/10 Teorema: Teo-rema spet-trale[] \T1/fnc/m/n/10 Dato $[]$ eu-clideo e $\FML/fncmi/m/it/10 f \FMS/fncm/m/n/10 2 [] []$\T1/fnc/m/n/10 , al-lora:
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1948--1949
+ [][][][][][] 
+ []
+
+[27]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1970--1971
+ [][][][][][] 
+ []
+
+[28] (./gal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1813,18 +1853,18 @@ Package rerunfilecheck Info: File `gal.out' has not changed.
 (rerunfilecheck)             Checksum: FDBBEA360E7412AE77560569DCAF89EF;8078.
  ) 
 Here is how much of TeX's memory you used:
- 51012 strings out of 474934
- 1164786 string characters out of 5762810
+ 51049 strings out of 474934
+ 1165792 string characters out of 5762810
  1984468 words of memory out of 5000000
- 71487 multiletter control sequences out of 15000+600000
+ 71514 multiletter control sequences out of 15000+600000
  603227 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,16n,109p,718b,1442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on gal.pdf (27 pages, 758183 bytes).
+Output written on gal.pdf (29 pages, 777493 bytes).
 PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
- 123 named destinations out of 1000 (max. 500000)
- 457 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 448 compressed objects within 5 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 467 words of extra memory for PDF output out of 10000 (max. 10000000)
 
