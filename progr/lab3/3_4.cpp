@@ -91,42 +91,23 @@ int* ord(int *v,int n){
   return v;
 }
 
-int* ord_per(int *v, int inf, int sup){
-  int p,i,j,b,c;
-
-  p = v[inf];
-  i = inf + 1;
-  j = sup;
-
-  while(i<=j){
-    if(v[i]<=p){
-      i++;
-    }
-    else if(v[i]>p && v[j]>p){
-      j--;
-    }
-    else if(v[i]>p && v[j]<=p){
-      b = v[j];
-      v[j] = v[i];
-      v[i] = b;
-      i++;
-      j--;
-    }
-  }
-  c = v[inf];
-  v[inf] = v[j];
-  v[j] = c;
-  return j;
-}
-
 
 
 int main()
 {
-   int *v,*r;
-   v = vettore_causale(10,0,10);
-   r = ord_per(v,2,3);
-   stampa_vettore(r,10);
-   return 0;
+  int *v, *r, n;
+  n = 100;
+  v = vettore_casuale(n,0,n);
+  stampa_vettore(v,10);
+
+  r = ord(v,10);
+  stampa_vettore(r,10);
+
+  double start = clock();
+  selection_sort(n,v);
+  double end = clock();
+  double seconds = (end - start) / CLOCKS_PER_SEC;
+  cout << seconds;
+  return 0;
 }
 
