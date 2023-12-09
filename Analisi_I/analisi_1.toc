@@ -27,3 +27,8 @@
 \contentsline {subsubsection}{Teorema di Fermat}{16}{}%
 \contentsline {subsubsection}{Teorema di Rolle}{16}{}%
 \contentsline {subsubsection}{Teorema di Lagrange}{17}{}%
+\contentsline {paragraph}{Proposizione}{17}{}%
+\contentsline {subsubsection}{Teorema di Cauchy}{18}{}%
+\contentsline {section}{\numberline {7}Taylor}{18}{}%
+\contentsline {section}{\numberline {8}Primitivazione}{19}{}%
+\contentsline {subsubsection}{}{19}{}%

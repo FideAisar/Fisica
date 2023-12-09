@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  9 DEC 2023 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  9 DEC 2023 20:52
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **analisi_1.tex
 (./analisi_1.tex
@@ -23,40 +22,59 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (/opt/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/opt/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/opt/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/opt/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/opt/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks17
 \pgfutil@tempdima=\dimen141
 \pgfutil@tempdimb=\dimen142
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box51
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (/opt/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/opt/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/opt/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/opt/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (/opt/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/opt/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/opt/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/opt/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/opt/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen143
 \Gin@req@width=\dimen144
-) (/opt/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks19
 \pgfkeys@temptoks=\toks20
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.
+code.tex
 \pgfkeys@tmptoks=\toks21
 ))
 \pgf@x=\dimen145
@@ -83,23 +101,31 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.t
+ex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count198
 \pgfsyssoftpath@bigbuffer@items=\count199
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.t
+ex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/opt/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (/opt/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/opt/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
- (/opt/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+
+(/opt/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -109,21 +135,46 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
- (/opt/texlive/2023/texmf-dist/tex/latex/xcolor/x11nam.def
+
+(/opt/texlive/2023/texmf-dist/tex/latex/xcolor/x11nam.def
 File: x11nam.def 2022/06/12 v2.14 Predefined colors according to Unix/X11 (UK)
 ))
 (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen155
 \pgfmath@count=\count266
 \pgfmath@box=\box52
 \pgfmath@toks=\toks25
 \pgfmath@stack@operand=\toks26
 \pgfmath@stack@operation=\toks27
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.
+tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometr
+ic.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code
+.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.
+code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.t
+ex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.
+tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.t
+ex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarit
+hmetics.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count267
-)) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen156
 \pgf@picmaxx=\dimen157
@@ -139,76 +190,113 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen167
 \pgf@zx=\dimen168
 \pgf@zy=\dimen169
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.c
+ode.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen170
 \pgf@path@lasty=\dimen171
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.
+tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen172
 \pgf@shorten@start@additional=\dimen173
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
 \pgf@picture@serial@count=\count268
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.co
+de.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen174
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations
+.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen175
 \pgf@pt@y=\dimen176
 \pgf@pt@temp=\dimen177
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.te
+x
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.
+code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen178
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen179
 \pgf@sys@shading@range@num=\count269
 \pgf@shadingcount=\count270
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
+x
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.t
+ex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box56
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.co
+de.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.t
+ex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.
+tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box57
 ) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.
+sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen180
 \pgf@nodesepend=\dimen181
-) (/opt/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.
+sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (/opt/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/opt/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/opt/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/opt/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/opt/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/opt/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen182
 \pgffor@skip=\dimen183
 \pgffor@stack=\toks28
 \pgffor@toks=\toks29
-)) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.
+code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count271
 \pgfplotmarksize=\dimen184
@@ -229,39 +317,99 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count273
 \tikznumberofcurrentchild=\count274
 \tikz@fig@count=\count275
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count276
 \pgfmatrixcurrentcolumn=\count277
 \pgf@matrix@numberofcolumns=\count278
 )
 \tikz@expandcount=\count279
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+librarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/opt/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+)))
+(/opt/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
-(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks30
 \t@pgfplots@tokb=\toks31
 \t@pgfplots@tokc=\toks32
 \pgfplots@tmpa=\dimen193
 \c@pgfplots@coordindex=\count280
 \c@pgfplots@scanlineindex=\count281
- (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.
+tex))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.te
+x)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpg
+fsupp_loader.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks33
 \t@pgf@tokb=\toks34
 \t@pgf@tokc=\toks35
-(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpg
+fsupp_pgfutil-common-lists.tex))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslistst
+ructure.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslistst
+ructureext.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.
+code.tex
 \c@pgfplotsarray@tmp=\count282
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix
+.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared
+.code.tex
 \c@pgfplotstable@counta=\count283
 \t@pgfplotstable@a=\toks36
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.
+code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.cod
+e.tex))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.
+tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surf
+shading.code.tex
 \c@pgfplotslibrarysurf@no=\count284
- (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
-(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfs
+hading.pgfsys-pdftex.def)))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.t
+ex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.te
+x)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.te
+x
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code
+.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.t
+ex)))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code
+.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+librarydecorations.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code
+.tex
 \pgfdecoratedcompleteddistance=\dimen194
 \pgfdecoratedremainingdistance=\dimen195
 \pgfdecoratedinputsegmentcompleteddistance=\dimen196
@@ -272,7 +420,17 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfdecorationsegmentlength=\dimen256
 )
 \tikz@lib@dec@box=\box62
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+librarydecorations.pathmorphing.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibraryd
+ecorations.pathmorphing.code.tex))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+librarydecorations.pathreplacing.code.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibraryd
+ecorations.pathreplacing.code.tex))
+(/opt/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.con
+tourlua.code.tex)
 \pgfplots@numplots=\count286
 \pgfplots@xmin@reg=\dimen257
 \pgfplots@xmax@reg=\dimen258
@@ -280,66 +438,91 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfplots@ymax@reg=\dimen260
 \pgfplots@zmin@reg=\dimen261
 \pgfplots@zmax@reg=\dimen262
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+libraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.cod
+e.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/opt/texlive/2023/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
- (/opt/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+
+(/opt/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (/opt/texlive/2023/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (/opt/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/opt/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
- (/opt/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
 Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
- (/opt/texlive/2023/texmf-dist/tex/latex/koma-script/scrlogo.sty
+
+
+(/opt/texlive/2023/texmf-dist/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
-) (/opt/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/opt/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/opt/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/opt/texlive/2023/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-) (/opt/texlive/2023/texmf-dist/tex/latex/tools/shellesc.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/04/15 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \c@svg@param@lastpage=\count287
 \svg@box=\box63
 \c@svg@param@currpage=\count288
-) (/opt/texlive/2023/texmf-dist/tex/latex/transparent/transparent.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
 
 (/opt/texlive/2023/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
-Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
- (/opt/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+
+(/opt/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-))) (/opt/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+)))
+(/opt/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (/opt/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/opt/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks37
 \ex@=\dimen263
-)) (/opt/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/opt/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen264
-) (/opt/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count289
@@ -389,7 +572,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/opt/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen272
 \ar@mcellbox=\box66
@@ -398,16 +582,20 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip53
 \backup@length=\skip54
 \ar@cellbox=\box67
-) (/opt/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2023/09/26 version 6.1.0 text color boxes
- (/opt/texlive/2023/texmf-dist/tex/latex/tools/verbatim.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks43
 \verbatim@line=\toks44
 \verbatim@in@stream=\read3
-) (/opt/texlive/2023/texmf-dist/tex/latex/environ/environ.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-) (/opt/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count301
 )
@@ -422,28 +610,35 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \tcb@temp=\box73
 \tcb@temp=\box74
 \tcb@temp=\box75
- (/opt/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.1.0'
 (/opt/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
- (/opt/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
-) (/opt/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 \l__tikzfill_img_box=\box76
 )) (/opt/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.1.0'
 ))) (/opt/texlive/2023/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
- (/opt/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-08-29 L3 programming layer (loader) 
- (/opt/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+
+(/opt/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count305
 \l__pdf_internal_box=\box77
-)) (/opt/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+))
+(/opt/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
-) (/opt/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count306
 \calc@Bcount=\count307
@@ -455,10 +650,13 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count308
 \calc@Cskip=\skip57
-) (/opt/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty (/opt/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/opt/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
-Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
 \l__chemgreek_tmpa_int=\count309
 \g__chemgreek_tmpa_int=\count310
 )
@@ -478,9 +676,11 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 \mhchem@option@minusmathsidebearingright=\dimen277
 \mhchem@option@minustextsidebearingleft=\dimen278
 \mhchem@option@minustextsidebearingright=\dimen279
-) (/opt/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/opt/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/opt/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count313
@@ -495,9 +695,11 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen286
 \Gm@layoutvoffset=\dimen287
 \Gm@dimlist=\toks45
-) (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fouriernc.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fouriernc.sty
 Package: fouriernc 2005/12/20 1.0 fouriernc package
- (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fourier.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fourier.sty
 Package: fourier 2022/02/05 2.3 fourier-GUTenberg package
 Now handling font encoding FML ...
 ... no UTF-8 mapping file for font encoding FML
@@ -505,14 +707,19 @@ Now handling font encoding FMS ...
 ... no UTF-8 mapping file for font encoding FMS
 Now handling font encoding FMX ...
 ... no UTF-8 mapping file for font encoding FMX
- (/opt/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+futs on input line 112.
- (/opt/texlive/2023/texmf-dist/tex/latex/fourier/t1futs.fd
+LaTeX Font Info:    Trying to load font information for T1+futs on input line 1
+12.
+
+(/opt/texlive/2023/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
-)) (/opt/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+))
+(/opt/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fourier-orns.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fourier-orns.sty
 Package: fourier-orns 2022/02/05 2.3 fourier-ornaments package
 )
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
@@ -562,11 +769,13 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 126.
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 127.
 LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 127.
+(Font)              `largesymbols' in the math version `normal' on input line 1
+27.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
 LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 127.
+(Font)              `largesymbols' in the math version `bold' on input line 127
+.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
@@ -659,7 +868,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 (Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
 (Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
-) (/opt/texlive/2023/texmf-dist/tex/latex/xymtex/base/xymtex.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/xymtex/base/xymtex.sty
 Package `xymtex' (ver5.01) <March 10, 2013> [SF]
 xymtex.sty ver5.01 (for LaTeX2e) 2013/03/10[SF]
 (/opt/texlive/2023/texmf-dist/tex/latex/eepic/epic.sty
@@ -826,15 +1036,18 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `chem'
 (Font)                  FMS/fncm/m/n --> OMS/cmsy/m/n on input line 965.
 \c@mv@boldchem=\count360
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `boldchem' on input line 965.
+(Font)              `operators' in the math version `boldchem' on input line 96
+5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `boldchem'
 (Font)                  T1/fnc/m/n --> OT1/cmr/bx/n on input line 965.
 LaTeX Font Info:    Encoding `FML' has changed to `OT1' for symbol font
 (Font)              `letters' in the math version `boldchem' on input line 965.
+
 LaTeX Font Info:    Overwriting symbol font `letters' in version `boldchem'
 (Font)                  FML/fncmi/m/it --> OT1/cmr/b/n on input line 965.
 LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
 (Font)              `symbols' in the math version `boldchem' on input line 965.
+
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldchem'
 (Font)                  FMS/fncm/m/n --> OMS/cmsy/b/n on input line 965.
 \TestCount=\count361
@@ -845,31 +1058,42 @@ XyMTeX Macro File `assurechemist' (ver5.00) <October 01, 2010> [SF]
 ))) (/opt/texlive/2023/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box79
-) (/opt/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
-) (/opt/texlive/2023/texmf-dist/tex/latex/float/float.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count362
 \float@exts=\toks46
 \float@box=\box80
 \@float@everytoks=\toks47
 \@floatcapt=\box81
-) (/opt/texlive/2023/texmf-dist/tex/latex/pstricks/pst-all.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pstricks/pst-all.sty
 Package: pst-all 2008/01/01 the main pstricks tools
- (/opt/texlive/2023/texmf-dist/tex/latex/pstricks/pstricks.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/pstricks/pstricks.sty
 Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
- (/opt/texlive/2023/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
- (/opt/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (/opt/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/opt/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks48
 \XKV@tempa@toks=\toks49
 )
 \XKV@depth=\count363
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))) (/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.tex (/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv)
+)))
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.06, 2020/11/20 (hv)
 \pstFP@xs=\count364
 \pstFP@xia=\count365
 \pstFP@xib=\count366
@@ -909,7 +1133,8 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \@zero=\count384
 \pst@toks=\toks50
 --- We are running latex or xelatex ---
-(/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.con) (/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-color.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.con)
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-color.tex)
 \psunit=\dimen319
 \psxunit=\dimen320
 \psyunit=\dimen321
@@ -917,12 +1142,14 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pslinewidth=\dimen322
 \psk@startLW=\dimen323
 \psk@endLW=\dimen324
- (/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-arrows.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-arrows.tex
 \pshooklength=\dimen325
 \pshookwidth=\dimen326
 )
 \pst@customdefs=\toks51
- (/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
 \pslinearc=\dimen327
 \pst@symbolStep=\dimen328
 \pst@symbolWidth=\dimen329
@@ -934,17 +1161,26 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \sh@wgridYunit=\dimen334
 \pst@shift=\dimen335
 \ps@imagectr=\count386
- (/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.con))
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.con))
 File: pstricks.tex 2023/04/30 v3.19 `PSTricks' (tvz,hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.06, 2020/11/20 (hv))
 File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pst-plot/pst-plot.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-plot/pst-plot.sty
 Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
- (/opt/texlive/2023/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
 Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
-) (/opt/texlive/2023/texmf-dist/tex/latex/multido/multido.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/multido/multido.sty
 Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
- (/opt/texlive/2023/texmf-dist/tex/generic/multido/multido.tex  v1.42, 2010/05/14 <tvz>
+
+
+(/opt/texlive/2023/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
 \multido@count=\count387
 \multidocount=\count388
 \multido@stuff=\toks53
@@ -952,10 +1188,16 @@ Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
 File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
 )
 Package: pst-plot 2021/09/23 package wrapper for pst-plot.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-plot/pst-plot.tex (/opt/texlive/2023/texmf-dist/tex/generic/pst-tools/pst-tools.tex `PST-tools' v0.12, 2021/09/23 (hv)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-plot/pst-plot.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-tools/pst-tools.tex
+`PST-tools' v0.12, 2021/09/23 (hv)
 \randomi=\count389
 \ranval=\count390
-) (/opt/texlive/2023/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex (/opt/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex  v1.43, 2022/01/31
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.43, 2022/01/31
 \psrow=\count391
 \pscol=\count392
 \psmatrixcnt=\count393
@@ -964,7 +1206,13 @@ Package: pst-plot 2021/09/23 package wrapper for pst-plot.tex (hv)
 \pst@args=\count394
 \num@pts=\count395
 \pst@argcnt=\count396
-) (/opt/texlive/2023/texmf-dist/tex/generic/pst-arrow/pst-arrow.tex `pst-arrow' v0.05, 2021/11/16 (dr,hv)) (/opt/texlive/2023/texmf-dist/tex/generic/pst-3d/pst-3d.tex `PST-3d' v1.11, 2010/02/14 (tvz)) (/opt/texlive/2023/texmf-dist/tex/generic/pst-math/pst-math.tex `pst-math' v0.67 , (CJ,hv)) `pstricks-add' v3.94, 2023/04/17 (dr,hv)
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-arrow/pst-arrow.tex
+`pst-arrow' v0.05, 2021/11/16 (dr,hv))
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-3d/pst-3d.tex
+`PST-3d' v1.11, 2010/02/14 (tvz))
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-math/pst-math.tex
+`pst-math' v0.67 , (CJ,hv)) `pstricks-add' v3.94, 2023/04/17 (dr,hv)
 \psparallelogramsep=\dimen336
 \pst@cntC=\count397
 \pst@stepcount=\count398
@@ -975,7 +1223,8 @@ Package: pst-plot 2021/09/23 package wrapper for pst-plot.tex (hv)
 \pst@chartStackWidth=\dimen341
 \chart@Toggle=\count399
 \psVectorCtr=\count400
-)  v1.94, 2022/11/21 (tvz,hv)
+)
+ v1.94, 2022/11/21 (tvz,hv)
 \pstRadUnit=\dimen342
 \pstRadUnitInv=\dimen343
 \pst@linecnt=\count401
@@ -998,14 +1247,19 @@ Package: pst-plot 2021/09/23 package wrapper for pst-plot.tex (hv)
 \pst@yunit=\dimen358
 )
 File: pst-plot.tex 2022/11/21 1.94 `pst-plot' (tvz,hv)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pst-node/pst-node.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-node/pst-node.sty
 Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
 Package: pst-node 2010/04/22 package wrapper for pst-node.tex
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex)
 File: pst-node.tex 2022/11/21 1.94 `pst-node' (tvz,hv)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pst-tree/pst-tree.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-tree/pst-tree.sty
 Package: pst-tree 2009/01/25 package wrapper for pst-tree.tex
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-tree/pst-tree.tex  v1.14, 2021/09/04(tvz,dg,hv)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-tree/pst-tree.tex
+ v1.14, 2021/09/04(tvz,dg,hv)
 \pstree@rootbox=\box85
 \pstree@box=\box86
 \psnodecnt=\count403
@@ -1015,41 +1269,63 @@ Package: pst-tree 2009/01/25 package wrapper for pst-tree.tex
 \pstree@stop=\count407
 )
 File: pst-tree.tex 2021/09/04 1.14 `pst-tree' (tvz,hv)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pst-grad/pst-grad.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-grad/pst-grad.sty
 Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-grad/pst-grad.tex `pst-grad' v1.06, 2006/11/27 (tvz,dg,hv))
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-grad/pst-grad.tex
+`pst-grad' v1.06, 2006/11/27 (tvz,dg,hv))
 File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pst-coil/pst-coil.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-coil/pst-coil.sty
 Package: pst-coil 2010/02/01 package wrapper for pst-coil.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-coil/pst-coil.tex  v1.06, 2006/11/27
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-coil/pst-coil.tex
+ v1.06, 2006/11/27
 (/opt/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex))
 File: pst-coil.tex 2015/05/13 v1.07 `PST-coil' (tvz,hv)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pst-text/pst-text.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-text/pst-text.sty
 Package: pst-text 2018/12/28 package wrapper for pst-text.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-text/pst-text.tex  v1.01, 2018/12/22(tvz,hv))
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-text/pst-text.tex
+ v1.01, 2018/12/22(tvz,hv))
 File: pst-text.tex 2018/12/22 1.01 `pst-text' (tvz)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pst-3d/pst-3d.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-3d/pst-3d.sty
 Package: pst-3d 2009/07/28 package wrapper for pst-3d.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-3d/pst-3d.tex)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-3d/pst-3d.tex)
 File: pst-3d.tex 2018/12/22 v1.01 `PST-3d' (hv)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pst-eps/pst-eps.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-eps/pst-eps.sty
 Package: pst-eps 2005/05/20 package wrapper for pst-eps.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-eps/pst-eps.tex  v1.00, 2006/11/04
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-eps/pst-eps.tex
+ v1.00, 2006/11/04
 \pst@epsout=\write4
 \pst@tempout=\write5
 )
 File: pst-eps.tex 2006/11/04 1.00 `pst-eps' (tvz)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pst-fill/pst-fill.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-fill/pst-fill.sty
 Package: pst-fill 2010/03/20 package wrapper for pst-fill.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-fill/pst-fill.tex `PST-Fill' v1.02, 2021/10/01 (tvz,dg,hv)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-fill/pst-fill.tex
+`PST-Fill' v1.02, 2021/10/01 (tvz,dg,hv)
 \pst@fillbox=\box87
 )
 File: pst-fill.tex 2021/10/01 v1.02 `PST-fill' (tvz,dg,hv)
-) (/opt/texlive/2023/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty (/opt/texlive/2023/texmf-dist/tex/latex/pst-math/pst-math.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-math/pst-math.sty
 Package: pst-math 2023/07/03 v 0.67 package wrapper for PSTricks pst-math.tex
- (/opt/texlive/2023/texmf-dist/tex/latex/pst-calculate/pst-calculate.sty
-Package: pst-calculate 2019/01/24 v. 0.02(Herbert Voss) Support for caculations with floating point numbers.
- (/opt/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-calculate/pst-calculate.sty
+Package: pst-calculate 2019/01/24 v. 0.02(Herbert Voss) Support for caculations
+ with floating point numbers.
+
+(/opt/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-10-07 v3.3.7 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count408
 \l__siunitx_number_exponent_fixed_int=\count409
@@ -1065,8 +1341,10 @@ Package: siunitx 2023-10-07 v3.3.7 A comprehensive (SI) units package
 \l__siunitx_angle_marker_box=\box88
 \l__siunitx_angle_unit_box=\box89
 \l__siunitx_compound_count_int=\count418
- (/opt/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+
+(/opt/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
 )
 \l__siunitx_table_tmp_box=\box90
 \l__siunitx_table_tmp_dim=\dimen360
@@ -1081,26 +1359,37 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_unit_tmp_int=\count419
 \l__siunitx_unit_position_int=\count420
 \l__siunitx_unit_total_int=\count421
-)) (/opt/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
+))
+(/opt/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/opt/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty (/opt/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty
+(/opt/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
 \xs_counta=\count422
 \xs_countb=\count423
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-) (/opt/texlive/2023/texmf-dist/tex/generic/pst-math/pst-math.tex)
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-math/pst-math.tex)
 File: pst-math.tex 2021/10/01 v1.02 `PST-math' (hv)
 \c@Rand@No=\count424
 \c@Random@Left=\count425
 \c@Random@Right=\count426
 \c@Random@No@max=\count427
 )
-Package: pstricks-add 2021/09/10 v. 0.17 package wrapper for pstricks-add.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex)
+Package: pstricks-add 2021/09/10 v. 0.17 package wrapper for pstricks-add.tex (
+hv)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex)
 File: pstricks-add.tex 2021/10/01 v1.02 `PSTricks-add' (hv)
-)) (/opt/texlive/2023/texmf-dist/tex/latex/pst-3dplot/pst-3dplot.sty
+))
+(/opt/texlive/2023/texmf-dist/tex/latex/pst-3dplot/pst-3dplot.sty
 Package: pst-3dplot 2010/01/01 package wrapper for pst-3dplot.tex (hv)
- (/opt/texlive/2023/texmf-dist/tex/generic/pst-3dplot/pst-3dplot.tex (/opt/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex) (/opt/texlive/2023/texmf-dist/tex/generic/multido/multido.tex  v1.42, 2010/05/14 <tvz>) `PST-3dplot' v2.08, 2023/09/08 (HV,DL)
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-3dplot/pst-3dplot.tex
+(/opt/texlive/2023/texmf-dist/tex/generic/pst-node/pst-node.tex)
+(/opt/texlive/2023/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>) `PST-3dplot' v2.08, 2023/09/08 (HV,DL)
 \pst@dimf=\dimen364
 \pst@cntx=\count428
 \pst@cnty=\count429
@@ -1113,9 +1402,12 @@ Package: pst-3dplot 2010/01/01 package wrapper for pst-3dplot.tex (hv)
 \pszunit=\dimen370
 )
 File: pst-3dplot.tex 2023/09/08 v2.08 `PST-3dplot' (hv)
-) (/opt/texlive/2023/texmf-dist/tex/latex/leftindex/leftindex.sty (/opt/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/leftindex/leftindex.sty
+(/opt/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
- (/opt/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count431
@@ -1136,23 +1428,29 @@ Package: leftindex 2020/08/25 v0.1beta
 \l__leftindex_slanting_phantom_with_subscript_dim=\dimen380
 \l__leftindex_slanting_phantom_with_subscript_without_indentation_box=\box98
 \l__leftindex_slanting_phantom_with_subscript_without_indentation_dim=\dimen381
+
 \l__leftindex_indentation_of_slanting_phantom_subscript=\dimen382
 \l__leftindex_superscript_temp_box=\box99
 \l__leftindex_width_of_superscript_dim=\dimen383
 \l__leftindex_subscript_temp_box=\box100
 \l__leftindex_width_of_subscript_dim=\dimen384
-) (/opt/texlive/2023/texmf-dist/tex/latex/import/import.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
-) (/opt/texlive/2023/texmf-dist/tex/latex/xifthen/xifthen.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
 (/opt/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (/opt/texlive/2023/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-)) (/opt/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+))
+(/opt/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
- (/opt/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen385
 \ESO@tempdimb=\dimen386
@@ -1160,7 +1458,8 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \AM@pagewidth=\dimen387
 \AM@pageheight=\dimen388
 \AM@fboxrule=\dimen389
- (/opt/texlive/2023/texmf-dist/tex/latex/pdfpages/pppdftex.def
+
+(/opt/texlive/2023/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count432
@@ -1171,9 +1470,11 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks56
 \c@AM@survey=\count434
 \AM@templatesizebox=\box102
-) (/opt/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/opt/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup7
 \symAMSb=\mathgroup8
@@ -1184,10 +1485,13 @@ LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
 LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
 LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
 LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
 LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
 LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 121.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
 LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
 LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
 LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
@@ -1200,22 +1504,30 @@ LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
 LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
 LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
 LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
 LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
-) (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+)
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
+libraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+
+(/opt/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.t
+ex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen390
 ))
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 84.
-LaTeX Font Info:    Trying to load font information for T1+fnc on input line 84.
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 84.
+LaTeX Font Info:    Trying to load font information for T1+fnc on input line 84
+.
  (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/t1fnc.fd
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 9.29993pt on input line 84.
- (./analisi_1.aux)
+
+(./analisi_1.aux)
 \openout1 = `analisi_1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -1233,24 +1545,29 @@ LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 84.
-LaTeX Font Info:    Trying to load font information for FML+fncmi on input line 84.
+LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
+ 84.
  (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 84.
-LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 84.
+LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 
+84.
  (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 84.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 84.
- (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmxfutm.fd
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
+84.
+
+(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
 LaTeX Font Info:    ... okay on input line 84.
- (/opt/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/opt/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count435
 \scratchdimen=\dimen391
@@ -1265,11 +1582,15 @@ LaTeX Font Info:    ... okay on input line 84.
 \everyMPtoPDFconversion=\toks58
 ) (/opt/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/opt/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/opt/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
-Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
 Package chemgreek Info: Activating mapping `fourier' on line 84.
@@ -1310,15 +1631,23 @@ Package chemgreek Info: Activating mapping `fourier' on line 84.
 
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 84.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 84.
-(/opt/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+
+(/opt/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-diction
+ary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 84.
- (/opt/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 84.
+
+(/opt/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (/opt/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (/opt/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
+
+(/opt/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(/opt/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -1327,7 +1656,7 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 9.29993pt on input line 5.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 16.07027pt on input line 5.
- [1
+[1
 Non-PDF special ignored!
 <special> header=pstricks.pro
 Non-PDF special ignored!
@@ -1363,7 +1692,8 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 Non-PDF special ignored!
 <special> ps:0.8 setlinewidth 0 setgray
-{/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}])
+{/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2
+023/texmf-dist/fonts/enc/dvips/base/8r.enc}])
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 13.39188pt on input line 87.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
@@ -1379,8 +1709,10 @@ LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Trying to load font information for FML+fncm on input line 2.
- (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
+LaTeX Font Info:    Trying to load font information for FML+fncm on input line 
+2.
+
+(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
 File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
@@ -1390,15 +1722,19 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 2.
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
- (/opt/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
+
+
+(/opt/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
- (/opt/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/opt/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
- (/opt/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+(/opt/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write6
@@ -1429,13 +1765,15 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 209--210
  []
 
 [2] [3]
-LaTeX Font Info:    Trying to load font information for TS1+fnc on input line 284.
+LaTeX Font Info:    Trying to load font information for TS1+fnc on input line 2
+84.
  (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/ts1fnc.fd
 File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
 )
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
 (Font)              scaled to size 9.29993pt on input line 284.
- [4] [5]
+ [4]
+[5]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 8.36993pt on input line 312.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -1477,41 +1815,53 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 376--377
  [][][][][][] 
  []
 
-Package svg Info: Last page of `./svg-inkscape/intornielle_svg-tex.pdf' is 1 on input line 384.
+Package svg Info: Last page of `./svg-inkscape/intornielle_svg-tex.pdf' is 1 on
+ input line 384.
 (./svg-inkscape/intornielle_svg-tex.pdf_tex
 <./svg-inkscape/intornielle_svg-tex.pdf, id=36, page=1, 167.0673pt x 12.7737pt>
+
 File: ./svg-inkscape/intornielle_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/intornielle_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/intornielle_svg-tex.pdf , page1 used on input line 56.
+Package pdftex.def Info: ./svg-inkscape/intornielle_svg-tex.pdf , page1 used on
+ input line 56.
 (pdftex.def)             Requested size: 217.188pt x 16.60617pt.
 )
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 418--419
  [][][][][][] 
  []
 
-Package svg Info: Last page of `./svg-inkscape/permsegno_svg-tex.pdf' is 1 on input line 425.
+Package svg Info: Last page of `./svg-inkscape/permsegno_svg-tex.pdf' is 1 on i
+nput line 425.
 (./svg-inkscape/permsegno_svg-tex.pdf_tex
 <./svg-inkscape/permsegno_svg-tex.pdf, id=38, page=1, 167.0673pt x 20.42404pt>
 File: ./svg-inkscape/permsegno_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/permsegno_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/permsegno_svg-tex.pdf , page1 used on input line 56.
+Package pdftex.def Info: ./svg-inkscape/permsegno_svg-tex.pdf , page1 used on i
+nput line 56.
 (pdftex.def)             Requested size: 217.188pt x 26.55185pt.
 )
-Package svg Info: Last page of `./svg-inkscape/permsegno2_svg-tex.pdf' is 1 on input line 439.
- (./svg-inkscape/permsegno2_svg-tex.pdf_tex
-<./svg-inkscape/permsegno2_svg-tex.pdf, id=40, page=1, 118.80397pt x 12.53801pt>
+Package svg Info: Last page of `./svg-inkscape/permsegno2_svg-tex.pdf' is 1 on 
+input line 439.
+
+(./svg-inkscape/permsegno2_svg-tex.pdf_tex
+<./svg-inkscape/permsegno2_svg-tex.pdf, id=40, page=1, 118.80397pt x 12.53801pt
+>
 File: ./svg-inkscape/permsegno2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/permsegno2_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/permsegno2_svg-tex.pdf , page1 used on input line 56.
+Package pdftex.def Info: ./svg-inkscape/permsegno2_svg-tex.pdf , page1 used on 
+input line 56.
 (pdftex.def)             Requested size: 154.4455pt x 16.30034pt.
 ) [7 <./svg-inkscape/intornielle_svg-tex.pdf>]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 468--469
  [][][][][][] 
  []
 
-[8 <./svg-inkscape/permsegno_svg-tex.pdf> <./svg-inkscape/permsegno2_svg-tex.pdf
+[8 <./svg-inkscape/permsegno_svg-tex.pdf> <./svg-inkscape/permsegno2_svg-tex.pd
+f
 
-pdfTeX warning: pdflatex (file ./svg-inkscape/permsegno2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /opt/texlive/2023/bin/x86_64-linux/pdflatex (file ./svg-inkscap
+e/permsegno2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group include
+d in a single page
 >]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 525--526
  [][][][][][] 
@@ -1527,119 +1877,151 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 599--600
  [][][][][][] 
  []
 
-Package svg Info: Last page of `./svg-inkscape/zeri_func_svg-tex.pdf' is 1 on input line 617.
-(./svg-inkscape/zeri_func_svg-tex.pdf_tex
-<./svg-inkscape/zeri_func_svg-tex.pdf, id=61, page=1, 331.12769pt x 310.39268pt>
-File: ./svg-inkscape/zeri_func_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/zeri_func_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/zeri_func_svg-tex.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 298.01286pt x 279.35081pt.
-)
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 617--618
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 613--614
  [][][][][][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 622--628
+Package svg Info: Last page of `./svg-inkscape/zeri_func_svg-tex.pdf' is 1 on i
+nput line 616.
+(./svg-inkscape/zeri_func_svg-tex.pdf_tex
+<./svg-inkscape/zeri_func_svg-tex.pdf, id=61, page=1, 331.12769pt x 310.39268pt
+>
+File: ./svg-inkscape/zeri_func_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/zeri_func_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/zeri_func_svg-tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 298.01286pt x 279.35081pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 620--626
 
  []
 
-Package svg Info: Last page of `./svg-inkscape/due_casi_1_svg-tex.pdf' is 1 on input line 635.
+Package svg Info: Last page of `./svg-inkscape/due_casi_1_svg-tex.pdf' is 1 on 
+input line 633.
 (./svg-inkscape/due_casi_1_svg-tex.pdf_tex
-<./svg-inkscape/due_casi_1_svg-tex.pdf, id=63, page=1, 574.1648pt x 279.45876pt>
+<./svg-inkscape/due_casi_1_svg-tex.pdf, id=63, page=1, 574.1648pt x 279.45876pt
+>
 File: ./svg-inkscape/due_casi_1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/due_casi_1_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/due_casi_1_svg-tex.pdf , page1 used on input line 56.
+Package pdftex.def Info: ./svg-inkscape/due_casi_1_svg-tex.pdf , page1 used on 
+input line 56.
 (pdftex.def)             Requested size: 401.9136pt x 195.61978pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 664--667
+Underfull \hbox (badness 10000) in paragraph at lines 662--665
 
  []
 
-[11 <./svg-inkscape/zeri_func_svg-tex.pdf>] [12 <./svg-inkscape/due_casi_1_svg-tex.pdf>]
-Package svg Info: Last page of `./svg-inkscape/corollario_72_svg-tex.pdf' is 1 on input line 704.
+[11 <./svg-inkscape/zeri_func_svg-tex.pdf>] [12 <./svg-inkscape/due_casi_1_svg-
+tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/corollario_72_svg-tex.pdf' is 1 
+on input line 702.
  (./svg-inkscape/corollario_72_svg-tex.pdf_tex
-<./svg-inkscape/corollario_72_svg-tex.pdf, id=76, page=1, 331.12769pt x 311.37515pt>
+<./svg-inkscape/corollario_72_svg-tex.pdf, id=76, page=1, 331.12769pt x 311.375
+15pt>
 File: ./svg-inkscape/corollario_72_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/corollario_72_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/corollario_72_svg-tex.pdf , page1 used on input line 56.
+Package pdftex.def Info: ./svg-inkscape/corollario_72_svg-tex.pdf , page1 used 
+on input line 56.
 (pdftex.def)             Requested size: 298.01286pt x 280.23505pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 727--727
+Underfull \hbox (badness 10000) in paragraph at lines 720--720
 
  []
 
-Package svg Info: Last page of `./svg-inkscape/baby_svg-tex.pdf' is 1 on input line 727.
-(./svg-inkscape/baby_svg-tex.pdf_tex
-<./svg-inkscape/baby_svg-tex.pdf, id=78, page=1, 331.12769pt x 311.37515pt>
-File: ./svg-inkscape/baby_svg-tex.pdf Graphic file (type pdf)
-<use ./svg-inkscape/baby_svg-tex.pdf, page 1>
-Package pdftex.def Info: ./svg-inkscape/baby_svg-tex.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 298.01286pt x 280.23505pt.
-)
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 727--728
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 720--721
  [][][][][][] 
  []
 
 [13 <./svg-inkscape/corollario_72_svg-tex.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 732--735
+Package svg Info: Last page of `./svg-inkscape/baby_svg-tex.pdf' is 1 on input 
+line 723.
+
+(./svg-inkscape/baby_svg-tex.pdf_tex
+<./svg-inkscape/baby_svg-tex.pdf, id=83, page=1, 331.12769pt x 311.37515pt>
+File: ./svg-inkscape/baby_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/baby_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/baby_svg-tex.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 298.01286pt x 280.23505pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 727--730
 
  []
 
 [14 <./svg-inkscape/baby_svg-tex.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 777--777
+Underfull \hbox (badness 10000) in paragraph at lines 772--772
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 777--778
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 772--773
  [][][][][][] 
  []
 
 [15]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 798--799
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 793--794
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 813--814
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 807--808
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 858--859
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 852--853
  [][][][][][] 
  []
 
 [16]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 891--892
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 885--886
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 919--920
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 935--936
  [][][][][][] 
  []
 
-[17] (./analisi_1.aux)
+[17]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 975--976
+ [][][][][][] 
+ []
+
+[18]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1006--1007
+ [][][][][][] 
+ []
+
+[19] (./analisi_1.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 44879 strings out of 474934
- 1076473 string characters out of 5762810
+ 44885 strings out of 474934
+ 1076566 string characters out of 5762810
  1948807 words of memory out of 5000000
- 65556 multiletter control sequences out of 15000+600000
+ 65562 multiletter control sequences out of 15000+600000
  609879 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,15n,109p,724b,2516s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on analisi_1.pdf (18 pages, 161468 bytes).
+</opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></opt
+/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texli
+ve/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/20
+23/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/texlive/2023/texmf-
+dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/ty
+pe1/urw/ncntrsbk/uncbi8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncnt
+rsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.
+pfb>
+Output written on analisi_1.pdf (20 pages, 168810 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 145 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
