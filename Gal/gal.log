@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  26 NOV 2023 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  7 DEC 2023 20:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1840,7 +1840,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1948--1949
  []
 
 [27]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1970--1971
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1976--1977
  [][][][][][] 
  []
 
@@ -1853,18 +1853,18 @@ Package rerunfilecheck Info: File `gal.out' has not changed.
 (rerunfilecheck)             Checksum: FDBBEA360E7412AE77560569DCAF89EF;8078.
  ) 
 Here is how much of TeX's memory you used:
- 51049 strings out of 474934
- 1165792 string characters out of 5762810
+ 51052 strings out of 474934
+ 1165813 string characters out of 5762810
  1984468 words of memory out of 5000000
  71514 multiletter control sequences out of 15000+600000
  603227 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,16n,109p,718b,1442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on gal.pdf (29 pages, 777493 bytes).
+Output written on gal.pdf (29 pages, 777671 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 448 compressed objects within 5 object streams
- 130 named destinations out of 1000 (max. 500000)
+ 544 PDF objects out of 1000 (max. 8388607)
+ 452 compressed objects within 5 object streams
+ 133 named destinations out of 1000 (max. 500000)
  467 words of extra memory for PDF output out of 10000 (max. 10000000)
 

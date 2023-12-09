@@ -11,12 +11,19 @@
 \contentsline {subsection}{\numberline {3.2}Intorni}{6}{}%
 \contentsline {section}{\numberline {4}Limiti e continuità}{7}{}%
 \contentsline {subsubsection}{Teorema di unicità del limite}{7}{}%
-\contentsline {section}{\numberline {5}Proprietà e calcolo dei limiti}{8}{}%
-\contentsline {section}{\numberline {6}Confronto locale di funzioni}{9}{}%
-\contentsline {section}{\numberline {7}Proprietà globali delle funzioni continue}{10}{}%
-\contentsline {subsubsection}{Teorema di esistenza degli zeri}{10}{}%
-\contentsline {paragraph}{Corollario $7.1$}{12}{}%
-\contentsline {paragraph}{Corollario $7.2$}{12}{}%
-\contentsline {subsubsection}{Teorema dei valori intermedi (0.9)}{12}{}%
-\contentsline {paragraph}{Corollario $7.3$}{13}{}%
-\contentsline {subsubsection}{Teorema di Weierstrass}{14}{}%
+\contentsline {subsubsection}{Teorema di permanenza del segno}{7}{}%
+\contentsline {subsubsection}{Toerema di esistenza del limite per funzioni monotone}{8}{}%
+\contentsline {subsubsection}{Teorema del confronto 1}{9}{}%
+\contentsline {subsubsection}{Teorema del confronto 2}{10}{}%
+\contentsline {section}{\numberline {5}Proprietà globali delle funzioni continue}{11}{}%
+\contentsline {subsubsection}{Teorema di esistenza degli zeri}{11}{}%
+\contentsline {paragraph}{Corollario $7.1$}{13}{}%
+\contentsline {paragraph}{Corollario $7.2$}{13}{}%
+\contentsline {subsubsection}{Teorema dei valori intermedi (0.9)}{14}{}%
+\contentsline {paragraph}{Corollario $7.3$}{14}{}%
+\contentsline {subsubsection}{Teorema di Weierstrass}{15}{}%
+\contentsline {section}{\numberline {6}Derivabilità}{16}{}%
+\contentsline {subsubsection}{Teorema di dubbia derivabilità}{16}{}%
+\contentsline {subsubsection}{Teorema di Fermat}{16}{}%
+\contentsline {subsubsection}{Teorema di Rolle}{16}{}%
+\contentsline {subsubsection}{Teorema di Lagrange}{17}{}%

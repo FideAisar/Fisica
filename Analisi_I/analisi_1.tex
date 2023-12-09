@@ -29,8 +29,10 @@
 
 
 
+\definecolor{myblue}{RGB}{224, 245, 255} 
+\definecolor{myred}{RGB}{234, 222, 255}
 
-% myframe
+% box
 \newtcolorbox{es}[2][]{%
   enhanced,colback=white,colframe=black,coltitle=black,
   sharp corners,boxrule=0.4pt,
@@ -41,23 +43,24 @@
   title=#2,#1
 }
 
+% definizioni
 \newtcolorbox{blues}[2][]{%
-  enhanced,colback=Azure2,colframe=black,coltitle=black,
+  enhanced,colback=myblue,colframe=black,coltitle=black,
+  sharp corners,boxrule=0.4pt,
+  attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+  boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
+    colback=myblue,before upper=\strut},
+  title=#2,#1
+}
+
+% teoremi
+\newtcolorbox{redes}[2][]{%
+  enhanced,colback=myred,colframe=black,coltitle=black,
   sharp corners,boxrule=0.4pt,
   fonttitle=\itshape,
   attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
   boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-    colback=Azure2,before upper=\strut},
-  title=#2,#1
-}
-
-\newtcolorbox{defin}[2][]{%
-  enhanced,colback=white,colframe=LightSkyBlue1,coltitle=black,
-  sharp corners,boxrule=1.5pt,
-  fonttitle=\itshape,
-  attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
-  boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-    colback=white,before upper=\strut},
+    colback=myred,before upper=\strut},
   title=#2,#1
 }
 
@@ -162,7 +165,7 @@ z^n = \rho^n e^{in\theta} =  \rho^n(\cos{n\theta} + i\sin{n\theta})
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 Un fatto interessante che spiega perché la parte immaginaria dei numeri complessi è situata a $90^\circ$ in senso antiorario rispetto alla parte reale è che se moltiplichiamo un qualsiasi numero complesso per $i$, questo subirà una rotazione di $90^\circ$ in senso antiorario.
 \begin{blues}{es}
 Prendiamo $z= 2+i$ e $w=i$:
@@ -351,7 +354,7 @@ Nel capitolo precedente abbiamo introdotto il concetto di \textit{intorno}, ora 
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: Limite}
 Si dice che $\lim_{x\to x_0}f\left(x\right) = l$ se e solo se: \\
 $\forall$ intorno di $l, I\left(l\right)$ $\exists$ intorno di $x_0, I\left(x_0\right)$ tale che $\quad x \in I\left(x_0\right) \backslash\{x_0\} \quad \Rightarrow \quad f\left(x\right) \in I\left(l\right)$ 
@@ -364,30 +367,223 @@ $\forall$ intorno di $l, I\left(l\right)$ $\exists$ intorno di $x_0, I\left(x_0\
 
 Adesso dobbiamo stabilire alcune proprietà del limite: intanto se esiste il limite \textit{è unico}, possiamo dire infatti "il limite di $f$" e non "uno dei limiti di $f$".
 
-\subsubsection{Teorema di unicità del limite} Supponiamo che $f$ ammetta limite $l$ fiinto o infinito per $x$ tendente a $x_0$. ALlora $f$ non ha altri limiti tendenti a $x_0$.
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\subsubsection{Teorema di unicità del limite} Supponiamo che $f$ ammetta limite $l$ finito o infinito per $x$ tendente a $x_0$. Allora $f$ non ha altri limiti tendenti a $x_0$.
+\end{redes}
+\end{minipage}}        
+\end{center}
+
 
 \begin{es}{dimostrazione: unicità del limite} 
 Supponiamo che esistano due limiti differenti di una funzione $f$ tendente allo stesso valore $x_0$ e li chiamiamo $l_1$ e $l_2$ tali che $\lim_{x\to x_0}f\left(x\right) = l_1$ e $\lim_{ x\to x_0}f\left(x\right) = l_2$. Inoltre prendiamo gli intorni di  $l_1$ e di $l_2$ in modo che $l_1 \cap l_2 = \varnothing$.
 	
 \begin{center}
-\includesvg[scale=0.3]{figures/intornielle}
+\includesvg[scale=1.3]{figures/intornielle}
 \end{center}
 
 
 Ora dalla definizione di limite data prima, possiamo scrivere:
 \begin{enumerate}
-	\item $\lim_{x\to x_0}f\left(x\right) = l_1 \quad \Rightarrow \quad  \exists I\left(x_0\right) | x \in I\left(x_0\right) \backslash \{x_0\} \quad \Rightarrow \quad f\left(x\right) \in I\left(l_1\right)$
-	\item $\lim_{x\to x_0}f\left(x\right) = l_2 \quad \Rightarrow \quad  \exists I'\left(x_0\right) | x \in I'\left(x_0\right) \backslash \{x_0\} \quad \Rightarrow \quad f\left(x\right) \in I\left(l_2\right)$
+	\item $\lim_{x\to x_0}f\left(x\right) = l_1 \quad \Rightarrow \quad  \exists \text{I}\left(x_0\right) | x \in \text{I}\left(x_0\right) \backslash \{x_0\} \quad \Rightarrow \quad f\left(x\right) \in \text{I}\left(l_1\right)$
+	\item $\lim_{x\to x_0}f\left(x\right) = l_2 \quad \Rightarrow \quad  \exists \text{I}'\left(x_0\right) | x \in \text{I}'\left(x_0\right) \backslash \{x_0\} \quad \Rightarrow \quad f\left(x\right) \in \text{I}\left(l_2\right)$
 \end{enumerate}
+Dunque possiamo dire che $x$ è sia in $\text{I}(x_0)$ sia in $\text{I}'(x_0)$:
+\[
+x \in \left(\text{I}(x_0) \cap \text{I}'(x_0)\right)\\ \left\{x_0\right\} \Longrightarrow f(x) \in \text{I}(l_1) \cap \text{I}(l_2)
+\]
+Assurdo poiché
+\[
+\text{I}(l_1) \cap \text{I}(l_2) = \varnothing
+\]
 \end{es}
 
 
-\newpage
-\section{Proprietà e calcolo dei limiti}
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\subsubsection{Teorema di permanenza del segno}
+Supponiamo che 
+\[
+\lim_{x \to x_0}f(x) = l \qquad \text{con } l>0 \text{ o } l = +\infty.
+\]
+Allora esiste un intorno di $x_0$
+\[
+\text{I}(x_0) \quad \text{t.c. } \quad f(x) > 0 \quad \forall x \in \text{I}(x_0) \backslash \{x_0\}
+\]
+\end{redes}
+\end{minipage}}        
+\end{center}
+
+\begin{es}{dimostrazione}
+$1) \qquad l \in \mathbb{R}, l > 0 \qquad $ 
+
+\begin{center}
+\includesvg[scale=1.3]{figures/permsegno.svg}
+\end{center}
+
+Prendo un intorno di raggio $\varepsilon$ con $\varepsilon = \frac{l}{2}$: $\text{I}_\varepsilon (l)$. Per definizione di limite
+\[
+\exists \text{I}(x_0) \quad \text{t.c.} \quad x \in \text{I}(x_0) \backslash x_0 \Longrightarrow f(x) \in \text{I}_\varepsilon (l)
+\]
+Quindi in particolare 
+\[
+x \in \text{I}(x_0) \backslash \{x_0\} \Longrightarrow f(x) > \frac{l}{2} > 0
+\]
+
+$2) \qquad l = + \infty \qquad$ 
+\begin{center}
+\includesvg[scale=1.3]{figures/permsegno2}
+\end{center}
+\[
+\forall M > 0 \quad \exists \text{I}{x_0} \qquad \text{t.c} \qquad x \in \text{I}{x_0} \backslash \{x_0\} \Longrightarrow f(x) > M > 0
+\]
+\end{es}
 
 
-\newpage
-\section{Confronto locale di funzioni}
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\subsubsection{Toerema di esistenza del limite per funzioni monotone}
+Data la funzione
+\[
+f: I \rightarrow \mathbb{R}
+\]
+Prendiamo l'intorno $\text{I} = (a,+\infty), a \in \mathbb{R}$.
+
+Se $f$ è \textbf{monotona} su $\text{I}$, allora esiste il limite $\lim_{x \to +\infty}f(x)$ e 
+\[
+\lim_{x \to +\infty} = 
+\begin{cases}
+     \text{sup}f(I) \text{ se f è crescente}  \\
+     \text{inf}f(I) \text{ se f è decrescente} 
+\end{cases}
+\]
+(la monotonia è \textbf{condizione sufficiente} per l'esistenza del limite)
+\end{redes}
+\end{minipage}}        
+\end{center}
+
+\begin{es}{dimostrazione}
+Supponiamo che $f$ sia crescente con $l = \text{sup}f(I)$.
+
+$l = + \infty\text{)} \qquad$ Dobbiamo dimostrare che
+\[
+\lim_{x \to + \infty}f(x) = l = + \infty
+\]
+cioè
+\[
+\forall M > 0 \quad \exists k > 0  \qquad \text{t.c.} \quad x > k  \quad \Longrightarrow \quad f(x) > M
+\]
+Poiché la funzione è crescente, vale:
+\[
+x > k \quad \Longrightarrow \quad f(x) \geq f(k) > M
+\]
+$l \in \mathbb{R} \text{)} \qquad$ Dobbiamo dimostrare che 
+\[
+\lim_{x \to + \infty}f(x) = l \in \mathbb{R}
+\]
+cioè
+\[
+\forall \varepsilon > 0 \quad \exists k > 0 \quad \text{t.c.} \quad x>k \quad \Longrightarrow \quad l -\varepsilon < f(x) < l + \varepsilon
+\]
+Prendiamo un $\varepsilon$ arbitrario maggiore di zero. Poiché $l-\varepsilon$ non è maggiorante di $f(x)$ esiste sicuramente un $k$ tale che $f(k) > l - \varepsilon$. Poichè la funzione è crescente:
+\[
+x > k \quad \Longrightarrow \quad f(x) \geq f(k) > l - \varepsilon
+\]
+D'altro canto, poiché $l$ è maggiorante di $f(I)$ sappiamo che la funzione sarà sempre minore di $l$: $f(x) \leq l \quad \forall x \in I$ e quindi possiamo affermare che
+\[
+x > k \quad \Longrightarrow \quad l - \varepsilon < f(x) \leq l < l + \varepsilon
+\]
+\end{es}
+
+
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\subsubsection{Teorema del confronto 1}
+Date due funzioni $f$ e $g$ siano i limiti:
+\[
+\lim_{x \to x_0} f(x)  = l \qquad \lim_{x \to x_0} g(x)  = m \qquad \qquad x_0,l,m \in \mathbb{R}
+\]
+Se esiste un intorno in cui $f$ è minore di $g$: 
+\[
+\text{I}(x_0) \text{  t.c. } \quad f(x) \leq g(x) \quad \forall x \in \text{I}(x_0) \backslash \{x_0\}
+\]
+allora sappiamo che il valore a cui tende $f$ è minore di quello a cui tende $g$:
+\[
+l \leq m
+\]
+\end{redes}
+\end{minipage}}        
+\end{center}
+
+\begin{es}{dimostrazione}
+Prendiamo una terza funzione sicuramente positiva:
+\[
+h(x) = g(x) - f(x) \qquad \to h(x) \geq 0 \quad \forall x \in \text{I}(x_0) \backslash \{x_0\}
+\]
+Allora sappiamo per il \textbf{teorema di permanenza del segno} che il limite di $h(x)$ è sicuramente $\geq 0$ e per il \textbf{teorema fondamentale dell'algebra} che:
+\[
+\lim_{x \to x_0} g(x)- \lim_{x \to x_0} f(x) = m - l
+\]
+quindi:
+\[
+0 \leq  \lim_{x \to x_0} h(x) = \lim_{x \to x_0} g(x)- \lim_{x \to x_0} f(x) = m - l
+\]
+\end{es}
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\subsubsection{Teorema del confronto 2}
+Date due funzioni con stesso limite $l$ :
+\[
+\lim_{x \to x_0} f(x) = l = \lim_{x \to x_0} h(x)
+\]
+Se esiste un intorno $\text{I}(x_0)$ per il quale 
+\[
+f(x) \leq g(x) \leq h(x) \qquad  \forall x \in \text{I}(x_0) \backslash \{x_0\}
+\]
+allora possiamo affermare che 
+\[
+\lim_{x \to x_0} g(x) = l
+\]
+\end{redes}
+\end{minipage}}        
+\end{center}
+\begin{es}{dimostrazione}
+Nel caso in cui $l = \pm \infty$ basta sapere che
+\[
+f(x) \leq g(x) \to +\infty
+\]
+\[
+g(x) \leq h(x) \to -\infty
+\]
+Se invece $l \in \mathbb{R}$ cerchiamo altri intorni di $x_0$ per $f$ e per $h$; per fare ciò prendiamo $\varepsilon > 0$.
+\[
+\lim_{x \to x_0} f(x) = l \quad \Longrightarrow \quad \exists \text{I}'(x_0) \quad \text{ t.c. } \quad \forall \text{I}'(x_0) \backslash \{x_0\} \qquad l - \varepsilon < f(x) < l + \varepsilon
+\]
+\[
+ \lim_{x \to x_0} h(x) = l \quad \Longrightarrow \quad \exists \text{I}''(x_0) \quad \text{ t.c. } \quad \forall \text{I}''(x_0) \backslash \{x_0\} \qquad l - \varepsilon < h(x) < l + \varepsilon
+\]
+Ora definiamo un terzo intorno che verifica le condizioni precedenti:
+\[
+x \in (\text{I}(x_0) \cap \text{I}'(x_0) \cap \text{I}''(x_0)) \quad \Longrightarrow \quad l - \varepsilon < f(x)\leq g(x) < h(x) < l + \varepsilon
+\]
+\end{es}
+
+
+
+
 
 
 \newpage
@@ -396,12 +592,17 @@ Nei capitoli precedenti ci siamo occupati, mediante il concetto di limite, delle
 
 \begin{center}
 \fboxsep11pt
-\colorbox{Azure2}{\begin{minipage}{5.75in}
+\colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: Zero di una funzione}
 Data una funzione reale $f$ chiamiamo \textbf{zero} di $f$ ogni punto $x_0 \in$ dom$f$ in cui la funzione si annulla.
 \end{blues}
 \end{minipage}}        
 \end{center}
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
 \subsubsection{Teorema di esistenza degli zeri}
 Sia $f:\left[a,b\right] \rightarrow \mathbb{R}$ una funzione \textit{continua} nell'intervallo chiuso e limitato $\left[a,b\right]$. Se la funzione $f$ assume valori di segno discorde agli estremi dell'intervallo, allora esiste uno zero  di $f$ nell'intervallo aperto $\left(a,b\right)$; in formule:
 \[
@@ -412,6 +613,10 @@ Inoltre se $f$ è strettamente monotona in $\left[a,b\right]$, allora lo zero è
 \begin{center}
 \includesvg[scale=0.9]{figures/zeri_func}
 \end{center}
+\end{redes}
+\end{minipage}}        
+\end{center}
+
 
 \begin{es}{dimostrazione: teorema esistenza degli zeri}
 Supponiamo $f\left(a\right)$ negativo e $f\left(b\right)$ positivo: $f\left(a\right) < 0 < f\left(b\right)$. 
@@ -499,6 +704,11 @@ Inoltre se $f$ è strettamente crescente e $g$ strettamente decrescente in $\lef
 \includesvg[scale=0.9]{figures/corollario_72}
 \end{center}
 
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
 \subsubsection{Teorema dei valori intermedi (0.9)}
 Il teorema si concentra sullo studio dell'immagine di una funzione continua definita su un intervallo  della retta reale.
 \\ \\
@@ -513,6 +723,10 @@ Ovvero:
 \begin{center}
 \includesvg[scale=0.9]{figures/baby.svg}
 \end{center}
+\end{redes}
+\end{minipage}}        
+\end{center}
+
 
 \begin{es}{dimostrazione: teorema valori intermedi}
 Se $f\left(a\right) = f\left(b\right)$ non c'è niente da dimostrare.
@@ -543,18 +757,168 @@ Presi $y_1 < y_2$ due punti di $f\left(I\right)$ ; allora esistono in $I$ due pu
 \[
 f\left(x_1\right) = y_1 \qquad f\left(x_2\right) = y_2
 .\] 
-Supponiamo che $x_1 < x_2$ e consideriamo $f:\left[x_1,x_2\right] \rightarrow \mathbb{R}$ ; per il teorema dei valori intermedi sappiamo che $f$ assume tutti i valori tra $y_1$ e $y_2$.
+Supponiamo che $x_1 < x_2$ e consideriamo $f:\left[x_1,x_2\right] \rightarrow \mathbb{R}$ ; per il teorema dei valori intermedi \textbf{sappiamo che} $f$ assume tutti i valori tra $y_1$ e $y_2$.
 \end{es}
 
-\newpage
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
 \subsubsection{Teorema di Weierstrass}
 Se $I$ è chiuso e limitato (cioè $I=\left[a,b\right]$ vale il teorema di Weierstrass.
 \\ \\
 Sia $f:\left[a,b\right] \rightarrow \mathbb{R}$ continua. ALlora $f\left(\left[a,b\right]\right)$ è un intervallo chiuso e limitato, cioè:
  \[
-f\left(\left[a,\right]\right) = \left[m,M\right]
+f\left(\left[a,b\right]\right) = \left[m,M\right]
 .\] 
 in cui $m$ e $M$ sono massimo e minimo. Quindi $f$ assume valore massimo, valore minimo e tutti i valori intermedi.
+\end{redes}
+\end{minipage}}        
+\end{center}
+
+
+
+\newpage
+\section{Derivabilità}
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\subsubsection{Teorema di dubbia derivabilità}
+Data una funzione continua nell'intervallo $I$ e derivabile in $I \backslash\{x_0\}$
+\[
+f: I \to \mathbb{R} \qquad I \subset \mathbb{R}
+\]
+\begin{itemize}
+    \item Se $\exists \lim_{x \to x_0}f'(x) = l$ allora $\exists f'(x_0) = l$;
+    \item Se $\exists \lim_{x \to x_0}f'(x) = \{\pm \infty\}$ allora $f$ non è derivabile in $x_0$;
+\end{itemize}
+\end{redes}
+\end{minipage}}        
+\end{center}
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\subsubsection{Teorema di Fermat}
+Sia $I \subseteq \mathbb{R}$ intervallo, $f: I \to \mathbb{R}$ derivabile in $x_0$ interno ad $I$,
+\[
+\text{Se } x_0 \text{ punto di estremo per } f \Longrightarrow f'(x_0) = 0 
+\]
+\textbf{Nota:} non vale il veceversa poiché la derivata può annullarsi anche in flessi orizzontali.
+\end{redes}
+\end{minipage}}        
+\end{center}
+
+\begin{es}{dimostrazione}
+Supponiamo di avere $x_0$ punto di massimo locale, allora per definizione
+\[
+\exists \text{I}(x_0) \quad \text{t.c.} \quad f(x) \leq f(x_0) \quad \forall x \in \text{I}(x_0) \cap \text{I}
+\]
+Poiché $x_0$ è interno ad $I$ esiste un intorno J$(x_0)$ t.c. $\text{J}(x_0) \subseteq$ I. Allora I$(x_0) \cap$ J$(x_0)$ è un intorno di $x_0$ e 
+\[
+f(x) \leq f(x_0) \quad \forall x \in \left( \text{I}(x_0) \cap \text{J}(x_0)\right) \subseteq \text{I}
+\]
+Ne segue che:
+\[
+\frac{f(x) - f(x_0)}{x - x_0} \begin{cases}
+     \leq 0 \quad x> x_0, \quad x \in \left( \text{I}(x_0) \cap \text{J}(x_0) \right)  \\
+     \geq 0 \quad x< x_0, \quad x \in \left( \text{I}(x_0) \cap \text{J}(x_0) \right)
+\end{cases}
+\]
+Per il corollario del teorema di permanenza del segno (o per il teorema del confronto) si ha:
+\[
+f'_+ (x_0) = \lim_{x\to x_0}\frac{f(x) - f(x_0)}{x - x_0} \leq 0
+\]
+\[
+f'_- (x_0) = \lim_{x\to x_0}\frac{f(x) - f(x_0)}{x - x_0} \geq 0
+\]
+Ma \textbf{poiché} $f$ è derivabile in $x_0$:
+\[
+f(x_0) = f'_+(x_0) = f'_-(x_0) = 0
+\]
+\end{es}
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\subsubsection{Teorema di Rolle}
+Sia $f: [a,b] \to \mathbb{R}$ continua su tutto l'intervallo $[a.b]$ e derivabile su $(a,b)$. 
+Se
+\[
+f(a) = f(b) \quad \Longrightarrow \quad \exists c \in (a,b) \quad \text{t.c.} \quad f'(c) = 0
+\]
+Vedremo come in realtà Rolle sia semplicemente un caso particolare del teoreme di Lagrange.
+\end{redes}
+\end{minipage}}        
+\end{center}
+\begin{es}{dimostrazione}
+Per il teorema di Weierstrass sappiamo che l'immagine di una funzione in un intervallo chiuso e limitato è un intervallo chiuso e limitato:
+\[
+f([a,b]) =  [m,M]
+\]
+\textbf{Quindi} esistono $x_m$ e $x_M \in [a.b]$ t.c. 
+\[
+f(x_m) = m \quad \text{e} \quad f(x_M) = M
+\]
+cioè $x_m$ e $x_M$ sono punti di minimo e massimo globale. 
+\begin{itemize}
+    \item Se $x_m$ e $x_M$ sono interni a $[a,b]$, allora per il teorema di Fermat $f'=0$ in uno almeno uno dei due punti.
+    \item Se $x_m$ e $x_M$ sono esterni, allora la funzione è costante e quindi vale $f'=0 \forall c \in [a,b]$.
+\end{itemize}
+\end{es}
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+\subsubsection{Teorema di Lagrange}
+Sia $f: [a,b] \to \mathbb{R}$ continua su tutto l'intervallo $[a.b]$ e derivabile su $(a,b)$. Allora esiste una $c$ che soddisfa
+\[
+f'(c) = \frac{f'(b) - f(a)}{b - a}
+\]
+Ovvero esiste un punto in cui la retta tangente alla curva è parallela alla retta passante per $a$ e $b$. Infatti:
+\begin{itemize}
+    \item $\frac{f'(b) - f(a)}{b - a}$ è il coefficiente angolare della retta passante per $(a,f(a))$ e $(b,f(b))$.
+    \item $f'(c)$ è il coefficiente angolare della retta tangente  a $f$ in $c$.
+\end{itemize}
+\end{redes}
+\end{minipage}}        
+\end{center}
+\begin{es}{dimostrazione}
+Definiamo una funzione ausiliaria sicuramente continua su $[a,b]$ e derivabile nell'intervallo $(a,b)$ poiché differenza della funzione $f$ che ha per ipotesi tali proprietà:
+\[
+h(x) = f(x) - \frac{f(b) - f(a)}{b - a}(x-a)
+\]
+Tramite la funzione ausiliaria si verifica facilmente che 
+\[
+h(a) = f(a) \qquad h(b) = f(b)
+\]
+Quindi per il teorema di Rolle sappiamo che esiste una $c \in (a,b)$ che soddisfa $h'(c) = 0$. Ma 
+\[
+h'(c) = f'(c) - \frac{f(b) - f(a)}{b - a} \quad = 0
+\]
+\textbf{Quindi}
+\[
+f'(c) = \frac{f(b) - f(a)}{b - a} \quad 
+\]
+\end{es}
+
+
+\begin{center}
+\fboxsep11pt
+\colorbox{myred}{\begin{minipage}{5.75in}
+\begin{redes}{}
+
+\end{redes}
+\end{minipage}}        
+\end{center}
+
 
 
 
@@ -562,6 +926,7 @@ in cui $m$ e $M$ sono massimo e minimo. Quindi $f$ assume valore massimo, valore
 
 
 \end{document}
+
 
 
 
