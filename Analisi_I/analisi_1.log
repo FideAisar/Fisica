@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  9 DEC 2023 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.13)  13 DEC 2023 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,179 +696,6 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen287
 \Gm@dimlist=\toks45
 )
-(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fouriernc.sty
-Package: fouriernc 2005/12/20 1.0 fouriernc package
-
-(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fourier.sty
-Package: fourier 2022/02/05 2.3 fourier-GUTenberg package
-Now handling font encoding FML ...
-... no UTF-8 mapping file for font encoding FML
-Now handling font encoding FMS ...
-... no UTF-8 mapping file for font encoding FMS
-Now handling font encoding FMX ...
-... no UTF-8 mapping file for font encoding FMX
-
-(/opt/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+futs on input line 1
-12.
-
-(/opt/texlive/2023/texmf-dist/tex/latex/fourier/t1futs.fd
-File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
-))
-(/opt/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fourier-orns.sty
-Package: fourier-orns 2022/02/05 2.3 fourier-ornaments package
-)
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 63.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 64.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 72.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `normal' on input line 72.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 72.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `bold' on input line 72.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 72.
-\symotherletters=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 74.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 79.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 80.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 83.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 85.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 126.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 126.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 126.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 126.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 126.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 127.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 1
-27.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 127
-.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 129.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 130.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 130.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 130.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 131.
-LaTeX Font Info:    Redeclaring math symbol \parallel on input line 147.
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 161.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 200.
-LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 223.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 228.
-LaTeX Font Info:    Redeclaring math delimiter \lvert on input line 230.
-LaTeX Font Info:    Redeclaring math delimiter \rvert on input line 232.
-LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 234.
-LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 236.
-LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 238.
-LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 240.
-LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 242.
-LaTeX Font Info:    Redeclaring math delimiter \langle on input line 244.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 246.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 248.
-LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 250.
-LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 252.
-LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 254.
-LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 256.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 260.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 261.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 262.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 263.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 264.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 265.
-LaTeX Font Info:    Redeclaring math accent \check on input line 266.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 267.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 268.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
-\symUfutm=\mathgroup5
-)
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 16.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  FML/futmi/m/it --> FML/fncmi/m/it on input line 16.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/futmi/b/it --> FML/fncmi/m/it on input line 16.
-LaTeX Font Info:    Redeclaring symbol font `otherletters' on input line 17.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `normal'
-(Font)                  FML/futm/m/it --> FML/fncm/m/it on input line 17.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/futm/b/it --> FML/fncm/m/it on input line 17.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/fncmi/m/it --> FML/fncmi/b/it on input line 18.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/fncm/m/it --> FML/fncm/b/it on input line 19.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 32.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 32.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/b/n --> T1/fnc/m/n on input line 32.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/fnc/m/n --> T1/fnc/b/n on input line 33.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 34.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
-)
 (/opt/texlive/2023/texmf-dist/tex/latex/xymtex/base/xymtex.sty
 Package `xymtex' (ver5.01) <March 10, 2013> [SF]
 xymtex.sty ver5.01 (for LaTeX2e) 2013/03/10[SF]
@@ -1022,46 +849,39 @@ chemist.sty ver5.01 (for LaTeX2e) 2013/06/06[SF]
 LaTeX Info: Redefining \rm on input line 788.
 LaTeX Info: Redefining \mathversion on input line 892.
 \c@mv@chem=\count359
-LaTeX Font Info:    Encoding `FML' has changed to `OT1' for symbol font
+LaTeX Font Info:    Encoding `OML' has changed to `OT1' for symbol font
 (Font)              `letters' in the math version `chem' on input line 965.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `chem'
-(Font)                  FML/fncmi/m/it --> OT1/cmr/m/n on input line 965.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `chem' on input line 965.
+(Font)                  OML/cmm/m/it --> OT1/cmr/m/n on input line 965.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `chem'
-(Font)                  T1/fnc/m/n --> OT1/cmr/m/n on input line 965.
-LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
-(Font)              `symbols' in the math version `chem' on input line 965.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/m/n on input line 965.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `chem'
-(Font)                  FMS/fncm/m/n --> OMS/cmsy/m/n on input line 965.
+(Font)                  OMS/cmsy/m/n --> OMS/cmsy/m/n on input line 965.
 \c@mv@boldchem=\count360
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `boldchem' on input line 96
-5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `boldchem'
-(Font)                  T1/fnc/m/n --> OT1/cmr/bx/n on input line 965.
-LaTeX Font Info:    Encoding `FML' has changed to `OT1' for symbol font
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 965.
+LaTeX Font Info:    Encoding `OML' has changed to `OT1' for symbol font
 (Font)              `letters' in the math version `boldchem' on input line 965.
 
 LaTeX Font Info:    Overwriting symbol font `letters' in version `boldchem'
-(Font)                  FML/fncmi/m/it --> OT1/cmr/b/n on input line 965.
-LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
-(Font)              `symbols' in the math version `boldchem' on input line 965.
-
+(Font)                  OML/cmm/m/it --> OT1/cmr/b/n on input line 965.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldchem'
-(Font)                  FMS/fncm/m/n --> OMS/cmsy/b/n on input line 965.
+(Font)                  OMS/cmsy/m/n --> OMS/cmsy/b/n on input line 965.
 \TestCount=\count361
 (/opt/texlive/2023/texmf-dist/tex/latex/xymtex/chemist/assurechemist.sty
 Part of XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
  -- Released October 01, 2010 by Shinsaku Fujita
 XyMTeX Macro File `assurechemist' (ver5.00) <October 01, 2010> [SF]
-))) (/opt/texlive/2023/texmf-dist/tex/latex/eurosym/eurosym.sty
+))) (/opt/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/opt/texlive/2023/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box79
 )
 (/opt/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup6
+\symrsfs=\mathgroup4
 )
 (/opt/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -1476,38 +1296,12 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/opt/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup7
-\symAMSb=\mathgroup8
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
-
-LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
-LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
-20.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
-1.
-LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
-LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
-LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
-LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
-LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
-LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
-LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
-LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
-
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
-LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
-)
+))
 (/opt/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikz
 libraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1519,15 +1313,7 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 84.
-LaTeX Font Info:    Trying to load font information for T1+fnc on input line 84
-.
- (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/t1fnc.fd
-File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
-)
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 84.
-
-(./analisi_1.aux)
+ (./analisi_1.aux)
 \openout1 = `analisi_1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -1543,28 +1329,6 @@ LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 84.
-LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
- 84.
- (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
-File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
-)
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 84.
-LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 
-84.
- (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
-File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
-)
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 84.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-84.
-
-(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmxfutm.fd
-File: fmxfutm.fd futm-extension
-)
 LaTeX Font Info:    ... okay on input line 84.
 
 (/opt/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1593,7 +1357,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 84.
+Package chemgreek Info: Activating mapping `default' on line 84.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1629,8 +1393,6 @@ Package chemgreek Info: Activating mapping `fourier' on line 84.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 84.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 84.
 
 (/opt/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-diction
 ary-english.trsl
@@ -1651,12 +1413,7 @@ F (HO)
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (./titlepage.tex
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 9.29993pt on input line 5.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 16.07027pt on input line 5.
-[1
+)) (./titlepage.tex [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
 Non-PDF special ignored!
@@ -1692,39 +1449,11 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 Non-PDF special ignored!
 <special> ps:0.8 setlinewidth 0 setgray
-{/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/opt/texlive/2
-023/texmf-dist/fonts/enc/dvips/base/8r.enc}])
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 13.39188pt on input line 87.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 87.
- (./analisi_1.toc
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.06795pt on input line 2.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Trying to load font information for FML+fncm on input line 
-2.
-
-(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
-File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
-)
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
+{/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+(./analisi_1.toc
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
 
-
-(/opt/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (/opt/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
@@ -1741,19 +1470,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout6 = `analisi_1.toc'.
 
  [1]
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 113.
-
 Underfull \hbox (badness 10000) in paragraph at lines 130--134
 
  []
 
-LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 9.29993pt on input line 141.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 143.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 143.
 
 Underfull \hbox (badness 10000) in paragraph at lines 209--209
 
@@ -1764,61 +1484,91 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 209--210
  [][][][][][] 
  []
 
-[2] [3]
-LaTeX Font Info:    Trying to load font information for TS1+fnc on input line 2
-84.
- (/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/ts1fnc.fd
-File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
-)
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 284.
- [4]
-[5]
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 312.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 312.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 312.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 312.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 312.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 312.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 312.
-LaTeX Font Info:    Font shape `T1/fnc/b/it' will be
-(Font)              scaled to size 9.29993pt on input line 339.
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--340
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--349
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--349
-
+[2] [3] [4{/opt/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.e
+nc}] [5]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 356--357
+ [][][][][][] 
  []
 
 [6]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 362--363
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 379--380
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 376--377
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 389--390
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 413--414
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--421
+
+ []
+
+[7]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 452--453
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 466--467
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 480--481
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 509--510
+ [][][][][][] 
+ []
+
+[8]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 522--523
+ [][][][][][] 
+ []
+
+[9]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 578--579
+ [][][][][][] 
+ []
+
+[10]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 597--598
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 611--612
  [][][][][][] 
  []
 
 Package svg Info: Last page of `./svg-inkscape/intornielle_svg-tex.pdf' is 1 on
- input line 384.
+ input line 619.
 (./svg-inkscape/intornielle_svg-tex.pdf_tex
-<./svg-inkscape/intornielle_svg-tex.pdf, id=36, page=1, 167.0673pt x 12.7737pt>
+<./svg-inkscape/intornielle_svg-tex.pdf, id=55, page=1, 167.0673pt x 12.7737pt>
 
 File: ./svg-inkscape/intornielle_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/intornielle_svg-tex.pdf, page 1>
@@ -1826,14 +1576,14 @@ Package pdftex.def Info: ./svg-inkscape/intornielle_svg-tex.pdf , page1 used on
  input line 56.
 (pdftex.def)             Requested size: 217.188pt x 16.60617pt.
 )
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 418--419
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 653--654
  [][][][][][] 
  []
 
 Package svg Info: Last page of `./svg-inkscape/permsegno_svg-tex.pdf' is 1 on i
-nput line 425.
+nput line 660.
 (./svg-inkscape/permsegno_svg-tex.pdf_tex
-<./svg-inkscape/permsegno_svg-tex.pdf, id=38, page=1, 167.0673pt x 20.42404pt>
+<./svg-inkscape/permsegno_svg-tex.pdf, id=57, page=1, 167.0673pt x 20.42404pt>
 File: ./svg-inkscape/permsegno_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/permsegno_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/permsegno_svg-tex.pdf , page1 used on i
@@ -1841,51 +1591,51 @@ nput line 56.
 (pdftex.def)             Requested size: 217.188pt x 26.55185pt.
 )
 Package svg Info: Last page of `./svg-inkscape/permsegno2_svg-tex.pdf' is 1 on 
-input line 439.
+input line 674.
 
 (./svg-inkscape/permsegno2_svg-tex.pdf_tex
-<./svg-inkscape/permsegno2_svg-tex.pdf, id=40, page=1, 118.80397pt x 12.53801pt
+<./svg-inkscape/permsegno2_svg-tex.pdf, id=59, page=1, 118.80397pt x 12.53801pt
 >
 File: ./svg-inkscape/permsegno2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/permsegno2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/permsegno2_svg-tex.pdf , page1 used on 
 input line 56.
 (pdftex.def)             Requested size: 154.4455pt x 16.30034pt.
-) [7 <./svg-inkscape/intornielle_svg-tex.pdf>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 468--469
+) [11 <./svg-inkscape/intornielle_svg-tex.pdf>]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 721--722
  [][][][][][] 
  []
 
-[8 <./svg-inkscape/permsegno_svg-tex.pdf> <./svg-inkscape/permsegno2_svg-tex.pd
-f
+[12 <./svg-inkscape/permsegno_svg-tex.pdf> <./svg-inkscape/permsegno2_svg-tex.p
+df
 
 pdfTeX warning: /opt/texlive/2023/bin/x86_64-linux/pdflatex (file ./svg-inkscap
 e/permsegno2_svg-tex.pdf): PDF inclusion: multiple pdfs with page group include
 d in a single page
 >]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 525--526
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 778--779
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 561--562
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 814--815
  [][][][][][] 
  []
 
-[9] [10]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 599--600
+[13] [14]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 852--853
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 613--614
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 866--867
  [][][][][][] 
  []
 
 Package svg Info: Last page of `./svg-inkscape/zeri_func_svg-tex.pdf' is 1 on i
-nput line 616.
+nput line 869.
 (./svg-inkscape/zeri_func_svg-tex.pdf_tex
-<./svg-inkscape/zeri_func_svg-tex.pdf, id=61, page=1, 331.12769pt x 310.39268pt
+<./svg-inkscape/zeri_func_svg-tex.pdf, id=80, page=1, 331.12769pt x 310.39268pt
 >
 File: ./svg-inkscape/zeri_func_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/zeri_func_svg-tex.pdf, page 1>
@@ -1893,14 +1643,14 @@ Package pdftex.def Info: ./svg-inkscape/zeri_func_svg-tex.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 298.01286pt x 279.35081pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 620--626
+Underfull \hbox (badness 10000) in paragraph at lines 873--879
 
  []
 
 Package svg Info: Last page of `./svg-inkscape/due_casi_1_svg-tex.pdf' is 1 on 
-input line 633.
+input line 886.
 (./svg-inkscape/due_casi_1_svg-tex.pdf_tex
-<./svg-inkscape/due_casi_1_svg-tex.pdf, id=63, page=1, 574.1648pt x 279.45876pt
+<./svg-inkscape/due_casi_1_svg-tex.pdf, id=82, page=1, 574.1648pt x 279.45876pt
 >
 File: ./svg-inkscape/due_casi_1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/due_casi_1_svg-tex.pdf, page 1>
@@ -1908,16 +1658,16 @@ Package pdftex.def Info: ./svg-inkscape/due_casi_1_svg-tex.pdf , page1 used on
 input line 56.
 (pdftex.def)             Requested size: 401.9136pt x 195.61978pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 662--665
+Underfull \hbox (badness 10000) in paragraph at lines 915--918
 
  []
 
-[11 <./svg-inkscape/zeri_func_svg-tex.pdf>] [12 <./svg-inkscape/due_casi_1_svg-
+[15 <./svg-inkscape/zeri_func_svg-tex.pdf>] [16 <./svg-inkscape/due_casi_1_svg-
 tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/corollario_72_svg-tex.pdf' is 1 
-on input line 702.
+on input line 955.
  (./svg-inkscape/corollario_72_svg-tex.pdf_tex
-<./svg-inkscape/corollario_72_svg-tex.pdf, id=76, page=1, 331.12769pt x 311.375
+<./svg-inkscape/corollario_72_svg-tex.pdf, id=94, page=1, 331.12769pt x 311.375
 15pt>
 File: ./svg-inkscape/corollario_72_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/corollario_72_svg-tex.pdf, page 1>
@@ -1925,103 +1675,165 @@ Package pdftex.def Info: ./svg-inkscape/corollario_72_svg-tex.pdf , page1 used
 on input line 56.
 (pdftex.def)             Requested size: 298.01286pt x 280.23505pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 720--720
+Underfull \hbox (badness 10000) in paragraph at lines 973--973
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 720--721
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 973--974
  [][][][][][] 
  []
 
-[13 <./svg-inkscape/corollario_72_svg-tex.pdf>]
+[17 <./svg-inkscape/corollario_72_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/baby_svg-tex.pdf' is 1 on input 
-line 723.
+line 976.
 
 (./svg-inkscape/baby_svg-tex.pdf_tex
-<./svg-inkscape/baby_svg-tex.pdf, id=83, page=1, 331.12769pt x 311.37515pt>
+<./svg-inkscape/baby_svg-tex.pdf, id=101, page=1, 331.12769pt x 311.37515pt>
 File: ./svg-inkscape/baby_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/baby_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/baby_svg-tex.pdf , page1 used on input 
 line 56.
 (pdftex.def)             Requested size: 298.01286pt x 280.23505pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 727--730
+Underfull \hbox (badness 10000) in paragraph at lines 980--983
 
  []
 
-[14 <./svg-inkscape/baby_svg-tex.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 772--772
+[18 <./svg-inkscape/baby_svg-tex.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1025
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 772--773
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1025--1026
  [][][][][][] 
  []
 
-[15]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 793--794
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 807--808
+[19]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1046--1047
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 852--853
- [][][][][][] 
- []
-
-[16]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 885--886
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1060--1061
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 935--936
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1105--1106
  [][][][][][] 
  []
 
-[17]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 975--976
+[20]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1138--1139
  [][][][][][] 
  []
 
-[18]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1006--1007
+[21]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1188--1189
  [][][][][][] 
  []
 
-[19] (./analisi_1.aux)
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1228--1229
+ [][][][][][] 
+ []
+
+[22] [23] [24]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1267--1268
+ [][][][][][] 
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1393--1396
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1407
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1415
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1415
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1416--1419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1416--1419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
+
+ []
+
+[27] (./analisi_1.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 44885 strings out of 474934
- 1076566 string characters out of 5762810
- 1948807 words of memory out of 5000000
- 65562 multiletter control sequences out of 15000+600000
- 609879 words of font info for 125 fonts, out of 8000000 for 9000
+ 44240 strings out of 474934
+ 1068327 string characters out of 5762810
+ 1949807 words of memory out of 5000000
+ 64972 multiletter control sequences out of 15000+600000
+ 567969 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,15n,109p,724b,2516s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></opt
-/texlive/2023/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texli
-ve/2023/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/20
-23/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/texlive/2023/texmf-
-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/ty
-pe1/urw/ncntrsbk/uncbi8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncnt
-rsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.
-pfb>
-Output written on analisi_1.pdf (20 pages, 168810 bytes).
+ 117i,15n,109p,724b,2517s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt
+/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texliv
+e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></opt/texlive/202
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2023/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2023/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi5.pfb></opt/texlive/2023/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/2023/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr5.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+7.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></opt/tex
+live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/202
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/texlive/2023/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2023/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/texlive/2023/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on analisi_1.pdf (28 pages, 318841 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 211 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

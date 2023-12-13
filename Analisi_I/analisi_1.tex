@@ -8,7 +8,7 @@
 \usepackage[skins]{tcolorbox}
 \usepackage[version=4]{mhchem}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
-\usepackage{fouriernc}
+%\usepackage{fouriernc}
 \usepackage{xymtex}
 \usepackage{textcomp}
 \usepackage{eurosym}
@@ -202,7 +202,7 @@
 						\end{tikzpicture}    
 					\end{center}
 					
-					Sappiamo anche che moltiplicare per $i$ è equivalente a moltiplicare per un certo numero complesso $\cos{\frac{\pi}{2}} + i\sin{\frac{\pi}{2}}$; da ciò notiamo che l'argomento $\theta$ è anche l'angolo di traslazione di un qualsiasi altro numero complesso $l$ moltiplicato per $w$, ovvero per $i$.
+					Sappiamo anche che moltiplicare per $i$ è equivalente a moltiplicare per un certo numero complesso $\cos{\frac{\pi}{2}} + i\sin{\frac{\pi}{2}}$; da ciò notiamo che l'argomento $\theta$ è anche l'angolo di rotazione di un qualsiasi altro numero complesso $l$ moltiplicato per $w$, ovvero per $i$.
 					\\\\
 					Quindi possiamo decidere di che angolo traslare qualsiasi numero complesso scegliendo opportunamente l'argomento $\theta$ di un altro numero complesso da moltiplicare.
 				\end{blues}
@@ -330,22 +330,253 @@
 		\item Gli intervalli $(b, +\infty) $ e $ [b, +\infty)$ sono limitati inferiormente;
 		\item Gli intervalli $(a,b) $ , $ [ab)$ $(a,b) $ , $ [ab]$ sono limitati.
 	\end{itemize}
+
 	
-	\noindent
-	Sia $A \subseteq \mathbb{R}$ superiormente limitato:
-	Allora si dice che $A$ ammette un massimo se $\exists x_M \in A | x \leq x_M, \forall x \in A$. La differenza con un maggiorante sta proprio nel fatto che il massimo è contenuto nell'intervallo; la stessa cosa si può dire per i minimi. 
-	\\\\
-	\noindent
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: massimio e minimo}
+					Sia $A \subseteqq \mathbb{R}$ superiormente (o inferiormente) limitato.
+					Si dice che A ammette \textbf{massimo} se
+					\[
+					\exists x_M \in A \quad \text{ t.c.} \quad x \leq x_M, \quad \forall x \in A
+					\]
+					\[
+					\left(\exists x_M \in A \quad \text{ t.c.} \quad x_M \leq x, \quad \forall x \in A\right)
+					\]
+					L'elemento, necessariamente unico, si dice \textbf{massimo} (o minimo)  di A e si pone 
+					\[
+					x_M = \text{ max}A 
+					\]
+					\[
+					\left(x_M = \text{ min}A \right)
+					\]
+					La differenza con un maggiorante sta proprio nel fatto che il massimo è contenuto nell'intervallo; la stessa cosa si può dire per i minimi. 
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+	\begin{es}{dimostrazione uncità del massimo (o minimo)}
+		Se $x_M = x'_M$ sono entrambi massimo allora si ha
+		\[
+		x \leq x_M \quad \text{e} \quad x \leq x'_M \quad \forall x \in A
+		\]
+		e quindi
+		\[
+		x_M \leq x'_M \quad \text{e} \quad x'_M \leq x_M
+		\]
+		da cui $x_M = x'_M$.
+	\end{es}
+	
 	Esistono casi che però non ammettono massimi o minimi, per esempio l'insieme $\tilde{A} = \{ \frac{1}{n} | n = 1,2,\dots \}$. Quest'ultimo ha come intervallo $[1,+\infty)$, ha quindi un massimo ma non ammette minimi. In questi casi quando $\neg \exists$ minimo o massimo sarebbe utile poter definire un minorante o maggiorante \textit{ottimale} che vengono definiti rispettivamente come \textit{il più grande dei minoranti e il più piccolo dei maggioranti}. Definiamo allora i concetti di \textit{\textbf{estremo superiore}} ed \textit{\textbf{estremo inferiore}}.
 	
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Teorema di completezza di $\mathbb{R}$}
+					Se $A \subseteqq \mathbb{R}$ è superiormente (inferiormente) limitato, \textbf{il massimo} (minimo) dell'insieme  dei maggioranti (minoranti) \textbf{esiste sempre}.
+				\end{redes}
+				\end{minipage}}        
+		\end{center}
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: estremo superiore e inferiore}
+				Sia $A \subseteqq \mathbb{R}$  superiormente (inferiormente) limitato.
+				
+				Si dice estremo superiore (inferiore) di A, e si scrive \textbf{supA} (infA), il più piccolo (grande) dei maggioranti (minoranti) di A = \textbf{estremo superiore} (inferiore).
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
 	\subsection{Intorni}
 	Un'altra  "struttura" fondamentale di $\mathbb{R}$ è quealla che si basa sul concetto di \textbf{intorno}.
-	\\\\
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: estremo superiore e inferiore}
+					Dati $x_0 \in \mathbb{R}$ e $r > 0$.
+					
+					Si dice \textbf{intorno} do centro $x_0$ e raggio $r$ l'intervallo 
+					\[
+					\text{I}_r (x_0) = (x_0 -r, x_0 +r)
+					.\]
+					Notare che:
+					\begin{align*}
+						x \in \text{I}_r(x_0) \Longleftrightarrow & x_0 - r < x < x_0 + r \\
+						& - r < x -x_0 < r \\
+						& |x-x_0| < r
+					\end{align*}
+					
+					
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+	
 	\noindent
 	Dati $x_0\in \mathbb{R} $ e $ r>0$, si dice intorno di centro $x_0$ e raggio $r$ l'intervallo $In(x_0) = (x_0 -r, x_0 +r)$.
 	\\\\
 	\noindent
 	In questo contesto è utile definire anche un \textit{sistema esteso dei numeri reali} che includa anche $+\infty $ e $ +\infty$: $\overline{\mathbb{R}} = \mathbb{R} \cup \{ -\infty,+\infty \}$. 
+	
+	\newpage
+	\section{Integrali secondo Riemann}
+	Il nostro obiettivo è quello di definire un numero reale che rappresenti, quando $f \geq 0$, l'area della regione compresa tra il grafico di $f$ e l'asse $x$.
+	
+	
+	\noindent
+	Per fare ciò definiremo:
+	\begin{enumerate}
+		\item $\int_{a}^{b}f$ per funzioni a scala;
+		\item $\int_{a}^{b}f$ per funzioni qualsiasi.
+	\end{enumerate}
+	
+	\subsection{Funzioni a scala}
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: funzione a scala}
+					Una funzione $f: [a,b] \to \mathbb{R}$ si dice a scala se:
+					\begin{enumerate}
+						\item esistono $n+1$ punti $x_0,x_1, \dots, x_n, x_n$ tali che
+						\[
+						a = x_0 < x_1 < \dots < x_n =b
+						\]
+						\item $n$ costanti $c_1, c_2 , \dots , c_n \in \mathbb{R}$
+					\end{enumerate}
+					 per cui
+					 \[
+					 f(x) = c_K \quad \forall x \in (x_{k-1}, x_k) \quad k=1,\dots,n
+					 \]
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+	
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Integrale di funzioni a scala}
+					Sia $f \in \mathcal{S}\left(\left[a,b\right]\right)$ (insieme delle funzioni a scala) e sia $x_0, x_1, \dots, x_n$ una suddivisione adattata di $f$ ($f$ continua in ogni sottointervallo).  Detto $c_k$ il valore di $f$ su $\left(x_{k-1}, x_k\right)$ $k=1,\dots,n$:
+					
+					si dica integrale di $f$ su $\left[a,b\right]$ il numero
+					\[
+					\sum_{k=1}^{n}c_k (x_k - x_{k-1}) \quad \text{denotato con } \int_{a}^{b}f
+					\]
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+	Osserviamo che se $f$ è positiva nell'intervallo il numero $\int_{I}^{}f$ rappresenta l'area del trapezoide di $f$.  \\ \\
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Lemma 1: monotonia dell'integrale di funzione a scala}
+					Siano $g,h \in \mathcal{S}\left(\left[a,b\right]\right)$ t.c. $g(x) \leq h(x)$ $\forall x \in \left[a,b\right]$, allora:
+					\[
+					\int_{a}^{b}g \leq \int_{a}^{b}h 
+					\]
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+	\begin{es}{dimostrazione}
+		Sia $\left\{x_0, x_1, \dots, x_n\right\}$ adattata sia a $g$ sia ad $h$ e siano $c_k$ e $d_k$ i valori di $g$ e $h$ su $\left(x_{k-1},x_k\right)$ con $k=1,\dots,n$. Allora:
+		\[
+		\int_{a}^{b}g = \sum_{k=1}^n c_k\left(x_k,x_{k-1}\right) \leq \sum_{k=1}^n d_k\left(x_k,x_{k-1}\right) = \int_{a}^{b}h 
+		\]
+	\end{es}
+	\subsection{Integrale superiore e inferiore}
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: integrale superiore e inferiore}
+					Siano 
+					\[
+					\mathcal{S}^-f = \left\{g \in \mathcal{S}\left(\left[a,b\right]\right) | g(x) \leq f(x) \quad \forall x \in [a,b]\right\}
+					\]
+					\[
+					\mathcal{S}^+f = \left\{h \in \mathcal{S}\left(\left[a,b\right]\right) | f(x) \leq h(x) \quad \forall x \in [a,b]\right\}
+					\]
+					gli insiemi delle funzioni a scala formati dalle funzioni che \textbf{maggiorano} e \textbf{minorano} $f$.\\ \\
+					Nota: $\mathcal{S}f^- \neq \varnothing $ e $\mathcal{S}f^+ \neq \varnothing$ perché \textbf{$f$ è limitata}.
+					\[
+					\underline{\int_{a}^{b}}f \text{ = integrale inferiore } = \text{sup}\left\{\int_{a}^{b}g \quad \text{t.c.} \quad g \in \mathcal{S}^-f\right\}
+					\]
+					\[
+					\overline{\int_{a}^{b}}f \text{ = integrale superiore } = \text{inf}\left\{\int_{a}^{b}h \quad \text{t.c.} \quad h \in \mathcal{S}^+f\right\}
+					\]
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Lemma 2: integrale inferiore $\leq$ integrale superiore}
+					Per ogni funzione $f$ limitata su $\left[a,b\right]$ si ha che l'integrale inferiore è minore o uguale all'integrale superiore:
+					\[
+					\overline{\int_{a}^{b}}f \leq \underline{\int_{a}^{b}}f
+					\]
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+	\begin{es}{dimostrazione}
+		Prendo:
+		\[
+		g \in \mathcal{S}^-f, \quad h \in \mathcal{S}^+f
+		\]
+		Si ha $g(x) \leq f(x) \leq h(x) \quad \forall x \in [a,b]$. In particolare $g(x) \leq h(x) \quad \forall x \in [a,b]$ e quindi per il \textbf{lemma 1}:
+		\[
+		\int_{a}^{b}g \leq \int_{a}^{b}h 
+		\]
+		
+		Ora \textit{fisso} $g$ e faccio variare $h$:
+		\[
+		\int_{a}^{b}g \quad \leq \quad \text{inf}\left\{\int_{a}^{b}h \quad \text{t.c.} \quad h \in \mathcal{S}^+f\right\} \quad = \quad \overline{\int_{a}^{b}}f
+		\]
+		Ora facendo variare $g$ e ricordando la definizione di integrale inferiore si ottiene la tesi:
+		\[
+		\underline{\int_{a}^{b}}f \quad \leq \quad \text{sup}\left\{\int_{a}^{b}g \quad \text{t.c.} \quad g \in \mathcal{S}^-f\right\} \quad = \quad \overline{\int_{a}^{b}}f
+		\]
+		\[
+		\Longrightarrow 	\int_{a}^{b}g \leq \int_{a}^{b}h 
+		\]
+		\end{es}
+	\begin{es}{}
+		\begin{es}{!attenzione}
+			Sembrerebbe logico pensare che la disuguaglianza sopra sia in realtà un'uguaglianza per tutte le funzioni limitate.
+			Se prendiamo per esempio la funzione di Dirichlet ci accorgiamo che non è così: $f(x) = \begin{cases}
+				1 \quad x \in \mathbb{Q} \\
+				0 \quad x \in \mathbb{R} \backslash \mathbb{Q}
+			\end{cases}$
+			e prendiamo $[a,b] = [0,1]$ abbiamo:
+			\[
+			\text{se } g \in \mathcal{S}^-f \text{, allora} \quad g(x) \leq 0
+			\]
+			\[
+			\text{se } h \in \mathcal{S}^+f \text{, allora} \quad h(x) \geq 0
+			\]
+		\end{es}
+	\end{es}
+	
+	A questo proposito diamo la definizione di \textbf{funzione integrabile} secondo \textbf{Riemann}:
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Funzione integrabile secondo Riemann}
+					Sia $f:[a,b] \to \mathbb{R}$ \textbf{limitata} (condizione necessaria). Si dice che $f$ sia integrabile su $[a,b]$ se
+					\[
+					\underline{\int_{a}^{b}}f = \overline{\int_{a}^{b}}f 
+					\]
+					In tal caso si scrive che
+					\[
+					f \in \mathcal{R}\left(\left[a,b\right]\right)
+					\]
+					e si pone $\int_{a}^{b}f = \underline{\int_{a}^{b}}f = \overline{\int_{a}^{b}}f$ che si dice \textbf{integrale di $f$ su $[a,b]$}.
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
 	
 	\newpage
 	\section{Limiti e continuità}
@@ -356,8 +587,12 @@
 		\fboxsep11pt
 		\colorbox{myblue}{\begin{minipage}{5.75in}
 				\begin{blues}{Definizione: Limite}
-					Si dice che $\lim_{x\to x_0}f\left(x\right) = l$ se e solo se: \\
-					$\forall$ intorno di $l, I\left(l\right)$ $\exists$ intorno di $x_0, I\left(x_0\right)$ tale che $\quad x \in I\left(x_0\right) \backslash\{x_0\} \quad \Rightarrow \quad f\left(x\right) \in I\left(l\right)$ 
+					Si dice che $\lim_{x\to x_0}f\left(x\right) = l$ se e solo se: 
+					\[\forall \text{ intorno di } l, \text{I}\left(l\right) \quad \exists \text{intorno di } x_0, \text{I}\left(x_0\right) \text{ tale che }
+					\]
+					\[
+					\quad x \in I\left(x_0\right) \backslash\{x_0\} \quad \Rightarrow \quad f\left(x\right) \in I\left(l\right)
+					\]
 				\end{blues}
 		\end{minipage}}       
 	\end{center}
@@ -442,7 +677,25 @@
 		\forall M > 0 \quad \exists \text{I}{x_0} \qquad \text{t.c} \qquad x \in \text{I}{x_0} \backslash \{x_0\} \Longrightarrow f(x) > M > 0
 		\]
 	\end{es}
-	
+	\paragraph{Corollario del teorema di permanenza del segno}
+	Se esiste un intorno di $x_0$ I$(x_0)$ in cui $f(x) \geq 0 \quad \forall x \in$ I$(x_0) \backslash \left\{x_0\right\}$ allora (se esiste), il limite
+	\[
+	\lim_{x \to x_0}f(x) \geq 0
+	\]
+	\begin{es}{dimostrazione}
+		Supponiamo per assurdo che $\lim_{x \to x_0}f(x) = l < 0$, allora per il \textbf{teorema di permanenza del segno}
+		\[
+		\exists \text{I}'(x_0) \quad \text{t.c.} \quad f(x) <0 \quad \forall x \in \text{I}(x_0) \backslash \left\{x_0\right\}
+		\]
+		Allora 
+		\[
+		x \in \left(\text{I}(x_0) \cap \text{I}'(x_0)\right)\backslash\left\{x_0\right\} \Longrightarrow \begin{cases}
+			f(x) \leq 0 \\
+			f(x) > 0
+		\end{cases}
+		\]
+		che è assurdo.
+	\end{es}
 	
 	\begin{center}
 		\fboxsep11pt
@@ -994,21 +1247,209 @@
 		che è vero per la definizione di derivata seconda.
 	\end{es}
 	
+	\newpage
 	\section{Primitivazione}
 	
 	
-	\begin{center}
+	\newpage
+	\section{Equazioni differenziali}
+	
+		\begin{center}
 		\fboxsep11pt
-		\colorbox{myred}{\begin{minipage}{5.75in}
-				\begin{redes}{}
-					\subsubsection{}
-				\end{redes}
-		\end{minipage}}        
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: soluzione di *}
+					Si dice sluzione di * la funzione
+					\[
+					y: \text{I} \to \mathbb{R} \quad \text{t.c.} \quad y^{(n) = f(x,y(x),y'(x),\dots,y^(n-1)(x))} \quad \forall x \in \text{I}
+					\]
+					(con I intervallo) e $f$ derivabile n volte.
+				\end{blues}
+		\end{minipage}}       
 	\end{center}
 	
+	\begin{es}{esempio 1}
+		\[
+		y' = g(x) \qquad \left(y'(x) = g(x)\right)
+		\]
+		Giò risolta (se g è continua).
+		\[
+		y(x) = G(x) \qquad \qquad G' = h, c \in \mathbb{R}
+		\]
+	\end{es}
+	
+	\begin{es}{esempio 2}
+		\[
+		y' = ky \qquad k \in \mathbb{R}
+		\]
+		\[
+		y(x) = e^{kx} \Longrightarrow y'(x) = ke^{kx} = ky(x)
+		\]
+		Per trovare le soluzioni, osservo che:
+		\begin{align*}
+			\left(e^{-kx}y(x)\right)' =& - ke^{-kx}y(x) + e^{-kx}y'(x) \\
+			&= \left(y'(x) - ky(x)\right)e^{-kx}
+		\end{align*}
+		Quindi
+		\begin{align*}
+			y'(x) = ky(x) \Longleftrightarrow & \left(e^{-kx}y(x)'\right)' = 0 \\
+			\Longleftrightarrow & e^{-kx}y(x) = c \\
+			\Longleftrightarrow & y(x) = ce^{kx}
+		\end{align*}
+	\end{es}
+	
+	\begin{es}{esempio 3}
+		\[
+		y' = y^2
+		\]
+		Verifico che $y(x) = - \frac{1}{x+c} \quad c \in \mathbb{R}$ è soluzione:
+		\[
+		y'(x) = \frac{1}{(x+c)^2} = y(x)^2
+		\]
+	
+		\textit{Fatto interessante}
+		\[
+		y(x) = - \frac{1}{x+c}
+		\]
+		è definita su I = $(-\infty, -c)$ o su I= $(-c, + \infty)$.	Il modello prevede un'esplosione (blow-up) in un tempo finito.
+	\end{es}
+	\begin{es}{esempio 4}
+		\[
+		y'' = g(x) \qquad \text{g continua}
+		\]
+		Si ha
+		\begin{align*}
+			y'(x) &= c_2 \qquad G'=& g, \quad c_2 \in \mathbb{R} \\
+			y(x) =& c_1 + c_2x + \mathcal{G}(x) \mathcal{G}' =& G (\mathcal{G}'' = g), \quad c_1, c_2 \in \mathbb{R}
+		\end{align*}
+		Per $g(x) = -g$ costanti, $\mathbb{G} = - \frac{g}{2}x^2$ e quindi
+		\[
+		y(x) = c_1 + c_2x - \frac{g}{2}x^2
+		\]
+		Cinematica: $F(t,s,v) = -mg$ (forza peso)
+		\begin{align*}
+			ms'' = mg \Longrightarrow & s'' = -g \\
+			\Longrightarrow & s(t) = c_1 + c_2t - \frac{g}{2}t^2
+		\end{align*}
+		che è la legge oraria di caduta dei gravi.
+	\end{es}
 	
 	
+	\noindent
+	Per determinare una \textbf{unica} soluzione, si impongono condizioni aggiuntive, in questo casso si parla di \textbf{problema di Cauchy}.
 	
+	\[
+	\text{I ordine)} \quad \begin{cases}
+		y' = f(x,y) \\
+		y(x_0) = y_0 \quad \text{ condizione iniziale}
+		\end{cases} 
+	\]
+	\[
+	\text{II ordine)} \quad \begin{cases}
+		y'' = f(x,y,y') \\
+		y(x_0) = y_0 \quad \text{ posizione iniziale} \\
+		y'(x_0) = z_0 \quad \text{ velocità iniziale}
+ 	\end{cases} 
+	\]
+	
+	\begin{es}{esempio 1}
+	\[
+		\begin{cases}
+			N' = kN  \quad k>0 \\
+			N(0) = N_0  > 0 
+		\end{cases} 
+	\]
+	\[
+	\Longrightarrow N(t)  = ce^{kt} \quad c \in \mathbb{R} 
+	\]
+	\[
+	\Longrightarrow N(0) = ce^0 = c
+	\]
+	$(k>0) \qquad \Longrightarrow N(t) = N_0 e^{kt} \quad \forall t \in \mathbb{R}$
+	Rappresenta una crescita esponenziale (irrealistica). \\ \\
+	
+	\noindent
+	Il modello logistico invece
+	\[
+	\begin{cases}
+		N' = kN(1 - \frac{N}{h}) \\
+		N(0) = N_0
+	\end{cases}
+	\]
+	ha come asintoto il valore della "capacità portante dell'ambiente".
+	\end{es}
+	\begin{es}{esempio 2}
+	\[
+	\begin{cases}
+		ms'' = -mg \quad \Longrightarrow s(t) = c_1 + c_2t - \frac{g}{2}t^2 \\
+		\begin{array}{c}
+		s(0) = s_0 \\
+		s'(0) = v_0
+		\end{array} 
+		\Longrightarrow \begin{cases}
+							s(0) = c_1 = s_0 \\
+							s'(t) = c_2 -gt \quad \Longrightarrow s'(0) = c_2 = v_0
+						\end{cases}
+	\end{cases} 
+	\]
+	\\ \\
+	$\Longrightarrow s(t) = s_0 + v_0t + \frac{-g}{2}t^2$
+	\end{es}
+	
+	\subsection{Equazioni differenziali del second'ordine}
+	\[
+	y'' + ay' + by = g(x) \qquad a.b \in \mathbb{R}, \quad g:\text{I} \to \mathbb{R} \text{ continua}
+	\]
+	L'equazione con $g(x) = 0$, cioè
+	\[
+	y'' + ay' + by = 0
+	\]
+	si dice \textbf{omogenea} associata. \\ \\
+	
+	\noindent
+	Perché il termine "lineare"? L'operatore differenziale
+	\begin{align*}
+		\mathcal{L}_2 =& C^2 \to C^0 \\
+		& y \to y'' + ay' + by
+	\end{align*}
+	è lineare, cioè $\mathcal{L}_2 (c_1y_1 + c2_y2)$ = $c_1 \mathcal{L}_2(y_1) + c_2 \mathcal{L}_2(y_2) \quad \forall c_1, c_2 \in \mathbb{R}, \quad \forall y_1,y_2 \in C^2$ \\ \\
+	
+	\noindent
+	Come conseguenza: se $y_1,y_2$ sono soluzioni di $	y'' + ay' + by = g(x)$, allora $c_1y_1 + c_2y_2$ è anche soluzione, ovvero:
+ l'insieme delle soluzioni di 	$y'' + ay' + by = g(x)$ è spazio vettoriale (= il nucleo di $\mathcal{L}$). \\ \\
+ 
+\noindent
+Si considera l'equazione caratteristica
+\[
+\lambda^2 + a \lambda + b = 0, \qquad \lambda \in \mathbb{C}
+\]
+e distinguiamo 3 casi: posto $\Delta = a^2 - 4b$
+
+\begin{enumerate}
+	\item $\Delta 0$: dette $\lambda_{1,2} = - \frac{a}{2} \pm \frac{\sqrt{\Delta}}{2}$ le due soluzioni di (LO2) sono date da 
+	\[
+	y(x) = c_1 e^{\lambda_1 x} + c_2 e^{\lambda_2 x} 
+	\] \\ \\
+	
+	\noindent
+	Infatti 
+	\begin{align*}
+		D\left(e^{\lambda_i x}\right) =& \lambda_i e^{\lambda_i x} \\ 
+		D^2\left(e^{\lambda_i x}\right) =& \lambda_i^2 e^{\lambda_i x} \\ 
+	\end{align*}
+	\item $\Delta = 0$: detta $\lambda = - \frac{a}{2}$ la soluzione reale (doppia): le soluzioni di (LO2) sono date da 
+	\[
+	y(x) = \left(c_1 + c_2x\right)e^{\lambda x} \qquad c1, c_2 \in \mathbb{R}
+	\]
+	\item $\Delta < 0$: date $\lambda_{1,2} = \sigma \pm i \omega$ le due osluzioni complesse coniugate $\left(\sigma = - \frac{a}{2}, \omega = \frac{\sqrt{-\Delta}}{2}\right)$ le soluzioni di (LO2) sono data da
+	\[
+	y(x) = \left(c_1\cos{\omega x} + c_2 \sin{\omega x}\right) e^{\sigma x} \qquad c_1,c_2 \in \mathbb{R}
+	\]
+\end{enumerate} 
+
+Nel caso non-omogeneo, e soluzioni sono date da 
+\[
+y(x) = c_1y_1(x) + c_2y_2(x) + y_p(x) \qquad \text{in cui} y_p \text{ è soluzione particolare dell'eq. completa}
+\]
 \end{document}
 
 

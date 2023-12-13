@@ -5,30 +5,38 @@
 \contentsline {subsection}{\numberline {2.2}Predicati}{4}{}%
 \contentsline {subsection}{\numberline {2.3}Principio di induzione}{4}{}%
 \contentsline {section}{\numberline {3}Numeri reali}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Completezza di $\math@bb {R}$}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Completezza di $\mathbb {R}$}{6}{}%
 \contentsline {subsubsection}{Maggioranti e minoranti}{6}{}%
 \contentsline {subsubsection}{Intervalli, massimi e minimi}{6}{}%
-\contentsline {subsection}{\numberline {3.2}Intorni}{6}{}%
-\contentsline {section}{\numberline {4}Limiti e continuità}{7}{}%
-\contentsline {subsubsection}{Teorema di unicità del limite}{7}{}%
-\contentsline {subsubsection}{Teorema di permanenza del segno}{7}{}%
-\contentsline {subsubsection}{Toerema di esistenza del limite per funzioni monotone}{8}{}%
-\contentsline {subsubsection}{Teorema del confronto 1}{9}{}%
-\contentsline {subsubsection}{Teorema del confronto 2}{10}{}%
-\contentsline {section}{\numberline {5}Proprietà globali delle funzioni continue}{11}{}%
-\contentsline {subsubsection}{Teorema di esistenza degli zeri}{11}{}%
-\contentsline {paragraph}{Corollario $7.1$}{13}{}%
-\contentsline {paragraph}{Corollario $7.2$}{13}{}%
-\contentsline {subsubsection}{Teorema dei valori intermedi (0.9)}{14}{}%
-\contentsline {paragraph}{Corollario $7.3$}{14}{}%
-\contentsline {subsubsection}{Teorema di Weierstrass}{15}{}%
-\contentsline {section}{\numberline {6}Derivabilità}{16}{}%
-\contentsline {subsubsection}{Teorema di dubbia derivabilità}{16}{}%
-\contentsline {subsubsection}{Teorema di Fermat}{16}{}%
-\contentsline {subsubsection}{Teorema di Rolle}{16}{}%
-\contentsline {subsubsection}{Teorema di Lagrange}{17}{}%
-\contentsline {paragraph}{Proposizione}{17}{}%
-\contentsline {subsubsection}{Teorema di Cauchy}{18}{}%
-\contentsline {section}{\numberline {7}Taylor}{18}{}%
-\contentsline {section}{\numberline {8}Primitivazione}{19}{}%
-\contentsline {subsubsection}{}{19}{}%
+\contentsline {subsubsection}{Teorema di completezza di $\mathbb {R}$}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Intorni}{7}{}%
+\contentsline {section}{\numberline {4}Integrali secondo Riemann}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Funzioni a scala}{8}{}%
+\contentsline {subsubsection}{Lemma 1: monotonia dell'integrale di funzione a scala}{8}{}%
+\contentsline {subsection}{\numberline {4.2}Integrale superiore e inferiore}{9}{}%
+\contentsline {subsubsection}{Lemma 2: integrale inferiore $\leq $ integrale superiore}{9}{}%
+\contentsline {section}{\numberline {5}Limiti e continuità}{11}{}%
+\contentsline {subsubsection}{Teorema di unicità del limite}{11}{}%
+\contentsline {subsubsection}{Teorema di permanenza del segno}{11}{}%
+\contentsline {paragraph}{Corollario del teorema di permanenza del segno}{12}{}%
+\contentsline {subsubsection}{Toerema di esistenza del limite per funzioni monotone}{12}{}%
+\contentsline {subsubsection}{Teorema del confronto 1}{13}{}%
+\contentsline {subsubsection}{Teorema del confronto 2}{14}{}%
+\contentsline {section}{\numberline {6}Proprietà globali delle funzioni continue}{15}{}%
+\contentsline {subsubsection}{Teorema di esistenza degli zeri}{15}{}%
+\contentsline {paragraph}{Corollario $7.1$}{17}{}%
+\contentsline {paragraph}{Corollario $7.2$}{17}{}%
+\contentsline {subsubsection}{Teorema dei valori intermedi (0.9)}{18}{}%
+\contentsline {paragraph}{Corollario $7.3$}{18}{}%
+\contentsline {subsubsection}{Teorema di Weierstrass}{19}{}%
+\contentsline {section}{\numberline {7}Derivabilità}{20}{}%
+\contentsline {subsubsection}{Teorema di dubbia derivabilità}{20}{}%
+\contentsline {subsubsection}{Teorema di Fermat}{20}{}%
+\contentsline {subsubsection}{Teorema di Rolle}{20}{}%
+\contentsline {subsubsection}{Teorema di Lagrange}{21}{}%
+\contentsline {paragraph}{Proposizione}{21}{}%
+\contentsline {subsubsection}{Teorema di Cauchy}{22}{}%
+\contentsline {section}{\numberline {8}Taylor}{22}{}%
+\contentsline {section}{\numberline {9}Primitivazione}{24}{}%
+\contentsline {section}{\numberline {10}Equazioni differenziali}{25}{}%
+\contentsline {subsection}{\numberline {10.1}Equazioni differenziali del second'ordine}{26}{}%
