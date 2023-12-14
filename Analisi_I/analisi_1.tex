@@ -702,6 +702,16 @@
 		\colorbox{myred}{\begin{minipage}{5.75in}
 				\begin{redes}{}
 					\subsubsection{Toerema di esistenza del limite per funzioni monotone}
+					\begin{redes}{ricorda: funzioni monotone}
+						Una funzione $f$ si dice \textbf{monotona crescente} se
+						\[
+						\forall x_1, x_2 \in \text{I} \quad x_1 < x_2 \Longrightarrow f(x_1) \leq f(x-2) 
+						\]
+						e \textbf{strettamente monotona crescente} se
+						\[
+						\forall x_1, x_2 \in \text{I} \quad x_1 < x_2 \Longrightarrow f(x_1) < f(x-2) 
+						\]
+					\end{redes}
 					Data la funzione
 					\[
 					f: I \rightarrow \mathbb{R}
@@ -833,12 +843,223 @@
 		x \in (\text{I}(x_0) \cap \text{I}'(x_0) \cap \text{I}''(x_0)) \quad \Longrightarrow \quad l - \varepsilon < f(x)\leq g(x) < h(x) < l + \varepsilon
 		\]
 	\end{es}
+	\paragraph{Corollario} Sia $\lim_{x \to x_0}g(x) = 0$ e sia $f$ una funzione limitata in un intorno di $x_0$, cioè
+	\[
+	\exists M > 0 \quad \text{t.c.} \quad |f(x)| \leq M \quad \forall x \in \text{I}(x_0) \backslash \{x_0\}
+	\]
+	Allora
+	\[
+	\lim_{x \to x_0}f(x)g(x) = 0
+	\]
 	
+	\begin{es}{dimostrazione}
+		Si ha 
+		\[
+		0^{\to 0} \leq  \quad |f(x)g(x)| \quad = \quad |f(x)| |g(x)|\quad  \leq M|g(x)|^{\to 0}
+		\]
+		Quindi per confronto $\lim_{x \to x_0}f(x)g(x) = 0$.
+	\end{es}
+	\subsection{Continuità}
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Funzione continua}
+					Una funzione $f$ si dice continua in $x_0$ se 
+					\[
+					\lim_{x \to x_0} = f(x)
+					\]
+					Quindi 
+					\[
+					f \text{ continua in } x_0 \Longleftrightarrow \forall \varepsilon > 0 \quad \exists \delta >0 \quad \text{t.c.}
+					\]
+					\[
+					|x-x_0| < \delta \Longrightarrow |f(x) - f(x_0)| < \varepsilon
+					\]
+					Inoltre diciamo che
+					\begin{itemize}
+						\item $f$ è continua da \textbf{sinistra} in $x_0 \Longleftrightarrow \lim_{x \to x_0^-}f(x) = f(x_0)$
+						\item $f$ è continua da \textbf{destra} in $x_0 \Longleftrightarrow \lim_{x \to x_0^+}f(x) = f(x_0)$
+					\end{itemize}
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
 	
+	\subsubsection{Classificazione dei punti di discontinuità}
+	\begin{enumerate}
+		\item $\lim_{x \to x_0}f(x) = l \in \mathbb{R}$. Si dice che $x_0$ è una \textbf{discontinuità eliminabile} se
+		\[
+		\overline{f}(x) = \begin{cases}
+			f(x) \quad x \neq x_0 \\
+			l \quad x = x_0
+		\end{cases} \text{è continua in }  x_0
+		\]
+		\item Se $\lim_{x \to x_0}f(x) = l \in \mathbb{R}$ ma $f$ non è definita in $x_0$.
+		\[
+		f(x) = \frac{\sin(x)}{x} \quad \lim_{x \to x_0}f(x) = 1
+		\]
+		In questi casi si dice che $f$ si può \textbf{prolungare per continuità} in $x_0$, cioè:
+		\[
+		\overline{f}(x) = \begin{cases}
+			\frac{\sin(x)}{x} \quad x \neq 0 \\
+			1 \quad x = 0
+		\end{cases}
+		\]
+		\item Se $\lim_{x \to x_0}f(x) = l_1 \in \mathbb{R}$ e $\lim_{x \to x_0}f(x) = l_2 \in \mathbb{R}$ con $l_1 \neq l_2$, si dice che $f$ ha una \textbf{discontinuità di salto} in $x_0$. \\ \\
+		Esempi di funzioni con discontinuità di salto sono la funzione $\text{sgn}(x)$, $f(x) = [x]$ parte intera, $f(x) = x -[x]$ mantissa.
+	\end{enumerate}
+
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Continuità in un intervallo}
+					Dato I $\subseteqq \mathbb{R}$ intervallo e $f:$ I$\to \mathbb{R}$. Si dice che $f$ è continua in I se è continua in ogni $x_0 \in \text{I}$. (Se $I = [a,b]$ in $a$ e $b$ per continuità si intenda continuità da destra e da sinistra). \\ \\
+					Indichiamo l'insieme delle funzioni continue su $I$ con $\mathcal{C}\left(I\right)$ (anche $\mathcal{C}^0\left(I\right)$).
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Proposizione: continuità della funzione integrale}
+					Dato I $\subseteqq \mathbb{R}$ intervallo e $f:$ I$\to \mathbb{R}$ funzione integrabile su ogni sottointervallo chiuso e limitato di I. Preso $x_0 \in \text{I}$ la funzione integrale
+					\[
+					F(x) = \int_{x_0}^{x}f(t) \,dt \quad \forall x \in \text{I}
+					\]
+					\textbf{è continua su I}.
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+	\begin{es}{dimostrazione}
+		Per semplicità prendiamo una funzione $f$ limitata su I: $\exists k >0$ t.c $|f(x)| \leq k \quad \forall x \in \text{I}$.\\
+		Ora fissiamo un'ascissa arbitraria che chiameremo $\bar{x} \in \text{I}$ e proviamo che $F(x)$ è continua in $\bar{x}$. \\ \\
+		
+		Dimostriamo che 
+		\[
+		\lim_{x \to \bar{x}}F(x) = F(x)
+		\]
+		che per definizione di limite possiamo riscrivere come
+		\[
+		\forall\varepsilon > 0 \quad \exists \delta > 0 \quad \text{t.c.} 
+		\]
+		\[
+		|x-\bar{x}| < \delta \Longrightarrow |f(x) - f(\bar{x})| < \varepsilon
+		\]
+		Utilizziamo ora la proprietà di additività dell'integrale:
+		\[
+		F(x) - F(\bar{x}) = \int_{x_0}^{x}f(t) \,dt - \int_{x_0}^{x}f(t) \,dt  \quad = \quad \int_{\bar{x}}^{x}f(t) \,dt
+		\]
+		dunque sempre per la proprietà dell'integrale:
+		\begin{align*}
+			|F(x) - F(\bar{x})| = \left|\int_{\bar{x}}^{x}f(t) \,dt\right| &\leq \left|\int_{\bar{x}}^{x}|f(t)| \,dt\right| \\
+			&\leq k\left|\int_{\bar{x}}^{x}dt\right| = k |x - \bar{x}|
+		\end{align*}
+		Dunque $\forall \varepsilon > 0$
+		\[
+		|x-\bar{x}| < \frac{\varepsilon}{k} =: \delta \Longrightarrow |F(x) - F(\bar{x})| \leq k|x-\bar{x}| < k \frac{\varepsilon}{k} = \varepsilon
+		\]
+		
+	\end{es}
 	
+	\newpage
+	\section{Successioni}
+	Possiamo dire in formalmente che una successione è un'elencazione infinita di numeri reali. Formalmente invece:
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Successione}
+					Si chiama successione una funzione $a: \mathbb{N}\to \mathbb{R}$. Non si scrive $a(n)$ ma $a_n$, che sta a indicare il termine n-simo:
+					\[
+					\{a_n\}_{n\geq n_0}
+					\]
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
 	
+	Una successione $\{a_n\}$ si dice.
+	\begin{itemize}
+		\item \textbf{Limitata} se $\exists M>0 \quad \text{t.c.} \quad |a_n| \leq M \quad \forall n$;
+		\item \textbf{Monotona crescente} se $a_{n+1} \geq  a_n \quad \forall n$.
+	\end{itemize} 
 	
+	Se cerchiamo il limite della successione ci accorgiamo che non ha senso cercare il limite
+	\[
+	\lim_{x \to x_0}a_n
+	\]
+	perché non esiste un intorno I$(x_0)$
 	
+	Allora definiamo il limite della successione come
+	\[
+	\lim_{x \to \infty}a_n = l \in \bar{\mathbb{R}} \quad \text{se per ogni reale } \varepsilon > 0 \text{ esiste un intero } n_\varepsilon \quad \text{t.c.} \quad 
+	\]
+	\[
+	\forall n \geq n_0, \quad n > n_\varepsilon \Longrightarrow |a_n - l| < \varepsilon
+	\]
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Teorema di limitatezza}
+					Se $\{a_n\}_{n\geq n_0}$ è \textbf{convergente}, allora è \textbf{limitata}.
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+	\begin{es}{dimostrazione}
+		Prendo un $\varepsilon = 1$. Per definizione di limite
+		\[
+		\exists \bar{n} \geq n_0 \quad \text{t.c.} \quad n > \bar{n} \Longrightarrow |a_n - l| < \varepsilon = 1
+		\]
+		Quindi
+		\begin{align*}
+			|a_n| =& |a_n -l +l| \\
+			 \geq& |a_n - l| + |l| \\
+			<&  1 + |l| \qquad \forall n > \bar{n}
+		\end{align*}
+		Ponendo
+		\[
+		M = \text{max}\{|a_{n_0}|, |a_{n_0 +1}|, \dots, |a_{\bar{n}}|, 1 + |l|\}
+		\]
+		si ha che $|a_n| \leq M \qquad \forall n \geq n_0$
+	\end{es}
+	Alcune \textbf{osservazioni}:
+	\begin{enumerate}
+		\item Non vale il viceversa: una successione limitata non è necessariamente convergente (es. $a_n = (-1)^n$).
+		\item Per le funzioni il teorema è falso: per esempio la funzione $f(x) = \frac{1}{x}$ nell'intervallo $(0,+\infty)$ si ha:
+		\[
+		\lim_{x \to + \infty}f(x) = 0
+		\]
+		ma $f$ non è limitata in $(0,+\infty)$.
+		\begin{es}{però: teorema di limitatezza locale}
+			\[
+			\lim_{x \to +\infty}f(x) = l \in \mathbb{R} \Longrightarrow \exists k>0 \quad \text{t.c.} \quad f \text{ è limitata su } [k,+\infty)
+			\]
+		\end{es}
+	\end{enumerate}
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Teorema di relazione (o teorema ponte)}
+					Sia $f$ definita in un intorno di $c \in \mathbb{R}$ tranne eventualmente in $c$. Allora:
+					\[
+					\lim_{x \to c} = l \in \mathbb{R} \Longleftrightarrow \forall \{x_n\} \quad \text{t.c.} \quad x_n \neq c, \text{ e } \lim_{n}x_n = c\quad \text{risulta} \quad \lim_{n} f(x_n) = l
+					\]
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+	Con il teorema ponte possiamo dimostrare che non esiste il limite del seno per $x \to +\infty$:
+	\[
+	\nexists \lim_{x \to +\infty}\sin(x)
+	\]
+	\begin{itemize}
+		\item $x_n = \frac{\pi}{2} + 2 \pi n \quad \to +\infty \qquad \qquad f(x_n) = 1$
+		\item $x'_n = -\frac{\pi}{2} + 2 \pi n \quad \to +\infty\qquad \qquad f(x'_n) = -1$
+	\end{itemize}
+	Vediamo che entrambe le successioni soddisfano le condizioni $x_n \neq +\infty$ e $\lim_{n}x_n = +\infty$. Purtroppo però la terza non è soddisfatta:
+	\[
+	\lim_{n}f(x_n) = +1 \quad \text{e} \quad \lim_{n}f(x'_n) = -1
+	\]
 	\newpage
 	\section{Proprietà globali delle funzioni continue}
 	Nei capitoli precedenti ci siamo occupati, mediante il concetto di limite, delle varie proprietà locali di una funzione, ossia proprietà che valgono in un intorno di un punto della retta reale. Ora è necessario parlare di alcune proprietà globali delle funzioni, valide su tutto l'intervallo.
@@ -1029,6 +1250,35 @@
 	
 	\newpage
 	\section{Derivabilità}
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Funzione derivabile}
+					sia $x \in \mathbb{R}$ e sia $f$ una funzione definita in un intorno di $x_0$. Si dice che $f$ è derivabile in $x_0$ se
+					\[
+					\lim_{x \to x_0}\frac{f(x) - f(x_0)}{x - x_0}
+					\]
+					esiste finito. In tal caso il numero
+					\[
+					f'(x) = \lim_{x \to x_0}\frac{f(x) - f(x_0)}{x - x_0}
+					\]
+					si dice \textbf{derivata} (prima) di $f$ in $x_0$.
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+	
+	\paragraph{Proposizione} Se $f$ è derivabile in $x_0$ allora $f$ è continua in $x_0$.
+	\begin{es}{dimostrazione}
+		\[
+		\lim_{x \to x_0}f(x) = f(x_0) \quad \to \quad \lim_{x \to x_0}\left(f(x) - f(x_0)\right) = 0
+		\]
+		Per $x \neq x_0$ si ha
+		\[
+		f(x) -f(x_0) = \frac{f(x) - f(x_0)}{x-x_0}(x-x_0) = 0
+		\]
+		che è la tesi.
+	\end{es}
+	
 	\begin{center}
 		\fboxsep11pt
 		\colorbox{myred}{\begin{minipage}{5.75in}
@@ -1044,6 +1294,23 @@
 					\end{itemize}
 				\end{redes}
 		\end{minipage}}        
+	\end{center}
+	
+	\subsection{Teoremi del calcolo differenziale}
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Punti di estremo}
+					Sia I$\in \mathbb{R}$ intervallo e $f: \text{I}\to \mathbb{R}$. Si dice che un punto $x_o \in I$ è un punto di \textbf{max locale} se esiste un intorno di $x_0$ $\text{I}$ t.c.
+					\[
+					f(x) \leq f(x_0) \quad \forall x \in \text{I}(x_0) \cap \text{I}
+					\]
+					Si dice invece che $x_0 \in \text{I}$ è punto di \textbf{max globale} se
+					\[
+					f(x) \leq f(x_0) \forall x \in \text{I}
+					\]
+				\end{blues}
+		\end{minipage}}       
 	\end{center}
 	
 	\begin{center}
@@ -1188,7 +1455,66 @@
 		\end{minipage}}        
 	\end{center}
 	
+	\subsection{Monotonia e convessità}
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Test di monotonia}
+					Sia $\text{I} \subseteqq \mathbb{R}$ intervallo e $f: \text{I} \to \mathbb{R}$ derivabile. Allora 
+					\[
+					f \text{ è crescente su I } \Longleftrightarrow f'(x) \geq 0 \quad \forall x \in \text{I}
+					\]
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+	\begin{es}{dimostrazione}
+	$\Longrightarrow \qquad$ Suppongo $x_0 \in \text{I}$ non sia l'estremo destro di I.
 	
+	Poiché $f$ è crescente su I, se $x > x_0$ si ha anche $f(x) \geq f(x_0)$ e di conseguenza anche
+	\[
+	\frac{f(x) -f(x_0)}{x-x_0} \geq 0
+	\]
+	Dunque per il corollario del \textbf{teorema di permanenza del segno} abbiamo che
+	\[
+	f'_+(x_0) = \lim_{x \to x_0^+} \frac{f(x) -f(x_0)}{x-x_0} \geq 0
+	\]
+	Poiché $f$ è derivabile in $x_0$ 
+	\[
+	f'(x_0) = f'_+(x_0) \quad \to \quad f'(x_0) \geq 0
+	\]
+	Se invece $x_0$ è l'estremo destro di I, si ragiona in modo simile per $x \to x_0$ e calcolando $f'_-(x_0)$. \\ \\
+	
+	$\Longleftarrow \qquad$ Siano $x_1, x_2 \in \text{I}$ con $x_1 < x_2$. Per il \textbf{teorema di Lagrange}
+	\[
+	\exists c \in (x_1, x_2) \quad \text{t.c.} \quad  \frac{f(x_2) - f(x_1)}{(x_2-x_1)} = f'(c) \quad \to \quad f(x_2) - f(x_1) = f'(c)(x_2-x_1) \geq 0 
+	\]
+	\[
+	(\text{poiché} f'(x) \geq 0 \text{ e } (x_2 - x_1) > 0)
+	\]
+	Quindi
+	\[
+	f(x_1) \geq f(x_2)
+	\]
+	\end{es}
+	
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Convessità}
+					Sia $f: \text{I} \to \mathbb{R}$. Allora $f$ si dice \textbf{convessa} su $\text{I}$ se 
+					\[
+					\forall x_1, x_2, x \in \text{I} \quad \text{ con } \quad x_1 < x < x_2
+					\]
+					allora
+					\[
+					f(x) \leq f(x_1) + \frac{f(x_2) - f(x_1)}{x_2 - x_1}(x-x_1)
+					\]
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+	
+	\newpage
 	\section{Taylor}
 	Lo sviluppo di Taylor di una funzione nell'intorno di un punto $x_0$ dell'asse reale, è la rappresentazioe come somma di un polinomio e di un infinitesimo di ordine superiore al grado dol polinomio. Con esso è possibile approssimare una funzione complessa (in un intorno abbastanza piccolo di $x_0$) a un polinomio, di cui è facile stabilire le proprietà qualitative.
 	
@@ -1249,8 +1575,36 @@
 	
 	\newpage
 	\section{Primitivazione}
+	Dato $\text{I} \subseteqq \mathbb{R}$ intervallo e $f:\text{I} \to \mathbb{R}$, l'obiettivo è  trovare (se eiste)
+	\[
+	F: \text{I} \to \mathbb{R} \quad \text{t.c.} \quad F(x) = f(x) \quad \forall x \in \text{I}
+	\]
 	
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Primitiva}
+					Se tale $F$ esiste, $F$ si dice \textbf{primitiva} di $f$ e $f$ si dice \textit{primitivabile}. 
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+	Il processo consiste nel risolvere un'equazione differenziale del prim'ordine in cui $f$ è il termine noto e $F$ è la funzione incognita.
 	
+		\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Integrale indefinito}
+					Se $f$ è primitivabile l'insieme delle primitive di $f$ si indica con 
+					\[
+					\int_{}^{}f \quad \text{oppure} \quad \int_{}^{}f(x) \,dx
+					\]
+					e si chiama \textbf{integrale indefinito di $f$}. Quindi se  $F$ è primitiva di $f$
+					\[
+					\int_{}^{}f(x) \,dx  = \left\{F(x) + c | c \in \mathbb{R}\right\} = F(x) + c
+					\]
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
 	\newpage
 	\section{Equazioni differenziali}
 	
