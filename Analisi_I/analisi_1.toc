@@ -49,5 +49,12 @@
 \contentsline {subsubsection}{Test di monotonia}{28}{}%
 \contentsline {section}{\numberline {9}Taylor}{29}{}%
 \contentsline {section}{\numberline {10}Primitivazione}{30}{}%
-\contentsline {section}{\numberline {11}Equazioni differenziali}{31}{}%
-\contentsline {subsection}{\numberline {11.1}Equazioni differenziali del second'ordine}{32}{}%
+\contentsline {subsection}{\numberline {10.1}Media integrale}{30}{}%
+\contentsline {subsubsection}{Teorema della media integrale}{31}{}%
+\contentsline {subsection}{\numberline {10.2}Legame tra integrali di Riemann e integrali indefiniti}{31}{}%
+\contentsline {subsubsection}{Teorema fondamentale del calolo integrale}{31}{}%
+\contentsline {paragraph}{Corollario 1}{32}{}%
+\contentsline {paragraph}{Corollazio 2}{32}{}%
+\contentsline {subsubsection}{Teorema di Torricelli-Barrow}{32}{}%
+\contentsline {section}{\numberline {11}Equazioni differenziali}{34}{}%
+\contentsline {subsection}{\numberline {11.1}Equazioni differenziali del second'ordine}{35}{}%

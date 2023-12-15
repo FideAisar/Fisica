@@ -1605,6 +1605,139 @@
 				\end{blues}
 		\end{minipage}}       
 	\end{center}
+	\begin{es}{dimostrazione}
+		Se $f$ primitivabile ha $F$ come sua primitiva, allora $G$ è primitiva di $f \Longleftrightarrow G(x) = F(x) + c$ per qualche $c \in \mathbb{R}$.
+		\begin{align*}
+			G \text{ è primitiva di } f \Longleftrightarrow& G'(x) = f(x) \\
+			\Longleftrightarrow& G'(x) = F'(x) \quad \forall x \\
+			\Longleftrightarrow& G'(x) - F'(x) = 0 \quad \forall x \\
+			\Longleftrightarrow& \left(G - F\right)'(x) = 0 \quad \forall x \\
+			\Longleftrightarrow& G(x) - F(x) = c \quad \forall x 
+		\end{align*}
+	\end{es}
+	
+	Data $f: [a,b] \to \mathbb{R}$, quando questa è integrabile su $[a,b]$? Se vale almeno una delle seguenti condizioni:
+	\begin{enumerate}
+		\item $f$ è \textbf{continua} in $(a,b)$ tranne i un numero finito di punti;
+		\item $f$ è monotona su $(a,b)$.
+	\end{enumerate}
+	\textbf{Allora $f$ è integrabile su $[a,b]$}. (Si ricordi che un esempio di funzione non integrabile è la funzione di Dirichlet che è sempre discontinua (il limite non esiste mai)).
+	
+	\subsection{Media integrale}
+	Data $f: [a,b] \to \mathbb{R}$ integrabile definiamo
+	\[
+	m(f;a,b) = \frac{1}{b-a}\int_{a}^{b}f 
+	\]
+	che chiamiamo valor medio o \textbf{media integrale} di $f$ su $[a,b]$
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Teorema della media integrale}
+					Sia $f: [a,b] \to \mathbb{R}$ integrabile. Allora
+					\[
+					\text{inf}_{x \in [a,b]} f(x) \leq m(f;a,b) \leq \text{sup}_{x \in [a,b]} f(x)
+					\]					
+					Inoltre se $f$ è continua su $[a,b]$, allora esiste uno $z \in [a,b]$ t.c. $f(z) = m(f;a,b)$.
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+	
+	\subsection{Legame tra integrali di Riemann e integrali indefiniti}
+	Perché utilizziamo stessi simboli per indicare due concetti così differenti (area con segno e antiderivata)? La risposta sta nel \textbf{Teorema fondamentale del calcolo integrale}, che ci permette di "costruire primitive" mediante integrazione.
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Teorema fondamentale del calolo integrale}
+					Se $f: \text{I} \to \mathbb{R}$ è definita e continua su I, allora chiamiamo \textbf{funzione integrale} di $f$ su I ogni funzine della forma
+					\[
+					F(x) = \int_{x_0}^{x}f(t) \,dt \qquad \forall x \in \text{I}
+					\]
+					Allora $F(x)$ è derivabile in ogni punto di I e si ha
+					\[
+					F'(x) = f(x) \quad \forall x \in \text{I}
+					\]
+					\[
+					\int_{}^{}f(x) \,dx \quad = \quad \int_{x_0}^{x}f(t) \,dt + c
+					\]
+					\textbf{Nota: } $f$ continua $\Longrightarrow$ $f$ primitivabile.
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+	
+	\begin{es}{dimostrazione}
+		Preso $x \in \text{I}$, dobbiamo dimostrare che
+		\[
+		F'(x) = f(x) \quad \to \quad \lim_{h \to 0} \frac{F(x+h)-F(x)}{h} = f(x) \qquad \text{ per } h \neq 0 \text{ e t.c. } x + h \in \text{I} 
+		\]
+		\begin{align*}
+			\frac{F(x+h) - F(x)}{h} =& \frac{1}{h}\left(\int_{x_0}^{x+h}f(t) \,dt\ - \int_{x_0}^{x}f(t) \,dt\right) \\
+			=& \frac{1}{h} \left(\int_{x_0}^{x+h}f(t) \,dt\ + \int_{x}^{x_0}f(t) \,dt\right) \\
+			=& \frac{1}{h} \int_{x}^{x+h}f(t) \,dt = \begin{cases}
+				m(f;x,x+h) \quad h>0 \\
+				m(f;x+h,x) \quad x<0
+			\end{cases}
+		\end{align*}
+		Per il \textbf{teorema della media integrale} ($f$ è \textbf{continua}) esiste un punto $z_h$ compresa tra $x$ e $x+h$ tale che 
+		\[
+		\frac{1}{h}  \int_{x}^{x+h}f(y) \,dt = f(z_h)
+		\]
+		e quindi
+		\[
+		\frac{F(x+h)-F(x)}{h} = f(z_h)
+		\]
+		Poiché $z_h$ è compreso tra $x$ e $x+h$, il limite $\lim_{h \to 0}z_h = x$, e quindi, poiché $f$ è \textbf{continua}
+		\[
+		\lim_{h \to 0} \frac{F(x+h)-F(x)}{h} = f(x)	\lim_{h \to 0} f(z_h) = f(x)
+		\]
+	\end{es}
+	
+	Come abbiamo visto la condizione di \textbf{continuità} è fondamentale:
+	\[
+	f \text{ continua } \xRightarrow{\text{TFCI}} F \text{ derivabile } \xRightarrow{F' = f} F = \mathcal{C}'
+	\]
+	e quindi
+	\[
+	f \in \mathcal{C}^k \Longrightarrow F = \mathcal{C}^{k+1}
+	\]
+	
+	\paragraph{Corollario 1} Siano $f: \text{I} \to \mathbb{R}$ continua e $x_0 \in \text{I}$. Allora \textbf{l'unica primitiva} $F$ di $f \quad \text{t.c.} \quad  F(x_0) = y_0$ è data da
+	\[
+	F(x) = y_0 + \int_{x_0}^{x}f(t) \,dt \quad \forall x \in \text{I}
+	\]
+	\paragraph{Corollazio 2} Siano $f: \text{I} \to \mathbb{R}$ di classe $\mathcal{C}'$ e $x_0 \in \text{I}$. Allora
+	\[
+	f(x) = f(x_0) + \int_{x_0}^{x}f(t) \,dt \quad \forall x \in \text{I}
+	\]
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Teorema di Torricelli-Barrow}
+					Sia $f: [a,b] \to \mathbb{R}$ continua e sia $F$ una sua primitiva, allora
+					\[
+					\int_{a}^{b}f(x) \,dx = F(b) - F(a)
+					\]
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+	\begin{es}{dimostrazione}
+		Definiamo
+		\[
+		G(x) = \int_{a}^{b}f(t) \,dt \quad \forall x \in [a,b]
+		\]
+		Per il \textbf{TFCI}, $G$ è una primitiva di $f$; inoltre
+		\[
+		G(b) - G(a) = \int_{a}^{b}f(t) \,dt - \int_{a}^{a}f(t) \,dt  = \int_{a}^{b}f(t) \,dt
+		\]
+		Poiché $F$ è una primitiva di $f$, esiste $c \in \mathbb{R}$ t.c. $G(x) = F(x) + c$ e quindi
+		\[
+		F(b) - F(a) 0 \left(G(b) - c\right) - \left( G(b) - c\right) - \left( G(a) - c\right) = G(b) - G(a) = \int_{a}^{b}f(x) \,dx
+		\]
+	\end{es}
+	
 	\newpage
 	\section{Equazioni differenziali}
 	
