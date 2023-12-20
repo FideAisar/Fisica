@@ -26,7 +26,7 @@
 \usepackage{pdfpages}
 \usepackage{transparent}
 \usepackage{amssymb}
-
+%\usepackage{graphicx}
 
 
 \definecolor{myblue}{RGB}{224, 245, 255} 
@@ -451,6 +451,11 @@
 				\end{blues}
 		\end{minipage}}       
 	\end{center}
+
+	
+	\begin{center}
+		\includegraphics[scale=0.2]{figures/scala}
+	\end{center}
 	
 		\begin{center}
 		\fboxsep11pt
@@ -464,6 +469,9 @@
 					\]
 				\end{blues}
 		\end{minipage}}       
+	\end{center}
+	\begin{center}
+		\includegraphics[scale=0.15]{figures/riemann}
 	\end{center}
 	Osserviamo che se $f$ è positiva nell'intervallo il numero $\int_{I}^{}f$ rappresenta l'area del trapezoide di $f$.  \\ \\
 	
@@ -498,7 +506,7 @@
 					\mathcal{S}^+f = \left\{h \in \mathcal{S}\left(\left[a,b\right]\right) | f(x) \leq h(x) \quad \forall x \in [a,b]\right\}
 					\]
 					gli insiemi delle funzioni a scala formati dalle funzioni che \textbf{maggiorano} e \textbf{minorano} $f$.\\ \\
-					Nota: $\mathcal{S}f^- \neq \varnothing $ e $\mathcal{S}f^+ \neq \varnothing$ perché \textbf{$f$ è limitata}.
+					Nota: $\mathcal{S}f^- \neq \varnothing $ e $\mathcal{S}f^+ \neq \varnothing$ perché \textbf{$f([a,b])$ è limitata} ($\exists k > 0 \quad \text{t.c.} \quad |f(x) \leq k \quad \forall x \in [a,b]|$).
 					\[
 					\underline{\int_{a}^{b}}f \text{ = integrale inferiore } = \text{sup}\left\{\int_{a}^{b}g \quad \text{t.c.} \quad g \in \mathcal{S}^-f\right\}
 					\]
@@ -557,6 +565,10 @@
 			\[
 			\text{se } h \in \mathcal{S}^+f \text{, allora} \quad h(x) \geq 0
 			\]
+			Quindi 
+			\[
+			\underline{\int_{0}^{1}}f \leq 0 \quad \text{e} \quad \overline{\int_{0}^{1}}f \geq 1.
+			\]
 		\end{es}
 	\end{es}
 	
@@ -593,6 +605,7 @@
 					\[
 					\quad x \in I\left(x_0\right) \backslash\{x_0\} \quad \Rightarrow \quad f\left(x\right) \in I\left(l\right)
 					\]
+					\textcolor{red}{\textit{*vedere anche tutte le altre definizioni}}
 				\end{blues}
 		\end{minipage}}       
 	\end{center}
@@ -822,6 +835,9 @@
 					\]
 				\end{redes}
 		\end{minipage}}        
+	\end{center}
+	\begin{center}
+		\includegraphics[scale=0.3]{figures/confronto2}
 	\end{center}
 	\begin{es}{dimostrazione}
 		Nel caso in cui $l = \pm \infty$ basta sapere che
@@ -1181,7 +1197,7 @@
 		\fboxsep11pt
 		\colorbox{myred}{\begin{minipage}{5.75in}
 				\begin{redes}{}
-					\subsubsection{Teorema dei valori intermedi (0.9)}
+					\subsubsection{Teorema dei valori intermedi}
 					Il teorema si concentra sullo studio dell'immagine di una funzione continua definita su un intervallo  della retta reale.
 					\\ \\
 					Sia $f:\left[a,b\right] \rightarrow \mathbb{R}$ continua. Allora $f$ assume tutti i valori compresi tra $f\left(a\right)$ e $f\left(b\right)$.
@@ -1265,6 +1281,10 @@
 					si dice \textbf{derivata} (prima) di $f$ in $x_0$.
 				\end{blues}
 		\end{minipage}}       
+	\end{center}
+	
+	\begin{center}
+		\includegraphics[scale=0.4]{figures/derivata}
 	\end{center}
 	
 	\paragraph{Proposizione} Se $f$ è derivabile in $x_0$ allora $f$ è continua in $x_0$.
@@ -1371,6 +1391,9 @@
 				\end{redes}
 		\end{minipage}}        
 	\end{center}
+	\begin{center}
+		\includegraphics[scale=0.45]{figures/rolle}
+	\end{center}
 	\begin{es}{dimostrazione}
 		Per il teorema di Weierstrass sappiamo che l'immagine di una funzione in un intervallo chiuso e limitato è un intervallo chiuso e limitato:
 		\[
@@ -1403,6 +1426,9 @@
 					\end{itemize}
 				\end{redes}
 		\end{minipage}}        
+	\end{center}
+	\begin{center}
+		\includegraphics[scale=0.45]{figures/lagrange}
 	\end{center}
 	\begin{es}{dimostrazione}
 		Definiamo una funzione ausiliaria sicuramente continua su $[a,b]$ e derivabile nell'intervallo $(a,b)$ poiché differenza della funzione $f$ che ha per ipotesi tali proprietà:
@@ -1649,7 +1675,7 @@
 		\fboxsep11pt
 		\colorbox{myred}{\begin{minipage}{5.75in}
 				\begin{redes}{}
-					\subsubsection{Teorema fondamentale del calolo integrale}
+					\subsubsection{Teorema fondamentale del calcolo integrale}
 					Se $f: \text{I} \to \mathbb{R}$ è definita e continua su I, allora chiamiamo \textbf{funzione integrale} di $f$ su I ogni funzine della forma
 					\[
 					F(x) = \int_{x_0}^{x}f(t) \,dt \qquad \forall x \in \text{I}
@@ -1711,6 +1737,7 @@
 	f(x) = f(x_0) + \int_{x_0}^{x}f(t) \,dt \quad \forall x \in \text{I}
 	\]
 	
+	\subsection{Calcolo di integrali mediante primitivazione}
 	\begin{center}
 		\fboxsep11pt
 		\colorbox{myred}{\begin{minipage}{5.75in}
@@ -1737,6 +1764,10 @@
 		F(b) - F(a) 0 \left(G(b) - c\right) - \left( G(b) - c\right) - \left( G(a) - c\right) = G(b) - G(a) = \int_{a}^{b}f(x) \,dx
 		\]
 	\end{es}
+	
+	\newpage
+	\section{Integrali impropri}
+	
 	
 	\newpage
 	\section{Equazioni differenziali}

@@ -8,7 +8,7 @@
 \usepackage[skins]{tcolorbox}
 \usepackage[version=4]{mhchem}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
-\usepackage{fouriernc}
+\usepackage{fourier}
 \usepackage{xymtex}
 \usepackage{textcomp}
 \usepackage{eurosym}
@@ -28,6 +28,7 @@
 \usepackage{amssymb}
 \usepackage{mathrsfs}
 \usepackage{hyperref}
+
 
 \definecolor{myblue}{RGB}{224, 245, 255} 
 \definecolor{myred}{RGB}{234, 222, 255}
@@ -1906,34 +1907,7 @@ f\left(\overline{x}\right)\cdot \overline{y} = \overline{x}f\left(\overline{y}\r
 \end{minipage}}        
 \end{center}
 
-Dato l'endomorfismo $f: V \longrightarrow V$ con  $\left(V,\cdot\right)$ euclideo, sono equivalenti:
 
-\begin{enumerate}
-	\item $f$ autoaggiunto;
-	\item $\forall B$ ortonormale, $M^B\left(f\right)$ è simmetrica.
-	\item $\exists B$ ortonormale t.c. $M^B\left(f\right)$ simmetrica.
-\end{enumerate}
-
-\begin{es}{dimostrazione $1\Rightarrow 2$}
-Prendo $B = \{\overline{v}_{1},\dots,\overline{v}_{n}\}$ base ortonormale e due vettori $\overline{x}$ e $\overline{y} \in V$.\\
-
-Scritti come vettori colonna abbiamo $X$,$Y$,$AX$ e  $AY$ rispettivamente per  $x$,  $y$,  $f\left(x\right)$ e $f\left(y\right)$. 
-
-Possiamo riscrivere (poiché il prodotto è standard)
-\[
-f\left(\overline{x}\right)\cdot \overline{y} = \overline{x}f\left(\overline{y}\right)
-\] 
-come 
-\[
-	\leftindex^t{\left(AX\right)}Y = \leftindex^t{X}AY
-\] 
-\[
-\leftindex^t{X}\leftindex^t{A}Y = \leftindex^t{X}AY
-.\] 
-dalla quale risulta che $A = \leftindex^t{A}$.
-\end{es}
-
-\noindent
 Ora che abbiamo studiato le applicazioni lineari che hanno come matrice associata una matrice simmetrica, introduciamo un teorema fondamentale.
 
 
@@ -1941,8 +1915,12 @@ Ora che abbiamo studiato le applicazioni lineari che hanno come matrice associat
 \fboxsep11pt
 \colorbox{myred}{\begin{minipage}{5.75in}
 \begin{redes}{}
-\paragraph{Teorema: Teorema spettrale}
-Dato $\left(V,\cdot\right)$ euclideo e $f \in \text{End}\left(V\right)$, allora: $f \text{ autoaggiunto} \Longleftrightarrow \exists B \text{ ortonorm. di autovettori}$. In particolare:
+\paragraph{Teorema spettrale}
+Dato $\left(V,\cdot\right)$ euclideo e $f \in \text{End}\left(V\right)$, allora: 
+\[
+f \text{ autoaggiunto} \Longleftrightarrow \exists \mathcal{B} \text{ ortonormale di autovettori}
+\]
+In particolare:
 \[
 f \text{ autoaggiunto}  \quad \Rightarrow \quad f \text{diagonalizzabile}
 .\] 
@@ -1951,13 +1929,98 @@ f \text{ autoaggiunto}  \quad \Rightarrow \quad f \text{diagonalizzabile}
 \end{center}
 
 \begin{es}{dimostrazione}
-$\Longleftarrow$ diretta conseguenza della proposizione: se $B$ ortonormale di autovettori, $M^B\left(f\right)$ è diagonale (quindi simmetrica).
-$\Longrightarrow$ 
+$\Longleftarrow \quad$ Diretta conseguenza della proposizione: se $B$ ortonormale di autovettori, $M^B\left(f\right)$ è diagonale (quindi simmetrica). 
+
+$\Longrightarrow \quad$ Dimostriamo che esiste una base ortonormale di autovettori in tre punti:
 \begin{enumerate}
 	\item Voglio solo radici reali;
 	\item Mostro che gli autospazi sono ortogonali fra loro;
-	\item Mostro che 
+	\item Mostro che $V_{\lambda_{1}} \oplus^\perp \dots \oplus^\perp V_{\lambda_{k}} = V$.
+\end{enumerate} 
+
+$1) \quad$ \textit{$f$ autoaggiunto $\Longrightarrow$ $P_{f}(\lambda)$ ha solo radici reali.} 
+
+Il polinomio $P_{f}(\lambda)$ avrà $n$ radici complesse ($\lambda \in \mathbb{C}$). Sappiamo che ogni radice complessa viene accoppiata con il suo coniugato, per questo, faremo vedere che vale
+\[
+\lambda = \bar{\lambda} 
+\]
+Troviamo gli autovalori:
+\[
+\text{det}\left(A - \lambda I\right) = 0 
+\]
+\[
+\exists x \in \mathbb{C}^n \quad \text{t.c.} \quad AX = \lambda X
+\]
+Trovo lambda coniugato:
+\[
+\bar{AX} = \overline{\lambda X} \to A\overline{X} = \bar{\lambda} \overline{X}
+\]
+Ho trovato che $\overline{X}$ è autovettore di $A$ con autovalore $\overline{\lambda}$. Adesso mostriamo che $\lambda = \overline{\lambda}$:
+\[
+\leftindex^{t}{\bar{X}}AX = \leftindex^{t}{\bar{X}} \lambda X = \lambda \leftindex^{t}{\bar{X}}  X
+\]
+\[
+(\leftindex^{t}{\bar{X}}A)X = \leftindex^{t}{(A\bar{X})}X = \bar{\lambda} \leftindex^{t}{\bar{X}} X
+\]
+poiché siamo partiti da due espressioni uguali la loro differenza deve essere uguale a zero:
+\[
+\lambda \leftindex^{t}{\bar{X}}  X -  \bar{\lambda} \leftindex^{t}{\bar{X}} X = 0 \to (\lambda - \bar{\lambda})(\leftindex^{t}{\bar{X}} X) = 0
+\]
+poiché
+\[
+\leftindex^{t}{\bar{X}} X = (\bar{x}_{1} \dots \bar{x}_{n}) \cdot \left(\begin{array}{c}
+	x_{1} \\ \vdots \\ x_{n}
+\end{array}\right)
+= |x_{1}|^2 + \dots + |x_{n}|^2 > 0
+\]
+sappiamo che 
+\[
+(\lambda - \bar{\lambda})(\leftindex^{t}{\bar{X}} X) = 0 \Longleftrightarrow \lambda = \bar{\lambda}
+\]
+
+$2) \quad$ \textit{Gli autospazi sono ortogonali fra loro}.
+
+Prendo due vettori appartenenti a due autospazi diversi:
+\[
+\bar{x} \in V_{\lambda}, \bar{y} \in V_{\mu} \qquad \lambda \neq \mu
+\]
+\begin{align*}
+	f(\bar{x})& \cdot \bar{y} = \bar{x}\cdot f(\bar{y}) \\
+	\lambda \bar{x}& \cdot \bar{y} = \bar{x} \cdot \mu \bar{y} \\
+\end{align*}
+\[
+(\lambda - \mu)\bar{x} \cdot \bar{y} = 0 \Longleftrightarrow \bar{x} \cdot \bar{y} = 0
+\]
+\end{es}
+\begin{es}{}
+$3) \quad$ \textit{Gli autospazi sono in somma diretta-ortogonale}.
+
+Per dimostrare che la somma degli autospazi coincide con tutto $V$ è necessario mostrare $W$ insieme degli autospazi è $ = V$, e quindi che $W^\perp = \{\bar{0}\}$. Procederemo in questo ordine:
+\begin{enumerate}
+	\item Iniziamo col mostrare che $W^\perp$ è un sottospazio invariante;
+	\item Studiando la restrizione di $f$ a $W^\perp$ mostriamo che in esso non possono esserci autovettori.
 \end{enumerate}
+
+$3.1) \quad$ Se $W \leq V$ è invariante per $f$, allora lo è anche $W^\perp$. Voglio far vedere che se $\bar{x} \in W^\perp$ allora $f(\bar{x})  \in W^\perp$. Diciamo di avere un vettore $\bar{w} \in W$:
+
+\[
+f(\bar{x}) \cdot \bar{w} = \bar{x} \cdot f(\bar{w})  = 0
+\]
+quindi $f(\bar{x}) \in W^\perp$ e $W^\perp$ è sottospazio invariante. \\ \\
+
+$3.2) \quad$ Ora supponiamo che $W \neq V$ e che di conseguenza $W^\perp \neq \{\bar{0}\}$. Studiamo la restrizione di $f$ a $W^\perp$:
+\[
+f: W^\perp \to W^\perp 
+\]
+Visto che vale
+\[
+f(\bar{x}) \cdot \bar{y} =  \bar{x}  \cdot f(\bar{y})  \qquad \forall \bar{x},\bar{y} \in V
+\]
+$\forall\bar{x},\bar{y} \in W^\perp \quad$ $f|_{W^\perp}$ è \textbf{autoaggiunto} e possiamo usare le dimostrazioni precedenti. Per lo \textit{step 1} infatti $P_{f|_{W^\perp}}(\lambda)$ ha solo radici reali e quindi
+\[
+\exists \bar{x} \in W^\perp, \exists \lambda \in \mathbb{R} \quad \text{t.c.} \quad f(\bar{x}) = \lambda \bar{x}
+\]
+Questo ci dice che esistono autovettori $\bar{x} \in W^\perp$ e che quindi $W^\perp$ deve essere contenuto in $W$ insieme che contiene tutti gli autospazi, vero solo se $W^\perp = {\bar{0}}$ e quindi $W = V$.
 \end{es}
 
 
@@ -1978,6 +2041,61 @@ D = Q^{-1}AQ = \leftindex^t{Q}AQ
 \end{minipage}}        
 \end{center}
 
+Dato l'endomorfismo $f: V \longrightarrow V$ con  $\left(V,\cdot\right)$ euclideo, sono equivalenti:
+
+\begin{enumerate}
+	\item $f$ autoaggiunto;
+	\item $\forall B$ ortonormale, $M^B\left(f\right)$ è simmetrica.
+	\item $\exists B$ ortonormale t.c. $M^B\left(f\right)$ simmetrica.
+\end{enumerate}
+
+\begin{es}{dimostrazione $1\Rightarrow 2$}
+	Prendo $B = \{\overline{v}_{1},\dots,\overline{v}_{n}\}$ base ortonormale e due vettori $\overline{x}$ e $\overline{y} \in V$.\\
+	
+	Scritti come vettori colonna abbiamo $X$,$Y$,$AX$ e  $AY$ rispettivamente per  $x$,  $y$,  $f\left(x\right)$ e $f\left(y\right)$. 
+	
+	Possiamo riscrivere (poiché il prodotto è standard)
+	\[
+	f\left(\overline{x}\right)\cdot \overline{y} = \overline{x}f\left(\overline{y}\right)
+	\] 
+	come 
+	\[
+	\leftindex^t{\left(AX\right)}Y = \leftindex^t{X}AY
+	\] 
+	\[
+	\leftindex^t{X}\leftindex^t{A}Y = \leftindex^t{X}AY
+	.\] 
+	dalla quale risulta che $A = \leftindex^t{A}$.
+\end{es}
+
+
+\newpage
+\section{Forme bilineari}
+\subsection{Diagonalizzazione}
+Data la forma bilineare simmetrica $\phi : V \times V \to \mathbb{R}$, l'obiettivo è quello di definire un buon prodotto scalare in modo che  l'endomorfismo definito da
+\[
+f(\bar{x}) \cdot \bar{y} = \phi(\bar{x},\bar{y})
+\]
+sia \textbf{autoaggiunto}. Se l'endomorfismo è autoaggiunto posso utilizzare il teorema spettrale per diagonalizzarne la matrice associata (la stessa associata a $\phi$). \\ \\
+
+Prendo una base $\mathcal{B} = \{\bar{v}_{1} \dots \bar{v}_{n}\}$ e definisco due vettori nello spazio
+\[
+\bar{x} = x_{1}\bar{v}_{1}+ \dots +x_{n}\bar{v}_{n}
+\]
+\[
+\bar{y} = y_{1}\bar{v}_{1}+ \dots +y_{n}\bar{v}_{n}
+\]
+Definisco ora un prodotto scalare:
+\[
+\bar{x} \cdot \bar{y} = x_{1}y_{1} + x_{2}y_{2} + \dots + x_{n}y_{n}
+\]
+Rispetto a questo prodotto scalare la nostra \textbf{base è ortonormale}. \\ \\
+
+Definisco ora l'endomorfismo $f: V\to V$ determinato univocamente da $f(\bar{v}_{i})$. Precisiamo le componenti di $f(\bar{v}_{i})$ rispetto a ogni $\bar{v}_{j}$. Le componenti, poiché la base $\mathcal{B}$ è ortonormale rispetto al prodotto scalare sono date da
+\[
+f(\bar{v}_{i})  = \phi(\bar{v}_{i},\bar{v}_{i}) \bar{v}_{i}
+\]
+\noindent
 
 
 \end{document}

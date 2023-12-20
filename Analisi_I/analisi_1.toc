@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {3.2}Intorni}{8}{}%
 \contentsline {section}{\numberline {4}Integrali secondo Riemann}{9}{}%
 \contentsline {subsection}{\numberline {4.1}Funzioni a scala}{9}{}%
-\contentsline {subsubsection}{Lemma 1: monotonia dell'integrale di funzione a scala}{9}{}%
+\contentsline {subsubsection}{Lemma 1: monotonia dell'integrale di funzione a scala}{10}{}%
 \contentsline {subsection}{\numberline {4.2}Integrale superiore e inferiore}{10}{}%
 \contentsline {subsubsection}{Lemma 2: integrale inferiore $\leq $ integrale superiore}{10}{}%
 \contentsline {section}{\numberline {5}Limiti e continuità}{12}{}%
@@ -25,7 +25,7 @@
 \contentsline {paragraph}{Corollario}{15}{}%
 \contentsline {subsection}{\numberline {5.1}Continuità}{16}{}%
 \contentsline {subsubsection}{Classificazione dei punti di discontinuità}{16}{}%
-\contentsline {subsubsection}{Proposizione: continuità della funzione integrale}{16}{}%
+\contentsline {subsubsection}{Proposizione: continuità della funzione integrale}{17}{}%
 \contentsline {section}{\numberline {6}Successioni}{18}{}%
 \contentsline {subsubsection}{Teorema di limitatezza}{18}{}%
 \contentsline {subsubsection}{Teorema di relazione (o teorema ponte)}{19}{}%
@@ -33,28 +33,30 @@
 \contentsline {subsubsection}{Teorema di esistenza degli zeri}{20}{}%
 \contentsline {paragraph}{Corollario $7.1$}{22}{}%
 \contentsline {paragraph}{Corollario $7.2$}{22}{}%
-\contentsline {subsubsection}{Teorema dei valori intermedi (0.9)}{23}{}%
+\contentsline {subsubsection}{Teorema dei valori intermedi}{23}{}%
 \contentsline {paragraph}{Corollario $7.3$}{23}{}%
 \contentsline {subsubsection}{Teorema di Weierstrass}{24}{}%
 \contentsline {section}{\numberline {8}Derivabilità}{25}{}%
 \contentsline {paragraph}{Proposizione}{25}{}%
-\contentsline {subsubsection}{Teorema di dubbia derivabilità}{25}{}%
-\contentsline {subsection}{\numberline {8.1}Teoremi del calcolo differenziale}{25}{}%
+\contentsline {subsubsection}{Teorema di dubbia derivabilità}{26}{}%
+\contentsline {subsection}{\numberline {8.1}Teoremi del calcolo differenziale}{26}{}%
 \contentsline {subsubsection}{Teorema di Fermat}{26}{}%
-\contentsline {subsubsection}{Teorema di Rolle}{26}{}%
+\contentsline {subsubsection}{Teorema di Rolle}{27}{}%
 \contentsline {subsubsection}{Teorema di Lagrange}{27}{}%
-\contentsline {paragraph}{Proposizione}{27}{}%
-\contentsline {subsubsection}{Teorema di Cauchy}{27}{}%
-\contentsline {subsection}{\numberline {8.2}Monotonia e convessità}{28}{}%
-\contentsline {subsubsection}{Test di monotonia}{28}{}%
-\contentsline {section}{\numberline {9}Taylor}{29}{}%
-\contentsline {section}{\numberline {10}Primitivazione}{30}{}%
-\contentsline {subsection}{\numberline {10.1}Media integrale}{30}{}%
-\contentsline {subsubsection}{Teorema della media integrale}{31}{}%
-\contentsline {subsection}{\numberline {10.2}Legame tra integrali di Riemann e integrali indefiniti}{31}{}%
-\contentsline {subsubsection}{Teorema fondamentale del calolo integrale}{31}{}%
-\contentsline {paragraph}{Corollario 1}{32}{}%
-\contentsline {paragraph}{Corollazio 2}{32}{}%
-\contentsline {subsubsection}{Teorema di Torricelli-Barrow}{32}{}%
-\contentsline {section}{\numberline {11}Equazioni differenziali}{34}{}%
-\contentsline {subsection}{\numberline {11.1}Equazioni differenziali del second'ordine}{35}{}%
+\contentsline {paragraph}{Proposizione}{28}{}%
+\contentsline {subsubsection}{Teorema di Cauchy}{28}{}%
+\contentsline {subsection}{\numberline {8.2}Monotonia e convessità}{29}{}%
+\contentsline {subsubsection}{Test di monotonia}{29}{}%
+\contentsline {section}{\numberline {9}Taylor}{30}{}%
+\contentsline {section}{\numberline {10}Primitivazione}{31}{}%
+\contentsline {subsection}{\numberline {10.1}Media integrale}{31}{}%
+\contentsline {subsubsection}{Teorema della media integrale}{32}{}%
+\contentsline {subsection}{\numberline {10.2}Legame tra integrali di Riemann e integrali indefiniti}{32}{}%
+\contentsline {subsubsection}{Teorema fondamentale del calcolo integrale}{32}{}%
+\contentsline {paragraph}{Corollario 1}{33}{}%
+\contentsline {paragraph}{Corollazio 2}{33}{}%
+\contentsline {subsection}{\numberline {10.3}Calcolo di integrali mediante primitivazione}{33}{}%
+\contentsline {subsubsection}{Teorema di Torricelli-Barrow}{33}{}%
+\contentsline {section}{\numberline {11}Integrali impropri}{35}{}%
+\contentsline {section}{\numberline {12}Equazioni differenziali}{36}{}%
+\contentsline {subsection}{\numberline {12.1}Equazioni differenziali del second'ordine}{37}{}%
