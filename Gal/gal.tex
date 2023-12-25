@@ -525,7 +525,7 @@ $$
 Il determinante di una matrice è una funzione $det: \mathbb{R}^{nn} \Longrightarrow \mathbb{R}$ che verifica queste due proprietà:
 \begin{enumerate}
     \item Se $a $ è un numero reale, ossia una matrice di ordine uno quadrata, allora $det(a) = a$ .
-    \item   Se A = $\begin{bmatrix}a_{11} & a_{12}a_{21} & a_{22}\end{bmatrix}$ allora $det(A) = a_{11}a_{22} - a_{12}a_{21}$
+    \item   Se A = $\begin{bmatrix}a_{11} & a_{12}\\a_{21} & a_{22}\end{bmatrix}$ allora $det(A) = a_{11}a_{22} - a_{12}a_{21}$
 \end{enumerate}
 Dallo sviluppo del caso due notiamo che compaiono due addendi ciascuno dei quali è il prodotto di due fattori. I due fattori nei due prodotti di iniziano entrambi uno con un $1$ e uno con un $2$ per poi seguire con le \textit{permutazioni di $(1,2): (1,2),(2,1)$.} Perché il secondo prodotto ha un $-$ davanti? Il segno è dettato dalla \textit{parità} della permutazione, ovvero: per arrivare alla coppia $(1,2)$ si devono attuare degli scambi, se il numero di scambi è pari, il segno non cambia, se gli scambi sono dispari, il segno cambia.
 
@@ -989,9 +989,9 @@ Il prodotto scalare $\|a\|\|u\|\cos{\theta}$ non è altro che il prodotto della 
 \fboxsep11pt
 \colorbox{myred}{\begin{minipage}{5.75in}
 \begin{redes}{Teorema: vettore proiezione ortogonale}
-Dati due vettori $x$ e $y$ non nulli il vettore proiezione ortogonale di $y$ su $x$ è:
+Dati due vettori $u$ e $a$ non nulli il vettore proiezione ortogonale di $u$ su $a$ è:
 \[
-p = \frac{x\cdot y}{\|x\|^2}x
+p = \frac{u\cdot a}{\|a\|^2}a
 .\] 
 \end{redes}
 \end{minipage}}        
@@ -1477,10 +1477,59 @@ Scriviamo l'equazione $Ax = b$ per colonne:
 \] 
 da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazione lineare delle colonne di $A$}. Allora $b \in C\left(A\right)$, $b$ fa parte dello spazio delle colonne di $A$. 
 
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema del rango}
+				Data $f: V \to W$, con $\text{dim}V = n$, allora possiamo affermare in modo equivalente che:
+				\[
+				\text{dim}Ker(f) + \text{dim}Im(f) = \text{dim}(V)
+				\]
+				\[
+				N(A) + C(A) = n
+				\]
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema di nullità + rango}
+				Il teorema afferma che
+				\[
+				R(A) \oplus^\perp N(A) = \mathbb{R}^n
+				\]
+				ovvero che lo spazio delle righe è in somma diretta e ortogonale con il \textit{nullspace} della matrice A.
+				
+				Questo ci mostra anche:
+				\[
+				\text{dim}N(A) + \text{rk}A = n
+				\]
+				Ovvero che la dimensione nel nullspace equivale al numero di righe nulle e quindi anche al numero di parametri liberi.
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+\begin{es}{dimostrazione}
+	Sappiamo che il nullspace è l'insieme dei vettori $\bar{x}$ che soddisfano
+	\[
+	A\bar{x} = 0
+	\]
+	Se riscriviamo $A$ evidenziandone le \textbf{righe} notiamo che
+	\[
+	\left(\begin{array}{c}
+		R_{1} \\
+		\vdots \\
+		R_{r}
+	\end{array}\right)\bar{x} = \bar{0}
+	\quad \to \quad R_{j} \cdot \bar{x} = \bar{0} 
+	\]
+	Quindi $\bar{x}$ è ortogonale allo spazio delle righe (rispetto al prodotto scalare standard).
+\end{es}
+
 \subsection{Rank}
-
-
-
 
 %% %% %%
 %% %% %%  APPLICAZIONI LINEARI
@@ -2078,6 +2127,7 @@ f(\bar{x}) \cdot \bar{y} = \phi(\bar{x},\bar{y})
 \]
 sia \textbf{autoaggiunto}. Se l'endomorfismo è autoaggiunto posso utilizzare il teorema spettrale per diagonalizzarne la matrice associata (la stessa associata a $\phi$). \\ \\
 
+\noindent
 Prendo una base $\mathcal{B} = \{\bar{v}_{1} \dots \bar{v}_{n}\}$ e definisco due vettori nello spazio
 \[
 \bar{x} = x_{1}\bar{v}_{1}+ \dots +x_{n}\bar{v}_{n}
@@ -2091,9 +2141,10 @@ Definisco ora un prodotto scalare:
 \]
 Rispetto a questo prodotto scalare la nostra \textbf{base è ortonormale}. \\ \\
 
+\noindent
 Definisco ora l'endomorfismo $f: V\to V$ determinato univocamente da $f(\bar{v}_{i})$. Precisiamo le componenti di $f(\bar{v}_{i})$ rispetto a ogni $\bar{v}_{j}$. Le componenti, poiché la base $\mathcal{B}$ è ortonormale rispetto al prodotto scalare sono date da
 \[
-f(\bar{v}_{i})  = \phi(\bar{v}_{i},\bar{v}_{i}) \bar{v}_{i}
+f(\bar{v}_{i})  = \phi(\bar{v}_{1},\bar{v}_{1}) \bar{v}_{1} + \dots + \phi(\bar{v}_{1},\bar{v}_{n})\bar{v}_{n}
 \]
 \noindent
 

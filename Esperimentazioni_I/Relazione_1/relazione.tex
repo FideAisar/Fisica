@@ -1,4 +1,4 @@
-\documentclass[x11names]{article}
+\documentclass{article}
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{xcolor}
@@ -7,87 +7,129 @@
 \usepackage{array}
 \usepackage[skins]{tcolorbox}
 \usepackage[version=4]{mhchem}
-\usepackage[a4paper, total={6in, 10in}]{geometry}
-%\usepackage{fouriernc}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{fouriernc}
 \usepackage{xymtex}
 \usepackage{textcomp}
 \usepackage{eurosym}
-\usepackage{mathrsfs}
-\usepackage{float}
-\usepackage{pst-all}
-\usepackage{pst-3dplot}
-\usepackage{leftindex}
-\usepackage{verbatim}
-\usepackage{import}
-\usepackage{xifthen}
-\usepackage{pdfpages}
-\usepackage{transparent}
-\usepackage{import}
-\usepackage{pdfpages}
-\usepackage{transparent}
-\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{longtable}
 
 
-% mycolors
-\definecolor{myblue}{RGB}{224, 245, 255} %red
-\definecolor{myred}{RGB}{234, 222, 255}  %purple
-
-% box
-\newtcolorbox{es}[2][]{%
-	enhanced,colback=white,colframe=black,coltitle=black,
-	sharp corners,boxrule=0.4pt,
-	fonttitle=\itshape,
-	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
-	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-		colback=white,before upper=\strut},
-	title=#2,#1
-}
-
-% definizioni
-\newtcolorbox{blues}[2][]{%
-	enhanced,colback=myblue,colframe=black,coltitle=black,
-	sharp corners,boxrule=0.4pt,
-	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
-	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-		colback=myblue,before upper=\strut},
-	title=#2,#1
-}
-
-% teoremi
-\newtcolorbox{redes}[2][]{%
-	enhanced,colback=myred,colframe=black,coltitle=black,
-	sharp corners,boxrule=0.4pt,
-	fonttitle=\itshape,
-	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
-	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-		colback=myred,before upper=\strut},
-	title=#2,#1
-}
-
-
-%% regole
-\renewcommand*\contentsname{Indice}
-\setcounter{tocdepth}{4}
-\setcounter{secnumdepth}{2}
-\pgfplotsset{compat=1.15}
-
-
-\usetikzlibrary{arrows}
-
-
-\title{}
+\title{Relazione - pendolo di Kater}
 \author{Federico Cesari}
-\date{}
+\date{gennaio 2024}
+
 
 
 
 \begin{document}
-\input{titlepage}
-\tableofcontents
-\newpage
+	\maketitle
+	\vspace{3cm}
 	
-
+	L'esperienza di laboratorio ha lo scopo di determinare il periodo di oscillazione di un pendolo fisico in presenza di errori casuali (ed eventualmente di errori sistematici) e verificare che le misure osservate sono accurate o meno rispetto alle misure della fotocellula.
+	
+	
+	\textit{indicare la strumentazione utilizzata con relativa sensibilità}
+	
+	
+	\textit{descrivere brevemente la procedura di misura effettuata}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\newpage
+	\section{Punto 4}
+	
+	Dalle cento misure ho ricavato i valori nella prima tabella. Il più piccolo valore rilevato ($1.59s$) e il più grande ($2.31s$) decido di escluderli secondo il criterio di rigetto a $3\sigma$: so infatti che le mie misure hanno il $99.7 \%$ di probabilità di ricadere nell'intervallo $(\mu  - 3\sigma , \mu + 3\sigma)$, dove $\mu$ è la media della popolazione. Posso quindi affermare che valori osservati oltre $3 \sigma$ appartengono a un'altra popolazione e, di conseguenza, che è lecito rigettarli. \\ 
+	
+	\noindent
+	Successivamente al rigetto, con i $98$ dati rimanenti ricavo i nuovi valori riportati nella seconda tabella.
+	
+	\vspace{0.8cm}
+	\begin{minipage}[c]{0.45\textwidth}
+		\centering
+		\begin{tabular}{llrl}
+			Media                       & $\bar{x}$             & $1.95$        & $s$       \\
+			Varianza                    & $\sigma ^ 2$          & $0.0092$     & $s^2$  \\
+			Dev. std                    & $\sigma$              & $0.096$      & $s$   \\
+			Dev. std (della media)      & $\sigma_{\bar{x}}$    & $0.0096$     & $s$    \\
+			Mediana                     & $\mu_e$               & $1.95$        &  $s$      \\
+			Moda                        & $v_0$                 & $2.00$        & $s$
+		\end{tabular}
+		\captionof{table}{\textbf{100 misure}}
+	\end{minipage}
+	\begin{minipage}[c]{0.5\textwidth}
+		\centering
+		\begin{tabular}{llrl}
+			Media                       & $\bar{x}$             & $1.95$        & $s$       \\
+			Varianza                    & $\sigma ^ 2$          & $0.0068$     & $s^2$  \\
+			Dev. std                    & $\sigma$              & $0.082$      & $s$   \\
+			Dev. std (della media)      & $\sigma_{\bar{x}}$    & $0.0083$     & $s$    \\
+			Mediana                     & $\mu_e$               & $1.95$        &  $s$      \\
+			Moda                        & $v_0$                 & $2.00$        & $s$
+		\end{tabular}
+		\captionof{table}{\textbf{98 misure}}
+	\end{minipage}
+	\vspace{0.8cm}
+	
+	\noindent
+	Confrontando i valori nelle due tabelle si notano una sensibile diminuzione della varianza ($-26 \%$) e una variazione della deviazione standard e della deviazione standard della media (entrambe circa $-13 \%$). Variazioni prevedibili vista l'esclusione di valori molto distanti dalla media della popolazione. 
+	
+	\vspace{0.8cm}
+	\begin{table}[hb]
+		\centering
+		\begin{tabular}{llrl}
+			Media                       & $\bar{x}$             & $1.95$        & $s$       \\
+			Varianza                    & $\sigma ^ 2$          & $0.0067$     & $s^2$  \\
+			Dev. std                    & $\sigma$              & $0.082$      & $s$   \\
+			Dev. std (della media)      & $\sigma_{\bar{x}}$    & $0.0083$     & $s$    
+		\end{tabular}
+		\captionof{table}{\textbf{Dati accorpati}}
+	\end{table}
+	\vspace{0.5cm}
+	
+	\noindent
+	I dati accorpati producono valori pressoché identici a quelli rilevati post rigetto a $3\sigma$. \\
+	
+	
+	\noindent
+	La sensibilità dello strumento è $0.01s$, ciò significa che lo strumento non può distinguere o rilevare variazioni inferiori a tale valore. La deviazione standard da me calcolata mi dice invece che le mie misure hanno una dispersione naturale attorno al valor medio uguale a $0.008s$, quindi minore della sensibilità dello strumento. Scelgo $0.01s$ come errore sulla stima, essendo questo il più piccolo valore misurabile. \\
+	
+	
+	\noindent
+	Dopo aver escluso i dati appartenenti a un'altra popolazione e raggruppato i dati, la mia migliore stima del  periodo di oscillazione del pendolo è:
+	\[
+	1.95s \quad \pm \quad 0.01 s
+	\]
+	
+	
+	
+	
+	
+	\newpage
+	\section{Test del $\chi ^2$}
+	
+	Sappiamo che una distribuzione di Gauss centrata in $\mu = \bar{x}$ è la distribuzione limite che dovrebbe descrivere meglio l'istogramma sperimentale.
+	
+	
+	
+	\newpage
+	\section{Punto 6}
+	
+	\newpage
+	\section{Punto 7}
+	\newpage
+	\section{Punto 8}
+	
+	\newpage
+	\section{Punto 9}
+	
+	
+	
 \end{document}
-
-
-

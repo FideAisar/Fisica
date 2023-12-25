@@ -37,18 +37,20 @@
 \contentsline {subsubsection}{Metodo per trovare la matrice di cambiamento di base}{21}{section*.23}%
 \contentsline {subsection}{\numberline {4.6}Spazio delle righe, delle colonne, Nullspace}{21}{subsection.4.6}%
 \contentsline {paragraph}{C(A) e nullspace}{21}{section*.24}%
-\contentsline {subsection}{\numberline {4.7}Rank}{21}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Applicazioni Lineari}{22}{section.5}%
-\contentsline {section}{\numberline {6}Autovettori, autovalori}{23}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Automorfismi e sottospazi invarianti}{23}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Autovettori e autovalori}{23}{subsection.6.2}%
-\contentsline {paragraph}{Un altro punto di vista}{24}{section*.25}%
-\contentsline {paragraph}{Autospazi}{24}{section*.26}%
-\contentsline {paragraph}{Teorema}{25}{section*.27}%
-\contentsline {section}{\numberline {7}Diagonalizzazione}{25}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Criteri di diagonalizzabilità}{25}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{27}{subsection.7.2}%
-\contentsline {paragraph}{Teorema spettrale}{27}{section*.28}%
-\contentsline {paragraph}{Corollario}{29}{section*.29}%
-\contentsline {section}{\numberline {8}Forme bilineari}{30}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Diagonalizzazione}{30}{subsection.8.1}%
+\contentsline {subsubsection}{Teorema del rango}{21}{section*.25}%
+\contentsline {subsubsection}{Teorema di nullità + rango}{21}{section*.26}%
+\contentsline {subsection}{\numberline {4.7}Rank}{22}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Applicazioni Lineari}{23}{section.5}%
+\contentsline {section}{\numberline {6}Autovettori, autovalori}{24}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Automorfismi e sottospazi invarianti}{24}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Autovettori e autovalori}{24}{subsection.6.2}%
+\contentsline {paragraph}{Un altro punto di vista}{25}{section*.27}%
+\contentsline {paragraph}{Autospazi}{25}{section*.28}%
+\contentsline {paragraph}{Teorema}{26}{section*.29}%
+\contentsline {section}{\numberline {7}Diagonalizzazione}{26}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Criteri di diagonalizzabilità}{26}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{28}{subsection.7.2}%
+\contentsline {paragraph}{Teorema spettrale}{28}{section*.30}%
+\contentsline {paragraph}{Corollario}{30}{section*.31}%
+\contentsline {section}{\numberline {8}Forme bilineari}{31}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Diagonalizzazione}{31}{subsection.8.1}%
