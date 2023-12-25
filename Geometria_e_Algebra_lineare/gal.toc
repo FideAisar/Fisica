@@ -1,0 +1,56 @@
+\contentsline {section}{\numberline {1}Sistemi di equazioni lineari}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Sistemi omogenei}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Matrici}{5}{section.2}%
+\contentsline {paragraph}{Proposizione}{5}{section*.2}%
+\contentsline {subsection}{\numberline {2.1}Operazioni tra matrici}{5}{subsection.2.1}%
+\contentsline {subsubsection}{Prodotto come combinazione lineare}{6}{section*.3}%
+\contentsline {subsubsection}{La trasposta di una matrice}{6}{section*.4}%
+\contentsline {subsection}{\numberline {2.2}Determinante}{8}{subsection.2.2}%
+\contentsline {subsubsection}{Calcolo del determinante}{8}{section*.8}%
+\contentsline {subsubsection}{Come cambia il determinante dopo le 3 mosse?}{8}{section*.9}%
+\contentsline {paragraph}{osservazioni su matrici inverse}{9}{section*.10}%
+\contentsline {subsection}{\numberline {2.3}Teoremi di Laplace}{9}{subsection.2.3}%
+\contentsline {subsubsection}{Primo Teorema di Laplace}{10}{section*.11}%
+\contentsline {subsubsection}{Secondo Teorema di Laplace}{10}{section*.12}%
+\contentsline {subsection}{\numberline {2.4}Matrici inverse}{10}{subsection.2.4}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 1}{12}{section*.14}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 2}{12}{section*.15}%
+\contentsline {subsection}{\numberline {2.5}Teorema di Cramer}{12}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Prodotto scalare e vettoriale}{13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Proprietà del prodotto scalare}{13}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Interpretazione geometrica del prodotto scalare}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Prodotto vettoriale}{14}{subsection.3.3}%
+\contentsline {subsubsection}{Proprietà del prodotto vettoriale}{15}{section*.16}%
+\contentsline {subsubsection}{Interpretazione geometrica del prodotto vettoriale}{15}{section*.17}%
+\contentsline {subsection}{\numberline {3.4}Prodotto misto}{15}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Spazi Vettoriali}{16}{section.4}%
+\contentsline {subsubsection}{Proprietà della somma}{16}{section*.18}%
+\contentsline {subsubsection}{Proprietà del prodotto}{16}{section*.19}%
+\contentsline {subsection}{\numberline {4.1}Sottospazi vettoriali}{16}{subsection.4.1}%
+\contentsline {subsubsection}{$+$ Somma di due sottospazi}{17}{section*.20}%
+\contentsline {paragraph}{Proposizione}{17}{section*.21}%
+\contentsline {subsubsection}{$\cap $ Intersezione di due sottospazi}{18}{section*.22}%
+\contentsline {subsection}{\numberline {4.2}Combinazione lineare}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Indipendenza lineare}{19}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Basi}{20}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Cambiamento di base}{20}{subsection.4.5}%
+\contentsline {subsubsection}{Metodo per trovare la matrice di cambiamento di base}{21}{section*.23}%
+\contentsline {subsection}{\numberline {4.6}Spazio delle righe, delle colonne, Nullspace}{21}{subsection.4.6}%
+\contentsline {paragraph}{C(A) e nullspace}{21}{section*.24}%
+\contentsline {subsubsection}{Teorema del rango}{21}{section*.25}%
+\contentsline {subsubsection}{Teorema di nullità + rango}{21}{section*.26}%
+\contentsline {subsection}{\numberline {4.7}Rank}{22}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Applicazioni Lineari}{23}{section.5}%
+\contentsline {section}{\numberline {6}Autovettori, autovalori}{24}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Automorfismi e sottospazi invarianti}{24}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Autovettori e autovalori}{24}{subsection.6.2}%
+\contentsline {paragraph}{Un altro punto di vista}{25}{section*.27}%
+\contentsline {paragraph}{Autospazi}{25}{section*.28}%
+\contentsline {paragraph}{Teorema}{26}{section*.29}%
+\contentsline {section}{\numberline {7}Diagonalizzazione}{26}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Criteri di diagonalizzabilità}{26}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{28}{subsection.7.2}%
+\contentsline {paragraph}{Teorema spettrale}{28}{section*.30}%
+\contentsline {paragraph}{Corollario}{30}{section*.31}%
+\contentsline {section}{\numberline {8}Forme bilineari}{31}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Diagonalizzazione}{31}{subsection.8.1}%
