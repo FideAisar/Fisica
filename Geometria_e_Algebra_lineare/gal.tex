@@ -1520,7 +1520,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 	\]
 	ma i vettori che compaiono sono i vettori della base $\mathcal{C}$ da cui segue che 
 	\[
-	\beta_{k+1} = \dots = \beta_
+	\beta_{k+1} = \dots = \beta
 	\]
 \end{es}
 
@@ -1776,6 +1776,116 @@ Allora
 
 Quindi definire un'applicazione lineare tra due spazi vettoriali equivale a \textit{conoscere le immagini degli elementi di una base del dominio}.
 
+\subsection{Iniettività, suriettività}
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema: Suriettivià}
+				Data l'applicazione lineare $f: V \to W$, $f$ si dice suriettiva se 
+				\[
+				\text{im}f = W
+				\]
+				o se 
+				\[
+				\text{rank}(A) = \text{dim}W
+				\]
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+
+\noindent
+Una funzione è suriettiva se il sottospazio immagine corrisponde con il codominio, per questo non può esistere un'isola, no dai, non può esistere una funzione suriettiva del tipo $f:\mathbb{R}^2 \to \mathbb{R}^3$ (si ha che $\text{Im}f$ ha dimensione massima 2, quindi non potrà mai generare tutto $\mathbb{R}^3$).
+
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema: Iniettività}
+				Data l'applicazione lineare $f: V \to W$, $f$ si dice suriettiva \textit{se l'immagine di ogni insieme libero di $V$ è un insieme libero di $W$}. \\
+				
+				Oppure se 
+				\[
+				\text{ker}f = \{\bar{0}_{V}\}
+				\]
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+
+\noindent
+Mandando insiemi liberi in insiemi liberi, l'unico vettore che può essere mappato in $0$ è solo $\{\bar{0}\}$. 
+
+\subsubsection{Isomorfismo e automorfismo}
+Possiamo riassumere i precedenti teoremi nel caso di dimensioni uguali in partenza e arrivo dicendo: 
+
+\[
+\text{con dim}V = \text{ dim}W \qquad f \text{ iniettiva se e solo se } f \text{ suriettiva}.
+\]
+e quindi
+
+\begin{enumerate}
+	\item $f$ è un \textbf{isomorfismo} $\Longleftrightarrow$ $\text{ker}f = \{\bar{0}_{V}\}$
+	\item $f$ è un \textbf{isomorfismo} $\Longleftrightarrow$ $\text{Im}f = W$
+\end{enumerate}
+
+Se invece prendiamo un endomorfismo $f: V \to V$
+\begin{enumerate}
+	\item $f$ è un \textbf{automorfismo} $\Longleftrightarrow$ $\text{ker}f = \{\bar{0}_{V}\}$
+	\item $f$ è un \textbf{automorfismo} $\Longleftrightarrow$ $\text{Im}f = V$
+\end{enumerate}
+
+\subsection{Controimmagine}
+Teorema fondamentale per comprendere meglio alcuni concetti legati al kernel:
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: controimmagine}
+				Sia $f:V\to W$ e sia $\mathcal{K}$ sottospazio vettoriale di $W$, allora
+				\[
+				f^{-1}(\mathcal{K}) = \left\{\bar{x} \in V : f(x) \in \mathcal{K}\right\}
+				\]
+			\end{blues}
+	\end{minipage}}        
+\end{center}
+
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema: $f^{-1}$ è sottospazio}
+				La controimmagine $f^{-1}(\mathcal{K})$ di un sottospazio vettoriale $\mathcal{K}$ di $W$ è un sottospazio vettoriale di $V$.
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+\begin{es}{dimostrazione}
+	Dalla definizione di sottospazio vettoriale bisogna dimostrare che \textit{per ogni} $\bar{x}_{1},\bar{x}_{2} \in f^{-1}(\mathcal{K})$ e per ogni $\lambda, \mu \in \mathbb{R}$ si ha:
+	\[
+	\lambda \bar{x}_{1} + \mu \bar{x}_{2} \in f^{-1}(\mathcal{K})
+	\]
+	Quindi dobbiamo dimostrare che 
+	\[
+	f\left(\lambda\bar{x}_{1} + \mu \bar{x}_{2}\right) \in \mathcal{K}
+	\]
+	Per linearità segue
+	\[
+	f\left(\bar{x}_{1} + \mu \bar{x}_{2}\right) = \lambda f\left(\bar{x}_{1}\right) + \mu f\left(\bar{x}_{2}\right)
+	\]
+	Poiché $\mathcal{K}$ è sottospazio vettoriale l'ultima uguaglianza vale ed è contenuta in esso; allora abbiamo dimostrato la tesi.
+\end{es}
+
+\subsubsection{Nucleo}
+	\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: Nucleo}
+				Chiamiamo nucleo di un'applicazione lineare $f:V\to W$ il sottospazio vettoriale di $V$ controimmagine del sottospazio vettoriale $\{\bar{0}_{W}\}$ e si indica con:
+				\[
+				\text{ker}f = \left\{\bar{x} \in V | f(x) = \bar{0}_{W}\right\}
+				\]
+			\end{blues}
+	\end{minipage}}       
+\end{center}
+Il fatto che il kernel sia un sottospazio deriva proprio dal teorema precedente.
 
 %% %% %%
 %% %% %%  AUTOVETTORI AUTOVALORI
@@ -2277,7 +2387,7 @@ Dato l'endomorfismo $f: V \longrightarrow V$ con  $\left(V,\cdot\right)$ euclide
 
 \newpage
 \section{Forme bilineari}
-\subsection{Diagonalizzazione}
+\subsection{Teorema di esistenza di una forma canonica}
 Data la forma bilineare simmetrica $\phi : V \times V \to \mathbb{R}$, l'obiettivo è quello di definire un buon prodotto scalare in modo che  l'endomorfismo definito da
 \[
 f(\bar{x}) \cdot \bar{y} = \phi(\bar{x},\bar{y})
@@ -2298,14 +2408,31 @@ Definisco ora un prodotto scalare:
 \]
 Rispetto a questo prodotto scalare la nostra \textbf{base è ortonormale}. \\ \\
 
+
 \noindent
-Definisco ora l'endomorfismo $f: V\to V$ determinato univocamente da $f(\bar{v}_{i})$. Precisiamo le componenti di $f(\bar{v}_{i})$ rispetto a ogni $\bar{v}_{j}$. Le componenti, poiché la base $\mathcal{B}$ è ortonormale rispetto al prodotto scalare sono date da
+Definisco ora l'endomorfismo $f:V\to V$ determinato univocamente da $f(\bar{v}_{i})$. Trovo le componenti di $f(\bar{v}_{i})$  facendo $f(\bar{v}_{i}) \cdot \bar{v}_{j}$ che abbiamo detto essere uguale a $\phi (\bar{v}_{i}, \bar{v}_{j})$. Si ha quindi:
 \[
-f(\bar{v}_{i})  = \phi(\bar{v}_{1},\bar{v}_{1}) \bar{v}_{1} + \dots + \phi(\bar{v}_{1},\bar{v}_{n})\bar{v}_{n}
+f(\bar{v}_{i})\cdot \bar{v}_{j} = \phi (\bar{v}_{i},\bar{v}_{j}) = \leftindex^{t}{X}AY
 \]
-\noindent
+Le componenti le esplicitiamo come:
+\[
+f(\bar{v}_{1})  = \phi(\bar{v}_{1},\bar{v}_{1}) \bar{v}_{1} + \dots + \phi(\bar{v}_{1},\bar{v}_{n})\bar{v}_{n}
+\]
+\[
+f(\bar{v}_{2})  = \phi(\bar{v}_{2},\bar{v}_{1}) \bar{v}_{1} + \dots + \phi(\bar{v}_{2},\bar{v}_{n})\bar{v}_{n}
+\]
+\[
+\vdots
+\]
 
-
+Abbiamo quindi specificato $f$ in modo unico e vale
+\[
+f(\bar{x})\cdot \bar{y} = \phi(\bar{x},\bar{y}) \quad \forall \bar{x},\bar{y} 
+\]
+con
+\[
+M^\mathcal{B}(f) = \leftindex^{t}{A} = A \quad \Longrightarrow \quad f \text{ autoaggiunto} \quad \Longrightarrow \quad \exists \mathcal{B}' \text{ ortonormale di autovettori}
+\]
 \end{document}
 
 

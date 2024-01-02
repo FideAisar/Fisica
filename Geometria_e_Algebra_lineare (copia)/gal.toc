@@ -1,0 +1,72 @@
+\contentsline {section}{\numberline {1}Sistemi di equazioni lineari}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Sistemi omogenei}{4}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Matrici}{6}{section.2}%
+\contentsline {paragraph}{Proposizione}{6}{section*.2}%
+\contentsline {subsection}{\numberline {2.1}Operazioni tra matrici}{6}{subsection.2.1}%
+\contentsline {subsubsection}{Prodotto come combinazione lineare}{7}{section*.3}%
+\contentsline {subsubsection}{La trasposta di una matrice}{7}{section*.4}%
+\contentsline {subsection}{\numberline {2.2}Determinante}{9}{subsection.2.2}%
+\contentsline {subsubsection}{Calcolo del determinante}{9}{section*.8}%
+\contentsline {subsubsection}{Come cambia il determinante dopo le 3 mosse?}{9}{section*.9}%
+\contentsline {paragraph}{osservazioni su matrici inverse}{10}{section*.10}%
+\contentsline {subsection}{\numberline {2.3}Teoremi di Laplace}{10}{subsection.2.3}%
+\contentsline {subsubsection}{Primo Teorema di Laplace}{11}{section*.11}%
+\contentsline {subsubsection}{Secondo Teorema di Laplace}{11}{section*.12}%
+\contentsline {subsection}{\numberline {2.4}Matrici inverse}{11}{subsection.2.4}%
+\contentsline {subsubsection}{Teorema: matrice inversa}{12}{section*.14}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 1}{12}{section*.15}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 2}{12}{section*.16}%
+\contentsline {subsection}{\numberline {2.5}Teorema di Cramer}{13}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Prodotto scalare e vettoriale}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Proprietà del prodotto scalare}{14}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Interpretazione geometrica del prodotto scalare}{15}{subsection.3.2}%
+\contentsline {subsubsection}{Teorema: vettore proiezione ortogonale}{15}{section*.17}%
+\contentsline {subsubsection}{Teorema di Pitagora generalizzato}{15}{section*.18}%
+\contentsline {subsection}{\numberline {3.3}Prodotto vettoriale}{15}{subsection.3.3}%
+\contentsline {subsubsection}{Proprietà del prodotto vettoriale}{16}{section*.19}%
+\contentsline {subsubsection}{Interpretazione geometrica del prodotto vettoriale}{16}{section*.20}%
+\contentsline {subsection}{\numberline {3.4}Prodotto misto}{16}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Spazi Vettoriali}{17}{section.4}%
+\contentsline {subsubsection}{Proprietà della somma}{17}{section*.21}%
+\contentsline {subsubsection}{Proprietà del prodotto}{17}{section*.22}%
+\contentsline {subsection}{\numberline {4.1}Sottospazi vettoriali}{17}{subsection.4.1}%
+\contentsline {subsubsection}{$+$ Somma di due sottospazi}{18}{section*.23}%
+\contentsline {paragraph}{Proposizione}{18}{section*.24}%
+\contentsline {subsubsection}{$\cap $ Intersezione di due sottospazi}{19}{section*.25}%
+\contentsline {paragraph}{Teorema: l'intersezione è sottospazio}{19}{section*.26}%
+\contentsline {subsection}{\numberline {4.2}Combinazione lineare}{19}{subsection.4.2}%
+\contentsline {subsubsection}{Teorema: somma più piccolo sottospazio}{19}{section*.27}%
+\contentsline {subsection}{\numberline {4.3}Indipendenza lineare}{20}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Basi}{20}{subsection.4.4}%
+\contentsline {subsubsection}{Teorema: unicità di scrittura}{20}{section*.28}%
+\contentsline {subsubsection}{Lemma di Steinitz}{21}{section*.29}%
+\contentsline {subsubsection}{Formula di Grassman}{21}{section*.30}%
+\contentsline {subsection}{\numberline {4.5}Cambiamento di base}{22}{subsection.4.5}%
+\contentsline {subsubsection}{Metodo per trovare la matrice di cambiamento di base}{23}{section*.31}%
+\contentsline {subsection}{\numberline {4.6}Spazio delle righe, delle colonne, Nullspace}{23}{subsection.4.6}%
+\contentsline {paragraph}{C(A) e nullspace}{23}{section*.32}%
+\contentsline {subsubsection}{Teorema del rango}{24}{section*.33}%
+\contentsline {subsubsection}{Teorema di nullità + rango}{24}{section*.34}%
+\contentsline {subsection}{\numberline {4.7}Rank}{24}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Applicazioni Lineari}{25}{section.5}%
+\contentsline {subsubsection}{Teorema fondamentale delle applicazioni lineari}{25}{section*.35}%
+\contentsline {subsubsection}{Teorema: Suriettivià}{26}{section*.36}%
+\contentsline {subsubsection}{Teorema: Iniettività}{26}{section*.37}%
+\contentsline {subsubsection}{Isomorfismo e automorfismo}{26}{section*.38}%
+\contentsline {subsection}{\numberline {5.1}Controimmagine}{26}{subsection.5.1}%
+\contentsline {subsubsection}{Teorema: $f^{-1}$ è sottospazio}{26}{section*.39}%
+\contentsline {subsubsection}{Nucleo}{27}{section*.40}%
+\contentsline {section}{\numberline {6}Autovettori, autovalori}{28}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Automorfismi e sottospazi invarianti}{28}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Autovettori e autovalori}{28}{subsection.6.2}%
+\contentsline {paragraph}{Un altro punto di vista}{29}{section*.41}%
+\contentsline {paragraph}{Autospazi}{29}{section*.42}%
+\contentsline {paragraph}{Teorema}{30}{section*.43}%
+\contentsline {section}{\numberline {7}Diagonalizzazione}{30}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Criteri di diagonalizzabilità}{30}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{32}{subsection.7.2}%
+\contentsline {subsubsection}{Teorema spettrale}{32}{section*.44}%
+\contentsline {paragraph}{Corollario}{34}{section*.45}%
+\contentsline {section}{\numberline {8}Forme bilineari}{35}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Matrice associata alla FBS}{35}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Teorema di esistenza di una forma canonica}{35}{subsection.8.2}%

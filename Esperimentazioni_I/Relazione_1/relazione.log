@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  27 DEC 2023 20:47
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  29 DEC 2023 22:50
  restricted system commands enabled.
 **relazione.tex
 (./relazione.tex
@@ -739,9 +739,6 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen286
 \Gm@dimlist=\toks46
 )
-(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fouriernc.sty
-Package: fouriernc 2005/12/20 1.0 fouriernc package
-
 (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fourier.sty
 Package: fourier 2022/02/05 2.3 fourier-GUTenberg package
 
@@ -864,53 +861,6 @@ LaTeX Font Info:    Redeclaring math accent \hat on input line 267.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 268.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
 \symUfutm=\mathgroup5
-)
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 16.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  FML/futmi/m/it --> FML/fncmi/m/it on input line 16.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/futmi/b/it --> FML/fncmi/m/it on input line 16.
-LaTeX Font Info:    Redeclaring symbol font `otherletters' on input line 17.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `normal'
-(Font)                  FML/futm/m/it --> FML/fncm/m/it on input line 17.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/futm/b/it --> FML/fncm/m/it on input line 17.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/fncmi/m/it --> FML/fncmi/b/it on input line 18.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/fncm/m/it --> FML/fncm/b/it on input line 19.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 32.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 32.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/b/n --> T1/fnc/m/n on input line 32.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/fnc/m/n --> T1/fnc/b/n on input line 33.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 34.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
 )
 (/opt/texlive/2023/texmf-dist/tex/latex/xymtex/base/xymtex.sty
 Package `xymtex' (ver5.01) <March 10, 2013> [SF]
@@ -1068,31 +1018,31 @@ LaTeX Info: Redefining \mathversion on input line 892.
 LaTeX Font Info:    Encoding `FML' has changed to `OT1' for symbol font
 (Font)              `letters' in the math version `chem' on input line 965.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `chem'
-(Font)                  FML/fncmi/m/it --> OT1/cmr/m/n on input line 965.
+(Font)                  FML/futmi/m/it --> OT1/cmr/m/n on input line 965.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
 (Font)              `operators' in the math version `chem' on input line 965.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `chem'
-(Font)                  T1/fnc/m/n --> OT1/cmr/m/n on input line 965.
+(Font)                  T1/futs/m/n --> OT1/cmr/m/n on input line 965.
 LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
 (Font)              `symbols' in the math version `chem' on input line 965.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `chem'
-(Font)                  FMS/fncm/m/n --> OMS/cmsy/m/n on input line 965.
+(Font)                  FMS/futm/m/n --> OMS/cmsy/m/n on input line 965.
 \c@mv@boldchem=\count358
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
 (Font)              `operators' in the math version `boldchem' on input line 96
 5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `boldchem'
-(Font)                  T1/fnc/m/n --> OT1/cmr/bx/n on input line 965.
+(Font)                  T1/futs/m/n --> OT1/cmr/bx/n on input line 965.
 LaTeX Font Info:    Encoding `FML' has changed to `OT1' for symbol font
 (Font)              `letters' in the math version `boldchem' on input line 965.
 
 LaTeX Font Info:    Overwriting symbol font `letters' in version `boldchem'
-(Font)                  FML/fncmi/m/it --> OT1/cmr/b/n on input line 965.
+(Font)                  FML/futmi/m/it --> OT1/cmr/b/n on input line 965.
 LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
 (Font)              `symbols' in the math version `boldchem' on input line 965.
 
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldchem'
-(Font)                  FMS/fncm/m/n --> OMS/cmsy/b/n on input line 965.
+(Font)                  FMS/futm/m/n --> OMS/cmsy/b/n on input line 965.
 \TestCount=\count359
 (/opt/texlive/2023/texmf-dist/tex/latex/xymtex/chemist/assurechemist.sty
 Part of XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
@@ -1139,77 +1089,76 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \c@LT@chunks=\count366
 \LT@p@ftn=\toks47
 )
-LaTeX Font Info:    Trying to load font information for T1+fnc on input line 26
-.
-
-(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/t1fnc.fd
-File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
-)
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 26.
- (./relazione.aux)
+(/opt/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count367
+\float@exts=\toks48
+\float@box=\box85
+\@float@everytoks=\toks49
+\@floatcapt=\box86
+) (./relazione.aux)
 \openout1 = relazione.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-6.
+8.
 
 (/opt/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 26.
-LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
- 26.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 28.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 
+28.
 
-(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
-File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
+(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmlfutm.fd
+File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 26.
-LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 
-26.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
+28.
 
-(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
-File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
+(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmsfutm.fd
+File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 28.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-26.
+28.
 
 (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    ... okay on input line 28.
 
 (/opt/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count367
+\scratchcounter=\count368
 \scratchdimen=\dimen317
-\scratchbox=\box85
-\nofMPsegments=\count368
-\nofMParguments=\count369
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count370
+\scratchbox=\box87
+\nofMPsegments=\count369
+\nofMParguments=\count370
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count371
 \MPscratchDim=\dimen318
-\MPnumerator=\count371
-\makeMPintoPDFobject=\count372
-\everyMPtoPDFconversion=\toks49
+\MPnumerator=\count372
+\makeMPintoPDFobject=\count373
+\everyMPtoPDFconversion=\toks51
 ) (/opt/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1223,10 +1172,10 @@ e
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 26.
+ on input line 28.
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 26.
+Package chemgreek Info: Activating mapping `fourier' on line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1237,14 +1186,14 @@ Package chemgreek Info: Activating mapping `fourier' on line 26.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
-* v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
+* v-part:(T,H,B)=(77.84674pt, 650.43pt, 116.77011pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=433.62pt
-* \textheight=578.15999pt
+* \textheight=650.43pt
 * \oddsidemargin=9.67395pt
 * \evensidemargin=9.67395pt
-* \topmargin=-2.51526pt
+* \topmargin=-31.42325pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1263,91 +1212,89 @@ Package chemgreek Info: Activating mapping `fourier' on line 26.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
 (/opt/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 16.07027pt on input line 27.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 27.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 27.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 27.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 27.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 27.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 27.
-LaTeX Font Info:    Trying to load font information for FML+fncm on input line 
-27.
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line
+ 29.
 
-(/opt/texlive/2023/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
-File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
+(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 27.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 27.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 27.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.06795pt on input line 36.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 36.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 36.
+(Font)              scaled to size 11.03998pt on input line 29.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 36.
+(Font)              scaled to size 8.27998pt on input line 29.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 36.
+(Font)              scaled to size 6.43999pt on input line 29.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 36.
+(Font)              scaled to size 11.03998pt on input line 29.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 36.
+(Font)              scaled to size 8.27998pt on input line 29.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 36.
-LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 9.29993pt on input line 37.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 9.29993pt on input line 43.
+(Font)              scaled to size 6.43999pt on input line 29.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 38.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 38.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 38.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 38.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 38.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 38.
  [1
 
 {/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 13.39188pt on input line 58.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 58.
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 [2]
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.43994pt on input line 127.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 127.
+(Font)              scaled to size 13.24796pt on input line 129.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 127.
+(Font)              scaled to size 7.35999pt on input line 129.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 127.
+(Font)              scaled to size 13.24796pt on input line 129.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 127.
- [3] [4] [5] [6] [7] (./relazione.aux)
+(Font)              scaled to size 7.35999pt on input line 129.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+
+ []
+
+
+Overfull \hbox (5.73653pt too wide) in paragraph at lines 257--258
+[][] 
+ []
+
+
+Overfull \hbox (5.73653pt too wide) in paragraph at lines 287--288
+[][] 
+ []
+
+[4] [5] [6] [7] (./relazione.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1355,25 +1302,25 @@ L3 programming layer <2023-08-29>
 )
 
 Here is how much of LuaTeX's memory you used:
- 35056 strings out of 477259
+ 35141 strings out of 477259
  100000,1977958 words of node,token memory allocated
- 530 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 59 glue_spec,
- 8 attribute_list, 2 write nodes
-   avail lists: 2:1666,3:933,4:36,5:170,6:34,7:5298,8:11,9:448,10:7,11:304
- 55266 multiletter control sequences out of 65536+600000
- 146 fonts using 9338327 bytes
+ 547 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 60 glue_spec
+, 11 attribute_list, 2 write nodes
+   avail lists: 2:3856,3:1887,4:56,5:397,6:34,7:5412,8:18,9:742,10:5,11:304
+ 55355 multiletter control sequences out of 65536+600000
+ 130 fonts using 7901319 bytes
  102i,17n,101p,723b,2456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}</opt/texlive/2023/tex
-mf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dis
-t/fonts/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/
-type1/urw/ncntrsbk/uncb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncnt
-rsbk/uncr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.p
-fb>
-Output written on relazione.pdf (7 pages, 50798 bytes).
+mf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist
+/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts
+/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/a
+dobe/utopia/putb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/pu
+tr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on relazione.pdf (7 pages, 76158 bytes).
 
-PDF statistics: 50 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+PDF statistics: 54 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

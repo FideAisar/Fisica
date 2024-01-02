@@ -7,20 +7,22 @@
 \usepackage{array}
 \usepackage[skins]{tcolorbox}
 \usepackage[version=4]{mhchem}
-\usepackage[a4paper, total={6in, 8in}]{geometry}
-\usepackage{fouriernc}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{fourier}
 \usepackage{xymtex}
 \usepackage{textcomp}
 \usepackage{eurosym}
 \usepackage{caption}
 \usepackage{longtable}
+\usepackage{float}
+
 
 
 \title{Relazione - pendolo di Kater}
 \author{Federico Cesari}
 \date{gennaio 2024}
 
-
+\pagenumbering{gobble}
 
 
 \begin{document}
@@ -30,7 +32,7 @@
 	L'esperienza di laboratorio ha lo scopo di determinare il periodo di oscillazione di un pendolo fisico in presenza di errori casuali (ed eventualmente di errori sistematici) e verificare che le misure osservate sono accurate o meno rispetto alle misure della fotocellula.
 	
 	\vspace{0.5cm}
-	\begin{table}[hb]
+	\begin{table}[H]
 		\centering
 		\renewcommand{\arraystretch}{1.5}
 		\begin{tabular}{lr}
@@ -93,7 +95,7 @@
 	Confrontando i valori nelle due tabelle si notano una sensibile diminuzione della varianza ($-26 \%$) e una variazione della deviazione standard e della deviazione standard della media (entrambe circa $-13 \%$). Variazioni prevedibili vista l'esclusione di valori molto distanti dalla media della popolazione. 
 	
 	\vspace{0.8cm}
-	\begin{table}[hb]
+	\begin{table}[H]
 		\centering
 		\begin{tabular}{llrl}
 			Media                       & $\bar{x}$             & $1.95$        & $s$       \\
@@ -125,7 +127,10 @@
 	
 	\newpage
 	\section{Test del $\chi ^2$}
-	E' ragionevole pensare che le nostre misure siano governate da una distribuzione limite di tipo gaussiano centrata nel valore corrispendente alla mia migliore stima $\bar{x}$. Ci aspettiamo infatti che le misure siano soggette a errori sistematici
+	Poiché mi aspetto che le mie misure fluttuino attorno al mio valor medio e che siano soggette a soli errori casuali, è ragionevole pensare che le nostre misure siano governate da una distribuzione limite di tipo gaussiano centrata nel valore corrispondente alla mia migliore stima $\bar{x}$. (Eventuali errori sistematici non comprometterebbero la mia assunzione, la curva sarebbe solo traslata lungo l'asse orizzontale). \\ 
+	
+	\noindent
+	Il test del $\chi ^2$ ha lo di verificare se la nostra distribuzione è consistente con l'ipotesi che le misure siano governate da una certa distribuzione limite.
 	
 	\vspace{0.6cm}
 	\begin{center}
@@ -190,9 +195,122 @@
 		\end{axis}
 	\end{tikzpicture}
 	\end{center}
+	\vspace{0.2cm}
 	
+	\paragraph{Ipotesi del test} La distribuzione di Gauss si adatta alla distribuzione delle mie misure.
+	\vspace{1.2cm}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{lr}
+			Livello di significatività 		& $ \quad 5\%$  \\
+			Valore di $\chi ^2$             & $\quad 6.39$       \\
+			Numero di gradi di libertà      & $\quad (7-2-1) = 4$         \\   
+			Valore di $\chi ^2$ critico     & $\quad 9.48$
+		\end{tabular}
+		\captionof{table}{\textbf{Dati accorpati}}
+	\end{table}
+	 
 	\newpage
-	\section{Punto 6}
+	\section{Test di Gauss}
+	Per verificare che il valor medio da me calcolato non si discosti significativamente dal valore misurato dalla fotocellula si utilizzerà il test Z, o test di Gauss. La mia stima del periodo del pendolo è $\bar{x} = 1.95s \pm 0.01 s$; il periodo calcolato dalla fotocellula è $ \mu = 1.957 \pm 0.001$. 
+	
+	Per prima cosa trovo quanto dista la mia migliore stima del periodo del pendolo dal valore misurato dalla fotocellula in unità della deviazione standard e lo assegno alla variabile $|z_{\text{oss}}|$:
+	\[
+	|z_{\text{oss}}| = \frac{\bar{x} - \mu}{\sigma}
+	\]
+	Mi chiedo quindi quale sia la probabilità di ottenere una discrepanza maggiore del mio $|z_{\text{oss}}|$, ovvero mi chiedo quale sia la probabilità di ricadere nelle code della curva.
+	
+	\noindent
+	Per fare ciò cambiare variabile nella funzione così da ottenere una curva centrata in zero. \\
+	
+	\noindent
+	Definisco una variabile $z = \frac{x-\mu}{\sigma}$:
+	\[
+	\frac{1}{\sqrt{2\pi}\sigma} \int_{-t}^{t}e^{-\frac{-z^2}{2}} \,dz
+	\]
+	
+	Questa nuova espressione della curva gaussiana nella variabile standardizzata $z$ è centrata in $0$ ($\mu_z =0$) e ha deviazione standard = 1 ($\sigma_{z} = 1$).
+
+\vspace{0.5cm}
+\begin{center}
+\begin{minipage}[l]{0.45\textwidth}
+	\begin{tikzpicture}
+		\begin{axis}[
+			axis lines = middle,
+			xlabel = \( x \),
+			ylabel = \( f(x) \),
+			ymin = 0,
+			ymax = 1.2,
+			xmin = -1,
+			xmax = 5,
+			xtick = {-1,0,1,2,3,4,5},
+			xticklabels = { , , \(-\sigma\),,\(\sigma\), ,},
+			yticklabel=\empty,
+			domain = -1:5,
+			samples = 100,
+			smooth,
+			every axis plot post/.append style={mark=none}
+			]
+			
+			\addplot[blue, thick] {exp(-(x-2)^2)};
+		\end{axis}
+	\end{tikzpicture}	
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[r]{0.45\textwidth}
+	\begin{tikzpicture}
+		\begin{axis}[
+			axis lines = middle,
+			xlabel = \( z \),
+			ylabel = \( f(z) \),
+			ymin = 0,
+			ymax = 1.2,
+			xmin = -3,
+			xmax = 3,
+			xtick = {-3,-2,-1,0,1,2,3},
+			xticklabels = { , , \(-\sigma\), 0 ,\(\sigma\), ,},
+			yticklabel=\empty,
+			domain = -3:3,
+			samples = 100,
+			smooth,
+			every axis plot post/.append style={mark=none}
+			]
+			
+			\addplot[blue, thick] {exp(-x^2)};
+			\addplot[fill=blue!20, domain=-3:-1.5] {exp(-x^2)} \closedcycle;
+			\addplot[fill=blue!20, domain=1.5:3] {exp(-x^2)} \closedcycle;
+			
+			\node[] at (axis cs: -1.7, 0.2) {\( -z_{\text{oss}} \)};
+			\node[] at (axis cs: 1.6, 0.2) {\( z_{\text{oss}} \)};
+			
+		\end{axis}
+	\end{tikzpicture}	
+\end{minipage}
+\end{center}
+	
+	
+	\paragraph{Ipotesi nulla $H_{0}$} La media della popolazione delle mie misure è uguale al valore misurato dalla fotocellula:
+	\[
+	\mu = 1.957s \pm 0.001 s
+	\]
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{lr}
+			Livello di significatività $\alpha$		& $ \quad 5\%$  \\
+			Valore di $z$ critico     & $\quad 1.96$ \\
+			Valore di $|z_{\text{oss}}|$      & $\quad 0.88$ \\
+			p-value     & $\quad 0.38$
+		\end{tabular}
+		\captionof{table}{\textbf{Dati accorpati}}
+	\end{table}
+
+	
+	
+
+	\paragraph{Conclusione}  \colorbox{green}{\textbf{Accetto}} l'ipotesi nulla $H_{0}$ e concludo affermando che la mia stima è compatibile con il valore vero con un livello di significatività del $5\%$.
+	
+	
 	
 	\newpage
 	\section{Punto 7}
