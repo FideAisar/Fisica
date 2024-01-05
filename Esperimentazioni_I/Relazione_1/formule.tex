@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+\usepackage{svg}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage[skins]{tcolorbox}
+\usepackage[version=4]{mhchem}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage{fourier}
+\usepackage{xymtex}
+\usepackage{textcomp}
+\usepackage{eurosym}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{attachfile}
+
+
+\title{Formule per Relazione - pendolo di Kater}
+\author{Federico Cesari}
+\date{7 gennaio 2024}
+
+\pagenumbering{gobble}
+
+
+\begin{document}
+\maketitle
+
+\[
+\bar{x} = \frac{\sum_{i=1}^{N}x_{i}}{N}
+\]
+\[
+\sigma = \sqrt{\frac{\sum_{i=1}^{N}\left(x_{i} - \bar{x}\right)}{N-1}}
+\]
+\[
+\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{N}}
+\]
+\[
+E_{k} = \frac{1}{\sigma\sqrt{2\pi}}e^{\left(-\frac{\left(x_{k}-\bar{x}\right)^2}{2\sigma^2}\right)\Delta N}
+\]
+\[
+\chi^2 = \sum_{k=1}^{N}\frac{E_{k}-O_{k}}{\sigma_k}
+\]
+\end{document}
