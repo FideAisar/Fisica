@@ -16,20 +16,23 @@
 \usepackage{longtable}
 \usepackage{float}
 \usepackage{attachfile}
+\usepackage{multirow}
 
 \captionsetup[table]{name=\textit{Tabella}}
+\pagenumbering{gobble}
 
-\title{Relazione - pendolo di Kater}
+\title{Relazione di laboratorio - pendolo di Kater}
 \author{Federico Cesari}
 \date{7 gennaio 2024}
 
-\pagenumbering{gobble}
+
 
 
 \begin{document}
-	\maketitle
-	\vspace{3cm}
+	\include{titlepage.tex}
+
 	
+	\section{Scopo dell'esperienza}
 	L'esperienza di laboratorio ha lo scopo di determinare il periodo di oscillazione di un pendolo fisico in presenza di errori casuali (ed eventualmente di errori sistematici) e verificare che i valori misurati per mezzo di un cronometro siano accurati o meno rispetto alle misure effettuate da una fotocellula. 
 	
 	\vspace{0.5cm}
@@ -51,13 +54,7 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	\newpage
+
 	\section{Prima osservazione dati}
 	
 	Dalle cento misure ho ricavato i valori nella \textit{Tabella 1}. Il più piccolo valore rilevato ($1.59s$) e il più grande ($2.31s$) decido di escluderli secondo il criterio di rigetto a $3\sigma$: so infatti che le mie misure hanno il $99.7 \%$ di probabilità di ricadere nell'intervallo $(\bar{x}  - 3\sigma , \bar{x} + 3\sigma)$, dove $\bar{x}$ è la media della popolazione e $\sigma$ è la deviazione standard. La probabilità di osservare una misura al di fuori di questo intervallo risulterebbe essere di circa lo $0.3\%$, che su 100 misure è come se non  se ne osservasse nessuna. Posso quindi affermare che valori osservati oltre $3 \sigma$ appartengono a un'altra popolazione e, di conseguenza, che è lecito rigettarli. 
@@ -159,6 +156,7 @@
 				2.145,
 				2.185,
 				2.225},
+			xticklabels={1.745, 1.785, 1.825, 1.865, 1.905, 1.945, 1.985, 2.025, 2.065, 2.105, 2.145, 2.185, 2.225},
 			xticklabel style={rotate=80, anchor=north east}
 			]
 			\addplot+[opacity=1] 
@@ -233,13 +231,13 @@
 	
 		\paragraph{Variabile standardizzata $\mathbf{z}$} Per capire il funzionamento del test di Gauss è necessario capire cosa sia la variabile standardizzata $z$. Per prima cosa trovo quanto dista la mia migliore stima del periodo del pendolo dal valore misurato dalla fotocellula in  unità della deviazione standard e lo assegno alla variabile $|z_{\text{oss}}|$:
 	\[
-	|z_{\text{oss}}| = \frac{\bar{x} - \mu}{\sigma}
+	|z_{\text{oss}}| = \frac{\bar{x} - \mu}{\sigma_{\bar{x}}}
 	\]
 	Mi chiedo quindi quale sia la probabilità di ottenere una discrepanza maggiore del mio $|z_{\text{oss}}|$, ovvero mi chiedo quale sia la probabilità di ricadere nelle code della curva.
 	
 	Per fare ciò ci è comodo cambiare variabile nella funzione così da ottenere una curva centrata in zero. Definisco una nuova variabile $z$:
 	\[
-	z = \frac{x-\mu}{\sigma} \qquad \to \qquad \frac{1}{\sqrt{2\pi}\sigma} \int_{-t}^{t}e^{-\frac{-z^2}{2}} \,dz
+	z = \frac{x-\mu}{\sigma_{\bar{x}}} \qquad \to \qquad \frac{1}{\sqrt{2\pi}} \int_{-t}^{t}e^{-\frac{-z^2}{2}} \,dz
 	\]
 	
 	Questa nuova espressione della curva gaussiana nella variabile standardizzata $z$ è centrata in $0$ ($\mu_z =0$) e ha deviazione standard = 1 ($\sigma_{z} = 1$).
@@ -306,7 +304,7 @@
 	Il valore di $z_{\text{oss}}$ rappresenta la distanza tra la mia migliore stima $\bar{x}$ e il valore vero $\mu$ in unità di deviazione standard. La probabilità di avere uno $z > z_{\text{oss}}$, quindi l'area nelle code della gaussiana, è descritta dal \textit{p-value}; più il p-value è piccolo, minore è la probabilità che \textit{solo per caso} si osservi una discrepanza maggiore di quella osservata. Se quest'ultima probabilità è bassa significa che la mia discrepanza è già significativamente elevata e che quindi la mia migliore stima si discosta di parecchio dal valore vero.
 	(\textit{Il valore minimo accettabile di p-value è deciso a priori ed è detto livello di significatività $\alpha$}).
 	
-	\paragraph{Ipotesi nulla $H_{0}$} La media della popolazione delle mie misure è uguale al valore misurato dalla fotocellula:
+	\paragraph{Ipotesi nulla $H_{0}$} La mia migliore stima del periodo è compatibile con il valore misurato dalla fotocellula:
 	\[
 	\mu = 1.957s \pm 0.001 s
 	\]
@@ -338,10 +336,10 @@
 		Avendo utilizzato strumenti non professionali e misurato il periodo del pendolo tramite video mi aspetto che siano presenti errori sistematici (seppur questi risultino trascurabili). Come evince dalla conclusione del test di Gauss eventuali errori sistematici sono trascurabili se confrontati con le le fluttuazioni statistiche delle misure.
 	\end{itemize}
 	
-	\newpage
+
 	\section{Intervalli $\mathbf{(\mu \pm \sigma_x)}$ e $\mathbf{(\mu \pm \sigma_{\bar{x}})}$}
 	\paragraph{Descrivere il significato degli intervalli $(\mu \pm \sigma_x)$ e $\mu \pm \sigma_{\bar{x}}$.}  
-	L'intervallo $(\mu \pm \sigma_x)$ con $\sigma_x$ deviazione standard rappresenta è l'intervallo con livello di confidenza al $68\%$: effettuate $n$ misure, se ne estraggo una ho una probabilità del $68\%$ che questa disti $\sigma$ dal valore centrale $\mu$.  \\
+	L'intervallo $(\mu \pm \sigma_x)$ con $\sigma_x$ deviazione standard rappresenta l'intervallo con livello di confidenza al $68\%$: effettuate $n$ misure, se ne estraggo una ho una probabilità del $68\%$ che questa disti $\sigma$ dal valore centrale $\mu$.  \\
 	
 	\noindent
 	L'intervallo $\mu \pm \sigma_{\bar{x}}$ con $\sigma_{\bar{x}}$ deviazione standard della media è l'intervallo con livello di confidenza al $68\%$ nel quale giace il $68\%$ delle $n$ medie calcolate. Se la migliore stima della media calcolata fosse $\mu$, allora posso essere sicuro che il $68\%$ delle altre medie trovate disti $\sigma_{\bar{x}}$ da $\mu$. \\ \\
@@ -367,10 +365,48 @@
 	
 	
 	
-
-	\vspace{1.8cm}
+\vspace{1.2cm}
 	\section{Conclusioni}
+	\textcolor{white}{ }
+	
+	\begin{minipage}[c]{1\textwidth}
+	\centering
+	\begin{tabular}{llrl}
+		Migliore stima           & $\bar{x}$             & $1.95 \pm 0.01$        & $s$       \\
+		Valore vero  & $\mu$ & $1.957 \pm 0.001$  & $s$ \\
+		Dev. std                    & $\sigma$              & $0.082$      & $s$   \\
+	\end{tabular}
+	\captionof{table}{\textit{Sintesi quantitativa}}
+	\end{minipage}
+	\vspace{0.1cm}
+	
+	\noindent
+	L'analisi dati porta alla conclusione che la mia migliore stima può considerarsi in accordo con il valore misurato dalla fotocellula, che considero essere il valore vero, inoltre una deviazione standard di $0.0082s$ è indice di precisione del campione. 
+	
+	Possibili errori sistematici possono essere dettati dall'utilizzo di un cronometro non professionale o dalla frequenza di aggiornamento del monitor tramite il quale ho effettuato le misure, ma anche da errori umani ripetuti dovuti a particolari condizioni fisiche; tuttavia, come conferma il test di Gauss, questi sono trascurabili se confrontati con le naturali fluttuazioni delle misure. 
+	
+	 I risultati ottenuti suggeriscono inoltre che il periodo del pendolo non ha variazione significativa nel tempo e rimane circa costante nel lasso di tempo impiegato ad effettuare le cento misure. 
+	
 	\paragraph{Test condotti ed esiti}
+		\textcolor{white}{ }
+	
+		\begin{minipage}[c]{1\textwidth}
+		\centering
+		\renewcommand{\arraystretch}{1.5}
+		\begin{tabular}{lrrl}
+			& \textit{valore} & \textit{valore critico} & \\
+			\hline
+			\multirow{2}{8em}{Test $\chi^2$}& $\chi^2 = 6.39$ & $9.48$ & \\
+			& gradi di libertà = $4$ & & \\
+			\multirow{2}{8em}{Test di Gauss}& $|z_{\text{oss}}| = 0.88$  & $1.96$ & \\	
+			&p-value$=0.38$ & & \\
+		\end{tabular}
+		\captionof{table}{\textit{Sintesi quantitativa}}
+		\renewcommand{\arraystretch}{1}
+	\end{minipage}
+	\vspace{0.1cm}
+	
+	
 	\begin{enumerate}
 		\item \textit{Test del $\chi^2$}: Servendomi del test del $\chi^2$ ho confermato l'ipotesi che la distribuzione di Gauss si adatta bene alla distribuzione delle mie misure (con livello di significatività del $5\%$). 
 		\item \textit{Test di Gauss}: Con il test di Gauss invece, ho verificato che la mia migliore stima del periodo del pendolo non si discostasse significativamente dal valore misurato dalla fotocellula (che considero essere il valore vero). Questo ha evidenziato che gli errori legati alle singole misure sono dettati unicamente dal caso e che eventuali errori sistematici sono trascurabili rispetto alle naturali fluttuazioni statistiche delle misure.

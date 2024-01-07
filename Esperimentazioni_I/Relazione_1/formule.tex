@@ -18,7 +18,7 @@
 \usepackage{attachfile}
 
 
-\title{Formule per Relazione - pendolo di Kater}
+\title{Formule in Relazione - pendolo di Kater}
 \author{Federico Cesari}
 \date{7 gennaio 2024}
 
@@ -28,19 +28,33 @@
 \begin{document}
 \maketitle
 
+\vspace{5cm}
+
 \[
 \bar{x} = \frac{\sum_{i=1}^{N}x_{i}}{N}
 \]
 \[
 \sigma = \sqrt{\frac{\sum_{i=1}^{N}\left(x_{i} - \bar{x}\right)}{N-1}}
 \]
+
 \[
 \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{N}}
 \]
+
 \[
-E_{k} = \frac{1}{\sigma\sqrt{2\pi}}e^{\left(-\frac{\left(x_{k}-\bar{x}\right)^2}{2\sigma^2}\right)\Delta N}
+P=\frac{1}{\sigma\sqrt{2\pi}}e^{\left(-\frac{\left(x_{k}-\bar{x}\right)^2}{2\sigma^2}\right)}\Delta
 \]
+
 \[
-\chi^2 = \sum_{k=1}^{N}\frac{E_{k}-O_{k}}{\sigma_k}
+E_{k} = \frac{1}{\sigma\sqrt{2\pi}}e^{\left(-\frac{\left(x_{k}-\bar{x}\right)^2}{2\sigma^2}\right)}\Delta N
 \]
+\vspace{0.4cm}
+\[
+\chi^2 = \sum_{k=1}^{n}\left(\frac{E_{k}-O_{k}}{\sigma_k}\right)^2
+\]
+\begin{center}
+$n \text{ è il numero di misure accorpate}$
+\end{center}
+
+
 \end{document}

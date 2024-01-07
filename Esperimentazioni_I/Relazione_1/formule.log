@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  7 JAN 2024 22:15
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  7 JAN 2024 16:09
  restricted system commands enabled.
-**relazione.tex
-(./relazione.tex
+**formule.tex
+(./formule.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 Lua module: luaotfload 2023-08-19 3.24 Lua based OpenType font support
@@ -1226,77 +1226,71 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \atfi@appearancedepth=\skip75
 \atfi@appearancebox=\box87
 )
-(/opt/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip76
-\multirow@cntb=\count380
-\multirow@dima=\skip77
-\bigstrutjot=\dimen321
-) (./relazione.aux (./titlepage.aux))
-\openout1 = relazione.aux
+(./formule.aux)
+\openout1 = formule.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-1.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+8.
  (/opt/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 28.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-31.
+28.
 
 (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 28.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-31.
+28.
 
 (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 28.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-31.
+28.
 
 (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (/opt/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count381
-\scratchdimen=\dimen322
+\scratchcounter=\count380
+\scratchdimen=\dimen321
 \scratchbox=\box88
-\nofMPsegments=\count382
-\nofMParguments=\count383
+\nofMPsegments=\count381
+\nofMParguments=\count382
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count384
-\MPscratchDim=\dimen323
-\MPnumerator=\count385
-\makeMPintoPDFobject=\count386
+\MPscratchCnt=\count383
+\MPscratchDim=\dimen322
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
 \everyMPtoPDFconversion=\toks51
 ) (/opt/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1311,10 +1305,10 @@ e
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 31.
+ on input line 28.
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 31.
+Package chemgreek Info: Activating mapping `fourier' on line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1358,267 +1352,75 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 31.
- (./relazione.out) (./relazione.out)
+Package hyperref Info: Link coloring OFF on input line 28.
+ (./formule.out)
+(./formule.out)
 \@outlinefile=\write4
 
-\openout4 = relazione.out
-
-\openout2 = titlepage.aux
- (./titlepage.tex
-<pendulum.png, id=35, 442.65375pt x 601.24625pt>
-File: pendulum.png Graphic file (type png)
-<use pendulum.png>
-Package luatex.def Info: pendulum.png  used on input line 18.
-(luatex.def)             Requested size: 177.05835pt x 240.49423pt.
- [1
-
-
-{/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./pendulum.png>
-])
+\openout4 = formule.out
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line
- 42.
-
-(/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+ 30.
+ (/opt/texlive/2023/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 42.
+(Font)              scaled to size 11.03998pt on input line 30.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 42.
+(Font)              scaled to size 8.27998pt on input line 30.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 42.
+(Font)              scaled to size 6.43999pt on input line 30.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 42.
+(Font)              scaled to size 11.03998pt on input line 30.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 42.
+(Font)              scaled to size 8.27998pt on input line 30.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 42.
+(Font)              scaled to size 6.43999pt on input line 30.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 33.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 33.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 33.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 33.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 33.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 33.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 75.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 87.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [1
 
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
-
- []
-
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 119.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 119.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 119.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[2]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 127.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 127.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 127.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 127.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 127.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldchi' on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 127.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-
- []
-
-
-Overfull \hbox (5.73653pt too wide) in paragraph at lines 268--269
-[][] 
- []
-
-
-Overfull \hbox (5.73653pt too wide) in paragraph at lines 298--299
-[][] 
- []
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[4]
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
-328.
- (/opt/texlive/2023/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldmu' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldsigma' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldmu' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldsigma' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
-
- []
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[5]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 379.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 372--382
-[]$[]$
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 404.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 393--408
-[]$[]$
- []
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[6] (./relazione.aux (./titlepage.aux))
+{/opt/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./formule.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `relazione.out' has not changed.
-(rerunfilecheck)             Checksum: 0CCA26381D86DE6EBA59E525815145F9;882.
+Package rerunfilecheck Info: File `formule.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42013 strings out of 477259
+ 41199 strings out of 477259
  125027,1977958 words of node,token memory allocated
- 585 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 18 attribute, 62 glue_spec
-, 18 attribute_list, 2 write nodes
-   avail lists: 1:1,2:3840,3:1885,4:50,5:532,6:44,7:7161,8:27,9:751,10:8,11:537
- 62057 multiletter control sequences out of 65536+600000
- 115 fonts using 7105359 bytes
- 102i,17n,101p,771b,2460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 555 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 60 glue_spec
+, 13 attribute_list, 2 write nodes
+   avail lists: 2:254,3:86,4:27,5:216,6:27,7:1117,8:26,9:579,10:7,11:30
+ 61320 multiletter control sequences out of 65536+600000
+ 97 fonts using 5820295 bytes
+ 102i,7n,101p,721b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}</opt/texlive/2023/tex
-mf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist
-/fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts
-/type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/a
-dobe/utopia/putb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/pu
-tr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on relazione.pdf (7 pages, 316543 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2023/texmf-dist/
+fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist/fonts/t
+ype1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts/type1/p
+ublic/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/uto
+pia/putr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putri8a.pf
+b>
+Output written on formule.pdf (1 page, 42814 bytes).
 
-PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 29 named destinations out of 1000 (max. 131072)
- 72 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 41 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
