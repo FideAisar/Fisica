@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  7 JAN 2024 22:15
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  12 JAN 2024 09:32
  restricted system commands enabled.
 **relazione.tex
 (./relazione.tex
@@ -1394,24 +1394,25 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 42.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 42.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 63.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 75.
+(caption)                particular \caption on input line 78.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 87.
+(caption)                particular \caption on input line 90.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
@@ -1421,67 +1422,66 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 119.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 119.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 119.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [2]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 127.
+(Font)              scaled to size 13.24796pt on input line 130.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 127.
+(Font)              scaled to size 7.35999pt on input line 130.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 127.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 127.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 127.
+(Font)              scaled to size 13.24796pt on input line 130.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 127.
+(Font)              scaled to size 7.35999pt on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
+(hyperref)                removing `math shift' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldchi' on input line 127.
+(hyperref)                removing `\oldchi' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 127.
+(hyperref)                removing `superscript' on input line 130.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
+(hyperref)                removing `math shift' on input line 130.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 
-Overfull \hbox (5.73653pt too wide) in paragraph at lines 268--269
+Overfull \hbox (5.73653pt too wide) in paragraph at lines 271--272
 [][] 
  []
 
 
-Overfull \hbox (5.73653pt too wide) in paragraph at lines 298--299
+Overfull \hbox (5.73653pt too wide) in paragraph at lines 301--302
 [][] 
  []
 
@@ -1489,79 +1489,79 @@ Overfull \hbox (5.73653pt too wide) in paragraph at lines 298--299
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [4]
 LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
-328.
+331.
  (/opt/texlive/2023/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
+(hyperref)                removing `math shift' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldmu' on input line 340.
+(hyperref)                removing `\oldmu' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 340.
+(hyperref)                removing `\pm' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldsigma' on input line 340.
+(hyperref)                removing `\oldsigma' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 340.
+(hyperref)                removing `subscript' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
+(hyperref)                removing `math shift' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
+(hyperref)                removing `math shift' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldmu' on input line 340.
+(hyperref)                removing `\oldmu' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 340.
+(hyperref)                removing `\pm' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldsigma' on input line 340.
+(hyperref)                removing `\oldsigma' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 340.
+(hyperref)                removing `subscript' on input line 343.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 340.
+(hyperref)                removing `math shift' on input line 343.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
+Underfull \hbox (badness 10000) in paragraph at lines 347--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
+Underfull \hbox (badness 10000) in paragraph at lines 347--349
 
  []
 
@@ -1570,55 +1570,57 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [5]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 379.
+(caption)                particular \caption on input line 382.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 372--382
+Overfull \hbox (15.0pt too wide) in paragraph at lines 375--385
 []$[]$
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 404.
+(caption)                particular \caption on input line 407.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 393--408
+Overfull \hbox (15.0pt too wide) in paragraph at lines 396--411
 []$[]$
  []
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[6] (./relazione.aux (./titlepage.aux))
+[6]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+[7] (./relazione.aux (./titlepage.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `relazione.out' has not changed.
-(rerunfilecheck)             Checksum: 0CCA26381D86DE6EBA59E525815145F9;882.
+(rerunfilecheck)             Checksum: D2003700B1856024BE65DFBE961F372F;940.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42013 strings out of 477259
+ 42016 strings out of 477259
  125027,1977958 words of node,token memory allocated
  585 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 18 attribute, 62 glue_spec
 , 18 attribute_list, 2 write nodes
-   avail lists: 1:1,2:3840,3:1885,4:50,5:532,6:44,7:7161,8:27,9:751,10:8,11:537
+   avail lists: 2:3864,3:1899,4:50,5:549,6:43,7:7631,8:27,9:771,10:8,11:564
  62057 multiletter control sequences out of 65536+600000
  115 fonts using 7105359 bytes
- 102i,17n,101p,771b,2460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,17n,101p,723b,2460s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}</opt/texlive/2023/tex
 mf-dist/fonts/type1/public/fourier/fourier-mex.pfb></opt/texlive/2023/texmf-dist
 /fonts/type1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts
 /type1/public/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/a
 dobe/utopia/putb8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/pu
 tr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on relazione.pdf (7 pages, 316543 bytes).
+Output written on relazione.pdf (8 pages, 317641 bytes).
 
-PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 29 named destinations out of 1000 (max. 131072)
+PDF statistics: 115 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 32 named destinations out of 1000 (max. 131072)
  72 words of extra memory for PDF output out of 10000 (max. 100000000)
 

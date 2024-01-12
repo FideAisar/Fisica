@@ -57,7 +57,10 @@
 
 	\section{Prima osservazione dati}
 	
-	Dalle cento misure ho ricavato i valori nella \textit{Tabella 1}. Il più piccolo valore rilevato ($1.59s$) e il più grande ($2.31s$) decido di escluderli secondo il criterio di rigetto a $3\sigma$: so infatti che le mie misure hanno il $99.7 \%$ di probabilità di ricadere nell'intervallo $(\bar{x}  - 3\sigma , \bar{x} + 3\sigma)$, dove $\bar{x}$ è la media della popolazione e $\sigma$ è la deviazione standard. La probabilità di osservare una misura al di fuori di questo intervallo risulterebbe essere di circa lo $0.3\%$, che su 100 misure è come se non  se ne osservasse nessuna. Posso quindi affermare che valori osservati oltre $3 \sigma$ appartengono a un'altra popolazione e, di conseguenza, che è lecito rigettarli. 
+	Dalle cento misure ho ricavato i valori nella \textit{Tabella 1}. Il più piccolo valore rilevato ($1.59s$) e il più grande ($2.31s$) decido di escluderli secondo il criterio di rigetto a $3\sigma_{x}$.
+	
+	\paragraph{Criterio di rigetto a $\mathbf{3\sigma}$}
+	Il test permette di identificare quei valori che non appartengono alla popolazione che si sta analizzando. So infatti che le mie misure hanno il $99.7 \%$ di probabilità di ricadere nell'intervallo $(\bar{x}  - 3\sigma_{x} , \bar{x} + 3\sigma_{x})$, dove $\bar{x}$ è la media della popolazione e $\sigma_{x}$ è la deviazione standard. La probabilità di osservare una misura al di fuori di questo intervallo risulterebbe essere di circa lo $0.3\%$, che su 100 misure è come se non  se ne osservasse nessuna. Posso quindi affermare che valori osservati oltre $3 \sigma_{x}$ appartengono a un'altra popolazione e, di conseguenza, che è lecito rigettarli. 
 	
 	Successivamente al rigetto, con i $98$ dati rimanenti ricavo i nuovi valori riportati nella \textit{Tabella 2}.
 	
@@ -66,8 +69,8 @@
 		\centering
 		\begin{tabular}{llrl}
 			Media                       & $\bar{x}$             & $1.95$        & $s$       \\
-			Varianza                    & $\sigma ^ 2$          & $0.0092$     & $s^2$  \\
-			Dev. std                    & $\sigma$              & $0.096$      & $s$   \\
+			Varianza                    & $\sigma_{x}^2$          & $0.0092$     & $s^2$  \\
+			Dev. std                    & $\sigma_{x}$              & $0.096$      & $s$   \\
 			Dev. std (della media)      & $\sigma_{\bar{x}}$    & $0.0096$     & $s$    \\
 			Mediana                     & $\mu_e$               & $1.95$        &  $s$      \\
 			Moda                        & $v_0$                 & $2.00$        & $s$
@@ -78,8 +81,8 @@
 		\centering
 		\begin{tabular}{llrl}
 			Media                       & $\bar{x}$             & $1.95$        & $s$       \\
-			Varianza                    & $\sigma ^ 2$          & $0.0068$     & $s^2$  \\
-			Dev. std                    & $\sigma$              & $0.082$      & $s$   \\
+			Varianza                    & $\sigma_{x}^2$          & $0.0068$     & $s^2$  \\
+			Dev. std                    & $\sigma_{x}$              & $0.082$      & $s$   \\
 			Dev. std (della media)      & $\sigma_{\bar{x}}$    & $0.0083$     & $s$    \\
 			Mediana                     & $\mu_e$               & $1.95$        &  $s$      \\
 			Moda                        & $v_0$                 & $2.00$        & $s$
@@ -99,8 +102,8 @@
 		\centering
 		\begin{tabular}{llrl}
 			Media                       & $\bar{x}$             & $1.95$        & $s$       \\
-			Varianza                    & $\sigma ^ 2$          & $0.0067$     & $s^2$  \\
-			Dev. std                    & $\sigma$              & $0.082$      & $s$   \\
+			Varianza                    & $\sigma_{x}^2$          & $0.0067$     & $s^2$  \\
+			Dev. std                    & $\sigma_{x}$              & $0.082$      & $s$   \\
 			Dev. std (della media)      & $\sigma_{\bar{x}}$    & $0.0083$     & $s$    
 		\end{tabular}
 		\captionof{table}{\textit{Dati accorpati}}
@@ -108,7 +111,7 @@
 	\vspace{0.5cm}
 	
 	\noindent
-	I dati accorpati producono valori pressoché identici a quelli rilevati post rigetto a $3\sigma$. \\
+	I dati accorpati producono valori pressoché identici a quelli rilevati post rigetto a $3\sigma_{x}$. \\
 	
 	
 	\noindent
@@ -124,8 +127,8 @@
 	
 	
 	\newpage
-	\section{Test del $\chi ^2$}
-	Poiché mi aspetto che le mie misure fluttuino attorno al mio valor medio e che siano soggette a soli errori casuali, è ragionevole pensare che esse siano governate da una distribuzione limite di tipo gaussiano centrata nel valore corrispondente alla mia migliore stima $\bar{x}$. Eventuali errori sistematici traslerebbero la curva lungo l'asse orizzontale allontanando $\bar{x}$ dal valore vero $\mu$ calcolato dalla fotocellula. \\ 
+	\section{Test $\chi ^2$ di adattamento}
+	Poiché mi aspetto che le mie misure fluttuino attorno al mio valor medio e che siano soggette a soli errori casuali, è ragionevole pensare che esse siano governate da una distribuzione limite di tipo gaussiano centrata nel valore corrispondente alla mia migliore stima $\bar{x}$. Eventuali errori sistematici traslerebbero la curva lungo l'asse orizzontale allontanando $\bar{x}$ dal valore che considero vero $\mu$ calcolato dalla fotocellula. \\ 
 	
 	\noindent
 	Il test del $\chi ^2$ ha proprio lo scopo di verificare che la nostra distribuzione sia consistente con l'ipotesi che le misure siano governate da una certa distribuzione limite.
@@ -196,10 +199,10 @@
 	\end{center}
 	\vspace{0.2cm}
 	
-	\paragraph{Ipotesi del test (H$_{0}$)} La distribuzione teorica di Gauss si adatta alla distribuzione delle mie misure. 
-	
+	\paragraph{Ipotesi nulla (H$_{0}$)} La distribuzione teorica di Gauss si adatta alla distribuzione delle mie misure. 
+	\paragraph{Ipotesi contraria (H$_{1}$)} La distribuzione teorica di Gauss non si adatta alla distribuzione delle mie misure. 
 	\noindent
-	Scelgo un livello di significatività del $5\%$ e procedo calcolando il valore di $\chi^2$ e il numero di gradi di libertà. Con questi due dati ricavo dalle tabelle di distribuzione il valore del mio $\chi^2$ critico.
+	Scelgo un livello di significatività del $5\%$ e procedo calcolando il valore di $\chi^2$ e il numero di gradi di libertà. Con questi due dati ricavo dalle tabelle di distribuzione il valore del mio $\chi^2$ critico. 
 	\vspace{0.4cm}
 	\begin{table}[H]
 		\centering
@@ -219,7 +222,7 @@
 	
 	\vspace{1cm}
 	\section{Test di Gauss}
-	Per verificare che il valor medio da me calcolato non si discosti significativamente dal valore misurato dalla fotocellula si utilizzerà il test Z, o test di Gauss. Riporto in ordine a mia stima del periodo del pendolo e quella calcolata dalla fotocellula:
+	Per verificare che il valor medio da me calcolato non si discosti significativamente dal valore misurato dalla fotocellula si utilizzerà il test Z, o test di Gauss. Riporto in ordine la mia stima del periodo e quella misurata dalla fotocellula:
 	\[
 	\bar{x} = 1.95s \pm 0.01 s
 	\]
@@ -227,7 +230,7 @@
 	\mu = 1.957s \pm 0.001 s
 	\]
 
-	Il test di Gauss ci permette di calcolare la probabilità di osservare medie che distano in valore assoluto di più di quanto dista il mio $\bar{x}$ dal valore vero $\mu$ solo per l'influenza di fluttuazioni statistiche. Quindi a seguito del test possiamo capire se i nostri dati producono medie consistenti con il valore vero.\\
+	Il test di Gauss ci permette di calcolare la probabilità di osservare medie che distano in valore assoluto più di quanto dista il mio $\bar{x}$ dal valore vero $\mu$ solo per l'influenza di fluttuazioni statistiche. Quindi a seguito del test possiamo capire se i nostri dati producono medie consistenti con il valore vero.\\
 	
 		\paragraph{Variabile standardizzata $\mathbf{z}$} Per capire il funzionamento del test di Gauss è necessario capire cosa sia la variabile standardizzata $z$. Per prima cosa trovo quanto dista la mia migliore stima del periodo del pendolo dal valore misurato dalla fotocellula in  unità della deviazione standard e lo assegno alla variabile $|z_{\text{oss}}|$:
 	\[
@@ -304,11 +307,11 @@
 	Il valore di $z_{\text{oss}}$ rappresenta la distanza tra la mia migliore stima $\bar{x}$ e il valore vero $\mu$ in unità di deviazione standard. La probabilità di avere uno $z > z_{\text{oss}}$, quindi l'area nelle code della gaussiana, è descritta dal \textit{p-value}; più il p-value è piccolo, minore è la probabilità che \textit{solo per caso} si osservi una discrepanza maggiore di quella osservata. Se quest'ultima probabilità è bassa significa che la mia discrepanza è già significativamente elevata e che quindi la mia migliore stima si discosta di parecchio dal valore vero.
 	(\textit{Il valore minimo accettabile di p-value è deciso a priori ed è detto livello di significatività $\alpha$}).
 	
-	\paragraph{Ipotesi nulla $H_{0}$} La mia migliore stima del periodo è compatibile con il valore misurato dalla fotocellula:
+	\paragraph{Ipotesi nulla H$_{0}$} La mia migliore stima del periodo è compatibile con il valore misurato dalla fotocellula $\mu$ nei livelli di significatività scelti	
+	\paragraph{Ipotesi contraria H$_{1}$} La mia miglior stima non risulta compatibile con $\mu$ nei livelli di significatività scelti.
 	\[
 	\mu = 1.957s \pm 0.001 s
 	\]
-	
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{lr}
@@ -333,16 +336,16 @@
 		\item \textit{Esistono errori sistematici? Come escluderli? Se non è possibile escluderli, quanto incidono gli errori sistematici rispetto agli errori casuali?} \\
 		
 		\noindent
-		Avendo utilizzato strumenti non professionali e misurato il periodo del pendolo tramite video mi aspetto che siano presenti errori sistematici (seppur questi risultino trascurabili). Come evince dalla conclusione del test di Gauss eventuali errori sistematici sono trascurabili se confrontati con le le fluttuazioni statistiche delle misure.
+		Avendo utilizzato strumenti non professionali e misurato il periodo del pendolo tramite video mi aspetto che siano presenti errori sistematici (seppur questi risultino trascurabili). Come evince dalla conclusione del test di Gauss eventuali errori sistematici sono trascurabili se confrontati con le fluttuazioni statistiche delle misure.
 	\end{itemize}
 	
 
 	\section{Intervalli $\mathbf{(\mu \pm \sigma_x)}$ e $\mathbf{(\mu \pm \sigma_{\bar{x}})}$}
 	\paragraph{Descrivere il significato degli intervalli $(\mu \pm \sigma_x)$ e $\mu \pm \sigma_{\bar{x}}$.}  
-	L'intervallo $(\mu \pm \sigma_x)$ con $\sigma_x$ deviazione standard rappresenta l'intervallo con livello di confidenza al $68\%$: effettuate $n$ misure, se ne estraggo una ho una probabilità del $68\%$ che questa disti $\sigma$ dal valore centrale $\mu$.  \\
+	L'intervallo $(\mu \pm \sigma_x)$ con $\sigma_x$ deviazione standard rappresenta l'intervallo con livello di confidenza al $68\%$: effettuate $n$ misure, se ne estraggo una ho una probabilità del $68\%$ che questa ricada nell'intervallo e che quindi disti di un valore $ \leq \sigma_{x}$ dal valore centrale $\mu$.  \\
 	
 	\noindent
-	L'intervallo $\mu \pm \sigma_{\bar{x}}$ con $\sigma_{\bar{x}}$ deviazione standard della media è l'intervallo con livello di confidenza al $68\%$ nel quale giace il $68\%$ delle $n$ medie calcolate. Se la migliore stima della media calcolata fosse $\mu$, allora posso essere sicuro che il $68\%$ delle altre medie trovate disti $\sigma_{\bar{x}}$ da $\mu$. \\ \\
+	L'intervallo $\mu \pm \sigma_{\bar{x}}$ con $\sigma_{\bar{x}}$ deviazione standard della media è l'intervallo con livello di confidenza al $68\%$ nel quale giace il $68\%$ delle $n$ medie calcolate. Se la migliore stima della media calcolata fosse $\mu$, allora posso essere sicuro che il $68\%$ delle altre medie trovate disti di un valore $\leq \sigma_{\bar{x}}$ da $\mu$. \\ \\
 	
 	\noindent
 	\paragraph{N necessarie affinché $\sigma_{\bar{x}}$ sia uguale alla sensibilità dello strumento}
@@ -374,7 +377,7 @@
 	\begin{tabular}{llrl}
 		Migliore stima           & $\bar{x}$             & $1.95 \pm 0.01$        & $s$       \\
 		Valore vero  & $\mu$ & $1.957 \pm 0.001$  & $s$ \\
-		Dev. std                    & $\sigma$              & $0.082$      & $s$   \\
+		Dev. std                    & $\sigma_{x}$              & $0.082$      & $s$   \\
 	\end{tabular}
 	\captionof{table}{\textit{Sintesi quantitativa}}
 	\end{minipage}
@@ -408,7 +411,7 @@
 	
 	
 	\begin{enumerate}
-		\item \textit{Test del $\chi^2$}: Servendomi del test del $\chi^2$ ho confermato l'ipotesi che la distribuzione di Gauss si adatta bene alla distribuzione delle mie misure (con livello di significatività del $5\%$). 
+		\item \textit{Test $\chi^2$}: Servendomi del test del $\chi^2$ ho confermato l'ipotesi che la distribuzione di Gauss si adatta bene alla distribuzione delle mie misure (con livello di significatività del $5\%$). 
 		\item \textit{Test di Gauss}: Con il test di Gauss invece, ho verificato che la mia migliore stima del periodo del pendolo non si discostasse significativamente dal valore misurato dalla fotocellula (che considero essere il valore vero). Questo ha evidenziato che gli errori legati alle singole misure sono dettati unicamente dal caso e che eventuali errori sistematici sono trascurabili rispetto alle naturali fluttuazioni statistiche delle misure.
 	\end{enumerate}
 	

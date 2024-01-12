@@ -30,8 +30,8 @@
 \usepackage{hyperref}
 
 
-\definecolor{myblue}{RGB}{255, 255, 255} 
-\definecolor{myred}{RGB}{255, 255, 255}
+\definecolor{myblue}{RGB}{224, 245, 255} 
+\definecolor{myred}{RGB}{234, 222, 255}
 \definecolor{myorange}{RGB}{255, 102, 0}
 
 % box
@@ -58,7 +58,7 @@
 % teoremi
 \newtcolorbox{redes}[2][]{%
   enhanced,colback=myred,colframe=black,coltitle=black,
-  sharp corners,boxrule=0pt,
+  sharp corners,boxrule=0.4pt,
   fonttitle=\itshape,
   attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
   boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
@@ -148,8 +148,9 @@
 \begin{center}
 \fboxsep11pt
 \colorbox{myred}{\begin{minipage}{5.75in}
-\begin{redes}{Teorema di Rouchè-Capelli}
+\begin{redes}{}
 %ROUCHE CAPELLI
+\subsubsection{Teorema di Rouchè-Capelli}
 Un sistema lineare $AX = B$  con $A \in \mathbb{R}^{r,n}, \quad X \in \mathbb{R}^{n,p}, \quad B \in \mathbb{R}^{r,p}$ è compatibile se e solo se il rango della matrice
 dei coefficienti coincide con il rango della matrice completa. Se il sistema è compatibile, le soluzioni dipendono da $p \cdot \left(n-\text{rk}A\right)$ parametri liberi.
 \[
@@ -201,7 +202,8 @@ Particolarità dei sistemi omogenei è il fatto che operando sulle righe, non si
 \begin{center}
 \fboxsep11pt
 \colorbox{myred}{\begin{minipage}{5.75in}
-\begin{redes}{Teorema: parametri liberi}
+\begin{redes}{}
+\subsubsection{Teorema: parametri liberi}
 Se un sistema lineare omogeneo ha $n$ incognite e nell sua forma ridotta la sua matrice completa ha  $\text{rank}A = n$ (nessuna riga nulla), allora
 \[
 \text{parametri liberi } = n - \text{rank}A
@@ -744,12 +746,18 @@ $$
 \QEDA
 \end{es}
 
-
-\subsubsection{Teorema: matrice inversa}
-Sia A una matrice quadrata di ordine $n$, se $\text{det}(A) \neq 0$ allora esiste l’inversa di $A$ ed è:
-\[
-A^{-1} = \frac{1}{\text{det}(A)}\text{adj}(A)
-\]
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema: matrice inversa}
+			Sia A una matrice quadrata di ordine $n$, se $\text{det}(A) \neq 0$ allora esiste l’inversa di $A$ ed è:
+			\[
+			A^{-1} = \frac{1}{\text{det}(A)}\text{adj}(A)
+			\]	
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
 
 \begin{es}{dimostrazione}
@@ -823,6 +831,7 @@ I teoremi di Laplace più la matrice adiacente ci permettono di  determinare in 
 
 
 %CRAMER
+
 \subsection{Teorema di Cramer}
 Subito dopo aver descritto un nuovo modo per calcolare la matrice inversa vediamo come può tornare utile nella risoluzione di sistemi lineari con $n$ incognite e $n$ equazioni.
 $$
@@ -938,12 +947,19 @@ Il prodotto scalare $\|a\|\|u\|\cos{\theta}$ non è altro che il prodotto della 
 \end{center}
 
 
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+			\subsubsection{Teorema: vettore proiezione ortogonale}
+			Dati due vettori $u$ e $a$ non nulli il vettore proiezione ortogonale di $u$ su $a$ è:
+			\[
+			p = \frac{u\cdot a}{\|a\|^2}a
+			.\] 	
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
-\subsubsection{Teorema: vettore proiezione ortogonale}
-Dati due vettori $u$ e $a$ non nulli il vettore proiezione ortogonale di $u$ su $a$ è:
-\[
-p = \frac{u\cdot a}{\|a\|^2}a
-.\] 
 
 
 \begin{es}{dimostrazione}
@@ -966,13 +982,21 @@ p = \frac{u\cdot a}{\|a\|^2}a
 .\] 
 \end{es}
 
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+			\subsubsection{Teorema di Pitagora generalizzato}
+			Dati $u$ e $v$ vettori ortogonali tra loro in $\mathbb{R}^n$ con prodotto standard, allora
+			\[
+			\|u+v\|^2 = \|u\|^2 + \|v\|^2
+			.\] 
+			\textit{la dimostrazione è molto semplice, il termine $2u\cdot v$ vale zero.}		
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
-\subsubsection{Teorema di Pitagora generalizzato}
-Dati $u$ e $v$ vettori ortogonali tra loro in $\mathbb{R}^n$ con prodotto standard, allora
-\[
-\|u+v\|^2 = \|u\|^2 + \|v\|^2
-.\] 
-\textit{la dimostrazione è molto semplice, il termine $2u\cdot v$ vale zero.}
+
 
 
 
@@ -1228,9 +1252,16 @@ x \in W_1 + W_2
 \subsubsection{$\cap$ Intersezione di due sottospazi}
 L'intersezione di due sottospazi vettoriali $W_1$ e $W_2$ contiene tutti i vettori contenuti sia in $W_1$ sia in $W_2$.
 
-
-\paragraph{Teorema: l'intersezione è sottospazio}
-Immediata conseguenza delle definizioni di sottospazio vettoriale e di intersezione. Se $W_1$ e $W_2$ sono sottospazi allora lo deve essere anche $W_1 \cap W_2$.
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\paragraph{Teorema: l'intersezione è sottospazio}
+				Immediata conseguenza delle definizioni di sottospazio vettoriale e di intersezione. Se $W_1$ e $W_2$ sono sottospazi allora lo deve essere anche $W_1 \cap W_2$.
+					
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
 
 
@@ -1247,11 +1278,19 @@ Dato $V$ spazio vettoriale, $\overline{v}_{1},\dots,\overline{v}_{n} \in V$, una
 Ogni sottospazio possiamo dire essere generato da combinazioni lineari dei vettori che lo generano. 
 
 
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema: somma più piccolo sottospazio}
+				Se $S=\{w_1,w_2,\dots,w_{r}\}$ è un insieme di vettori non nullo contenuto in $V$, allora:  \\
+				L'insieme  $W = \mathscr{L}\left(\left(w_1\right),\left(w_2\right),\dots,\left(w_{r}\right)\right)$, è il \textbf{più piccolo} sottospazio di V che contiene tutti i vettori di $S$. \\
+				In questo caso si dice che  $W$  \textbf{è generato} da $S$.
+				
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
-\subsubsection{Teorema: somma più piccolo sottospazio}
-Se $S=\{w_1,w_2,\dots,w_{r}\}$ è un insieme di vettori non nullo contenuto in $V$, allora:  \\
-L'insieme  $W = \mathscr{L}\left(\left(w_1\right),\left(w_2\right),\dots,\left(w_{r}\right)\right)$, è il \textbf{più piccolo} sottospazio di V che contiene tutti i vettori di $S$. \\
-In questo caso si dice che  $W$  \textbf{è generato} da $S$.
 
 
 \begin{center}
@@ -1312,18 +1351,21 @@ Viene chiamata base di $V$ un insieme di vettori che \textbf{genera} $V$ e al co
 \end{minipage}}        
 \end{center}
 
-
 \begin{center}
-\fboxsep11pt
-\colorbox{myred}{\begin{minipage}{5.75in}
-\subsubsection{Teorema: unicità di scrittura}
-Data una base $\mathscr{B} = \{v_1 + v_2 + \dots + v_{n}\}$ ogni vettore $v \in V$ può essere espresso nella forma
-\[
-v = c_1v_1 + c_2v_2 + \dots + c_{n}v_{n}
-\]
-in un solo modo.
-\end{minipage}}        
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema: unicità di scrittura}
+				Data una base $\mathscr{B} = \{v_1 + v_2 + \dots + v_{n}\}$ ogni vettore $v \in V$ può essere espresso nella forma
+				\[
+				v = c_1v_1 + c_2v_2 + \dots + c_{n}v_{n}
+				\]
+				in un solo modo.
+			\end{redes}
+	\end{minipage}}        
 \end{center}
+
+
 
 \begin{es}{dimostrazione}
 Diciamo che esista un'altra combinazione lineare che esprime $v$; abbiamo:
@@ -1548,8 +1590,11 @@ Scriviamo l'equazione $Ax = b$ per colonne:
 \] 
 da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazione lineare delle colonne di $A$}. Allora $b \in C\left(A\right)$, $b$ fa parte dello spazio delle colonne di $A$. 
 
-
-				\subsubsection{Teorema del rango}
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+								\subsubsection{Teorema del rango}
 				Data $f: V \to W$, con $\text{dim}V = n$, allora possiamo affermare in modo equivalente che:
 				\[
 				\text{dim}Ker(f) + \text{dim}Im(f) = \text{dim}(V)
@@ -1557,10 +1602,17 @@ da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazion
 				\[
 				N(A) + C(A) = n
 				\]
+				
+				
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
-
-
-				\subsubsection{Teorema di nullità + rango}
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+								\subsubsection{Teorema di nullità + rango}
 				Il teorema afferma che
 				\[
 				R(A) \oplus^\perp N(A) = \mathbb{R}^n
@@ -1572,6 +1624,10 @@ da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazion
 				\text{dim}N(A) + \text{rk}A = n
 				\]
 				Ovvero che la dimensione nel nullspace equivale al numero di righe nulle e quindi anche al numero di parametri liberi.
+				
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
 \begin{es}{dimostrazione}
 	Sappiamo che il nullspace è l'insieme dei vettori $\bar{x}$ che soddisfano
@@ -1619,7 +1675,7 @@ f: V \longrightarrow W
 .\] 
 che verifica le seguenti proprietà:
 \[
-f\left(0\right) = 0
+f\left(\bar{0}_{v}\right) = \bar{0}_{W}
 \] 
 \[
 f\left(x+y\right) = f\left(x\right) + f\left(y\right)
@@ -1631,22 +1687,29 @@ per ogni $x$ e  $y$ in $V$ e per ogni $\lambda$ e $\mu$ in $\mathbb{R}$.
 \end{blues}
 \end{minipage}}        
 \end{center}
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema fondamentale delle applicazioni lineari}
+				Dati $V$ e  $W$ spazi vettoriali,
+				\[
+				\mathscr{B} = \{\overline{v}_{1},\dots,\overline{v}_{n}\} \text{ base di }V
+				\] 
+				\[
+				\mathscr{C} = \{\overline{a}_{1},\dots,\overline{a}_{n}\} \text{ insieme di vettori in }W
+				.\] 
+				Allora esiste ed è \textbf{unica} l'applicazione lineare
+				\[
+				f: V \longrightarrow W \text{ t.c. }
+				\] 
+				\[
+				f\left(\overline{v}_{i}\right) = \overline{a}_{i} \quad \forall i \in \{1,\dots,n\}
+				.\] 
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
-\subsubsection{Teorema fondamentale delle applicazioni lineari}
-Dati $V$ e  $W$ spazi vettoriali,
-\[
-\mathscr{B} = \{\overline{v}_{1},\dots,\overline{v}_{n}\} \text{ base di }V
-\] 
-\[
-\mathscr{C} = \{\overline{a}_{1},\dots,\overline{a}_{n}\} \text{ insieme di vettori in }W
-.\] 
-Allora esiste ed è \textbf{unica} l'applicazione lineare
-\[
-f: V \longrightarrow W \text{ t.c. }
-\] 
-\[
-f\left(\overline{v}_{i}\right) = \overline{a}_{i} \quad \forall i \in \{1,\dots,n\}
-.\] 
 In altre parole per assegnare un'applicazione lineare tra due spazi vettoirali $V$ e $W$, di cui almeno $V$ di dimenzione finita, è sufficiente conoscere le immagini dei vettori di una vase di $V$.
 
 
@@ -1676,31 +1739,45 @@ Allora
 
 Quindi definire un'applicazione lineare tra due spazi vettoriali equivale a \textit{conoscere le immagini degli elementi di una base del dominio}.
 
-
-				\subsubsection{Teorema: Suriettivià}
-				Data l'applicazione lineare $f: V \to W$, $f$ si dice suriettiva se 
-				\[
-				\text{im}f = W
-				\]
-				o se 
-				\[
-				\text{rank}(A) = \text{dim}W
-				\]
-
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+	\subsubsection{Teorema: Suriettivià}
+Data l'applicazione lineare $f: V \to W$, $f$ si dice suriettiva se 
+\[
+\text{im}f = W
+\]
+o se 
+\[
+\text{rank}(A) = \text{dim}W
+\]
+	\end{redes}
+	\end{minipage}}        
+\end{center}
+			
 
 \noindent
 Una funzione è suriettiva se il sottospazio immagine corrisponde con il codominio, per questo non può esistere un'isola, no dai, non può esistere una funzione suriettiva del tipo $f:\mathbb{R}^2 \to \mathbb{R}^3$ (si ha che $\text{Im}f$ ha dimensione massima 2, quindi non potrà mai generare tutto $\mathbb{R}^3$).
 
 
-
-				\subsubsection{Teorema: Iniettività}
-				Data l'applicazione lineare $f: V \to W$, $f$ si dice suriettiva \textit{se l'immagine di ogni insieme libero di $V$ è un insieme libero di $W$}. \\
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+			\subsubsection{Teorema: Iniettività}
+			Data l'applicazione lineare $f: V \to W$, $f$ si dice suriettiva \textit{se l'immagine di ogni insieme libero di $V$ è un insieme libero di $W$}. \\
+			
+			Oppure se 
+			\[
+			\text{ker}f = \{\bar{0}_{V}\}
+			\]
 				
-				Oppure se 
-				\[
-				\text{ker}f = \{\bar{0}_{V}\}
-				\]
-
+				
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+				
 
 \noindent
 Mandando insiemi liberi in insiemi liberi, l'unico vettore che può essere mappato in $0$ è solo $\{\bar{0}\}$. 
@@ -1735,9 +1812,17 @@ Teorema fondamentale per comprendere meglio alcuni concetti legati al kernel:
 	\end{minipage}}        
 \end{center}
 
-
-				\subsubsection{Teorema: $f^{-1}$ è sottospazio}
-				La controimmagine $f^{-1}(\mathcal{K})$ di un sottospazio vettoriale $\mathcal{K}$ di $W$ è un sottospazio vettoriale di $V$.
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				
+			\subsubsection{Teorema: $f^{-1}$ è sottospazio}
+			La controimmagine $f^{-1}(\mathcal{K})$ di un sottospazio vettoriale $\mathcal{K}$ di $W$ è un sottospazio vettoriale di $V$.	
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+				
 
 \begin{es}{dimostrazione}
 	Dalla definizione di sottospazio vettoriale bisogna dimostrare che \textit{per ogni} $\bar{x}_{1},\bar{x}_{2} \in f^{-1}(\mathcal{K})$ e per ogni $\lambda, \mu \in \mathbb{R}$ si ha:
@@ -2104,16 +2189,24 @@ f\left(\overline{x}\right)\cdot \overline{y} = \overline{x}f\left(\overline{y}\r
 Ora che abbiamo studiato le applicazioni lineari che hanno come matrice associata una matrice simmetrica, introduciamo un teorema fondamentale.
 
 
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				
+			\subsubsection{Teorema spettrale}
+			Dato $\left(V,\cdot\right)$ euclideo e $f \in \text{End}\left(V\right)$, allora: 
+			\[
+			f \text{ autoaggiunto} \Longleftrightarrow \exists \mathcal{B} \text{ ortonormale di autovettori}
+			\]
+			In particolare:
+			\[
+			f \text{ autoaggiunto}  \quad \Rightarrow \quad f \text{diagonalizzabile}
+			.\] 	
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
-\subsubsection{Teorema spettrale}
-Dato $\left(V,\cdot\right)$ euclideo e $f \in \text{End}\left(V\right)$, allora: 
-\[
-f \text{ autoaggiunto} \Longleftrightarrow \exists \mathcal{B} \text{ ortonormale di autovettori}
-\]
-In particolare:
-\[
-f \text{ autoaggiunto}  \quad \Rightarrow \quad f \text{diagonalizzabile}
-.\] 
 
 
 \begin{es}{dimostrazione}
@@ -2309,13 +2402,135 @@ e vale
 \]
 
 \subsection{Forma quadratica}
+Una volta definito un nuovo tipo di prodotto scalare serve un nuovo concetto di \textit{norma} di un vettore $\|\bar{x}\| = \bar{x} \cdot \bar{x}$.
+	\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: Forma quadratica}
+			Data la forma bilineare $\phi \in B_{s}(V,\mathbb{R})$, l'applicazione:
+			\[
+			Q:V\to \mathbb{R}, \qquad \bar{x} \mapsto Q(\bar{x}) = \phi(\bar{x},\bar{x})
+			\]
+			si dice forma quadrata associata alla forma bilineare associata.
+			\end{blues}
+	\end{minipage}}       
+\end{center}
 
-\subsubsection{Nucleo e cono isotropo}
+E' facile notare che le forme quadratiche non sono applicazioni lineari:
+\[
+Q(\lambda\bar{x}) = \phi(\lambda\bar{x},\lambda\bar{x}) = \lambda^2Q(\bar{x})
+\]
+\[
+Q(\bar{x} + \bar{y}) = Q(\bar{x}) + 2\phi(\bar{x},\bar{y}) + Q(\bar{y})
+\]
+
+	\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: Nucleo di una forma bilineare}
+			Il nucleo di una forma bilineare è il sottospazio contenente tutti i vettori \textit{ortogonali a tutto lo spazio} rispetto a $\phi$, ovvero che annullano la forma bilineare:
+			\[
+			\phi(\bar{x},\bar{y}) = 0 \quad \forall \bar{y} \in V
+			\]
+			Quindi
+			\[
+			\text{ker}\phi = \left\{\bar{x} \in V | \phi(\bar{x},\bar{y}) = 0 \quad \forall \bar{y} \in V\right\}
+			\]
+			\end{blues}
+	\end{minipage}}       
+\end{center}
+	\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: Cono isotropo}
+				Chiamiamo cono isotropo l'insieme dei vettori \textit{ortogonali a loro stessi} rispetto a $\phi$, ovvero che annullano la forma quadratica:
+				\[
+				\phi(\bar{x},\bar{x}) = Q(x) = 0
+				\]
+				Quindi
+				\[
+				\mathcal{I}_\phi = \left\{\bar{x} \in V | Q(\bar{x}) = 0 \right\}
+				\]
+			\end{blues}
+	\end{minipage}}       
+\end{center}
+Notiamo che se un vettore è $\phi$-ortogonale a tutto lo spazio allora è anche $\phi$-ortogonale anche a se stesso; quindi il kernel di una certa forma bilineare simmetrica è sempre contenuto nel cono isotropo.
 
 \subsubsection{Classificazione forma quadratica}
+\begin{enumerate}
+	\item \textbf{Semidefinita} positiva (negativa) se $Q(\bar{x}) \geq 0 (\leq 0)$ ma esistono vettori che annullano la forma quadratica.
+	\item \textbf{Definita} positiva (negativa) se $Q(\bar{x}) \geq 0 (\leq 0), \quad Q(\bar{x}) = 0 \Longleftrightarrow \bar{x} = 0$
+	\item \textbf{Indefinita} se $Q(\bar{x})$ ha segno variabile al variare dei vettori di V.
+\end{enumerate}
 
+\noindent
+Diciamo che una forma bilineare è \textit{degenere} se il suo nucleo non è nullo.
 
+Una fbs definita positiva non può mai essere degenere, infatti:
+\[
+Q(\bar{x}) = 0 \Longleftrightarrow \bar{x} = 0
+\]
+quindi ha nucleo nullo.
 
+\subsection{Cauchy-Schwarz e Minkowski}
+Ora dobbiamo introdurre due disuguaglianze fondamentali per comprendere alcuni concetti chiave:
+
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Disuguaglianza di Cauchy-Schwarz}
+				Se una forma bilineare simmetria è definita positiva, allora vale
+				\[
+				| \phi(\bar{x},\bar{y}) | \leq \sqrt{\phi(\bar{x},\bar{x})} \sqrt{\phi(\bar{y},\bar{y})}
+				\] 
+				e quindi
+				\[
+				\left[\phi(\bar{x},\bar{y})\right]^2\leq Q(\bar{x})Q(\bar{y}), \quad \forall \bar{x},\bar{y} \in V
+				\]
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+\begin{es}{dimostrazione}
+	\[
+	Q(\lambda \bar{x}+\bar{y}) = \lambda^2Q(\bar{x}) + 2\lambda\phi(\bar{x},\bar{y}) + Q(\bar{y})
+	\]
+	Essendo $\phi(\bar{x},\bar{y})$ definita positiva si ha che $Q(x) \geq 0$. Quindi il discriminante ridotto $\left(\frac{b}{2}\right)^2 -ac$ del trinomio deve essere negativo (se lo immagina come una parabola sempre con ordinata positiva con concavità verso l'alto, questa non deve può avere intersezioni con l'asse x):
+	\[
+	\left[\phi(\bar{x},\bar{y})\right]^2\leq Q(\bar{x})Q(\bar{y})
+	\]
+\end{es}
+Si noti che se $\bar{x}$ è un vettore isotropo, quindi vale $Q(\bar{x}) = 0$, allora
+\[
+\left[\phi(\bar{x},\bar{y})\right]^2\leq 0\cdot Q(\bar{y}) \quad \to \quad \phi(\bar{x},\bar{y}) = 0
+\]
+che mostra che rispetto a forme bilineari simmetriche semidefinite positive \textit{se un vettore è isotropo, allora è anche nel nucleo}. Questo è esteso alle definite positive per le quali vale $Q(\bar{x}) = \phi(\bar{x},\bar{y}) = 0$, il nucleo e il cono isotropo coincidono nel vettore nullo. \\
+
+\noindent
+Poiché il kernel è un sottospazio vettoriale, se il cono isotropo coincide con esso anch'esso lo è. L'unico caso in cui il cono isotropo non è uno spazio vettoriale e se riferito a una forma bilineare simmetrica \textit{indefinita}.\\
+
+\noindent
+Diciamo di avere due vettori $\bar{x},\bar{y}$ isotropi:
+\[
+Q(\bar{x}) = 0, \quad Q(\bar{y}) = 0
+\]
+\[
+Q(\bar{x} + \bar{y}) = Q(\bar{x}) + 2 \phi(\bar{x},\bar{y}) + Q(\bar{y}) = 0 + 2 \phi(\bar{x},\bar{y}) + 0
+\]
+non so se il termine in $\phi$ vale zero, quindi il cono isotropo non è chiuso per la somma; lo sarebbe se $\bar{x}$ o $\bar{y}$ appartenessero al nucleo di $\phi$.
+
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Disuguaglianza di Minkowsky}
+				\[
+				\sqrt{Q(\bar{x}+\bar{y})} \leq \sqrt{Q(\bar{x})} + \sqrt{Q(\bar{y})}
+				\]
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+ 
 \subsection{Teorema di esistenza di una forma canonica}
 Data la forma bilineare simmetrica $\phi : V \times V \to \mathbb{R}$, l'obiettivo è quello di definire un buon prodotto scalare in modo che  l'endomorfismo definito da
 \[

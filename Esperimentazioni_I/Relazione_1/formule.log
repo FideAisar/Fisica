@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  7 JAN 2024 16:09
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  7 JAN 2024 23:18
  restricted system commands enabled.
 **formule.tex
 (./formule.tex
@@ -1403,10 +1403,10 @@ Package rerunfilecheck Info: File `formule.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  41199 strings out of 477259
  125027,1977958 words of node,token memory allocated
- 555 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 60 glue_spec
-, 13 attribute_list, 2 write nodes
-   avail lists: 2:254,3:86,4:27,5:216,6:27,7:1117,8:26,9:579,10:7,11:30
+ 571 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 17 attribute, 60 glue_spec
+, 17 attribute_list, 2 write nodes
+   avail lists: 2:294,3:98,4:27,5:285,6:27,7:1345,8:39,9:753,10:6,11:33
  61320 multiletter control sequences out of 65536+600000
  97 fonts using 5820295 bytes
  102i,7n,101p,721b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1417,7 +1417,7 @@ ype1/public/fourier/fourier-mlit.pfb></opt/texlive/2023/texmf-dist/fonts/type1/p
 ublic/fourier/fourier-ms.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/uto
 pia/putr8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putri8a.pf
 b>
-Output written on formule.pdf (1 page, 42814 bytes).
+Output written on formule.pdf (1 page, 45429 bytes).
 
 PDF statistics: 41 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

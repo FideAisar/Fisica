@@ -18,7 +18,7 @@
 \usepackage{attachfile}
 
 
-\title{Formule in Relazione - pendolo di Kater}
+\title{Formule Relazione - Pendolo di Kater}
 \author{Federico Cesari}
 \date{7 gennaio 2024}
 
@@ -34,7 +34,7 @@
 \bar{x} = \frac{\sum_{i=1}^{N}x_{i}}{N}
 \]
 \[
-\sigma = \sqrt{\frac{\sum_{i=1}^{N}\left(x_{i} - \bar{x}\right)}{N-1}}
+\sigma_{x} = \sqrt{\frac{\sum_{i=1}^{N}\left(x_{i} - \bar{x}\right)}{N-1}}
 \]
 
 \[
@@ -49,6 +49,10 @@ P=\frac{1}{\sigma\sqrt{2\pi}}e^{\left(-\frac{\left(x_{k}-\bar{x}\right)^2}{2\sig
 E_{k} = \frac{1}{\sigma\sqrt{2\pi}}e^{\left(-\frac{\left(x_{k}-\bar{x}\right)^2}{2\sigma^2}\right)}\Delta N
 \]
 \vspace{0.4cm}
+\[ 
+z_{\text{oss}} = \frac{| \bar{x} - \mu |}{\sigma_{\bar{x}}}
+\]
+\[ \text{p-value } = 1 - \bigg( \frac{1}{\sqrt{2\pi}} \int_{-z_{oss}}^{+ z_{oss}}e^{-\frac{-z^2}{2}} \,dz \bigg) \]
 \[
 \chi^2 = \sum_{k=1}^{n}\left(\frac{E_{k}-O_{k}}{\sigma_k}\right)^2
 \]
