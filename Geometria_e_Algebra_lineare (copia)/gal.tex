@@ -1540,6 +1540,9 @@ Un vettore rispetto a $\mathcal{B}'$ si può riscrivere come combinazione linear
 	&= \left(\textcolor{red}{k_{1}}\textcolor{myorange}{a} + \textcolor{red}{k_{2}}\textcolor{myorange}{c}\right)\bar{v}_{1} + 
 	\left(\textcolor{red}{k_{1}}\textcolor{myorange}{b} + \textcolor{red}{k_{2}}\textcolor{myorange}{d} \right)\bar{v}_{2} 
 \end{align*}
+\end{es}
+\begin{es}
+	
 Adesso possiamo riscrivere il vettore rispetto alla base di partenza $\mathcal{B}$
 \begin{align*}
 [v]_{\mathcal{B}} &= \left[\begin{array}{cc}
@@ -1646,6 +1649,17 @@ da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazion
 	Quindi $\bar{x}$ è ortogonale allo spazio delle righe (rispetto al prodotto scalare standard).
 \end{es}
 
+
+\noindent
+Il fatto che il nullspace sia ortogonale allo spazio delle righe ha ripercussioni utili nel caso di alcune applicazioni lineari. Data una funzione con matrice associata simmetrica (quindi $f$ autoagginto) si ha che il kernel è ortogonale al sottospazio immagine dell funzione.
+\[
+\text{Poiché f simmetrica si ha che } \quad R(A) = C(A) \quad \text{con } C(A) = \text{ in componenti a } Im(f) 
+\]
+Quindi
+\[
+N(A) \perp R(A) \to \text{ker}f = Im(f)^\perp
+\]
+
 \subsection{Rank}
 Possiamo definire il rango di una matrice in tre modi diversi.
 \begin{enumerate}
@@ -1653,6 +1667,11 @@ Possiamo definire il rango di una matrice in tre modi diversi.
 	\item Dimensione dello spazio delle righe o dello spazio delle colonne;
 	\item Massimo ordine di un minore non nullo della matrice.
 \end{enumerate}
+
+
+
+
+
 %% %% %%
 %% %% %%  APPLICAZIONI LINEARI
 %% %% %% 
@@ -1739,6 +1758,44 @@ Allora
 
 Quindi definire un'applicazione lineare tra due spazi vettoriali equivale a \textit{conoscere le immagini degli elementi di una base del dominio}.
 
+\subsection{Applicazioni lineari in componenti}
+Voglio vedere come si comportano le applicazioni lineari in componenti. Prendo una funzione $f: V \to W$ con basi $\mathcal{B}$ e $\mathcal{C}$ di dominio e codominio e di dimensioni $n$ e $r$. 
+\[
+\mathcal{B} = \left\{\bar{v}_{1}, \dots, \bar{v}_{n}\right\} \qquad \mathcal{C} = \left\{\bar{w}_{1},\dots,\bar{w}_{r}\right\}
+\]
+
+\noindent
+Partiamo prendendo un vettore nel dominio:
+\[
+\bar{x} \in V \qquad \left[\bar{x}\right]_{\mathcal{B}} = \left(\begin{array}{c}
+	x_{1} \\
+	\vdots \\
+	x_{n}
+\end{array}\right) \qquad \bar{x} = x_{1}\bar{v}_{1} + \dots + x_{n}\bar{v}_{n}
+\]
+ora applichiamo la trasformazione ad esso:
+\begin{align*}
+	\left[f(\bar{x})\right]_{\mathcal{C}} =& \left[f(x_{1}\bar{v}_{1} + \dots + x_{n}\bar{v}_{n})\right]_{\mathcal{C}}	\\
+							=& \left[x_{1}f(\bar{v}_{1}) + \dots + x_{n}f(\bar{v}_{n})\right]_{\mathcal{C}} \\
+							=& x_{1}\left[f(\bar{v}_{1})\right]_{\mathcal{C}} + \dots + x_{n}\left[f(\bar{v}_{n})\right]_{\mathcal{C}}
+\end{align*}
+
+\[
+= \left[\begin{array}{c|c|c}
+	& & \\
+	\left[f(\bar{v}_{1})\right]_{\mathcal{C}} & \dots & \left[f(\bar{v}_{n})\right]_{\mathcal{C}}\\
+	& &
+\end{array}\right]\left[\begin{array}{c}
+x_{1} \\ \vdots \\ x_{n}
+\end{array}\right]
+\]
+
+\[
+\left[f(\bar{x})\right]_{\mathcal{C}} = M^\mathcal{B}_{\mathcal{C}}(f)\left[\bar{x}\right]_{\mathcal{B}}
+\]
+
+
+\subsection{Suriettività e Iniettività}
 \begin{center}
 	\fboxsep11pt
 	\colorbox{myred}{\begin{minipage}{5.75in}
@@ -2531,52 +2588,185 @@ non so se il termine in $\phi$ vale zero, quindi il cono isotropo non è chiuso 
 	\end{minipage}}        
 \end{center}
  
-\subsection{Teorema di esistenza di una forma canonica}
-Data la forma bilineare simmetrica $\phi : V \times V \to \mathbb{R}$, l'obiettivo è quello di definire un buon prodotto scalare in modo che  l'endomorfismo definito da
-\[
-f(\bar{x}) \cdot \bar{y} = \phi(\bar{x},\bar{y})
-\]
-sia \textbf{autoaggiunto}. Se l'endomorfismo è autoaggiunto posso utilizzare il teorema spettrale per diagonalizzarne la matrice associata (la stessa associata a $\phi$). \\ \\
+ \begin{center}
+ 	\fboxsep11pt
+ 	\colorbox{myred}{\begin{minipage}{5.75in}
+ 			\begin{redes}{}
+ 				\subsection{Teorema di esistenza di una forma canonica}
+ 				Ogni forma bilineare simmetrica ammette una base che la mette in forma canonica.
+ 			\end{redes}
+ 	\end{minipage}}        
+ \end{center}
+\begin{es}{dimostrazione 2}
+	Poiché so che la matrice $A$ associata alla forma bilineare simmetrica è anch'essa simmetrica dal \textbf{corollario del teorema spettrale} posso trovare una matrice $P = M^{\mathcal{B'}}_{\mathcal{B}}$ ortogonale tale che 
+	\[
+	\leftindex^{t}{P}AP = A' 
+	\]
+	con $A'$ diagonale. Trovata tale $P$ possiamo dire che 
+	\[
+	M^{\mathcal{B'}}\phi = A' \quad \text{diagonale}
+	\]
+\end{es}
+
+\begin{es}{dimostrazione 2}
+	Data la forma bilineare simmetrica $\phi : V \times V \to \mathbb{R}$, l'obiettivo è quello di definire un buon prodotto scalare in modo che  l'endomorfismo definito da
+	\[
+	f(\bar{x}) \cdot \bar{y} = \phi(\bar{x},\bar{y})
+	\]
+	sia \textbf{autoaggiunto}. Se l'endomorfismo è autoaggiunto posso utilizzare il teorema spettrale per diagonalizzarne la matrice associata (la stessa associata a $\phi$). \\ \\
+	
+	\noindent
+	Prendo una base $\mathcal{B} = \{\bar{v}_{1} \dots \bar{v}_{n}\}$ e definisco due vettori nello spazio
+	\[
+	\bar{x} = x_{1}\bar{v}_{1}+ \dots +x_{n}\bar{v}_{n}
+	\]
+	\[
+	\bar{y} = y_{1}\bar{v}_{1}+ \dots +y_{n}\bar{v}_{n}
+	\]
+	Definisco ora un prodotto scalare:
+	\[
+	\bar{x} \cdot \bar{y} = x_{1}y_{1} + x_{2}y_{2} + \dots + x_{n}y_{n}
+	\]
+	Rispetto a questo prodotto scalare la nostra \textbf{base è ortonormale}. \\ \\
+	
+	
+	\noindent
+	Definisco ora l'endomorfismo $f:V\to V$ determinato univocamente da $f(\bar{v}_{i})$. Trovo le componenti di $f(\bar{v}_{i})$  facendo $f(\bar{v}_{i}) \cdot \bar{v}_{j}$ che abbiamo detto essere uguale a $\phi (\bar{v}_{i}, \bar{v}_{j})$. Si ha quindi:
+	\[
+	f(\bar{v}_{i})\cdot \bar{v}_{j} = \phi (\bar{v}_{i},\bar{v}_{j}) = \leftindex^{t}{X}AY
+	\]
+	Le componenti le esplicitiamo come:
+	\[
+	f(\bar{v}_{1})  = \phi(\bar{v}_{1},\bar{v}_{1}) \bar{v}_{1} + \dots + \phi(\bar{v}_{1},\bar{v}_{n})\bar{v}_{n}
+	\]
+	\[
+	f(\bar{v}_{2})  = \phi(\bar{v}_{2},\bar{v}_{1}) \bar{v}_{1} + \dots + \phi(\bar{v}_{2},\bar{v}_{n})\bar{v}_{n}
+	\]
+	\[
+	\vdots
+	\]
+	
+	Abbiamo quindi specificato $f$ in modo unico e vale
+	\[
+	f(\bar{x})\cdot \bar{y} = \phi(\bar{x},\bar{y}) \quad \forall \bar{x},\bar{y} 
+	\]
+	con
+	\[
+	M^\mathcal{B}(f) = \leftindex^{t}{A} = A \quad \Longrightarrow \quad f \text{ autoaggiunto} \quad \Longrightarrow \quad \exists \mathcal{B}' \text{ ortonormale di autovettori}
+	\]
+\end{es}
+
+\subsection{Forma normale}
+	\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: forma normale}
+			Diciamo  che una base $\mathcal{B}$ mette $\phi$ in forma normale se la matrice rappresentativa di $\phi$ è diagonale con solo $1$, $-1$ e $0$ sulla diagonale.
+				
+			\end{blues}
+	\end{minipage}}       
+\end{center}
 
 \noindent
-Prendo una base $\mathcal{B} = \{\bar{v}_{1} \dots \bar{v}_{n}\}$ e definisco due vettori nello spazio
-\[
-\bar{x} = x_{1}\bar{v}_{1}+ \dots +x_{n}\bar{v}_{n}
-\]
-\[
-\bar{y} = y_{1}\bar{v}_{1}+ \dots +y_{n}\bar{v}_{n}
-\]
-Definisco ora un prodotto scalare:
-\[
-\bar{x} \cdot \bar{y} = x_{1}y_{1} + x_{2}y_{2} + \dots + x_{n}y_{n}
-\]
-Rispetto a questo prodotto scalare la nostra \textbf{base è ortonormale}. \\ \\
+E' interessante notare che mettere in forma normale una $\phi$ definita positiva (quindi con solo uno sulla diagonale) vuole dire trovare una base ortonormale per il prodotto scalare.
+
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema di esistenza di una forma normale}
+				Come per la forma canonica esiste sempre una base che mette $\phi$ in forma normale.
+			\end{redes}
+	\end{minipage}}        
+\end{center}
 
 
-\noindent
-Definisco ora l'endomorfismo $f:V\to V$ determinato univocamente da $f(\bar{v}_{i})$. Trovo le componenti di $f(\bar{v}_{i})$  facendo $f(\bar{v}_{i}) \cdot \bar{v}_{j}$ che abbiamo detto essere uguale a $\phi (\bar{v}_{i}, \bar{v}_{j})$. Si ha quindi:
-\[
-f(\bar{v}_{i})\cdot \bar{v}_{j} = \phi (\bar{v}_{i},\bar{v}_{j}) = \leftindex^{t}{X}AY
-\]
-Le componenti le esplicitiamo come:
-\[
-f(\bar{v}_{1})  = \phi(\bar{v}_{1},\bar{v}_{1}) \bar{v}_{1} + \dots + \phi(\bar{v}_{1},\bar{v}_{n})\bar{v}_{n}
-\]
-\[
-f(\bar{v}_{2})  = \phi(\bar{v}_{2},\bar{v}_{1}) \bar{v}_{1} + \dots + \phi(\bar{v}_{2},\bar{v}_{n})\bar{v}_{n}
-\]
-\[
-\vdots
-\]
+\begin{es}{dimostrazione}
+	Diciamo di partire da una base $\mathcal{B} = \left\{\bar{v_{1}},\bar{v}_{2},\dots,\bar{v}_{n}\right\}$ che mette $\phi$ in forma canonica, allora sappiamo che 
+	\[
+	\phi(\bar{v_{1}},\bar{v_{1}}) = \lambda_1
+	\]
+	\[
+	\phi(\bar{v_{2}},\bar{v_{2}}) = \lambda_2
+	\]
+	\[
+	\vdots
+	\]
+	\[
+	\phi(\bar{v_{n}},\bar{v_{n}}) = \lambda_n
+	\]
+	e che i $\lambda_i$ sono gli elementi della diagonale. Il mio obiettivo è quello di trovare una base che metta solo $1$ e $-1$ al posto degli autovalori. Cerco quindi dei vettori tali che
+	\[
+	\phi(\mu\bar{ v_{j}},\mu\bar{ v_{j}}) = \pm 1
+	\]
+	Quindi dividiamo nei casi in cui gli autovalori sono positivi negativi o nulli:
+	\[
+	\lambda_i > 0 \qquad  \phi(\mu\bar{v_{i}},\mu\bar{v_{i}}) =  1 \quad \to \mu^2\phi(\bar{v_{i}},\bar{v_{i}}) =  1 \quad \to \phi(\bar{v_{i}},\bar{v_{i}}) =  \frac{1}{\mu^2}
+	\]
+	\[
+	\frac{1}{\mu^2} = \lambda_i \quad \to \mu = \frac{1}{\sqrt{\lambda_i}}
+	\]
+	\[
+	\lambda_j < 0 \qquad  \phi(\ni\bar{v_{j}},\ni\bar{v_{j}}) =  -1 \quad \to \ni^2\phi(\bar{v_{j}},\bar{v_{j}}) =  -1 \quad \to \phi(\bar{v_{j}},\bar{v_{j}}) =  \frac{-1}{\ni^2}
+	\]
+	\[
+	\frac{-1}{\ni^2} = \lambda_i \quad \to \ni = \frac{1}{\sqrt{-\lambda_i}}
+	\]
+	\[
+	\lambda_k = 0 \qquad \beta^2\phi(\bar{v}_{k},\bar{v}_{k}) = 0 \qquad \forall \beta \in \mathbb{R}
+	\]
+	
+	Abbiamo trovato quindi la base che mette $\phi$ in forma normale. Mettendo in ordine i vettori con prima quelli associati ad autovalori positivi, poi negativi e alla fine nulli:
+	\[
+	\mathcal{B}' = \left\{\frac{1}{\sqrt{\lambda_i}}\bar{v_{i}},\frac{1}{\sqrt{-\lambda_j}}\bar{v}_{j},\bar{v}_{k}\right\}
+	\]
+\end{es}
 
-Abbiamo quindi specificato $f$ in modo unico e vale
-\[
-f(\bar{x})\cdot \bar{y} = \phi(\bar{x},\bar{y}) \quad \forall \bar{x},\bar{y} 
-\]
-con
-\[
-M^\mathcal{B}(f) = \leftindex^{t}{A} = A \quad \Longrightarrow \quad f \text{ autoaggiunto} \quad \Longrightarrow \quad \exists \mathcal{B}' \text{ ortonormale di autovettori}
-\]
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema di Sylvester}
+				Definita \textbf{segnatura} la mappa $(p,q)$ con $p$ numero di autovalori positivi e $q$ numero di autovalori negativi, il teorema afferma che matrici simili hanno stessa segnatura. 
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+\begin{es}{dimostrazione}
+	Data $\mathcal{B} = \left\{\bar{v}_{1},\dots,\bar{v}_{n}\right\}$ tale che 
+	\[
+	M^{\mathcal{B}}\phi = 
+	\left[\begin{array}{ccc}
+		I_{p} & & \\
+		 & -I_{q} & \\
+		  & & 0\\
+	\end{array}\right]
+	\]
+	e in componenti rispetto a $\mathcal{B}$
+	\[
+	Q(\bar{x}) = x_{1}^2 + \dots + x_{p}^2 - x_{p+1}^2 - \dots - x_{p+q}^2 
+	\]
+	Data $\mathcal{B}' = \left\{\bar{v}'_{1},\dots,\bar{v}'_{n}\right\}$ tale che 
+	\[
+	M^{\mathcal{B}'}\phi = 
+	\left[\begin{array}{ccc}
+		I_{p'} & & \\
+		& -I_{q'} & \\
+		& & 0\\
+	\end{array}\right]
+	\]
+	e in componenti rispetto a $\mathcal{B}$
+	\[
+	Q(\bar{x}) = (x')_{1}^2 + \dots + (x')_{p'}^2 - (x')_{p'+1}^2 - \dots - (x')_{p'+q'}^2 
+	\]
+	Abbiamo $p + q = p' + q' = \text{rk}\phi$. \\
+	
+	Supponiamo ora che $\mathbf{p > p'}$ e di conseguenza $q < q'$ e definiamo due sottospazi $W_{1}$ e $W_{2}$ rispettivamente di dimensioni $p$ e $q'$ (dal teorema mi aspetto che questi sottospazi siano supplementari). \\
+	\[
+	\text{dim}W_{1} + \text{dim}W_{2} = p + (n-p') \mathbf{> n}
+	\]
+	Quindi per Grassman si ha $\text{dim}(W_{1} \cap \text{dim}W_{2}) \geq 1$ ed esiste un vettore non nullo $\bar{x} \in W_{1} \cap W_{2}$.
+\end{es}
+
 \end{document}
 
 
