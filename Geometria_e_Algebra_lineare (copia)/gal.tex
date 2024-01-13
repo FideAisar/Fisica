@@ -117,7 +117,7 @@
      Definiamo un'equazione $*$ 
      $*:x_1 - x_2 + 2x_3 = 4 \qquad \textnormal{con} \qquad x_1 = x_2 - 2x_3 + 4$  \\
      L'insieme delle soluzioni di $*$ lo indichiamo con $S_{(*)}$ 
-      $S_{(*)} = \Biggl\{\begin{pmatrix}x_2 - 2x_3 + 4 x_2  x_3 \end{pmatrix}: x_2, x_3 \in \mathbb{R}\Biggl\} $ 
+      $S_{(*)} = \Biggl\{\begin{pmatrix}x_2 - 2x_3 + 4 x_2 \\ x_3 \end{pmatrix}: x_2, x_3 \in \mathbb{R}\Biggl\} $ 
       In cui $x_2$ e $x_3$ sono i parametri liberi che variano.
  \end{es}
 
@@ -125,7 +125,7 @@
      Utilizzando un'altra equazione $*$ 
      $*: 2x - 3y = 0$  \\
      L'insieme delle sue soluzioni sarà: 
-     $S_{(*)} = \Biggl\{\begin{pmatrix}x  y \end{pmatrix}: x,y \in \mathbb{R}\Biggl\} $ 
+     $S_{(*)} = \Biggl\{\begin{pmatrix}x \\ y \end{pmatrix}: x,y \in \mathbb{R}\Biggl\} $ 
      oppure tramite un parametro $t$ per il quale $\begin{cases}x=ty=\frac{2}{3}t ,\quad t \in \mathbb{R}\end{cases}$ 
       $S_{(*)} = \biggl\{(t,\frac{2}{3}t): t \in \mathbb{R}\biggl\} $
  \end{es}
@@ -134,7 +134,7 @@
  Definiamo invece un \textit{sistema lineare} di $r$ equazioni lineari in $n$ incognite $x_1, x_2 \dots x_n$ una struttura del tipo:
 
  $$ 
- {\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots +a_{1n}x_{n}=b_{1}\\a_{2,1}x_{1}+a_{22}x_{2}+\cdots +a_{2n}x_{n}=b_{2}\\\vdots a_{r1}x_{1}+a_{r2}x_{2}+\cdots +a_{rn}x_{n}=b_{r}\end{cases}} 
+ {\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\cdots +a_{1n}x_{n}=b_{1}\\a_{2,1}x_{1}+a_{22}x_{2}+ \cdots +a_{2n}x_{n}=b_{2}\\ \vdots \\ a_{r1}x_{1}+a_{r2}x_{2}+\cdots +a_{rn}x_{n}=b_{r}\end{cases}} 
  $$
  i coefficienti sono espressi nella forma $a_{ij}$ per agevolarne il riconoscimento all'interno del sistema. Il  pedice $i$ indica l'indice di riga, il pedice $j$ è l'indice di colonna. I termini noti $b$ presentandosi una sola volta per riga hanno solo l'indice di riga.
  Se i termini noti sono tutti nulli il sistema si dirà \textbf{\textit{omogeneo}}
@@ -1841,7 +1841,6 @@ Mandando insiemi liberi in insiemi liberi, l'unico vettore che può essere mappa
 
 \subsubsection{Isomorfismo e automorfismo}
 
-
 Con $\text{dim}V = \text{ dim}W \qquad f \text{ iniettiva se e solo se } f \text{ suriettiva}.$
 
 \begin{enumerate}
@@ -1850,6 +1849,18 @@ Con $\text{dim}V = \text{ dim}W \qquad f \text{ iniettiva se e solo se } f \text
 \end{enumerate}
 
 Se invece prendiamo un endomorfismo $f: V \to V$
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: Automorfismo}
+				Un endomorfismo \textbf{anche biettivo} (quindi isomorfismo) lo chiamiamo \textbf{automorfismo}. Dato $f: V \rightarrow V$ posso associare a  $f$ la matrice rappresentativa $M^\mathscr{B}\left(f\right)$.
+				\[
+				f \text{ automorfismo} \quad \Longleftrightarrow \quad  M^\mathscr{B}\left(f\right) \text{ invertibile} \quad \Longleftrightarrow \quad \text{det}M^{\mathscr{B}}\left(f\right) \neq 0
+				\] 
+			\end{blues}
+	\end{minipage}}        
+\end{center}
+
 \begin{enumerate}
 	\item $f$ è un \textbf{automorfismo} $\Longleftrightarrow$ $\text{ker}f = \{\bar{0}_{V}\}$
 	\item $f$ è un \textbf{automorfismo} $\Longleftrightarrow$ $\text{Im}f = V$
@@ -1916,19 +1927,6 @@ Il fatto che il kernel sia un sottospazio deriva proprio dal teorema precedente.
 %% %% %% 
 \newpage
 \section{Autovettori, autovalori}
-\subsection{Automorfismi e sottospazi invarianti}
-
-\begin{center}
-\fboxsep11pt
-\colorbox{myblue}{\begin{minipage}{5.75in}
-\begin{blues}{Definizione: Automorfismo}
-Un endomorfismo \textbf{anche biettivo} (quindi isomorfismo) lo chiamiamo \textbf{automorfismo}. Dato $f: V \rightarrow V$ posso associare a  $f$ la matrice rappresentativa $M^\mathscr{B}\left(f\right)$.
-\[
-f \text{ automorfismo} \quad \Longleftrightarrow \quad  M^\mathscr{B}\left(f\right) \text{ invertibile} \quad \Longleftrightarrow \quad \text{det}M^{\mathscr{B}}\left(f\right) \neq 0
-\] 
-\end{blues}
-\end{minipage}}        
-\end{center}
 
 
 

@@ -59,26 +59,25 @@
 \contentsline {subsubsection}{Isomorfismo e automorfismo}{29}{section*.40}%
 \contentsline {subsection}{\numberline {5.3}Controimmagine}{29}{subsection.5.3}%
 \contentsline {subsubsection}{Teorema: $f^{-1}$ è sottospazio}{29}{section*.41}%
-\contentsline {subsubsection}{Nucleo}{29}{section*.42}%
-\contentsline {section}{\numberline {6}Autovettori, autovalori}{30}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Automorfismi e sottospazi invarianti}{30}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Autovettori e autovalori}{30}{subsection.6.2}%
-\contentsline {paragraph}{Un altro punto di vista}{31}{section*.43}%
-\contentsline {paragraph}{Autospazi}{31}{section*.44}%
+\contentsline {subsubsection}{Nucleo}{30}{section*.42}%
+\contentsline {section}{\numberline {6}Autovettori, autovalori}{31}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Autovettori e autovalori}{31}{subsection.6.1}%
+\contentsline {paragraph}{Un altro punto di vista}{32}{section*.43}%
+\contentsline {paragraph}{Autospazi}{32}{section*.44}%
 \contentsline {paragraph}{Teorema}{32}{section*.45}%
-\contentsline {section}{\numberline {7}Diagonalizzazione}{32}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Criteri di diagonalizzabilità}{32}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{34}{subsection.7.2}%
-\contentsline {subsubsection}{Teorema spettrale}{34}{section*.46}%
-\contentsline {paragraph}{Corollario}{36}{section*.47}%
-\contentsline {section}{\numberline {8}Forme bilineari}{37}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Matrice associata alla FBS}{37}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Forma quadratica}{37}{subsection.8.2}%
-\contentsline {subsubsection}{Classificazione forma quadratica}{38}{section*.48}%
-\contentsline {subsection}{\numberline {8.3}Cauchy-Schwarz e Minkowski}{38}{subsection.8.3}%
-\contentsline {subsubsection}{Disuguaglianza di Cauchy-Schwarz}{38}{section*.49}%
-\contentsline {subsubsection}{Disuguaglianza di Minkowsky}{39}{section*.50}%
-\contentsline {subsection}{\numberline {8.4}Teorema di esistenza di una forma canonica}{39}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Forma normale}{40}{subsection.8.5}%
-\contentsline {subsubsection}{Teorema di esistenza di una forma normale}{40}{section*.51}%
-\contentsline {subsubsection}{Teorema di Sylvester}{41}{section*.52}%
+\contentsline {section}{\numberline {7}Diagonalizzazione}{33}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Criteri di diagonalizzabilità}{33}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{35}{subsection.7.2}%
+\contentsline {subsubsection}{Teorema spettrale}{35}{section*.46}%
+\contentsline {paragraph}{Corollario}{37}{section*.47}%
+\contentsline {section}{\numberline {8}Forme bilineari}{38}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Matrice associata alla FBS}{38}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Forma quadratica}{38}{subsection.8.2}%
+\contentsline {subsubsection}{Classificazione forma quadratica}{39}{section*.48}%
+\contentsline {subsection}{\numberline {8.3}Cauchy-Schwarz e Minkowski}{39}{subsection.8.3}%
+\contentsline {subsubsection}{Disuguaglianza di Cauchy-Schwarz}{39}{section*.49}%
+\contentsline {subsubsection}{Disuguaglianza di Minkowsky}{40}{section*.50}%
+\contentsline {subsection}{\numberline {8.4}Teorema di esistenza di una forma canonica}{40}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Forma normale}{41}{subsection.8.5}%
+\contentsline {subsubsection}{Teorema di esistenza di una forma normale}{41}{section*.51}%
+\contentsline {subsubsection}{Teorema di Sylvester}{42}{section*.52}%
