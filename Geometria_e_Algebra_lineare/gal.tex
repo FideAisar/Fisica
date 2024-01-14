@@ -361,7 +361,8 @@ Sappiamo che $r_2$ di $B'$ comincia con almeno uno zero, $r_3$ con almeno 2 zeri
 \quad \Rightarrow \quad R_{j} \text{è tutta di zeri} \forall j \geq n + 1
 \]
 Se il rango è il numero di righe non nulle, e le righe dalla $n+1$ in poi sono tutte nulle, allora il rango è sicuramente minore o uguale a $n$. 
-\QEDA
+\\
+\QEDB
 \end{es}
 
 
@@ -592,21 +593,24 @@ $$
 \end{vmatrix}
 = - a_{22}a_{11} + a_{21}a_{12}
 $$
-\QEDA
+
+\QEDB
 \end{es}
 \begin{es}{dimostrazione determinante (5a)}
     Operando su una matrice $A$ e la rendo $A'$ a scala triangolare superiore. So allora che $det(A')=\lambda \cdot det(A)$ e $det(A) \neq 0 \Leftrightarrow det(A') \neq 0$.
     Quindi $a'_{ij} \neq 0 \quad \forall j \in \{1,\dots,n\}$.
 
     Cioè $A'$ ha $n$ righe non nulle, quindi $rk(A') = n$.
-\QEDA
+
+\QEDB
 \end{es}
 \begin{es}{dimostrazione determinante (8)} 
 Per il teorema di Binet:
 $$
 AA^{-1} = I \qquad A^{-1} = \frac{I}{A} \qquad det(A^{-1}) = det(\frac{I}{A}) = \frac{1}{det(A)}
 $$
-\QEDA
+
+\QEDB
 \end{es}
 
 
@@ -733,7 +737,9 @@ XAX = \begin{array}{c}
     \rightarrow
     XA = AX'
 $$
-Abbiamo dimostrato che se esiste una $X$ inversa a sinistra per $A$ ed esiste una $X' $ inversa a esa per $A$, allora $X=X'$ e quindi $A$ è invertibile e X è la sua inversa.
+Abbiamo dimostrato che se esiste una $X$ inversa a sinistra per $A$ ed esiste una $X' $ inversa a esa per $A$, allora $X=X'$ e quindi $A$ è invertibile e X è la sua inversa. 
+
+\QEDB
 \end{es}
 \begin{es}{dimostrazione (2)}
 Vedo se la candidata ad inversa $B^{-1}A^{-1}$ soddisfa le proprietà richieste:
@@ -743,7 +749,7 @@ $$
 $$
 AB(B^{-1}A^{-1})= \dots = I
 $$
-\QEDA
+\QEDB
 \end{es}
 
 \begin{center}
@@ -778,7 +784,8 @@ A \cdot \text{adj}A = \begin{bmatrix}
 = \text{det}A \cdot I
 \]
 Possiamo notare quindi che dopo le opportune operazioni ci si riconduce alla formula iniziale.
-\QEDA
+\\
+\QEDB
 \end{es}
 
 
@@ -980,6 +987,8 @@ Quindi:
 \[
 p = \frac{u\cdot a}{\|a\|^2}a
 .\] 
+
+\QEDB
 \end{es}
 
 \begin{center}
@@ -1195,7 +1204,7 @@ Prendiamo due vettori $\overline{x}$ e $\overline{y}$ entrambi $\in W_1 + W_2$:
 \begin{align*}
 	\left(\cdot\right) \Rightarrow \quad \lambda\left(\overline{x}+\overline{y}\right) &= \lambda \overline{x}_{1} + \lambda \overline{x}_{2} + \lambda \overline{y}_{1} + \lambda \overline{y}_{2} \\
 						      &= \lambda\left(\overline{x}_{1} + \overline{y}_{1}\right) + \lambda\left(\overline{x}_{2}+\overline{y}_{2}\right) \quad \Rightarrow \quad \in W_1 + W_2
-\end{align*}
+\end{align*}  \QEDB
 \end{es}
 
 
@@ -1244,8 +1253,7 @@ x \in W_1 + W_2
 .\] 
 \[
 \overline{x} = \overline{x}_{1} \textcolor{red}{+\overline{z}} + \overline{x}_{2} \textcolor{red}{-\overline{z}}
-.\] 
-\QEDA
+.\]  \QEDB
 \end{es}
 
 
@@ -1388,7 +1396,7 @@ c_1 - k_1 = c_2 - k_2 = \dots = c_{n} -k_{n} = 0
 \] 
 \[
 c_i = k_{i} \quad \forall i \in {1,\dots,n}
-.\] 
+.\] \QEDB
 \end{es}
 
 
@@ -1429,7 +1437,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 		\bar{w}_{n+1} \in V \quad \Longrightarrow \quad \bar{w}_{n+1}  = \lambda_{1}\bar{w}_{1} + \dots + \lambda_{n}\bar{w_{n}}
 		\]
 		\textbf{assurdo} poiché $\{\bar{w}_{1} + \dots + \bar{w}_{n+1}\} \subseteqq \mathcal{I}$ che ha dimensione $p \leq n$.
-	\end{enumerate}
+	\end{enumerate} \QEDB
 \end{es}
 
 
@@ -1464,7 +1472,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 	Portiamo a destra dell'uguale la parte appartenente a $W_{2}$ e chiamiamola $c$:
 	\[
 	\alpha a_{1},\dots + \alpha a_{k} + \beta b_{k+1} + \dots + \beta b_{l} = -\gamma c_{k+1} -\dots -\gamma c_{p} = c
-	\]
+	\] \QEDB
 \end{es}
 \begin{es}{}
 	Da questa equazione vediamo che $c$ è contenuto sia in $W_{1}$ sia in $W_{2}$, allora si può scrivere come combinazione lineare dei generatori di $W_{1} \cap W_{2}$:
@@ -1647,6 +1655,8 @@ da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazion
 	\quad \to \quad R_{j} \cdot \bar{x} = \bar{0} 
 	\]
 	Quindi $\bar{x}$ è ortogonale allo spazio delle righe (rispetto al prodotto scalare standard).
+	\\
+	\QEDB
 \end{es}
 
 
@@ -1752,7 +1762,7 @@ Allora
 \begin{itemize}
 	\item $f$ è lineare: $\quad f\left(\lambda \overline{x} + \mu \overline{y}\right) = \lambda f\left(\overline{x}\right) + \mu f\left(\overline{y}\right)$.
 	\item $f\left(\overline{v}_{i}\right) = \overline{a}_{i} \quad \forall i$
-\end{itemize}
+\end{itemize} \QEDB
 \end{es}
 
 
@@ -1906,6 +1916,8 @@ Teorema fondamentale per comprendere meglio alcuni concetti legati al kernel:
 	f\left(\bar{x}_{1} + \mu \bar{x}_{2}\right) = \lambda f\left(\bar{x}_{1}\right) + \mu f\left(\bar{x}_{2}\right)
 	\]
 	Poiché $\mathcal{K}$ è sottospazio vettoriale l'ultima uguaglianza vale ed è contenuta in esso; allora abbiamo dimostrato la tesi.
+	\\
+	\QEDB
 \end{es}
 
 \subsubsection{Nucleo}
@@ -1941,6 +1953,13 @@ Un sottospazio invariante è, per esempio, un \textit{autospazio}; infatti i vet
 \end{minipage}}        
 \end{center}
 
+\noindent
+Sono sempre sottospazi invarianti:
+\begin{enumerate}
+	\item Il sottospazio immagine $\text{Im}(f)$;
+	\item Il nucleo $\text{ker}(f)$;
+	\item Gli autospazi $V_{\lambda_i}$.
+\end{enumerate}
 
 
 
@@ -2068,6 +2087,8 @@ Ora tenendo a mente che l'obiettivo è dimostrare che la molteplicità geometric
 = \left(\lambda_{0} - \lambda\right)^{k}\left(C-\lambda I\right) = 0
 \] 
 L'ultima uguaglianza conferma che la molteplcità algebrica di $\lambda_{o}$ sia almeno uguale a $k$.
+\\
+\QEDB
 \end{es}
 
 
@@ -2181,6 +2202,8 @@ Le prime righe (contrassegnate da $m_1$ ) sono nulle, quindi il rank della matri
 \[
 \Longrightarrow \text{m}_{\text{g}}\left(\lambda_{1}\right) = \text{m}_{\text{a}}\left(\lambda_{1}\right) = m_1
 \] 
+\\
+\QEDB
 \end{es}
 
 \begin{es}{dimostrazione $2 \Rightarrow 3$}
@@ -2201,7 +2224,7 @@ m_1 + m_2 + \dots + m_{k} = \text{dim}V
 \]
 \[
 \Longrightarrow \text{dim}\left(V_{\lambda_{1}}\right) + \dots + \text{dim}\left(V_{\lambda_{k}}\right) = \text{dim}V
-.\] 
+.\]  \QEDB
 \end{es}
 
 \begin{es}{dimostrazione: $3 \Rightarrow 4$}
@@ -2209,6 +2232,8 @@ m_1 + m_2 + \dots + m_{k} = \text{dim}V
 \text{dim}\left(V_{\lambda_{1}} \oplus \dots \oplus V_{\lambda_{k}}\right) = \text{dim}\left(V_{\lambda_{1}}\right) + \dots + \text{dim}V_{\lambda_{k}} = \text{dim}V
 \] 
 Sappiamo infatti che $V_{\lambda_{1}} \oplus \dots \oplus V_{\lambda_{k}}$ è un sottospazio di $V$ con la stessa dimensione.
+\\
+\QEDB
 \end{es}
 
 \begin{es}{dimostrazione $4 \Rightarrow 1$}
@@ -2229,6 +2254,8 @@ Sappiamo che $B$ base di V si ottiene unendo tutte le basi $B_1, \dots, B_{k}$ d
 B = B_1 \cup \dots \cup B_{k}
 \]
 $B$ è fatta da autovettori, quindi $f$ diagonalizzabile.
+\\
+\QEDB
 \end{es}
 
 
@@ -2265,7 +2292,7 @@ Presa una funzione $f \in \text{End}(V)$ con $\left(V,\cdot\right)$ Euclideo, so
 	Allora si ha che
 	\[
 	\text{i-esima componente di } f(\bar{v}_{j}) \qquad f(\bar{v}_{j}) \cdot \bar{v}_{i} = \bar{v}_{j} \cdot f(\bar{v}_{i}) \qquad \text{j-esima componente di } f(\bar{v}_{i})
-	\]
+	\] \QEDB
 \end{es}
 
 \noindent
@@ -2354,6 +2381,7 @@ Prendo due vettori appartenenti a due autospazi diversi:
 \[
 (\lambda - \mu)\bar{x} \cdot \bar{y} = 0 \Longleftrightarrow \bar{x} \cdot \bar{y} = 0
 \]
+\\
 \end{es}
 \begin{es}{}
 $3) \quad$ \textit{Gli autospazi sono in somma diretta-ortogonale}.
@@ -2384,6 +2412,8 @@ $\forall\bar{x},\bar{y} \in W^\perp \quad$ $f|_{W^\perp}$ è \textbf{autoaggiunt
 \exists \bar{x} \in W^\perp, \exists \lambda \in \mathbb{R} \quad \text{t.c.} \quad f(\bar{x}) = \lambda \bar{x}
 \]
 Questo ci dice che esistono autovettori $\bar{x} \in W^\perp$ e che quindi $W^\perp$ deve essere contenuto in $W$ insieme che contiene tutti gli autospazi, vero solo se $W^\perp = {\bar{0}}$ e quindi $W = V$.
+\\
+\QEDB
 \end{es}
 
 
@@ -2424,6 +2454,8 @@ Dato l'endomorfismo $f: V \longrightarrow V$ con  $\left(V,\cdot\right)$ euclide
 	\leftindex^t{X}\leftindex^t{A}Y = \leftindex^t{X}AY
 	.\] 
 	dalla quale risulta che $A = \leftindex^t{A}$.
+	\\
+	\QEDB
 \end{es}
 
 
@@ -2580,7 +2612,7 @@ Ora dobbiamo introdurre due disuguaglianze fondamentali per comprendere alcuni c
 	Essendo $\phi(\bar{x},\bar{y})$ definita positiva si ha che $Q(x) \geq 0$. Quindi il discriminante ridotto $\left(\frac{b}{2}\right)^2 -ac$ del trinomio deve essere negativo (se lo immagina come una parabola sempre con ordinata positiva con concavità verso l'alto, questa non deve può avere intersezioni con l'asse x):
 	\[
 	\left[\phi(\bar{x},\bar{y})\right]^2\leq Q(\bar{x})Q(\bar{y})
-	\]
+	\] \QEDB
 \end{es}
 Si noti che se $\bar{x}$ è un vettore isotropo, quindi vale $Q(\bar{x}) = 0$, allora
 \[
@@ -2630,7 +2662,7 @@ non so se il termine in $\phi$ vale zero, quindi il cono isotropo non è chiuso 
 	con $A'$ diagonale. Trovata tale $P$ possiamo dire che 
 	\[
 	M^{\mathcal{B'}}\phi = A' \quad \text{diagonale}
-	\]
+	\] \QEDB
 \end{es}
 
 \begin{es}{dimostrazione 2}
@@ -2679,6 +2711,8 @@ non so se il termine in $\phi$ vale zero, quindi il cono isotropo non è chiuso 
 	\[
 	M^\mathcal{B}(f) = \leftindex^{t}{A} = A \quad \Longrightarrow \quad f \text{ autoaggiunto} \quad \Longrightarrow \quad \exists \mathcal{B}' \text{ ortonormale di autovettori}
 	\]
+	\\
+	\QEDB
 \end{es}
 
 \subsection{Forma normale}
@@ -2745,6 +2779,8 @@ E' interessante notare che mettere in forma normale una $\phi$ definita positiva
 	\[
 	\mathcal{B}' = \left\{\frac{1}{\sqrt{\lambda_i}}\bar{v_{i}},\frac{1}{\sqrt{-\lambda_j}}\bar{v}_{j},\bar{v}_{k}\right\}
 	\]
+	\\
+	\QEDB
 \end{es}
 
 \begin{center}
@@ -2790,6 +2826,8 @@ E' interessante notare che mettere in forma normale una $\phi$ definita positiva
 	\text{dim}W_{1} + \text{dim}W_{2} = p + (n-p') \mathbf{> n}
 	\]
 	Quindi per Grassman si ha $\text{dim}(W_{1} \cap \text{dim}W_{2}) \geq 1$ ed esiste un vettore non nullo $\bar{x} \in W_{1} \cap W_{2}$.
+	\\
+	\QEDB
 \end{es}
 
 \end{document}

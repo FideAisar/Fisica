@@ -11,13 +11,13 @@
 \contentsline {subsubsection}{Calcolo del determinante}{9}{section*.10}%
 \contentsline {subsubsection}{Come cambia il determinante dopo le 3 mosse?}{9}{section*.11}%
 \contentsline {paragraph}{osservazioni su matrici inverse}{10}{section*.12}%
-\contentsline {subsection}{\numberline {2.3}Teoremi di Laplace}{10}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Teoremi di Laplace}{11}{subsection.2.3}%
 \contentsline {subsubsection}{Primo Teorema di Laplace}{11}{section*.13}%
 \contentsline {subsubsection}{Secondo Teorema di Laplace}{11}{section*.14}%
 \contentsline {subsection}{\numberline {2.4}Matrici inverse}{11}{subsection.2.4}%
 \contentsline {subsubsection}{Teorema: matrice inversa}{12}{section*.16}%
 \contentsline {subsubsection}{Calcolo della matrice inversa 1}{12}{section*.17}%
-\contentsline {subsubsection}{Calcolo della matrice inversa 2}{12}{section*.18}%
+\contentsline {subsubsection}{Calcolo della matrice inversa 2}{13}{section*.18}%
 \contentsline {subsection}{\numberline {2.5}Teorema di Cramer}{13}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Prodotto scalare e vettoriale}{14}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Proprietà del prodotto scalare}{14}{subsection.3.1}%
