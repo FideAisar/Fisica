@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  13 JAN 2024 19:56
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  14 JAN 2024 15:14
  restricted system commands enabled.
 **gal.tex
 (./gal.tex
@@ -2178,7 +2178,7 @@ line 56.
 (luatex.def)             Requested size: 133.7678pt x 101.6102pt.
 )
 Package svg Info: Last page of `./svg-inkscape/matriceblu_svg-tex.pdf' is 1 on 
-input line 2146.
+input line 2152.
 
 (./svg-inkscape/matriceblu_svg-tex.pdf_tex
 <./svg-inkscape/matriceblu_svg-tex.pdf, id=622, page=1, 256.14406pt x 105.7417p
@@ -2189,12 +2189,12 @@ Package luatex.def Info: ./svg-inkscape/matriceblu_svg-tex.pdf , page1 used on
 input line 56.
 (luatex.def)             Requested size: 179.30003pt x 74.01866pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 2155--2157
+Underfull \hbox (badness 10000) in paragraph at lines 2161--2163
 
  []
 
 Package svg Info: Last page of `./svg-inkscape/matricelunga_svg-tex.pdf' is 1 o
-n input line 2167.
+n input line 2173.
 (./svg-inkscape/matricelunga_svg-tex.pdf_tex
 <./svg-inkscape/matricelunga_svg-tex.pdf, id=624, page=1, 420.68227pt x 187.102
 51pt>
@@ -2205,52 +2205,52 @@ n input line 56.
 (luatex.def)             Requested size: 294.47629pt x 130.97656pt.
 ) [33<./svg-inkscape/quad_svg-tex.pdf>] [34<./svg-inkscape/matriceblu_svg-tex.pd
 f><./svg-inkscape/matricelunga_svg-tex.pdf>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2240--2241
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2249--2250
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2262--2263
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2289--2290
  [][][][][][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2344--2346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2344--2346
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 2371--2373
 
  []
 
-[35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 2384--2385
+
+Underfull \hbox (badness 10000) in paragraph at lines 2371--2373
 
  []
 
-[37]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2420--2421
- [][][][][][] 
- []
+[36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 2411--2412
 
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2471--2472
- [][][][][][] 
  []
 
 [38]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2495--2496
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2447--2448
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2510--2511
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2498--2499
+ [][][][][][] 
+ []
+
+[39]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2522--2523
  [][][][][][] 
  []
 
 
-Overfull \hbox (4.40247pt too wide) in paragraph at lines 2516--2517
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2537--2538
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (4.40247pt too wide) in paragraph at lines 2543--2544
 []\T1/futs/b/n/10 Semidefinita \T1/futs/m/n/10 pos-i-tiva (neg-a-tiva) se $\FML
 /futmi/m/it/10 Q\T1/futs/m/n/10 ([]) \FMS/futm/m/n/10  \T1/futs/m/n/10 0(\FMS/
 futm/m/n/10  \T1/futs/m/n/10 0)$ ma es-istono vet-tori che an-nul-lano la forma
@@ -2258,82 +2258,82 @@ futm/m/n/10  \T1/futs/m/n/10 0)$ ma es-istono vet-tori che an-nul-lano la forma
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2547--2548
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2574--2575
  [][][][][][] 
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 2561--2563
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2564--2566
-
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2586--2587
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2596--2597
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2615
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2615
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2627--2629
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2627--2629
-
  []
 
 [40]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2665--2666
+Underfull \hbox (badness 10000) in paragraph at lines 2588--2590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2591--2593
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2613--2614
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2678--2679
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2623--2624
  [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2640--2642
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2640--2642
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2654--2656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2654--2656
+
  []
 
 [41]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2730--2731
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2692--2693
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2758--2760
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2705--2706
+ [][][][][][] 
+ []
+
+[42]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2757--2758
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2785--2787
 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 2761.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 2788.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 2761.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 2788.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 2761.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 2788.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2761--2762
+Underfull \hbox (badness 10000) in paragraph at lines 2788--2789
 
  []
 
-[42] [43] (./gal.aux)
+[43] [44] (./gal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -2343,14 +2343,14 @@ Package rerunfilecheck Info: File `gal.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 52430 strings out of 477259
+ 52436 strings out of 477259
  125027,2373549 words of node,token memory allocated
- 2806 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 163 sub_mlist, 1 glyph, 450 attribu
-te, 61 glue_spec, 450 attribute_list, 2 write nodes
-   avail lists: 2:3025,3:1309,4:212,5:883,6:170,7:7308,8:141,9:1318,10:21,11:369
+ 2822 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 163 sub_mlist, 1 glyph, 454 attribu
+te, 61 glue_spec, 454 attribute_list, 2 write nodes
+   avail lists: 2:2502,3:1150,4:212,5:884,6:170,7:7308,8:141,9:1315,10:21,11:369
 
- 71919 multiletter control sequences out of 65536+600000
+ 71921 multiletter control sequences out of 65536+600000
  97 fonts using 5862191 bytes
  117i,17n,104p,717b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}</opt/texlive/2023/tex
@@ -2365,10 +2365,10 @@ pt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></opt/texlive/20
 23/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></opt/texlive/2023/texmf-dist/
 fonts/type1/adobe/utopia/putri8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/p
 ublic/rsfs/rsfs10.pfb>
-Output written on gal.pdf (44 pages, 868459 bytes).
+Output written on gal.pdf (45 pages, 871304 bytes).
 
-PDF statistics: 744 PDF objects out of 1000 (max. 8388607)
- 645 compressed objects within 7 object streams
- 197 named destinations out of 1000 (max. 131072)
+PDF statistics: 751 PDF objects out of 1000 (max. 8388607)
+ 651 compressed objects within 7 object streams
+ 201 named destinations out of 1000 (max. 131072)
  608 words of extra memory for PDF output out of 10000 (max. 100000000)
 

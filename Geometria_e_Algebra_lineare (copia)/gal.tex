@@ -2127,6 +2127,12 @@ Diremo che $A'$ è  \textbf{simile} a $A$. Le matrici simili condividono molte c
 \end{enumerate}
 
 \noindent
+Altre caratteristiche delle matrici simili sono meno evidenti; per comprenderle a pieno è bene ricordarsi che queste sono rappresentazioni della \textbf{stessa trasformazione lineare} solo rispetto una base differente. Questo vuole dire che matrici simili \textbf{preservano anche la struttura degli autospazi} che avranno quindi stesse dimensioni, proprio perché le due matrici rappresentano la stessa applicazione lineare. Se chiamiamo $\bar{v}$ gli autospazi rispetto alla matrice associata $A$ e $\bar{v}'$ gli autospazi rispetto alla matrice associata $P^{-1}AP = A'$, allora si ha che 
+\[
+\bar{v}' = P\bar{v}
+\]
+
+\noindent
 Allo scopo di diagonalizzare una matrice le matrici simili sono essenziali, infatti, una matrice quadrata $A$ si dice \textbf{diagonalizzabile} se è simile a un'altra matrice diagonale.
 
 \subsection{Criteri di diagonalizzabilità}
@@ -2234,15 +2240,36 @@ $B$ è fatta da autovettori, quindi $f$ diagonalizzabile.
 \colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: Endomorfismo autoaggiunto}
 Chiamiamo \textbf{autoaggiunto} l'endomorfismo  nel qual vale:\[
-f\left(\overline{x}\right)\cdot \overline{y} = \overline{x}f\left(\overline{y}\right) \qquad \forall\overline{x},\overline{y} \in V
+f\left(\bar{x}\right)\cdot \bar{y} = \bar{x}f\left(\bar{y}\right) \qquad \forall\bar{x},\bar{y} \in V
 \] 
+\[
+a_{ij} = a_{ji}
+\]
 \end{blues}
 \end{minipage}}        
 \end{center}
 
+\noindent
+Presa una funzione $f \in \text{End}(V)$ con $\left(V,\cdot\right)$ Euclideo, sono equivalenti
+\begin{enumerate}
+	\item $f$ autoaggiunta;
+	\item $\forall \mathcal{B}$ ortonormale $M^\mathcal{B}(f)$ è \textbf{simmetrica};
+	\item $\exists \mathcal{B}$ ortonormale t.c. $M^\mathcal{B}(f)$ è \textbf{simmetrica}.
+\end{enumerate}
 
-Ora che abbiamo studiato le applicazioni lineari che hanno come matrice associata una matrice simmetrica, introduciamo un teorema fondamentale.
+\begin{es}{dimostrazione $1 \Longrightarrow 2$}
+	In $(V,\cdot)$ euclideo prendiamo una base ortonormale $\mathcal{B} = \left\{\bar{v}_{1},\bar{v}_{2},\dots,\bar{v}_{n}\right\}$. Notiamo che il pro dotto scalare tra un qualsiasi vettore di $V$ con un vettore j-esimo della base restituirà la componente j-esima del vettore:
+	\[
+	\bar{u} \cdot \bar{v}_{j} = u_{j}
+	\]
+	Allora si ha che
+	\[
+	\text{i-esima componente di } f(\bar{v}_{j}) \qquad f(\bar{v}_{j}) \cdot \bar{v}_{i} = \bar{v}_{j} \cdot f(\bar{v}_{i}) \qquad \text{j-esima componente di } f(\bar{v}_{i})
+	\]
+\end{es}
 
+\noindent
+E' importante notare che gli autospazi associati a un'applicazione lineare autoaggiunta sono \textbf{ortogonali} tra loro.
 
 \begin{center}
 	\fboxsep11pt

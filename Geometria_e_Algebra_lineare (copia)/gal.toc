@@ -68,16 +68,16 @@
 \contentsline {section}{\numberline {7}Diagonalizzazione}{33}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Criteri di diagonalizzabilità}{33}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{35}{subsection.7.2}%
-\contentsline {subsubsection}{Teorema spettrale}{35}{section*.46}%
-\contentsline {paragraph}{Corollario}{37}{section*.47}%
-\contentsline {section}{\numberline {8}Forme bilineari}{38}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Matrice associata alla FBS}{38}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Forma quadratica}{38}{subsection.8.2}%
-\contentsline {subsubsection}{Classificazione forma quadratica}{39}{section*.48}%
-\contentsline {subsection}{\numberline {8.3}Cauchy-Schwarz e Minkowski}{39}{subsection.8.3}%
-\contentsline {subsubsection}{Disuguaglianza di Cauchy-Schwarz}{39}{section*.49}%
-\contentsline {subsubsection}{Disuguaglianza di Minkowsky}{40}{section*.50}%
-\contentsline {subsection}{\numberline {8.4}Teorema di esistenza di una forma canonica}{40}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Forma normale}{41}{subsection.8.5}%
-\contentsline {subsubsection}{Teorema di esistenza di una forma normale}{41}{section*.51}%
-\contentsline {subsubsection}{Teorema di Sylvester}{42}{section*.52}%
+\contentsline {subsubsection}{Teorema spettrale}{36}{section*.46}%
+\contentsline {paragraph}{Corollario}{38}{section*.47}%
+\contentsline {section}{\numberline {8}Forme bilineari}{39}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Matrice associata alla FBS}{39}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Forma quadratica}{39}{subsection.8.2}%
+\contentsline {subsubsection}{Classificazione forma quadratica}{40}{section*.48}%
+\contentsline {subsection}{\numberline {8.3}Cauchy-Schwarz e Minkowski}{40}{subsection.8.3}%
+\contentsline {subsubsection}{Disuguaglianza di Cauchy-Schwarz}{40}{section*.49}%
+\contentsline {subsubsection}{Disuguaglianza di Minkowsky}{41}{section*.50}%
+\contentsline {subsection}{\numberline {8.4}Teorema di esistenza di una forma canonica}{41}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Forma normale}{42}{subsection.8.5}%
+\contentsline {subsubsection}{Teorema di esistenza di una forma normale}{42}{section*.51}%
+\contentsline {subsubsection}{Teorema di Sylvester}{43}{section*.52}%
