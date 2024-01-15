@@ -899,12 +899,12 @@ Prima di parlare di prodotto scalare è necessario introdurre due concetti fonda
 
 La norma del vettore è definita dalla formula:
 \[
-\|v\| = \sqrt{v_1^2 + v_2^2 + \dots + v_{n}^2}
+\|\bar{v}\| = \sqrt{v_1^2 + v_2^2 + \dots + v_{n}^2}
 .\] 
 
 Vedremo come saranno di estrema importanza i vettori di norma 1, o vettori unitari. Per esempio in $V_3$ i vettori unitari sono $i,j,k$. In generale per \textit{normalizzare} un vettore basta dividerlo per la sua lunghezza, quindi per la sua norma:
 \[
-u = \frac{v}{\|v\|}
+\bar{u} = \frac{\bar{v}}{\|\bar{v}\|}
 .\] 
 
 
@@ -926,7 +926,7 @@ Il prodotto scalare (in $V_3$ ) $x\cdot y$ di due vettori $x$ e $y$ in $V_3$ è 
 .\] 
 così definita:
 \[
-x \cdot y  = \|x\| \|y\| \cos{\hat{xy}}
+\bar{x }\cdot \bar{y}  = \|\bar{x}\| \|\bar{y}\| \cos{\hat{xy}}
 .\] 
 
 \end{blues}
@@ -935,15 +935,15 @@ x \cdot y  = \|x\| \|y\| \cos{\hat{xy}}
 
 Dalla definizione troviamo altre due espressioni di norma e angolo (notare come ora il concetto di angolo sia esteso a tutto $\mathbb{R}^n$):
 \[
-\|v\| = \sqrt{v\cdot v} \qquad \qquad \cos{\theta} = \frac{u\cdot v}{\|u\|\|v\|}
+\|\bar{v}\| = \sqrt{\bar{v}\cdot \bar{v}} \qquad \qquad \cos{\theta} = \frac{\bar{u}\cdot \bar{v}}{\|\bar{u}\|\|\bar{v}\|}
 .\]
 
 \subsection{Proprietà del prodotto scalare}
 \begin{itemize}
-	\item $x \cdot y$ = $y \cdot x \quad \forall x,y \in V_3$;
-	\item $\left(x + y\right)\cdot z = x\cdot z + y\cdot z$;
-	\item $\left(\lambda x\right)\cdot z = \lambda x \cdot z = x \cdot \left(\lambda z\right)$;
-	\item $x\cdot x \geq 0 \qquad = 0 \Longleftrightarrow x = 0$.
+	\item $\bar{x} \cdot \bar{y}$ = $\bar{y} \cdot \bar{x} \quad \forall \bar{x},\bar{y} \in V_3$;
+	\item $\left(\bar{x} + \bar{y}\right)\cdot \bar{z} = \bar{x}\cdot \bar{z} + \bar{y}\cdot \bar{z}$;
+	\item $\left(\lambda \bar{x}\right)\cdot \bar{z} = \lambda \bar{x} \cdot \bar{z }= \bar{x }\cdot \left(\lambda \bar{z}\right)$;
+	\item $\bar{x}\cdot \bar{x} \geq 0 \qquad = 0 \Longleftrightarrow \bar{x} = 0$.
 \end{itemize}
 
 \subsection{Interpretazione geometrica del prodotto scalare}
@@ -961,7 +961,7 @@ Il prodotto scalare $\|a\|\|u\|\cos{\theta}$ non è altro che il prodotto della 
 			\subsubsection{Teorema: vettore proiezione ortogonale}
 			Dati due vettori $u$ e $a$ non nulli il vettore proiezione ortogonale di $u$ su $a$ è:
 			\[
-			p = \frac{u\cdot a}{\|a\|^2}a
+			\bar{p} = \frac{\bar{u}\cdot\bar{ a}}{\|\bar{a}\|^2}\bar{a}
 			.\] 	
 			\end{redes}
 	\end{minipage}}        
@@ -972,20 +972,20 @@ Il prodotto scalare $\|a\|\|u\|\cos{\theta}$ non è altro che il prodotto della 
 \begin{es}{dimostrazione}
 Il mio obiettivo è quello di scrivere la proiezione di $u$ su $a$ in questa forma:
 \[
-p = * \frac{a}{\|a\|}
+\bar{p} = * \frac{\bar{a}}{\|\bar{a}\|}
 .\] 
 dove "*" indica la lunghezza della proiezione.
 Guardando la figura in alto sappiamo che la proiezione $\|p\| = \|u\|\cos{\theta}$. Quindi:
 \[
-p = \|u\|\cos{\theta} \frac{a}{\|a\|} 
+\bar{p} = \|\bar{u}\|\cos{\theta} \frac{\bar{a}}{\|\bar{a}\|} 
 .\] 
 Per elimiare il coseno di theta risaliamo alla formula di prodotto scalare:
 \[
-u \cdot a = \|u\|\|a\|\cos{\theta} \quad \longrightarrow \quad \|u\|\cos{\theta} = \frac{u\cdot a}{\|a\|}
+\bar{u} \cdot \bar{a} = \|\bar{u}\|\|\bar{a}\|\cos{\theta} \quad \longrightarrow \quad \|\bar{u}\|\cos{\theta} = \frac{\bar{u}\cdot \bar{a}}{\|\bar{a}\|}
 .\] 
 Quindi:
 \[
-p = \frac{u\cdot a}{\|a\|^2}a
+\bar{p }= \frac{\bar{u}\cdot \bar{a}}{\|\bar{a}\|^2}\bar{a}
 .\] 
 
 \QEDB
@@ -1092,11 +1092,43 @@ Dati due vettori $u$ e $v$, allora
 \[
 u \cdot \left(v \wedge w\right)
 .\] 
-è chiamato prodotto misto di $u$ $v$ e  $w$.
+è chiamato prodotto misto di $u$ $v$ e  $w$. 
+
+Geometricamente il prodotto misto rappresenta $6$ volte il volume del tetraedro formato dai tre vettori
 \end{blues}
 \end{minipage}}        
 \end{center}
-Geometricamente il prodotto misto rappresenta $\frac{1}{6}$ del volume del tetraedro formato dai tre vettori.
+
+\noindent
+Il prodotto misto di tre vettori può essere risolto tramite determinante come 
+\[
+\bar{u} \cdot \left(\bar{v} \wedge \bar{w}\right) = \begin{vmatrix}
+	u_{1} & u_{2} & u_{3} \\
+	v_{1} & v_{2} & v_{3} \\
+	w_{1} & w_{2} & w_{3} \\
+\end{vmatrix}
+\]
+e vale 
+\[
+\mathcal{B} = \left\{\bar{u},\bar{v},\bar{w}\right\} \text{ destrorsa }\Longleftrightarrow \bar{u} \cdot \left(\bar{v} \wedge \bar{w}\right) \Longleftrightarrow \text{ det}M^{\mathcal{B}}_{\mathcal{B}'} > 0
+\]
+\[
+\forall \mathcal{B}' \text{ base ortonormale destrorsa}
+\]
+Si ha infatti che 
+
+\[
+ \text{ det}M^{\mathcal{B}}_{\mathcal{B}'} = \text{ det}\left[\begin{array}{c}
+ 	\leftindex^{t}{[\bar{u}]}_{\mathcal{B}'} \\
+ 	\leftindex^{t}{[\bar{v}]}_{\mathcal{B}'} \\
+ 	\leftindex^{t}{[\bar{w}]}_{\mathcal{B}'} \\
+ \end{array}\right] = \begin{vmatrix}
+ u_{1} & u_{2} & u_{3} \\
+ v_{1} & v_{2} & v_{3} \\
+ w_{1} & w_{2} & w_{3} \\
+ \end{vmatrix}
+\]
+
 
 
 %% %% %%
@@ -1157,6 +1189,20 @@ Sia $V$ uno spazio vettoriale reale, $W \subseteq V $ è un sottospazio vettoria
 \includegraphics[scale=0.25]{figures/subspace.png}
 \end{center}
 In figura vediamo come $u$ e $v$ siano contenuti in $W$ ma la loro somma no.
+
+	\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: Spazio vettoriale Euclideo}
+				Uno spazio vettoriale $V$ si dice euclideo se rispetta le proprietà di:
+				\begin{enumerate}
+					\item \textbf{Simmetria}: $\bar{x} \cdot \bar{y} = \bar{y} \cdot \bar{x}$;
+					\item \textbf{Bilinearità}: $\left(\bar{x} + \bar{y}\right) \cdot \bar{z} = \bar{x} \cdot \bar{z} + \bar{y} \cdot \bar{y}$, $\qquad \left(\lambda \bar{x}\right) \cdot \bar{z} = \bar{x} \cdot \left(\lambda \bar{z}\right)$;
+					\item \textbf{Definito positivo}: $\bar{x} \cdot \bar{x} \geq 0$
+				\end{enumerate}
+			\end{blues}
+	\end{minipage}}       
+\end{center}
 
 \begin{es}{Esempio fondamentale di sottospazio vettoriale}
 L'insieme delle soluzioni di un sistema lineare omogeneo di $m$ equazioni in $n$ incognite è un sottospazio vettoriale di $\mathbb{R}^n$. L'insieme delle soluzioni di 
@@ -1407,7 +1453,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 				\]
 				Prendiamo un insieme libero $\mathcal{I}$ contenuto in V:
 				\[
-				\mathcal{I} = \{\bar{w}_{1},\dots,\bar{w}_{p}\} \quad \text{libero } \subseteqq V \quad  \quad \Longrightarrow \quad p \leq n
+				\mathcal{I} = \{\bar{w}_{1},\dots,\bar{w}_{p}\} \quad \text{libero } \subseteq V \quad  \quad \Longrightarrow \quad p \leq n
 				\]
 
 \begin{es}{dimostrazione}
@@ -1582,6 +1628,34 @@ Per trovare la matrice di cambiamento di base si può utilizzare un metodo simil
 			I & M_{B}^{B'}
 	\end{array}\right]
 \] 
+
+\subsection{Basi ortonormali}
+Basi ortonormali sono particolarmente perché il prodotto scalare si scrive in modo semplice e ciò rende particolarmente facile anche trovare le componenti dei vettori espressi rispetto a basi standard:
+\[
+\mathcal{B} = \{\bar{i},\bar{j},\bar{k}\} \qquad \bar{x} = x_{1}\bar{i} + x_{2}\bar{j} +x_{3}\bar{k}
+\]
+allora la componente $i$ di $\bar{x}$ la trovo sviluppano il prodotto scalare 
+\[
+\bar{i} \cdot \bar{x} = \mathbf{x_{1}} + 0x_{2} + 0x_{3}
+\]
+
+\noindent
+Chiamiamo \textbf{matrici ortogonali} matrici che hanno nelle colonne componenti di vettori \textit{ortonormali} fra di loro. Quindi si hanno matrici con colonne di norma 1 e ortogonali fra di loro con il prodotto standard. Sono matrici ortogonali le matrici di cambiamento di base tra basi ortonormali:
+\[
+P = M^{\mathcal{B}'}_{\mathcal{B}} \qquad \mathcal{B},\mathcal{B}' \text{ ortonormali}
+\]
+Si noti che 
+\[
+\left(\leftindex^{t}{P}\cdot P\right)_{ij} = (\text{riga } i \text{ di } \leftindex^{t}{P}) \cdot (\text{colonna } i \text{ di } P) = \bar{v}_{i} \cdot \bar{v}_{j} = \begin{cases}
+	1 \quad i = j\\
+	0 \quad i \neq j
+\end{cases}
+\] 
+
+Quindi
+\[
+\leftindex^{t}{P}P = I \qquad \leftindex^{t}{P} = P^{-1}
+\]
 
 \subsection{Spazio delle righe, delle colonne, Nullspace}
 Prendiamo in esame la matrice
@@ -2537,6 +2611,11 @@ Q(\lambda\bar{x}) = \phi(\lambda\bar{x},\lambda\bar{x}) = \lambda^2Q(\bar{x})
 \[
 Q(\bar{x} + \bar{y}) = Q(\bar{x}) + 2\phi(\bar{x},\bar{y}) + Q(\bar{y})
 \]
+\subsection{$\phi$-ortogonalità}
+Due vettori $\bar{x},\bar{y}$ sono $\phi$-ortogonali se $\phi (\bar{x},\bar{y}) = 0$. Definiamo quindi il complemento ortogonale di un certo sottospazio $W \leq V$ come:
+\[
+W^{\phi \perp} = \left\{\bar{x} \in V \quad \text{t.c.} \quad \phi(\bar{x},\bar{y}) = 0 \quad \forall \bar{y} \in W \right\}
+\]
 
 	\begin{center}
 	\fboxsep11pt
@@ -2553,6 +2632,17 @@ Q(\bar{x} + \bar{y}) = Q(\bar{x}) + 2\phi(\bar{x},\bar{y}) + Q(\bar{y})
 			\end{blues}
 	\end{minipage}}       
 \end{center}
+
+\noindent
+In componenti il nucleo è 
+\[
+\phi(\bar{x},\bar{y}) = 0 \quad  = \leftindex^{t}{X}AY = 0 \qquad \forall y \in V
+\]
+visto che deve valere per ogni $\bar{y}$ posso eliminarlo dall'equazione; inoltre so che $\leftindex^{t}{A}X = AX$ perché A è simmetrica. Quindi posso riscrivere l'equazione come
+\[
+ AX = 0
+\]
+accorgendomi che il kernel di $\phi$ corrisponde (in componenti) con il \textit{nullsopace} di A.
 	\begin{center}
 	\fboxsep11pt
 	\colorbox{myblue}{\begin{minipage}{5.75in}
@@ -2569,6 +2659,23 @@ Q(\bar{x} + \bar{y}) = Q(\bar{x}) + 2\phi(\bar{x},\bar{y}) + Q(\bar{y})
 	\end{minipage}}       
 \end{center}
 Notiamo che se un vettore è $\phi$-ortogonale a tutto lo spazio allora è anche $\phi$-ortogonale anche a se stesso; quindi il kernel di una certa forma bilineare simmetrica è sempre contenuto nel cono isotropo.
+\[
+\text{ker}\phi \subseteq \mathcal{I}_{\phi}
+\]
+
+\paragraph{Alcuni fatti sulla $\phi$-ortogonalità} A differenza del prodotto scalare, dato un sottospazio $W \leq V$, non vale sempre
+\[
+\left(W^{\phi \perp}\right)^{\phi \perp} = W
+.\]
+Se il sottospazio ha $\text{ker}(\phi)$ non banale allora esistono uno o più vettori $\phi$-ortogonali a tutto lo spazio che fanno sì che al doppio ortogonale vengano "aggiunti" dei generatori. Vale il contrario se e solo se $\phi$ è non-degenere. \\
+
+\noindent
+Se $W$ non contiene vettori isotropi vale 
+\[
+W \oplus W^{\phi \perp} = V
+\]
+Se $W$ contiene $\bar{x}$ isotropo, allora questo, essendo $\phi$-ortogonale a se stesso, sarà contenuto anche in $W^{\phi \perp}$. Quindi $W$ e $W^{\phi \perp}$ hanno intersezione non nulla e non possono essere in somma diretta.
+
 
 \subsubsection{Classificazione forma quadratica}
 \begin{enumerate}
@@ -2692,6 +2799,7 @@ non so se il termine in $\phi$ vale zero, quindi il cono isotropo non è chiuso 
 	\[
 	f(\bar{v}_{i})\cdot \bar{v}_{j} = \phi (\bar{v}_{i},\bar{v}_{j}) = \leftindex^{t}{X}AY
 	\]
+
 	Le componenti le esplicitiamo come:
 	\[
 	f(\bar{v}_{1})  = \phi(\bar{v}_{1},\bar{v}_{1}) \bar{v}_{1} + \dots + \phi(\bar{v}_{1},\bar{v}_{n})\bar{v}_{n}
@@ -2702,7 +2810,8 @@ non so se il termine in $\phi$ vale zero, quindi il cono isotropo non è chiuso 
 	\[
 	\vdots
 	\]
-	
+\end{es}
+\begin{es}{}
 	Abbiamo quindi specificato $f$ in modo unico e vale
 	\[
 	f(\bar{x})\cdot \bar{y} = \phi(\bar{x},\bar{y}) \quad \forall \bar{x},\bar{y} 
@@ -2710,9 +2819,7 @@ non so se il termine in $\phi$ vale zero, quindi il cono isotropo non è chiuso 
 	con
 	\[
 	M^\mathcal{B}(f) = \leftindex^{t}{A} = A \quad \Longrightarrow \quad f \text{ autoaggiunto} \quad \Longrightarrow \quad \exists \mathcal{B}' \text{ ortonormale di autovettori}
-	\]
-	\\
-	\QEDB
+	\] \QEDB
 \end{es}
 
 \subsection{Forma normale}
@@ -2768,6 +2875,8 @@ E' interessante notare che mettere in forma normale una $\phi$ definita positiva
 	\[
 	\lambda_j < 0 \qquad  \phi(\ni\bar{v_{j}},\ni\bar{v_{j}}) =  -1 \quad \to \ni^2\phi(\bar{v_{j}},\bar{v_{j}}) =  -1 \quad \to \phi(\bar{v_{j}},\bar{v_{j}}) =  \frac{-1}{\ni^2}
 	\]
+\end{es}
+\begin{es}{}
 	\[
 	\frac{-1}{\ni^2} = \lambda_i \quad \to \ni = \frac{1}{\sqrt{-\lambda_i}}
 	\]
