@@ -29,8 +29,9 @@
 %\usepackage{graphicx}
 
 
-\definecolor{myblue}{RGB}{255, 255, 255} 
-\definecolor{myred}{RGB}{255, 255, 255}
+\definecolor{myblue}{RGB}{224, 245, 255} 
+\definecolor{myred}{RGB}{234, 222, 255}
+\definecolor{myorange}{RGB}{255, 102, 0}
 
 % box
 \newtcolorbox{es}[2][]{%
@@ -336,12 +337,12 @@
 		\fboxsep11pt
 		\colorbox{myblue}{\begin{minipage}{5.75in}
 				\begin{blues}{Definizione: massimio e minimo}
-					Sia $A \subseteqq \mathbb{R}$ superiormente (o inferiormente) limitato.
+					Sia $A \subseteq \mathbb{R}$ superiormente (o inferiormente) limitato.
 					Si dice che A ammette \textbf{massimo} se
 					\[
 					\exists x_M \in A \quad \text{ t.c.} \quad x \leq x_M, \quad \forall x \in A
 					\]
-					\[
+					\[ 
 					\left(\exists x_M \in A \quad \text{ t.c.} \quad x_M \leq x, \quad \forall x \in A\right)
 					\]
 					L'elemento, necessariamente unico, si dice \textbf{massimo} (o minimo)  di A e si pone 
@@ -367,14 +368,14 @@
 		da cui $x_M = x'_M$.
 	\end{es}
 	
-	Esistono casi che però non ammettono massimi o minimi, per esempio l'insieme $\tilde{A} = \{ \frac{1}{n} | n = 1,2,\dots \}$. Quest'ultimo ha come intervallo $[1,+\infty)$, ha quindi un massimo ma non ammette minimi. In questi casi quando $\neg \exists$ minimo o massimo sarebbe utile poter definire un minorante o maggiorante \textit{ottimale} che vengono definiti rispettivamente come \textit{il più grande dei minoranti e il più piccolo dei maggioranti}. Definiamo allora i concetti di \textit{\textbf{estremo superiore}} ed \textit{\textbf{estremo inferiore}}.
+	Esistono casi che però non ammettono massimi o minimi, per esempio l'insieme $\tilde{A} = \{ \frac{1}{n} | n = 1,2,\dots \}$. Quest'ultimo ha come intervallo $[1,+\infty)$, ha quindi un massimo ma non ammette minimi. In questi casi quando $\nexists$ minimo o massimo sarebbe utile poter definire un minorante o maggiorante \textit{ottimale} che vengono definiti rispettivamente come \textit{il più grande dei minoranti e il più piccolo dei maggioranti}. Definiamo allora i concetti di \textit{\textbf{estremo superiore}} ed \textit{\textbf{estremo inferiore}}.
 	
 		\begin{center}
 		\fboxsep11pt
 		\colorbox{myred}{\begin{minipage}{5.75in}
 				\begin{redes}{}
 					\subsubsection{Teorema di completezza di $\mathbb{R}$}
-					Se $A \subseteqq \mathbb{R}$ è superiormente (inferiormente) limitato, \textbf{il massimo} (minimo) dell'insieme  dei maggioranti (minoranti) \textbf{esiste sempre}.
+					Se $A \subseteq \mathbb{R}$ è superiormente (inferiormente) limitato, \textbf{il massimo} (minimo) dell'insieme  dei maggioranti (minoranti) \textbf{esiste sempre}.
 				\end{redes}
 				\end{minipage}}        
 		\end{center}
@@ -382,7 +383,7 @@
 		\fboxsep11pt
 		\colorbox{myblue}{\begin{minipage}{5.75in}
 				\begin{blues}{Definizione: estremo superiore e inferiore}
-				Sia $A \subseteqq \mathbb{R}$  superiormente (inferiormente) limitato.
+				Sia $A \subseteq \mathbb{R}$  superiormente (inferiormente) limitato.
 				
 				Si dice estremo superiore (inferiore) di A, e si scrive \textbf{supA} (infA), il più piccolo (grande) dei maggioranti (minoranti) di A = \textbf{estremo superiore} (inferiore).
 				\end{blues}
@@ -417,7 +418,7 @@
 	Dati $x_0\in \mathbb{R} $ e $ r>0$, si dice intorno di centro $x_0$ e raggio $r$ l'intervallo $In(x_0) = (x_0 -r, x_0 +r)$.
 	\\\\
 	\noindent
-	In questo contesto è utile definire anche un \textit{sistema esteso dei numeri reali} che includa anche $+\infty $ e $ +\infty$: $\overline{\mathbb{R}} = \mathbb{R} \cup \{ -\infty,+\infty \}$. 
+	In questo contesto è utile definire anche un \textit{sistema esteso dei numeri reali} che includa anche $-\infty $ e $ +\infty$: $\overline{\mathbb{R}} = \mathbb{R} \cup \{ -\infty,+\infty \}$. 
 	
 	\newpage
 	\section{Integrali secondo Riemann}
@@ -446,7 +447,7 @@
 					\end{enumerate}
 					 per cui
 					 \[
-					 f(x) = c_K \quad \forall x \in (x_{k-1}, x_k) \quad k=1,\dots,n
+					 f(x) = c_k \quad \forall x \in (x_{k-1}, x_k) \quad k=1,\dots,n
 					 \]
 				\end{blues}
 		\end{minipage}}       
@@ -524,7 +525,7 @@
 					\subsubsection{Lemma 2: integrale inferiore $\leq$ integrale superiore}
 					Per ogni funzione $f$ limitata su $\left[a,b\right]$ si ha che l'integrale inferiore è minore o uguale all'integrale superiore:
 					\[
-					\overline{\int_{a}^{b}}f \leq \underline{\int_{a}^{b}}f
+					\underline{\int_{a}^{b}}f \leq \overline{\int_{a}^{b}}f
 					\]
 				\end{redes}
 		\end{minipage}}        
@@ -550,8 +551,6 @@
 		\[
 		\Longrightarrow 	\int_{a}^{b}g \leq \int_{a}^{b}h 
 		\]
-		\end{es}
-	\begin{es}{}
 		\begin{es}{!attenzione}
 			Sembrerebbe logico pensare che la disuguaglianza sopra sia in realtà un'uguaglianza per tutte le funzioni limitate.
 			Se prendiamo per esempio la funzione di Dirichlet ci accorgiamo che non è così: $f(x) = \begin{cases}
@@ -928,7 +927,7 @@
 		\fboxsep11pt
 		\colorbox{myblue}{\begin{minipage}{5.75in}
 				\begin{blues}{Definizione: Continuità in un intervallo}
-					Dato I $\subseteqq \mathbb{R}$ intervallo e $f:$ I$\to \mathbb{R}$. Si dice che $f$ è continua in I se è continua in ogni $x_0 \in \text{I}$. (Se $I = [a,b]$ in $a$ e $b$ per continuità si intenda continuità da destra e da sinistra). \\ \\
+					Dato I $\subseteq \mathbb{R}$ intervallo e $f:$ I$\to \mathbb{R}$. Si dice che $f$ è continua in I se è continua in ogni $x_0 \in \text{I}$. (Se $I = [a,b]$ in $a$ e $b$ per continuità si intenda continuità da destra e da sinistra). \\ \\
 					Indichiamo l'insieme delle funzioni continue su $I$ con $\mathcal{C}\left(I\right)$ (anche $\mathcal{C}^0\left(I\right)$).
 				\end{blues}
 		\end{minipage}}       
@@ -938,7 +937,7 @@
 		\colorbox{myred}{\begin{minipage}{5.75in}
 				\begin{redes}{}
 					\subsubsection{Proposizione: continuità della funzione integrale}
-					Dato I $\subseteqq \mathbb{R}$ intervallo e $f:$ I$\to \mathbb{R}$ funzione integrabile su ogni sottointervallo chiuso e limitato di I. Preso $x_0 \in \text{I}$ la funzione integrale
+					Dato I $\subseteq \mathbb{R}$ intervallo e $f:$ I$\to \mathbb{R}$ funzione integrabile su ogni sottointervallo chiuso e limitato di I. Preso $x_0 \in \text{I}$ la funzione integrale
 					\[
 					F(x) = \int_{x_0}^{x}f(t) \,dt \quad \forall x \in \text{I}
 					\]
@@ -1487,7 +1486,7 @@
 		\colorbox{myred}{\begin{minipage}{5.75in}
 				\begin{redes}{}
 					\subsubsection{Test di monotonia}
-					Sia $\text{I} \subseteqq \mathbb{R}$ intervallo e $f: \text{I} \to \mathbb{R}$ derivabile. Allora 
+					Sia $\text{I} \subseteq \mathbb{R}$ intervallo e $f: \text{I} \to \mathbb{R}$ derivabile. Allora 
 					\[
 					f \text{ è crescente su I } \Longleftrightarrow f'(x) \geq 0 \quad \forall x \in \text{I}
 					\]
@@ -1601,7 +1600,7 @@
 	
 	\newpage
 	\section{Primitivazione}
-	Dato $\text{I} \subseteqq \mathbb{R}$ intervallo e $f:\text{I} \to \mathbb{R}$, l'obiettivo è  trovare (se eiste)
+	Dato $\text{I} \subseteq \mathbb{R}$ intervallo e $f:\text{I} \to \mathbb{R}$, l'obiettivo è  trovare (se eiste)
 	\[
 	F: \text{I} \to \mathbb{R} \quad \text{t.c.} \quad F(x) = f(x) \quad \forall x \in \text{I}
 	\]

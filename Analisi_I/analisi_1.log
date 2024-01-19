@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  12 JAN 2024 16:42
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  19 JAN 2024 18:08
  restricted system commands enabled.
 **analisi_1.tex
 (./analisi_1.tex
@@ -1360,31 +1360,31 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen389
 ))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 84.
+h' as default language. on input line 85.
  (./analisi_1.aux)
 \openout1 = analisi_1.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
-4.
+5.
  (/opt/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 
 (/opt/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1412,7 +1412,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
-Package chemgreek Info: Activating mapping `default' on line 84.
+Package chemgreek Info: Activating mapping `default' on line 85.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1455,7 +1455,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 84.
+or `english'. on input line 85.
 
 (/opt/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -1491,114 +1491,114 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 \openout6 = analisi_1.toc
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 130--134
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 209--210
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 210--211
  [][][][][][] 
  []
 
 [3] [4] [5] [6]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 356--357
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 357--358
  [][][][][][] 
  []
 
 [7]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 379--380
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 380--381
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 389--390
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 390--391
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 413--414
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 414--415
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--421
+Underfull \hbox (badness 10000) in paragraph at lines 417--422
 
  []
 
 [8]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 452--453
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 453--454
  [][][][][][] 
  []
 
-<figures/scala.png, id=46, 1227.58624pt x 649.42625pt>
+<figures/scala.png, id=45, 1227.58624pt x 649.42625pt>
 File: figures/scala.png Graphic file (type png)
 <use figures/scala.png>
-Package luatex.def Info: figures/scala.png  used on input line 457.
+Package luatex.def Info: figures/scala.png  used on input line 458.
 (luatex.def)             Requested size: 245.5129pt x 129.88295pt.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 471--472
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 472--473
  [][][][][][] 
  []
 
-<figures/riemann.png, id=47, 1268.74pt x 682.55pt>
+<figures/riemann.png, id=46, 1268.74pt x 682.55pt>
 File: figures/riemann.png Graphic file (type png)
 <use figures/riemann.png>
-Package luatex.def Info: figures/riemann.png  used on input line 474.
+Package luatex.def Info: figures/riemann.png  used on input line 475.
 (luatex.def)             Requested size: 190.30278pt x 102.37808pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
 [9<./figures/scala.png><./figures/riemann.png>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 488--489
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 489--490
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--517
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 517--518
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 518--519
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 530--531
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 531--532
  [][][][][][] 
  []
 
 [10]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 590--591
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 589--590
  [][][][][][] 
  []
 
 [11]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 610--611
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 609--610
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 624--625
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 623--624
  [][][][][][] 
  []
 
 Package svg Info: Last page of `./svg-inkscape/intornielle_svg-tex.pdf' is 1 on
- input line 632.
+ input line 631.
 (./svg-inkscape/intornielle_svg-tex.pdf_tex
-<./svg-inkscape/intornielle_svg-tex.pdf, id=62, page=1, 167.0673pt x 12.7737pt>
+<./svg-inkscape/intornielle_svg-tex.pdf, id=61, page=1, 167.0673pt x 12.7737pt>
 
 File: ./svg-inkscape/intornielle_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/intornielle_svg-tex.pdf, page 1>
@@ -1606,14 +1606,14 @@ Package luatex.def Info: ./svg-inkscape/intornielle_svg-tex.pdf , page1 used on
  input line 56.
 (luatex.def)             Requested size: 217.188pt x 16.60617pt.
 )
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 666--667
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 665--666
  [][][][][][] 
  []
 
 Package svg Info: Last page of `./svg-inkscape/permsegno_svg-tex.pdf' is 1 on i
-nput line 673.
+nput line 672.
 (./svg-inkscape/permsegno_svg-tex.pdf_tex
-<./svg-inkscape/permsegno_svg-tex.pdf, id=64, page=1, 167.0673pt x 20.42403pt>
+<./svg-inkscape/permsegno_svg-tex.pdf, id=63, page=1, 167.0673pt x 20.42403pt>
 File: ./svg-inkscape/permsegno_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/permsegno_svg-tex.pdf, page 1>
 Package luatex.def Info: ./svg-inkscape/permsegno_svg-tex.pdf , page1 used on i
@@ -1621,10 +1621,10 @@ nput line 56.
 (luatex.def)             Requested size: 217.188pt x 26.55183pt.
 )
 Package svg Info: Last page of `./svg-inkscape/permsegno2_svg-tex.pdf' is 1 on 
-input line 687.
+input line 686.
 
 (./svg-inkscape/permsegno2_svg-tex.pdf_tex
-<./svg-inkscape/permsegno2_svg-tex.pdf, id=66, page=1, 118.80397pt x 12.53801pt
+<./svg-inkscape/permsegno2_svg-tex.pdf, id=65, page=1, 118.80397pt x 12.53801pt
 >
 File: ./svg-inkscape/permsegno2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/permsegno2_svg-tex.pdf, page 1>
@@ -1632,91 +1632,91 @@ Package luatex.def Info: ./svg-inkscape/permsegno2_svg-tex.pdf , page1 used on
 input line 56.
 (luatex.def)             Requested size: 154.4455pt x 16.30034pt.
 ) [12<./svg-inkscape/intornielle_svg-tex.pdf>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 744--745
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 743--744
  [][][][][][] 
  []
 
 [13<./svg-inkscape/permsegno_svg-tex.pdf><./svg-inkscape/permsegno2_svg-tex.pdf>
 ]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 801--802
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 800--801
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 837--838
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 836--837
  [][][][][][] 
  []
 
 [14]
-<figures/confronto2.png, id=77, 1268.74pt x 682.55pt>
+<figures/confronto2.png, id=76, 1268.74pt x 682.55pt>
 File: figures/confronto2.png Graphic file (type png)
 <use figures/confronto2.png>
-Package luatex.def Info: figures/confronto2.png  used on input line 840.
+Package luatex.def Info: figures/confronto2.png  used on input line 839.
 (luatex.def)             Requested size: 380.62494pt x 204.76657pt.
  [15<./figures/confronto2.png>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 900--901
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 899--900
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 923--925
+Underfull \hbox (badness 10000) in paragraph at lines 922--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 934--934
+Underfull \hbox (badness 10000) in paragraph at lines 933--933
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 934--935
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 933--934
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 947--948
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 946--947
  [][][][][][] 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 950--952
+Underfull \hbox (badness 10000) in paragraph at lines 949--951
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--952
+Underfull \hbox (badness 10000) in paragraph at lines 949--951
 
  []
 
 [17]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 992--993
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 991--992
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1021--1022
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1020--1021
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1065--1066
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1064--1065
  [][][][][][] 
  []
 
 [18] [19]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1089--1090
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1088--1089
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1103--1104
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1102--1103
  [][][][][][] 
  []
 
 Package svg Info: Last page of `./svg-inkscape/zeri_func_svg-tex.pdf' is 1 on i
-nput line 1106.
+nput line 1105.
 (./svg-inkscape/zeri_func_svg-tex.pdf_tex
-<./svg-inkscape/zeri_func_svg-tex.pdf, id=96, page=1, 331.12767pt x 310.39268pt
+<./svg-inkscape/zeri_func_svg-tex.pdf, id=95, page=1, 331.12767pt x 310.39268pt
 >
 File: ./svg-inkscape/zeri_func_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/zeri_func_svg-tex.pdf, page 1>
@@ -1724,14 +1724,14 @@ Package luatex.def Info: ./svg-inkscape/zeri_func_svg-tex.pdf , page1 used on i
 nput line 56.
 (luatex.def)             Requested size: 298.01286pt x 279.35081pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1116
+Underfull \hbox (badness 10000) in paragraph at lines 1109--1115
 
  []
 
 Package svg Info: Last page of `./svg-inkscape/due_casi_1_svg-tex.pdf' is 1 on 
-input line 1123.
+input line 1122.
 (./svg-inkscape/due_casi_1_svg-tex.pdf_tex
-<./svg-inkscape/due_casi_1_svg-tex.pdf, id=98, page=1, 574.16481pt x 279.45876p
+<./svg-inkscape/due_casi_1_svg-tex.pdf, id=97, page=1, 574.16481pt x 279.45876p
 t>
 File: ./svg-inkscape/due_casi_1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/due_casi_1_svg-tex.pdf, page 1>
@@ -1739,7 +1739,7 @@ Package luatex.def Info: ./svg-inkscape/due_casi_1_svg-tex.pdf , page1 used on
 input line 56.
 (luatex.def)             Requested size: 401.9136pt x 195.61978pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 1152--1155
+Underfull \hbox (badness 10000) in paragraph at lines 1151--1154
 
  []
 
@@ -1749,10 +1749,10 @@ Overfull \vbox (0.22052pt too high) has occurred while \output is active []
 
 [21<./svg-inkscape/due_casi_1_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/corollario_72_svg-tex.pdf' is 1 
-on input line 1192.
+on input line 1191.
 
 (./svg-inkscape/corollario_72_svg-tex.pdf_tex
-<./svg-inkscape/corollario_72_svg-tex.pdf, id=107, page=1, 331.12767pt x 311.37
+<./svg-inkscape/corollario_72_svg-tex.pdf, id=106, page=1, 331.12767pt x 311.37
 515pt>
 File: ./svg-inkscape/corollario_72_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/corollario_72_svg-tex.pdf, page 1>
@@ -1760,139 +1760,139 @@ Package luatex.def Info: ./svg-inkscape/corollario_72_svg-tex.pdf , page1 used
 on input line 56.
 (luatex.def)             Requested size: 298.01286pt x 280.23505pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 1210--1210
+Underfull \hbox (badness 10000) in paragraph at lines 1209--1209
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1210--1211
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1209--1210
  [][][][][][] 
  []
 
 [22<./svg-inkscape/corollario_72_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/baby_svg-tex.pdf' is 1 on input 
-line 1213.
+line 1212.
 
 (./svg-inkscape/baby_svg-tex.pdf_tex
-<./svg-inkscape/baby_svg-tex.pdf, id=112, page=1, 331.12767pt x 311.37515pt>
+<./svg-inkscape/baby_svg-tex.pdf, id=111, page=1, 331.12767pt x 311.37515pt>
 File: ./svg-inkscape/baby_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/baby_svg-tex.pdf, page 1>
 Package luatex.def Info: ./svg-inkscape/baby_svg-tex.pdf , page1 used on input 
 line 56.
 (luatex.def)             Requested size: 298.01286pt x 280.23505pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 1217--1220
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1219
 
  []
 
 [23<./svg-inkscape/baby_svg-tex.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1262--1262
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1261
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1262--1263
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1261--1262
  [][][][][][] 
  []
 
 [24]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1283--1284
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1282--1283
  [][][][][][] 
  []
 
-<figures/derivata.png, id=119, 896.34875pt x 631.35875pt>
+<figures/derivata.png, id=118, 896.34875pt x 631.35875pt>
 File: figures/derivata.png Graphic file (type png)
 <use figures/derivata.png>
-Package luatex.def Info: figures/derivata.png  used on input line 1287.
+Package luatex.def Info: figures/derivata.png  used on input line 1286.
 (luatex.def)             Requested size: 358.53316pt x 252.53902pt.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1316--1317
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1315--1316
  [][][][][][] 
  []
 
 [25<./figures/derivata.png>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1333--1334
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1332--1333
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1347--1348
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1346--1347
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1392--1393
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1391--1392
  [][][][][][] 
  []
 
 [26]
-<figures/rolle.png, id=127, 635.1pt x 451.14pt>
+<figures/rolle.png, id=126, 635.1pt x 451.14pt>
 File: figures/rolle.png Graphic file (type png)
 <use figures/rolle.png>
-Package luatex.def Info: figures/rolle.png  used on input line 1395.
+Package luatex.def Info: figures/rolle.png  used on input line 1394.
 (luatex.def)             Requested size: 285.79236pt x 203.01111pt.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1428--1429
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1427--1428
  [][][][][][] 
  []
 
-<figures/lagrange.png, id=128, 572.32pt x 448.22pt>
+<figures/lagrange.png, id=127, 572.32pt x 448.22pt>
 File: figures/lagrange.png Graphic file (type png)
 <use figures/lagrange.png>
-Package luatex.def Info: figures/lagrange.png  used on input line 1431.
+Package luatex.def Info: figures/lagrange.png  used on input line 1430.
 (luatex.def)             Requested size: 257.54161pt x 201.69713pt.
 [27<./figures/rolle.png>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1481--1482
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1480--1481
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1495--1496
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1494--1495
  [][][][][][] 
  []
 
 [28<./figures/lagrange.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1511--1513
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1512
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1511--1513
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1512
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1540--1541
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1539--1540
  [][][][][][] 
  []
 
 [29]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1580--1581
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1579--1580
  [][][][][][] 
  []
 
 [30]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1615--1616
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1614--1615
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1632--1633
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1631--1632
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1669--1670
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1668--1669
  [][][][][][] 
  []
 
 [31]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1692--1693
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1691--1692
  [][][][][][] 
  []
 
 [32]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1751--1752
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1750--1751
  [][][][][][] 
  []
 
@@ -1927,12 +1927,11 @@ e1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/2023/texmf-dist/fonts/type1/public
 fb></opt/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt
 /texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></opt/texlive/
 2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/2023/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2023/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on analisi_1.pdf (35 pages, 525491 bytes).
+f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on analisi_1.pdf (35 pages, 517693 bytes).
 
-PDF statistics: 230 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
+PDF statistics: 226 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

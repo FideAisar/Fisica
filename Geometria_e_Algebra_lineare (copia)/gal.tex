@@ -1555,7 +1555,7 @@ Le vecchie coordinate sono legate alle nuove dalla seguente equazione:
 \[
 \left[v\right]_{B} = M_{B}^{B'} \left[v\right]_{B'}
 \] 
-$M_{B}^{B'}$ è detta  \textbf{matrice del cambiamento di base} e ha nelle colonne i vettori della base di partenza rispetto la base di arrivo. Quindi la matrice di cambiamento di base da $\mathscr{B} = {v_1,\dots,v_{n}}$ a $\mathscr{B}' = {e_{1},\dots,e_{n}}$ sarà:
+$M_{B}^{B'}$ è detta  \textbf{matrice del cambiamento di base} e ha nelle colonne i vettori della base di arrivo rispetto la base di partenza. Quindi la matrice di cambiamento di base da $\mathscr{B} = {v_1,\dots,v_{n}}$ a $\mathscr{B}' = {e_{1},\dots,e_{n}}$ sarà:
 
 
 \[
@@ -1656,6 +1656,35 @@ Quindi
 \[
 \leftindex^{t}{P}P = I \qquad \leftindex^{t}{P} = P^{-1}
 \]
+
+\subsubsection{Algoritmo di ortogonalizzazione di Gram-Schmidt }
+Questo algoritmo ci permette di ottenere un insieme di vettori \textbf{ortogonali} a partire da un generico insieme di vettori linearmente indipendenti in uno spazio vettoriale dotato di un prodotto scalare \textit{definito positivo}.
+
+\noindent
+Diciamo di avere tre vettori
+\[
+\bar{v}_{1} \quad \bar{v}_{2} \quad \bar{v}_{3}
+\]
+Si prende il primo vettore e si \textbf{normalizza}:
+\[
+\bar{u}_{1} = \frac{\bar{v}_{1}}{\|\bar{v}_{1}\|}
+\]
+Poi si rende ortogonale $\bar{v}_{2}$
+\[
+\bar{v}_{2}' = \bar{v}_{2} - \left(\bar{v}_{2} \cdot \bar{u}_{1}\right)\bar{u}_{1}
+\]
+si normalizza $\bar{v}_{2}'$
+\[
+\bar{u}_{2} = \frac{\bar{v}_{2}'}{\|\bar{v}_{2}'\|}
+\]
+Si itera con gli altri vettori
+\[
+\bar{v}_{3}' = \bar{v}_{3} - \left(\bar{v}_{3} \cdot \bar{u}_{1}\right)\bar{u}_{1} - \left(\bar{v}_{3} \cdot \bar{u}_{2}\right)\bar{u}_{2}
+\]
+\[
+\bar{u}_{3} = \frac{\bar{v}_{3}'}{\|\bar{v}_{3}'\|}
+\]
+
 
 \subsection{Spazio delle righe, delle colonne, Nullspace}
 Prendiamo in esame la matrice
@@ -2105,13 +2134,13 @@ Dal capitolo sul determinante di una matrice sappiamo che il determinante rappre
 \paragraph{Autospazi} Vale la pena soffermarsi su cosa sono, come si trovano e su alcune proprietà degli autospazi.
 Per trovare un autospazio $V_{\lambda_{0}}$ associato a un autovalore $\lambda_{0}$ si calcola il nullspace della matrice $A-\lambda_{0} I$:
  \[
-	 V_{\lambda_{0}} = \text{N}\left(A-\lambda_{0} I\right)
+	 V_{\lambda_{0}} = \text{ (in componenti) } \text{N}\left(A-\lambda_{0} I\right)
 \]
-\noindent
+\noindent 
 Il numero di generatori del nullspace, ovvero la sua dimensione, viene chiamata \textit{molteplicità geometrica}: $\text{m}_{\text{g}}\left(\lambda_{0}\right)$
 
 \begin{enumerate}
-	\item Ogni vettore $\overline{x} \in V_{\lambda_{1}},\dots,V_{\lambda_{k}}$ si scrive in modo unico come $\overline{x}_{1} +, \dots,+ \overline{x}_{k}$ con $x_{j} \in V_{\lambda_{j}}$, ovvero gli autospazi associati agli autovalori di un certo polinomio caratteristico sono in \textbf{somma diretta}.
+		\item Ogni vettore $\overline{x} \in V_{\lambda_{1}},\dots,V_{\lambda_{k}}$ si scrive in modo unico come $\overline{x}_{1} +, \dots,+ \overline{x}_{k}$ con $x_{j} \in V_{\lambda_{j}}$, ovvero gli autospazi associati agli autovalori di un certo polinomio caratteristico sono in \textbf{somma diretta}.
 
 		\noindent
 Questo implica 
@@ -2237,7 +2266,7 @@ f: V \longrightarrow V \text{ endomorfismo.} \quad \text{ Sono equivalenti: }
 \begin{enumerate}
 	\item $f$ diagonalizzabile ;
 	\item $P_{f}\left(\lambda\right)$ ha solo radici reali e per ogni $\lambda_{j}$ si ha $\text{m}_{\text{g}}\left(\lambda_{j}\right) = \text{m}_{\text{a}}\left(\lambda_{j}\right)$ ;
-	\item Se gli autovalori sono tutti distinti, $\text{dim}\left(V_{\lambda_{1}}\right) + \dots + \text{dim}\left(V_{\lambda_{k}}\right) = \text{dim}\left(V\right)$;
+	\item Se gli autovalori sono tutti distinti non nulli, $\text{dim}\left(V_{\lambda_{1}}\right) + \dots + \text{dim}\left(V_{\lambda_{k}}\right) = \text{dim}\left(V\right)$;
 	\item Se gli autovalori sono tutti distinti, $V = V_{\lambda_{1}} \oplus \dots \oplus V_{\lambda_{k}}$.
 \end{enumerate}
 
@@ -2384,7 +2413,7 @@ E' importante notare che gli autospazi associati a un'applicazione lineare autoa
 			\]
 			In particolare:
 			\[
-			f \text{ autoaggiunto}  \quad \Rightarrow \quad f \text{diagonalizzabile}
+			f \text{ autoaggiunto}  \quad \Rightarrow \quad f \text{ diagonalizzabile}
 			.\] 	
 			\end{redes}
 	\end{minipage}}        
@@ -2419,6 +2448,7 @@ Trovo lambda coniugato:
 \[
 \bar{AX} = \overline{\lambda X} \to A\overline{X} = \bar{\lambda} \overline{X}
 \]
+
 Ho trovato che $\overline{X}$ è autovettore di $A$ con autovalore $\overline{\lambda}$. Adesso mostriamo che $\lambda = \overline{\lambda}$:
 \[
 \leftindex^{t}{\bar{X}}AX = \leftindex^{t}{\bar{X}} \lambda X = \lambda \leftindex^{t}{\bar{X}}  X
@@ -2426,10 +2456,13 @@ Ho trovato che $\overline{X}$ è autovettore di $A$ con autovalore $\overline{\l
 \[
 (\leftindex^{t}{\bar{X}}A)X = \leftindex^{t}{(A\bar{X})}X = \bar{\lambda} \leftindex^{t}{\bar{X}} X
 \]
+
 poiché siamo partiti da due espressioni uguali la loro differenza deve essere uguale a zero:
 \[
 \lambda \leftindex^{t}{\bar{X}}  X -  \bar{\lambda} \leftindex^{t}{\bar{X}} X = 0 \to (\lambda - \bar{\lambda})(\leftindex^{t}{\bar{X}} X) = 0
 \]
+\end{es}
+\begin{es}{}
 poiché
 \[
 \leftindex^{t}{\bar{X}} X = (\bar{x}_{1} \dots \bar{x}_{n}) \cdot \left(\begin{array}{c}
@@ -2456,8 +2489,7 @@ Prendo due vettori appartenenti a due autospazi diversi:
 (\lambda - \mu)\bar{x} \cdot \bar{y} = 0 \Longleftrightarrow \bar{x} \cdot \bar{y} = 0
 \]
 \\
-\end{es}
-\begin{es}{}
+
 $3) \quad$ \textit{Gli autospazi sono in somma diretta-ortogonale}.
 
 Per dimostrare che la somma degli autospazi coincide con tutto $V$ è necessario mostrare $W$ insieme degli autospazi è $ = V$, e quindi che $W^\perp = \{\bar{0}\}$. Procederemo in questo ordine:
@@ -2875,15 +2907,15 @@ E' interessante notare che mettere in forma normale una $\phi$ definita positiva
 	\[
 	\lambda_j < 0 \qquad  \phi(\ni\bar{v_{j}},\ni\bar{v_{j}}) =  -1 \quad \to \ni^2\phi(\bar{v_{j}},\bar{v_{j}}) =  -1 \quad \to \phi(\bar{v_{j}},\bar{v_{j}}) =  \frac{-1}{\ni^2}
 	\]
-\end{es}
-\begin{es}{}
+
 	\[
 	\frac{-1}{\ni^2} = \lambda_i \quad \to \ni = \frac{1}{\sqrt{-\lambda_i}}
 	\]
 	\[
 	\lambda_k = 0 \qquad \beta^2\phi(\bar{v}_{k},\bar{v}_{k}) = 0 \qquad \forall \beta \in \mathbb{R}
 	\]
-	
+\end{es}
+\begin{es}{}
 	Abbiamo trovato quindi la base che mette $\phi$ in forma normale. Mettendo in ordine i vettori con prima quelli associati ad autovalori positivi, poi negativi e alla fine nulli:
 	\[
 	\mathcal{B}' = \left\{\frac{1}{\sqrt{\lambda_i}}\bar{v_{i}},\frac{1}{\sqrt{-\lambda_j}}\bar{v}_{j},\bar{v}_{k}\right\}
