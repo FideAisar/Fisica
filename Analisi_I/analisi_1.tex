@@ -546,11 +546,17 @@
 		\]
 		Ora facendo variare $g$ e ricordando la definizione di integrale inferiore si ottiene la tesi:
 		\[
-		\underline{\int_{a}^{b}}f \quad \leq \quad \text{sup}\left\{\int_{a}^{b}g \quad \text{t.c.} \quad g \in \mathcal{S}^-f\right\} \quad = \quad \overline{\int_{a}^{b}}f
+		\underline{\int_{a}^{b}}f = \text{sup}\left\{\int_{a}^{b}g \quad \text{t.c.} \quad g \in  \mathcal{S}^-f \right\} \leq \overline{\int_{a}^{b}}f
 		\]
+		Poiché si ha che 
 		\[
-		\Longrightarrow 	\int_{a}^{b}g \leq \int_{a}^{b}h 
+		\int_{a}^{b}g \leq \int_{a}^{b}h 
 		\]
+		allora
+		\[
+		\Longrightarrow \underline{\int_{a}^{b}}f \leq \overline{\int_{a}^{b}}f
+		\]
+		
 		\begin{es}{!attenzione}
 			Sembrerebbe logico pensare che la disuguaglianza sopra sia in realtà un'uguaglianza per tutte le funzioni limitate.
 			Se prendiamo per esempio la funzione di Dirichlet ci accorgiamo che non è così: $f(x) = \begin{cases}
@@ -625,7 +631,7 @@
 	
 	
 	\begin{es}{dimostrazione: unicità del limite} 
-		Supponiamo che esistano due limiti differenti di una funzione $f$ tendente allo stesso valore $x_0$ e li chiamiamo $l_1$ e $l_2$ tali che $\lim_{x\to x_0}f\left(x\right) = l_1$ e $\lim_{ x\to x_0}f\left(x\right) = l_2$. Inoltre prendiamo gli intorni di  $l_1$ e di $l_2$ in modo che $l_1 \cap l_2 = \varnothing$.
+		Supponiamo che esistano due limiti differenti di una funzione $f$ tendente allo stesso valore $x_0$ e li chiamiamo $l_1$ e $l_2$ tali che $\lim_{x\to x_0}f\left(x\right) = l_1$ e $\lim_{ x\to x_0}f\left(x\right) = l_2$ ($l_{1},l_{2} \in \bar{\mathbb{R}}$). Inoltre prendiamo gli intorni di  $l_1$ e di $l_2$ in modo che $l_1 \cap l_2 = \varnothing$.
 		
 		\begin{center}
 			\includesvg[scale=1.3]{figures/intornielle}
@@ -717,11 +723,11 @@
 					\begin{redes}{ricorda: funzioni monotone}
 						Una funzione $f$ si dice \textbf{monotona crescente} se
 						\[
-						\forall x_1, x_2 \in \text{I} \quad x_1 < x_2 \Longrightarrow f(x_1) \leq f(x-2) 
+						\forall x_1, x_2 \in \text{I} \quad x_1 < x_2 \Longrightarrow f(x_1) \leq f(x_{2}) 
 						\]
 						e \textbf{strettamente monotona crescente} se
 						\[
-						\forall x_1, x_2 \in \text{I} \quad x_1 < x_2 \Longrightarrow f(x_1) < f(x-2) 
+						\forall x_1, x_2 \in \text{I} \quad x_1 < x_2 \Longrightarrow f(x_1) < f(x_{2}) 
 						\]
 					\end{redes}
 					Data la funzione
@@ -801,7 +807,7 @@
 	\end{center}
 	
 	\begin{es}{dimostrazione}
-		Prendiamo una terza funzione sicuramente positiva:
+		Prendiamo una terza funzione sicuramente non negativa:
 		\[
 		h(x) = g(x) - f(x) \qquad \to h(x) \geq 0 \quad \forall x \in \text{I}(x_0) \backslash \{x_0\}
 		\]
@@ -855,7 +861,7 @@
 		\]
 		Ora definiamo un terzo intorno che verifica le condizioni precedenti:
 		\[
-		x \in (\text{I}(x_0) \cap \text{I}'(x_0) \cap \text{I}''(x_0)) \quad \Longrightarrow \quad l - \varepsilon < f(x)\leq g(x) < h(x) < l + \varepsilon
+		x \in (\text{I}(x_0) \cap \text{I}'(x_0) \cap \text{I}''(x_0)) \quad \Longrightarrow \quad l - \varepsilon < f(x)\leq g(x) \leq h(x) < l + \varepsilon
 		\]
 	\end{es}
 	\paragraph{Corollario} Sia $\lim_{x \to x_0}g(x) = 0$ e sia $f$ una funzione limitata in un intorno di $x_0$, cioè
@@ -881,7 +887,7 @@
 				\begin{blues}{Definizione: Funzione continua}
 					Una funzione $f$ si dice continua in $x_0$ se 
 					\[
-					\lim_{x \to x_0} = f(x)
+					\lim_{x \to x_0} f(x)= f(x_{0})
 					\]
 					Quindi 
 					\[
@@ -945,13 +951,13 @@
 				\end{redes}
 		\end{minipage}}        
 	\end{center}
-	\begin{es}{dimostrazione}
+	\begin{es}{\textcolor{red}{\textbf{???}}dimostrazione}
 		Per semplicità prendiamo una funzione $f$ limitata su I: $\exists k >0$ t.c $|f(x)| \leq k \quad \forall x \in \text{I}$.\\
 		Ora fissiamo un'ascissa arbitraria che chiameremo $\bar{x} \in \text{I}$ e proviamo che $F(x)$ è continua in $\bar{x}$. \\ \\
 		
 		Dimostriamo che 
 		\[
-		\lim_{x \to \bar{x}}F(x) = F(x)
+		\lim_{x \to \bar{x}}F(x) = F(\bar{x})
 		\]
 		che per definizione di limite possiamo riscrivere come
 		\[
@@ -962,7 +968,7 @@
 		\]
 		Utilizziamo ora la proprietà di additività dell'integrale:
 		\[
-		F(x) - F(\bar{x}) = \int_{x_0}^{x}f(t) \,dt - \int_{x_0}^{x}f(t) \,dt  \quad = \quad \int_{\bar{x}}^{x}f(t) \,dt
+		F(x) - F(\bar{x}) = \int_{x_0}^{x}f(t) \,dt - \int_{x_0}^{\bar{x}}f(t) \,dt  \quad = \quad \int_{\bar{x}}^{x}f(t) \,dt
 		\]
 		dunque sempre per la proprietà dell'integrale:
 		\begin{align*}
@@ -983,7 +989,7 @@
 		\fboxsep11pt
 		\colorbox{myblue}{\begin{minipage}{5.75in}
 				\begin{blues}{Definizione: Successione}
-					Si chiama successione una funzione $a: \mathbb{N}\to \mathbb{R}$. Non si scrive $a(n)$ ma $a_n$, che sta a indicare il termine n-simo:
+					Si chiama successione una funzione $a: \mathbb{N}\to \mathbb{R}$. Non si scrive $a(n)$ ma $\mathbf{a_n}$, che sta a indicare il termine n-simo:
 					\[
 					\{a_n\}_{n\geq n_0}
 					\]
@@ -1005,7 +1011,7 @@
 	
 	Allora definiamo il limite della successione come
 	\[
-	\lim_{x \to \infty}a_n = l \in \bar{\mathbb{R}} \quad \text{se per ogni reale } \varepsilon > 0 \text{ esiste un intero } n_\varepsilon \quad \text{t.c.} \quad 
+	\lim_{n \to \infty}a_n = l \in \bar{\mathbb{R}} \quad \text{se per ogni reale } \varepsilon > 0 \text{ esiste un intero } n_\varepsilon \quad \text{t.c.} \quad 
 	\]
 	\[
 	\forall n \geq n_0, \quad n > n_\varepsilon \Longrightarrow |a_n - l| < \varepsilon
@@ -1027,7 +1033,7 @@
 		Quindi
 		\begin{align*}
 			|a_n| =& |a_n -l +l| \\
-			 \geq& |a_n - l| + |l| \\
+			 \leq& |a_n - l| + |l| \\
 			<&  1 + |l| \qquad \forall n > \bar{n}
 		\end{align*}
 		Ponendo
@@ -1058,8 +1064,21 @@
 					\subsubsection{Teorema di relazione (o teorema ponte)}
 					Sia $f$ definita in un intorno di $c \in \mathbb{R}$ tranne eventualmente in $c$. Allora:
 					\[
-					\lim_{x \to c} = l \in \mathbb{R} \Longleftrightarrow \forall \{x_n\} \quad \text{t.c.} \quad x_n \neq c, \text{ e } \lim_{n}x_n = c\quad \text{risulta} \quad \lim_{n} f(x_n) = l
+					\lim_{x \to c} f(x) = l \in \mathbb{R} 
 					\]
+					\[
+					\Longleftrightarrow
+					\]
+					 \[
+					 \forall \{x_n\} \quad \text{t.c.} \quad x_n \neq c, \text{ e } \lim_{n}x_n = c 
+					 \]
+					 \[
+					 \text{risulta} 
+					 \]
+					 \[
+					 \quad \lim_{n} f(x_n) = l
+					 \]
+					A parole: la funzione ha limite $l$ per $x \to c$ \textit{se e solo se} le immagini tramite $f$ di ogni successione che tendono a $c$ sono tali da \textbf{convergere} a $l$.
 				\end{redes}
 		\end{minipage}}        
 	\end{center}
@@ -1071,7 +1090,7 @@
 		\item $x_n = \frac{\pi}{2} + 2 \pi n \quad \to +\infty \qquad \qquad f(x_n) = 1$
 		\item $x'_n = -\frac{\pi}{2} + 2 \pi n \quad \to +\infty\qquad \qquad f(x'_n) = -1$
 	\end{itemize}
-	Vediamo che entrambe le successioni soddisfano le condizioni $x_n \neq +\infty$ e $\lim_{n}x_n = +\infty$. Purtroppo però la terza non è soddisfatta:
+	Vediamo che entrambe le successioni soddisfano le condizioni $x_n \neq +\infty$ e $\lim_{n}x_n = +\infty$. Purtroppo però la terza non è soddisfatta poiché le due successioni non convergono nello stesso valore:
 	\[
 	\lim_{n}f(x_n) = +1 \quad \text{e} \quad \lim_{n}f(x'_n) = -1
 	\]
@@ -1150,7 +1169,7 @@
 		
 		Osservando come varia la posizione di $a_{n}$ e di $b_{n}$ notiamo che $a_{n}$ o rimane dov'è o si sposta a destra (aumenta), ivece $b_{n}$ o rimane dov'è o si sposta a sinistra (diminuisce). Possiamo allora dire che le succesioni ${a_{n}}$ e ${b_{n}}$ sono rispettivamente monotona crescente e monotona decrescente, limitate rispettivamente in $\left(a \leq a_{n} \leq b\right)$ e in $\left(a \leq b_{n} \leq b\right)$.
 		\\ \\
-		Proprio perché le due successioni sono \textit{monotone crescenti}, secondo il teorema di esistenza del limite per successioni monotone:
+		Proprio perché le due successioni sono \textit{monotone}, secondo il teorema di esistenza del limite per successioni monotone:
 		\[
 		\exists \lim_{n\to \infty}a_{n} = c^- \in \left[a,b\right] \qquad \text{e} \qquad \exists\lim_{n\to \infty}b_{n} =c^+ \in \left[a,b\right]
 		.\] 
@@ -1164,15 +1183,23 @@
 		c^+ - c^- = \lim_{n\to \infty}\left(b_{n} - a_{n}\right) = \lim_{n\to \infty}\frac{b-a}{2^n} = 0
 		.\] 
 		\[
-		c^+ = c^-l =: c \in \left[a,b\right]
-		.\] 
-		Poiché $f$ è \textit{continua}:
+		c^+ = c^- =: c \in \left[a,b\right]
+		\]
+		$c$ è il \textbf{limite unico} a cui tendono le funzioni.
+		 
+		Poiché $f$ è \textit{continua} e si ha che $\lim_{n\to \infty}a_{n} = \lim_{n\to \infty}b_{n} = c$:
 		\[
 		\lim_{n\to \infty}f\left(a_{n}\right)  = f\left(c\right) = \lim_{n\to \infty}f\left(b_{n}\right)
 		.\] 
 		Infine ricordando che $f\left(a_{n}\right) < 0 < f\left(b_{n}\right)$ e ricordando il corollario del teorema di permanenza del segno:
+		\begin{es}{corollario teo. perm. segno}
+			Se esiste un intorno di $x_0$ I$(x_0)$ in cui $f(x) \geq 0 \quad \forall x \in$ I$(x_0) \backslash \left\{x_0\right\}$ allora (se esiste), il limite
+			\[
+			\lim_{x \to x_0}f(x) \geq 0
+			\]
+		\end{es}
 		\[
-		f\left(a_{n}\right) < 0 < f\left(b_{n}\right) \quad \Rightarrow \quad f\left(c\right) \leq o \leq f\left(c\right)
+		f\left(a_{n}\right) < 0 < f\left(b_{n}\right) \quad \Rightarrow \quad f\left(c\right) \leq 0 \leq f\left(c\right)
 		.\] 
 		\textbf{Dunque $f\left(c\right) = 0$, $c \in \left(a,b\right)$ } 
 	\end{es}
@@ -1188,7 +1215,7 @@
 	.\] 
 	Inoltre se $f$ è strettamente crescente e $g$ strettamente decrescente in $\left[a,b\right]$ il punto $x_0$ è unico. \textit{In soldoni: presi due punti $a$ e $b$ sull'asse $x$ e ricavati gli intervalli $\left(f\left(a\right),f\left(b\right)\right)$ e $\left(g\left(a\right),g\left(b\right)\right)$ sull'asse $y$ se l'intervallo di $g$ contiene quello di $f$, allora esiste sicuramente un punto $x_0$ in $f$ contenente $f\left(x_0\right)$}
 	\begin{center}
-		\includesvg[scale=0.9]{figures/corollario_72}
+		\includesvg[scale=0.8]{figures/corollario_72}
 	\end{center}
 	
 	
@@ -1436,7 +1463,7 @@
 		\]
 		Tramite la funzione ausiliaria si verifica facilmente che 
 		\[
-		h(a) = f(a) \qquad h(b) = f(b)
+		h(a) = f(a) \qquad h(b) = f(a)
 		\]
 		Quindi per il teorema di Rolle sappiamo che esiste una $c \in (a,b)$ che soddisfa $h'(c) = 0$. Ma 
 		\[
@@ -1535,6 +1562,7 @@
 					\[
 					f(x) \leq f(x_1) + \frac{f(x_2) - f(x_1)}{x_2 - x_1}(x-x_1)
 					\]
+					Una funzione si dice convessa se il segmento che congiunge due qualsiasi punti del suo grafico si trova al di sopra del grafico stesso.
 				\end{blues}
 		\end{minipage}}       
 	\end{center}
@@ -1554,7 +1582,7 @@
 	f(x) = f(x_0) + f'(x_0)(x-x_0) + o(x-x_0)
 	\]
 	
-	In generale posso trovare il polinomio $T_{n,x_0}(x)$ di grado $leq n$ tale che:
+	In generale posso trovare il polinomio $T_{n,x_0}(x)$ di grado $\leq n$ tale che:
 	\[
 	f(x) = T_{n,x_0}(x) + o\left( (x-x_0)^n\right)
 	\]
@@ -1568,7 +1596,7 @@
 				\begin{redes}{Teorema: formula di Taylor con resto di Peano}
 					Sia $f:$I$\to \mathbb{R}$ derivabile n volte in $x_0$, allora posto
 					\[
-					T_{n,x_0}(x) = \sum_{k=0}^{n}\frac{1}{k!}f^{(k)}(x_0)(x-x_0)
+					T_{n,x_0}(x) = \sum_{k=0}^{n}\frac{1}{k!}f^{(k)}(x_0)(x-x_0)^k
 					\]
 					risulta
 					\[
@@ -1630,8 +1658,10 @@
 				\end{blues}
 		\end{minipage}}       
 	\end{center}
-	\begin{es}{dimostrazione}
-		Se $f$ primitivabile ha $F$ come sua primitiva, allora $G$ è primitiva di $f \Longleftrightarrow G(x) = F(x) + c$ per qualche $c \in \mathbb{R}$.
+	\paragraph{Proprietà: caratterizzazione delle primitive}
+	Se $f$ primitivabile ha $F$ come sua primitiva, allora $G$ è primitiva di $f \Longleftrightarrow G(x) = F(x) + c$ per qualche $c \in \mathbb{R}$.
+	
+	\begin{es}{dimostrazione}	
 		\begin{align*}
 			G \text{ è primitiva di } f \Longleftrightarrow& G'(x) = f(x) \\
 			\Longleftrightarrow& G'(x) = F'(x) \quad \forall x \\
@@ -1662,11 +1692,34 @@
 					Sia $f: [a,b] \to \mathbb{R}$ integrabile. Allora
 					\[
 					\text{inf}_{x \in [a,b]} f(x) \leq m(f;a,b) \leq \text{sup}_{x \in [a,b]} f(x)
-					\]					
+					\]
+					\begin{center}
+					\textit{ha senso perché la f.ne è integrabile quindi limitata}	
+					\end{center}
+					
 					Inoltre se $f$ è continua su $[a,b]$, allora esiste uno $z \in [a,b]$ t.c. $f(z) = m(f;a,b)$.
 				\end{redes}
 		\end{minipage}}        
 	\end{center}
+	
+	\begin{es}{dimostrazione}
+		Sappiamo che 
+		\[
+		\text{inf}f \leq f(x) \leq \text{sup}f \qquad \forall x \in [a,b]
+ 		\]
+ 		quindi anche che
+ 		
+ 		\[
+ 		\text{inf}f \cdot (b-a) = \int_{a}^{b}\text{inf}f \leq \int_{a}^{b}f \leq \int_{a}^{b}\text{sup}f = \text{sup}f \cdot (b-a)
+ 		\]
+ 		Ovvero che l'area del rettangolo di area $min(f)\cdot (b-a)$ è minore dell'area sottesa dalla curva che è minore dell'area del rettangolo di area $max(f)\cdot (b-a)$.
+ 		
+ 		E allora si ha che
+ 		\[
+ 		\text{inf}f \leq \frac{1}{(b-a)}\int_{a}^{b}f \leq  \text{sup}f
+ 		\]
+ 		
+	\end{es}
 	
 	\subsection{Legame tra integrali di Riemann e integrali indefiniti}
 	Perché utilizziamo stessi simboli per indicare due concetti così differenti (area con segno e antiderivata)? La risposta sta nel \textbf{Teorema fondamentale del calcolo integrale}, che ci permette di "costruire primitive" mediante integrazione.

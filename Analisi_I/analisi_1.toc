@@ -49,6 +49,7 @@
 \contentsline {subsubsection}{Test di monotonia}{29}{}%
 \contentsline {section}{\numberline {9}Taylor}{30}{}%
 \contentsline {section}{\numberline {10}Primitivazione}{31}{}%
+\contentsline {paragraph}{Proprietà: caratterizzazione delle primitive}{31}{}%
 \contentsline {subsection}{\numberline {10.1}Media integrale}{31}{}%
 \contentsline {subsubsection}{Teorema della media integrale}{32}{}%
 \contentsline {subsection}{\numberline {10.2}Legame tra integrali di Riemann e integrali indefiniti}{32}{}%
