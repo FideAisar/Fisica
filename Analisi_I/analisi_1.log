@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  24 JAN 2024 13:30
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  28 JAN 2024 09:06
  restricted system commands enabled.
 **analisi_1.tex
 (./analisi_1.tex
@@ -1930,7 +1930,7 @@ t/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></opt/texlive/2023/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/2023/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msbm10.pfb>
-Output written on analisi_1.pdf (35 pages, 536456 bytes).
+Output written on analisi_1.pdf (35 pages, 536455 bytes).
 
 PDF statistics: 234 PDF objects out of 1000 (max. 8388607)
  139 compressed objects within 2 object streams
