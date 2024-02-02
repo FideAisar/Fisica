@@ -67,21 +67,27 @@
 \contentsline {paragraph}{Un altro punto di vista}{33}{section*.44}%
 \contentsline {paragraph}{Autospazi}{33}{section*.45}%
 \contentsline {paragraph}{Teorema}{33}{section*.46}%
-\contentsline {section}{\numberline {7}Diagonalizzazione}{34}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Criteri di diagonalizzabilità}{34}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Endomorfismi autoaggiunti}{36}{subsection.7.2}%
-\contentsline {subsubsection}{Teorema spettrale}{37}{section*.47}%
-\contentsline {paragraph}{Corollario}{38}{section*.48}%
-\contentsline {section}{\numberline {8}Forme bilineari}{40}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Matrice associata alla FBS}{40}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Forma quadratica}{40}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}$\bgroup \oldphi \egroup $-ortogonalità}{41}{subsection.8.3}%
-\contentsline {paragraph}{Alcuni fatti sulla $\bgroup \oldphi \egroup $-ortogonalità}{41}{section*.49}%
-\contentsline {subsubsection}{Classificazione forma quadratica}{42}{section*.50}%
-\contentsline {subsection}{\numberline {8.4}Cauchy-Schwarz e Minkowski}{42}{subsection.8.4}%
-\contentsline {subsubsection}{Disuguaglianza di Cauchy-Schwarz}{42}{section*.51}%
-\contentsline {subsubsection}{Disuguaglianza di Minkowsky}{43}{section*.52}%
-\contentsline {subsection}{\numberline {8.5}Teorema di esistenza di una forma canonica}{43}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Forma normale}{44}{subsection.8.6}%
-\contentsline {subsubsection}{Teorema di esistenza di una forma normale}{44}{section*.53}%
-\contentsline {subsubsection}{Teorema di Sylvester}{45}{section*.54}%
+\contentsline {section}{\numberline {7}Isometrie}{34}{section.7}%
+\contentsline {subsubsection}{Proprietà delle isometrie}{35}{section*.47}%
+\contentsline {subsubsection}{Basi destrorse}{35}{section*.48}%
+\contentsline {subsection}{\numberline {7.1}Isometrie in $V_{2}$}{35}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Isometrie in $V_{3}$}{35}{subsection.7.2}%
+\contentsline {subsubsection}{Teorema di Eulero}{35}{section*.49}%
+\contentsline {section}{\numberline {8}Diagonalizzazione}{36}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Criteri di diagonalizzabilità}{36}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Endomorfismi autoaggiunti}{38}{subsection.8.2}%
+\contentsline {subsubsection}{Teorema spettrale}{39}{section*.50}%
+\contentsline {paragraph}{Corollario}{40}{section*.51}%
+\contentsline {section}{\numberline {9}Forme bilineari}{42}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Matrice associata alla FBS}{42}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Forma quadratica}{42}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}$\bgroup \oldphi \egroup $-ortogonalità}{43}{subsection.9.3}%
+\contentsline {paragraph}{Alcuni fatti sulla $\bgroup \oldphi \egroup $-ortogonalità}{43}{section*.52}%
+\contentsline {subsubsection}{Classificazione forma quadratica}{44}{section*.53}%
+\contentsline {subsection}{\numberline {9.4}Cauchy-Schwarz e Minkowski}{44}{subsection.9.4}%
+\contentsline {subsubsection}{Disuguaglianza di Cauchy-Schwarz}{44}{section*.54}%
+\contentsline {subsubsection}{Disuguaglianza di Minkowsky}{45}{section*.55}%
+\contentsline {subsection}{\numberline {9.5}Teorema di esistenza di una forma canonica}{45}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Forma normale}{46}{subsection.9.6}%
+\contentsline {subsubsection}{Teorema di esistenza di una forma normale}{46}{section*.56}%
+\contentsline {subsubsection}{Teorema di Sylvester}{47}{section*.57}%

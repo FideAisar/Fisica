@@ -191,7 +191,7 @@ b_{r}
 
 %OMOGENEO
 \subsection{Sistemi omogenei}
-Particolarità dei sistemi omogenei è il fatto che operando sulle righe, non si va ad alterare sulla colonna di zeri. Ogni sistema omogeneo ricade in due possibili scenari:
+Particolarità dei sistemi omogenei è il fatto che operando sulle righe, non si va ad alterare la colonna di zeri. Ogni sistema omogeneo ricade in due possibili scenari:
 
 \begin{enumerate}
  	\item Ha solo la soluzione banale;
@@ -204,7 +204,7 @@ Particolarità dei sistemi omogenei è il fatto che operando sulle righe, non si
 \colorbox{myred}{\begin{minipage}{5.75in}
 \begin{redes}{}
 \subsubsection{Teorema: parametri liberi}
-Se un sistema lineare omogeneo ha $n$ incognite e nell sua forma ridotta la sua matrice completa ha  $\text{rank}A = n$ (nessuna riga nulla), allora
+Se un sistema lineare omogeneo ha $n$ incognite e nella sua forma ridotta la sua matrice completa ha  $\text{rank}A = n$ (nessuna riga nulla), allora
 \[
 \text{parametri liberi } = n - \text{rank}A
 .\] 
@@ -293,12 +293,12 @@ Infine proviamo che una soluzione di $\Sigma + $  una qualsiasi soluzione di  $\
 \newpage
 \section{Matrici}
 
-Definiamo una matrice di $r$ righe e $n$ colonne con $a_{ij} \in \mathbb{R}; i = 1,\dots,r; j = 1,\dots,n$ definita nello spazio $\mathbb{R}^{rn}$ in questo modo:
+Definiamo una matrice di $r$ righe e $n$ colonne con $a_{ij} \in \mathbb{R}; \quad i = 1,\dots,r; j = 1,\dots,n$ definita nello spazio $\mathbb{R}^{rn}$ in questo modo:
 $$
 A=
 \begin{bmatrix}a_{1,1}&a_{1,2}&\cdots &a_{1,n}\\a_{2,1}&a_{2,2}&\cdots &a_{2,n}\\ \vdots &\vdots &\ddots &\vdots \\a_{r,1}&a_{r,2}&\cdots &a_{r,n}\end{bmatrix}
 $$
-Esistono matrici \textbf{quadrate} se hanno stesso numero di righe e di colonne ($\mathbb{R}^{nn}$), \textbf{diagonali} se tutti gli elementi sono zeri tranne quelli sulla diagonale maggiore (matrice \textit{unità} se la diagonale contiene solo $1$), \textbf{nulle} se tutti gli elementi sono zeri, \textbf{riga} se hanno una riga sola, \textbf{colonna} se hanno una colonna sola.
+Si dicono matrici \textbf{quadrate} se hanno stesso numero di righe e di colonne ($\mathbb{R}^{nn}$), \textbf{diagonali} se tutti gli elementi sono zeri tranne quelli sulla diagonale maggiore (matrice \textit{unità} se la diagonale contiene solo $1$), \textbf{nulle} se tutti gli elementi sono zeri, \textbf{riga} se hanno una riga sola, \textbf{colonna} se hanno una colonna sola.
 
 $$
 \begin{bmatrix}1 & 1 & 0 \\ 0 & 1 & 2 \\ 0 & 3 & 1\end{bmatrix}
@@ -368,7 +368,7 @@ Se il rango è il numero di righe non nulle, e le righe dalla $n+1$ in poi sono 
 
 %OPERAZIONI TRA MATRICI
 \subsection{Operazioni tra matrici}
-E' ammessa la somma tra matrici dello stesso ordine $\mathbb{R}^{rn}$ e sono ammesse la proprietà commutativa, associativa, esistenza dell’elemento neutro ed esistenza dell’opposto. Il prodotto $A\cdot B$ è ammesso se il numero di righe della prima è uguale al numero di colonne della seconda, ovvero se $A \in \mathbb{R}^{rn}$ e $B\in \mathbb{R}^{np}$. Per il prodotto sono valide la proprietà associativa, la distributiva del prodotto rispetto alla somma.
+E' ammessa la somma tra matrici dello stesso ordine $\mathbb{R}^{rn}$ e sono ammesse la proprietà commutativa, associativa, esistenza dell'elemento neutro ed esistenza dell’opposto. Il prodotto $A\cdot B$ è ammesso se il numero di righe della prima è uguale al numero di colonne della seconda, ovvero se $A \in \mathbb{R}^{rn}$ e $B\in \mathbb{R}^{np}$. Per il prodotto sono valide la proprietà associativa, la distributiva del prodotto rispetto alla somma.
 
 \subsubsection{Prodotto come combinazione lineare}
 Un altro modo per descrivere il prodotto tra matrici è come \textit{combinazione lineare di vettori colonna}:
@@ -411,7 +411,7 @@ può anche essere scritto come:
 \fboxsep11pt
 \colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: matrice trasposta}
-    Data una matrice $A \in \mathbb{R}^{r,n}$, si dice trasposta di A ($\leftindex^t{A}$) la matrice che si ottiene scambiano le righe con le colonne di $A$: Se $A = (a_{ij})$, $\leftindex^t{A} = (a_{ji})$.
+    Data una matrice $A \in \mathbb{R}^{r,n}$, si dice trasposta di A ($\leftindex^t{A}$) la matrice che si ottiene scambiando le righe con le colonne di $A$: Se $A = (a_{ij})$, $\leftindex^t{A} = (a_{ji})$.
 $$
     A = \begin{bmatrix}
         1 & 2 & 3 \\
@@ -437,7 +437,7 @@ Proprietà delle matrici trasposte:
 
 %INTERPRETAZIONE GEOMETRICA
 \subsection*{Interpretazione geometrica delle matrici}
-Dopo aver parlato di vettori, approfondiamo il concetto di \textit{matrice} e il suo comportamento come \textit{spazio vettoriale}. Più in particolare vedremo il prodotto tra matrici come trasformazioni lineari dello spazio vettoriale (linearmente perché nessuna linea viene curvata e l'origine rimane fissata). Questa interpretazione di una matrice rende i conti più facili ed intuitivi. 
+Approfondiamo il concetto di \textit{matrice} e il suo comportamento come \textit{spazio vettoriale}. Più in particolare vedremo il prodotto tra matrici come trasformazioni lineari dello spazio vettoriale (linearmente perché nessuna linea viene curvata e l'origine rimane fissata). Questa interpretazione di una matrice rende i conti più facili ed intuitivi. 
 
 \noindent
 Diciamo di avere due vettori giacenti sui due assi:
@@ -451,7 +451,7 @@ Diciamo ora di avere una matrice $A$ che descrive dove questi due vettori cadono
 $$
 x=\begin{bmatrix}
     1 & 3 \\
-    2 & 0 
+    -2 & 0 
 \end{bmatrix}
 $$
 $$
@@ -499,7 +499,7 @@ $$
 $$
 
 \noindent
-L'ordine di composizione va letto da destra verso sinistra: viene eseguita prima la \textcolor{SteelBlue3}{blu}, poi la \textcolor{Brown2}{rossa} (cosa tipica delle notazione delle funzioni: $f(g(x))$).
+L'ordine di composizione va letto da destra verso sinistra: viene eseguita prima la \textcolor{SteelBlue3}{blu}, poi la \textcolor{Brown2}{rossa} (cosa tipica della notazione delle funzioni: $f(g(x))$).
 
 \noindent
 Pensando in questi termini, prodotto come composizione di trasformazioni, comprendiamo perché $AB \neq BA$; e la proprietà associativa diventa chiara e logica: $A(BC) = (AB)C$ in quanto l'ordine delle trasformazioni rimane invariato.
@@ -562,7 +562,7 @@ dove $\sigma$ è una qualsiasi permutazione dei numeri $1,2,\dots,n$ e $\epsilon
 \begin{enumerate}
     \item $det^t(A) = det(A)$;
     \item Se $A'$ si ottiene scambiando due righe o due colonne di $A$, allora $det(A') = -det(A)$;
-    \item Se faccio moltiplico una riga per un numero reale $\lambda$ allora $det(A^1) = \lambda^n det(A)$;
+    \item Se moltiplico una riga per un numero reale $\lambda$ allora $det(A^1) = \lambda^n det(A)$;
     \item Se addiziono a una riga un multiplo di un'altra riga il determinante non cambia;
     \item Una matrice con due righe o colonne uguali ha determinante nullo;
     \begin{enumerate}
@@ -607,7 +607,7 @@ $$
 \begin{es}{dimostrazione determinante (8)} 
 Per il teorema di Binet:
 $$
-AA^{-1} = I \qquad A^{-1} = \frac{I}{A} \qquad det(A^{-1}) = det(\frac{I}{A}) = \frac{1}{det(A)}
+AA^{-1} = I \qquad A^{-1} = \frac{I}{A} \qquad det(A^{-1}) = det\left(\frac{I}{A} \right)= \frac{1}{det(A)}
 $$
 
 \QEDB
@@ -654,7 +654,7 @@ Ora serve definire il \textbf{cofattore}; il cofattore di $a_{ij}$ è il numero 
 $$
 A_{ij}  = (-1)^{ij}\cdot M_{ij}
 $$
-Vediamo come il fattore $(-1)^{ij}$ da segno positivo o negativo se la posizione di $a_{ij}$ è pari o dispari ($a_{11}$ è pari, $a_{12}$ è dispari...). 
+Il fattore $(-1)^{ij}$ da segno positivo o negativo se la posizione di $a_{ij}$ è pari o dispari ($a_{11}$ è pari, $a_{12}$ è dispari...). 
 
 \subsubsection{Primo Teorema di Laplace}
 Fissata la riga i-esima, il determinante di una matrice quadrata $A \in \mathbb{R}^{n,n}$ è dato dalla somma di tutti i prodotti tra gli elementi della riga e i rispettivi cofattori (questo metodo funziona anche con le colonne) :
@@ -737,12 +737,12 @@ XAX = \begin{array}{c}
     \rightarrow
     XA = AX'
 $$
-Abbiamo dimostrato che se esiste una $X$ inversa a sinistra per $A$ ed esiste una $X' $ inversa a esa per $A$, allora $X=X'$ e quindi $A$ è invertibile e X è la sua inversa. 
+Abbiamo dimostrato che se esiste una $X$ inversa a sinistra per $A$ ed esiste una $X' $ inversa a destra per $A$, allora $X=X'$ e quindi $A$ è invertibile e X è la sua inversa. 
 
 \QEDB
 \end{es}
 \begin{es}{dimostrazione (2)}
-Vedo se la candidata ad inversa $B^{-1}A^{-1}$ soddisfa le proprietà richieste:
+Controllo se la candidata ad inversa $B^{-1}A^{-1}$ soddisfa le proprietà richieste:
 $$
 (B^{-1}A^{-1})AB = B^{-1}(A^{-1}A)B = B^{-1}IB = B^{-1}B = I
 $$
@@ -1110,7 +1110,7 @@ Il prodotto misto di tre vettori può essere risolto tramite determinante come
 \]
 e vale 
 \[
-\mathcal{B} = \left\{\bar{u},\bar{v},\bar{w}\right\} \text{ destrorsa }\Longleftrightarrow \bar{u} \cdot \left(\bar{v} \wedge \bar{w}\right) \Longleftrightarrow \text{ det}M^{\mathcal{B}}_{\mathcal{B}'} > 0
+\mathcal{B} = \left\{\bar{u},\bar{v},\bar{w}\right\} \text{ destrorsa }\Longleftrightarrow \bar{u} \cdot \left(\bar{v} \wedge \bar{w}\right) > 0< \Longleftrightarrow \text{ det}M^{\mathcal{B}}_{\mathcal{B}'} > 0
 \]
 \[
 \forall \mathcal{B}' \text{ base ortonormale destrorsa}
@@ -1162,9 +1162,9 @@ Si ha infatti che
 \subsubsection{Proprietà del prodotto}
 \begin{enumerate}
     \item (diciamo) distributiva: $\lambda(x+y) = \lambda x + \lambda y,\quad \forall x,y \in V, \forall \lambda \in \mathbb{R}$
-    \item $(\lambda + \mu)\cdot \overline{x} = \lambda \overline{x} + \mu \overline{x}, \quad \forall x,y \in V, \forall \lambda \in \mathbb{R}$
-    \item $(\lambda \cdot \mu)\overline{x} = \lambda(\mu \cdot \overline{x}),\quad \forall x,y \in V$
-    \item $1 \cdot \overline{x} = \overline{x}, \quad \forall x,y \in V$
+    \item $(\lambda + \mu)\cdot \bar{x} = \lambda \bar{x} + \mu \bar{x}, \quad \forall x,y \in V, \forall \lambda \in \mathbb{R}$
+    \item $(\lambda \cdot \mu)\bar{x} = \lambda(\mu \cdot \bar{x}),\quad \forall x,y \in V$
+    \item $1 \cdot \bar{x} = \bar{x}, \quad \forall x,y \in V$
 \end{enumerate}
 
 
@@ -1177,8 +1177,8 @@ Si ha infatti che
 Sia $V$ uno spazio vettoriale reale, $W \subseteq V $ è un sottospazio vettoriale di $V$ se $W$ è uno spazio vettoriale rispetto alle stesse operazioni di $V$, quindi rispetto alle operazioni di \textit{somma} e \textit{prodotto}.
 
 \begin{itemize}
-	\item Se ho 2 elementi $\overline{x},\overline{y}\in W \quad \Rightarrow \quad \overline{x} + \overline{y} \in W$;
-	\item Se ho 2 elementi $\overline{x} \in W, \lambda \in \mathbb{R} \quad \Rightarrow \quad \lambda\overline{x} \in W$.
+	\item Se ho 2 elementi $\bar{x},\bar{y}\in W \quad \Rightarrow \quad \bar{x} + \bar{y} \in W$;
+	\item Se ho 2 elementi $\bar{x} \in W, \lambda \in \mathbb{R} \quad \Rightarrow \quad \lambda\bar{x} \in W$.
 \end{itemize}
 
 \end{blues}
@@ -1229,27 +1229,27 @@ A\left(\lambda X_1 + \mu X_2\right) = \lambda AX_1 + \mu AX_2 = O
 \subsubsection{$+$ Somma di due sottospazi}
 La somma di due sottospazi è il più piccolo sottospazio contenente l'unione dei due si esprime come l'insieme di tutti i vettori ottenuti dalla somma di vettori appartenenti ai sottospazi sommati.
 \[
-W_1 + W_2  = \left\{\overline{x} \in V: \quad \overline{x} = \overline{y}+\overline{z}  \qquad y \in W_1, \quad z \in W_2\right\}
+W_1 + W_2  = \left\{\bar{x} \in V: \quad \bar{x} = \bar{y}+\bar{z}  \qquad y \in W_1, \quad z \in W_2\right\}
 .\] 
 
 Quindi $W_1 + W_2$ contiene $W_1$ e contiene $W_2$ e $W_1 + W_2$ è sottospazio.
 \begin{es}{dimostrazione}
 Possiamo dire che è sottospazio se la somma tra ogni vettore ricade in esso così come il prodotto tra ogni vettore e uno scalare.
 
-Prendiamo due vettori $\overline{x}$ e $\overline{y}$ entrambi $\in W_1 + W_2$:
+Prendiamo due vettori $\bar{x}$ e $\bar{y}$ entrambi $\in W_1 + W_2$:
 \[
-\overline{x} = \overline{x}_{1} + \overline{x}_{2} \quad \overline{x}_1 \in W_1, \quad \overline{x}_{2} \in W_2
+\bar{x} = \bar{x}_{1} + \bar{x}_{2} \quad \bar{x}_1 \in W_1, \quad \bar{x}_{2} \in W_2
 .\] 
 \[
-\overline{y} = \overline{y}_{1} + \overline{y}_{2} \quad \overline{y}_1 \in W_1, \quad \overline{y}_{2} \in W_2
+\bar{y} = \bar{y}_{1} + \bar{y}_{2} \quad \bar{y}_1 \in W_1, \quad \bar{y}_{2} \in W_2
 .\] 
 \begin{align*}
-	\left(+\right)\Rightarrow \quad \overline{x} + \overline{y} &= \overline{x}_{1} + \overline{x}_{2} + \overline{y}_{1} + \overline{y}_{2} \\
-						      &= \left(\overline{x}_{1} + \overline{y}_{1}\right) + \left(\overline{x}_{2}+\overline{y}_{2}\right) \quad \Rightarrow \quad \in W_1 + W_2 
+	\left(+\right)\Rightarrow \quad \bar{x} + \bar{y} &= \bar{x}_{1} + \bar{x}_{2} + \bar{y}_{1} + \bar{y}_{2} \\
+						      &= \left(\bar{x}_{1} + \bar{y}_{1}\right) + \left(\bar{x}_{2}+\bar{y}_{2}\right) \quad \Rightarrow \quad \in W_1 + W_2 
 \end{align*}
 \begin{align*}
-	\left(\cdot\right) \Rightarrow \quad \lambda\left(\overline{x}+\overline{y}\right) &= \lambda \overline{x}_{1} + \lambda \overline{x}_{2} + \lambda \overline{y}_{1} + \lambda \overline{y}_{2} \\
-						      &= \lambda\left(\overline{x}_{1} + \overline{y}_{1}\right) + \lambda\left(\overline{x}_{2}+\overline{y}_{2}\right) \quad \Rightarrow \quad \in W_1 + W_2
+	\left(\cdot\right) \Rightarrow \quad \lambda\left(\bar{x}+\bar{y}\right) &= \lambda \bar{x}_{1} + \lambda \bar{x}_{2} + \lambda \bar{y}_{1} + \lambda \bar{y}_{2} \\
+						      &= \lambda\left(\bar{x}_{1} + \bar{y}_{1}\right) + \lambda\left(\bar{x}_{2}+\bar{y}_{2}\right) \quad \Rightarrow \quad \in W_1 + W_2
 \end{align*}  \QEDB
 \end{es}
 
@@ -1258,7 +1258,7 @@ Prendiamo due vettori $\overline{x}$ e $\overline{y}$ entrambi $\in W_1 + W_2$:
 \fboxsep11pt
 \colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: Somma diretta}
-$\left(V,+,\cdot\right)$ spazio vettoriale, $W_1,W_2 \leq V$. Diciamo che la somma $W_1+W_2$ è una somma diretta se ogni $\overline{x} \in W_1+W_2$ si scrive in modo unico come $\overline{x}_1 + \overline{x}_2$ con $\overline{x}_1 \in W_1$ e $\overline{x}_2 \in W_2 $.
+$\left(V,+,\cdot\right)$ spazio vettoriale, $W_1,W_2 \leq V$. Diciamo che la somma $W_1+W_2$ è una somma diretta se ogni $\bar{x} \in W_1+W_2$ si scrive in modo unico come $\bar{x}_1 + \bar{x}_2$ con $\bar{x}_1 \in W_1$ e $\bar{x}_2 \in W_2 $.
 
 La somma verrà scritta come:
 \[
@@ -1271,34 +1271,34 @@ W_1 \oplus W_2 = V
 \paragraph{Proposizione}
 In $V$ spazio vettoriale, $W_1,W_2 \leq V$. Allora:
 \[
-W_1 \quad \text{e} \quad W_2 \quad \text{sono in somma diretta} \quad \Longleftrightarrow \quad W_1 \cap W_2 = \{\overline{0}\} 
+W_1 \quad \text{e} \quad W_2 \quad \text{sono in somma diretta} \quad \Longleftrightarrow \quad W_1 \cap W_2 = \{bar{0}\} 
 .\] 
 
 \begin{es}{dimostrazione}
 \[
-\Leftarrow \quad \text{se esiste un x con almeno 2 decomposizioni} \quad \Rightarrow \quad \exists \overline{z} \in W_1 \cap W_2,\quad \overline{z} \neq \overline{0}
+\Leftarrow \quad \text{se esiste un x con almeno 2 decomposizioni} \quad \Rightarrow \quad \exists \bar{z} \in W_1 \cap W_2,\quad \bar{z} \neq \bar{0}
 .\] 
-Prendo allora tale $\overline{x}$ che si scompone in due coordinate x e in due y:
+Prendo allora tale $\bar{x}$ che si scompone in due coordinate x e in due y:
 \[
-\overline{x}_{1} + \overline{x}_{2} = \overline{x} = \overline{y}_{1} + \overline{y}_{2}, \quad \overline{x}_{1} \neq \overline{x}_{2}, \quad \overline{y}_{1} \neq \overline{y}_{2}
-.\] 
-\[
-\overline{x}_{1} + \overline{x}_{2} = \overline{y}_{1} + \overline{y}_{2}
+\bar{x}_{1} + \bar{x}_{2} = \bar{x} = \bar{y}_{1} + \bar{y}_{2}, \quad \bar{x}_{1} \neq \bar{x}_{2}, \quad \bar{y}_{1} \neq \bar{y}_{2}
 .\] 
 \[
-\overline{y}_{1} - \overline{x}_{1} = \overline{x}_{2} - \overline{y}_{2} \quad = \overline{z}
+\bar{x}_{1} + \bar{x}_{2} = \bar{y}_{1} + \bar{y}_{2}
 .\] 
-Il vettore $\overline{z}$ è contenuto sia in $W_1$ sia in $W_2$, quindi $W_1 \cap W_2 \neq \overline{0}$.
+\[
+\bar{y}_{1} - \bar{x}_{1} = \bar{x}_{2} - \bar{y}_{2} \quad = \bar{z}
+.\] 
+Il vettore $\bar{z}$ è contenuto sia in $W_1$ sia in $W_2$, quindi $W_1 \cap W_2 \neq \bar{0}$.
 
-Contronominale: se $W_1 \cap W_2 \neq \{\overline{0}\} \quad \Rightarrow \quad \text{non ho unicità di scrittura}$
+Contronominale: se $W_1 \cap W_2 \neq \{\bar{0}\} \quad \Rightarrow \quad \text{non ho unicità di scrittura}$
 \[
-\Rightarrow \quad \text{Se} \quad \overline{z} \in W_1 \cap W_2, \quad\overline{z} \neq 0
+\Rightarrow \quad \text{Se} \quad \bar{z} \in W_1 \cap W_2, \quad\bar{z} \neq 0
 .\] 
 \[
 x \in W_1 + W_2
 .\] 
 \[
-\overline{x} = \overline{x}_{1} \textcolor{red}{+\overline{z}} + \overline{x}_{2} \textcolor{red}{-\overline{z}}
+\bar{x} = \bar{x}_{1} \textcolor{red}{+\bar{z}} + \bar{x}_{2} \textcolor{red}{-\bar{z}}
 .\]  \QEDB
 \end{es}
 
@@ -1325,7 +1325,7 @@ L'intersezione di due sottospazi vettoriali $W_1$ e $W_2$ contiene tutti i vetto
 \fboxsep11pt
 \colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: combinazione lineare}
-Dato $V$ spazio vettoriale, $\overline{v}_{1},\dots,\overline{v}_{n} \in V$, una composizione lineare di $\overline{v}_{1},\dots,\overline{v}_{n}$ è una strutura del tipo $\lambda_{1}\overline{v}_{1},\dots,\lambda_{n}\overline{v}_{n}$ con ogni $\lambda \in \mathbb{R}$.
+Dato $V$ spazio vettoriale, $\bar{v}_{1},\dots,\bar{v}_{n} \in V$, una composizione lineare di $\bar{v}_{1},\dots,\bar{v}_{n}$ è una strutura del tipo $\lambda_{1}\bar{v}_{1},\dots,\lambda_{n}\bar{v}_{n}$ con ogni $\lambda \in \mathbb{R}$.
 \end{blues}
 \end{minipage}}        
 \end{center}
@@ -1410,9 +1410,9 @@ Viene chiamata base di $V$ un insieme di vettori che \textbf{genera} $V$ e al co
 	\colorbox{myred}{\begin{minipage}{5.75in}
 			\begin{redes}{}
 				\subsubsection{Teorema: unicità di scrittura}
-				Data una base $\mathscr{B} = \{v_1 + v_2 + \dots + v_{n}\}$ ogni vettore $v \in V$ può essere espresso nella forma
+				Data una base $\mathscr{B} = \{\bar{v}_1 + \bar{v}_2 + \dots + \bar{v}_{n}\}$ ogni vettore $v \in V$ può essere espresso nella forma
 				\[
-				v = c_1v_1 + c_2v_2 + \dots + c_{n}v_{n}
+				\bar{v} = c_1\bar{v}_1 + c_2\bar{v}_2 + \dots + c_{n}\bar{v}_{n}
 				\]
 				in un solo modo.
 			\end{redes}
@@ -1424,17 +1424,17 @@ Viene chiamata base di $V$ un insieme di vettori che \textbf{genera} $V$ e al co
 \begin{es}{dimostrazione}
 Diciamo che esista un'altra combinazione lineare che esprime $v$; abbiamo:
 \[
-v = c_1v_1 + c_2v_2 + \dots + c_{n}v_{n}
+\bar{v} = c_1\bar{v}_1 + c_2\bar{v}_2 + \dots + c_{n}\bar{v}_{n}
 \]
 \[
-v = k_1v_1 + k_2v_2 + \dots + k_{n}v_{n}
+\bar{v} = k_1\bar{v}_1 + k_2\bar{v}_2 + \dots + \bar{k}_{n}\bar{v}_{n}
 \]
 allora una scrittura meno l'altra deve essere uguale zero
 \[
-c_1v_1 + c_2v_2 + \dots + c_{n}v_{n} - k_1v_1 + k_2v_2 + \dots + k_{n}v_{n} = 0
+c_1\bar{v}_1 + c_2\bar{v}_2 + \dots + c_{n}\bar{v}_{n} - k_1\bar{v}_1 + k_2\bar{v}_2 + \dots + k_{n}\bar{v}_{n} = 0
 \] 
 \[
-	\left(c_1-k_1\right)v_1 + \left(c_2-k_2\right)v_2 + \dots + \left(c_{n} - k_{n}\right)v_{n} = 0
+	\left(c_1-k_1\right)\bar{v}_1 + \left(c_2-k_2\right)\bar{v}_2 + \dots + \left(c_{n} - k_{n}\right)\bar{v}_{n} = 0
 \] 
 da ciò risulta che
 \[
@@ -1826,17 +1826,17 @@ per ogni $x$ e  $y$ in $V$ e per ogni $\lambda$ e $\mu$ in $\mathbb{R}$.
 				\subsubsection{Teorema fondamentale delle applicazioni lineari}
 				Dati $V$ e  $W$ spazi vettoriali,
 				\[
-				\mathscr{B} = \{\overline{v}_{1},\dots,\overline{v}_{n}\} \text{ base di }V
+				\mathscr{B} = \{\bar{v}_{1},\dots,\bar{v}_{n}\} \text{ base di }V
 				\] 
 				\[
-				\mathscr{C} = \{\overline{a}_{1},\dots,\overline{a}_{n}\} \text{ insieme di vettori in }W
+				\mathscr{C} = \{\bar{a}_{1},\dots,\bar{a}_{n}\} \text{ insieme di vettori in }W
 				.\] 
 				Allora esiste ed è \textbf{unica} l'applicazione lineare
 				\[
 				f: V \longrightarrow W \text{ t.c. }
 				\] 
 				\[
-				f\left(\overline{v}_{i}\right) = \overline{a}_{i} \quad \forall i \in \{1,\dots,n\}
+				f\left(\bar{v}_{i}\right) = \bar{a}_{i} \quad \forall i \in \{1,\dots,n\}
 				.\] 
 			\end{redes}
 	\end{minipage}}        
@@ -1847,24 +1847,24 @@ In altre parole per assegnare un'applicazione lineare tra due spazi vettoirali $
 
 \begin{es}{dimostrazione}
 \[
-\overline{x} \in V
+\bar{x} \in V
 .\] 
 \[
-\overline{x} = x_1 \overline{v}_{1} + x_2\overline{v}_{2} + \dots + x_{n}\overline{v}_{n}
+\bar{x} = x_1 \bar{v}_{1} + x_2\bar{v}_{2} + \dots + x_{n}\bar{v}_{n}
 .\] 
 \begin{align*}
-	f\left(\overline{x}\right) &= f\left(x_1 \overline{v}_{1} + x_2\overline{v}_{2} + \dots + x_{n}\overline{v}_{n}\right) \\
-				   &= x_1 f\left(\overline{v}_{1}\right) + x_2 f\left(\overline{v}_{2}\right) + \dots + x_{n}f\left(\overline{v}_{n}\right) \\
-				   &= x_1 \overline{a}_{1} + x_2 \overline{a}_{2} + \dots + x_{n} \overline{a}_{n}
+	f\left(\bar{x}\right) &= f\left(x_1 \bar{v}_{1} + x_2\bar{v}_{2} + \dots + x_{n}\bar{v}_{n}\right) \\
+				   &= x_1 f\left(\bar{v}_{1}\right) + x_2 f\left(\bar{v}_{2}\right) + \dots + x_{n}f\left(\bar{v}_{n}\right) \\
+				   &= x_1 \bar{a}_{1} + x_2 \bar{a}_{2} + \dots + x_{n} \bar{a}_{n}
 \end{align*}
 Vicecersa se definiamo $f$ dicendo che 
 \[
-f\left(\overline{x}\right) = x_1 \overline{a}_{1} + x_2 \overline{a}_{2} + \dots + x_{n} \overline{a}_{n}
+f\left(\bar{x}\right) = x_1 \bar{a}_{1} + x_2 \bar{a}_{2} + \dots + x_{n} \bar{a}_{n}
 .\] 
 Allora
 \begin{itemize}
-	\item $f$ è lineare: $\quad f\left(\lambda \overline{x} + \mu \overline{y}\right) = \lambda f\left(\overline{x}\right) + \mu f\left(\overline{y}\right)$.
-	\item $f\left(\overline{v}_{i}\right) = \overline{a}_{i} \quad \forall i$
+	\item $f$ è lineare: $\quad f\left(\lambda \bar{x} + \mu \bar{y}\right) = \lambda f\left(\bar{x}\right) + \mu f\left(\bar{y}\right)$.
+	\item $f\left(\bar{v}_{i}\right) = \bar{a}_{i} \quad \forall i$
 \end{itemize} \QEDB
 \end{es}
 
@@ -2051,7 +2051,7 @@ Il fatto che il kernel sia un sottospazio deriva proprio dal teorema precedente.
 \begin{blues}{Definizione: Sottospazio invariante}
 Dato un sottospazio $W$ e un vettore  $w \in W$ il sottospazio si dice invariante se $f\left(w\right) \subseteq W$.
 
-Un sottospazio invariante è, per esempio, un \textit{autospazio}; infatti i vettori di un autospazio sono multipli delle loro immagini: $f\left(\overline{x}\right) = \lambda \overline{x}$.
+Un sottospazio invariante è, per esempio, un \textit{autospazio}; infatti i vettori di un autospazio sono multipli delle loro immagini: $f\left(\bar{x}\right) = \lambda \bar{x}$.
 \end{blues}
 \end{minipage}}        
 \end{center}
@@ -2074,13 +2074,13 @@ Sono sempre sottospazi invarianti:
 \fboxsep11pt
 \colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: Autovettori}
-Data l'endomorfismo $f:V\rightarrow V$ un vettore $\overline{x} \in V \quad \overline{x} \neq \overline{0}$  si dice \textbf{atuovettore} se 
+Data l'endomorfismo $f:V\rightarrow V$ un vettore $\bar{x} \in V \quad \bar{x} \neq \bar{0}$  si dice \textbf{atuovettore} se 
 \[
-f\left(\overline{x}\right) = \lambda \overline{x}
+f\left(\bar{x}\right) = \lambda \bar{x}
 \].
 \begin{itemize}
-	\item Lo scalare $\lambda$ è l'\textbf{autovalore} associato a $\overline{x}$.
-	\item $V_{\lambda}$ si dice \textbf{autospazio} associato a $\lambda$ ed è l'insieme di tutti gli autovettori $\{\overline{x} \in V: f\left(x\right) = \lambda \overline{x}\}$.
+	\item Lo scalare $\lambda$ è l'\textbf{autovalore} associato a $\bar{x}$.
+	\item $V_{\lambda}$ si dice \textbf{autospazio} associato a $\lambda$ ed è l'insieme di tutti gli autovettori $\{\bar{x} \in V: f\left(x\right) = \lambda \bar{x}\}$.
 \end{itemize}
 \end{blues}
 \end{minipage}}        
@@ -2089,12 +2089,12 @@ f\left(\overline{x}\right) = \lambda \overline{x}
 Quindi chiamiamo autovettori tutti quei vettori che vengono mandati da una certa funzione $f$ in multipli di loro stessi. Ora dobbiamo occuparci di come trovare questi autovettori e i corrispondenti autovalori. 
 
 \noindent
-Diciamo di avere $A$ matrice associata all'endomorfismo  $f:V \rightarrow V$, per trovare gli atuovalori impostiamo la seguente uguaglianza: 
+Diciamo di avere $A$ matrice associata all'endomorfismo  $f:V \rightarrow V$, per trovare gli autovalori impostiamo la seguente uguaglianza: 
 
 \begin{align*}
-A\overline{x} &= \lambda \overline{x} \\
-A\overline{x} - \lambda \overline{x} &= \overline{0}\\
-\left(A - \lambda \textcolor{red}{I}\right)\overline{x} &= \overline{0} 
+A\bar{x} &= \lambda \bar{x} \\
+A\bar{x} - \lambda \bar{x} &= \bar{0}\\
+\left(A - \lambda \textcolor{red}{I}\right)\bar{x} &= \bar{0} 
 \end{align*}
 
 L'uguaglianza è rappresentata da un sistema omogeneo che ha soluzioni non banali solo se il rango della matrice $A-\lambda I$ non è massimo, quindi solo se il determinante è uguale a $0$.
@@ -2127,9 +2127,9 @@ Dato un certo polinomio caratteristico, è chiamata \textit{molteplicità algebr
 
 \paragraph{Un altro punto di vista} Abbiamo detto che per trovare gli autovalori dobbiamo risolvere la sequante equazione:
 \[
-	\left(A - \lambda I \right)\overline{x} = \overline{0}
+	\left(A - \lambda I \right)\bar{x} = \bar{0}
 \] 
-Dal capitolo sul determinante di una matrice sappiamo che il determinante rappresenta un fattore di stretching; nel nostro caso serve che un vettore non nullo ($\overline{x}$) venga mandato in zero dalla matrice $A - \lambda I$, l'unico caso in cui questo è possibile è quando il determinante di tale matrice è uguale a zero.
+Dal capitolo sul determinante di una matrice sappiamo che il determinante rappresenta un fattore di stretching; nel nostro caso serve che un vettore non nullo ($\bar{x}$) venga mandato in zero dalla matrice $A - \lambda I$, l'unico caso in cui questo è possibile è quando il determinante di tale matrice è uguale a zero.
 
 \paragraph{Autospazi} Vale la pena soffermarsi su cosa sono, come si trovano e su alcune proprietà degli autospazi.
 Per trovare un autospazio $V_{\lambda_{0}}$ associato a un autovalore $\lambda_{0}$ si calcola il nullspace della matrice $A-\lambda_{0} I$:
@@ -2140,7 +2140,7 @@ Per trovare un autospazio $V_{\lambda_{0}}$ associato a un autovalore $\lambda_{
 Il numero di generatori del nullspace, ovvero la sua dimensione, viene chiamata \textit{molteplicità geometrica}: $\text{m}_{\text{g}}\left(\lambda_{0}\right)$
 
 \begin{enumerate}
-		\item Ogni vettore $\overline{x} \in V_{\lambda_{1}},\dots,V_{\lambda_{k}}$ si scrive in modo unico come $\overline{x}_{1} +, \dots,+ \overline{x}_{k}$ con $x_{j} \in V_{\lambda_{j}}$, ovvero gli autospazi associati agli autovalori di un certo polinomio caratteristico sono in \textbf{somma diretta}.
+		\item Ogni vettore $\bar{x} \in V_{\lambda_{1}},\dots,V_{\lambda_{k}}$ si scrive in modo unico come $\bar{x}_{1} +, \dots,+ \bar{x}_{k}$ con $x_{j} \in V_{\lambda_{j}}$, ovvero gli autospazi associati agli autovalori di un certo polinomio caratteristico sono in \textbf{somma diretta}.
 
 		\noindent
 Questo implica 
@@ -2157,9 +2157,9 @@ Questo implica
 Diciamo di avere un autospazio $V_{\lambda_{0}}$ di dimensione $k$ ($k = \text{m}_{\text{g}}\left(\lambda_{0}\right)$) sottospazio vettoriale di $V$ di dimensione $n$.
 
 \noindent
-Prendo una base di $V_{\lambda_{0}} $$\mathscr{B}' = \{\overline{v}_{1},\dots,\overline{v}_{k}\}$ e la completo ad una base di $V$: 
+Prendo una base di $V_{\lambda_{0}} $$\mathscr{B}' = \{\bar{v}_{1},\dots,\bar{v}_{k}\}$ e la completo ad una base di $V$: 
 \[
-\mathscr{B} = \{\overline{v}_{1},\dots,\overline{v}_{k},\overline{v}_{k+1},\dots,\overline{v}_{n}\}
+\mathscr{B} = \{\bar{v}_{1},\dots,\bar{v}_{k},\bar{v}_{k+1},\dots,\bar{v}_{n}\}
 \] 
 La matrice associata sarà:
 \[
@@ -2202,16 +2202,158 @@ Una matrice quadrata associata a una funzione $f$ è invertiile se e solo se $\l
 \noindent
 Se ci riflettiamo, se eiste un $\lambda_0 = 0$, vuol dire che la funzione manda un vettore non nullo in  un vettore nullo:
 \[
-f\left(\overline{x}\right) = 0\overline{x}
+f\left(\bar{x}\right) = 0\bar{x}
 .\] 
 Questo ci dice che la funzione è \textit{non-iniettiva} e che di conseguenza non può essere biettiva, condizione necessaria perché una funzione sia invertibile.
 
 
 
 
+
+\section{Isometrie}
+	\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: Isometria}
+				Un'isometria di $V$ (lineare) è un endomorfismo che soddisfa
+				\[
+				f(\bar{x}) \cdot f(\bar{y}) = \bar{x} \cdot \bar{y} \qquad \forall \bar{x},\bar{y} \in V
+				\]
+			\end{blues}
+	\end{minipage}}       
+\end{center}
+
+Nel caso in cui $\bar{x} = \bar{y}$ allora si ha che:
+\[
+\| f(\bar{x}) \|^2  = \| \bar{x} \|^2 \qquad \text{presereva le lunghezze;}
+\]
+\[
+\frac{f(\bar{x})\cdot f(\bar{y})}{\| f(\bar{x}) \| \cdot \| f(\bar{x}) \|} = \frac{\bar{x}\cdot \bar{y}}{\| \bar{x}) \| \cdot \| \bar{x} \|} \qquad \text{preserva gli angoli}
+\] \\
+
+\noindent
+Se $f$ endomorfismo preserva le lunghezze, allora \textbf{è forzato a preservare i prodotti scalari}. Inoltre preso $(V,\cdot)$ euclideo e $f\in \text{End}(V)$ sono equivalenti:
+\begin{enumerate}
+	\item $f$ è un isometria;
+	\item $\| f(\bar{x}) \|  = \| \bar{x} \| \quad \forall \bar{x} \in V$;
+	\item Se $\left\{\bar{x}_{1},\dots,\bar{x}_{n}\right\}$ sistema ortonormale, allora anche $\left\{f(\bar{x}_{1}),\dots,f(\bar{x}_{n})\right\}$ lo è;
+	\item $\forall \mathcal{B}$ base ortonormale, $M^\mathcal{B}(f)$ è ortogonale.
+\end{enumerate}
+
+\begin{es}{dimostrazione $(2 \to 1)$}
+	\textit{Se preserva le lunghezze $\Longrightarrow$ è un'isometria}.
+	Sviluppiamo
+	\[
+	\| \bar{x} + \bar{y} \|^2 = \|\bar{x}\|^2 + \|\bar{y}\|^2 + 2\bar{x} \cdot \bar{y}
+	\]
+	e poi
+	\[
+	\| f(\bar{x}) + f(\bar{y}) \|^2 = \|f(\bar{x})\|^2 + \|f(\bar{y})\|^2 + 2f(\bar{x}) \cdot f(\bar{y})
+	\]
+	Poiché $f$ preserva le lunghezze si ha che $\| f(\bar{x}) \|  = \| \bar{x} \|$ e quindi anche che $\| \bar{x} + \bar{y} \|^2 = \| f(\bar{x}) + f(\bar{y}) \|^2$ che ci porta a
+	\[
+	\|\bar{x}\|^2 + \|\bar{y}\|^2 + 2\bar{x} \cdot \bar{y} = \|f(\bar{x})\|^2 + \|f(\bar{y})\|^2 + 2f(\bar{x}) \cdot f(\bar{y})
+	\]
+	dal fatto che $\| f(\bar{x}) \|  = \| \bar{x} \|$ si annullano i termini al quadrato e dividendo per due da entrambe le parti otteniamo
+	\[
+	\bar{x} \cdot \bar{y} = f(\bar{x}) \cdot f(\bar{y})
+	\]
+\end{es} 
+
+
+\noindent
+E' importante ricordare che $M^\mathcal{B}(f)$ è ortogonale solo rispetto a una base ortonormale; bisogna quindi stare attenti al prodotto scalare presente nello spazio, per esempio: \\
+
+\noindent
+Prendo in $\mathbb{R}^2$ con base standard $\mathcal{B} = (\bar{e}_{1},\bar{e}_{2})$ e con prodotto scalare
+\[
+\left(\begin{array}{c}
+	x_{1} \\ x_{2}
+\end{array}\right) \cdot \left(\begin{array}{c}
+y_{1} \\ y_{2}
+\end{array}\right) = x_{1}y_{1} + 4x_{2}y_{2}
+.\]
+Sia poi la funzione
+\[
+f:\left(\begin{array}{c}
+	x_{1} \\ x_{2}
+\end{array}\right) \to A\left(\begin{array}{c}
+x_{1} \\ x_{2}
+\end{array}\right) \qquad A = \left(\begin{array}{cc}
+\frac{\sqrt{3}}{2} & 1 \\
+-\frac{1}{4} & \frac{\sqrt{3}}{2}
+\end{array}\right)
+\]
+risulta che $f$ \textbf{è un'isometria} ma $M^\mathcal{B}(f)$ \textbf{non è ortogonale}! Questo perché $\mathcal{B}$ non è ortonormale rispetto al prodotto scalare scelto.
+
+\subsubsection{Proprietà delle isometrie}
+\begin{enumerate}
+	\item Un'isometria è un \textbf{automorfismo} (endomorfismo biettivo);
+	\item Se $f,g$ isometrie $\Longrightarrow$ $f \circ g$ isometria:
+	\[
+	f \circ g  = f(g(\bar{x})) \quad \to \quad \|f(g(\bar{x}))\| = \|g(\bar{x})\| = \|\bar{x}\| 
+	\]
+	\item L'insieme delle isometrie è un \textbf{gruppo}: $\left\{f \text{ isometrie}\right\} = \text{Iso}(V)$;
+	\item Gli autovalori di $f$ isometria possono essere solo $\pm 1$.
+\end{enumerate}
+
+\subsubsection{Basi destrorse}
+Diciamo che la base di $V_{2}$ $\mathcal{B} = \left\{\bar{v}_{1},\bar{v_{2}}\right\}$ è destrorsa se rispetta la regola della mano destra.
+
+
+
+\subsection{Isometrie in $V_{2}$}
+Un automorfismo \textbf{preserva l'orientazione} se manda basi destrorse in basi destrorse; studiamo due tipi di isometrie in $V_{2}$, che hanno, rispettivamente, matrici associate
+\[
+\begin{bmatrix}
+	\cos{\theta} & -\sin{\theta} \\
+	\sin{\theta} & \cos{\theta}
+\end{bmatrix}
+\qquad \qquad \qquad \qquad \qquad \qquad
+\begin{bmatrix}
+	\cos{\theta} & \sin{\theta} \\
+	\sin{\theta} & -\cos{\theta}
+\end{bmatrix}
+\] 
+
+\vspace{1cm}
+
+\begin{center}
+	\includesvg[scale=0.35]{figures/isometrie}
+\end{center}
+
+
+\subsection{Isometrie in $V_{3}$}
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema di Eulero}
+				Ogni isometria che preserva l'orientazione è riconducibile a una rotazione attorno ad un asse.
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+
+Il Teorema di Eulero ci porta a dire che esista sicuramente un vettore che funga da asse di rotazione e, di conseguenza, che il suo \textit{autovalore associato} valga $\lambda = 1$.
+
+\begin{es}{dimostrazione}
+	Presa l'isometria $f$, se sicuramente diagonalizzabile si hanno tre autovalori reali e si ha il polinomio caratteristico:
+	\[
+	p(\lambda) = (\lambda_1 - \lambda)(\lambda_2 - \lambda)(\lambda_3 -\lambda) = \dots
+	\]
+	Sappiamo che il termine noto $\lambda_1 \lambda_2 \lambda_{3} = \text{det}M^\mathcal{B}f = 1$ e che quindi uno dei tre deve per forza valere $1$. 
+	
+	Se invece abbiamo due autovalori complessi e uno reale ($\lambda_{1}$ reale, $\lambda_{2},\lambda_3$ complessi):
+	\[
+	1 = \lambda_{1}(\lambda_2 \overline{\lambda}_{2}) = \lambda_1 |\lambda_2|^2 \Longrightarrow \lambda_1 \text{ positivo } \Longrightarrow \lambda_{1} = 1
+	\]
+	
+\end{es}
+
 %% %% %%
 %% %% %%  DIAGONALIZZAZIONE
 %% %% %% 
+\newpage
 \section{Diagonalizzazione}
 Scopo principale della diagonalizzazione sarà quello di trovare basi di soli autovettori. Il processo è schematizzato in questo modo:
 \begin{center}
@@ -2446,10 +2588,10 @@ Troviamo gli autovalori:
 \]
 Trovo lambda coniugato:
 \[
-\bar{AX} = \overline{\lambda X} \to A\overline{X} = \bar{\lambda} \overline{X}
+\overline{AX} = \overline{\lambda X} \to A\overline{X} = \overline{\lambda} \overline{X}
 \]
 
-Ho trovato che $\overline{X}$ è autovettore di $A$ con autovalore $\overline{\lambda}$. Adesso mostriamo che $\lambda = \overline{\lambda}$:
+Ho trovato che $\overline{X}$ è autovettore di $A$ con autovalore $\overline{\lambda}$. Adesso mostriamo che $\lambda = \bar{\lambda}$:
 \[
 \leftindex^{t}{\bar{X}}AX = \leftindex^{t}{\bar{X}} \lambda X = \lambda \leftindex^{t}{\bar{X}}  X
 \]
@@ -2544,13 +2686,13 @@ Dato l'endomorfismo $f: V \longrightarrow V$ con  $\left(V,\cdot\right)$ euclide
 \end{enumerate}
 
 \begin{es}{dimostrazione $1\Rightarrow 2$}
-	Prendo $B = \{\overline{v}_{1},\dots,\overline{v}_{n}\}$ base ortonormale e due vettori $\overline{x}$ e $\overline{y} \in V$.\\
+	Prendo $B = \{\bar{v}_{1},\dots,\bar{v}_{n}\}$ base ortonormale e due vettori $\bar{x}$ e $\bar{y} \in V$.\\
 	
 	Scritti come vettori colonna abbiamo $X$,$Y$,$AX$ e  $AY$ rispettivamente per  $x$,  $y$,  $f\left(x\right)$ e $f\left(y\right)$. 
 	
 	Possiamo riscrivere (poiché il prodotto è standard)
 	\[
-	f\left(\overline{x}\right)\cdot \overline{y} = \overline{x}f\left(\overline{y}\right)
+	f\left(\bar{x}\right)\cdot \bar{y} = \bar{x}f\left(\bar{y}\right)
 	\] 
 	come 
 	\[

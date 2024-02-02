@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  21 JAN 2024 12:09
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  2 FEB 2024 21:05
  restricted system commands enabled.
 **gal.tex
 (./gal.tex
@@ -1779,7 +1779,7 @@ Package hyperref Info: Link coloring OFF on input line 93.
 
 \openout6 = gal.out
  (./titlepage.tex
-<pngegg.png, id=316, 1027.84pt x 1027.84pt>
+<pngegg.png, id=340, 1027.84pt x 1027.84pt>
 File: pngegg.png Graphic file (type png)
 <use pngegg.png>
 Package luatex.def Info: pngegg.png  used on input line 5.
@@ -1837,7 +1837,7 @@ uguaglianza
 Package svg Info: Last page of `./svg-inkscape/sistemi_piani_svg-tex.pdf' is 1 
 on input line 145.
 (./svg-inkscape/sistemi_piani_svg-tex.pdf_tex
-<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=417, page=1, 656.32918pt x 378.90
+<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=447, page=1, 656.32918pt x 378.90
 565pt>
 File: ./svg-inkscape/sistemi_piani_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/sistemi_piani_svg-tex.pdf, page 1>
@@ -1866,7 +1866,6 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 331--332
 
 [6
 Missing character: There is no ’ (U+2019) in font futr8t!
-Missing character: There is no ’ (U+2019) in font futr8t!
 ]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 429--430
  [][][][][][] 
@@ -1875,7 +1874,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 429--430
 Package svg Info: Last page of `./svg-inkscape/vettori_u_svg-tex.pdf' is 1 on i
 nput line 446.
 (./svg-inkscape/vettori_u_svg-tex.pdf_tex
-<./svg-inkscape/vettori_u_svg-tex.pdf, id=447, page=1, 209.7109pt x 194.33308pt
+<./svg-inkscape/vettori_u_svg-tex.pdf, id=477, page=1, 209.7109pt x 194.33308pt
 >
 File: ./svg-inkscape/vettori_u_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_u_svg-tex.pdf, page 1>
@@ -1887,13 +1886,13 @@ Package svg Info: Last page of `./svg-inkscape/vettori_du_svg-tex.pdf' is 1 on
 input line 478.
 
 (./svg-inkscape/vettori_du_svg-tex.pdf_tex
-<./svg-inkscape/vettori_du_svg-tex.pdf, id=449, page=1, 331.7046pt x 311.37515p
-t>
+<./svg-inkscape/vettori_du_svg-tex.pdf, id=479, page=1, 331.12767pt x 311.37515
+pt>
 File: ./svg-inkscape/vettori_du_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_du_svg-tex.pdf, page 1>
 Package luatex.def Info: ./svg-inkscape/vettori_du_svg-tex.pdf , page1 used on 
 input line 56.
-(luatex.def)             Requested size: 265.36467pt x 249.10995pt.
+(luatex.def)             Requested size: 264.90312pt x 249.10045pt.
 ) [7<./svg-inkscape/vettori_u_svg-tex.pdf>]
 Overfull \hbox (0.74937pt too wide) in paragraph at lines 484--485
 []\T1/futs/b/n/10 Prodotto come com-po-sizione di trasfor-mazioni \T1/futs/m/n/
@@ -1901,7 +1900,7 @@ Overfull \hbox (0.74937pt too wide) in paragraph at lines 484--485
  []
 
 [8<./svg-inkscape/vettori_du_svg-tex.pdf>]
-<figures/determ.png, id=462, 1011.78pt x 524.96124pt>
+<figures/determ.png, id=492, 1011.78pt x 524.96124pt>
 File: figures/determ.png Graphic file (type png)
 <use figures/determ.png>
 Package luatex.def Info: figures/determ.png  used on input line 524.
@@ -1929,12 +1928,12 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 834--835
  []
 
 [13]
-<figures/norma.png, id=505, 793.96625pt x 529.98pt>
+<figures/norma.png, id=535, 793.96625pt x 529.98pt>
 File: figures/norma.png Graphic file (type png)
 <use figures/norma.png>
 Package luatex.def Info: figures/norma.png  used on input line 897.
 (luatex.def)             Requested size: 158.79044pt x 105.99411pt.
-<figures/angoli.png, id=506, 1384.17125pt x 350.30875pt>
+<figures/angoli.png, id=536, 1384.17125pt x 350.30875pt>
 File: figures/angoli.png Graphic file (type png)
 <use figures/angoli.png>
 Package luatex.def Info: figures/angoli.png  used on input line 912.
@@ -1949,7 +1948,7 @@ LaTeX Font Info:    Trying to load font information for TS1+futs on input line
 (/opt/texlive/2023/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 ) [14<./figures/norma.png><./figures/angoli.png>]
-<figures/proj.png, id=515, 672.5125pt x 407.5225pt>
+<figures/proj.png, id=545, 672.5125pt x 407.5225pt>
 File: figures/proj.png Graphic file (type png)
 <use figures/proj.png>
 Package luatex.def Info: figures/proj.png  used on input line 953.
@@ -1970,7 +1969,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1028--1029
  []
 
 [15<./figures/proj.png>]
-<figures/uedge.png, id=521, 799.98875pt x 585.18625pt>
+<figures/uedge.png, id=551, 799.98875pt x 585.18625pt>
 File: figures/uedge.png Graphic file (type png)
 <use figures/uedge.png>
 Package luatex.def Info: figures/uedge.png  used on input line 1082.
@@ -1994,7 +1993,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1185--1186
  [][][][][][] 
  []
 
-<figures/subspace.png, id=532, 878.28125pt x 551.05875pt>
+<figures/subspace.png, id=562, 878.28125pt x 551.05875pt>
 File: figures/subspace.png Graphic file (type png)
 <use figures/subspace.png>
 Package luatex.def Info: figures/subspace.png  used on input line 1189.
@@ -2049,7 +2048,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1345--1346
  []
 
 [20]
-<figures/span.png, id=562, 1379.1525pt x 539.01375pt>
+<figures/span.png, id=592, 1379.1525pt x 539.01375pt>
 File: figures/span.png Graphic file (type png)
 <use figures/span.png>
 Package luatex.def Info: figures/span.png  used on input line 1351.
@@ -2059,12 +2058,12 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1375--1376
  [][][][][][] 
  []
 
-<figures/linind.png, id=563, 1682.285pt x 461.725pt>
+<figures/linind.png, id=593, 1682.285pt x 461.725pt>
 File: figures/linind.png Graphic file (type png)
 <use figures/linind.png>
 Package luatex.def Info: figures/linind.png  used on input line 1379.
 (luatex.def)             Requested size: 370.10385pt x 101.5798pt.
-<figures/linind2.png, id=564, 1679.27374pt x 533.995pt>
+<figures/linind2.png, id=594, 1679.27374pt x 533.995pt>
 File: figures/linind2.png Graphic file (type png)
 <use figures/linind2.png>
 Package luatex.def Info: figures/linind2.png  used on input line 1387.
@@ -2179,11 +2178,90 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 2086--2087
  [][][][][][] 
  []
 
-[32] [33]
+[32]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2223--2224
+ [][][][][][] 
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 2232--2233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2264--2266
+
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 2289.
+
+[34]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 2305.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 2305.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 2305.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 2305.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 2305.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 2305.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 2305.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 2305.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 2305.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2305.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 2305.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2305.
+
+Package svg Info: Last page of `./svg-inkscape/isometrie_svg-tex.pdf' is 1 on i
+nput line 2322.
+(./svg-inkscape/isometrie_svg-tex.pdf_tex
+<./svg-inkscape/isometrie_svg-tex.pdf, id=683, page=1, 742.78407pt x 352.80598p
+t>
+File: ./svg-inkscape/isometrie_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/isometrie_svg-tex.pdf, page 1>
+Package luatex.def Info: ./svg-inkscape/isometrie_svg-tex.pdf , page1 used on i
+nput line 56.
+(luatex.def)             Requested size: 259.97896pt x 123.48393pt.
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2326.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 2326.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2326.
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2334--2335
+ [][][][][][] 
+ []
+
+[35<./svg-inkscape/isometrie_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/quad_svg-tex.pdf' is 1 on input 
-line 2218.
+line 2360.
  (./svg-inkscape/quad_svg-tex.pdf_tex
-<./svg-inkscape/quad_svg-tex.pdf, id=645, page=1, 167.20915pt x 127.01016pt>
+<./svg-inkscape/quad_svg-tex.pdf, id=706, page=1, 167.20915pt x 127.01016pt>
 File: ./svg-inkscape/quad_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/quad_svg-tex.pdf, page 1>
 Package luatex.def Info: ./svg-inkscape/quad_svg-tex.pdf , page1 used on input 
@@ -2191,10 +2269,9 @@ line 56.
 (luatex.def)             Requested size: 133.7678pt x 101.6102pt.
 )
 Package svg Info: Last page of `./svg-inkscape/matriceblu_svg-tex.pdf' is 1 on 
-input line 2276.
-
-(./svg-inkscape/matriceblu_svg-tex.pdf_tex
-<./svg-inkscape/matriceblu_svg-tex.pdf, id=647, page=1, 256.14406pt x 105.7417p
+input line 2418.
+ (./svg-inkscape/matriceblu_svg-tex.pdf_tex
+<./svg-inkscape/matriceblu_svg-tex.pdf, id=708, page=1, 256.14406pt x 105.7417p
 t>
 File: ./svg-inkscape/matriceblu_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/matriceblu_svg-tex.pdf, page 1>
@@ -2202,204 +2279,185 @@ Package luatex.def Info: ./svg-inkscape/matriceblu_svg-tex.pdf , page1 used on
 input line 56.
 (luatex.def)             Requested size: 179.30003pt x 74.01866pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 2285--2287
+Underfull \hbox (badness 10000) in paragraph at lines 2427--2429
 
  []
 
 Package svg Info: Last page of `./svg-inkscape/matricelunga_svg-tex.pdf' is 1 o
-n input line 2297.
+n input line 2439.
 (./svg-inkscape/matricelunga_svg-tex.pdf_tex
-<./svg-inkscape/matricelunga_svg-tex.pdf, id=649, page=1, 420.68227pt x 187.102
+<./svg-inkscape/matricelunga_svg-tex.pdf, id=710, page=1, 420.68227pt x 187.102
 51pt>
 File: ./svg-inkscape/matricelunga_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/matricelunga_svg-tex.pdf, page 1>
 Package luatex.def Info: ./svg-inkscape/matricelunga_svg-tex.pdf , page1 used o
 n input line 56.
 (luatex.def)             Requested size: 294.47629pt x 130.97656pt.
-) [34<./svg-inkscape/quad_svg-tex.pdf>] [35<./svg-inkscape/matriceblu_svg-tex.pd
+) [36<./svg-inkscape/quad_svg-tex.pdf>] [37<./svg-inkscape/matriceblu_svg-tex.pd
 f><./svg-inkscape/matricelunga_svg-tex.pdf>]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2379--2380
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2521--2522
  [][][][][][] 
  []
 
-[36]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2419--2420
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2490--2492
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2505--2507
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2505--2507
-
- []
-
-[37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 2547--2548
-
- []
-
-[39]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2585--2586
+[38]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2561--2562
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2636--2637
+Underfull \hbox (badness 10000) in paragraph at lines 2632--2634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2647--2649
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2647--2649
+
+ []
+
+[39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 2689--2690
+
+ []
+
+[41]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2727--2728
  [][][][][][] 
  []
 
-[40]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 2646.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 2646.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 2646.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 2646.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 2646.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 2646.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 2646.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 2646.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 2646.
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2778--2779
+ [][][][][][] 
+ []
+
+[42]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2788.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2646.
+(hyperref)                removing `\oldphi' on input line 2788.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\oldphi' on input line 2646.
+(hyperref)                removing `math shift' on input line 2788.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2646.
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2665--2666
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2807--2808
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2691--2692
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2833--2834
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2701--2703
+Underfull \hbox (badness 10000) in paragraph at lines 2843--2845
 
  []
 
 
-Overfull \hbox (4.40247pt too wide) in paragraph at lines 2714--2715
+Overfull \hbox (4.40247pt too wide) in paragraph at lines 2856--2857
 []\T1/futs/b/n/10 Semidefinita \T1/futs/m/n/10 pos-i-tiva (neg-a-tiva) se $\FML
 /futmi/m/it/10 Q\T1/futs/m/n/10 ([]) \FMS/futm/m/n/10  \T1/futs/m/n/10 0(\FMS/
 futm/m/n/10  \T1/futs/m/n/10 0)$ ma es-istono vet-tori che an-nul-lano la forma
  quadrat-
  []
 
-[41]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2745--2746
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2759--2761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2762--2764
-
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2784--2785
- [][][][][][] 
- []
-
-[42]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2794--2795
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2811--2813
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2811--2813
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2825--2827
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2825--2827
-
- []
-
 [43]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2865--2866
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2887--2888
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2878--2879
+Underfull \hbox (badness 10000) in paragraph at lines 2901--2903
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2904--2906
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2926--2927
  [][][][][][] 
  []
 
 [44]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2934--2935
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2936--2937
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2962--2964
+Underfull \hbox (badness 10000) in paragraph at lines 2953--2955
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2965--2966
+Underfull \hbox (badness 10000) in paragraph at lines 2953--2955
 
  []
 
-[45] (./gal.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 2967--2969
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2967--2969
+
+ []
+
+[45]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 3007--3008
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 3020--3021
+ [][][][][][] 
+ []
+
+[46]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 3076--3077
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3104--3106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3107--3108
+
+ []
+
+[47] (./gal.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `gal.out' has not changed.
-(rerunfilecheck)             Checksum: 070071A849DCAC408A1A2DDCDADC5131;14625.
+(rerunfilecheck)             Checksum: 2CE24D798340C896C402D0AB036BC5AF;15462.
 )
 
 Here is how much of LuaTeX's memory you used:
- 52536 strings out of 477259
+ 52587 strings out of 477259
  125027,2373549 words of node,token memory allocated
- 2906 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 163 sub_mlist, 1 glyph, 475 attribu
-te, 61 glue_spec, 475 attribute_list, 2 write nodes
-   avail lists: 2:2340,3:1244,4:202,5:853,6:164,7:7312,8:141,9:1257,10:21,11:373
+ 2958 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 163 sub_mlist, 1 glyph, 488 attribu
+te, 61 glue_spec, 488 attribute_list, 2 write nodes
+   avail lists: 2:2340,3:1244,4:202,5:855,6:164,7:7314,8:141,9:1257,10:21,11:364
 
- 71959 multiletter control sequences out of 65536+600000
+ 71985 multiletter control sequences out of 65536+600000
  148 fonts using 8991095 bytes
  117i,17n,104p,717b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}</opt/texlive/2023/tex
@@ -2414,10 +2472,10 @@ pt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></opt/texlive/20
 23/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></opt/texlive/2023/texmf-dist/
 fonts/type1/adobe/utopia/putri8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/p
 ublic/rsfs/rsfs10.pfb>
-Output written on gal.pdf (46 pages, 881435 bytes).
+Output written on gal.pdf (48 pages, 906290 bytes).
 
-PDF statistics: 777 PDF objects out of 1000 (max. 8388607)
- 676 compressed objects within 7 object streams
- 212 named destinations out of 1000 (max. 131072)
- 632 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 839 PDF objects out of 1000 (max. 8388607)
+ 729 compressed objects within 8 object streams
+ 228 named destinations out of 1000 (max. 131072)
+ 680 words of extra memory for PDF output out of 10000 (max. 100000000)
 
