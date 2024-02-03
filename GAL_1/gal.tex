@@ -126,7 +126,7 @@
      $*: 2x - 3y = 0$  \\
      L'insieme delle sue soluzioni sarà: 
      $S_{(*)} = \Biggl\{\begin{pmatrix}x \\ y \end{pmatrix}: x,y \in \mathbb{R}\Biggl\} $ 
-     oppure tramite un parametro $t$ per il quale $\begin{cases}x=ty=\frac{2}{3}t ,\quad t \in \mathbb{R}\end{cases}$ 
+     oppure tramite un parametro $t$ per il quale $\begin{cases}x=t\\y=\frac{2}{3}t ,\quad t \in \mathbb{R}\end{cases}$ 
       $S_{(*)} = \biggl\{(t,\frac{2}{3}t): t \in \mathbb{R}\biggl\} $
  \end{es}
 
@@ -216,8 +216,7 @@ Se un sistema lineare omogeneo ha $n$ incognite e nella sua forma ridotta la sua
 
 %SISTEMA OMOGENEO ASSOCIATO
 \noindent
-Se conosco una soluzione $x_0$ di $\Sigma$, sommandoci una qualsiasi soluzione del suo sistema associato $\Sigma_{0}$ Un sistema lineare è compatibile se e solo se il rango della matrice dei coefficienti coincide con il rango della matrice completa.
-
+Se conosco una soluzione $x_0$ di $\Sigma$, sommandoci una qualsiasi soluzione del suo sistema omogeneo associato $\Sigma_{0}$ ottengo un'altra soluzione  di $\Sigma$.
 
 Diciamo di avere un sistema molto semplice a un'equazione è il suo sistema omogeneo associato:
 \[	
@@ -1207,21 +1206,21 @@ In figura vediamo come $u$ e $v$ siano contenuti in $W$ ma la loro somma no.
 \begin{es}{Esempio fondamentale di sottospazio vettoriale}
 L'insieme delle soluzioni di un sistema lineare omogeneo di $m$ equazioni in $n$ incognite è un sottospazio vettoriale di $\mathbb{R}^n$. L'insieme delle soluzioni di 
 \[
-AX = O \qquad A \in \mathbb{R}^{m,n}, X \in \mathbb{R}^{n,1}, O \in \mathbb{R}^{m,1}
+AX = \bar{0} \qquad A \in \mathbb{R}^{m,n}, X \in \mathbb{R}^{n,1}, \bar{0} \in \mathbb{R}^{m,1}
 \] 
 è detto \textit{nullspace} e coincide con l'insieme
 
 \[
-N\left(A\right) = \left\{ X \in \mathbb{R}^n | AX = O  \right\}
+N\left(A\right) = \left\{ X \in \mathbb{R}^n | AX = \bar{0}  \right\}
 \]
 
 Dati $X_1$ e $X_2$ $\in N\left(A\right)$ si deve dimostrare che 
 \[
-\lambda X_1 è \mu X_2 \in N\left(A\right) \quad \forall \lambda,\mu \in \mathbb{R}
+\lambda X_1 + \mu X_2 \in N\left(A\right) \quad \forall \lambda,\mu \in \mathbb{R}
 \] 
 che sviluppando
 \[
-A\left(\lambda X_1 + \mu X_2\right) = \lambda AX_1 + \mu AX_2 = O
+A\left(\lambda X_1 + \mu X_2\right) = \lambda AX_1 + \mu AX_2 = \bar{0}
 .\] 
 \end{es}
 
@@ -1271,12 +1270,12 @@ W_1 \oplus W_2 = V
 \paragraph{Proposizione}
 In $V$ spazio vettoriale, $W_1,W_2 \leq V$. Allora:
 \[
-W_1 \quad \text{e} \quad W_2 \quad \text{sono in somma diretta} \quad \Longleftrightarrow \quad W_1 \cap W_2 = \{bar{0}\} 
+W_1 \quad \text{e} \quad W_2 \quad \text{sono in somma diretta} \quad \Longleftrightarrow \quad W_1 \cap W_2 = \{\bar{0}\} 
 .\] 
 
 \begin{es}{dimostrazione}
 \[
-\Leftarrow \quad \text{se esiste un x con almeno 2 decomposizioni} \quad \Rightarrow \quad \exists \bar{z} \in W_1 \cap W_2,\quad \bar{z} \neq \bar{0}
+\Leftarrow \qquad\qquad \text{se esiste un $\bar{x}$ con almeno 2 decomposizioni} \quad \Rightarrow \quad \exists \bar{z} \in W_1 \cap W_2,\quad \bar{z} \neq \bar{0}
 .\] 
 Prendo allora tale $\bar{x}$ che si scompone in due coordinate x e in due y:
 \[
@@ -1292,7 +1291,7 @@ Il vettore $\bar{z}$ è contenuto sia in $W_1$ sia in $W_2$, quindi $W_1 \cap W_
 
 Contronominale: se $W_1 \cap W_2 \neq \{\bar{0}\} \quad \Rightarrow \quad \text{non ho unicità di scrittura}$
 \[
-\Rightarrow \quad \text{Se} \quad \bar{z} \in W_1 \cap W_2, \quad\bar{z} \neq 0
+\Rightarrow \quad \text{Se} \quad \bar{z} \in W_1 \cap W_2, \quad\bar{z} \neq \bar{0}
 .\] 
 \[
 x \in W_1 + W_2
@@ -1457,7 +1456,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 				\]
 
 \begin{es}{dimostrazione}
-	Prendiamo un vettore $\bar{w} \in V$ non nullo.
+	Prendiamo un vettore $\bar{w}_{1} \in V$ non nullo.
 	\[
 	\bar{w}_{1}  = \lambda_1 \bar{v}_{1} + \dots + \lambda_n \bar{v}_{n}
 	\]
@@ -1482,7 +1481,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 		\[
 		\bar{w}_{n+1} \in V \quad \Longrightarrow \quad \bar{w}_{n+1}  = \lambda_{1}\bar{w}_{1} + \dots + \lambda_{n}\bar{w_{n}}
 		\]
-		\textbf{assurdo} poiché $\{\bar{w}_{1} + \dots + \bar{w}_{n+1}\} \subseteqq \mathcal{I}$ che ha dimensione $p \leq n$.
+		\textbf{assurdo} poiché $\{\bar{w}_{1} + \dots + \bar{w}_{n+1}\} \subseteq \mathcal{I}$ che ha dimensione $p \leq n$.
 	\end{enumerate} \QEDB
 \end{es}
 
@@ -1501,7 +1500,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 	\mathcal{C} = \left(a_{1},\dots,a_{k},b_{k+1},\dots,b_{l}\right) \qquad \text{base di } W_{1}
 	\]
 	\[
-	\mathcal{D} = \left(a_{1},\dots,a_{k},c_{k+1},\dots,c_{p}\right) \qquad \text{base di } W_{1}
+	\mathcal{D} = \left(a_{1},\dots,a_{k},c_{k+1},\dots,c_{p}\right) \qquad \text{base di } W_{2}
 	\]
 	La tesi consiste nel dimostrare che 
 	\[
@@ -1518,7 +1517,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 	Portiamo a destra dell'uguale la parte appartenente a $W_{2}$ e chiamiamola $c$:
 	\[
 	\alpha a_{1},\dots + \alpha a_{k} + \beta b_{k+1} + \dots + \beta b_{l} = -\gamma c_{k+1} -\dots -\gamma c_{p} = c
-	\] \QEDB
+	\] 
 \end{es}
 \begin{es}{}
 	Da questa equazione vediamo che $c$ è contenuto sia in $W_{1}$ sia in $W_{2}$, allora si può scrivere come combinazione lineare dei generatori di $W_{1} \cap W_{2}$:
@@ -1543,7 +1542,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 	ma i vettori che compaiono sono i vettori della base $\mathcal{C}$ da cui segue che 
 	\[
 	\beta_{k+1} = \dots = \beta
-	\]
+	\] \QEDB
 \end{es}
 
 \subsection{Cambiamento di base}
