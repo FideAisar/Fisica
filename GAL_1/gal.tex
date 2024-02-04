@@ -1274,10 +1274,16 @@ W_1 \quad \text{e} \quad W_2 \quad \text{sono in somma diretta} \quad \Longleftr
 .\] 
 
 \begin{es}{dimostrazione}
-\[
-\Leftarrow \qquad\qquad \text{se esiste un $\bar{x}$ con almeno 2 decomposizioni} \quad \Rightarrow \quad \exists \bar{z} \in W_1 \cap W_2,\quad \bar{z} \neq \bar{0}
-.\] 
+Dimostro la contronominale:
+
+
+$\Leftarrow \qquad \text{se esiste un $\bar{x}$ con almeno 2 scomposizioni} \quad \Rightarrow \quad \exists \bar{z} \in W_1 \cap W_2,\quad \bar{z} \neq \bar{0}$.\\
+
+
 Prendo allora tale $\bar{x}$ che si scompone in due coordinate x e in due y:
+\[
+\bar{x}_{1},\bar{y}_{1} \in W_{1} \qquad \bar{x}_{2},\bar{y}_{2} \in W_{2}
+\]
 \[
 \bar{x}_{1} + \bar{x}_{2} = \bar{x} = \bar{y}_{1} + \bar{y}_{2}, \quad \bar{x}_{1} \neq \bar{x}_{2}, \quad \bar{y}_{1} \neq \bar{y}_{2}
 .\] 
@@ -1287,7 +1293,8 @@ Prendo allora tale $\bar{x}$ che si scompone in due coordinate x e in due y:
 \[
 \bar{y}_{1} - \bar{x}_{1} = \bar{x}_{2} - \bar{y}_{2} \quad = \bar{z}
 .\] 
-Il vettore $\bar{z}$ è contenuto sia in $W_1$ sia in $W_2$, quindi $W_1 \cap W_2 \neq \bar{0}$.
+Il vettore $\bar{z}$ è contenuto sia in $W_1$ sia in $W_2$, quindi $W_1 \cap W_2 \neq \bar{0}$. \\
+
 
 Contronominale: se $W_1 \cap W_2 \neq \{\bar{0}\} \quad \Rightarrow \quad \text{non ho unicità di scrittura}$
 \[
@@ -1363,9 +1370,9 @@ Questo terzo asse risulta essere totalmente superfluo poiché lui stesso può es
 \fboxsep11pt
 \colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: Vettori linearmente indipendenti}
-Dato un insieme di vettori $V=\{v_1,v_2,\dots,v_{r}\}$, questo  è detto \textit{linearmente indipendente} se nessun vettore in $V$ può essere espresso come combinazione lineare di uno degli altri. Quindi se e solo se:
+Dato un insieme di vettori $V=\{\bar{v}_1,\bar{v}_2,\dots,\bar{v}_{r}\}$, questo  è detto \textit{linearmente indipendente} se nessun vettore in $V$ può essere espresso come combinazione lineare di uno degli altri. Quindi se e solo se:
 \[
-k_1v_1 + k_2v_2 + \dots + k_rv_r = 0
+k_1\bar{v}_1 + k_2\bar{v}_2 + \dots + k_r\bar{<}_r = 0
 .\] 
 è risolto solo da $k_1 =k_2= \dots = k_r =0$.
 
@@ -1456,7 +1463,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 				\]
 
 \begin{es}{dimostrazione}
-	Prendiamo un vettore $\bar{w}_{1} \in V$ non nullo.
+	Supponendo $\bar{w}_{1} \in V$ non nullo.
 	\[
 	\bar{w}_{1}  = \lambda_1 \bar{v}_{1} + \dots + \lambda_n \bar{v}_{n}
 	\]
@@ -1467,9 +1474,13 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 	\[
 	\Longrightarrow V = \mathcal{L}\left(\bar{w}_{1},\bar{v}_{2},\dots,\bar{v_{n}}\right)
 	\]
-	Posso ripetere l'operazione con $\bar{w}_{2}$ perché so che è impossibile che tutti i $\lambda_{2}, \dots , \lambda_{n}$ siano nulli (se no si avrebbe $\bar{w}_{2} = \lambda \bar{w}_{1}$ e $\mathcal{I}$ sarebbe libero):
+	Posso ripetere l'operazione con $\bar{w}_{2}$:
 	\[
-	\bar{v}_{2} = \frac{1}{\lambda_2}\bar{w}_{2} - \frac{\lambda_{1}}{\lambda_2}\bar{w}_{1} - \frac{\lambda_{2}}{\lambda_{3}}\bar{v_{3}} - \dots - \frac{\lambda_{n}}{\lambda_{2}}\bar{v}_{n}
+	\bar{w}_{2} = \lambda_{1}\bar{w}_{1} + \lambda_2\bar{v}_{2} + \dots + \lambda_n \bar{v}_{n}
+	\]
+	So che è impossibile che tutti i $\lambda_{2}, \dots , \lambda_{n}$ siano nulli (se no si avrebbe $\bar{w}_{2} = \lambda_{1} \bar{w}_{1}$ e $\mathcal{I}$ sarebbe libero):
+	\[
+	\bar{v}_{2} = \frac{1}{\lambda_2}\bar{w}_{2} - \frac{\lambda_{1}}{\lambda_2}\bar{w}_{1} - \frac{\lambda_{3}}{\lambda_{2}}\bar{v_{3}} - \dots - \frac{\lambda_{n}}{\lambda_{2}}\bar{v}_{n}
 	\]
 	\[
 	\Longrightarrow V =  \mathcal{L}\left(\bar{w}_{1},\bar{w}_{2},\bar{v}_{3},\dots,\bar{v_{n}}\right)
@@ -1481,7 +1492,7 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 		\[
 		\bar{w}_{n+1} \in V \quad \Longrightarrow \quad \bar{w}_{n+1}  = \lambda_{1}\bar{w}_{1} + \dots + \lambda_{n}\bar{w_{n}}
 		\]
-		\textbf{assurdo} poiché $\{\bar{w}_{1} + \dots + \bar{w}_{n+1}\} \subseteq \mathcal{I}$ che ha dimensione $p \leq n$.
+		\textbf{assurdo} poiché $\{\bar{w}_{1} + \dots + \bar{w}_{n+1}\} \subseteq \mathcal{I}$ che è insieme libero.
 	\end{enumerate} \QEDB
 \end{es}
 
@@ -1537,11 +1548,15 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 	\]
 	da cui
 	\[
-	(\lambda_1 - \alpha)a_{1} + \dots + (\lambda_k - a_{k}) - \beta b_{k+1} - \dots - \beta b_{l} = 0
+	(\lambda_1 - \alpha_{1})a_{1} + \dots + (\lambda_k - \alpha_{k})a_{k} - \beta b_{k+1} - \dots - \beta b_{l} = 0
 	\]
 	ma i vettori che compaiono sono i vettori della base $\mathcal{C}$ da cui segue che 
 	\[
-	\beta_{k+1} = \dots = \beta
+	\beta_{k+1} = \dots = \beta = 0
+	\]
+	e che
+	\[
+	\lambda_1 = \alpha_1, \dots , \lambda_k = \alpha_k
 	\] \QEDB
 \end{es}
 
