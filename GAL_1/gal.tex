@@ -1504,60 +1504,48 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 				\]
 
 \begin{es}{dimostrazione}
-	Iniziamo prendendo una base per $W_{1} \cap W_{2}$: $\mathcal{B} = \left(a_{1},\dots,a_{k}\right)$.
+	Iniziamo prendendo una base per $W_{1} \cap W_{2}$: $\mathcal{B} = \left(\bar{a}_{1},\dots,\bar{a}_{k}\right)$.
 	
 	Costruisco una base per ognuno dei sottospazi:
 	\[
-	\mathcal{C} = \left(a_{1},\dots,a_{k},b_{k+1},\dots,b_{l}\right) \qquad \text{base di } W_{1}
+	\mathcal{C} = \left(\bar{a}_{1},\dots,\bar{a}_{k},\bar{b}_{k+1},\dots,\bar{b}_{l}\right) \qquad \text{base di } W_{1}
 	\]
 	\[
-	\mathcal{D} = \left(a_{1},\dots,a_{k},c_{k+1},\dots,c_{p}\right) \qquad \text{base di } W_{2}
+	\mathcal{D} = \left(\bar{a}_{1},\dots,\bar{a}_{k},\bar{c}_{k+1},\dots,\bar{c}_{p}\right) \qquad \text{base di } W_{2}
 	\]
 	La tesi consiste nel dimostrare che 
 	\[
-	\mathcal{E} = \left(a_{1},\dots,a_{k},b_{k+1},\dots,b_{l},c_{k+1},\dots,c_{p}\right)
+	\mathcal{E} = \left(\bar{a}_{1},\dots,\bar{a}_{k},\bar{b}_{k+1},\dots,\bar{b}_{l},\bar{c}_{k+1},\dots,\bar{c}_{p}\right)
 	\]
 	è una base di $W_{1} + W_{2}$.
 	
 	So di per certo che $\mathcal{E}$ è un insieme di generatori (ho messo solo generatori), devo però dimostrare che è \textit{libero}, ovvero che:
-	\begin{equation}
-		\label{eqn:grassman}
-		\alpha a_{1} + \dots + \alpha a_{k} + \beta b_{k+1} + \dots + \beta b_{l} + \gamma c_{k+1} + \dots + \gamma c_{p} = 0
-	\end{equation}
-
-	Portiamo a destra dell'uguale la parte appartenente a $W_{2}$ e chiamiamola $c$:
 	\[
-	\alpha a_{1},\dots + \alpha a_{k} + \beta b_{k+1} + \dots + \beta b_{l} = -\gamma c_{k+1} -\dots -\gamma c_{p} = c
-	\] 
+		\alpha_{1} \bar{a}_{1} + \dots + \alpha_{k} \bar{a}_{k} + \beta_{k+1} \bar{b}_{k+1} + \dots + \beta_{l} \bar{b}_{l} + \gamma_{k+1} \bar{c}_{k+1} + \dots + \gamma_{p} \bar{c}_{p} = 0 \quad \Longleftrightarrow \quad \text{ tutti gli }\alpha, \beta, \gamma = 0
+	\]
+	
+	Portandone una parte a destra dell'uguale troviamo
+	\[
+	\alpha_{1} \bar{a}_{1} + \dots + \alpha_{k} \bar{a}_{k} + \beta_{k+1} \bar{b}_{k+1} + \dots + \beta_{l} \bar{b}_{l}  = -\gamma_{k+1} \bar{c}_{k+1} - \dots - \gamma_{p} \bar{c}_{p}  \mathbf{= \bar{v}} 
+	\]
+	quindi si ha che 
+	\[
+	\bar{v} \in W_{1} \cap W_{2}
+	\]
 \end{es}
 \begin{es}{}
-	Da questa equazione vediamo che $c$ è contenuto sia in $W_{1}$ sia in $W_{2}$, allora si può scrivere come combinazione lineare dei generatori di $W_{1} \cap W_{2}$:
+	e quindi è riscrivibile come combinazione lineare dei vettori delle basi $\mathcal{C}$ e $\mathcal{D}$:
 	\[
-	c = \lambda_1 a_{1} + \dots + \lambda_k a_{k}
+	\bar{v} = 	\alpha_{1} \bar{a}_{1} + \dots + \alpha_{k} \bar{a}_{k} + \beta_{k+1} \bar{b}_{k+1} + \dots + \beta_{l} \bar{b}_{l}\quad \Longleftrightarrow \quad \text{ tutti gli }\alpha, \beta = 0
 	\]
-	Quindi ora sappiamo che 
 	\[
-	c = \begin{array}{l}
-		\lambda_1 a_{1} + \dots + \lambda_k a_{k} \\
-		\alpha a_{1} +\dots + \alpha a_{k} +\beta b_{k+1} + \dots + \beta b_{l} 
-	\end{array}
+	\bar{v} = 	\alpha_{1} \bar{a}_{1} + \dots + \alpha_{k} \bar{a}_{k} + \gamma_{k+1} \bar{c}_{k+1} + \dots + \gamma_{p} \bar{c}_{p}\quad \Longleftrightarrow \quad \text{ tutti gli }\alpha, \gamma = 0
 	\]
-	quindi possiamo riscrivere la (\ref{eqn:grassman}) in questo modo:
+	Abbiamo dimostrato quindi che per poter scrivere $\bar{v}$ in questo modo è necessario che tutti gli $\alpha,\beta,\gamma$ devono valere zero e che di conseguenza l'insieme $\mathcal{E}$ è composto da \textit{generatori linearmente indipendenti}. Quindi posso dire che 
 	\[
-	\lambda_1 a_{1} + \dots + \lambda_k a_{k} = \alpha a_{1} + \dots + \alpha a_{k} + \beta b_{k+1} + \dots + \beta b_{l} 
+	\mathcal{E} \text{ è una base di } V \text{ e che } \quad \text{dim}(W_{1} + W_{2}) = l + p - k
 	\]
-	da cui
-	\[
-	(\lambda_1 - \alpha_{1})a_{1} + \dots + (\lambda_k - \alpha_{k})a_{k} - \beta b_{k+1} - \dots - \beta b_{l} = 0
-	\]
-	ma i vettori che compaiono sono i vettori della base $\mathcal{C}$ da cui segue che 
-	\[
-	\beta_{k+1} = \dots = \beta = 0
-	\]
-	e che
-	\[
-	\lambda_1 = \alpha_1, \dots , \lambda_k = \alpha_k
-	\] \QEDB
+	 \QEDB
 \end{es}
 
 \subsection{Cambiamento di base}
@@ -1843,7 +1831,7 @@ per ogni $x$ e  $y$ in $V$ e per ogni $\lambda$ e $\mu$ in $\mathbb{R}$.
 				\mathscr{B} = \{\bar{v}_{1},\dots,\bar{v}_{n}\} \text{ base di }V
 				\] 
 				\[
-				\mathscr{C} = \{\bar{a}_{1},\dots,\bar{a}_{n}\} \text{ insieme di vettori in }W
+				\mathscr{C} = \{\bar{a}_{1},\dots,\bar{a}_{n}\} \text{ immagini di vettori in }W
 				.\] 
 				Allora esiste ed è \textbf{unica} l'applicazione lineare
 				\[
@@ -1942,7 +1930,7 @@ o se
 			
 
 \noindent
-Una funzione è suriettiva se il sottospazio immagine corrisponde con il codominio, per questo non può esistere un'isola, no dai, non può esistere una funzione suriettiva del tipo $f:\mathbb{R}^2 \to \mathbb{R}^3$ (si ha che $\text{Im}f$ ha dimensione massima 2, quindi non potrà mai generare tutto $\mathbb{R}^3$).
+Una funzione è suriettiva se il sottospazio immagine corrisponde al codominio, per questo non può esistere un'isola, no dai, non può esistere una funzione suriettiva del tipo $f:\mathbb{R}^2 \to \mathbb{R}^3$ (si ha che $\text{Im}f$ ha dimensione massima 2, quindi non potrà mai generare tutto $\mathbb{R}^3$).
 
 
 \begin{center}
@@ -2830,7 +2818,7 @@ visto che deve valere per ogni $\bar{y}$ posso eliminarlo dall'equazione; inoltr
 \[
  AX = 0
 \]
-accorgendomi che il kernel di $\phi$ corrisponde (in componenti) con il \textit{nullsopace} di A.
+accorgendomi che il kernel di $\phi$ corrisponde (in componenti) con il \textit{nullspace} di A.
 	\begin{center}
 	\fboxsep11pt
 	\colorbox{myblue}{\begin{minipage}{5.75in}
@@ -2889,7 +2877,7 @@ Ora dobbiamo introdurre due disuguaglianze fondamentali per comprendere alcuni c
 	\colorbox{myred}{\begin{minipage}{5.75in}
 			\begin{redes}{}
 				\subsubsection{Disuguaglianza di Cauchy-Schwarz}
-				Se una forma bilineare simmetria è definita positiva, allora vale
+				Se una forma bilineare simmetrica è definita positiva, allora vale
 				\[
 				| \phi(\bar{x},\bar{y}) | \leq \sqrt{\phi(\bar{x},\bar{x})} \sqrt{\phi(\bar{y},\bar{y})}
 				\] 
@@ -2904,7 +2892,7 @@ Ora dobbiamo introdurre due disuguaglianze fondamentali per comprendere alcuni c
 	\[
 	Q(\lambda \bar{x}+\bar{y}) = \lambda^2Q(\bar{x}) + 2\lambda\phi(\bar{x},\bar{y}) + Q(\bar{y})
 	\]
-	Essendo $\phi(\bar{x},\bar{y})$ definita positiva si ha che $Q(x) \geq 0$. Quindi il discriminante ridotto $\left(\frac{b}{2}\right)^2 -ac$ del trinomio deve essere negativo (se lo immagina come una parabola sempre con ordinata positiva con concavità verso l'alto, questa non deve può avere intersezioni con l'asse x):
+	Essendo $\phi(\bar{x},\bar{y})$ definita positiva si ha che $Q(\bar{x}) \geq 0$. Quindi il discriminante ridotto $\left(\frac{b}{2}\right)^2 -ac$ del trinomio deve essere negativo (se lo immagina come una parabola sempre con ordinata non negativa con concavità verso l'alto, questa non deve può avere più i un intersezione con l'asse x):
 	\[
 	\left[\phi(\bar{x},\bar{y})\right]^2\leq Q(\bar{x})Q(\bar{y})
 	\] \QEDB
