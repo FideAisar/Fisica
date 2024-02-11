@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  9 FEB 2024 13:25
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  11 FEB 2024 11:30
  restricted system commands enabled.
 **gal.tex
 (./gal.tex
@@ -1779,7 +1779,7 @@ Package hyperref Info: Link coloring OFF on input line 93.
 
 \openout6 = gal.out
  (./titlepage.tex
-<pngegg.png, id=344, 1027.84pt x 1027.84pt>
+<pngegg.png, id=340, 1027.84pt x 1027.84pt>
 File: pngegg.png Graphic file (type png)
 <use pngegg.png>
 Package luatex.def Info: pngegg.png  used on input line 5.
@@ -1837,7 +1837,7 @@ uguaglianza
 Package svg Info: Last page of `./svg-inkscape/sistemi_piani_svg-tex.pdf' is 1 
 on input line 145.
 (./svg-inkscape/sistemi_piani_svg-tex.pdf_tex
-<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=453, page=1, 656.32918pt x 378.90
+<./svg-inkscape/sistemi_piani_svg-tex.pdf, id=447, page=1, 656.32918pt x 378.90
 565pt>
 File: ./svg-inkscape/sistemi_piani_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/sistemi_piani_svg-tex.pdf, page 1>
@@ -1874,7 +1874,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 428--429
 Package svg Info: Last page of `./svg-inkscape/vettori_u_svg-tex.pdf' is 1 on i
 nput line 445.
 (./svg-inkscape/vettori_u_svg-tex.pdf_tex
-<./svg-inkscape/vettori_u_svg-tex.pdf, id=483, page=1, 209.7109pt x 194.33308pt
+<./svg-inkscape/vettori_u_svg-tex.pdf, id=477, page=1, 209.7109pt x 194.33308pt
 >
 File: ./svg-inkscape/vettori_u_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_u_svg-tex.pdf, page 1>
@@ -1886,7 +1886,7 @@ Package svg Info: Last page of `./svg-inkscape/vettori_du_svg-tex.pdf' is 1 on
 input line 477.
 
 (./svg-inkscape/vettori_du_svg-tex.pdf_tex
-<./svg-inkscape/vettori_du_svg-tex.pdf, id=485, page=1, 331.12767pt x 311.37515
+<./svg-inkscape/vettori_du_svg-tex.pdf, id=479, page=1, 331.12767pt x 311.37515
 pt>
 File: ./svg-inkscape/vettori_du_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/vettori_du_svg-tex.pdf, page 1>
@@ -1900,7 +1900,7 @@ Overfull \hbox (0.74937pt too wide) in paragraph at lines 483--484
  []
 
 [8<./svg-inkscape/vettori_du_svg-tex.pdf>]
-<figures/determ.png, id=498, 1011.78pt x 524.96124pt>
+<figures/determ.png, id=492, 1011.78pt x 524.96124pt>
 File: figures/determ.png Graphic file (type png)
 <use figures/determ.png>
 Package luatex.def Info: figures/determ.png  used on input line 523.
@@ -1928,12 +1928,12 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 833--834
  []
 
 [13]
-<figures/norma.png, id=541, 793.96625pt x 529.98pt>
+<figures/norma.png, id=535, 793.96625pt x 529.98pt>
 File: figures/norma.png Graphic file (type png)
 <use figures/norma.png>
 Package luatex.def Info: figures/norma.png  used on input line 896.
 (luatex.def)             Requested size: 158.79044pt x 105.99411pt.
-<figures/angoli.png, id=542, 1384.17125pt x 350.30875pt>
+<figures/angoli.png, id=536, 1384.17125pt x 350.30875pt>
 File: figures/angoli.png Graphic file (type png)
 <use figures/angoli.png>
 Package luatex.def Info: figures/angoli.png  used on input line 911.
@@ -1948,7 +1948,7 @@ LaTeX Font Info:    Trying to load font information for TS1+futs on input line
 (/opt/texlive/2023/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 ) [14<./figures/norma.png><./figures/angoli.png>]
-<figures/proj.png, id=551, 672.5125pt x 407.5225pt>
+<figures/proj.png, id=545, 672.5125pt x 407.5225pt>
 File: figures/proj.png Graphic file (type png)
 <use figures/proj.png>
 Package luatex.def Info: figures/proj.png  used on input line 952.
@@ -1969,7 +1969,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1027--1028
  []
 
 [15<./figures/proj.png>]
-<figures/uedge.png, id=557, 799.98875pt x 585.18625pt>
+<figures/uedge.png, id=551, 799.98875pt x 585.18625pt>
 File: figures/uedge.png Graphic file (type png)
 <use figures/uedge.png>
 Package luatex.def Info: figures/uedge.png  used on input line 1081.
@@ -1993,7 +1993,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1184--1185
  [][][][][][] 
  []
 
-<figures/subspace.png, id=567, 878.28125pt x 551.05875pt>
+<figures/subspace.png, id=562, 878.28125pt x 551.05875pt>
 File: figures/subspace.png Graphic file (type png)
 <use figures/subspace.png>
 Package luatex.def Info: figures/subspace.png  used on input line 1188.
@@ -2055,7 +2055,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1351--1352
  []
 
 [20]
-<figures/span.png, id=597, 1379.1525pt x 539.01375pt>
+<figures/span.png, id=592, 1379.1525pt x 539.01375pt>
 File: figures/span.png Graphic file (type png)
 <use figures/span.png>
 Package luatex.def Info: figures/span.png  used on input line 1357.
@@ -2065,12 +2065,12 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1381--1382
  [][][][][][] 
  []
 
-<figures/linind.png, id=598, 1682.285pt x 461.725pt>
+<figures/linind.png, id=593, 1682.285pt x 461.725pt>
 File: figures/linind.png Graphic file (type png)
 <use figures/linind.png>
 Package luatex.def Info: figures/linind.png  used on input line 1385.
 (luatex.def)             Requested size: 370.10385pt x 101.5798pt.
-<figures/linind2.png, id=599, 1679.27374pt x 533.995pt>
+<figures/linind2.png, id=594, 1679.27374pt x 533.995pt>
 File: figures/linind2.png Graphic file (type png)
 <use figures/linind2.png>
 Package luatex.def Info: figures/linind2.png  used on input line 1393.
@@ -2239,7 +2239,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package svg Info: Last page of `./svg-inkscape/isometrie_svg-tex.pdf' is 1 on i
 nput line 2324.
 (./svg-inkscape/isometrie_svg-tex.pdf_tex
-<./svg-inkscape/isometrie_svg-tex.pdf, id=681, page=1, 742.78407pt x 352.80598p
+<./svg-inkscape/isometrie_svg-tex.pdf, id=676, page=1, 742.78407pt x 352.80598p
 t>
 File: ./svg-inkscape/isometrie_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/isometrie_svg-tex.pdf, page 1>
@@ -2268,7 +2268,7 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 2336--2337
 Package svg Info: Last page of `./svg-inkscape/quad_svg-tex.pdf' is 1 on input 
 line 2362.
  (./svg-inkscape/quad_svg-tex.pdf_tex
-<./svg-inkscape/quad_svg-tex.pdf, id=704, page=1, 167.20915pt x 127.01016pt>
+<./svg-inkscape/quad_svg-tex.pdf, id=699, page=1, 167.20915pt x 127.01016pt>
 File: ./svg-inkscape/quad_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/quad_svg-tex.pdf, page 1>
 Package luatex.def Info: ./svg-inkscape/quad_svg-tex.pdf , page1 used on input 
@@ -2278,7 +2278,7 @@ line 56.
 Package svg Info: Last page of `./svg-inkscape/matriceblu_svg-tex.pdf' is 1 on 
 input line 2420.
  (./svg-inkscape/matriceblu_svg-tex.pdf_tex
-<./svg-inkscape/matriceblu_svg-tex.pdf, id=706, page=1, 256.14406pt x 105.7417p
+<./svg-inkscape/matriceblu_svg-tex.pdf, id=701, page=1, 256.14406pt x 105.7417p
 t>
 File: ./svg-inkscape/matriceblu_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/matriceblu_svg-tex.pdf, page 1>
@@ -2293,7 +2293,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2429--2431
 Package svg Info: Last page of `./svg-inkscape/matricelunga_svg-tex.pdf' is 1 o
 n input line 2441.
 (./svg-inkscape/matricelunga_svg-tex.pdf_tex
-<./svg-inkscape/matricelunga_svg-tex.pdf, id=708, page=1, 420.68227pt x 187.102
+<./svg-inkscape/matricelunga_svg-tex.pdf, id=703, page=1, 420.68227pt x 187.102
 51pt>
 File: ./svg-inkscape/matricelunga_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/matricelunga_svg-tex.pdf, page 1>
@@ -2457,29 +2457,21 @@ L3 programming layer <2023-08-29>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.43996pt have occurred.
 
-
-Package rerunfilecheck Warning: File `gal.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gal.out':
-(rerunfilecheck)             Before: B4A50929F33FC20EE4A685F12982FB98;15705
-(rerunfilecheck)             After:  2CE24D798340C896C402D0AB036BC5AF;15462.
+Package rerunfilecheck Info: File `gal.out' has not changed.
+(rerunfilecheck)             Checksum: 2CE24D798340C896C402D0AB036BC5AF;15462.
 )
 
 Here is how much of LuaTeX's memory you used:
- 52636 strings out of 477259
+ 52634 strings out of 477259
  125027,2373549 words of node,token memory allocated
  2954 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 163 sub_mlist, 1 glyph, 487 attribu
 te, 61 glue_spec, 487 attribute_list, 2 write nodes
-   avail lists: 2:2340,3:1244,4:208,5:855,6:164,7:7314,8:141,9:1373,10:21,11:364
+   avail lists: 2:2340,3:1244,4:208,5:855,6:164,7:7314,8:141,9:1399,10:21,11:364
 
- 72003 multiletter control sequences out of 65536+600000
+ 72002 multiletter control sequences out of 65536+600000
  180 fonts using 10941191 bytes
  117i,17n,104p,717b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'section*.58'
 {/opt/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}</opt/texlive/2023/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2023/texmf-dist/
 fonts/type1/public/fourier/fourier-bb.pfb></opt/texlive/2023/texmf-dist/fonts/ty
@@ -2492,10 +2484,10 @@ pt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></opt/texlive/20
 23/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></opt/texlive/2023/texmf-dist/
 fonts/type1/adobe/utopia/putri8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/p
 ublic/rsfs/rsfs10.pfb>
-Output written on gal.pdf (47 pages, 905679 bytes).
+Output written on gal.pdf (47 pages, 905674 bytes).
 
-PDF statistics: 837 PDF objects out of 1000 (max. 8388607)
- 728 compressed objects within 8 object streams
- 227 named destinations out of 1000 (max. 131072)
- 688 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 832 PDF objects out of 1000 (max. 8388607)
+ 723 compressed objects within 8 object streams
+ 226 named destinations out of 1000 (max. 131072)
+ 680 words of extra memory for PDF output out of 10000 (max. 100000000)
 

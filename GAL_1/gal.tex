@@ -1259,7 +1259,7 @@ Prendiamo due vettori $\bar{x}$ e $\bar{y}$ entrambi $\in W_1 + W_2$:
 \begin{blues}{Definizione: Somma diretta}
 $\left(V,+,\cdot\right)$ spazio vettoriale, $W_1,W_2 \leq V$. Diciamo che la somma $W_1+W_2$ è una somma diretta se ogni $\bar{x} \in W_1+W_2$ si scrive in modo unico come $\bar{x}_1 + \bar{x}_2$ con $\bar{x}_1 \in W_1$ e $\bar{x}_2 \in W_2 $.
 
-La somma verrà scritta come:
+Se in più i due spazi sono supplementari varrà
 \[
 W_1 \oplus W_2 = V
 .\] 
@@ -1358,7 +1358,7 @@ Ogni sottospazio possiamo dire essere generato da combinazioni lineari dei vetto
 \end{center}
 
 \noindent
-E' importante riconoscere che gli insiemi di generatori \textit{non sono unici}. Per esempio qualsiasi vettore non nullo sulla linea in figura sarebbe generatore  di $v$. Sono generatori tutte le combinazioni lineari di un insieme di generatori.
+E' importante riconoscere che gli insiemi di generatori \textit{non sono unici}. Per esempio qualsiasi vettore non nullo sulla linea in figura sarebbe generatore  di $\bar{v}$. Sono generatori tutte le combinazioni lineari di un insieme di generatori.
 
 \subsection{Indipendenza lineare}
 Diciamo di avere uno spazio $xy$ con vettori standard $i$ e $j$. Ogni vettore in $xy$ può essere espresso in modo unico come combinazione lineare di $i$ e $j$. Supponiamo ora di introdurre una terza coordinata $w$ a 45 gradi tra gli assi $x$ e $y$. 
@@ -1406,7 +1406,7 @@ Ora che sappiamo cosa sono un insieme di generatori e un insieme di vettori line
 \fboxsep11pt
 \colorbox{myblue}{\begin{minipage}{5.75in}
 \begin{blues}{Definizione: Base}
-Viene chiamata base di $V$ un insieme di vettori che \textbf{genera} $V$ e al contempo è linearmente indipendente.
+Viene chiamata base di $V$ un insieme di vettori che \textbf{genera} $V$ e al contempo è libero.
 \end{blues}
 \end{minipage}}        
 \end{center}
@@ -1488,11 +1488,11 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 	Iterando il processo posso concludere in due modi:
 	\begin{enumerate}
 		\item Metto tutti i $\bar{w}_{j}$, possibile solo se $p \leq n$;
-		\item Arrivo a scrivere una base di $V$ del tipo $\mathcal{L}\left(\bar{w}_{1},\dots,\bar{w_{p}}\right)$ con $p > n$. Ciò è possibile se 
+		\item Arrivo a scrivere una base di $V$ del tipo $\mathcal{L}\left(\bar{w}_{1},\dots,\bar{w}_{n},\bar{w}_{n+1},\dots,\bar{w_{p}}\right)$ con $p > n$. Vorrebbe dire che
 		\[
 		\bar{w}_{n+1} \in V \quad \Longrightarrow \quad \bar{w}_{n+1}  = \lambda_{1}\bar{w}_{1} + \dots + \lambda_{n}\bar{w_{n}}
 		\]
-		\textbf{assurdo} poiché $\{\bar{w}_{1} + \dots + \bar{w}_{n+1}\} \subseteq \mathcal{I}$ che è insieme libero.
+		\textbf{assurdo} poiché $\left\{\bar{w}_{1},\dots,\bar{w}_{n+1}\right\}$ è insieme libero.
 	\end{enumerate} \QEDB
 \end{es}
 
