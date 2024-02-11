@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  11 FEB 2024 11:30
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.13)  11 FEB 2024 12:00
  restricted system commands enabled.
 **gal.tex
 (./gal.tex
@@ -2464,9 +2464,9 @@ Package rerunfilecheck Info: File `gal.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  52634 strings out of 477259
  125027,2373549 words of node,token memory allocated
- 2954 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 163 sub_mlist, 1 glyph, 487 attribu
-te, 61 glue_spec, 487 attribute_list, 2 write nodes
+ 2968 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 165 sub_mlist, 1 glyph, 489 attribu
+te, 61 glue_spec, 489 attribute_list, 2 write nodes
    avail lists: 2:2340,3:1244,4:208,5:855,6:164,7:7314,8:141,9:1399,10:21,11:364
 
  72002 multiletter control sequences out of 65536+600000
@@ -2484,7 +2484,7 @@ pt/texlive/2023/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></opt/texlive/20
 23/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></opt/texlive/2023/texmf-dist/
 fonts/type1/adobe/utopia/putri8a.pfb></opt/texlive/2023/texmf-dist/fonts/type1/p
 ublic/rsfs/rsfs10.pfb>
-Output written on gal.pdf (47 pages, 905674 bytes).
+Output written on gal.pdf (47 pages, 905849 bytes).
 
 PDF statistics: 832 PDF objects out of 1000 (max. 8388607)
  723 compressed objects within 8 object streams

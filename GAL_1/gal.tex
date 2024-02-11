@@ -1536,10 +1536,10 @@ c_i = k_{i} \quad \forall i \in {1,\dots,n}
 \begin{es}{}
 	e quindi è riscrivibile come combinazione lineare dei vettori delle basi $\mathcal{C}$ e $\mathcal{D}$:
 	\[
-	\bar{v} = 	\alpha_{1} \bar{a}_{1} + \dots + \alpha_{k} \bar{a}_{k} + \beta_{k+1} \bar{b}_{k+1} + \dots + \beta_{l} \bar{b}_{l}\quad \Longleftrightarrow \quad \text{ tutti gli }\alpha, \beta = 0
+	\bar{v} = 	\alpha_{1} \bar{a}_{1} + \dots + \alpha_{k} \bar{a}_{k} + \beta_{k+1} \bar{b}_{k+1} + \dots + \beta_{l} \bar{b}_{l} = 0\quad \Longleftrightarrow \quad \text{ tutti gli }\alpha, \beta = 0
 	\]
 	\[
-	\bar{v} = 	\alpha_{1} \bar{a}_{1} + \dots + \alpha_{k} \bar{a}_{k} + \gamma_{k+1} \bar{c}_{k+1} + \dots + \gamma_{p} \bar{c}_{p}\quad \Longleftrightarrow \quad \text{ tutti gli }\alpha, \gamma = 0
+	\bar{v} = 	\alpha_{1} \bar{a}_{1} + \dots + \alpha_{k} \bar{a}_{k} + \gamma_{k+1} \bar{c}_{k+1} + \dots + \gamma_{p} \bar{c}_{p} = 0\quad \Longleftrightarrow \quad \text{ tutti gli }\alpha, \gamma = 0
 	\]
 	Abbiamo dimostrato quindi che per poter scrivere $\bar{v}$ in questo modo è necessario che tutti gli $\alpha,\beta,\gamma$ devono valere zero e che di conseguenza l'insieme $\mathcal{E}$ è composto da \textit{generatori linearmente indipendenti}. Quindi posso dire che 
 	\[
@@ -1555,16 +1555,16 @@ In moltissimi casi risulta più comodo esprimere un vettore rispetto a una base 
 Le vecchie coordinate sono legate alle nuove dalla seguente equazione:
 
 \[
-\left[v\right]_{B} = M_{B}^{B'} \left[v\right]_{B'}
+\left[\bar{v}\right]_{B} = M_{B}^{B'} \left[\bar{v}\right]_{B'}
 \] 
-$M_{B}^{B'}$ è detta  \textbf{matrice del cambiamento di base} e ha nelle colonne i vettori della base di arrivo rispetto la base di partenza. Quindi la matrice di cambiamento di base da $\mathscr{B} = {v_1,\dots,v_{n}}$ a $\mathscr{B}' = {e_{1},\dots,e_{n}}$ sarà:
+$M_{B}^{B'}$ è detta  \textbf{matrice del cambiamento di base} e ha nelle colonne i vettori della base di arrivo rispetto la base di partenza. Quindi la matrice di cambiamento di base da $\mathscr{B} = {\bar{v}_1,\dots,\bar{v}_{n}}$ a $\mathscr{B}' = {\bar{v}'_{1},\dots,\bar{v}'_{n}}$ sarà:
 
 
 \[
 M_{B}^{B'} =
 \left[\begin{array}{c|c|c}
-     \left[v'_1\right]_{B}
-&  \dots & \left[v'_{n}\right]_{B}
+     \left[\bar{v}'_1\right]_{B}
+&  \dots & \left[\bar{v}'_{n}\right]_{B}
 \end{array}
 \right]
 \] 
@@ -1576,23 +1576,23 @@ Diciamo di avere base di partenza e base di arrivo:
 \]
 Sappiamo che i vettori della nuova base possono essere scritti come combinazione lineare dei ettori della vecchia base: a partire da $\mathcal{B}$ definiamo i vettori di $\mathcal{B}'$.
 \[
-v'_{1} = \textcolor{myorange}{a}\bar{v}_{1} + \textcolor{myorange}{b}\bar{v}_{2}
+\bar{v}'_{1} = \textcolor{myorange}{a}\bar{v}_{1} + \textcolor{myorange}{b}\bar{v}_{2}
 \]
 \[
-v'_{2} = \textcolor{myorange}{c}\bar{v}_{1} + \textcolor{myorange}{d}\bar{v}_{2}
+\bar{v}'_{2} = \textcolor{myorange}{c}\bar{v}_{1} + \textcolor{myorange}{d}\bar{v}_{2}
 \]
 La base di arrivo può essere riscritta come $ \mathcal{B}' = \left\{(\textcolor{myorange}{a}\bar{v}_{1} + \textcolor{myorange}{b}\bar{v}_{2}),(\textcolor{myorange}{c}\bar{v}_{1} + \textcolor{myorange}{d}\bar{v}_{2}) \right\}$.
 
 Un vettore rispetto a $\mathcal{B}'$ si può riscrivere come combinazione lineare dei vettori della base:
 
 \[
-\left[v\right]_{\mathcal{B}'}  = \left[\begin{array}{c}
+\left[\bar{v}\right]_{B'}  = \left[\begin{array}{c}
 		k_{1} \\ k_{2}
 \end{array} \right]
 \]
 
 \begin{align*}
-	v &= \textcolor{red}{k_{1}}(\textcolor{myorange}{a}\bar{v}_{1} + \textcolor{myorange}{b}\bar{v}_{2}) + \textcolor{red}{k_{2}}(\textcolor{myorange}{c}\bar{v}_{1} + \textcolor{myorange}{d}\bar{v}_{2}) \\
+	\bar{v} &= \textcolor{red}{k_{1}}(\textcolor{myorange}{a}\bar{v}_{1} + \textcolor{myorange}{b}\bar{v}_{2}) + \textcolor{red}{k_{2}}(\textcolor{myorange}{c}\bar{v}_{1} + \textcolor{myorange}{d}\bar{v}_{2}) \\
 	&= \left(\textcolor{red}{k_{1}}\textcolor{myorange}{a} + \textcolor{red}{k_{2}}\textcolor{myorange}{c}\right)\bar{v}_{1} + 
 	\left(\textcolor{red}{k_{1}}\textcolor{myorange}{b} + \textcolor{red}{k_{2}}\textcolor{myorange}{d} \right)\bar{v}_{2} 
 \end{align*}
@@ -1601,9 +1601,9 @@ Un vettore rispetto a $\mathcal{B}'$ si può riscrivere come combinazione linear
 	
 Adesso possiamo riscrivere il vettore rispetto alla base di partenza $\mathcal{B}$
 \begin{align*}
-[v]_{\mathcal{B}} &= \left[\begin{array}{cc}
-	\textcolor{red}{k_{1}}\textcolor{myorange}{a} & \textcolor{red}{k_{2}}\textcolor{myorange}{c} \\
-	\textcolor{red}{k_{1}}\textcolor{myorange}{b} & \textcolor{red}{k_{2}}\textcolor{myorange}{d}
+[\bar{v}]_{B} &= \left[\begin{array}{c}
+	\textcolor{red}{k_{1}}\textcolor{myorange}{a} + \textcolor{red}{k_{2}}\textcolor{myorange}{c} \\
+	\textcolor{red}{k_{1}}\textcolor{myorange}{b} + \textcolor{red}{k_{2}}\textcolor{myorange}{d}
 \end{array}\right] \\
 	&=\left[\begin{array}{cc}
 		\textcolor{myorange}{a} & \textcolor{myorange}{c} \\
@@ -1618,7 +1618,7 @@ Adesso possiamo riscrivere il vettore rispetto alla base di partenza $\mathcal{B
 Abbiamo ritrovato la forma
 
 \[
-[v]_{\mathcal{B}} =  M_{B}^{B'} [v]_{\mathcal{B}'}
+[\bar{v}]_{B} =  M_{B}^{B'} [\bar{v}]_{B'}
 \] 
 
 \end{es}
