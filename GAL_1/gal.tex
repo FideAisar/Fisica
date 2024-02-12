@@ -505,6 +505,8 @@ Pensando in questi termini, prodotto come composizione di trasformazioni, compre
 
 
 
+
+
 %DETERMINANTE
 \newpage
 \subsection{Determinante}
@@ -788,6 +790,74 @@ Possiamo notare quindi che dopo le opportune operazioni ci si riconduce alla for
 \end{es}
 
 
+Poiché risolvere $AX = I$ equivale a risolvere (scrivendo $X$ per colonne) i seguneti sistemi
+\[
+(*) = \begin{cases}
+A\bar{x}_{1} = \begin{bmatrix}
+		1 \\ 0 \\ \dots \\ 0
+	\end{bmatrix}\\
+A\bar{x}_{2} = \begin{bmatrix}
+	0 \\ 1 \\ \dots \\ 0
+\end{bmatrix} \\
+
+\vdots \\
+A\bar{x}_{n} = \begin{bmatrix}
+	0 \\ \dots \\ 0 \\ 1
+\end{bmatrix}
+\end{cases} 
+\]
+
+porta a considerare che $\left(A\|I\right)$ ha soluzione solo se il rango di A è massimo. Per il teorema di Rouchè-Capelli infatti un sistema è compativile se e slo se il rango della matrice dei coefficienti coincide con il rango della matrice completa.
+
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema: Matrice invertibile se e solo se ha rango massimo}
+				Presa la matrice $A$ di ordine $n$, risulta che 
+				\[
+				\exists A^{-1} \Longleftrightarrow \text{rk}A = n
+				\]
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+
+\begin{es}{dimostrazione}
+	$\Longrightarrow \qquad$ So che $A$ è invertibile quindi:
+	\[
+	A\bar{x} = \begin{bmatrix}
+		1 \\ 0 \\ \dots \\ 0
+	\end{bmatrix}
+	\]
+	posso riscriverlo come
+	\[
+	A^{-1} A \bar{x} = A^{-1} \begin{bmatrix}
+		1 \\ 0 \\ \dots \\ 0
+	\end{bmatrix} \quad \to \quad \bar{x} = A^{-1} \begin{bmatrix}
+	1 \\ 0 \\ \dots \\ 0
+	\end{bmatrix}
+	\]
+	Ho un'unica soluzione del sistema quindi  per Rouchè-Capelli ho che \textit{parametri liberi} $= n - \text{rk}A$. Poiché i parametri liberi sono zero ottengo $n = \text{rk}A$. \\
+	
+	$\Longleftarrow \qquad$ Se $\text{rk}A = n$ tutti i sistemi $(*)$ ammettono un'unica soluzione. Trovo $\bar{x}$ t.c. $A\bar{x} = I$:
+	
+	inizio trasponendo a destra e a sinistra
+	\[
+	I = \leftindex^{t}{\bar{x}}\leftindex^{t}{A}
+	\]
+	dal quale risulta che $A$ \textbf{ha un inverso a sinistra}. Trovo ora un inversa di $\leftindex^{t}{A}$ a destra, ovvero voglio trovare $A\bar{y} = I$; moltiplico a sinistra per $\leftindex^{t}{\bar{x}}$:
+	\[
+	\leftindex^{t}{\bar{x}}\leftindex^{t}{A}\bar{y} = \leftindex^{t}{\bar{x}} I
+	\]
+	\[
+	I \bar{y} = I  \leftindex^{t}{\bar{x}} \quad \to \quad \bar{y} =  \leftindex^{t}{\bar{x}} 
+	\]
+	Ho trovato \textbf{l'inverso di sinistra di $\leftindex^{t}{A}$}. Quindi posso dire che $\leftindex^{t}{A}$ è invertibile e
+	\[
+	\left(\leftindex^{t}{A}\right)^{-1} = \leftindex^{t}{\bar{x}}\quad \to \quad \leftindex^{t}{\left(A^{-1}\right)} \quad \to \quad A^{-1} = \bar{x}
+	\]\QEDB
+	
+\end{es}
 
 \subsubsection{Calcolo della matrice inversa 1}
 Il primo metodo consiste nello svolgimento di un'equazione matriciale:
@@ -1161,7 +1231,7 @@ Si ha infatti che
 \subsubsection{Proprietà del prodotto}
 \begin{enumerate}
     \item (diciamo) distributiva: $\lambda(x+y) = \lambda x + \lambda y,\quad \forall x,y \in V, \forall \lambda \in \mathbb{R}$
-    \item $(\lambda + \mu)\cdot \bar{x} = \lambda \bar{x} + \mu \bar{x}, \quad \forall x,y \in V, \forall \lambda \in \mathbb{R}$
+    \item $(\lambda + \mu) \bar{x} = \lambda \bar{x} + \mu \bar{x}, \quad \forall x,y \in V, \forall \lambda \in \mathbb{R}$
     \item $(\lambda \cdot \mu)\bar{x} = \lambda(\mu \cdot \bar{x}),\quad \forall x,y \in V$
     \item $1 \cdot \bar{x} = \bar{x}, \quad \forall x,y \in V$
 \end{enumerate}
@@ -2398,6 +2468,19 @@ Diremo che $A'$ è  \textbf{simile} a $A$. Le matrici simili condividono molte c
 \item  $A$ e  $A'$ hanno stesso  \textit{rango}, \textit{nullspace}, \textit{polinomio caratteristico}.
 \end{enumerate}
 
+\begin{es}{dimostrazione: stesso polinomio caratteristico}
+	\[
+	\text{det}(P^{-1}AP - \lambda I)
+	\]
+	raccolgo $P^{-1}$
+	\[
+	\text{det}\left(P^{-1}(AP - P \lambda)\right) = \text{det}\left(P^{-1}\left(P(A-\lambda I)\right)\right)
+	\]
+	per Binet posso riscriverlo come
+	\[
+	\text{det}P^{-1}\text{det}P \text{det}(A-\lambda I) = \text{det}(A-\lambda I)
+	\]
+\end{es}
 \noindent
 Altre caratteristiche delle matrici simili sono meno evidenti; per comprenderle a pieno è bene ricordarsi che queste sono rappresentazioni della \textbf{stessa trasformazione lineare} solo rispetto una base differente. Questo vuole dire che matrici simili \textbf{preservano anche la struttura degli autospazi} che avranno quindi stesse dimensioni, proprio perché le due matrici rappresentano la stessa applicazione lineare. Se chiamiamo $\bar{v}$ gli autospazi rispetto alla matrice associata $A$ e $\bar{v}'$ gli autospazi rispetto alla matrice associata $P^{-1}AP = A'$, allora si ha che 
 \[
@@ -2962,7 +3045,7 @@ non so se il termine in $\phi$ vale zero, quindi il cono isotropo non è chiuso 
  			\end{redes}
  	\end{minipage}}        
  \end{center}
-\begin{es}{dimostrazione 2}
+\begin{es}{dimostrazione 1}
 	Poiché so che la matrice $A$ associata alla forma bilineare simmetrica è anch'essa simmetrica dal \textbf{corollario del teorema spettrale} posso trovare una matrice $P = M^{\mathcal{B'}}_{\mathcal{B}}$ ortogonale tale che 
 	\[
 	\leftindex^{t}{P}AP = A' 
@@ -3131,11 +3214,19 @@ E' interessante notare che mettere in forma normale una $\phi$ definita positiva
 	\]
 	Abbiamo $p + q = p' + q' = \text{rk}\phi$. \\
 	
-	Supponiamo ora che $\mathbf{p > p'}$ e di conseguenza $q < q'$ e definiamo due sottospazi $W_{1}$ e $W_{2}$ rispettivamente di dimensioni $p$ e $q'$ (dal teorema mi aspetto che questi sottospazi siano supplementari). \\
+	Supponiamo ora che $\mathbf{p > p'}$ e di conseguenza $q < q'$ e definiamo due sottospazi $W_{1}$ e $W_{2}$ rispettivamente di dimensioni $p$ e $q'$. \\
 	\[
 	\text{dim}W_{1} + \text{dim}W_{2} = p + (n-p') \mathbf{> n}
 	\]
 	Quindi per Grassman si ha $\text{dim}(W_{1} \cap \text{dim}W_{2}) \geq 1$ ed esiste un vettore non nullo $\bar{x} \in W_{1} \cap W_{2}$.
+	 per il quale vale 
+	 \[
+	 Q(\bar{x}) > 0 
+	 \]
+	 \[
+	 Q(\bar{x}) \leq 0
+	 \]
+	 che è assurdo.
 	\\
 	\QEDB
 \end{es}
