@@ -1716,10 +1716,8 @@ da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazion
 				\text{dim}Ker(f) + \text{dim}Im(f) = \text{dim}(V)
 				\]
 				\[
-				N(A) + C(A) = n
-				\]
-				
-				
+				\text{dim}N(A) + \text{dim}C(A) = n 
+				\]	
 			\end{redes}
 	\end{minipage}}        
 \end{center}
@@ -1739,7 +1737,13 @@ da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazion
 				\[
 				\text{dim}N(A) + \text{rk}A = n
 				\]
-				Ovvero che la dimensione nel nullspace equivale al numero di righe nulle e quindi anche al numero di parametri liberi.
+				Ovvero che la dimensione nel nullspace equivale al numero di righe nulle e quindi anche al numero di parametri liberi. Da quest'ultima e dal teorema del rango possiamo dire che
+				\[
+				\text{dim}N(A) + \text{dim}C(A) = n = \text{dim}N(A) +  \text{dim}R(A)
+				\]
+				\[
+				\text{dim}R(A) = \text{dim}C(A)
+				\]
 				
 			\end{redes}
 	\end{minipage}}        
@@ -2532,7 +2536,7 @@ Presa una funzione $f \in \text{End}(V)$ con $\left(V,\cdot\right)$ Euclideo, so
 \end{enumerate}
 
 \begin{es}{dimostrazione $1 \Longrightarrow 2$}
-	In $(V,\cdot)$ euclideo prendiamo una base ortonormale $\mathcal{B} = \left\{\bar{v}_{1},\bar{v}_{2},\dots,\bar{v}_{n}\right\}$. Notiamo che il pro dotto scalare tra un qualsiasi vettore di $V$ con un vettore j-esimo della base restituirà la componente j-esima del vettore:
+	In $(V,\cdot)$ euclideo prendiamo una base ortonormale $\mathcal{B} = \left\{\bar{v}_{1},\bar{v}_{2},\dots,\bar{v}_{n}\right\}$. Notiamo che il prodotto scalare tra un qualsiasi vettore di $V$ con un vettore j-esimo della base restituirà la componente j-esima del vettore:
 	\[
 	\bar{u} \cdot \bar{v}_{j} = u_{j}
 	\]
@@ -2540,6 +2544,27 @@ Presa una funzione $f \in \text{End}(V)$ con $\left(V,\cdot\right)$ Euclideo, so
 	\[
 	\text{i-esima componente di } f(\bar{v}_{j}) \qquad f(\bar{v}_{j}) \cdot \bar{v}_{i} = \bar{v}_{j} \cdot f(\bar{v}_{i}) \qquad \text{j-esima componente di } f(\bar{v}_{i})
 	\] \QEDB
+\end{es}
+
+\begin{es}{altra dimostrazione $1\Rightarrow 2$}
+	Prendo $B = \{\bar{v}_{1},\dots,\bar{v}_{n}\}$ base ortonormale e due vettori $\bar{x}$ e $\bar{y} \in V$.\\
+	
+	Scritti come vettori colonna abbiamo $X$,$Y$,$AX$ e  $AY$ rispettivamente per  $x$,  $y$,  $f\left(x\right)$ e $f\left(y\right)$. 
+	
+	Possiamo riscrivere (poiché il prodotto è standard)
+	\[
+	f\left(\bar{x}\right)\cdot \bar{y} = \bar{x}\cdot f(\bar{y})
+	\] 
+	come 
+	\[
+	\leftindex^t{\left(AX\right)}Y = \leftindex^t{X}AY
+	\] 
+	\[
+	\leftindex^t{X}\leftindex^t{A}Y = \leftindex^t{X}AY
+	.\] 
+	dalla quale risulta che $A = \leftindex^t{A}$.
+	\\
+	\QEDB
 \end{es}
 
 \noindent
@@ -2581,6 +2606,8 @@ Il polinomio $P_{f}(\lambda)$ avrà $n$ radici complesse ($\lambda \in \mathbb{C
 \[
 \lambda = \bar{\lambda} 
 \]
+\end{es}
+\begin{es}{}
 Troviamo gli autovalori:
 \[
 \text{det}\left(A - \lambda I\right) = 0 
@@ -2605,8 +2632,7 @@ poiché siamo partiti da due espressioni uguali la loro differenza deve essere u
 \[
 \lambda \leftindex^{t}{\bar{X}}  X -  \bar{\lambda} \leftindex^{t}{\bar{X}} X = 0 \to (\lambda - \bar{\lambda})(\leftindex^{t}{\bar{X}} X) = 0
 \]
-\end{es}
-\begin{es}{}
+
 poiché
 \[
 \leftindex^{t}{\bar{X}} X = (\bar{x}_{1} \dots \bar{x}_{n}) \cdot \left(\begin{array}{c}
@@ -2634,7 +2660,7 @@ Prendo due vettori appartenenti a due autospazi diversi:
 \]
 \\
 
-$3) \quad$ \textit{Gli autospazi sono in somma diretta-ortogonale}.
+$3) \quad$ \textit{Gli autospazi sono in somma diretta-ortogonale e sono supplementari}.
 
 Per dimostrare che la somma degli autospazi coincide con tutto $V$ è necessario mostrare $W$ insieme degli autospazi è $ = V$, e quindi che $W^\perp = \{\bar{0}\}$. Procederemo in questo ordine:
 \begin{enumerate}
@@ -2658,6 +2684,8 @@ Visto che vale
 f(\bar{x}) \cdot \bar{y} =  \bar{x}  \cdot f(\bar{y})  \qquad \forall \bar{x},\bar{y} \in V
 \]
 $\forall\bar{x},\bar{y} \in W^\perp \quad$ $f|_{W^\perp}$ è \textbf{autoaggiunto} e possiamo usare le dimostrazioni precedenti. Per lo \textit{step 1} infatti $P_{f|_{W^\perp}}(\lambda)$ ha solo radici reali e quindi
+\end{es}
+\begin{es}{}
 \[
 \exists \bar{x} \in W^\perp, \exists \lambda \in \mathbb{R} \quad \text{t.c.} \quad f(\bar{x}) = \lambda \bar{x}
 \]
@@ -2682,32 +2710,29 @@ D = Q^{-1}AQ = \leftindex^t{Q}AQ
 Dato l'endomorfismo $f: V \longrightarrow V$ con  $\left(V,\cdot\right)$ euclideo, sono equivalenti:
 
 \begin{enumerate}
-	\item $f$ autoaggiunto;
-	\item $\forall B$ ortonormale, $M^B\left(f\right)$ è simmetrica.
-	\item $\exists B$ ortonormale t.c. $M^B\left(f\right)$ simmetrica.
+	\item $A$ simmetrica;
+	\item $\exists P$ invertibile t.c $P^{-1}AP = \Delta$ diagonale.
+	\item $\exists P$ invertibile t.c $\leftindex^{t}{P}AP = \Delta$ diagonale.
 \end{enumerate}
 
-\begin{es}{dimostrazione $1\Rightarrow 2$}
-	Prendo $B = \{\bar{v}_{1},\dots,\bar{v}_{n}\}$ base ortonormale e due vettori $\bar{x}$ e $\bar{y} \in V$.\\
+\begin{es}{dimostrazione $1 \Rightarrow 2$}
+	Prendo come base di partenza la base ortonormale $\mathcal{B}$.
 	
-	Scritti come vettori colonna abbiamo $X$,$Y$,$AX$ e  $AY$ rispettivamente per  $x$,  $y$,  $f\left(x\right)$ e $f\left(y\right)$. 
 	
-	Possiamo riscrivere (poiché il prodotto è standard)
+	Uso il teorema spettrale: se la matrice $A$ è simmetrica posso dire che $f$ è autoaggiunto e quindi so che esiste una base $\mathcal{B}'$ ortonormale di autovettori che diagonalizza $A$.
+	
 	\[
-	f\left(\bar{x}\right)\cdot \bar{y} = \bar{x}f\left(\bar{y}\right)
-	\] 
-	come 
+	M^{B'} = M_{B'}^{B} M_{B}^{B}(f) M_{B}^{B'}
+	\]
 	\[
-	\leftindex^t{\left(AX\right)}Y = \leftindex^t{X}AY
-	\] 
+	A' = P^{-1}AP
+	\]
+	
+	Poiché $M_{B}^{B'} = P$ e $M_{B'}^{B} = P^{-1}$ sono matrici di cambiamento di base tra due basi ortonormali, sono entrambi ortogonali. Essendo $A$ simmetrica posso dire che
 	\[
-	\leftindex^t{X}\leftindex^t{A}Y = \leftindex^t{X}AY
-	.\] 
-	dalla quale risulta che $A = \leftindex^t{A}$.
-	\\
-	\QEDB
+	P^{-1}AP = A' \quad \text{diagonale} 
+	\]
 \end{es}
-
 
 \newpage
 \section{Forme bilineari}
