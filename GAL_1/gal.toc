@@ -60,8 +60,8 @@
 \contentsline {subsubsection}{Teorema: Suriettivià}{30}{section*.40}%
 \contentsline {subsubsection}{Teorema: Iniettività}{30}{section*.41}%
 \contentsline {subsubsection}{Isomorfismo e automorfismo}{31}{section*.42}%
-\contentsline {subsection}{\numberline {5.3}Controimmagine}{31}{subsection.5.3}%
-\contentsline {subsubsection}{Teorema: $f^{-1}$ è sottospazio}{31}{section*.43}%
+\contentsline {subsection}{\numberline {5.3}Controimmagine}{32}{subsection.5.3}%
+\contentsline {subsubsection}{Teorema: $f^{-1}$ è sottospazio}{32}{section*.43}%
 \contentsline {subsubsection}{Nucleo}{32}{section*.44}%
 \contentsline {section}{\numberline {6}Autovettori, autovalori}{33}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Autovettori e autovalori}{33}{subsection.6.1}%

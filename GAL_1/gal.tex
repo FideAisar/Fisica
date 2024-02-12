@@ -1990,14 +1990,14 @@ x_{1} \\ \vdots \\ x_{n}
 	\colorbox{myred}{\begin{minipage}{5.75in}
 			\begin{redes}{}
 	\subsubsection{Teorema: Suriettivià}
-Data l'applicazione lineare $f: V \to W$, $f$ si dice suriettiva se 
-\[
-\text{im}f = W
-\]
-o se 
-\[
-\text{rank}(A) = \text{dim}W
-\]
+Data l'applicazione lineare $f: V \to W$ con matrice associata $A$, sono equivalenti: 
+
+\begin{enumerate}
+	\item $f$ suriettiva;
+	\item $\text{im}f = W$;
+	\item $\text{rank}(A) = \text{dim}W = r$.
+\end{enumerate}
+
 	\end{redes}
 	\end{minipage}}        
 \end{center}
@@ -2012,14 +2012,13 @@ Una funzione è suriettiva se il sottospazio immagine corrisponde al codominio, 
 	\colorbox{myred}{\begin{minipage}{5.75in}
 			\begin{redes}{}
 			\subsubsection{Teorema: Iniettività}
-			Data l'applicazione lineare $f: V \to W$, $f$ si dice suriettiva \textit{se l'immagine di ogni insieme libero di $V$ è un insieme libero di $W$}. \\
+			Data l'applicazione lineare $f: V \to W$ con matrice associata $A$, sono equivalenti:
 			
-			Oppure se 
-			\[
-			\text{ker}f = \{\bar{0}_{V}\}
-			\]
-				
-				
+			\begin{enumerate}
+				\item $f$ iniettiva;
+				\item $\text{ker}f = \{\bar{0}_{V}\}$;
+				\item L'immagine di ogni insieme libero di $V$ è un insieme libero di $W$.
+			\end{enumerate}	
 			\end{redes}
 	\end{minipage}}        
 \end{center}
@@ -2027,6 +2026,53 @@ Una funzione è suriettiva se il sottospazio immagine corrisponde al codominio, 
 
 \noindent
 Mandando insiemi liberi in insiemi liberi, l'unico vettore che può essere mappato in $0$ è solo $\{\bar{0}\}$. 
+
+\begin{es}{dimostrazione $1 \Longrightarrow 2$}
+	Per essere iniettiva l'equazione
+	\[
+	f(\bar{x}) = \bar{b}
+	\]
+	deve essere unicamente definita. Per il teorema di Rouchè-Capelli quindi:
+	\[
+	A\bar{x} = \bar{b}
+	\]
+	ha una sola soluzione se il rango di $A$ è massimo e di conseguenza se il \textit{nullspace} ha dimensione nulla.
+\end{es}
+\begin{es}{dimostrazione $2 \Longrightarrow 3$}
+	Preso $\left\{\bar{v}_{1},\dots,\bar{v}_{n}\right\}$ devo dimostrare che $f\left\{\bar{v}_{1}\right\},\dots,f\left\{\bar{v}_{k}\right\}$ è libero.
+	
+	Per essere libero deve valere
+	\[
+	\lambda_1 f(\bar{v}_{1}) + \dots + \lambda_n f(\bar{v}_{k}) = 0 \qquad \Longleftrightarrow \lambda_1, \dots, \lambda_k = 0
+	\]
+	per linearità posso riscriverlo come
+	\[
+	f(\lambda \bar{v}_{1} + \dots + \lambda_k \bar{v}_{k}) = 0
+	\]
+	quindi
+	\[
+	\lambda_1\bar{v}_{1},\dots,\lambda_k\bar{v}_{k} \in \text{ker}f
+	\]
+	poiché vale $f \text{iniettiva} \Longleftrightarrow \text{ker}f = \left\{\bar{0}\right\}$ ho verificato che 
+	\[
+	\lambda_1, \dots, \lambda_k = 0
+	\]
+\end{es}
+\begin{es}{dimostrazione $3 \Longrightarrow 1$}
+	Supponiamo per assurdo che $f$ non sia iniettiva, alllora 
+	\[
+	\exists\bar{x}_{1},\bar{x}_{2} \in V \quad \text{t.c.} \quad  f(\bar{x}_{1}) = f(\bar{x_{2}}) \qquad \text{ con } \bar{x}_{1} \neq \bar{x}_{2}
+	\]
+	Per linearità
+	\[
+	f(\bar{x}_{1}) - f(\bar{x}_{2}) = 0 \quad \to \quad f(\bar{x}_{1} - \bar{x}_{2}) = 0
+	\]
+	quindi
+	\[
+	\bar{x}_{1}, \bar{x}_{2} \in \text{ker}f
+	\]
+	e ottengo che l'insieme libero $\left\{\bar{x}_{1},\bar{x}_{2}\right\}$ è stato mandato nell'insieme non libero $\left\{\bar{0}\right\}$, contraddizione con la $3$.
+\end{es}
 
 \subsubsection{Isomorfismo e automorfismo}
 
