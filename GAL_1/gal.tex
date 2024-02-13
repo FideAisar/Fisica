@@ -1067,16 +1067,105 @@ Quindi:
 			\subsubsection{Teorema di Pitagora generalizzato}
 			Dati $u$ e $v$ vettori ortogonali tra loro in $\mathbb{R}^n$ con prodotto standard, allora
 			\[
-			\|u+v\|^2 = \|u\|^2 + \|v\|^2
+			\|\bar{x} + \bar{y}\|^2 = \|\bar{x}\|^2 + \|\bar{y}\|^2
 			.\] 
-			\textit{la dimostrazione è molto semplice, il termine $2u\cdot v$ vale zero.}		
 			\end{redes}
 	\end{minipage}}        
 \end{center}
 
+\begin{es}{dimostrazione}	
+	\[
+	\|\bar{x} + \bar{y}\| = \sqrt{(\bar{x} + \bar{y})\cdot(\bar{x} + \bar{y})}
+	\]
+	quindi
+	\begin{align*}
+		\| \bar{x} + \bar{y}\|^2 =&  (\bar{x} + \bar{y})\cdot(\bar{x} + \bar{y}) \\
+								 =& \bar{x}\cdot \bar{x} + 2\bar{x}\cdot \bar{y} + \bar{y} \cdot \bar{y}
+								 = \|\bar{x} \|^2 + 2\bar{x}\cdot \bar{y} + \bar{y} \| \bar{y} \|^2
+	\end{align*}
+	Risulta quindi che $\|\bar{x} + \bar{y}\| = \sqrt{(\bar{x} + \bar{y})\cdot(\bar{x} + \bar{y})} \Longleftrightarrow \bar{x}\cdot \bar{y} = 0$
+\end{es}
+
+\begin{center}
+	\fboxsep11pt
+	\colorbox{myred}{\begin{minipage}{5.75in}
+			\begin{redes}{}
+				\subsubsection{Teorema: disuguaglianza di Cauchy-Schwartz}
+				\[
+				|\bar{x}\cdot \bar{y}| \leq \|\bar{x}\| \|\bar{y}\|
+				\]
+			\end{redes}
+	\end{minipage}}        
+\end{center}
+\begin{es}{dimostrazione}
+	\[
+	\|\bar{x} + \lambda \bar{y} \| ^2 = \|\bar{x}\|^2 + 2(\bar{x} \cdot \lambda \bar{y}) + \| \lambda \bar{y}\|^2 = \|\bar{x}\|^2 + 2\lambda(\bar{x} \cdot \bar{y}) + \lambda^2\| \bar{y}\|^2 
+	\]
+	Ottengo un trinomio sempre non negativo ($\|\bar{x} + \lambda \bar{y} \| ^2 \geq 0$) che ha quindi discriminante non positivo:
+	\[
+	b^2 - 4ac \leq 0 \quad \to \quad 4(\bar{x}\cdot\bar{y})^2 - 4(\|\bar{x}\|^2\|\bar{y}\|^2) \leq 0
+	\]
+	da cui si ricava
+	\[
+	|\bar{x}\cdot \bar{y}| \leq \|\bar{x}\| \|\bar{y}\|
+	\]
+\end{es}
 
 
+\subsection{Complemento ortogonale}
+Siano $(V,\cdot)$ euclideo e $W\leq V$ sottospazio.
 
+	\begin{center}
+	\fboxsep11pt
+	\colorbox{myblue}{\begin{minipage}{5.75in}
+			\begin{blues}{Definizione: complemento ortogonale}
+			Preso $W$ sottospazio di $V$, chiamiamo $W^\perp$ complemento ortogonale di $W$ ed è definito da
+			\[
+			W^\perp = \left\{\bar{x} \in V \quad \text{t.c.} \quad \bar{x}\cdot \bar{w} = 0 \quad \forall \bar{w} \in W\right\}
+			\]
+			\end{blues}
+	\end{minipage}}       
+\end{center}
+
+Valgono le sequenti proprietà:
+\begin{enumerate}
+	\item $\left(W^\perp\right)^\perp = W$;
+	\item $W \oplus W^\perp = V$.
+\end{enumerate}
+
+\begin{es}{dimostrazione $1$}
+	Dalla definizione di complemento ortogonale:
+	\[
+	\left(W^\perp\right)^\perp = \left\{\bar{x} \in V \quad \text{t.c.} \quad \bar{x}\cdot \bar{w} = 0 \quad \forall \bar{w} \in W^\perp\right\}
+	\]
+	che è uguale a
+	\[
+	W = \left\{\bar{x} \in V \quad \text{t.c.} \quad \bar{x}\cdot \bar{w} = 0 \quad \forall \bar{w} \in W^\perp\right\}
+	\]
+\end{es}
+\begin{es}{dimostrazione $2$}
+	Prima dimostro che sono in somma diretta: 
+
+	Suppongo che esista un vettore $\bar{x} \in W \cap W^\perp$. Allora deve valere
+	\[
+	\bar{x}\cdot \bar{x} = \bar{0}
+	\]
+	che è verificata se e solo se $\bar{x} = \bar{0}$. \\
+	
+	Dimostro che sono supplementari:
+\end{es}
+\begin{es}{}
+	Prendo $\mathcal{B} = \left\{\bar{v}_{1},\cdot,\bar{v}_{k}\right\}$ base di $W$. Ponendo i vettori di $\mathcal{B}$ in riga nella matrice $A$ si ottiene una matrice di rango $k$ il cui \textit{nullspace} coincide con $W^\perp$ (per il teorema di nullità più rango).
+	
+	Sempre per nullità più rango
+	\[
+	\text{dim}N(A) + \text{dim}C(A) = \text{dim(V)}
+	\]
+	Quindi (poiché $\text{dim}C(A) = \text{dim}R(A) = k$)
+	\[
+	\text{dim}W^\perp + \text{dim}W = \text{dim}(V)
+	\]
+\end{es}
 
 \subsection{Prodotto vettoriale}
 
@@ -1148,7 +1237,7 @@ Dati $u$ e $v$ vettori in uno spazio tridimensionale, dall'identità di Lagrange
 Da questo possiamo notare che il prodotto vettoriale può essere inteso anche come area del parallelogramma che ha come lati i due vettori. 
 
 \begin{center}
-\includegraphics[scale=0.25]{figures/uedge.png}
+\includegraphics[scale=0.15]{figures/uedge.png}
 \end{center}
 
 \subsection{Prodotto misto}
@@ -2075,11 +2164,11 @@ Mandando insiemi liberi in insiemi liberi, l'unico vettore che può essere mappa
 	ha una sola soluzione se il rango di $A$ è massimo e di conseguenza se il \textit{nullspace} ha dimensione nulla.
 \end{es}
 \begin{es}{dimostrazione $2 \Longrightarrow 3$}
-	Preso $\left\{\bar{v}_{1},\dots,\bar{v}_{n}\right\}$ devo dimostrare che $f\left\{\bar{v}_{1}\right\},\dots,f\left\{\bar{v}_{k}\right\}$ è libero.
+	Preso $\left\{\bar{v}_{1},\dots,\bar{v}_{n}\right\}$ devo dimostrare che $\left\{f\left(\bar{v}_{1}\right),\dots,f\left(\bar{v}_{k}\right)\right\}$ è libero.
 	
 	Per essere libero deve valere
 	\[
-	\lambda_1 f(\bar{v}_{1}) + \dots + \lambda_n f(\bar{v}_{k}) = 0 \qquad \Longleftrightarrow \lambda_1, \dots, \lambda_k = 0
+	\lambda_1 f(\bar{v}_{1}) + \dots + \lambda_k f(\bar{v}_{k}) = 0 \qquad \Longleftrightarrow \lambda_1, \dots, \lambda_k = 0
 	\]
 	per linearità posso riscriverlo come
 	\[
@@ -2342,10 +2431,10 @@ Ora tenendo a mente che l'obiettivo è dimostrare che la molteplicità geometric
 	 \begin{vmatrix}
 	\lambda_{o}I_{k} - \lambda I_{k} & B \\
      	0& C - \lambda I 
-	\end{vmatrix} = 0
+	\end{vmatrix} 
 \] 
 \[
-= \left(\lambda_{0} - \lambda\right)^{k}\left(C-\lambda I\right) = 0
+= \left(\lambda_{0} - \lambda\right)^{k}\text{det}\left(C-\lambda I\right) 
 \] 
 L'ultima uguaglianza conferma che la molteplcità algebrica di $\lambda_{o}$ sia almeno uguale a $k$.
 \\
@@ -2354,7 +2443,7 @@ L'ultima uguaglianza conferma che la molteplcità algebrica di $\lambda_{o}$ sia
 
 
 
-\paragraph{Teorema}
+\paragraph{Proposizione}
 Una matrice quadrata associata a una funzione $f$ è invertiile se e solo se $\lambda = 0$ non è un suo autovalore. 
 
 \noindent
@@ -2540,17 +2629,17 @@ A' = P^{-1} A P
 Diremo che $A'$ è  \textbf{simile} a $A$. Le matrici simili condividono molte caratteristiche:
 \begin{enumerate}
 	\item $A$ e  $P^{-1}AP$ hanno stesso determinante;
-\begin{align*}
+	\begin{es}{dimostrazione}
+	\begin{align*}
 	\text{det}\left(A'\right) &= \text{det}\left(P^{-1}AP\right)\\ 
-		   &= \text{det}\left(P^{-1}\right)\text{det}\left(A\right)\text{det}\left(P\right) \\
-		   &= \frac{1}{\text{det}\left(P\right)} \text{det}\left(A\right) \text{det}\left(P\right) \\
-		   &=\text{det}\left(A\right)
-\end{align*}
+	&= \text{det}\left(P^{-1}\right)\text{det}\left(A\right)\text{det}\left(P\right) \\
+	&= \frac{1}{\text{det}\left(P\right)} \text{det}\left(A\right) \text{det}\left(P\right) \\
+	&=\text{det}\left(A\right)
+	\end{align*}
+	\end{es}
 \item $A$ invertibile  $\Longleftrightarrow$  $A'$ invertibile;
 \item  $A$ e  $A'$ hanno stesso  \textit{rango}, \textit{nullspace}, \textit{polinomio caratteristico}.
-\end{enumerate}
-
-\begin{es}{dimostrazione: stesso polinomio caratteristico}
+\begin{es}{dimostrazione}
 	\[
 	\text{det}(P^{-1}AP - \lambda I)
 	\]
@@ -2563,11 +2652,11 @@ Diremo che $A'$ è  \textbf{simile} a $A$. Le matrici simili condividono molte c
 	\text{det}(P^{-1})\text{det}(P) \text{det}(A-\lambda I) = \text{det}(A-\lambda I)
 	\]
 \end{es}
+\end{enumerate}
+
+
 \noindent
-Altre caratteristiche delle matrici simili sono meno evidenti; per comprenderle a pieno è bene ricordarsi che queste sono rappresentazioni della \textbf{stessa trasformazione lineare} solo rispetto una base differente. Questo vuole dire che matrici simili \textbf{preservano anche la struttura degli autospazi} che avranno quindi stesse dimensioni, proprio perché le due matrici rappresentano la stessa applicazione lineare. Se chiamiamo $\bar{v}$ gli autospazi rispetto alla matrice associata $A$ e $\bar{v}'$ gli autospazi rispetto alla matrice associata $P^{-1}AP = A'$, allora si ha che 
-\[
-\bar{v}' = P\bar{v}
-\]
+Altre caratteristiche delle matrici simili sono meno evidenti; per comprenderle a pieno è bene ricordarsi che queste sono rappresentazioni della \textbf{stessa trasformazione lineare} solo rispetto a una base differente. Questo vuole dire che matrici simili \textbf{preservano anche la struttura degli autospazi} che avranno quindi stesse dimensioni, proprio perché le due matrici rappresentano la stessa applicazione lineare. \\
 
 \noindent
 Allo scopo di diagonalizzare una matrice le matrici simili sono essenziali, infatti, una matrice quadrata $A$ si dice \textbf{diagonalizzabile} se è simile a un'altra matrice diagonale.
@@ -2711,25 +2800,16 @@ Presa una funzione $f \in \text{End}(V)$ con $\left(V,\cdot\right)$ Euclideo, so
 	\] \QEDB
 \end{es}
 
-\begin{es}{altra dimostrazione $1\Rightarrow 2$}
-	Prendo $B = \{\bar{v}_{1},\dots,\bar{v}_{n}\}$ base ortonormale e due vettori $\bar{x}$ e $\bar{y} \in V$.\\
-	
-	Scritti come vettori colonna abbiamo $X$,$Y$,$AX$ e  $AY$ rispettivamente per  $x$,  $y$,  $f\left(x\right)$ e $f\left(y\right)$. 
-	
-	Possiamo riscrivere (poiché il prodotto è standard)
+\begin{es}{dimostrazione $3 \Longrightarrow 1$}
+	Esiste una base $\mathcal{B} = \left\{\bar{v}_{1},\dots,\bar{v}_{n}\right\}$ ortonormale rispetto al prodotto standard per cui $A = M^B(f)$ è simmetrica quindi posso scrivere:
 	\[
-	f\left(\bar{x}\right)\cdot \bar{y} = \bar{x}\cdot f(\bar{y})
-	\] 
+	f(\bar{x}) \cdot \bar{y} = \bar{x} \cdot f(\bar{y})
+	\]
 	come 
-	\[
-	\leftindex^t{\left(AX\right)}Y = \leftindex^t{X}AY
-	\] 
-	\[
-	\leftindex^t{X}\leftindex^t{A}Y = \leftindex^t{X}AY
-	.\] 
-	dalla quale risulta che $A = \leftindex^t{A}$.
-	\\
-	\QEDB
+	\begin{align*}
+	f(\bar{x}) \cdot \bar{y} = \leftindex^t{\left(AX\right)}Y =& \leftindex^t{X}AY \\
+	\leftindex^t{X}\leftindex^t{A}Y =& \leftindex^t{X}AY = \bar{x} \cdot f(\bar{y})
+	\end{align*}	\QEDB
 \end{es}
 
 \noindent
@@ -2893,7 +2973,7 @@ Dato l'endomorfismo $f: V \longrightarrow V$ con  $\left(V,\cdot\right)$ euclide
 	A' = P^{-1}AP
 	\]
 	
-	Poiché $M_{B}^{B'} = P$ e $M_{B'}^{B} = P^{-1}$ sono matrici di cambiamento di base tra due basi ortonormali, sono entrambi ortogonali. Essendo $A$ simmetrica posso dire che
+	Poiché $M_{B}^{B'} = P$ e $M_{B'}^{B} = P^{-1}$ sono matrici di cambiamento di base tra due basi ortonormali, sono entrambi ortogonali. Essendo $P$ matrice con gli autovettori nelle colonne
 	\[
 	P^{-1}AP = A' \quad \text{diagonale} 
 	\]
@@ -3120,7 +3200,11 @@ Ora dobbiamo introdurre due disuguaglianze fondamentali per comprendere alcuni c
 	\[
 	Q(\lambda \bar{x}+\bar{y}) = \lambda^2Q(\bar{x}) + 2\lambda\phi(\bar{x},\bar{y}) + Q(\bar{y})
 	\]
-	Essendo $\phi(\bar{x},\bar{y})$ definita positiva si ha che $Q(\bar{x}) \geq 0$. Quindi il discriminante ridotto $\left(\frac{b}{2}\right)^2 -ac$ del trinomio deve essere negativo (se lo immagina come una parabola sempre con ordinata non negativa con concavità verso l'alto, questa non deve può avere più i un intersezione con l'asse x):
+	Essendo $\phi(\bar{x},\bar{y})$ definita positiva si ha che $Q(\bar{x}) \geq 0$. Quindi il discriminante  $b^2 - 4ac$ del trinomio deve essere negativo (se lo immagina come una parabola sempre con ordinata non negativa con concavità verso l'alto, questa non può avere più di un intersezione con l'asse $x$):
+	\[
+	4\phi(\bar{x},\bar{y}) - 4Q(\bar{x})Q(\bar{y}) \leq 0
+	\]
+	da cui
 	\[
 	\left[\phi(\bar{x},\bar{y})\right]^2\leq Q(\bar{x})Q(\bar{y})
 	\] \QEDB
@@ -3214,8 +3298,7 @@ non so se il termine in $\phi$ vale zero, quindi il cono isotropo non è chiuso 
 	\[
 	\vdots
 	\]
-\end{es}
-\begin{es}{}
+
 	Abbiamo quindi specificato $f$ in modo unico e vale
 	\[
 	f(\bar{x})\cdot \bar{y} = \phi(\bar{x},\bar{y}) \quad \forall \bar{x},\bar{y} 
