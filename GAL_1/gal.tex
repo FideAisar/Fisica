@@ -1792,6 +1792,42 @@ da questa scrittura notiamo che \textit{$b$ può essere scritto come combinazion
 	\end{minipage}}        
 \end{center}
 
+\begin{es}{dimostrazione}
+	Prendo l'insieme $\left\{\bar{v}_{1},\dots,\bar{v}_{k}\right\}$ base di $\text{ker}f$ e lo completo per avere una base di $V$:
+	\[
+	\mathcal{B} = \left\{\bar{v}_{1},\dots,\bar{v}_{k},\bar{v}_{k+1},\dots,\bar{v}_{n}\right\}
+	\]
+	Il sottospazio immagine (poiché i primi $k$ vettori vengono mandati in zero) sarà
+	\[
+	\left\{f(\bar{v}_{k+1}),\dots,f(\bar{v}_{n})\right\}
+	\]
+	Per avere la tesi devo dimostrare che il sottospazio immagine è libero così da avere $k + \text{dim}Imf = n$. Quindi devo dimostrare che 
+	
+	\[
+	\lambda_{k+1}f(\bar{v}_{k+1}) + \dots + \lambda_{n}f(\bar{v}_{n}) = \bar{0} \Longleftrightarrow \lambda_i = 0 \quad i = k+1,\dots,n
+	\]
+	Per linearità posso riscriverla come
+	\[
+	f(\lambda_{k+1}\bar{v}_{k+1} + \dots + \lambda_{n}\bar{v}_{n}) = 0
+	\]
+	che mi dice che 
+	\[
+	\lambda_{k+1}\bar{v}_{k+1} + \dots + \lambda_{n}\bar{v}_{n} \in \text{ker}f
+	\]
+	Quindi posso uguagliare 
+	\[
+	\lambda_{k+1}\bar{v}_{k+1} + \dots + \lambda_{n}\bar{v}_{n}  \quad = \quad \mu_1\bar{v}_{1} + \dots + \mu_k \bar{v}_{k}
+	\]
+	\[
+	\lambda_{k+1}\bar{v}_{k+1} + \dots + \lambda_{n}\bar{v}_{n}  \quad - \quad \mu_1\bar{v}_{1} -\dots - \mu_k \bar{v}_{k} = 0
+	\]
+	Insieme che ho detto essere libero perché è stato scelto come base all'inizio.
+	Ho quindi dimostrato che 
+	\[
+	\mathcal{B} = \left\{\bar{v}_{1},\dots,\bar{v}_{k},\bar{v}_{k+1},\dots,\bar{v}_{n}\right\} \text{ base} \Longleftrightarrow \text{ tutti i } \mu_i \text{ e tutti i } \lambda_i \text{ sono } 0
+	\]
+\end{es}
+
 \begin{center}
 	\fboxsep11pt
 	\colorbox{myred}{\begin{minipage}{5.75in}
@@ -2016,7 +2052,7 @@ Una funzione è suriettiva se il sottospazio immagine corrisponde al codominio, 
 			
 			\begin{enumerate}
 				\item $f$ iniettiva;
-				\item $\text{ker}f = \{\bar{0}_{V}\}$;
+				\item $\text{ker}f = \{\bar{0}_{V}\} \quad \left(\text{quindi rk}A = n\right)$ ;
 				\item L'immagine di ogni insieme libero di $V$ è un insieme libero di $W$.
 			\end{enumerate}	
 			\end{redes}
@@ -2524,7 +2560,7 @@ Diremo che $A'$ è  \textbf{simile} a $A$. Le matrici simili condividono molte c
 	\]
 	per Binet posso riscriverlo come
 	\[
-	\text{det}P^{-1}\text{det}P \text{det}(A-\lambda I) = \text{det}(A-\lambda I)
+	\text{det}(P^{-1})\text{det}(P) \text{det}(A-\lambda I) = \text{det}(A-\lambda I)
 	\]
 \end{es}
 \noindent
@@ -2918,6 +2954,44 @@ e vale
 \[
 \phi(\bar{x},\bar{y}) = \leftindex^{t}{X}AY
 \]
+
+\subsubsection{Matrici congruenti}
+Due matrici associate alla stessa forma bilineare ma rispetto basi diverse si dicono \textbf{matrici congruenti}. La domanda da porsi è quindi come si legano due matrici del genere? Come si legano 
+\[
+M^\mathcal{B}\phi \quad \text{e} \quad M^{\mathcal{B}'}\phi
+\]
+Intanto definiamo i cambi di riferimento:
+\[
+[\bar{x}]_{B} = X \qquad [\bar{y}]_{B} = Y \qquad M^{B'}_{B} = P
+\]
+\[
+X = [\bar{x}]_{\mathcal{B}} = M^{B'}_{B} [\bar{x}]_{B'} = PX'
+\]
+\[
+Y = \left[\bar{y}\right]_{B} = M^{B'}_{B} \left[\bar{y}\right]_{B'} = PY'
+\]
+Quindi
+\begin{align*}
+	\phi(\bar{x},\bar{y}) = \leftindex^{t}{X}AY =& \leftindex^{t}{(PX')}APY \\
+	              								=& \leftindex^{t}{X'}\leftindex^{t}{P}APY 
+\end{align*}
+
+Abbiamo cambiato di base i vettori di $\phi$ ottenendo l'espressione della forma bilineare rispetto alla base $\mathcal{B}'$:
+\begin{align*}
+\phi &= \leftindex^{t}{X'} \textcolor{red}{\leftindex^{t}{P}AP}Y  \\
+     &= \leftindex^{t}{X'} \textcolor{red}{A'}Y
+\end{align*}
+
+Due matrici sono quindi congurenti se $A' = \leftindex^{t}{P}AP$. \\
+
+
+La congruenza è molto diversa dalla similitudine; matrici simili condividono determinante e traccia perché condividono anche lo stesso polinomio caratteristico, cosa che non succede con le matrici congruenti.
+
+\begin{es}{verifica}
+	\[
+	\text{det}\left(\leftindex^{t}{P}AP\right) = \text{det}(A) \text{det}(P)^2 \neq \text{det}(A)
+	\]
+\end{es}
 
 \subsection{Forma quadratica}
 Una volta definito un nuovo tipo di prodotto scalare serve un nuovo concetto di \textit{norma} di un vettore $\|\bar{x}\| = \bar{x} \cdot \bar{x}$.
