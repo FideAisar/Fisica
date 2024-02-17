@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>TIF 2023/2024 Introduzione a Linux e alla linea di comando: Esercizi</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="Jupyter notebooks" name=description>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY BGCOLOR="#eeeeee" 
+    BACKGROUND="http://www.ph.unito.it/~maina/images/bkg_sandston.gif"
+TEXT="#003366" LINK="#333399" ALINK="#996699" VLINK="#333399"
+STYLE="margin:100"
+>
+
+
+<CENTER><FONT SIZE="+4">
+<TABLE>
+<TR>
+<TD>
+<FONT SIZE="+4">
+    <CENTER>
+    <B>&nbsp;TIF 2023/2024: Introduzione a Linux e alla linea di comando&nbsp;&nbsp;</B><BR>
+    &nbsp;<BR>
+</FONT>
+<FONT SIZE="+3">
+    <B>&nbsp;Esercizi&nbsp;&nbsp;</B></CENTER>
+</FONT>
+</TABLE>
+</CENTER>
+
+<FONT SIZE="+1">
+
+<P>
+&nbsp;
+<P>
+Per gli utenti Windows "Aprire un terminale" deve essere inteso come aprire un terminale in <B>WSL</B>.
+<P>
+<UL>
+    <LI> Aprite un terminale
+    <LI> Date il comando <B>cd</B> per essere sicuri di essere nella vostra cartella home 
+    <LI> Verificate con <B>pwd</B> l'indirizzo della cartella home
+    <LI> Verificate con <B>which curl</B> che il programma curl sia installato. Se lo &egrave;,
+        avrete una risposta  simile a /...../bin/curl. In caso contrario la risposta sar&agrave; il solo prompt.
+        In questo caso installate <B>curl</B> dando il comando<BR>
+        <B>sudo apt install curl</B><BR>
+     Vi verr&agrave; richiesta la password.
+    <LI> Date il comando<BR>
+     <B>curl "http://personalpages.to.infn.it/~maina/test_FileSystem/test_FileSystem.tar.gz" --output FS.tar.gz</B>
+     <BR>
+     Il comando curl scarica il file test_FileSystem.tar.gz dal server remoto e lo salva localmente come FS.tar.gz
+    <LI> Verificate con <B>ls -al</B> che il file sia presente nella vostra cartella home
+    <LI> Date il comando<BR>
+     <B>tar ztvf FS.tar.gz</B><BR>
+     Il sistema vi mostra i file contenuti nell'archivio FS.tar.gz
+    <LI> Date il comando (in cosa differisce dal comando precedente?)<BR>
+     <B>tar zxvf FS.tar.gz</B><BR>
+     I file contenuti nell'archivio FS.tar.gz vengono estratti dall'archivio e salvati localmente
+    <LI> Verificate con <B>ls -al</B> quali file sia presenti nella vostra cartella home<BR>
+        La risposta attesa &egrave;:
+        <PRE>
+total 99936
+drwxr-xr-x    6 maina  staff       192 Sep 21 09:42 .
+drwxr-xr-x+ 240 maina  staff      7680 Sep 21 09:41 ..
+-rw-r--r--    1 maina  staff  51141795 Sep 21 09:24 FS.tar.gz
+drwxr-xr-x   45 maina  staff      1440 Aug  9 11:52 Humour
+drwxr-xr-x   42 maina  staff      1344 Aug 10 19:08 bin
+drwxr-xr-x    7 maina  staff       224 Aug 10 19:09 phantom
+       </PRE>
+</UL>
+Congratulazioni!<BR>
+<UL>
+    <LI> Date il comando <B>ls bin</B> per vedere la lista dei file nella cartella <B>bin</B>.
+    <LI> Usate il comando <B>cd</B> per spostarvi nella cartella <B>bin</B>.
+    <LI> Usate il comando <B>cp</B> per copiare il file <B>ZZWW.frm</B> in un file <B>pippo.lol</B>
+    <LI> Usate il comando <B>man</B> per cercare informazioni sul comando <B>diff</B>.
+    <LI> Usate il comando <B>diff</B> per verificare che <B>ZZWW.frm</B> e <B>pippo.lol</B> sono identici.
+    <LI> Date il comando <B>echo pluto >> pippo.lol</B>
+    <LI> Verificate usando il comando  <B>tail pippo.lol</B> che il comando precedente abbia aggiunto "pluto" al fondo di <B>pippo.lol</B>
+    <LI> Usate il comando <B>diff</B> per verificare le differenze fra <B>ZZWW.frm</B> e <B>pippo.lol</B>
+    <LI> Cancellate <B>pippo.lol</B> usando il comando <B>rm</B>
+    <LI> Usate il comando <B>cp</B> per copiare la cartella <B>form</B> in una cartella <B>pippo</B>.
+        Come mai non funziona?
+    <LI> Usate il comando <B>cp -r</B> per copiare la cartella <B>form</B> in una cartella <B>pippo</B>.
+    <LI> Usate il comando <B>diff</B> per verificare che <B>form</B> e <B>pippo</B> sono identiche.
+    <LI> Usate il comando <B>rm</B> per cancellare il file README.md da <B>pippo</B>.
+    <LI> Usate il comando <B>diff</B> per verificare le differenze fra <B>form</B> e <B>pippo</B>
+    <LI> Usate il comando <B>rm</B> per eliminare la cartella <B>pippo</B>.
+        Come mai non funziona?
+    <LI> Usate il comando <B>man</B> per cercare informazioni sul comando <B>rm</B>.
+    <LI> Usate il comando <B>rm -rf</B> per eliminare la cartella <B>pippo</B>.
+</UL>
+<P>
+&nbsp;
+<P>
+<CENTER><FONT SIZE="+3">
+    <B>&nbsp;Esercizi 2&nbsp;</B></CENTER>
+</FONT>
+</CENTER>
+Questa seconda parte di esrcizi richiede i file e le cartelle scaricate in precedenza.<BR>
+Se &egrave; necessario (Per esempio sui Thin-client delle aule F e G su cui tutti i file creati dall'utente vengono eliminati alla fine della sessione.) scaricate nuovamente il materiale con i comandi:
+<UL>
+    <LI><B>curl "http://personalpages.to.infn.it/~maina/test_FileSystem/test_FileSystem.tar.gz" --output FS.tar.gz</B>
+    <LI> <B>tar zxvf FS.tar.gz</B> 
+</UL>
+<P>
+&nbsp;
+<P>
+<UL>
+    <LI> Aprite un terminale se necessario
+    <LI> Spostatevi nella cartella home se necessario
+    <LI> Date il comando <B>ls -al Humour</B> per vedere la lista dei file nella cartella <B>Humour</B>.
+    <LI> Verificate che in <B>Humour</B> sia presente la cartella <B>ScienceJokes</B>
+    <LI> Date il comando <B>ls -al Humour/ScienceJokes</B> per vedere la lista dei file nella cartella 
+        <B>Humour/ScienceJokes</B>.
+    <LI> <B>bash</B> ha la capacit&agrave; di completare indirizzi incompleti:<BR>
+        scrivete sulla linea di comando <B>ls -al Humour/Sc</B> e premete il tasto <B>Tab</B><BR>
+        <B>bash</B> completa l'indirizzo. Premete <B>Invio</B> per eseguire il comando
+    <LI> &Egrave; possibile usare <B>ls</B> per verificare che un certo file sia presente:<BR>
+        date il comando <B>ls Humour/ScienceJokes/ScientificMethod.jpg</B><BR>
+        date il comando <B>ls Humour/ScienceJokes/Scientific.jpg</B>. Cosa succede?
+    <LI> Provate il comando <B>ls</B> con le opzioni <B>-lh</B>, <B>-lt</B>, <B>-ltr</B> su 
+        <B>Humour/ScienceJokes</B>
+    <LI> &Egrave; possibile usare <B>ls</B> per vedere solo un sottoinsieme dei file:
+        date il comando <B>ls Humour/Ca*</B><BR>
+        Il simbolo <B>*</B>, detto wildcard, significa "qualunque sequenza di caratteri", quindi <B>Ca*</B>
+        vuol dire qualunque file il cui nome inizi con <B>Ca</B>, <B>*pdf</B> qualunque file che finisca con
+        <B>pdf</B>, <B>F*oo*jpg</B> qualunque file inizi con <B>F</B>, contenga <B>oo</B> e finisca con 
+        <B>jpg</B><BR>
+        date il comando <B>ls Humour/*pdf</B><BR>
+        date il comando <B>ls Humour/F*oo*jpg</B><BR>
+    <LI> <B>bash</B> tiene memoria degli ultimi comandi che avete immesso. Per richiamare i comandi precedenti
+        usate le frecce verso l'alto e verso il basso. Quando il comando che vi serve compare sulla linea di
+        comando lo potete modificare spostandovi con la frecce verso destra e sinistra. Potete cancellare o
+        inserire qualunque carattere. Premete <B>Invio</B> per eseguire il nuovo comando. Provate per credere.
+    <LI> Date il comando <B>mkdir Humour/pluto</B> per creare la cartella <B>pluto</B> all'interno di 
+        <B>Humour</B>
+    <LI> Dalla vostra cartella home date il comando <B>cp Humour/Ca* Humour/pluto</B> per copiare tutti i file in
+        <B>Humour</B> il cui nome inizi con <B>Ca</B> nella cartella <B>Humour</B>. Verificate con <B>ls</B> che
+        l'operazione sia andata a buon fine.
+    <LI> cancellate la cartella <B>pluto</B> e tutti i file che contiene
+    <LI> Tornate alla cartella home
+    <LI> Date il comando <B>find ./ -name micro</B><BR>
+        Il comando cerca tutti i file e cartelle il cui nome &egrave; <B>micro</B> (-name micro).
+        La ricerca esamina la
+         cartella in cui sono e in tutte le cartelle sottostanti (./ &egrave; la cartella in cui sono)
+    <LI> Usate il comando <B>find</B> per cercare il file <B>Makefile</B> nella cartella bin/form
+    <LI> &Egrave; possibile fornire a <B>find</B> l'indizzo assoluto della cartella da cui iniziare la ricerca:
+        <BR>
+        <B>find /usr/bin -name curl</B>
+    <LI> Anche con <B>find</B> &egrave; possibile usare delle wildcard. In questo caso il nome dei file da
+        cercare va chiuso fra virgolette:<BR>
+        <B>find /usr/bin -name "cu*"</B><BR>
+        <B>find ./ -name "*bash*"</B>
+    <LI> Date il comando <B>man find</B> e esaminate il risultato. Si, &egrave; un po' complicato
+    <LI> Nel vostro browser preferito cercate <B>linux find</B>. Aprite le prime pagine della risposta.
+        Il web &egrave; una grande risorsa per tutti i problemi di programmazione. Non sempre &egrave;
+        immediato trovare esattamente quello che serve.
+    <LI> Il comando <grep> cerca una serie di caratteri all'interno dei file.<BR>
+        Dalla vostra cartella home date il comando <B>grep lhapdf phantom/COMANDI_GCC.txt</B>.<BR>
+        Il comando mostra tutte le linee nel file <B>phantom/COMANDI_GCC.txt</B> che contengono <B>lhapdf</B>
+    <LI> I comandi di <B>bash</B> possono essere concatenati passando l'output del primo al secondo e cos&igrave;
+        via. Per esempio nella vostra home date il comando <B>ls -al</B>. Il risultato pu&ograve; essere passato
+         come input a <B>grep</B> per estrarre solo le cartelle per cui la riga contiene "drwx". Si usa il
+          simbolo <B>|</B> (barra verticale):<BR>
+        <B>ls -al | grep drwx</B>
+    <LI> Date il comando <B>man grep</B> e esaminate il risultato. Si, anche questo &egrave; un po' complicato
+    <LI> Nel vostro browser preferito cercate <B>linux grep</B>. Aprite le prime pagine della risposta.
+    <LI> Possiamo concatenare <B>grep</B> con se stesso per raffinare una ricerca. Date il comando 
+        <B>grep lhapdf phantom/COMANDI_GCC.txt | grep home</B>.<BR>
+        Il comando mostra tutte le linee nel file <B>phantom/COMANDI_GCC.txt</B> che contengono <B>lhapdf</B>. Il
+       risultato viene passato nuovamente a <B>grep</B> per selezionare le linee che contengono anche <B>home</B>.
+</UL>
+
+<P>
+&nbsp;
+<P>
+<CENTER>
+<div>
+    <img src="./Humour/HandsOnExperience.jpg" width="450" align="center"/>
+</div>
+</CENTER>
+<P>
+&nbsp;
+<P>
+
+    
+<CENTER>
+[<A HREF="http://personalpages.to.infn.it/~maina">HomePage</A>]
+</CENTER>
+
+</FONT>
+
+</HTML>

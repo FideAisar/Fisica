@@ -1,0 +1,15 @@
+La nona lezione nelle aule informatiche si terrà:
+giovedì 27/10 ore 14 per il gruppo A2
+giovedì 27/10 ore 16 per il gruppo A1
+venerdì 28/10 ore 14 per il gruppo B1
+venerdì 28/10 ore 16 per il gruppo B2
+
+Studiate il notebook 09_numpy_statistics. Generazione di numeri casuali e istogrammi saranno presenti nel test.
+
+Verso la fine della lezione si terrà il quarto test che coprirà tutto il materiale del notebook 09.
+Per cortesia, sostenete l'esame in un gruppo diverso dal vostro solo in caso di effettiva necessità.
+
+
+Buon Lavoro,
+
+Ezio Maina

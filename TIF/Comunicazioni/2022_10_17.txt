@@ -1,0 +1,23 @@
+La settimaa lezione nelle aule informatiche si terrà:
+giovedì 20/10 ore 14 per il gruppo B2
+giovedì 20/10 ore 16 per il gruppo B1
+venerdì 21/10 ore 14 per il gruppo A1
+venerdì 21/10 ore 16 per il gruppo A2
+
+Finite il notebook 07_numpy. La parte autovettori e autovalori non entrerà negli esercizi;
+i concetti base però sono semplici e vi consiglio farvene un'idea e di studiare anche quella sezione.
+
+Ho corretto un errore nel notebook_07 (la parentesi non la sostituzione di indices per indeces):
+
+A[indices,indices = vec    -->  A[indices,indices] = vec
+
+Ho anche riordinato l'introduzione delle funzioni. Era diviso fra notebook 02 e notebook 06 e ho portato
+tutto nel notebook 02. In compenso ho portato la parte su eseguire Python dalla linea di comando nello 06.
+
+Verso la fine della lezione si terrà il terzo test che coprirà tutto il materiale del notebook 07.
+Per cortesia, sostenete l'esame in un gruppo diverso dal vostro solo in caso di effettiva necessità.
+
+
+Buon Lavoro,
+
+Ezio Maina

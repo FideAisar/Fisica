@@ -1,0 +1,19 @@
+La quinta lezione nelle aule informatiche si terrà:
+giovedì 13/10 ore 14 per il gruppo B1
+giovedì 13/10 ore 16 per il gruppo B2
+venerdì 14/10 ore 14 per il gruppo A1
+venerdì 14/10 ore 16 per il gruppo B2
+
+Studiate il notebook 05_input-output-files fino alla fine.
+
+Per quanto riguarda la formattazione useremo esclusivamente f-strings.
+Menziono la sintassi "    ".format(   ) solo perchè la si trova ancora spesso in libri di testo
+e pagine web.
+
+Verso la fine della lezione si terrà il secondo test che coprirà
+tutto il materiale assegnato finora (notebook 05 incluso).
+
+
+Buon Lavoro,
+
+Ezio Maina

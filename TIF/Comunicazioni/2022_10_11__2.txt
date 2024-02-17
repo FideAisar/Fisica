@@ -1,0 +1,16 @@
+I voti del primo test sono disponibili nella pagina 
+http://personalpages.to.infn.it/~maina/didattica/voti_TIF_2022/
+Ci sono due file, Voti_TIF_Registrati_1.pdf e Voti_TIF_NON_registrati_1.pdf.
+Nel primo ci sono gli studenti che risultavano registrati al corso a metà
+della scorsa settimana. In questo file ciscuno è identificato dal numero
+di matricola.
+Nel secondo file ci sono gli studenti che si sono registrati più tardi o che
+non sono ancora registrati. In questo file gli studenti sono identificati con Cognome e Nome.
+
+Sono stati assegnati un massimo di dieci punti per esercizio, quindi il punteggio massimo è 40.
+Vi ricordo che un risultato non brillante in questo primo test non pregiudica la possibilità
+di superare il corso.
+
+Cordiali saluti,
+
+Ezio Maina e tutti i tutor

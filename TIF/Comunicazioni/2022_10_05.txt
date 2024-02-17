@@ -1,0 +1,5 @@
+ Vi ricordo che durante il test potete consultare i miei notebook, potete usare l'help di Python e cercare in rete.
+Vi ricordo anche che se non avete compreso il materiale nessuno di queste possibilità sarà sufficiente.
+
+Cordiali Saluti,
+Ezio Maina

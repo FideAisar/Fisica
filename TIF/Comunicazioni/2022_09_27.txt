@@ -1,0 +1,18 @@
+La prima lezione nelle aule informatiche si terrà:
+giovedì 29 ore 14 per il gruppo A1
+giovedì 29 ore 16 per il gruppo A2
+venerdì 30 ore 14 per il gruppo B1
+lunedì 3/10 ore 14 per il gruppo B2
+
+Mi aspetto che tutti gli studenti che hanno a disposizione un calcolatore abbiano scaricato Anaconda
+e i file da github. Mi aspetto che siano in grado di trovare ed aprire i notebook usando JupyterLab.
+
+Gli studenti che non hanno a dispozione un portatile sono pregati di portare una chiavetta USB.
+Se vi è possibile copiate sulla chiavetta i file su github.
+
+Studiate il notebook 02 fino alla sezione 2.7 inclusa.
+Provate a fare gli esercizi nelle celle "Imparare Facendo"fino alla sezione 2.7 inclusa.
+
+Buon lavoro,
+
+Ezio Maina

@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>TIF 2023/2024 Introduzione a Linux e alla linea di comando</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="Jupyter notebooks" name=description>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY BGCOLOR="#eeeeee" 
+    BACKGROUND="http://www.ph.unito.it/~maina/images/bkg_sandston.gif"
+TEXT="#003366" LINK="#333399" ALINK="#996699" VLINK="#333399"
+STYLE="margin:100"
+>
+
+
+<CENTER><FONT SIZE="+4">
+<TABLE>
+<TR>
+<TD>
+<FONT SIZE="+4">
+    <CENTER>
+    <B>&nbsp;TIF 2023/2024: Introduzione a Linux e alla linea di comando&nbsp;&nbsp;</B>
+</CENTER>
+</FONT>
+</TABLE>
+</CENTER>
+
+<FONT SIZE="+1">
+
+<P>
+&nbsp;
+<P>
+Questa parte del corso si pone l'obiettivo di familiarizzare gli studenti con il sistema operativo Linux e l'uso della linea di comando.
+<BR>&nbsp;<BR>
+Dopo una prima lezione introduttiva (qui <A HREF="./Linux_CLI.pdf">le trasparenze</A>),
+ i due incontri successivi si svolgeranno nelle aule informatiche F e G al
+primo piano interrato. Nelle aule sono disponibili computer. Per accedere utilizzate le credenziali che vi sono state consegnate all'iscrizione. &Egrave; pi&ugrave; semplice tuttavia utilizzare un proprio
+portatile.
+<BR>&nbsp;<BR>
+Parleremo spesso di immettere un comando. Significa scrivere all'interno del terminale il testo del comando, facendo attenzione a lettere minuscole e maiuscole, e poi premere il tasto Invio.
+<P>
+
+    <H2> Utenti MacOS</H2>
+    Il sistema operativo MacOS prende origine da un sistema Unix. Contiene nativamente la finestra di comandi e
+    tutti i principali shell.
+    <UL>
+        <LI> Aprite <B>Applicazioni</B> --> <B>Utility</B></LI>
+        <LI> Lanciate l'applicazione <B>Terminale</B> cliccando due volte la sua icona</LI>
+        <LI> Cliccate col tasto destro sull'icona del Terminale nella barra delle applicazioni. Aprite il men&ugrave; <B>Opzioni</B> e scegliete che l'icona sia sempre presente nella barra. In questo modo diventa immediato lanciare la finestra di comandi quando &egrave; necessario.</LI>
+    </UL>
+Per verificare quale shell state usando immettete il comando <B>echo $SHELL</B>.
+<BR>&nbsp;<BR>
+Se la risposta non &egrave; <B>/bin/bash</B>, immettete il comando <B>chsh -s /bin/bash</B> (vi verr&agrave;
+chiesta la vostra password prima di procedere). Questo far&agrave; biventare <B>bash</B> il vostro shell di default.
+<P>
+&nbsp;
+<P>
+    <H2> Utenti Windows</H2>
+    &Egrave; necessario installare il <B>Windows Subsystem for Linux (WSL)</B> di Microsoft
+    <UL>
+        <LI> Cliccate sull'icona <B>Start</B></LI>
+        <LI> Nella finestra di ricerca digitare <B>cmd</B> oppure <B>prompt</B></LI>
+        <LI> Aprire il prompt dei comandi in modalit&agrave; amministratore facendo clic con il pulsante destro del mouse e selezionando "Esegui come amministratore", immettere il comando <B>wsl --install </B>(poi invio), quindi riavviare il computer.</LI>
+    </UL>
+Questo comando consente di abilitare le funzionali&agrave; necessarie per eseguire <B>WSL</B> e installare la distribuzione <B>Ubuntu</B> di Linux con <B>bash</B> come shell di default<BR>
+La prima volta che si avvia una distribuzione Linux appena installata, verr&agrave; aperta una finestra della console e verr&agrave; chiesto di attendere il tempo necessario a decomprimere e archiviare i file nel computer. Tutti gli avvii successivi dovrebbero richiedere meno di un secondo.<BR>
+Vi verr&agrave; anche richiesto di inserire uno username e una password per WSL, che pu&ograve; essere diverse dallo username e password su Windows.
+<BR>&nbsp;<BR>
+
+Per verificare quale versione di Linux state usando immettete il comando <B>lsb_release -a</B>.
+<BR>&nbsp;<BR>
+Per verificare quale shell state usando immettete il comando <B>echo $SHELL</B>.
+<BR>&nbsp;<BR>
+Il comando <B>wsl --install</B>, come default, installa soltanto l'interfaccia a linea di comando a Linux. Di conseguenza nessuna interfaccia grafica &egrave; nativamente disponibile.
+<BR>&nbsp;<BR>
+<P>
+    <H2> Per tutti gli utenti, per imparare qualsiasi sistema operativo o linguaggio di programmazione</H2>
+<UL>
+<LI> Non si pu&ograve; imparare a programmare mandando a memoria
+<LI> Non si pu&ograve; imparare a programmare soltando leggendo dei manuali o dei libri di testo
+<LI> Si impara solo facendo. Fare significa sedersi al computer, battere i comandi e, provando e riprovando,
+farli funzionare, ottenendo il risultato corretto
+</UL>
+Di conseguenza il corso utilizza il metodo dell'Insegnamento Capovolto per massimizzare il tempo che passate
+davanti alla tastiera. Prima di ogni incontro vi verr&agrave; assegnato una parte del materiale che dovr&agrave;
+essere studiata prima di venire in classe. Gli incontri verranno dedicati a chiarire eventuali dubbi e a
+verificare la comprensione del materiale su una serie di esercizi di programmazione.
+
+<P>
+<CENTER>
+<div>
+    <img src="Humour/HandsOnExperience.jpg" width="450" align="center"/>
+</div>
+</CENTER>
+<P>
+&nbsp;
+<P>
+
+Registatevi al corso appena possibile sulla pagina Campusnet
+(<A HREF="https://fisica.campusnet.unito.it/do/corsi.pl/Show?_id=c6ay">https://fisica.campusnet.unito.it/do/corsi.pl/Show?_id=c6ay</A>) in modo che io possa raggiungervi via mail per eventuali comunicazioni.
+<BR>&nbsp;<BR>
+
+Commenti e suggerimenti sono i benvenuti.
+<P>
+<!--
+<FONT SIZE="+1"><A HREF="html/programma_svolto.html">Programma 2020/2021</A></FONT>
+-->
+
+<CENTER>
+    <FONT SIZE="+3"><B>Programma 2023/2024</B></FONT><BR>
+</CENTER>
+<P>
+<UL>
+<LI> Struttura ad albero del filesystem
+<LI> Lo shell: <B>bash</B>
+<LI> Come muoversi nel filesystem: <B>pwd, cd, find, mkdir</B>
+<LI> Operare su file: <B>mv, cat, head, tail, more, cp, rm, grep</B>
+<LI> Wildcards
+<LI> Command pipes
+<LI> Scripts
+<LI> Il PATH:file eseguibili e non, permessi
+<LI> Background/foreground
+</UL>
+<P>
+&nbsp;
+<P>
+<CENTER>
+    <FONT SIZE="+3"><B>Esercizi per impratichirsi</B></FONT><BR>
+</CENTER>
+<A HREF="./precorsoLinux_esercizi.html">Esercizi</A>
+&nbsp;<BR>
+<P>
+&nbsp;<BR>
+<P>
+<CENTER>
+    <FONT SIZE="+3"><B>MicroBibliografia</B></FONT><BR>
+</CENTER>
+&nbsp;<BR>
+Il materiale su Bash disponibile sul web &egrave; molto vasto. Fortunatamente, i concetti fondamentali sono pochi e ben definiti. Qualche suggerimento:
+<P>
+<!--    <FONT SIZE="+1"><B>Bash:</B></FONT>  -->
+<UL>
+<LI>
+<A HREF="https://linuxcommand.org/tlcl.php"> The Linux Command Line</A> di William Shotts. Il libro pu&ograve; essere essere consultato online oppure scaricato gratuitamente.</LI>
+<LI>
+<A HREF="https://github.com/RehanSaeed/Bash-Cheat-Sheet">Bash cheat sheet</A>. Uno fra tanti.</LI>
+<A HREF="https://learncodethehardway.org/unix/bash_cheat_sheet.pdf">Bash cheat sheet</A>. Un altro pronto per essere stampato.</LI>
+</UL>
+
+<P>
+&nbsp;
+<P>
+    
+<CENTER>
+[<A HREF="http://personalpages.to.infn.it/~maina">HomePage</A>]
+</CENTER>
+
+</FONT>
+
+</HTML>

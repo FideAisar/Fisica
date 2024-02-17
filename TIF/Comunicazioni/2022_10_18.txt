@@ -1,0 +1,20 @@
+Per la settimaa lezione nelle aule informatiche oltre a finire il notebook 07 stdiate le sezioni
+6.1 e 6.2 dell'ultima versione del notebook 06_funzioni_moduli. La sez 6.1 serve da ripasso.
+La sezione 6.2 introduce i parametri opzionali che vengono utilizzati molto in Numpy.
+
+I voti del secondo test sono disponibili nella pagina 
+http://personalpages.to.infn.it/~maina/didattica/voti_TIF_2022/
+Ci sono due file, Voti_TIF_Registrati_2.pdf e Voti_TIF_NON_registrati_2.pdf.
+Nel primo ci sono gli studenti che risultavano registrati al corso a metà
+della scorsa settimana. In questo file ciscuno è identificato dal numero
+di matricola.
+Nel secondo file ci sono gli studenti che si sono registrati più tardi o che
+non sono ancora registrati. In questo file gli studenti sono identificati con Cognome e Nome.
+
+Vi ricordo che alla fine della prossima lezione si terrà il terzo test che coprirà tutto il materiale del notebook 07 e della sez. 6.2 del notebook 06.
+Per cortesia, sostenete l'esame in un gruppo diverso dal vostro solo in caso di effettiva necessità.
+
+
+Buon Lavoro,
+
+Ezio Maina

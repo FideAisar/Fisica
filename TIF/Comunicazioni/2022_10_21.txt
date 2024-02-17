@@ -1,0 +1,12 @@
+L'ottava lezione nelle aule informatiche si terrà:
+lunedì 24/10 ore 14 per il gruppo A1
+lunedì 24/10 ore 16 per il gruppo A2
+martedì 25/10 ore 9 per il gruppo B1
+martedì 25/10 ore 11 per il gruppo B2
+
+
+Studiate il notebook 08_plots.
+
+Buon Lavoro,
+
+Ezio Maina
