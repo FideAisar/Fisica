@@ -20,7 +20,7 @@
 
 \captionsetup[table]{name=\textit{Tabella}}
 \pagenumbering{gobble}
-\setcounter{secnumdepth}{2}
+%\setcounter{secnumdepth}{2}
 
 \title{Relazione di laboratorio - Esperienza di Poisson}
 \author{Federico Cesari}
@@ -117,7 +117,7 @@ Senza avvicinare la sorgente radioattiva al contatore geiger prendo 1500 misuraz
 	xtick={0,1,2,3,4,5},
 	xticklabels={0,1,2,3,4,5},
 	xticklabel style={rotate=0,align=center}]
-	\addplot+[opacity=1] 
+	\addplot+[opacity=0.5,fill=orange,draw opacity=1,draw=orange] 
 	coordinates {
 		(0,601)
 		(1,551)
@@ -147,7 +147,7 @@ Senza avvicinare la sorgente radioattiva al contatore geiger prendo 1500 misuraz
 \end{center}
 
 \[ 
-	\text{\textbf{Rate del fondo (1s)}} = 0.283 \text{ count/s}
+	\text{\textbf{Rate del fondo (1s)}} \mathbf{ = \left(0.283 \pm 0.01\right)}\text{ \textbf{count/s}}
 \]
 \end{minipage}
 \hfill
@@ -164,7 +164,7 @@ Senza avvicinare la sorgente radioattiva al contatore geiger prendo 1500 misuraz
 \end{center}
 
 \[ 
-	\text{\textbf{Rate del fondo (3s)}} = 0.305 \text{ count/s}
+	\text{\textbf{Rate del fondo (3s)}}  \mathbf{ = \left(0.305 \pm 0.01 \right)} \text{ \textbf{count/s}}
 \]
 \end{minipage}
 
@@ -224,7 +224,7 @@ Posizionata la pietra di uranile a 3cm dal contatore prendo 1500 misurazioni
 \end{center}
 \vspace{1cm}
 \[ 
-	\text{\textbf{Rate del fondo + sorgente }}
+	\text{\textbf{Rate del fondo + sorgente (1s)}}
 \]
 \[
 	\mathbf{= \left(3.061 \pm 0.046\right)} \text{ \textbf{count/s}}
@@ -245,7 +245,7 @@ Posizionata la pietra di uranile a 3cm dal contatore prendo 1500 misurazioni
 \end{center}
 \vspace{1cm}
 \[ 
-	\text{\textbf{Rate del fondo + sorgente }}
+	\text{\textbf{Rate del fondo + sorgente (3s)}}
 \]
 \[
 	\mathbf{=  \left(3.114 \pm 0.027\right)} \text{ \textbf{count/s}}
@@ -269,7 +269,7 @@ Posizionata la pietra di uranile a 3cm dal contatore prendo 1500 misurazioni
 	xticklabels={0,\tiny{1},2,\tiny{3},4,\tiny{5},6,\tiny{7},8,\tiny{9},10,\tiny{11},12,\tiny{13},14,\tiny{15},16,\tiny{17},18,\tiny{19},20,\tiny{21}},
 	xticklabel style={rotate=0, align=center},
 	ytick pos=right]
-	\addplot+[opacity=1] 
+	\addplot+[opacity=0.5,fill=orange,draw opacity=1,draw=orange] 
 	coordinates {
 		(0,0)
 		(1,0)
@@ -300,6 +300,7 @@ Posizionata la pietra di uranile a 3cm dal contatore prendo 1500 misurazioni
 \end{minipage}
 
 
+\subsubsection{La varianza e la media sono confrontabili entro 1,2,3,... volte la somma delle loro incertezze?}
 
 
 
@@ -343,7 +344,7 @@ Scelgo un livello di significatività $\alpha = 5\%$ e calcolo i rispettivi $\ch
 	Numero di gradi di libertà      	& $\quad (11-2-1) = 8$         \\   
 	Valore di $\chi ^2$ critico     	& $\quad 15.507$
 \end{tabular}
-\captionof{table}{\textit{$\chi^2$ Poissoniana}}
+\captionof{table}{\textit{$\chi^2$ Gaussiana}}
 \end{center}
 
 \paragraph{Coclusione del test} Poiché $\chi^2 > \chi^2_{\text{critico}}$ la discrepanza tra le frequenze attese e quelle osservate supera i valori accettabili nei livelli di significatività scelti. Posso dire che la distribuzione teorica di Gauss non si adatta alla distribuzione sperimentale e quindi \textbf{rifiuto} l'ipotesi nulla.
@@ -419,7 +420,7 @@ Scelgo un livello di significatività $\alpha = 5\%$ e calcolo i rispettivi $\ch
 	Numero di gradi di libertà      	& $\quad (18-2-1) = 15$         \\   
 	Valore di $\chi ^2$ critico     	& $\quad 24.966$
 \end{tabular}
-\captionof{table}{\textit{$\chi^2$ Poissoniana}}
+\captionof{table}{\textit{$\chi^2$ Gaussiana}}
 \end{center}
 
 \paragraph{Coclusione del test} Poiché $\chi^2 > \chi^2_{\text{critico}}$ la discrepanza tra le frequenze attese e quelle osservate supera i valori accettabili nei livelli di significatività scelti. Posso dire che la distribuzione teorica di Gauss non si adatta alla distribuzione sperimentale e quindi \textbf{rifiuto} l'ipotesi nulla.
@@ -436,11 +437,11 @@ Scelgo un livello di significatività $\alpha = 5\%$ e calcolo i rispettivi $\ch
 	enlargelimits=0.15,
 	legend style={at={(0.5,1.1)},	anchor=north,legend columns=-1},
 	ybar=0pt,  % configures `bar shift'
-	bar width=10pt,
+	bar width=8pt,
 	xtick={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21},
 	xticklabels={0,\tiny{1},2,\tiny{3},4,\tiny{5},6,\tiny{7},8,\tiny{9},10,\tiny{11},12,\tiny{13},14,\tiny{15},16,\tiny{17},18,\tiny{19},20,\tiny{21}},
 	xticklabel style={rotate=0, align=center}]
-	\addplot+[opacity=1] 
+	\addplot+[opacity=0.5,fill=orange,draw opacity=1,draw=orange] 
 	coordinates {
 		(0,0)
 		(1,0)
@@ -461,7 +462,7 @@ Scelgo un livello di significatività $\alpha = 5\%$ e calcolo i rispettivi $\ch
 		(16,30)
 		(17,8)
 		(18,7)
-		(19,6)<LeftMouse>
+		(19,6)
 		(20,3)
 		(21,1)};
 	\legend{Tempo porta 3s}
