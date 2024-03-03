@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1709458863 "relazione.tex" "relazione.pdf" "relazione" 1709458866 0
+["pdflatex"] 1709494871 "relazione.tex" "relazione.pdf" "relazione" 1709494874 0
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1704400182 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1704400182 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1704400182 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -263,11 +263,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1704400182 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1708510855 4483110 adb1e1d04498b9576f1f17c4219c5e03 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1708510846 6768052 033d548122358a4c1c64ea5e3f77ed88 ""
-  "relazione.aux" 1709458865 4559 7d9f8b627fa372079cad22ee47a72d26 "pdflatex"
-  "relazione.out" 1709458865 2006 41f68bb1b452fe8656da8fecda659980 "pdflatex"
-  "relazione.tex" 1709458858 24959 fe20c5736386313807bc21f1bd29c659 ""
-  "titlepage.aux" 1709458864 1015 21e85969a4f730eb7215ec16f0df3578 "pdflatex"
-  "titlepage.tex" 1708635081 636 bd52aef68d0401f32cbba241e786feff ""
+  "geiger.jpeg" 1709494806 82582 db3c337f005a9b11dc7d7a69333ffbbd ""
+  "relazione.aux" 1709494873 4560 cd6f37b5540759299e05957208f2794b "pdflatex"
+  "relazione.out" 1709494873 2006 41f68bb1b452fe8656da8fecda659980 "pdflatex"
+  "relazione.tex" 1709493849 24897 acd43f0ce6c8ee2efb7810ed3ea76e03 ""
+  "titlepage.aux" 1709494873 1015 21e85969a4f730eb7215ec16f0df3578 "pdflatex"
+  "titlepage.tex" 1709494867 664 cc207e8a5818cccef64777582dccdc5a ""
   (generated)
   "relazione.aux"
   "relazione.log"

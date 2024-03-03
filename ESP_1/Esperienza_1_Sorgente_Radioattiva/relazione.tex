@@ -58,7 +58,7 @@
 \textcolor{white}{.}
 \vfill
 \section{Scopo dell'esperienza}
-L'esperienza di laboratorio ha come scopo la misurazione del rate di una sorgente radioattiva, ovvero il numero di eventi registrati in tempi porta di $1$ e $3$ secondi dal contatore geiger quando la sorgente è posta a \(3\)cm da questo. 
+L'esperienza di laboratorio ha come scopo la misurazione del rate di una sorgente radioattiva, ovvero il numero di eventi registrati in tempi porta di $1$ e $3$ secondi da un contatore geiger quando la sorgente è posta a \(3\)cm da questo. 
 
 L'apparato sperimentale utilizzato consiste di: 
 
@@ -66,13 +66,13 @@ L'apparato sperimentale utilizzato consiste di:
 	\item Contatore geiger: registra grazie a degli impulsi elettrici gli eventi radioattivi;
 	\item Pietra uranile: posta su un sostegno è la sorgente radioattiva utilizzata;
 	\item Rotaia su cui sono posti il contatore e il sostegno così da permettere la regolazione della distanza della sorgente dal contatore;
-	\item Computer: per memorizzare e analizzare i conteggi del contatore geiger.
+	\item Computer: per memorizzare e analizzare i conteggi registrati dal contatore geiger.
 \end{enumerate}
 
 \paragraph{Aspettative}
 La probabilità di misurare un conteggio in una serie di intervalli di tempo (nel nostro caso i due tempi porta) rappresenta la probabilità di rilevare $p$ successi in $n$ prove. Poiché posso o avere o non avere un conteggio la distribuzione che descrive il fenomeno è quella binomiale. 
 
-Inoltre la probabilità di successo risulta essere molto bassa e affiancata ad un numero di prove piuttosto elevato (1500). Proprio a causa di questi valori la distribuzione binomiale che descrive i miei dati dovrebbe avvicinarsi sempre di più all'andamento di una distribuzione di Poisson e, all'aumentare del valor medio, addirittura a quello di una distribuzione Normale. Procederò alla verifica dell'addattamento delle due distribuzioni limite tramite un test del $\chi^2$.
+Inoltre la probabilità di successo risulta essere molto bassa e affiancata ad un numero di prove piuttosto elevato (1500). Proprio a causa di questi valori la distribuzione binomiale che descrive i miei dati dovrebbe avvicinarsi sempre di più all'andamento di una distribuzione di Poisson e, all'aumentare del valor medio, addirittura a quello di una distribuzione Normale. Procederò alla verifica dell'adattamento delle due distribuzioni limite tramite un test del $\chi^2$.
 
 \section{Acquisizione dati}
 Prima di effettuare le misurazioni del rate della sorgente radioattiva misuro il rate dovuto solamente alla radioattività naturale di fondo. La radiazione di fondo è causata dalla presenza di gas radioattivi come Radon e Torio in atmosfera, dalla presenza di elementi radioattivi nel terreno e in acqua, oppure da radiazioni cosmiche che portano  particelle ad alta energia cariche positivamente che entrano in atmosfera provocando l'emissione di fotoni, elettroni e neutroni. 
@@ -88,7 +88,7 @@ dove $\bar{x}$ è il valor medio, $\sigma_{\bar{x}}$ è la deviazione standard d
 
 % FONDO
 \section{Distribuzione sperimentale del fondo}
-Senza avvicinare la sorgente radioattiva al contatore geiger prendo 1500 misurazioni, prima con tempo porta di 1s e poi di 3s, del rate dei conteggi radioattivi dovuti unicamente alla radiazione di fondo ottenendo i valori riportati in \textit{Tabella 1} e \textit{Tabella 2}. 
+Senza avvicinare la sorgente radioattiva al contatore geiger prendo 1500 misurazioni, prima con tempo porta di 1s e poi di 3s, dei conteggi radioattivi dovuti unicamente alla radiazione di fondo ottenendo i valori riportati in \textit{Tabella 1} e \textit{Tabella 2}. 
 
 
 %ISTOGRAMMI 1
@@ -182,7 +182,7 @@ Senza avvicinare la sorgente radioattiva al contatore geiger prendo 1500 misuraz
 \end{center}
 
 \[ 
-	\text{\textbf{Rate del fondo (3s)}}  \mathbf{ = \left(0.305 \pm 0.01 \right)} \text{ \textbf{count/s}}
+	\text{\textbf{Rate del fondo (3s)}}  \mathbf{ = \left(0.31 \pm 0.01 \right)} \text{ \textbf{count/s}}
 \]
 \end{minipage}
 \footnote{Per il rate del fondo con tempo porta di 1s non approssimo l'incertezza a una sola cifra significativa perché porterei la sottostima dell'errore al 40\% e andrei a considerare un valore troppo poco accurato.}
@@ -340,7 +340,7 @@ Si trovano quindi due rate differenti ma apparentemente confrontabili. Mi aspett
 	(3s) \qquad \text{Rate}_{S3} =  2.81 \pm 0.03  \qquad \text{count}/s
 \]
 
-\subsubsection*{La varianza e la media sono confrontabili entro 1,2,3,... volte la somma delle loro incertezze?}
+\subsubsection*{Confronto tra media e varianza}
 Nel punto 5 tramite il test del chi quadro appurerò che la distribuzione teorica di Poisson si adatta ad entrambe le distribuzioni sperimentali dei conteggi del fondo più la sorgente radioattiva e, poiché nella poissoniana media e varianza sono uguali, posso cominciare a verificare l'adattamento delle distribuzioni sperimentali confrontando questi due valori (seppur non si tratti di un vero e proprio test statistico è utile per una verifica iniziale). 
 
 Attingendo dai dati riportati in \textit{Tabella 3} e \textit{Tabella 4} si evince che per entrambi i tempi porta la differenza tra media e varianza è, in valore assoluto, minore della somma delle rispettive incertezze. 
@@ -357,9 +357,9 @@ Attingendo dai dati riportati in \textit{Tabella 3} e \textit{Tabella 4} si evin
 % CHI QUADRO
 \newpage
 \section{Test \texorpdfstring{\(\chi^2\)}{chi}}
-Tramite il test del \(\chi^2\) verifico se le distribuzioni teoriche di Poisson e di Gauss si adattano a quelle sperimentali calcolate con tempo porta di 1 secondo. \\
+Tramite il test del \(\chi^2\) verifico se le distribuzioni teoriche di Poisson e di Gauss si adattano a quelle sperimentali calcolate con tempo porta di 1 secondo. 
 
-\noindent
+
 Scelgo un livello di significatività $\alpha = 5\%$ e calcolo i rispettivi $\chi^2$ critici e i gradi di libertà.
 
 
@@ -424,7 +424,7 @@ Scelgo un livello di significatività $\alpha = 5\%$ e calcolo i rispettivi $\ch
 		(9,4.565)
 		(10,1.397)
 		(11,0.389)};
-	\legend{Fondo + sorgente (1s),Poisson};
+	\legend{Fondo + sorgente (1s),Poissoniana};
 \end{axis}
 \end{tikzpicture}
 \end{center}
@@ -493,7 +493,7 @@ Scelgo un livello di significatività $\alpha = 5\%$ e calcolo i rispettivi $\ch
 		(12,1.335)
 		(13,0.178)
 		(14,0.017)};
-	\legend{Fondo + sorgente (1s),Gauss};
+	\legend{Fondo + sorgente (1s),Gaussiana};
 \end{axis}
 \end{tikzpicture}
 \end{center}
@@ -667,7 +667,7 @@ Scelgo un livello di significatività $\alpha = 5\%$ e calcolo i rispettivi $\ch
 \end{center}
 
 \noindent
-Durante l'analisi dati, nel calcolo del $\chi^2$ con modello gaussiano è risultato necessario attuare una normalizzazione dei dati da noi misurati con lo scopo di vere una somma delle frequenze assolute attese $\geq 1499.5$. Per fare ciò si sfrutta il fatto che la curva gaussiana abbia come dominio tutto $\mathbb{R}$, il che mi permette di aggiungere delle classi "vuote" con $x$ centrale negativo che normalizzano la somma delle frequenze assolute attese a circa 1500. Si aggiungono classi con conteggi negativi perché , come si può vedere dai grafici, ottenere un numero alto di conteggi è molto poco probabile e perciò le classsi con conteggi positivi successive a quelle già esistenti fornirebbero frequenze troppo basse e inutili al mio scopo.
+Durante l'analisi dati, nel calcolo del $\chi^2$ con modello gaussiano è risultato necessario attuare una normalizzazione dei dati da noi misurati con lo scopo di avere una somma delle frequenze assolute attese $\geq 1499.5$. Per fare ciò si sfrutta il fatto che la curva gaussiana abbia come dominio tutto $\mathbb{R}$, il che mi permette di aggiungere delle classi "vuote" con $x$ centrale negativo che normalizzano la somma delle frequenze assolute attese a circa 1500. Si aggiungono classi con conteggi negativi perché , come si può vedere dai grafici, ottenere un numero alto di conteggi è molto poco probabile e perciò le classsi con conteggi positivi successive a quelle già esistenti fornirebbero frequenze troppo basse e inutili al mio scopo.
 
 \newpage
 \section{Test di Gauss}
@@ -686,7 +686,7 @@ da cui ottengo
 
 Calcolato $\delta$ scelgo un livello di significatività $\alpha = 5\%$ e procedo al calcolo dei valori di $z_{\text{osservato}}$ e $z_{\text{critico}}$.
 
-\paragraph{Ipotesi nulla} $\delta$ assume un valore compatibile con quello di $\mu = 0$. 
+\paragraph{Ipotesi nulla} $\delta$ assume un valore compatibile con quello di $\mu = 0$.  \\
 
 
 \noindent
@@ -718,7 +718,7 @@ Ho misurato due set di dati rappresentanti il numero di conteggi registrati da u
 Poi, poiché le mie aspettative riguardo la distribuzione dei conteggi erano quelle di avere distribuzioni ben descrivibili da una poissoniana, ho effettuato un test del $\chi^2$. Il test ha confermato che la distribuzione di Poisson si adatta a entrambe le distribuzioni sperimentali. 
 
 
-Inoltre sapendo che al crescere del valor medio distribuzioni di Poisson possono tendere a una gaussiana ho ripetuto il test che ha però avuto esiti negativi portando alla conclusione che la distribuzione normale non si adatta a quella dei miei dati.\\
+Inoltre sapendo che al crescere del valor medio distribuzioni di Poisson possono tendere a una gaussiana ho ripetuto il test che ha però avuto esiti negativi portando alla conclusione che la distribuzione Normale non si adatta a quella dei miei dati.\\
 
 
 \noindent

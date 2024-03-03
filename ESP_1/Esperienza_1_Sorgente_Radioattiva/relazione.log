@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.21)  3 MAR 2024 10:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.2.21)  3 MAR 2024 20:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,10 +1064,16 @@ Package hyperref Info: Link coloring OFF on input line 35.
 
 \openout2 = `titlepage.aux'.
 
- (./titlepage.tex [1
+ (./titlepage.tex
+<geiger.jpeg, id=51, 192.72pt x 192.72pt>
+File: geiger.jpeg Graphic file (type jpg)
+<use geiger.jpeg>
+Package pdftex.def Info: geiger.jpeg  used on input line 18.
+(pdftex.def)             Requested size: 231.26282pt x 231.26282pt.
+ [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./geiger.jpeg>])
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line 61.
  (/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
@@ -1186,10 +1192,6 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 13.24796pt on input line 359.
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
-
- []
-
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 380.
@@ -1206,18 +1208,18 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 446.
 See the caption package documentation for explanation.
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.451 \begin{center}
-                     [5]
 Missing character: There is no ; in font nullfont!
 
 Overfull \hbox (12.51512pt too wide) in paragraph at lines 498--499
  [] 
  []
 
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.499 \end{center}
+                   [5]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 515.
@@ -1252,6 +1254,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
                    \relax 
 l.672 \newpage
                [7]
+Underfull \hbox (badness 10000) in paragraph at lines 689--690
+
+ []
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 703.
@@ -1267,23 +1273,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.743 \end{document}
-                     [8] (./relazione.aux (./titlepage.aux))
+                     [8]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.743 \end{document}
+                     [9] (./relazione.aux (./titlepage.aux))
 Package rerunfilecheck Info: File `relazione.out' has not changed.
 (rerunfilecheck)             Checksum: 41F68BB1B452FE8656DA8FECDA659980;2006.
  ) 
 Here is how much of TeX's memory you used:
- 41265 strings out of 477985
- 947744 string characters out of 5840058
- 1885388 words of memory out of 5000000
- 60718 multiletter control sequences out of 15000+600000
+ 41273 strings out of 477985
+ 947856 string characters out of 5840058
+ 1884388 words of memory out of 5000000
+ 60724 multiletter control sequences out of 15000+600000
  620139 words of font info for 129 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,19n,104p,781b,2337s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,19n,104p,782b,2337s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on relazione.pdf (9 pages, 99505 bytes).
+Output written on relazione.pdf (10 pages, 182212 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
+ 164 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  39 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
