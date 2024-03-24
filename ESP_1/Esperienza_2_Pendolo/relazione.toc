@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Scopo dell’esperienza}{}{section.1}%
+\contentsline {section}{\numberline {2}Premesse teoriche}{}{section.2}%
+\contentsline {section}{\numberline {3}Scelta strumento di misura}{}{section.3}%
+\contentsline {section}{\numberline {4}Dipendenza dall’angolo}{}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fit lineare}{}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Fit parabolico}{}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}g}{}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Dipendenza dalla lunghezza}{}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Fit lineare}{}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Confronto parametri retta}{}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Dipendenza dalla massa}{}{section.6}%
+\contentsline {section}{\numberline {7}Conclusioni}{}{section.7}%
