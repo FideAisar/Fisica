@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  26 MAR 2024 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  27 MAR 2024 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1499,37 +1499,27 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `relazione.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `relazione.out':
-(rerunfilecheck)             Before: C8848B42039FD572A829565621861E72;1640
-(rerunfilecheck)             After:  BC1AEFDF2B388453D9BC26B4EBBF042E;1644.
+Package rerunfilecheck Info: File `relazione.out' has not changed.
+(rerunfilecheck)             Checksum: BC1AEFDF2B388453D9BC26B4EBBF042E;1644.
  ) 
 Here is how much of TeX's memory you used:
- 43458 strings out of 476076
- 1002171 string characters out of 5793775
+ 43457 strings out of 476076
+ 1002165 string characters out of 5793775
  1973187 words of memory out of 5000000
  64839 multiletter control sequences out of 15000+600000
  636189 words of font info for 108 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  102i,19n,107p,721b,2665s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section*.7} has been referenced but does not exist,
- replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/font
-s/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8
-a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/te
-xmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on relazione.pdf (5 pages, 85280 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/fo
+nts/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/put
+b8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/
+texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on relazione.pdf (5 pages, 85246 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
