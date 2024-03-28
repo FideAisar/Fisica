@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  27 MAR 2024 15:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  28 MAR 2024 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1250,6 +1250,11 @@ Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
 \l__tblr_cell_ht_dim=\dimen365
 \l__tblr_diag_box=\box112
 )
+(/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
+\everycr=\toks49
+\minrowclearance=\skip78
+)
 (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen366
@@ -1270,54 +1275,50 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count412
 \@thisrulewidth=\dimen378
 ) (./relazione.aux
-(./titlepage.aux)
-
-LaTeX Warning: Label `tab:example' multiply defined.
-
-)
+(./titlepage.aux))
 \openout1 = `relazione.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 44.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-45.
+44.
  (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 44.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-45.
+44.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 44.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-45.
+44.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1326,12 +1327,12 @@ LaTeX Font Info:    ... okay on input line 45.
 \scratchbox=\box113
 \nofMPsegments=\count414
 \nofMParguments=\count415
-\everyMPshowfont=\toks49
+\everyMPshowfont=\toks50
 \MPscratchCnt=\count416
 \MPscratchDim=\dimen380
 \MPnumerator=\count417
 \makeMPintoPDFobject=\count418
-\everyMPtoPDFconversion=\toks50
+\everyMPtoPDFconversion=\toks51
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1345,7 +1346,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 45.
+Package chemgreek Info: Activating mapping `fourier' on line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1381,8 +1382,8 @@ Package chemgreek Info: Activating mapping `fourier' on line 45.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 45.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 45.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 44.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 44.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1391,7 +1392,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 44.
  (./relazione.out)
 (./relazione.out)
 \@outlinefile=\write4
@@ -1444,70 +1445,73 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \newpage
+l.48 \newpage
               [1
 
 
 ]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+[]\T1/futs/m/n/10 falkdsfjlksajfksajfk adsf jlkd-
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 67--69
+\T1/futs/m/n/10 js-d-klfjsaò jfkd-saj flkd-saf lkjd-
+ []
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 67--69
+\T1/futs/m/n/10 saflk jd-slkjf kd-safjlkd-sajflkjd-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+\T1/futs/m/n/10 sad-k-fjkd-sajfkda-girutjpJQFN
+ []
+
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 89.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 89.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 89.
+
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 63--115
+[]$[]$ $[]$ 
+ []
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.159 
+l.166 
        [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.222 \]
+l.229 \]
          [3]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 230.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 230.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 230.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.302 \end{document}
+l.309 \end{document}
                      [4] (./relazione.aux (./titlepage.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `relazione.out' has not changed.
 (rerunfilecheck)             Checksum: BC1AEFDF2B388453D9BC26B4EBBF042E;1644.
  ) 
 Here is how much of TeX's memory you used:
- 43457 strings out of 476076
- 1002165 string characters out of 5793775
- 1973187 words of memory out of 5000000
- 64839 multiletter control sequences out of 15000+600000
- 636189 words of font info for 108 fonts, out of 8000000 for 9000
+ 43318 strings out of 476076
+ 995877 string characters out of 5793775
+ 1961187 words of memory out of 5000000
+ 64697 multiletter control sequences out of 15000+600000
+ 629364 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  102i,19n,107p,721b,2665s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
@@ -1516,7 +1520,7 @@ nts/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/put
 b8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/
 texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on relazione.pdf (5 pages, 85246 bytes).
+Output written on relazione.pdf (5 pages, 84610 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams

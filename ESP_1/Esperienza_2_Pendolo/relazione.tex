@@ -17,17 +17,16 @@
 \usepackage{attachfile}
 \usepackage{multirow}
 \usepackage{amsfonts} 
-\usepackage{xcolor}
 \usepackage{tabularray}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \UseTblrLibrary{booktabs}
 
 \captionsetup[table]{name=Tabella}
 \pagenumbering{gobble}
 %\setcounter{secnumdepth}{2}
 
-\definecolor{myblue}{RGB}{224, 245, 255} 
-\definecolor{myred}{RGB}{234, 222, 255}
-\definecolor{myorange}{RGB}{255, 102, 0}
 
 \renewcommand*\contentsname{Indice}
 \setcounter{tocdepth}{3}
@@ -55,63 +54,68 @@
 \section{Premesse teoriche}
 \section{Scelta strumento di misura}
 
-Al fine di stabilire il migliore strumento di misura per le succesive analisi dati, prendo 8 misure del periodo del pendolo prima con un angolo di partenza $\vartheta = 5^\circ$ e poi con $\vartheta = 30^\circ$.
+Al fine di stabilire il migliore strumento di misura per le succesive misurazioni, registro 8 misure del periodo del pendolo prima con un angolo di partenza $\vartheta = 5^\circ$ e poi con $\vartheta = 30^\circ$ utilizzando un cronometro analogico, uno digitale e una fotocellula. Lo strumento che mostrerà discrepanze significative tra il periodo calcolato con $\vartheta = 5^\circ$ e $\vartheta = 30^\circ$ sarà quello utilizzato per i testi successivi.
 
 
 
+
+
+\begin{minipage}[c]{0.3\textwidth}
+
+\end{minipage}
+\begin{minipage}[r]{0.7\textwidth}
 \begin{table}[H]
-	\label{tab:example}
-	\caption{\textit{Confronto strumenti di misura}}
 	\centering
-	\begin{tblr}{
-			colspec={c|ccc},
-			row{1}={font=\bfseries},
-			row{2}={bg=white},
-			column{1}={font=\itshape},
-		}
-		\toprule
-		& Cronometro analogico & Cronometro digitale &  Fotocellula  \\
-		$\vartheta \pm 1^\circ $& $T(s) \pm 0.2s$      & $T(s) \pm 0.01s$     & $T(s) \pm 0.001s$   \\
-		\toprule
-		\SetCell[r=4]{c} $5^\circ$ & 1.7 & 1.63 & 1.706  \\ \hline[dashed] 
-									& 1.6 & 1.59 & 1.706  \\ \hline[dashed] 
-								 	& 1.7 & 1.50 & 1.706  \\ \hline[dashed]
-									& 1.7 & 1.60 & 1.706  \\ 
+	\begin{tabular}{@{}lrrr@{}}
+		&\textbf{C.Analogico} & \textbf{C. Digitale} & \textbf{Fotocellula} \\ \cmidrule(l){2-4} &\multicolumn{1}{l}{$T(s) \pm 0.2s$} & \multicolumn{1}{l}{$T(s) \pm 0.01s$}   & \multicolumn{1}{l}{$T(s) \pm 0.001s$}    \\ \cmidrule(l){2-4} 
 		
-									\hline 
-		\SetCell[r=4]{c} $30^\circ$ & 1.8 & 1.65 & 1.715  \\ \hline[dashed]
-								 	& 1.7 & 1.71 & 1.715  \\ \hline[dashed]
-								 	& 1.6 & 1.70 & 1.716  \\ \hline[dashed]
-								 	& 1.7 & 1.66 & 1.715  \\ 
-		\bottomrule
-	\end{tblr}
+		\multicolumn{1}{c}{}  
+								& 1.6   & 1.63   & 1.702     \\
+		\colorbox{orange!40}{$\vartheta = 5^\circ$}   & 1.7   & 1.65   & 1.703     \\
+								& 1.5   & 1.60   & 1.703     \\ 
+								& 1.7   & 1.71   & 1.703     \\
+								& 1.7   & 1.71   & 1.703     \\
+								& 1.7   & 1.65   & 1.702     \\
+								& 1.6   & 1.70   & 1.703     \\
+								& 1.7   & 1.70   & 1.703     \\ \arrayrulecolor{black!100}\specialrule{1.2pt}{0.5\jot}{0.5pc}
+		
+		$\mathbf{\bar{T}(s)}$ & \textbf{1.65}    & \textbf{1.67}  & \textbf{1.703}  \\
+		$\sigma_{\bar{T}}$   & 0.05    & 0.02  & 0.000 \\                          
+	\end{tabular}
 \end{table}
-
 
 \begin{table}[H]
-	\label{tab:example}
-	\caption{\textit{Periodi medi}}
 	\centering
-	\begin{tblr}{
-			colspec={c|ccc},
-			row{1}={font=\bfseries},
-			row{2}={bg=white},
-			column{1}={font=\itshape},
-		}
-		\toprule
-		& Cronometro analogico & Cronometro digitale &  Fotocellula  \\
-		$\vartheta \pm 1^\circ $& $\bar{T}(s) \pm 0.05s$      & $\bar{T}(s) \pm 0.005s$     & $\bar{T}(s) \pm 0.0005s$   \\
-		\toprule
-		 $5^\circ$ & $1.65$ & $1.700$  & $1.7060$  \\
-		\hline 
-		 $30^\circ$ & $1.70$ & $1.680$ & $1.7150$  \\ 
-		\bottomrule
-	\end{tblr}
+	\begin{tabular}{@{}lrrr@{}}
+		&\textbf{C.Analogico} & \textbf{C. Digitale} & \textbf{Fotocellula} \\ \cmidrule(l){2-4} &\multicolumn{1}{l}{$T(s) \pm 0.2s$} & \multicolumn{1}{l}{$T(s) \pm 0.01s$}   & \multicolumn{1}{l}{$T(s) \pm 0.001s$}    \\ \cmidrule(l){2-4} 
+		
+		\multicolumn{1}{c}{}  
+													& 1.8   & 1.65   & 1.733     \\
+		\colorbox{blue!40}{$\vartheta = 30^\circ$}  & 1.7   & 1.67   & 1.733     \\
+													& 1.6   & 1.70   & 1.733     \\ 
+													& 1.7   & 1.62   & 1.733     \\
+													
+													& 1.7   & 1.70   & 1.731     \\
+													& 1.8   & 1.72   & 1.733     \\
+													& 1.7   & 1.80   & 1.733     \\
+													& 1.6   & 1.69   & 1.732     \\ \arrayrulecolor{black!100}\specialrule{1.2pt}{0.5\jot}{0.5pc}
+
+		$\mathbf{\bar{T}(s)}$ & \textbf{1.70}    & \textbf{1.69}  & \textbf{1.715}  \\
+		$\sigma_ {\bar{T}}$   & 0.08    & 0.03  & 0.0005 \\                          
+	\end{tabular}
 \end{table}
+\end{minipage}
+
+Ora 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				DIPENDENZA THETA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Dipendenza dall’angolo}
+
+
 
 \begin{figure}[H]
 	\centering
