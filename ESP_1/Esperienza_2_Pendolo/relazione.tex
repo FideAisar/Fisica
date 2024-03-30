@@ -23,6 +23,7 @@
 \usepackage{graphicx}
 \usepackage[table]{xcolor}
 \UseTblrLibrary{booktabs}
+\usepackage[bottom]{footmisc}
 
 \captionsetup[table]{name=Tabella}
 %<\pagenumbering{gobble}
@@ -55,6 +56,9 @@
 \newpage
 \section{Scopo dell’esperienza}
 L'esperienza di laboratorio ha lo scopo di studiare il periodo di un pendolo semplice del quale conosciamo le espressioni del periodo teorico (in condizioni ideali e prive di attrito) al variare della sua lunghezza e dell'angolo di partenza. Verrà quindi misurato il periodo e se ne osserverà la variazione in funzione dell'angolo, della lunghezza e della massa appesa ad esso.
+
+\section{Premesse teoriche}
+\textcolor{red}{aggiungi equazioni}
 
 \section{Strumentazione}
 \begin{table}[H]
@@ -185,7 +189,7 @@ l = L_C + L_F = (72.2 \pm 0.2) \text{cm}. \footnote{Propago l'errore linearmente
 \] 
 
 
-A questo punto prendo tre misurazioni del periodo del pendolo,  partendo da un angolo di partenza di $5^\circ$. Continuo a prendere le misure ogni avanzando di $5^\circ$ fino ad arrivare a $30^\circ$.	
+A questo punto prendo tre misurazioni del periodo del pendolo,  partendo da un angolo di partenza di $5^\circ$. Continuo a prendere le misure avanzando di $5^\circ$ fino ad arrivare a $30^\circ$.	
 
 
 
@@ -207,8 +211,100 @@ A questo punto prendo tre misurazioni del periodo del pendolo,  partendo da un a
 	\end{tabular}
 \end{table}
 
+\noindent
+Dall'espressione del periodo del pendolo sappiamo che il periodo è direttamente proporzionale a $\sin\left(\vartheta/2\right)^2$, più precisamente:
+\[
+T = T_0 \left[ 1 + \frac{1}{4}\sin{\left(\vartheta/2\right)}^2 \right]
+\]
+Se dovessi riportare su un grafico i periodi sperimentali in funzione di $x = \sin{\left(\vartheta/2\right)}^2$ mi aspetto quindi un andamento lineare e più precisamente una retta del tipo
 
+\[
+y = T_0 + \frac{T_0}{4}x
+\]
 
+\noindent
+Per verificare ciò mi avvalgo del metodo dei minimi quadrati...
+\textcolor{red}{inserire qualche informazione a riguardo}
+
+\subsubsection{Minimi quadrati}
+Appurato che $T$ e $\sin{\left(\vartheta/2\right)}^2$ siano \textit{teoricamente} linearmente correlati, è di mio interesse trovare quale retta della forma $y = A + Bx$ meglio interpola i dati sperimentali così da appurare se i valori misurati soddisfano la attesa teorica che $y$ sia lineare in $x$. 
+
+Posso fare questo avvalendomi del metodo dei minimi quadrati che ha  proprio lo scopo di determinare i parametri che legano due variabili legate da essi, nel mio caso due variabili $x$ e $y$ legati da due parametri $A$ e $B$.
+
+\vspace{2cm}
+Questo metodo necessita delle assunzioni importanti: 
+
+\begin{enumerate}
+	\item Le misure siano statisticamente indipendenti;
+	\item Una delle due variabili (sceglierò la $x$) abbia errori trascurabili rispetto all'altra \footnote{Giudico un errore come trascurabile rispetto all'altro quando si trovano in rapporto 1 a 3,4,5.}.
+	\item Gli errori della variabile $y$ siano distribuiti normalmente.
+\end{enumerate}
+\textcolor{red}{preso letteralmente dal Cannelli}
+
+Per rispettare la seconda assunzione confronto gli errori relativi delle mie due variabili.
+
+\begin{minipage}{0.5\textwidth}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}ccc@{}}
+		\multicolumn{3}{c}{$\mathbf{T}$} \\ \midrule
+		$T(s)$ & $\delta_T (s)$ & $\delta_T / T$ \\ \midrule
+		1.702 & 0.001 & \textbf{0.000339} \\
+		1.706 & 0.001 & \textbf{0.000338} \\
+		1.710 & 0.001 & \textbf{0.000337} \\
+		1.715 & 0.001 & \textbf{0.000336} \\
+		1.723 & 0.001 & \textbf{0.000335} \\
+		1.731 & 0.001 & \textbf{0.000333}  \\ \bottomrule   
+	\end{tabular}
+\end{table}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}ccc@{}}
+		
+		\multicolumn{3}{c}{$y = \mathbf{sin{\left(\vartheta/2\right)}^2}$} \\ \midrule
+		$y$ & $\delta_y$ & $\delta_y / y$ \\ \midrule
+		0.0019&0.00075 & \textbf{0.398} \\
+		0.0076&0.0015 & \textbf{0.198}  \\
+		0.017&0.0023 & \textbf{0.132}  \\ 
+		0.030&0.0030 & \textbf{0.099}  \\
+		0.047&0.0037 & \textbf{0.078}  \\
+		0.067&0.0044 & \textbf{0.065}  \\ \bottomrule  
+	\end{tabular}
+\end{table}
+\end{minipage}
+\footnote{Lascio 3 cifre significative negli errori relativi del periodo per evidenziarne le piccole discrepanze.}
+\vspace{1cm}
+
+Come si può leggere nelle tabelle l'errore associato alle misure dei periodi è perfettamente trascurabile rispetto a quello associato al seno, quindi scelgo di portare le misure del periodo sull'asse $x$ e quelle del seno sull'asse $y$. 
+
+\noindent
+Procedo al calcolo dei parametri $A$ e $B$ e dei rispettivi errori:
+
+\[
+\mathbf{A} = -3.68 \qquad \mathbf{\sigma_A} = 0.179
+\]
+\[
+\mathbf{B} = 2.16 \qquad \mathbf{\sigma_B} = 0.105
+\]
+
+\begin{minipage}{0.3\textwidth}
+\textcolor{red}{l'errore sulla x è da scrivere?}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}ll@{}}
+		$T(s) \pm \delta_T$ & $\sin{\left(\vartheta/2\right)}^2 \pm \delta_y$ \\ \midrule
+		1.702&0.0019    \\
+		1.706&0.0076    \\
+		1.710&0.0170    \\
+		1.715&0.0302    \\
+		1.723&0.0468    \\
+		1.731&0.0669    \\	\bottomrule
+\end{tabular}
+\end{table}
+\end{minipage}
+\begin{minipage}{0.7\textwidth}
 \begin{figure}[H]
 	\centering
 	\begin{tikzpicture}
@@ -253,7 +349,7 @@ A questo punto prendo tre misurazioni del periodo del pendolo,  partendo da un a
 	\end{tikzpicture}
 	\caption{$T\left( \sin{\left( \vartheta / 2\right) }^2\right) $}
 \end{figure}
-
+\end{minipage}
 
 \begin{figure}[H]
 	\centering
