@@ -20,12 +20,13 @@
 \usepackage{tabularray}
 \usepackage{colortbl}
 \usepackage{xcolor}
+\usepackage{graphicx}
 \usepackage[table]{xcolor}
 \UseTblrLibrary{booktabs}
 
 \captionsetup[table]{name=Tabella}
-\pagenumbering{gobble}
-%\setcounter{secnumdepth}{2}
+%<\pagenumbering{gobble}
+\setcounter{secnumdepth}{2}
 
 
 \renewcommand*\contentsname{Indice}
@@ -34,11 +35,17 @@
 \pgfplotsset{compat=1.15}
 
 
-\title{Relazione di laboratorio - Esperienza di Poisson}
+\title{Relazione di laboratorio - Periodo di un pendolo semplice}
 \author{Federico Cesari}
-\date{Marzo 2024}
+\date{Aprile 2024}
 
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				INIZIO DOC
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
@@ -46,44 +53,64 @@
 \tableofcontents
 
 \newpage
-\textcolor{white}{.}
-\vfill
-
-
 \section{Scopo dell’esperienza}
-\section{Premesse teoriche}
+L'esperienza di laboratorio ha lo scopo di studiare il periodo di un pendolo semplice del quale conosciamo le espressioni del periodo teorico (in condizioni ideali e prive di attrito) al variare della sua lunghezza e dell'angolo di partenza. Verrà quindi misurato il periodo e se ne osserverà la variazione in funzione dell'angolo, della lunghezza e della massa appesa ad esso.
+
+\section{Strumentazione}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}ll@{}}
+		\textbf{Strumento} & \textbf{Sensibilità} \\ \midrule
+		Cr. Analogico      & $0.2$s               \\
+		Cr. Digitale       & $0.01$s              \\
+		Fotocellula        & $0.001$s             \\
+		Goniometro         & $1^\circ$            \\
+		Asta graduata      & $0.1$cm              \\
+		Calibro            & $0.01$mm             \\
+		Bilancia digitale  & $1$g                 \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				SCELTA STRUMENTO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
 \section{Scelta strumento di misura}
 
 Al fine di stabilire il migliore strumento di misura per le succesive misurazioni, registro 8 misure del periodo del pendolo prima con un angolo di partenza $\vartheta = 5^\circ$ e poi con $\vartheta = 30^\circ$ utilizzando un cronometro analogico, uno digitale e una fotocellula. Lo strumento che mostrerà discrepanze significative tra il periodo calcolato con $\vartheta = 5^\circ$ e $\vartheta = 30^\circ$ sarà quello utilizzato per i testi successivi.
 
+\textcolor{red}{sistema valori per C.Analogico.}
 
-
-
-
-\begin{minipage}[c]{0.3\textwidth}
-
-\end{minipage}
-\begin{minipage}[r]{0.7\textwidth}
+\vspace{1cm}
+\begin{minipage}{0.5\textwidth}
 \begin{table}[H]
-	\centering
+	\hspace{-1.3cm}
 	\begin{tabular}{@{}lrrr@{}}
 		&\textbf{C.Analogico} & \textbf{C. Digitale} & \textbf{Fotocellula} \\ \cmidrule(l){2-4} &\multicolumn{1}{l}{$T(s) \pm 0.2s$} & \multicolumn{1}{l}{$T(s) \pm 0.01s$}   & \multicolumn{1}{l}{$T(s) \pm 0.001s$}    \\ \cmidrule(l){2-4} 
 		
 		\multicolumn{1}{c}{}  
-								& 1.6   & 1.63   & 1.702     \\
+		& 1.6   & 1.63   & 1.702     \\
 		\colorbox{orange!40}{$\vartheta = 5^\circ$}   & 1.7   & 1.65   & 1.703     \\
-								& 1.5   & 1.60   & 1.703     \\ 
-								& 1.7   & 1.71   & 1.703     \\
-								& 1.7   & 1.71   & 1.703     \\
-								& 1.7   & 1.65   & 1.702     \\
-								& 1.6   & 1.70   & 1.703     \\
-								& 1.7   & 1.70   & 1.703     \\ \arrayrulecolor{black!100}\specialrule{1.2pt}{0.5\jot}{0.5pc}
+		& 1.5   & 1.60   & 1.703     \\ 
+		& 1.7   & 1.71   & 1.703     \\
+		& 1.7   & 1.71   & 1.703     \\
+		& 1.7   & 1.65   & 1.702     \\
+		& 1.6   & 1.70   & 1.703     \\
+		& 1.7   & 1.70   & 1.703     \\ \arrayrulecolor{black!100}\specialrule{1.2pt}{0.5\jot}{0.5pc}
 		
-		$\mathbf{\bar{T}(s)}$ & \textbf{1.65}    & \textbf{1.67}  & \textbf{1.703}  \\
-		$\sigma_{\bar{T}}$   & 0.05    & 0.02  & 0.000 \\                          
+		$\mathbf{\bar{T}_{5}(s)}$ & \textbf{1.65}    & \textbf{1.67}  & \textbf{1.703}  \\
+		$\sigma_{T_{5}}$   & 0.05    & 0.02  & 0.000 \\                          
 	\end{tabular}
 \end{table}
-
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
 \begin{table}[H]
 	\centering
 	\begin{tabular}{@{}lrrr@{}}
@@ -100,20 +127,67 @@ Al fine di stabilire il migliore strumento di misura per le succesive misurazion
 													& 1.7   & 1.80   & 1.733     \\
 													& 1.6   & 1.69   & 1.732     \\ \arrayrulecolor{black!100}\specialrule{1.2pt}{0.5\jot}{0.5pc}
 
-		$\mathbf{\bar{T}(s)}$ & \textbf{1.70}    & \textbf{1.69}  & \textbf{1.715}  \\
-		$\sigma_ {\bar{T}}$   & 0.08    & 0.03  & 0.0005 \\                          
+		$\mathbf{\bar{T}_{30}(s)}$ & \textbf{1.70}    & \textbf{1.69}  & \textbf{1.715}  \\
+		$\sigma_ {T_{30}}$   & 0.08    & 0.03  & 0.0005 \\                          
 	\end{tabular}
 \end{table}
 \end{minipage}
+\vspace{1cm}
 
-Ora 
+\noindent
+Da questi primi set di dati noto subito che la deviazione standard dei periodi misurati dal cronometro digitale è più grande della sensibilità dello strumento, quindi dovrei scegliere la deviazione standard come errore sulla singola misura.
+
+
+Invece per evidenziare quale dei tre strumenti fornisca periodi significativamente differenti per i due angoli di partenza sottopongo le coppie di periodi medi a un test Z:
+
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}lrr@{}}
+		\toprule
+		\multicolumn{1}{c}{Z} & \multicolumn{1}{l}{$\sigma_{\bar{T}_5}$} & \multicolumn{1}{l}{$\sigma_{\bar{T}_{30}}$} \\ \midrule
+		$z_{\text{an.}}$      & \textit{\textbf{0.234}}                  & \textit{\textbf{0.234}}                   \\
+		$z_{\text{dig.}}$     & \textit{\textbf{0.170}}                  & \textit{\textbf{0.132}}                   \\
+		$z_{\text{fot.}}$     & \textit{\textbf{22.8}}                   & \textit{\textbf{14.2}}                    \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+Il test mostra che i periodi misurati con i cronometri analogico e digitale con ancgoli di partenza $\vartheta = 5^\circ$ e $\vartheta = 30^\circ$, risultano essere compatibili con livelli di significatività \textcolor{red}{maggiori dell'80\% (specifica bene i valori)}. Per quanto riguarda i periodi registrati con la fotocellula questi risultano \textcolor{red}{appartenere a popolazioni differenti} e posso quindi affermare che lo strumento che fornisce periodi significativamente differenti per i due angoli di partenza sia proprio la fotocellula.
+
+
+
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%				DIPENDENZA THETA
+%%				DIPENDENZA THETA   00000
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newpage
 \section{Dipendenza dall’angolo}
+La prima parte dell'esperienza consiste nel verificare la dipendenza di $T$ da $\vartheta$. A tal fine prendo tre misurazioni del periodo del pendolo, a cui ho attaccato una sferetta di legno di massa $m = $ partendo da un angolo di partenza di $5^\circ$. Continuo a prendere le misure ogni avanzando di $5^\circ$ fino ad arrivare a $30^\circ$.	
+
+
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}lrrrrrr@{}}
+		& $\mathbf{5^\circ}$ & $\mathbf{10^\circ}$ & $\mathbf{15^\circ}$ & $\mathbf{20^\circ}$ & $\mathbf{25^\circ}$ & $\mathbf{30^\circ}$  \\ \cmidrule(l){2-7}   
+		& $T(s) \pm 0.001s$ & $T(s) \pm 0.001s$   & $T(s) \pm 0.001s$ & $T(s) \pm 0.001s$ & $T(s) \pm 0.001s$ & $T(s) \pm 0.001s$  \\ \cmidrule(l){2-7} 
+		
+		\multicolumn{1}{c}{}  
+		
+		&1.703 & 1.706 & 1.710 & 1.715 & 1.723 & 1.730  \\
+		&1.702 & 1.706 & 1.710 & 1.715 & 1.723 & 1.731 \\
+		&1.701 & 1.706 & 1.710 & 1.715 & 1.723 & 1.731 \\
+		
+		\arrayrulecolor{black!100}\specialrule{1.2pt}{0.5\jot}{0.5pc}
+		
+		$\mathbf{\bar{T}(s)}$ & \textbf{1.702}    & \textbf{1.706}  & \textbf{1.710} & \textbf{1.715} & \textbf{1.723} &  \textbf{1.731}        
+	\end{tabular}
+\end{table}
 
 
 
@@ -122,8 +196,8 @@ Ora
 	\begin{tikzpicture}
 		\begin{axis}[
 			title={Periodo in funzione di $\theta$ (lineare)},
-			xlabel={$T$},
-			ylabel={$\sin{\left( \vartheta / 2\right) }^2$},
+			xlabel={$x = T(s)$},
+			ylabel={$y = \sin{\left( \vartheta / 2\right) }^2$},
 			xmin=1.7, xmax=1.732,
 			ymin=0, ymax=0.08,
 			xtick={1.7,1.705,1.71,1.715,1.72,1.725,1.73},
@@ -155,7 +229,8 @@ Ora
 				color=red, 
 				] 
 				{2.16490*x -3.68337};
-			\legend{Data}
+			\node[] at (axis cs: 1.73,1) {absolute in pgfplots coordinates};
+			\legend{Data,$y=a+bx$}
 		\end{axis}
 	\end{tikzpicture}
 	\caption{$T\left( \sin{\left( \vartheta / 2\right) }^2\right) $}
@@ -166,13 +241,13 @@ Ora
 	\centering
 	\begin{tikzpicture}
 		\begin{axis}[
-			title={Distribuzione dei dati con errori},
-			xlabel={Valore X},
-			ylabel={Valore Y},
-			xmin=-1, xmax=1,
-			ymin=0, ymax=0.3,
-			xtick={1.7,1.71,1.72,1.73,1.74},
-			ytick={0,0.05,0.1,0.15,0.2,0.25,0.3},
+			title={Periodo in funzione di $\vartheta$ (parabolico)},
+			ylabel={$y = T(s)$},
+			xlabel={$x = \sin{\left( \vartheta / 2\right) }$},
+			xmin=0, xmax=0.26,
+			ymin=1.700, ymax=1.732,
+			xtick={},
+			ytick={},
 			tick label style={/pgf/number format/fixed},
 			legend pos=north west,
 			ymajorgrids=true,
@@ -188,28 +263,25 @@ Ora
 			y dir=both, y explicit
 			]
 			coordinates {
-				(-1,0.0436194) +- (0,0.0086917/2)
-				(-0.7241,0.0871557) +- (0,0.0086669/2)
-				(-0.4482,0.1305262) +- (0,0.0086256/2)
-				(-0.10344,0.1736482) +- (0,0.0085678/2)
-				(0.4482,0.2164396) +- (0,0.0084938/2)
-				(1,0.2588190) +- (0,0.0084036/2)
+				(0.0436194,1.702) +- (0,0.001)
+				(0.0871557,1.706) +- (0,0.001)
+				(0.1305262,1.710) +- (0,0.001)
+				(0.1736482,1.715) +- (0,0.001)
+				(0.2164396,1.723) +- (0,0.001)
+				(0.2588190,1.731) +- (0,0.001)
 			};
 			\addplot[
-			domain=-1.1:1.1, 
+			domain=0:0.274, 
 			samples=100, 
 			color=red, 
 			] 
-			{-0.03080*x^2 + 0.105900*x + 0.18138};
-			\legend{Dati}
+			{0.35725602*x^2 + 0.0252062*x + 1.700522};
+			\legend{Dati,$y=a+bx+cx^2$}
 		\end{axis}
 	\end{tikzpicture}
 	\caption{Rappresentazione grafica dei dati sperimentali con errori ridotti.}
 \end{figure}
 
-\subsection{Confronto parametri parabola}
-
-\subsection{g}
 
 Calcolo il valore di g:
 \[
@@ -248,6 +320,14 @@ Ottengo $g = ...$ ... Scelgo livello di significatività = 0.05.
 
 
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				DIPENDENZA ELLE     LLLLL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
 \section{Dipendenza dalla lunghezza}
 
 \begin{figure}[H]
@@ -296,9 +376,29 @@ Ottengo $g = ...$ ... Scelgo livello di significatività = 0.05.
 
 \subsection{Confronto parametri retta}
 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				DIPENDENZA MASSA     MMMM
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
 \section{Dipendenza dalla massa}
 
 
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				    CONCLUSIONI
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
 \section{Conclusioni}
 
 
