@@ -90,7 +90,7 @@ L'esperienza di laboratorio ha lo scopo di studiare il periodo di un pendolo sem
 
 Al fine di stabilire il migliore strumento di misura per le succesive misurazioni, registro 8 misure del periodo del pendolo prima con un angolo di partenza $\vartheta = 5^\circ$ e poi con $\vartheta = 30^\circ$ utilizzando un cronometro analogico, uno digitale e una fotocellula. Lo strumento che mostrerà discrepanze significative tra il periodo calcolato con $\vartheta = 5^\circ$ e $\vartheta = 30^\circ$ sarà quello utilizzato per i testi successivi. Procedo quindi con le misurazioni dei periodi del pendolo a cui è stata agganciata una sfera di massa $m = (110 \pm 1)g$
 
-\textcolor{red}{sistema valori per C.Analogico.}
+\textcolor{red}{sistema valori per C.Analogico e capire se aggiungere errori per T medi.}
 
 \vspace{1cm}
 \begin{minipage}{0.5\textwidth}
@@ -192,7 +192,7 @@ l = L_C + L_F = (72.2 \pm 0.2) \text{cm}. \footnote{Propago l'errore linearmente
 A questo punto prendo tre misurazioni del periodo del pendolo,  partendo da un angolo di partenza di $5^\circ$. Continuo a prendere le misure avanzando di $5^\circ$ fino ad arrivare a $30^\circ$.	
 
 
-
+\vspace{0.7cm}
 \begin{table}[H]
 	\centering
 	\begin{tabular}{@{}lrrrrrr@{}}
@@ -210,6 +210,8 @@ A questo punto prendo tre misurazioni del periodo del pendolo,  partendo da un a
 		$\mathbf{\bar{T}(s)}$ & \textbf{1.702}    & \textbf{1.706}  & \textbf{1.710} & \textbf{1.715} & \textbf{1.723} &  \textbf{1.731}        
 	\end{tabular}
 \end{table}
+\textcolor{red}{capire se aggiungere errori per T medi.}
+\vspace{1cm}
 
 \noindent
 Dall'espressione del periodo del pendolo sappiamo che il periodo è direttamente proporzionale a $\sin\left(\vartheta/2\right)^2$, più precisamente:
@@ -226,22 +228,21 @@ y = T_0 + \frac{T_0}{4}x
 Per verificare ciò mi avvalgo del metodo dei minimi quadrati...
 \textcolor{red}{inserire qualche informazione a riguardo}
 
+\newpage
 \subsubsection{Minimi quadrati}
 Appurato che $T$ e $\sin{\left(\vartheta/2\right)}^2$ siano \textit{teoricamente} linearmente correlati, è di mio interesse trovare quale retta della forma $y = A + Bx$ meglio interpola i dati sperimentali così da appurare se i valori misurati soddisfano la attesa teorica che $y$ sia lineare in $x$. 
 
-Posso fare questo avvalendomi del metodo dei minimi quadrati che ha  proprio lo scopo di determinare i parametri che legano due variabili legate da essi, nel mio caso due variabili $x$ e $y$ legati da due parametri $A$ e $B$.
-
-\vspace{2cm}
-Questo metodo necessita delle assunzioni importanti: 
+Posso fare questo avvalendomi del metodo dei minimi quadrati che ha  proprio lo scopo di determinare i parametri che legano due variabili legate da essi, nel mio caso due variabili $x$ e $y$ legati da due parametri $A$ e $B$. Questo metodo necessita di alcune assunzioni importanti: 
 
 \begin{enumerate}
-	\item Le misure siano statisticamente indipendenti;
-	\item Una delle due variabili (sceglierò la $x$) abbia errori trascurabili rispetto all'altra \footnote{Giudico un errore come trascurabile rispetto all'altro quando si trovano in rapporto 1 a 3,4,5.}.
-	\item Gli errori della variabile $y$ siano distribuiti normalmente.
+	\item Le misure devono essere statisticamente indipendenti;
+	\item Una delle due variabili (sceglierò la $x$) deve avere errori trascurabili rispetto all'altra \footnote{Giudico un errore come trascurabile rispetto all'altro quando si trovano in rapporto 1 a 3,4,5.}.
+	\item Gli errori della variabile $y$ devono essere distribuiti normalmente.
 \end{enumerate}
 \textcolor{red}{preso letteralmente dal Cannelli}
 
-Per rispettare la seconda assunzione confronto gli errori relativi delle mie due variabili.
+\noindent
+Per rispettare la seconda assunzione confronto gli errori relativi delle mie due variabili ($\delta_x$ è l'errore assoluto, $\delta_x/x$ è l'errore relativo).
 
 \begin{minipage}{0.5\textwidth}
 \begin{table}[H]
@@ -277,17 +278,19 @@ Per rispettare la seconda assunzione confronto gli errori relativi delle mie due
 \footnote{Lascio 3 cifre significative negli errori relativi del periodo per evidenziarne le piccole discrepanze.}
 \vspace{1cm}
 
+\noindent
 Come si può leggere nelle tabelle l'errore associato alle misure dei periodi è perfettamente trascurabile rispetto a quello associato al seno, quindi scelgo di portare le misure del periodo sull'asse $x$ e quelle del seno sull'asse $y$. 
 
 \noindent
 Procedo al calcolo dei parametri $A$ e $B$ e dei rispettivi errori:
 
 \[
-\mathbf{A} = -3.68 \qquad \mathbf{\sigma_A} = 0.179
+\mathbf{A} = -3.68 \qquad \mathbf{\sigma_A} = 0.18
 \]
 \[
-\mathbf{B} = 2.16 \qquad \mathbf{\sigma_B} = 0.105
+\mathbf{B} = 2.16 \qquad \mathbf{\sigma_B} = 0.10
 \]
+
 
 \begin{minipage}{0.3\textwidth}
 \textcolor{red}{l'errore sulla x è da scrivere?}
@@ -344,13 +347,63 @@ Procedo al calcolo dei parametri $A$ e $B$ e dei rispettivi errori:
 				] 
 				{2.16490*x -3.68337};
 			\node[] at (axis cs: 1.73,1) {absolute in pgfplots coordinates};
-			\legend{Data,$y=a+bx$}
+			\legend{Data,$y=A+Bx$}
 		\end{axis}
 	\end{tikzpicture}
-	\caption{$T\left( \sin{\left( \vartheta / 2\right) }^2\right) $}
 \end{figure}
 \end{minipage}
+\vspace{1cm}
 
+\noindent
+La retta di "best-fit" può fornire altre importanti informazioni: per esempio nella retta 
+\[
+T = T_0 + \frac{T_0}{4}\sin{\left(\vartheta/2\right)}^2
+\]
+il termine noto della retta è $T_0$ che rappresenta il periodo delle piccole oscillazioni. Nel mio caso invece (ho il seno in funzione di $T$) la retta è espressa come
+\[
+\sin{\left(\vartheta/2\right)}^2 = 4\frac{T}{T_0} - 4
+\]
+nella quale $T_0$ compare a denominatore del coefficiente angolare della retta. Posso allora ricavarlo imponendo
+\[
+B =  4\frac{1}{T_0} \qquad T_0 = \frac{4}{B} 
+\]
+\textcolor{red}{a cosa mi dovrebbe servire trovare il periodo delle piccole oscillazioni?}
+
+\noindent
+Ho quindi trovato anche il valore sperimentale del periodo delle piccole oscillazioni del mio pendolo:
+\[
+\mathbf{T_0} = (1.85 \pm 0.09)\text{s}
+\]
+\footnote{L'errore di $T_0$ è $\sigma_{T_0} = \sqrt{\left(\frac{\partial T_0}{\partial B}\sigma_{B}\right)^2} = \left|\frac{\partial T_0}{\partial B}\sigma_{B}\right| = \frac{4}{B^2}\sigma_B$}
+
+\subsubsection{Determinazione dell'accelerazione di gravità g}
+Sappiamo le piccole oscillazioni del pendolo hanno periodo descritto da
+\[
+T_0 = 2\pi \sqrt{\frac{l}{g}} 
+\]
+dove $l$ è la distanza dalla cima del pendolo al centro di massa della sfera appesa ad esso, nel mio caso $l = (72.2 \pm 0.2)$cm. Dall'equazione precedente (e ricordando che $T_0 = 4/B$) troviamo l'espressione dell'accelerazione di gravità:
+\[
+g = \frac{\pi^2b^2l}{4}
+\]
+
+con errore associato
+
+\[
+\sigma_g = \sqrt{\left(\frac{\partial g}{\partial l} \right)^2\sigma_l^2 + \left(\frac{\partial g}{\partial B} \right)^2 \sigma_B^2}  \quad = \quad 	\sqrt{\left(\frac{B^2\pi^2}{4}\right)^2 \sigma_l^2 + \left( \frac{lB\pi^2}{2}  \right)^2 \sigma_B^2}	 
+\]
+
+
+\noindent
+Posso quindi conlcudere e scrivere il valore sperimentale di $\mathbf{g}$ determinato dalle mie misurazioni:
+\[
+\mathbf{g} = (830 \pm 81)\text{cm}\cdot \text{s}^{-2}
+\]
+\noindent
+Sapendo che il valore dell'accelerazione di gravità terrestre vale circa $9.81ms^{-2}$ si nota subito la differenza con il $g$ determinato sperimentalmente che risulta essere sottostimato del $15\%$. Le fonti di errore in gioco sono la lunghezza del pendolo $l$ e il coefficiente della retta $B$. (\textcolor{red}{inserire il fatto che B sia il rapporto sin / T?})
+
+
+
+\newpage
 \begin{figure}[H]
 	\centering
 	\begin{tikzpicture}
@@ -393,44 +446,9 @@ Procedo al calcolo dei parametri $A$ e $B$ e dei rispettivi errori:
 			\legend{Dati,$y=a+bx+cx^2$}
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Rappresentazione grafica dei dati sperimentali con errori ridotti.}
 \end{figure}
 
 
-Calcolo il valore di g:
-\[
-T_0 = 2\pi\sqrt{\frac{l}{g}} \qquad \to \qquad T_0^2 = 4\pi^2\frac{l}{g}
-\] 
-\[
-g = \frac{4l\pi^2}{T_0^2}
-\]
-
-poiché sappiamo che
-
-\[
-T = T_0 + \frac{T_0}{4}y \qquad \to \qquad y = 4\frac{T-T_0}{T_0} \qquad \to \qquad y = 4\frac{T}{T_0} - 4
-\]
-\[
-b = \frac{4}{T_0} \qquad \to \qquad T_0 = \frac{4}{b}
-\]
-
-Quindi
-
-\[
-\mathbf{g = \frac{l\pi^2}{4}b^2}
-\]
-
-Calcolo l'errore associato a g:
-\[
-\sigma_g = \sqrt{\left(\frac{\partial g}{\partial l} \right)^2\sigma_l^2 + \left(\frac{\partial g}{\partial b} \right)^2 \sigma_b^2}
-\]
-\[
-\sigma_g = 	\sqrt{\left(\frac{b^2\pi^2}{4}\right)^2 \sigma_l^2 + \left( \frac{lb\pi^2}{2}  \right)^2 \sigma_b^2	 }
-\]
-
-\subsubsection{Test Z per g}
-
-Ottengo $g = ...$ ... Scelgo livello di significatività = 0.05.
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  30 MAR 2024 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  31 MAR 2024 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1502,52 +1502,62 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 174.
 
-Overfull \hbox (6.89594pt too wide) in paragraph at lines 214--216
+Overfull \hbox (6.89594pt too wide) in paragraph at lines 216--218
 \T1/futs/m/n/10 Dall'espressione del pe-ri-odo del pen-dolo sap-pi-amo che il p
 e-ri-odo è di-ret-ta-mente pro-porzionale a $[] [][]$,
  []
 
+[4]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 229.
+(hyperref)                than one, level fixed on input line 232.
 
-[4]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 246--279
+
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 247--280
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 292--353
-[]$[]$ $[]$ 
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 295--356
+[]$[]$ $[]$
  []
 
-[5] [6] [7] [8] [9] (./relazione.aux (./titlepage.aux))
+[5]
+Overfull \hbox (22.37354pt too wide) in paragraph at lines 383--385
+\T1/futs/m/n/10 (72\FML/futmi/m/it/10 :\T1/futs/m/n/10 2 \FMS/futm/m/n/10 ^^F \
+T1/futs/m/n/10 0\FML/futmi/m/it/10 :\T1/futs/m/n/10 2)$cm. Dall'equazione prece
+-dente (e ri-cor-dando che $\FML/futmi/m/it/10 T[] \T1/futs/m/n/10 = 4\FML/futm
+i/m/it/10 =B$\T1/futs/m/n/10 ) tro-vi-amo l'espressione dell'accelerazione
+ []
+
+[6] [7] [8] [9] [10] [11] (./relazione.aux (./titlepage.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `relazione.out' has not changed.
-(rerunfilecheck)             Checksum: 954E36DA08E34D1717F519AB5E2750CA;1620.
+(rerunfilecheck)             Checksum: A20702E5E135175D84AD0EF12C075D59;1796.
  ) 
 Here is how much of TeX's memory you used:
- 43539 strings out of 476076
- 999611 string characters out of 5793775
- 1967187 words of memory out of 5000000
- 64870 multiletter control sequences out of 15000+600000
- 665142 words of font info for 137 fonts, out of 8000000 for 9000
+ 43544 strings out of 476076
+ 999655 string characters out of 5793775
+ 1955187 words of memory out of 5000000
+ 64871 multiletter control sequences out of 15000+600000
+ 665499 words of font info for 138 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,21n,107p,869b,2721s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,21n,107p,869b,2725s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/fo
-nts/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/put
-b8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share
-/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/ty
-pe1/adobe/utopia/putri8a.pfb>
-Output written on relazione.pdf (10 pages, 109356 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/font
+s/type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/fourier/fourier-mlit.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fo
+urier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/s
+hare/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fon
+ts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
+a/putri8a.pfb>
+Output written on relazione.pdf (12 pages, 120252 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
