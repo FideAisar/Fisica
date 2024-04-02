@@ -27,12 +27,11 @@
 
 \captionsetup[table]{name=Tabella}
 %<\pagenumbering{gobble}
-\setcounter{secnumdepth}{2}
 
 
 \renewcommand*\contentsname{Indice}
 \setcounter{tocdepth}{3}
-\setcounter{secnumdepth}{2}
+%\setcounter{secnumdepth}{2}
 \pgfplotsset{compat=1.15}
 
 
@@ -229,7 +228,7 @@ Per verificare ciò mi avvalgo del metodo dei minimi quadrati...
 \textcolor{red}{inserire qualche informazione a riguardo}
 
 \newpage
-\subsubsection{Minimi quadrati}
+\subsection{Retta di best-fit}
 Appurato che $T$ e $\sin{\left(\vartheta/2\right)}^2$ siano \textit{teoricamente} linearmente correlati, è di mio interesse trovare quale retta della forma $y = A + Bx$ meglio interpola i dati sperimentali così da appurare se i valori misurati soddisfano la attesa teorica che $y$ sia lineare in $x$. 
 
 Posso fare questo avvalendomi del metodo dei minimi quadrati che ha  proprio lo scopo di determinare i parametri che legano due variabili legate da essi, nel mio caso due variabili $x$ e $y$ legati da due parametri $A$ e $B$. Questo metodo necessita di alcune assunzioni importanti: 
@@ -376,7 +375,7 @@ Ho quindi trovato anche il valore sperimentale del periodo delle piccole oscilla
 \]
 \footnote{L'errore di $T_0$ è $\sigma_{T_0} = \sqrt{\left(\frac{\partial T_0}{\partial B}\sigma_{B}\right)^2} = \left|\frac{\partial T_0}{\partial B}\sigma_{B}\right| = \frac{4}{B^2}\sigma_B$}
 
-\subsubsection{Determinazione dell'accelerazione di gravità g}
+\subsection{Determinazione dell'accelerazione di gravità g}
 Sappiamo le piccole oscillazioni del pendolo hanno periodo descritto da
 \[
 T_0 = 2\pi \sqrt{\frac{l}{g}} 
@@ -399,11 +398,84 @@ Posso quindi conlcudere e scrivere il valore sperimentale di $\mathbf{g}$ determ
 \mathbf{g} = (830 \pm 81)\text{cm}\cdot \text{s}^{-2}
 \]
 \noindent
-Sapendo che il valore dell'accelerazione di gravità terrestre vale circa $9.81ms^{-2}$ si nota subito la differenza con il $g$ determinato sperimentalmente che risulta essere sottostimato del $15\%$. Le fonti di errore in gioco sono la lunghezza del pendolo $l$ e il coefficiente della retta $B$. (\textcolor{red}{inserire il fatto che B sia il rapporto sin / T?})
+Sapendo che il valore dell'accelerazione di gravità terrestre vale circa $9.81ms^{-2}$ si nota subito la differenza con il $g$ determinato sperimentalmente che risulta essere sottostimato del $15\%$. Tale sottostima è da imputare alla misura della lunghezza del pendolo $l$ e al valore di $B$. (\textcolor{red}{inserire il fatto che B sia il rapporto sin / T?}) Per capire chi influenza maggiormente la bontà del risultato ottenuto calcolo l'errore associato a $g$ "più grossolanamente" così da evidenziare in modo più facile il "colpevole":
 
+\[
+		\frac{\sigma_g}{g} = \frac{\sigma_l}{l} + 2\frac{\sigma_b}{b} 
+\]
+\[
+		\approx \quad 0.28 \% + 9.72 \% \quad \approx  \quad 10\%	
+\]
+
+trovando quindi che l'errore su $B$ è quello che più influisce sull'accuratezza del valore di $g$ calcolato.
+\\
+
+\subsubsection{Test Z}
+Infine è bene verificare l'accordo tra $g$ da me calcolato e $G = 9.81 ms^{-2}$. In linea teorica infatti mi aspetto che i due siano uguali e che eventuali discrepanze siano dovute unicamente al caso. Applico allora un Test Z:
+
+\paragraph{Ipotesi nulla} Il valore $g$ da me calcolato è compatibile con il valore vero $G$ accelerazione di gravità terrestre.
+
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lr}
+		Livello di significatività $\alpha$	& $\quad 0.05$  \\
+		Valore di $z_\text{oss}$             	& $\quad 1.86$  \\
+		Valore di $z_{\text{critico}}$ 		& $\quad 1.96$  \\ 
+	\end{tabular}
+\end{table}
+
+\noindent
+Poiché $z_\text{oss}$ < $z_{\text{critico}}$ posso concludere che con un livello di significatività del 5\% $g$ risulta essere compatibile con $G$.
 
 
 \newpage
+\subsection{Parabola di best-fit}
+Poiché nel processo di determinazione della retta di best-fit è risultato opportuno studiare la funzione $T(y)$ con $y = \sin{\left( \vartheta / 2\right)}^2$ per poter studiare la funzione in forma parabolica basta prendere $y =  \sin{\left( \vartheta / 2\right)}$.
+
+Come ho fatto per il fit lineare, controllo quale delle due variabili, $T$ e $ \sin{\left( \vartheta / 2\right)}$, ha errore relativo trascurabile rispetto a quello dell'altra.
+
+
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}ccc@{}}
+			\multicolumn{3}{c}{$\mathbf{T}$} \\ \midrule
+			$T(s)$ & $\delta_T (s)$ & $\delta_T / T$ \\ \midrule
+			1.702 & 0.001 & \textbf{0.000339} \\
+			1.706 & 0.001 & \textbf{0.000338} \\
+			1.710 & 0.001 & \textbf{0.000337} \\
+			1.715 & 0.001 & \textbf{0.000336} \\
+			1.723 & 0.001 & \textbf{0.000335} \\
+			1.731 & 0.001 & \textbf{0.000333}  \\ \bottomrule   
+		\end{tabular}
+	\end{table}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}ccc@{}}
+			
+			\multicolumn{3}{c}{$y = \mathbf{sin{\left(\vartheta/2\right)}}$} \\ \midrule
+			$y$ & $\delta_y$ & $\delta_y / y$ \\ \midrule
+			0.044 & 0.00869 & \textbf{0.199} \\
+			0.087 & 0.00867 & \textbf{0.099} \\
+			0.131 & 0.00863 & \textbf{0.066} \\
+			0.174 & 0.00857 & \textbf{0.049} \\
+			0.216 & 0.00849 & \textbf{0.039} \\
+			0.259 & 0.00840 & \textbf{0.032}  \\ \bottomrule  
+		\end{tabular}
+	\end{table}
+\end{minipage}
+\vspace{1cm}
+
+
+\noindent
+In questo caso, al contrario del fit lineare, non posso invertire le variabili per mettere \textcolor{red}{non ho capito}
+
+\vspace{1cm}
+\hspace{-1cm}
+\begin{minipage}{0.7\textwidth}
 \begin{figure}[H]
 	\centering
 	\begin{tikzpicture}
@@ -443,17 +515,64 @@ Sapendo che il valore dell'accelerazione di gravità terrestre vale circa $9.81m
 			color=red, 
 			] 
 			{0.35725602*x^2 + 0.0252062*x + 1.700522};
-			\legend{Dati,$y=a+bx+cx^2$}
+			\legend{Dati,$y=A+Bx+Cx^2$}
 		\end{axis}
 	\end{tikzpicture}
 \end{figure}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}rr@{}}
+		$T(s) \pm \delta_T$ & $\sin{\left(\vartheta/2\right)} \pm \delta_y$ \\ \midrule
+		1.702&0.044    \\
+		1.706&0.087    \\
+		1.710&0.130    \\
+		1.715&0.174    \\
+		1.723&0.216    \\
+		1.731&0.259    \\	\bottomrule
+	\end{tabular}
+\end{table}	
+\end{minipage}
+\vspace{0.8cm}
+\[
+\mathbf{A} = 1.70 \qquad \mathbf{\sigma_A} = 0.0018
+\]
+\[
+\mathbf{B} = 0.0252 \qquad \mathbf{\sigma_B} = 0.0273
+\]
+\[
+\mathbf{C} = 0.357 \qquad \mathbf{\sigma_C} = 0.088
+\]
+\vspace{0.2cm}
 
+\subsubsection{Test Z}
+Per constatare se la parabola descrive bene l'andamento dei miei dati (graficamente sembrerebbe farlo) vado a confrontare i parametri ottenuti con quelli teorici. La parabola teorica 
+\[
+T = T_0 + \frac{T_0}{4}\sin{(\vartheta/2)}^2
+\]
+ha come parametri teorici
+\[
+A_\text{teo} = T_0 \qquad B_\text{teo} = 0 \qquad C_\text{teo} =  \frac{T_0}{4} 
+\]
 
+\noindent
+Procedo quindi con un Test Z per verificare la compatibilità tra i valori:
 
+\paragraph{Ipotesi nulla} I parametri della parabola sperimentale sono compatibili con i parametri della parabola teorica.
 
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}rp{3cm}p{2cm}p{2cm}@{}}
+		
+		&\textbf{Sperimentali} & \textbf{Teorici} & $z_{\text{oss}}$ \\ \cmidrule(r){2-4}
+		\textbf{A}&$1.700 \pm 0.0018 $		& $1.704$	& 1.774 \\
+		\textbf{B}&$0.0252 \pm  0.0273$		& 0 		& 0.923 \\
+		\textbf{C}&$0.357 \pm 0.088$		& 0.426 	& 0.778 \\ \cmidrule(r){2-4}
+	\end{tabular}
+\end{table}
 
-
-
+da cui concludo che con un livello di significatività del 5\%, e quindi con un valore $z_{\text{critico}} = 1.96$, tutti i parametri risultano essere compatibili con le aspettative teoriche.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%				DIPENDENZA ELLE     LLLLL
@@ -461,6 +580,51 @@ Sapendo che il valore dell'accelerazione di gravità terrestre vale circa $9.81m
 
 \newpage
 \section{Dipendenza dalla lunghezza}
+
+\subsection{Retta di best-fit}
+Ricordando l'espressione teorica del periodo del pendolo è possibile evidenziare la relazione lineare tra $T^2$ (il periodo al quadrato) e  $l$ (lunghezza del pendolo):
+\[
+T = 2\pi \sqrt{\frac{l}{g}} \left( 1 + \frac{1}{4}\sin{\left(\vartheta/2\right)}^2 \right) \qquad T^2 = 4 \pi^2 \frac{l}{g} \left( 1 + \frac{1}{4}\sin{\left(\vartheta/2\right)}^2 \right)^2
+\]
+
+
+Per applicare al meglio il metodo dei minimi quadrati controllo sempre quale delle due variabili ha errore relativo più piccolo.
+
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}ccc@{}}
+			\multicolumn{3}{c}{$\mathbf{T}$} \\ \midrule
+			$T(s)$ & $\delta_T (s)$ & $\delta_T / T$ \\ \midrule
+			1.702 & 0.001 & \textbf{0.000339} \\
+			1.706 & 0.001 & \textbf{0.000338} \\
+			1.710 & 0.001 & \textbf{0.000337} \\
+			1.715 & 0.001 & \textbf{0.000336} \\
+			1.723 & 0.001 & \textbf{0.000335} \\
+			1.731 & 0.001 & \textbf{0.000333}  \\ \bottomrule   
+		\end{tabular}
+	\end{table}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}ccc@{}}
+			
+			\multicolumn{3}{c}{$y = \mathbf{sin{\left(\vartheta/2\right)}}$} \\ \midrule
+			$y$ & $\delta_y$ & $\delta_y / y$ \\ \midrule
+			0.044 & 0.00869 & \textbf{0.199} \\
+			0.087 & 0.00867 & \textbf{0.099} \\
+			0.131 & 0.00863 & \textbf{0.066} \\
+			0.174 & 0.00857 & \textbf{0.049} \\
+			0.216 & 0.00849 & \textbf{0.039} \\
+			0.259 & 0.00840 & \textbf{0.032}  \\ \bottomrule  
+		\end{tabular}
+	\end{table}
+\end{minipage}
+\vspace{1cm}
+
+
+
 
 \begin{figure}[H]
 	\centering
@@ -505,8 +669,12 @@ Sapendo che il valore dell'accelerazione di gravità terrestre vale circa $9.81m
 	\caption{Rappresentazione grafica dei dati sperimentali con errori.}
 \end{figure}
 
-
-\subsection{Confronto parametri retta}
+\[
+\mathbf{A} = 1.70 \qquad \mathbf{\sigma_A} = 0.0018
+\]
+\[
+\mathbf{B} = 0.0252 \qquad \mathbf{\sigma_B} = 0.0273
+\]
 
 
 
