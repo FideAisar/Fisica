@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  3 APR 2024 14:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  3 APR 2024 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1523,12 +1523,12 @@ Overfull \hbox (16.56998pt too wide) in paragraph at lines 296--356
  []
 
 [5] [6]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 420--445
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 421--448
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (22.37354pt too wide) in paragraph at lines 452--454
+Overfull \hbox (22.37354pt too wide) in paragraph at lines 455--457
 \T1/futs/m/n/10 (72\FML/futmi/m/it/10 :\T1/futs/m/n/10 2 \FMS/futm/m/n/10 ^^F \
 T1/futs/m/n/10 0\FML/futmi/m/it/10 :\T1/futs/m/n/10 2)$cm. Dall'equazione prece
 -dente (e ri-cor-dando che $\FML/futmi/m/it/10 T[] \T1/futs/m/n/10 = 4\FML/futm
@@ -1536,32 +1536,32 @@ i/m/it/10 =B$\T1/futs/m/n/10 ) tro-vi-amo l'espressione dell'accelerazione
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 480--482
+Underfull \hbox (badness 10000) in paragraph at lines 483--485
 
  []
 
 [8]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 510--542
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 514--546
 []$[]$ $[]$
  []
 
 [9]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 659--683
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 664--690
 []$[]$ $[]$ 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 757--759
+Underfull \hbox (badness 10000) in paragraph at lines 765--767
 
  []
 
 
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 763--792
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 771--800
 []$[]$ $[]$
  []
 
 [11]
-Overfull \hbox (123.93794pt too wide) in paragraph at lines 821--860
+Overfull \hbox (123.93794pt too wide) in paragraph at lines 829--868
 []  [] 
  []
 
@@ -1574,10 +1574,10 @@ Package rerunfilecheck Info: File `relazione.out' has not changed.
 (rerunfilecheck)             Checksum: 94B1DC936EC0249699404BC00BAD7833;3151.
  ) 
 Here is how much of TeX's memory you used:
- 43599 strings out of 476076
- 1000470 string characters out of 5793775
+ 43600 strings out of 476076
+ 1000484 string characters out of 5793775
  1956187 words of memory out of 5000000
- 64878 multiletter control sequences out of 15000+600000
+ 64879 multiletter control sequences out of 15000+600000
  666458 words of font info for 141 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  102i,22n,107p,866b,2725s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1589,7 +1589,7 @@ urier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fon
 ts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
 a/putri8a.pfb>
-Output written on relazione.pdf (16 pages, 139057 bytes).
+Output written on relazione.pdf (16 pages, 140008 bytes).
 PDF statistics:
  307 PDF objects out of 1000 (max. 8388607)
  268 compressed objects within 3 object streams
