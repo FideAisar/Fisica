@@ -170,25 +170,26 @@ Il test mostra che i periodi misurati con i cronometri analogico e digitale con 
 
 \newpage
 \section{Dipendenza dall’angolo}
-La prima parte dell'esperienza consiste nel verificare la dipendenza di $T$, periodo del pendolo a cui è stata attaccata una sferetta di legno di massa $m = (10 \pm 1)g$, da $\vartheta$, angolo di partenza.  Per prima cosa si procede alla misurazoine della lunghezza del pendolo. Attraverso l'asta graduata misuro prima la distanza da terra alla cima del pendolo ($L_C$) e poi la distanza da terra al centro della sfera appesa ($L_F$)\footnote{Avrei potuto misurare il diametro della sfera con il calibro e aggiungere il raggio della sfera successivamente invece che includerlo nelle misura di cima e fondo, tuttavia la sensibilità dell'asta e il fatto che questa non fosse perfettamente perpendicolare ha reso gli errori di $L_C$ e $L_F$ troppo grossolani rendendo così inutile la maggiore cura nella misura del raggio.}. 
+La prima parte dell'esperienza consiste nel verificare la dipendenza di $T$, periodo del pendolo a cui è stata attaccata una sferetta di legno di massa $m = (10 \pm 1)g$, da $\vartheta$, angolo di oscillazione.  Per prima cosa si procede alla misurazoine della lunghezza del pendolo. Con l'asta graduata misuro prima la distanza da terra alla cima del pendolo ($L_C$) e poi la distanza da terra al centro della sfera appesa ($L_F$)\footnote{Avrei potuto misurare il diametro della sfera con il calibro e aggiungere il raggio della sfera successivamente invece che includerlo nelle misura di cima e fondo, tuttavia la sensibilità dell'asta e il fatto che questa non fosse perfettamente perpendicolare ha reso gli errori di $L_C$ e $L_F$ troppo grossolani rendendo così inutile la maggiore cura nella misura del raggio.}. 
 
 \begin{table}[H]
 	\centering
-	\begin{tabular}{@{}cc@{}}
+	\begin{tabular}{@{}p{3.6cm}p{3.6cm}@{}}
 		\textbf{Cima} & \textbf{Fondo}\\ \midrule
 		$L_C(\text{cm}) \pm 0.1\text{cm}$  & $L_F(\text{cm}) \pm 0.1\text{cm}$ \\ \midrule
-		89.0 & 16.8  \\ \bottomrule
+		\multicolumn{1}{r}{89.0} \hspace{1.2cm} & \multicolumn{1}{r}{16.8}  \hspace{1.2cm}\\ \bottomrule
 	\end{tabular}
 \end{table}
 
 Ricavo quindi la lunghezza del pendolo:
 
 \[
-l = L_C + L_F = (72.2 \pm 0.2) \text{cm}. \footnote{Propago l'errore linearmente ($\left(0.1 + 0.1 \right)\text{cm} = 0.2\text{cm}$) perché essendo solo due misure (per di più effettuate con un asta graduata imperfetta) rischio di sottostimare l'errore sommandolo in quadratura}
+l = L_C - L_F = (72.2 \pm 0.2) \text{cm}. \footnote{Propago l'errore linearmente ($\left(0.1 + 0.1 \right)\text{cm} = 0.2\text{cm}$) perché essendo solo due misure (per di più effettuate con un asta graduata imperfetta) rischio di sottostimare l'errore sommandolo in quadratura}
 \] 
 
+\subsection{Acquisizione dati}
 
-A questo punto prendo tre misurazioni del periodo del pendolo,  partendo da un angolo di partenza di $5^\circ$. Continuo a prendere le misure avanzando di $5^\circ$ fino ad arrivare a $30^\circ$.	
+A questo punto prendo tre misurazioni del periodo del pendolo per 6 angoli di partenza differenti. Con l'ausilio di un goniometro con sensibilità di $1^\circ$, partendo da un angolo di oscillazione di $5^\circ$, registro tre misure. Faccio lo stesso con  $\vartheta = 10^\circ$, $\vartheta = 15^\circ$  fino ad arrivare a un angolo di $30^\circ$. Finita la presa dati ottengo i seguenti periodi:
 
 
 \vspace{0.7cm}
@@ -217,10 +218,10 @@ Dall'espressione del periodo del pendolo sappiamo che il periodo è direttamente
 \[
 T = T_0 \left[ 1 + \frac{1}{4}\sin{\left(\vartheta/2\right)}^2 \right]
 \]
-Se dovessi riportare su un grafico i periodi sperimentali in funzione di $x = \sin{\left(\vartheta/2\right)}^2$ mi aspetto quindi un andamento lineare e più precisamente una retta del tipo
+Se dovessi riportare su un grafico i periodi sperimentali in funzione di $y = \sin{\left(\vartheta/2\right)}^2$ mi aspetto quindi un andamento lineare e più precisamente una retta del tipo
 
 \[
-y = T_0 + \frac{T_0}{4}x
+T = T_0 + \frac{T_0}{4}y
 \]
 
 \noindent
@@ -229,7 +230,7 @@ Per verificare ciò mi avvalgo del metodo dei minimi quadrati...
 
 \newpage
 \subsection{Retta di best-fit}
-Appurato che $T$ e $\sin{\left(\vartheta/2\right)}^2$ siano \textit{teoricamente} linearmente correlati, è di mio interesse trovare quale retta della forma $y = A + Bx$ meglio interpola i dati sperimentali così da appurare se i valori misurati soddisfano la attesa teorica che $y$ sia lineare in $x$. 
+Appurato che $T$ e $\sin{\left(\vartheta/2\right)}^2$ siano \textit{teoricamente} linearmente correlati, è di mio interesse trovare quale retta della forma $T = a + by$ meglio interpola i dati sperimentali così da appurare se i valori misurati soddisfano la attesa teorica che $y$ sia lineare in $x$. 
 
 Posso fare questo avvalendomi del metodo dei minimi quadrati che ha  proprio lo scopo di determinare i parametri che legano due variabili legate da essi, nel mio caso due variabili $x$ e $y$ legati da due parametri $A$ e $B$. Questo metodo necessita di alcune assunzioni importanti: 
 
@@ -278,17 +279,18 @@ Per rispettare la seconda assunzione confronto gli errori relativi delle mie due
 \vspace{1cm}
 
 \noindent
-Come si può leggere nelle tabelle l'errore associato alle misure dei periodi è perfettamente trascurabile rispetto a quello associato al seno, quindi scelgo di portare le misure del periodo sull'asse $x$ e quelle del seno sull'asse $y$. 
+Come si può leggere nelle tabelle l'errore associato alle misure dei periodi è perfettamente trascurabile rispetto a quello associato al seno, quindi scelgo di portare le misure del periodo sull'asse $x$ e quelle del seno sull'asse $y$. \\
 
 \noindent
-Procedo al calcolo dei parametri $A$ e $B$ e dei rispettivi errori:
+La funzione da linearizzare non è più 
+\[
+T = a + by
+\]
+ma bensì
+\[
+y = \mathbf{A} + \mathbf{B}T
+\]
 
-\[
-\mathbf{A} = -3.68 \qquad \mathbf{\sigma_A} = 0.18
-\]
-\[
-\mathbf{B} = 2.16 \qquad \mathbf{\sigma_B} = 0.10
-\]
 
 
 \begin{minipage}{0.3\textwidth}
@@ -351,8 +353,14 @@ Procedo al calcolo dei parametri $A$ e $B$ e dei rispettivi errori:
 	\end{tikzpicture}
 \end{figure}
 \end{minipage}
-\vspace{1cm}
+\[
+\mathbf{A} = -3.68 \qquad \mathbf{\sigma_A} = 0.18
+\]
+\[
+\mathbf{B} = 2.16 \qquad \mathbf{\sigma_B} = 0.10
+\]
 
+\vspace{1.5cm}
 \noindent
 La retta di "best-fit" può fornire altre importanti informazioni: per esempio nella retta 
 \[
@@ -374,6 +382,68 @@ Ho quindi trovato anche il valore sperimentale del periodo delle piccole oscilla
 \mathbf{T_0} = (1.85 \pm 0.09)\text{s}
 \]
 \footnote{L'errore di $T_0$ è $\sigma_{T_0} = \sqrt{\left(\frac{\partial T_0}{\partial B}\sigma_{B}\right)^2} = \left|\frac{\partial T_0}{\partial B}\sigma_{B}\right| = \frac{4}{B^2}\sigma_B$}
+
+\subsubsection{Test del chi quadro}
+Visti i risultati ottenuti assumo che la retta trovata di parametri $\mathbf{A}$ e $\mathbf{B}$ si adatti bene all'andamento dei miei dati. Per assicurarmene effettuo un test del $\chi^2$
+
+\paragraph{Ipotesi nulla} La retta $y = A + Bx$ descrive bene l'andamento dei dati osservati sperimentalmente.
+
+\vspace{0.7cm}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lr} 
+		Livello di significatività $\alpha$		&$\quad 0.05$  \\
+		Valore di $\chi ^2$             	& $\quad 4.29$       \\
+		Numero di gradi di libertà      	& $\quad (6-2) = 4$         \\   
+		Valore di $\chi ^2$ critico     	& $\quad 9.49$
+	\end{tabular}
+\end{table}
+\vspace{0.7cm}
+
+\paragraph{Conclusione test} Il valore del $\chi^2$ ottenuto risulta essere minore del valore critico, posso quindi accettare l'ipotesi nulla e affermare che nei livelli di significatività scelti la retta $y = A + Bx$ descrive in modo accettabile l'andamento dei miei dati.
+
+\subsubsection{Test Z}
+Infine, appurato che la retta $y = A + Bx$ è una buona rappresentazione dell'andamento dei miei dati, mi interessa capire se l'andamento teorico lo è. Voglio quindi capire se l'equazione 
+\[
+\sin{\left(\vartheta/2\right)}^2 = 4\frac{T}{T_0} - 4
+\]
+
+che ha come parametri teorici
+\[
+A_\text{teo} = -4 \qquad B_\text{teo} =  \frac{4}{T_0}
+\]
+si adatta bene ai miei dati. Scelgo quindi un livello di significa $\alpha = 0.05$ con $z_{\text{critico}} = 1.96$ ed eseguo il test.
+
+\paragraph{Ipotesi nulla} I valori $A_{\text{teo}}$, $\mathbf{A}$ e  $B_{\text{teo}}$, $\mathbf{B}$ sono a due a due compatibili.
+
+\vspace{0.7cm}
+\begin{minipage}{0.5\textwidth}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lr} 
+		Livello di significatività $\alpha$		&$\quad 0.05$  \\
+		\textbf{B} sperimentale				& $\quad2.16 \pm  0.10$\\
+		\textbf{B} teorico					& $\quad4/T_0$ \\
+		$z_{B}$ osservato 					& $\quad$1.78 \\
+		Valore di $Z$ critico     	& $\quad 1.96$
+	\end{tabular}
+\end{table}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lr} 
+		Livello di significatività $\alpha$		&$\quad 0.05$  \\
+		\textbf{A} sperimentale             	& $\quad-3.68 \pm 0.18 $     \\
+		\textbf{A} teorico					&  $\quad-4$\\
+		$z_{A}$ osservato					& 1.79 \\ 
+		Valore di $Z$ critico     	& $\quad 1.96$
+	\end{tabular}
+\end{table}
+\end{minipage}
+\vspace{0.7cm}
+
+\paragraph{Conclusione test} Poiché sia per $\mathbf{A}$ sia per $\mathbf{B}$ risulta che $z_{\text{oss}}$ < $z_{\text{critico}}$ posso affermare che entrambi sono compatibili con i rispettivi valori teorici nei livelli di significaticità scelti e che quindi l'equazione teorica della retta è una buona rappresentazione dell'andamento dei miei dati.
 
 \subsection{Determinazione dell'accelerazione di gravità g}
 Sappiamo le piccole oscillazioni del pendolo hanno periodo descritto da
@@ -415,7 +485,7 @@ Infine è bene verificare l'accordo tra $g$ da me calcolato e $G = 9.81 ms^{-2}$
 
 \paragraph{Ipotesi nulla} Il valore $g$ da me calcolato è compatibile con il valore vero $G$ accelerazione di gravità terrestre.
 
-
+\vspace{0.7cm}
 \begin{table}[H]
 	\centering
 	\begin{tabular}{lr}
@@ -424,6 +494,7 @@ Infine è bene verificare l'accordo tra $g$ da me calcolato e $G = 9.81 ms^{-2}$
 		Valore di $z_{\text{critico}}$ 		& $\quad 1.96$  \\ 
 	\end{tabular}
 \end{table}
+\vspace{0.7cm}
 
 \noindent
 Poiché $z_\text{oss}$ < $z_{\text{critico}}$ posso concludere che con un livello di significatività del 5\% $g$ risulta essere compatibile con $G$.
@@ -471,7 +542,7 @@ Come ho fatto per il fit lineare, controllo quale delle due variabili, $T$ e $ \
 
 
 \noindent
-In questo caso, al contrario del fit lineare, non posso invertire le variabili per mettere \textcolor{red}{non ho capito}
+Se per il fit lineare ho potuto invertire le variabili con l'intento di mettere sull'asse $x$ la variabile con errore trascurabile, per il fit parabolico non posso farlo; andrei infatti a graficare l'equazione di una radice quadrata perdendo di fatto le informazioni che mi interessa trovare: i parametri \textbf{A}, \textbf{B} e \textbf{C} della parabola che meglio interpola i dati sperimentali.
 
 \vspace{1cm}
 \hspace{-1cm}
@@ -481,8 +552,8 @@ In questo caso, al contrario del fit lineare, non posso invertire le variabili p
 	\begin{tikzpicture}
 		\begin{axis}[
 			title={Periodo in funzione di $\vartheta$ (parabolico)},
-			ylabel={$y = T(s)$},
-			xlabel={$x = \sin{\left( \vartheta / 2\right) }$},
+			ylabel={$x = T(s)$},
+			xlabel={$y = \sin{\left( \vartheta / 2\right) }$},
 			xmin=0, xmax=0.26,
 			ymin=1.700, ymax=1.732,
 			xtick={},
@@ -515,7 +586,7 @@ In questo caso, al contrario del fit lineare, non posso invertire le variabili p
 			color=red, 
 			] 
 			{0.35725602*x^2 + 0.0252062*x + 1.700522};
-			\legend{Dati,$y=A+Bx+Cx^2$}
+			\legend{Dati,$x=A+By+Cy^2$}
 		\end{axis}
 	\end{tikzpicture}
 \end{figure}
@@ -546,6 +617,29 @@ In questo caso, al contrario del fit lineare, non posso invertire le variabili p
 \]
 \vspace{0.2cm}
 
+
+\subsubsection{Test del chi quadro}
+Assumendo che la parabola trovata $x=A+By+Cy^2$ si adatti bene all'andamento dei dati scelgo un livello di significatività $\alpha = 0.05$ ed eseguo il test.
+
+\paragraph{Ipotesi nulla} La parabola con parametri \textbf{A},\textbf{B} e \textbf{C} si adatta bene all'andamento dei miei dati.
+
+\vspace{0.7cm}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lr} 
+		Livello di significatività $\alpha$		&$\quad 0.05$  \\
+		Valore di $\chi ^2$             		& $\quad 0.96$       \\
+		Numero di gradi di libertà      		& $\quad (6-3) = 3$         \\   
+		Valore di $\chi ^2$ sospetto			& $\quad 0.35$ \\
+		Valore di $\chi ^2$ critico     		& $\quad 7.8$
+	\end{tabular}
+\end{table}
+\vspace{0.7cm}
+
+\paragraph{Conclusione test}
+Il valore del chi quadro calcolato risulta essere compreso tra il valore sospetto e quello critico: $\chi^2_\text{sospetto} < \chi ^2 < \chi^2_\text{critico}$ posso quindi affermare che, con livello di significatività del 5\%, la parabola descritta dai parametri \textbf{A},\textbf{B} e \textbf{C} si adatta bene all'andamento dei miei dati.
+
+
 \subsubsection{Test Z}
 Per constatare se la parabola descrive bene l'andamento dei miei dati (graficamente sembrerebbe farlo) vado a confrontare i parametri ottenuti con quelli teorici. La parabola teorica 
 \[
@@ -561,18 +655,46 @@ Procedo quindi con un Test Z per verificare la compatibilità tra i valori:
 
 \paragraph{Ipotesi nulla} I parametri della parabola sperimentale sono compatibili con i parametri della parabola teorica.
 
-\begin{table}[H]
-	\centering
-	\begin{tabular}{@{}rp{3cm}p{2cm}p{2cm}@{}}
-		
-		&\textbf{Sperimentali} & \textbf{Teorici} & $z_{\text{oss}}$ \\ \cmidrule(r){2-4}
-		\textbf{A}&$1.700 \pm 0.0018 $		& $1.704$	& 1.774 \\
-		\textbf{B}&$0.0252 \pm  0.0273$		& 0 		& 0.923 \\
-		\textbf{C}&$0.357 \pm 0.088$		& 0.426 	& 0.778 \\ \cmidrule(r){2-4}
-	\end{tabular}
-\end{table}
+\vspace{0.7cm}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{lr} 
+			Livello di significatività $\alpha$		&$\quad 0.05$  \\
+			\textbf{A} sperimentale				& $\quad1.700 \pm 0.0018 $\\
+			\textbf{A} teorico					&  $\quad1.704$ \\
+			$z_{A}$ osservato 					& $\quad$1.78 \\
+			Valore di $Z$ critico     	& $\quad 1.96$
+		\end{tabular}
+	\end{table}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{lr} 
+			Livello di significatività $\alpha$		&$\quad 0.05$  \\
+			\textbf{B} sperimentale				& $\quad0.0252 \pm  0.0273$	\\
+			\textbf{B} teorico					& $\quad 0$ \\
+			$z_{B}$ osservato 					& $\quad$1.78 \\
+			Valore di $Z$ critico     	& $\quad 1.96$
+		\end{tabular}
+	\end{table}
+\end{minipage}
 
-da cui concludo che con un livello di significatività del 5\%, e quindi con un valore $z_{\text{critico}} = 1.96$, tutti i parametri risultano essere compatibili con le aspettative teoriche.
+\begin{table}[H]
+		\centering
+		\begin{tabular}{lr} 
+			Livello di significatività $\alpha$		&$\quad 0.05$  \\
+			\textbf{C} sperimentale             	& $\quad0.357 \pm 0.088$     \\
+			\textbf{C} teorico					&  $\quad 0.426 $\\
+			$z_{C}$ osservato					& 1.79 \\ 
+			Valore di $Z$ critico     	& $\quad 1.96$
+		\end{tabular}
+\end{table}
+\vspace{0.7cm}
+
+\paragraph{Conclusione test}
+Poiché ogni $z_\text{oss}$ risulta minore dello $z_\text{critico}$,  concludo che con un livello di significatività del 5\%, tutti i parametri risultano essere compatibili con le aspettative teoriche.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%				DIPENDENZA ELLE     LLLLL
@@ -580,28 +702,75 @@ da cui concludo che con un livello di significatività del 5\%, e quindi con un 
 
 \newpage
 \section{Dipendenza dalla lunghezza}
+\subsection{Acquisizione dati}
+Per prima cosa procedo con le misurazioni di 5 pendoli di 5 diverse lunghezze. Con l'ausilio dell'asta graduata, come fatto in precedenza, misuro prima la distanza da terra alla cima del pendolo ($L_C$) e poi la distanza da terra al centro della sfera appesa ($L_F$). Come errore su $l$ associo 2 volte la sensibilità dell'asta.
+\[
+l_i = L_C - L_{F_i} \qquad i= 1, \dots, 5
+\]
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}ccccc@{}}
+		$\mathbf{l_1}$ & $\mathbf{l_2}$ & $\mathbf{l_3}$ & $\mathbf{l_4}$ & $\mathbf{l_5}$  \\ \midrule
+		$l_1(\text{cm}) \pm 0.2\text{cm}$  & $l_2(\text{cm}) \pm 0.2\text{cm}$  & $l_3(\text{cm}) \pm 0.2\text{cm}$ & $l_4(\text{cm}) \pm 0.2\text{cm}$ & $l_5(\text{cm}) \pm 0.2\text{cm}$\\ \midrule
+		\multicolumn{1}{r}{60.2} & \multicolumn{1}{r}{26.7} & \multicolumn{1}{r}{14.5} & \multicolumn{1}{r}{63.0} & \multicolumn{1}{r}{54.8}\\ \bottomrule
+	\end{tabular}
+\end{table}
+
+
+
+Come per lo studio del periodo in funzione dell'angolo di oscillazione, anche in questo caso registro tre misure del periodo per ogni sua lunghezza lunghezza scelta per un totale di 5 lunghezze differenti.
+
+\vspace{0.7cm}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}lrrrrr@{}}
+		& $\mathbf{l_1}$ & $\mathbf{l_2}$ & $\mathbf{l_3}$ & $\mathbf{l_4}$ & $\mathbf{l_5}$  \\ \cmidrule(l){2-6}   
+		& $T(s) \pm 0.001s$ & $T(s) \pm 0.001s$   & $T(s) \pm 0.001s$ & $T(s) \pm 0.001s$ & $T(s) \pm 0.001s$  \\ \cmidrule(l){2-6} 
+		
+		\multicolumn{1}{c}{}  
+		
+		& 1.504 & 0.964 & 0.663 & 1.556 & 1.437 \\
+		& 1.504 & 0.962 & 0.662 & 1.558 & 1.437 \\
+		& 1.502 & 0.962 & 0.663 & 1.555 & 1.436 \\
+		
+		\arrayrulecolor{black!100}\specialrule{1.2pt}{0.5\jot}{0.5pc}
+		
+		$\mathbf{\bar{T}(s)}$ & \textbf{1.503} & \textbf{0.9627} & \textbf{0.6627} & \textbf{1.556} & \textbf{1.437}     
+	\end{tabular}
+\end{table}
+\textcolor{red}{capire se aggiungere errori per T medi.}
+
+
+	
+
+\vspace{1cm}
+
 
 \subsection{Retta di best-fit}
 Ricordando l'espressione teorica del periodo del pendolo è possibile evidenziare la relazione lineare tra $T^2$ (il periodo al quadrato) e  $l$ (lunghezza del pendolo):
 \[
 T = 2\pi \sqrt{\frac{l}{g}} \left( 1 + \frac{1}{4}\sin{\left(\vartheta/2\right)}^2 \right) \qquad T^2 = 4 \pi^2 \frac{l}{g} \left( 1 + \frac{1}{4}\sin{\left(\vartheta/2\right)}^2 \right)^2
 \]
+\[
+T^2 = C_3 l
+\]
+con $C_3 =  \frac{4 \pi^2}{g} \left( 1 + \frac{1}{4}\sin{\left(\vartheta/2\right)}^2 \right)^2$ \\
 
-
+\noindent
 Per applicare al meglio il metodo dei minimi quadrati controllo sempre quale delle due variabili ha errore relativo più piccolo.
 
 \begin{minipage}{0.5\textwidth}
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{@{}ccc@{}}
-			\multicolumn{3}{c}{$\mathbf{T}$} \\ \midrule
-			$T(s)$ & $\delta_T (s)$ & $\delta_T / T$ \\ \midrule
-			1.702 & 0.001 & \textbf{0.000339} \\
-			1.706 & 0.001 & \textbf{0.000338} \\
-			1.710 & 0.001 & \textbf{0.000337} \\
-			1.715 & 0.001 & \textbf{0.000336} \\
-			1.723 & 0.001 & \textbf{0.000335} \\
-			1.731 & 0.001 & \textbf{0.000333}  \\ \bottomrule   
+			\multicolumn{3}{c}{$\mathbf{T^2}$} \\ \midrule
+			$T^2(s)$ & $\delta_{T^2} (s)$ & $\delta_{T^2} / T^2$ \\ \midrule
+			2.26 & 0.00301 & \textbf{0.00133 }\\
+			0.926 & 0.00193 & \textbf{0.00208} \\
+			0.439 & 0.00133 & \textbf{0.00302} \\
+			2.422 & 0.00311 & \textbf{0.00129} \\
+			2.064 & 0.00287 & \textbf{0.00139}  \\ \bottomrule   
 		\end{tabular}
 	\end{table}
 \end{minipage}
@@ -609,32 +778,54 @@ Per applicare al meglio il metodo dei minimi quadrati controllo sempre quale del
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{@{}ccc@{}}
-			
-			\multicolumn{3}{c}{$y = \mathbf{sin{\left(\vartheta/2\right)}}$} \\ \midrule
-			$y$ & $\delta_y$ & $\delta_y / y$ \\ \midrule
-			0.044 & 0.00869 & \textbf{0.199} \\
-			0.087 & 0.00867 & \textbf{0.099} \\
-			0.131 & 0.00863 & \textbf{0.066} \\
-			0.174 & 0.00857 & \textbf{0.049} \\
-			0.216 & 0.00849 & \textbf{0.039} \\
-			0.259 & 0.00840 & \textbf{0.032}  \\ \bottomrule  
+			\multicolumn{3}{c}{\textbf{l}} \\ \midrule
+			$l$ & $\delta_l$ & $\delta_l / l$ \\ \midrule
+			60.20 & 0.2 & \textbf{0.00332} \\
+			26.70 & 0.2 & \textbf{0.00749} \\
+			14.50 & 0.2 & \textbf{0.0138} \\
+			63.00 & 0.2 & \textbf{0.00317} \\
+			54.80 & 0.2 & \textbf{0.00364} \\ \bottomrule  
 		\end{tabular}
 	\end{table}
 \end{minipage}
 \vspace{1cm}
 
+\noindent
+L'errore associato a $l$ risulta essere significativamente più grande di quello su $T^2$ quindi decido di invertire la relazione per poter mettere sull'asse $x$ il periodo al quadrato:
+\[
+ l = \frac{1}{C_3} T^2
+\]
 
+\[
+\mathbf{A} = 3.745 \qquad \mathbf{\sigma_A} = 0.204
+\]
+\[
+\mathbf{B} = 24.713 \qquad \mathbf{\sigma_B} = 0.113
+\]
 
-
+\begin{minipage}{0.3\textwidth}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}ll@{}}
+			$T^2(s) \pm \delta_{T^2}$ & \multicolumn{1}{l}{$l \pm \delta_l$} \\ \midrule
+			2.260&60.2    \\
+			0.927&26.7    \\
+			0.439&14.4    \\
+			2.422&63.0    \\
+			2.064&54.8    \\	\bottomrule
+		\end{tabular}
+	\end{table}	
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
 \begin{figure}[H]
-	\centering
+	\hspace{1cm}
 	\begin{tikzpicture}
 		\begin{axis}[
 			title={Analisi dei Nuovi Dati},
 			xlabel={Valore X},
 			ylabel={Valore Y},
-			xmin=0, xmax=2.5,
-			ymin=0, ymax=70,
+			xmin=0.4, xmax=2.5,
+			ymin=10, ymax=70,
 			xtick={0,0.5,1,1.5,2,2.5},
 			ytick={0,10,20,30,40,50,60,70},
 			legend pos=north west,
@@ -666,17 +857,54 @@ Per applicare al meglio il metodo dei minimi quadrati controllo sempre quale del
 			\legend{Dati}
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Rappresentazione grafica dei dati sperimentali con errori.}
 \end{figure}
+\end{minipage}
 
+
+
+
+\subsubsection{Test del chi quadro}
+Visti i risultati ottenuti assumo che la retta trovata di parametri $\mathbf{A}$ e $\mathbf{B}$ si adatti bene all'andamento dei miei dati. Per assicurarmene effettuo un test del $\chi^2$
+
+\paragraph{Ipotesi nulla} La retta $y = A + Bx$ descrive bene l'andamento dei dati osservati sperimentalmente.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lr} 
+		Livello di significatività $\alpha$		&$\quad 0.05$  \\
+		Valore di $\chi ^2$             	& $\quad 4.29$       \\
+		Numero di gradi di libertà      	& $\quad (6-2) = 4$         \\   
+		Valore di $\chi ^2$ critico     	& $\quad 9.49$
+	\end{tabular}
+\end{table}
+
+\paragraph{Conclusione test} Il valore del $\chi^2$ ottenuto risulta essere minore del valore critico, posso quindi accettare l'ipotesi nulla e affermare che nei livelli di significatività scelti la retta $y = A + Bx$ descrive in modo accettabile l'andamento dei miei dati.
+
+\subsubsection{Test Z}
+Infine, appurato che la retta $y = A + Bx$ è una buona rappresentazione dell'andamento dei miei dati, mi interessa capire se l'andamento teorico lo è. Voglio quindi capire se l'equazione 
 \[
-\mathbf{A} = 1.70 \qquad \mathbf{\sigma_A} = 0.0018
+\sin{\left(\vartheta/2\right)}^2 = 4\frac{T}{T_0} - 4
 \]
+
+che ha come parametri teorici
 \[
-\mathbf{B} = 0.0252 \qquad \mathbf{\sigma_B} = 0.0273
+A_\text{teo} = -4 \qquad B_\text{teo} =  \frac{4}{T_0}
 \]
+si adatta bene ai miei dati. Scelgo quindi un livello di significa $\alpha = 0.05$ con $z_{\text{critico}} = 1.96$ ed eseguo il test.
 
+\paragraph{Ipotesi nulla} I valori $A_{\text{teo}}$, $\mathbf{A}$ e  $B_{\text{teo}}$, $\mathbf{B}$ sono a due a due compatibili.
 
+\begin{table}[H]
+	\centering
+	\begin{tabular}{@{}rp{3cm}p{2cm}p{2cm}@{}}
+		
+		&\textbf{Sperimentali} & \textbf{Teorici} & $z_{\text{oss}}$ \\ \cmidrule(r){2-4}
+		\textbf{A}	&$-3.68 \pm 0.18 $		& $-4$	& 1.79 \\
+		\textbf{B}	&$2.16 \pm  0.10$		& $4/T_0$ 		& 1.78 \\
+	\end{tabular}
+\end{table}
+
+\paragraph{Conclusione test} Poiché sia per $\mathbf{A}$ sia per $\mathbf{B}$ risulta che $z_{\text{oss}}$ < $z_{\text{critico}}$ posso affermare che entrambi sono compatibili con i rispettivi valori teorici nei livelli di significaticità scelti e che quindi l'equazione teorica della retta è una buona rappresentazione dell'andamento dei miei dati.
 
 
 
@@ -686,7 +914,7 @@ Per applicare al meglio il metodo dei minimi quadrati controllo sempre quale del
 
 \newpage
 \section{Dipendenza dalla massa}
-
+Come si può osservare dall'equazione del periodo, questo non è teoricamente influenzato dalla massa appesa ad esso. Tuttavia, sperimentalmente, la massa potrebbe portare a delle più o meno lievi variazioni
 
 
 

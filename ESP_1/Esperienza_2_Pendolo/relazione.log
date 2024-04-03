@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  1 APR 2024 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  3 APR 2024 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1502,60 +1502,85 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 173.
 
-Overfull \hbox (6.89594pt too wide) in paragraph at lines 215--217
+Overfull \hbox (6.89594pt too wide) in paragraph at lines 216--218
 \T1/futs/m/n/10 Dall'espressione del pe-ri-odo del pen-dolo sap-pi-amo che il p
 e-ri-odo è di-ret-ta-mente pro-porzionale a $[] [][]$,
  []
 
 [4]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 246--279
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 247--280
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 294--355
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
+
+ []
+
+
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 296--356
+[]$[]$ $[]$ 
+ []
+
+[5] [6]
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 420--445
 []$[]$ $[]$
  []
 
-[5]
-Overfull \hbox (22.37354pt too wide) in paragraph at lines 382--384
+
+Overfull \hbox (22.37354pt too wide) in paragraph at lines 452--454
 \T1/futs/m/n/10 (72\FML/futmi/m/it/10 :\T1/futs/m/n/10 2 \FMS/futm/m/n/10 ^^F \
 T1/futs/m/n/10 0\FML/futmi/m/it/10 :\T1/futs/m/n/10 2)$cm. Dall'equazione prece
 -dente (e ri-cor-dando che $\FML/futmi/m/it/10 T[] \T1/futs/m/n/10 = 4\FML/futm
 i/m/it/10 =B$\T1/futs/m/n/10 ) tro-vi-amo l'espressione dell'accelerazione
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
-
- []
-
 [7]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 439--471
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
+
+ []
+
+[8]
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 510--542
 []$[]$ $[]$
  []
 
-[8] [9]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 593--625
+[9]
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 659--683
+[]$[]$ $[]$ 
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 757--759
+
+ []
+
+
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 763--792
 []$[]$ $[]$
  []
 
-[10] [11] [12] (./relazione.aux (./titlepage.aux))
+[11]
+Overfull \hbox (123.93794pt too wide) in paragraph at lines 821--860
+[]  [] 
+ []
+
+[12] [13] [14] [15] (./relazione.aux (./titlepage.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `relazione.out' has not changed.
-(rerunfilecheck)             Checksum: DDA9261DF5CCEE0F60DB7ABE0A7014D7;2141.
+(rerunfilecheck)             Checksum: 94B1DC936EC0249699404BC00BAD7833;3151.
  ) 
 Here is how much of TeX's memory you used:
- 43560 strings out of 476076
- 999919 string characters out of 5793775
+ 43599 strings out of 476076
+ 1000470 string characters out of 5793775
  1956187 words of memory out of 5000000
- 64874 multiletter control sequences out of 15000+600000
- 665499 words of font info for 138 fonts, out of 8000000 for 9000
+ 64878 multiletter control sequences out of 15000+600000
+ 666458 words of font info for 141 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,21n,107p,869b,2725s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,22n,107p,866b,2725s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/font
 s/type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1564,10 +1589,10 @@ urier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fon
 ts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
 a/putri8a.pfb>
-Output written on relazione.pdf (13 pages, 127178 bytes).
+Output written on relazione.pdf (16 pages, 139057 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
