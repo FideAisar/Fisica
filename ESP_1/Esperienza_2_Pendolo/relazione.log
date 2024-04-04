@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  3 APR 2024 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  4 APR 2024 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1467,8 +1467,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 \newpage
-              [1
+l.55 	\newpage
+               [1
 
 
 ]
@@ -1508,27 +1508,27 @@ e-ri-odo è di-ret-ta-mente pro-porzionale a $[] [][]$,
  []
 
 [4]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 247--280
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 246--279
 []$[]$ $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--283
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
 
  []
 
 
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 296--356
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 295--360
 []$[]$ $[]$ 
  []
 
 [5] [6]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 421--448
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 419--446
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (22.37354pt too wide) in paragraph at lines 455--457
+Overfull \hbox (22.37354pt too wide) in paragraph at lines 453--455
 \T1/futs/m/n/10 (72\FML/futmi/m/it/10 :\T1/futs/m/n/10 2 \FMS/futm/m/n/10 ^^F \
 T1/futs/m/n/10 0\FML/futmi/m/it/10 :\T1/futs/m/n/10 2)$cm. Dall'equazione prece
 -dente (e ri-cor-dando che $\FML/futmi/m/it/10 T[] \T1/futs/m/n/10 = 4\FML/futm
@@ -1536,51 +1536,83 @@ i/m/it/10 =B$\T1/futs/m/n/10 ) tro-vi-amo l'espressione dell'accelerazione
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 483--485
+Underfull \hbox (badness 10000) in paragraph at lines 481--483
 
  []
 
-[8]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 514--546
+
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 511--543
 []$[]$ $[]$
  []
 
-[9]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 664--690
+[8] [9]
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 660--686
 []$[]$ $[]$ 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 765--767
+Underfull \hbox (badness 10000) in paragraph at lines 716--718
 
  []
 
 
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 771--800
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 766--795
 []$[]$ $[]$
  []
 
 [11]
-Overfull \hbox (123.93794pt too wide) in paragraph at lines 829--868
+Overfull \hbox (125.06795pt too wide) in paragraph at lines 824--863
 []  [] 
  []
 
-[12] [13] [14] [15] (./relazione.aux (./titlepage.aux))
+
+Overfull \hbox (1.18794pt too wide) in paragraph at lines 885--886
+ []\T1/futs/b/n/10 Conclusione test[] \T1/futs/m/n/10 Il val-ore del $\FML/futm
+i/m/it/10 ^^_[]$ \T1/futs/m/n/10 ot-tenuto risulta es-sere mag-giore del val-or
+e critico, ri-fi-uto quindi l'ipotesi
+ []
+
+[12]
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (125.06795pt too wide) in paragraph at lines 914--952
+[]  [] 
+ []
+
+
+Overfull \hbox (10.94144pt too wide) in paragraph at lines 957--958
+\T1/futs/m/n/10 Dal test del chi quadro ho ap-pu-rato che la retta $\FML/futmi/
+m/it/10 y \T1/futs/m/n/10 = \FML/futmi/m/it/10 A \FMS/futm/m/n/10 € \FML/futmi/
+m/it/10 Bx$ \T1/futs/m/n/10 non è una buona rap-p-re-sen-tazione dell'andamento
+
+ []
+
+
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 971--998
+[]$[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 999--1000
+
+ []
+
+[13] [14] [15] [16] (./relazione.aux (./titlepage.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `relazione.out' has not changed.
-(rerunfilecheck)             Checksum: 94B1DC936EC0249699404BC00BAD7833;3151.
+(rerunfilecheck)             Checksum: F656C070C05DAD3C792D0E8D72DF1983;3297.
  ) 
 Here is how much of TeX's memory you used:
- 43600 strings out of 476076
- 1000484 string characters out of 5793775
- 1956187 words of memory out of 5000000
- 64879 multiletter control sequences out of 15000+600000
- 666458 words of font info for 141 fonts, out of 8000000 for 9000
+ 43621 strings out of 476076
+ 1000819 string characters out of 5793775
+ 1957187 words of memory out of 5000000
+ 64891 multiletter control sequences out of 15000+600000
+ 666875 words of font info for 143 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,22n,107p,866b,2725s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,22n,107p,867b,2725s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/font
 s/type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1589,10 +1621,10 @@ urier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fon
 ts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
 a/putri8a.pfb>
-Output written on relazione.pdf (16 pages, 140008 bytes).
+Output written on relazione.pdf (17 pages, 147427 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 268 compressed objects within 3 object streams
- 89 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

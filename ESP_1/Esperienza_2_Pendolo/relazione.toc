@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {5.1}Acquisizione dati}{4}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Retta di best-fit}{5}{subsection.5.2}%
 \contentsline {subsubsection}{\numberline {5.2.1}Test del chi quadro}{6}{subsubsection.5.2.1}%
-\contentsline {paragraph}{Ipotesi nulla}{7}{section*.12}%
+\contentsline {paragraph}{Ipotesi nulla}{6}{section*.12}%
 \contentsline {paragraph}{Conclusione test}{7}{section*.14}%
 \contentsline {subsubsection}{\numberline {5.2.2}Test Z}{7}{subsubsection.5.2.2}%
 \contentsline {paragraph}{Ipotesi nulla}{7}{section*.15}%
@@ -14,11 +14,11 @@
 \contentsline {subsection}{\numberline {5.3}Determinazione dell'accelerazione di gravità g}{7}{subsection.5.3}%
 \contentsline {subsubsection}{\numberline {5.3.1}Test Z}{8}{subsubsection.5.3.1}%
 \contentsline {paragraph}{Ipotesi nulla}{8}{section*.19}%
-\contentsline {subsection}{\numberline {5.4}Parabola di best-fit}{9}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {5.4.1}Test del chi quadro}{10}{subsubsection.5.4.1}%
-\contentsline {paragraph}{Ipotesi nulla}{10}{section*.25}%
-\contentsline {paragraph}{Conclusione test}{10}{section*.27}%
-\contentsline {subsubsection}{\numberline {5.4.2}Test Z}{10}{subsubsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4}Parabola di best-fit}{8}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Test del chi quadro}{9}{subsubsection.5.4.1}%
+\contentsline {paragraph}{Ipotesi nulla}{9}{section*.25}%
+\contentsline {paragraph}{Conclusione test}{9}{section*.27}%
+\contentsline {subsubsection}{\numberline {5.4.2}Test Z}{9}{subsubsection.5.4.2}%
 \contentsline {paragraph}{Ipotesi nulla}{10}{section*.28}%
 \contentsline {paragraph}{Conclusione test}{10}{section*.32}%
 \contentsline {section}{\numberline {6}Dipendenza dalla lunghezza}{11}{section.6}%
@@ -26,9 +26,10 @@
 \contentsline {subsection}{\numberline {6.2}Retta di best-fit}{11}{subsection.6.2}%
 \contentsline {subsubsection}{\numberline {6.2.1}Test del chi quadro}{12}{subsubsection.6.2.1}%
 \contentsline {paragraph}{Ipotesi nulla}{12}{section*.39}%
-\contentsline {paragraph}{Conclusione test}{12}{section*.41}%
-\contentsline {subsubsection}{\numberline {6.2.2}Test Z}{12}{subsubsection.6.2.2}%
-\contentsline {paragraph}{Ipotesi nulla}{13}{section*.42}%
-\contentsline {paragraph}{Conclusione test}{13}{section*.44}%
-\contentsline {section}{\numberline {7}Dipendenza dalla massa}{14}{section.7}%
-\contentsline {section}{\numberline {8}Conclusioni}{15}{section.8}%
+\contentsline {paragraph}{Conclusione test}{13}{section*.41}%
+\contentsline {subsubsection}{\numberline {6.2.2}Test Z}{13}{subsubsection.6.2.2}%
+\contentsline {paragraph}{Ipotesi nulla}{13}{section*.44}%
+\contentsline {paragraph}{Conclusione test}{14}{section*.47}%
+\contentsline {section}{\numberline {7}Dipendenza dalla massa}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Acquisizione dati}{15}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Conclusioni}{16}{section.8}%
