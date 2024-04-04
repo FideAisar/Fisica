@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  4 APR 2024 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  5 APR 2024 01:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1432,29 +1432,29 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
 /enc/dvips/base/8r.enc}]) (./relazione.toc
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line
- 6.
+ 4.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 6.
+(Font)              scaled to size 9.19998pt on input line 4.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 6.
+(Font)              scaled to size 6.99199pt on input line 4.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 6.
+(Font)              scaled to size 5.51999pt on input line 4.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 6.
+(Font)              scaled to size 9.19998pt on input line 4.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 6.
+(Font)              scaled to size 6.99199pt on input line 4.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 6.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+(Font)              scaled to size 5.51999pt on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1472,101 +1472,108 @@ l.55 	\newpage
 
 
 ]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 111.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 111.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 111.
+LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
+91.
+ (/usr/share/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 91.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 91.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 91.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 91.
 
-Overfull \hbox (12.65659pt too wide) in paragraph at lines 119--136
+[2]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 108.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 108.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 108.
+
+Overfull \hbox (12.65659pt too wide) in paragraph at lines 137--154
  [][] 
  []
 
 
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 95--139
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 113--157
 []$[]$ $[]$
  []
 
-[2] [3]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 173.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 173.
+[3]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 173.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 195.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6.8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 173.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 173.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 173.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 195.
 
-Overfull \hbox (6.89594pt too wide) in paragraph at lines 216--218
+Overfull \hbox (6.89594pt too wide) in paragraph at lines 224--226
 \T1/futs/m/n/10 Dall'espressione del pe-ri-odo del pen-dolo sap-pi-amo che il p
 e-ri-odo è di-ret-ta-mente pro-porzionale a $[] [][]$,
  []
 
 [4]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 246--279
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 250--283
 []$[]$ $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--282
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 295--360
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 299--364
 []$[]$ $[]$ 
  []
 
-[5] [6]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 419--446
+[5]
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 423--450
 []$[]$ $[]$
  []
 
-
-Overfull \hbox (22.37354pt too wide) in paragraph at lines 453--455
+[6]
+Overfull \hbox (22.37354pt too wide) in paragraph at lines 457--459
 \T1/futs/m/n/10 (72\FML/futmi/m/it/10 :\T1/futs/m/n/10 2 \FMS/futm/m/n/10 ^^F \
 T1/futs/m/n/10 0\FML/futmi/m/it/10 :\T1/futs/m/n/10 2)$cm. Dall'equazione prece
 -dente (e ri-cor-dando che $\FML/futmi/m/it/10 T[] \T1/futs/m/n/10 = 4\FML/futm
 i/m/it/10 =B$\T1/futs/m/n/10 ) tro-vi-amo l'espressione dell'accelerazione
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 481--483
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--487
 
  []
 
-
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 511--543
+[7]
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 515--547
 []$[]$ $[]$
  []
 
 [8] [9]
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 660--686
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 664--690
 []$[]$ $[]$ 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 716--718
+Underfull \hbox (badness 10000) in paragraph at lines 720--722
 
  []
 
 
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 766--795
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 770--799
 []$[]$ $[]$
  []
 
 [11]
-Overfull \hbox (125.06795pt too wide) in paragraph at lines 824--863
+Overfull \hbox (125.06795pt too wide) in paragraph at lines 828--867
 []  [] 
  []
 
 
-Overfull \hbox (1.18794pt too wide) in paragraph at lines 885--886
+Overfull \hbox (1.18794pt too wide) in paragraph at lines 889--890
  []\T1/futs/b/n/10 Conclusione test[] \T1/futs/m/n/10 Il val-ore del $\FML/futm
 i/m/it/10 ^^_[]$ \T1/futs/m/n/10 ot-tenuto risulta es-sere mag-giore del val-or
 e critico, ri-fi-uto quindi l'ipotesi
@@ -1575,12 +1582,12 @@ e critico, ri-fi-uto quindi l'ipotesi
 [12]
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (125.06795pt too wide) in paragraph at lines 914--952
+Overfull \hbox (125.06795pt too wide) in paragraph at lines 918--956
 []  [] 
  []
 
 
-Overfull \hbox (10.94144pt too wide) in paragraph at lines 957--958
+Overfull \hbox (10.94144pt too wide) in paragraph at lines 961--962
 \T1/futs/m/n/10 Dal test del chi quadro ho ap-pu-rato che la retta $\FML/futmi/
 m/it/10 y \T1/futs/m/n/10 = \FML/futmi/m/it/10 A \FMS/futm/m/n/10 € \FML/futmi/
 m/it/10 Bx$ \T1/futs/m/n/10 non è una buona rap-p-re-sen-tazione dell'andamento
@@ -1588,31 +1595,42 @@ m/it/10 Bx$ \T1/futs/m/n/10 non è una buona rap-p-re-sen-tazione dell'andamento
  []
 
 
-Overfull \hbox (16.56999pt too wide) in paragraph at lines 971--998
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 975--1002
 []$[]$ $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 999--1000
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
 
  []
 
-[13] [14] [15] [16] (./relazione.aux (./titlepage.aux))
+[13] [14]
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 1065--1095
+[]$[]$ $[]$ 
+ []
+
+[15]
+Overfull \hbox (1.61278pt too wide) in paragraph at lines 1097--1098
+\T1/futs/m/n/10 cludo af-fer-mando che nes-sun pe-ri-odo mis-rato è com-pat-i-b
+ile con una massa dif-fer-ente. Nonos-tante questo
+ []
+
+[16] [17] (./relazione.aux (./titlepage.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `relazione.out' has not changed.
-(rerunfilecheck)             Checksum: F656C070C05DAD3C792D0E8D72DF1983;3297.
+(rerunfilecheck)             Checksum: D8EFC5A9D94F70A99747FF5ABDC79BCE;3422.
  ) 
 Here is how much of TeX's memory you used:
- 43621 strings out of 476076
- 1000819 string characters out of 5793775
- 1957187 words of memory out of 5000000
- 64891 multiletter control sequences out of 15000+600000
- 666875 words of font info for 143 fonts, out of 8000000 for 9000
+ 43663 strings out of 476076
+ 1001484 string characters out of 5793775
+ 1958187 words of memory out of 5000000
+ 64919 multiletter control sequences out of 15000+600000
+ 667311 words of font info for 145 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,22n,107p,867b,2725s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,22n,107p,767b,2725s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/font
 s/type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1621,10 +1639,10 @@ urier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fon
 ts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
 a/putri8a.pfb>
-Output written on relazione.pdf (17 pages, 147427 bytes).
+Output written on relazione.pdf (18 pages, 151714 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 96 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

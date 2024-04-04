@@ -53,13 +53,21 @@
 	\tableofcontents
 	
 	\newpage
+	\textcolor{white}{.}
+	\vfill
 	\section{Scopo dell’esperienza}
 	L'esperienza di laboratorio ha lo scopo di studiare il periodo di un pendolo semplice del quale conosciamo le espressioni del periodo teorico (in condizioni ideali e prive di attrito) al variare della sua lunghezza e dell'angolo di partenza. Verrà quindi misurato il periodo e se ne osserverà la variazione in funzione dell'angolo, della lunghezza e della massa appesa ad esso.
 	
-	\section{Premesse teoriche}
-	\textcolor{red}{aggiungi equazioni}
+	\paragraph{Aspettative} Dall'equazione teorica del periodo del pendolo 
+	\begin{equation} \label{eq:1}
+		T = T_0\left[1 + \frac{1}{4}\sin{(\vartheta/2)^2}\right] \qquad  T_0 = 2\pi \sqrt{\frac{l}{g}} 
+	\end{equation}
+	
+	si vede che per angoli maggiori di $10^\circ$ il periodo dipenda dalla lunghezza $l$ del pendolo e dall'angolo di oscillazione $\vartheta$, mentre per angoli piccoli l'angolo di partenza diventi sempre più trascurabile. Non dipende invece dalla massa.
 	
 	\section{Strumentazione}
+	La strumentazione utilizzata durante l'esperienza è:
+	
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{@{}ll@{}}
@@ -73,7 +81,17 @@
 			Bilancia digitale  & $1$g                 \\ \bottomrule
 		\end{tabular}
 	\end{table}
+	\noindent
+	In più sono servite alcune sfere di diversi materiali e naturalmente un pendolo semplice di lunghezza variabile.
 	
+	\subsection{Misurazioni frequenti}
+	Per non ripetere in ogni sezione alcune misurazioni, riporto qui le più frequenti:
+	
+	\begin{itemize}
+		\item \textbf{Lunghezza del pendolo}: con l'asta graduata misuro prima la distanza da terra alla cima del pendolo ($L_C$) e poi la distanza da terra al centro della sfera appesa ($L_F$)\footnote{Avrei potuto misurare il diametro della sfera con il calibro e aggiungere il raggio della sfera successivamente invece che includerlo nelle misura di cima e fondo, tuttavia la sensibilità dell'asta e il fatto che questa non fosse perfettamente perpendicolare ha reso gli errori di $L_C$ e $L_F$ troppo grossolani rendendo così inutile la maggiore cura nella misura del raggio.}.   \begin{equation}
+			l = L_C - L_F 
+		\end{equation} 
+	\end{itemize}
 	
 	
 	
@@ -84,24 +102,24 @@
 	
 	
 	
-	
+	\newpage
 	\section{Scelta strumento di misura}
 	
-	Al fine di stabilire il migliore strumento di misura per le succesive misurazioni, registro 8 misure del periodo del pendolo prima con un angolo di partenza $\vartheta = 5^\circ$ e poi con $\vartheta = 30^\circ$ utilizzando un cronometro analogico, uno digitale e una fotocellula. Lo strumento che mostrerà discrepanze significative tra il periodo calcolato con $\vartheta = 5^\circ$ e $\vartheta = 30^\circ$ sarà quello utilizzato per i testi successivi. Procedo quindi con le misurazioni dei periodi del pendolo a cui è stata agganciata una sfera di massa $m = (110 \pm 1)g$
+	Al fine di stabilire il migliore strumento di misura per le succesive misurazioni, registro 8 misure del periodo del pendolo prima con un angolo di partenza $\vartheta = 5^\circ \pm1^\circ$ e poi con $\vartheta = 30^\circ\pm1^\circ$, utilizzando un cronometro analogico, uno digitale e una fotocellula. Lo strumento che mostrerà discrepanze significative tra il periodo calcolato con $\vartheta = 5^\circ\pm1^\circ$ e $\vartheta = 30^\circ\pm1^\circ$ sarà quello utilizzato per i testi successivi. Procedo quindi con le misurazioni dei periodi del pendolo a cui è stata agganciata una sfera di massa $m = (110 \pm 1)g$ evidenziando il periodo medio $\mathbf{\bar{T}(s)}$ e la deviazione standard $\sigma_{T_{5}}$ delle 8 misure. 
 	
-	\textcolor{red}{sistema valori per C.Analogico e capire se aggiungere errori per T medi.}
+	\textcolor{red}{capire se aggiungere errori per T medi.}
 	
 	\vspace{1cm}
 	\begin{minipage}{0.5\textwidth}
 		\begin{table}[H]
-			\hspace{-1.3cm}
+			\hspace{-1.7cm}
 			\begin{tabular}{@{}lrrr@{}}
 				&\textbf{C.Analogico} & \textbf{C. Digitale} & \textbf{Fotocellula} \\ \cmidrule(l){2-4} &\multicolumn{1}{l}{$T(s) \pm 0.2s$} & \multicolumn{1}{l}{$T(s) \pm 0.01s$}   & \multicolumn{1}{l}{$T(s) \pm 0.001s$}    \\ \cmidrule(l){2-4} 
 				
 				\multicolumn{1}{c}{}  
 				& 1.6   & 1.63   & 1.702     \\
 				\colorbox{orange!40}{$\vartheta = 5^\circ$}   & 1.8   & 1.65   & 1.703     \\
-				& 1.5   & 1.60   & 1.703     \\ 
+				\multicolumn{1}{r}{\colorbox{orange!40}{$\pm 1^\circ$}}& 1.5   & 1.60   & 1.703     \\ 
 				& 1.8   & 1.71   & 1.703     \\
 				& 1.7   & 1.71   & 1.703     \\
 				& 1.5   & 1.65   & 1.702     \\
@@ -122,7 +140,7 @@
 				\multicolumn{1}{c}{}  
 				& 1.8   & 1.65   & 1.733     \\
 				\colorbox{blue!40}{$\vartheta = 30^\circ$}  & 1.7   & 1.67   & 1.733     \\
-				& 1.6   & 1.70   & 1.733     \\ 
+				\multicolumn{1}{r}{\colorbox{blue!40}{$\pm 1^\circ$}} & 1.6   & 1.70   & 1.733     \\ 
 				& 1.7   & 1.62   & 1.733     \\
 				
 				& 1.7   & 1.70   & 1.731     \\
@@ -138,10 +156,10 @@
 	\vspace{1cm}
 	
 	\noindent
-	Da questi primi set di dati noto subito che la deviazione standard dei periodi misurati dal cronometro digitale è più grande della sensibilità dello strumento, quindi dovrei scegliere la deviazione standard come errore sulla singola misura.
+	Da questi primi set di dati noto subito che la deviazione standard dei periodi misurati dal cronometro digitale è più grande della sensibilità dello strumento, decido quindi scegliere la deviazione standard come errore sulla singola misura.
 	
 	
-	Per i test successivi mi servirà utilizzare uno strumento di misura del periodo che distingua periodi differenti per angoli di oscillazioni differenti, quindi per evidenziare quale dei tre strumenti fornisca periodi significativamente distinguibili per i due angoli di partenza sottopongo le coppie di periodi medi ad un test Z:
+	Per i test successivi mi servirà utilizzare uno strumento di misura del periodo che distingua periodi differenti per angoli di oscillazioni differenti, quindi per evidenziare quale dei tre strumenti fornisca periodi significativamente distinguibili per i due angoli di partenza sottopongo le coppie di periodi medi a due test Z (utilizzando in uno $\sigma_{\bar{T}_5}$ e nell'altro $\sigma_{\bar{T}_30}$):
 	
 	
 	\begin{table}[H]
@@ -155,7 +173,7 @@
 		\end{tabular}
 	\end{table}
 	
-	Il test mostra che i periodi misurati con i cronometri analogico e digitale con angoli di partenza forniscono un valore di $z$ osservato minore di 0.2, perciò $\vartheta = 5^\circ$ e $\vartheta = 30^\circ$ risultano essere compatibili con livelli di significatività maggiori dell'80\%. Per quanto riguarda i periodi registrati con la fotocellula invece, risultano essere totalmente incompatibili con valori di $z$ osservato maggiori di 14; posso quindi affermare che lo strumento che fornisce periodi significativamente differenti per i due angoli di partenza sia proprio la fotocellula.
+	Il test mostra che i periodi misurati con i cronometri analogico e digitale con angoli di partenza $\vartheta = 5^\circ$ e $\vartheta = 30^\circ$ forniscono un valore di $z$ osservato minore di 0.2, perciò  risultano essere compatibili con livelli di significatività maggiori dell'80\%. Per quanto riguarda i periodi registrati con la fotocellula invece, risultano essere totalmente incompatibili con valori di $z$ osservato maggiori di 14; posso quindi affermare che lo strumento che fornisce periodi significativamente differenti per i due angoli di partenza sia proprio la fotocellula.
 	
 	
 	
@@ -170,17 +188,7 @@
 	
 	\newpage
 	\section{Dipendenza dall’angolo}
-	La prima parte dell'esperienza consiste nel verificare la dipendenza di $T$, periodo del pendolo a cui è stata attaccata una sferetta di legno di massa $m = (10 \pm 1)g$, da $\vartheta$, angolo di oscillazione.  Per prima cosa si procede alla misurazoine della lunghezza del pendolo. Con l'asta graduata misuro prima la distanza da terra alla cima del pendolo ($L_C$) e poi la distanza da terra al centro della sfera appesa ($L_F$)\footnote{Avrei potuto misurare il diametro della sfera con il calibro e aggiungere il raggio della sfera successivamente invece che includerlo nelle misura di cima e fondo, tuttavia la sensibilità dell'asta e il fatto che questa non fosse perfettamente perpendicolare ha reso gli errori di $L_C$ e $L_F$ troppo grossolani rendendo così inutile la maggiore cura nella misura del raggio.}. 
-	
-	\begin{table}[H]
-		\centering
-		\begin{tabular}{@{}p{3.6cm}p{3.6cm}@{}}
-			\textbf{Cima} & \textbf{Fondo}\\ \midrule
-			$L_C(\text{cm}) \pm 0.1\text{cm}$  & $L_F(\text{cm}) \pm 0.1\text{cm}$ \\ \midrule
-			\multicolumn{1}{r}{89.0} \hspace{1.2cm} & \multicolumn{1}{r}{16.8}  \hspace{1.2cm}\\ \bottomrule
-		\end{tabular}
-	\end{table}
-	
+	La prima parte dell'esperienza consiste nel verificare la dipendenza di $T$, periodo del pendolo a cui è stata attaccata una sferetta di legno di massa $m = (10 \pm 1)g$, da $\vartheta$, angolo di oscillazione.  Per prima cosa si procede alla misurazoine della lunghezza del pendolo: misuro $L_C = (89.0 \pm 0.1)$cm e $L_F = (16.8 \pm 0.1)$cm. 
 	Ricavo quindi la lunghezza del pendolo:
 	
 	\[
@@ -223,12 +231,8 @@
 	\[
 	T = T_0 + \frac{T_0}{4}y
 	\]
+
 	
-	\noindent
-	Per verificare ciò mi avvalgo del metodo dei minimi quadrati...
-	\textcolor{red}{inserire qualche informazione a riguardo}
-	
-	\newpage
 	\subsection{Retta di best-fit}
 	Appurato che $T$ e $\sin{\left(\vartheta/2\right)}^2$ siano \textit{teoricamente} linearmente correlati, è di mio interesse trovare quale retta della forma $T = a + by$ meglio interpola i dati sperimentali così da appurare se i valori misurati soddisfano la attesa teorica che $y$ sia lineare in $x$. 
 	
@@ -1022,10 +1026,10 @@
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{@{}lcc@{}}
-				& \multicolumn{1}{l}{$L(\text{cm}) \pm 0.2$cm} & \multicolumn{1}{l}{$m(\text{g}) \pm 1$g} \\ \midrule
-			vuota  & 63.90                     & 9                        \\
-			acqua  & 64.00                     & 108                      \\
-			\textcolor{red}{cosa?} & 64.60                     & 647                      \\ \bottomrule
+				& \multicolumn{1}{l}{$m(\text{g}) \pm 1$g} & \multicolumn{1}{l}{$L(\text{cm}) \pm 0.2$cm}  \\ \midrule
+			$m_1$ (vuota)   & 9& 63.90                                            \\
+			$m_2$ (acqua)  & 108 & 64.00                                          \\
+			$m_3$ (\textcolor{red}{cosa?})  & 647  & 64.60                                        \\ \bottomrule
 		\end{tabular}
 	\end{table}
 	\vspace{0.5cm}
@@ -1036,7 +1040,7 @@
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{@{}lrrr@{}}
-			& \textbf{vuota} & \textbf{acqua} & \textbf{\textcolor{red}{cosa?}}   \\ \cmidrule(l){2-4}   
+			& $\mathbf{m_1}$ \textbf{(vuota)} & $\mathbf{m_2}$ \textbf{(acqua)} & $\mathbf{m_3}$ (\textbf{\textcolor{red}{cosa?}})   \\ \cmidrule(l){2-4}   
 			& $T(s) \pm 0.001s$ & $T(s) \pm 0.001s$   & $T(s) \pm 0.001s$  \\ \cmidrule(l){2-4} 
 			
 			\multicolumn{1}{c}{}  
@@ -1050,11 +1054,47 @@
 			$\mathbf{\bar{T}(s)}$ & \textbf{1.672}    & \textbf{1.689}  & \textbf{1.694}        
 		\end{tabular}
 	\end{table}
-	\textcolor{red}{capire se aggiungere errori per T medi.}
-	\vspace{1cm}
+	\vspace{0.5cm}
 	
+	\subsection{Test Z}
+	Per capire se i periodi ottenuti con le tre sfere sono compatibili confronto le loro differenze con zero. Eseguo quindi tre test Z.
 	
+	\paragraph{Ipotesi nulla} I periodi di oscillazione del pendolo con massa $m_1$, $m_2$ e $m_3$ sono a due a due compatibili.
 	
+		\vspace{0.7cm}
+	\begin{minipage}{0.5\textwidth}
+		\begin{table}[H]
+			\centering
+			\rowcolors{1}{gray!25}{white}
+			\begin{tabular}{lr} 
+				Livello di significatività $\alpha$		&$\quad 0.05$  \\
+				$z_{T_{1,2}}$ osservato 					& $\quad$ 6.15 \\
+				Valore di $Z$ critico     	& $\quad 1.96$
+			\end{tabular}
+		\end{table}
+	\end{minipage}
+	\begin{minipage}{0.5\textwidth}
+		\begin{table}[H]
+			\centering
+			\rowcolors{1}{gray!25}{white}
+			\begin{tabular}{lr} 
+				Livello di significatività $\alpha$		&$\quad 0.05$  \\
+				$z_{T_{2,3}}$ osservato 					& $\quad$ 8.20 \\
+				Valore di $Z$ critico     	& $\quad 1.96$
+			\end{tabular}
+		\end{table}
+	\end{minipage}
+	\begin{table}[H]
+		\centering
+		\rowcolors{1}{gray!25}{white}
+		\begin{tabular}{lr} 
+			Livello di significatività $\alpha$		&$\quad 0.05$  \\
+			$z_{T_{1,3}}$ osservato 					& $\quad$ 2.05 \\
+			Valore di $Z$ critico     	& $\quad 1.96$
+		\end{tabular}
+	\end{table}
+	
+	\paragraph{Conclusione test} Poiché ogni $z$ osservato risulta maggiore dello $z$ critico rigetto l'ipotesi nulla e concludo affermando che nessun periodo misrato è compatibile con una massa differente. Nonostante questo sembra contraddire la teoria, ritengo che l'esito dei test sia concorde con le aspettative sperimentali; si sono infatti osservati cambiamenti nella lunghezza del pendolo per ogni massa appesa ad esso, il che rende coerenti le discrepanze tra i periodi misurati.
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	%%				    CONCLUSIONI
