@@ -84,17 +84,7 @@
 	\noindent
 	In più sono servite alcune sfere di diversi materiali e naturalmente un pendolo semplice di lunghezza variabile.
 	
-	\subsection{Misurazioni frequenti}
-	Per non ripetere in ogni sezione alcune misurazioni, riporto qui le più frequenti:
-	
-	\begin{itemize}
-		\item \textbf{Lunghezza del pendolo}: con l'asta graduata misuro prima la distanza da terra alla cima del pendolo ($L_C$) e poi la distanza da terra al centro della sfera appesa ($L_F$)\footnote{Avrei potuto misurare il diametro della sfera con il calibro e aggiungere il raggio della sfera successivamente invece che includerlo nelle misura di cima e fondo, tuttavia la sensibilità dell'asta e il fatto che questa non fosse perfettamente perpendicolare ha reso gli errori di $L_C$ e $L_F$ troppo grossolani rendendo così inutile la maggiore cura nella misura del raggio.}.   \begin{equation}
-			l = L_C - L_F 
-		\end{equation} 
-	\end{itemize}
-	
-	
-	
+
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	%%				SCELTA STRUMENTO
@@ -126,7 +116,7 @@
 				& 1.6   & 1.70   & 1.703     \\
 				& 1.5   & 1.70   & 1.703     \\ \arrayrulecolor{black!100}\specialrule{1.2pt}{0.5\jot}{0.5pc}
 				
-				$\mathbf{\bar{T}_{5}(s)}$ & \textbf{1.6}    & \textbf{1.67}  & \textbf{1.703}  \\
+				$\mathbf{\bar{T}_{5}(s)}$  & \textbf{1.6}    & \textbf{1.67}  & \textbf{1.703}  \\
 				$\sigma_{T_{5}}$   & 0.05    & 0.02  & 0.000 \\                          
 			\end{tabular}
 		\end{table}
@@ -188,9 +178,11 @@
 	
 	\newpage
 	\section{Dipendenza dall’angolo}
-	La prima parte dell'esperienza consiste nel verificare la dipendenza di $T$, periodo del pendolo a cui è stata attaccata una sferetta di legno di massa $m = (10 \pm 1)g$, da $\vartheta$, angolo di oscillazione.  Per prima cosa si procede alla misurazoine della lunghezza del pendolo: misuro $L_C = (89.0 \pm 0.1)$cm e $L_F = (16.8 \pm 0.1)$cm. 
+	La prima parte dell'esperienza consiste nel verificare la dipendenza di $T$, periodo del pendolo a cui è stata attaccata una sferetta di legno di massa $m = (10 \pm 1)g$, da $\vartheta$, angolo di oscillazione.  Per prima cosa si procede alla misurazione della lunghezza del pendolo:	con l'asta graduata misuro prima la distanza da terra alla cima del pendolo ($L_C$) e poi la distanza da terra al centro della sfera appesa ($L_F$)\footnote{Avrei potuto misurare il diametro della sfera con il calibro e aggiungere il raggio della sfera successivamente invece che includerlo nelle misura di cima e fondo, tuttavia la sensibilità dell'asta e il fatto che questa non fosse perfettamente perpendicolare ha reso gli errori di $L_C$ e $L_F$ troppo grossolani rendendo così inutile la maggiore cura nella misura del raggio.}.   \begin{equation}
+		l = L_C - L_F 
+	\end{equation} \label{eq:2}
+	misuro $L_C = (89.0 \pm 0.1)$cm e $L_F = (16.8 \pm 0.1)$cm. 
 	Ricavo quindi la lunghezza del pendolo:
-	
 	\[
 	l = L_C - L_F = (72.2 \pm 0.2) \text{cm}. \footnote{Propago l'errore linearmente ($\left(0.1 + 0.1 \right)\text{cm} = 0.2\text{cm}$ perché essendo solo due misure (per di più effettuate con un asta graduata imperfetta) rischio di sottostimare l'errore sommandolo in quadratura}
 	\] 
@@ -201,6 +193,7 @@
 	
 	
 	\vspace{0.7cm}
+	\begin{minipage}{1\textwidth}
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{@{}lrrrrrr@{}}
@@ -215,10 +208,10 @@
 			
 			\arrayrulecolor{black!100}\specialrule{1.2pt}{0.5\jot}{0.5pc}
 			
-			$\mathbf{\bar{T}(s)}$ & \textbf{1.702}    & \textbf{1.706}  & \textbf{1.710} & \textbf{1.715} & \textbf{1.723} &  \textbf{1.731}        
+			$\mathbf{\bar{T}(s)}$ \footnote{L'errore su $\bar{T}$ sarebbe minore della sensibilita ($0.001$s) quindi associo quest'ultima come incertezza sui valori calcolati }  & \textbf{1.702}    & \textbf{1.706}  & \textbf{1.710} & \textbf{1.715} & \textbf{1.723} &  \textbf{1.731}        
 		\end{tabular}
 	\end{table}
-	\textcolor{red}{capire se aggiungere errori per T medi.}
+	\end{minipage}
 	\vspace{1cm}
 	
 	\noindent
@@ -267,8 +260,8 @@
 			\centering
 			\begin{tabular}{@{}ccc@{}}
 				
-				\multicolumn{3}{c}{$y = \mathbf{sin{\left(\vartheta/2\right)}^2}$} \\ \midrule
-				$y$ & $\delta_y$ & $\delta_y / y$ \\ \midrule
+				\multicolumn{3}{c}{$\bar{y} = \mathbf{sin{\left(\vartheta/2\right)}^2}$} \\ \midrule
+				$\bar{y}$ & $\delta_{\bar{y}}$ & $\delta_{\bar{y}} / \bar{y}$ \\ \midrule
 				0.0019&0.0008 & \textbf{0.398} \\
 				0.0076&0.0015 & \textbf{0.198}  \\
 				0.017&0.0023 & \textbf{0.132}  \\ 
@@ -287,11 +280,11 @@
 	\noindent
 	La funzione da linearizzare non è più 
 	\[
-	T = a + by
+	T = a + b\bar{y}
 	\]
 	ma bensì
 	\[
-	y = \mathbf{A} + \mathbf{B}T
+	\bar{y} = \mathbf{A} + \mathbf{B}T
 	\]
 	
 	
@@ -323,8 +316,8 @@
 			\begin{tikzpicture}
 				\begin{axis}[
 					title={Periodo in funzione di $\theta$ (lineare)},
-					xlabel={$T(s)$},
-					ylabel={$\sin{\left( \vartheta / 2\right) }^2$},
+					xlabel={$x = T(s)$},
+					ylabel={$y = \sin{\left( \vartheta / 2\right) }^2$},
 					xmin=1.7, xmax=1.732,
 					ymin=0, ymax=0.08,
 					xtick={1.7,1.705,1.71,1.715,1.72,1.725,1.73},
@@ -451,7 +444,7 @@
 	\paragraph{Conclusione test} Poiché sia per $\mathbf{A}$ sia per $\mathbf{B}$ risulta che $z_{\text{oss}}$ < $z_{\text{critico}}$ posso affermare che entrambi sono compatibili con i rispettivi valori teorici nei livelli di significaticità scelti e che quindi l'equazione teorica della retta è una buona rappresentazione dell'andamento dei miei dati.
 	
 	\subsection{Determinazione dell'accelerazione di gravità g}
-	Sappiamo le piccole oscillazioni del pendolo hanno periodo descritto da
+	Pocihé l'accelerazione di gravità compare nell'equazione che descrive il periodo del pendolo, posso cimentarmi nella determinazione di questa a partire dai dati sperimentali; posso poi confrontare il valore di $g$ ricavato dalla mia esperienza con il valore vero $G$. Dalla (\ref{eq:1}) so che le piccole oscillazioni del pendolo hanno periodo descritto da
 	\[
 	T_0 = 2\pi \sqrt{\frac{l}{g}} 
 	\]
@@ -473,7 +466,7 @@
 	\mathbf{g} = (830 \pm 81)\text{cm}\cdot \text{s}^{-2}
 	\]
 	\noindent
-	Sapendo che il valore dell'accelerazione di gravità terrestre vale circa $9.81ms^{-2}$ si nota subito la differenza con il $g$ determinato sperimentalmente che risulta essere sottostimato del $15\%$. Tale sottostima è da imputare alla misura della lunghezza del pendolo $l$ e al valore di $B$. (\textcolor{red}{inserire il fatto che B sia il rapporto sin / T?}) Per capire chi influenza maggiormente la bontà del risultato ottenuto calcolo l'errore associato a $g$ "più grossolanamente" così da evidenziare in modo più facile il "colpevole":
+	Sapendo che il valore dell'accelerazione di gravità terrestre vale circa $9.81ms^{-2}$ si nota subito la differenza con il $g$ determinato sperimentalmente che risulta essere sottostimato del $15\%$. Tale sottostima è da imputare alla misura della lunghezza del pendolo $l$ e al valore di $B$.  Per capire chi influenza maggiormente la bontà del risultato ottenuto calcolo l'errore associato a $g$ "più grossolanamente" così da evidenziare in modo più facile il "colpevole":
 	
 	\[
 	\frac{\sigma_g}{g} = \frac{\sigma_l}{l} + 2\frac{\sigma_B}{B} 
@@ -507,7 +500,7 @@
 	
 	
 	\subsection{Parabola di best-fit}
-	Poiché nel processo di determinazione della retta di best-fit è risultato opportuno studiare la funzione $T(y)$ con $y = \sin{\left( \vartheta / 2\right)}^2$ per poter studiare la funzione in forma parabolica basta prendere $y =  \sin{\left( \vartheta / 2\right)}$.
+	Poiché nel processo di determinazione della retta di best-fit è risultato opportuno studiare la funzione $T(\bar{y})$ con $\bar{y} = \sin{\left( \vartheta / 2\right)}^2$ per poter studiare la funzione in forma parabolica basta prendere $\bar{y} =  \sin{\left( \vartheta / 2\right)}$.
 	
 	Come ho fatto per il fit lineare, controllo quale delle due variabili, $T$ e $ \sin{\left( \vartheta / 2\right)}$, ha errore relativo trascurabile rispetto a quello dell'altra.
 	
@@ -532,8 +525,8 @@
 			\centering
 			\begin{tabular}{@{}ccc@{}}
 				
-				\multicolumn{3}{c}{$y = \mathbf{sin{\left(\vartheta/2\right)}}$} \\ \midrule
-				$y$ & $\delta_y$ & $\delta_y / y$ \\ \midrule
+				\multicolumn{3}{c}{$\bar{y} = \mathbf{sin{\left(\vartheta/2\right)}}$} \\ \midrule
+				$\bar{y}$ & $\delta_{\bar{y}}$ & $\delta_{\bar{y}} / \bar{y}$ \\ \midrule
 				0.044 & 0.00869 & \textbf{0.199} \\
 				0.087 & 0.00867 & \textbf{0.099} \\
 				0.131 & 0.00863 & \textbf{0.066} \\
@@ -549,6 +542,9 @@
 	\noindent
 	Se per il fit lineare ho potuto invertire le variabili con l'intento di mettere sull'asse $x$ la variabile con errore trascurabile, per il fit parabolico non posso farlo; andrei infatti a graficare l'equazione di una radice quadrata perdendo di fatto le informazioni che mi interessa trovare: i parametri \textbf{A}, \textbf{B} e \textbf{C} della parabola che meglio interpola i dati sperimentali. \textcolor{red}{propagare?}
 	
+	
+	Riporto quindi il grafico di $T(\bar{y})$:
+	
 	\vspace{1cm}
 	\hspace{-1cm}
 	\begin{minipage}{0.7\textwidth}
@@ -557,8 +553,8 @@
 			\begin{tikzpicture}
 				\begin{axis}[
 					title={Periodo in funzione di $\vartheta$ (parabolico)},
-					ylabel={$T(s)$},
-					xlabel={$\sin{\left( \vartheta / 2\right) }$},
+					ylabel={$y = T(s)$},
+					xlabel={$x = \sin{\left( \vartheta / 2\right) }$},
 					xmin=0, xmax=0.26,
 					ymin=1.700, ymax=1.732,
 					xtick={},
@@ -591,7 +587,7 @@
 					color=red, 
 					] 
 					{0.35725602*x^2 + 0.0252062*x + 1.700522};
-					\legend{Dati,$x=A+By+Cy^2$}
+					\legend{Dati,$y=A+Bx+Cx^2$}
 				\end{axis}
 			\end{tikzpicture}
 		\end{figure}
@@ -623,7 +619,7 @@
 	
 	
 	\subsubsection{Test del chi quadro}
-	Assumendo che la parabola trovata $x=A+By+Cy^2$ si adatti bene all'andamento dei dati scelgo un livello di significatività $\alpha = 0.05$ ed eseguo il test.
+	Assumendo che la parabola trovata $y=A+Bx+Cx^2$ si adatti bene all'andamento dei dati scelgo un livello di significatività $\alpha = 0.05$ ed eseguo il test.
 	
 	\paragraph{Ipotesi nulla} La parabola con parametri \textbf{A},\textbf{B} e \textbf{C} si adatta bene all'andamento dei miei dati.
 	
@@ -646,11 +642,11 @@
 	
 	
 	\subsubsection{Test Z}
-	Per constatare se la parabola descrive bene l'andamento dei miei dati (graficamente sembrerebbe farlo) vado a confrontare i parametri ottenuti con quelli teorici. La parabola teorica 
+	Constatato che la parabola descrive bene l'andamento dei miei dati vado a confrontare i parametri ottenuti con quelli teorici per capire se l'andamento teorico si adatto alla parabola. La parabola  
 	\[
 	T = T_0 + \frac{T_0}{4}\sin{(\vartheta/2)}^2
 	\]
-	ha come parametri teorici
+	ha come parametri 
 	\[
 	A_\text{teo} = T_0 \qquad B_\text{teo} = 0 \qquad C_\text{teo} =  \frac{T_0}{4} 
 	\]
@@ -723,7 +719,7 @@
 	\subsection{Acquisizione dati}
 	Per prima cosa procedo con le misurazioni di 5 pendoli di 5 diverse lunghezze. Con l'ausilio dell'asta graduata, come fatto in precedenza, misuro prima la distanza da terra alla cima del pendolo ($L_C$) e poi la distanza da terra al centro della sfera appesa ($L_F$). Come errore su $l$ associo 2 volte la sensibilità dell'asta.
 	\[
-	l_i = L_C - L_{F_i} \qquad i= 1, \dots, 5
+	l_i =( L_C - L_{F_i}  \pm 0.2) \text{cm}\qquad i= 1, \dots, 5
 	\]
 	
 	\begin{table}[H]
@@ -734,12 +730,16 @@
 			\multicolumn{1}{r}{60.2} & \multicolumn{1}{r}{26.7} & \multicolumn{1}{r}{14.5} & \multicolumn{1}{r}{63.0} & \multicolumn{1}{r}{54.8}\\ \bottomrule
 		\end{tabular}
 	\end{table}
+	\vspace{0.5cm}
 	
 	
-	
-	Come per lo studio del periodo in funzione dell'angolo di oscillazione, anche in questo caso registro tre misure del periodo per ogni sua lunghezza lunghezza scelta per un totale di 5 lunghezze differenti.
+	Come per lo studio del periodo in funzione dell'angolo di oscillazione, anche in questo caso registro tre misure del periodo per ogni sua lunghezza con un angolo fisso $\vartheta = 20^\circ \pm 1^\circ$.
 	
 	\vspace{0.7cm}
+	\begin{minipage}{0.1\textwidth}
+		\colorbox{blue!40}{$\vartheta = 20^\circ \pm 1^\circ$}
+	\end{minipage}
+	\begin{minipage}{0.1\textwidth}
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{@{}lrrrrr@{}}
@@ -748,7 +748,7 @@
 			
 			\multicolumn{1}{c}{}  
 			
-			& 1.504 & 0.964 & 0.663 & 1.556 & 1.437 \\
+			 & 1.504 & 0.964 & 0.663 & 1.556 & 1.437 \\
 			& 1.504 & 0.962 & 0.662 & 1.558 & 1.437 \\
 			& 1.502 & 0.962 & 0.663 & 1.555 & 1.436 \\
 			
@@ -757,7 +757,7 @@
 			$\mathbf{\bar{T}(s)}$ & \textbf{1.503} & \textbf{0.9627} & \textbf{0.6627} & \textbf{1.556} & \textbf{1.437}     
 		\end{tabular}
 	\end{table}
-	\textcolor{red}{capire se aggiungere errori per T medi.}
+	\end{minipage}
 	
 	
 	
@@ -829,8 +829,8 @@
 			\begin{tikzpicture}
 				\begin{axis}[
 					title={Lunghezza in funzione del periodo (lineare)},
-					xlabel={$T^2(s)$},
-					ylabel={$l(cm)$},
+					xlabel={$x = T^2(s)$},
+					ylabel={$y = l(cm)$},
 					xmin=0.4, xmax=2.5,
 					ymin=10, ymax=70,
 					xtick={0,0.5,1,1.5,2,2.5},
@@ -888,9 +888,9 @@
 	
 	\paragraph{Conclusione test} Il valore del $\chi^2$ ottenuto risulta essere maggiore del valore critico, rifiuto quindi l'ipotesi nulla. Un valore di chi quadro così elevato mi porta a credere che la dispersione dei miei dati attorno alla retta sia troppo elevata (\textcolor{red}{causa?}) e probabilmente di aver sottostimato l'errore su $l$. 
 	
-	Poiché il coefficiente di correlazione lineare $r = 0.9998 \approx 1$ evidenzia (e conferma) la relazione di linearità tra $l$ e $T^2$, decido di calcolare l'errore $\sigma_{\text{post}_y}$ a  posteriori così da determinare l'incertezza corretta delle $y$.
+	Poiché il coefficiente di correlazione lineare $r = 0.9998 \approx 1$ evidenzia (e conferma) la relazione di linearità tra $l$ e $T^2$, decido di calcolare l'errore $\sigma_y'$ a  posteriori così da determinare l'incertezza corretta delle $y$.
 	\[
-	\text{errore a posteriori: } \sigma_y = 0.4978
+	\text{errore a posteriori: } \sigma_y' = 0.4978
 	\]	
 	Con il nuovo valore dell'incertezza delle $y$ posso ricalcolare i parametri della retta con una maggiore affidabilità e rigraficare il tutto:
 	
@@ -919,8 +919,8 @@
 			\begin{tikzpicture}
 				\begin{axis}[
 					title={Lunghezza in funzione del periodo (lineare)},
-					xlabel={$T^2(s)$},
-					ylabel={$l(cm)$},
+					xlabel={$x = T^2(s)$},
+					ylabel={$y = l(cm)$},
 					xmin=0.4, xmax=2.5,
 					ymin=10, ymax=70,
 					xtick={0,0.5,1,1.5,2,2.5},
@@ -958,7 +958,7 @@
 	
 	
 	\subsubsection{Test Z}
-	Dal test del chi quadro ho appurato che la retta $y = A + Bx$ non è una buona rappresentazione dell'andamento dei miei dati, mi interessa allora capire se l'andamento teorico si adatta bene aalla retta $y = A' + B'x$. Voglio quindi capire se l'equazione 
+	Dal test del chi quadro ho appurato che la retta $y = A + Bx$ non è una buona rappresentazione dell'andamento dei miei dati, mi interessa allora capire se l'andamento teorico si adatta bene alla retta $y = A' + B'x$. Voglio quindi capire se l'equazione 
 	\[
 	l = \frac{1}{C_3} T^2 \qquad \text{con } C_3 =  \frac{4 \pi^2}{g} \left( 1 + \frac{1}{4}\sin{\left(\vartheta/2\right)}^2 \right)^2
 	\]
@@ -967,7 +967,7 @@
 	\[
 	A_\text{teo} = 0 \qquad B_\text{teo} =  \frac{1}{C_3}
 	\]
-	si adatta bene ai miei dati. 
+	si adatta bene alla retta. 
 	
 	\paragraph{Ipotesi nulla} I valori $A_{\text{teo}}$, $\mathbf{A}$ e  $B_{\text{teo}}$, $\mathbf{B}$ sono a due a due compatibili.
 	
@@ -1011,14 +1011,13 @@
 	%%				DIPENDENZA MASSA     MMMM
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
-	\newpage
 	\section{Dipendenza dalla massa}
 	Come si può osservare dall'equazione del periodo, questo non è teoricamente influenzato dalla massa appesa ad esso. Tuttavia, sperimentalmente, la massa potrebbe portare a delle più o meno lievi variazioni. A seconda della massa in esame infatti, potrebbe variare la lunghezza del filo che viene allungato dal peso del corpo, oppure per masse estremente piccole non sarebbe più ragionevole pensare che la massa del filo sia trascurabile.
 	
 	
 	
 	\subsection{Acquisizione dati}
-	Prese 3 sfere (una vuota, una piena d'acqua e una piena di \textcolor{red}{sabbia?}) con uguale volume, ne registro la massa pesandole con una bilancia. Agganciate al pendolo misuro l'allungamento di quest'ultimo dovuto al peso delle sfere. La lunghezza del pendolo è stata misurata con l'asta graduata mentre l'allungamento, essendo nell'ordine dei millimetri, con un calibro. 
+	Prese 3 sfere (una vuota, una piena d'acqua e una piena di piombo con uguale volume, ne registro la massa pesandole con una bilancia. Agganciate al pendolo misuro l'allungamento di quest'ultimo dovuto al peso delle sfere. La lunghezza del pendolo è stata misurata con l'asta graduata mentre l'allungamento, essendo nell'ordine dei millimetri, con un calibro. 
 	
 	A seguito delle misure ottengo le seguenti masse con i rispettivi allungamenti del filo:
 	
@@ -1029,7 +1028,7 @@
 				& \multicolumn{1}{l}{$m(\text{g}) \pm 1$g} & \multicolumn{1}{l}{$L(\text{cm}) \pm 0.2$cm}  \\ \midrule
 			$m_1$ (vuota)   & 9& 63.90                                            \\
 			$m_2$ (acqua)  & 108 & 64.00                                          \\
-			$m_3$ (\textcolor{red}{cosa?})  & 647  & 64.60                                        \\ \bottomrule
+			$m_3$ (piombo)  & 647  & 64.60                                        \\ \bottomrule
 		\end{tabular}
 	\end{table}
 	\vspace{0.5cm}
@@ -1037,10 +1036,14 @@
 	Con un angolo di oscillazione fisso di $20^\circ$ prendo 3 misure del periodo per ogni massa ottenendo i seguenti dati:
 	
 	\vspace{0.7cm}
+	\begin{minipage}{0.2\textwidth}
+		\colorbox{blue!40}{$\vartheta = 20^\circ \pm 1^\circ$}
+	\end{minipage}
+	\begin{minipage}{0.4\textwidth}
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{@{}lrrr@{}}
-			& $\mathbf{m_1}$ \textbf{(vuota)} & $\mathbf{m_2}$ \textbf{(acqua)} & $\mathbf{m_3}$ (\textbf{\textcolor{red}{cosa?}})   \\ \cmidrule(l){2-4}   
+			& $\mathbf{m_1}$ \textbf{(vuota)} & $\mathbf{m_2}$ \textbf{(acqua)} & $\mathbf{m_3}$ (\textbf{piombo})   \\ \cmidrule(l){2-4}   
 			& $T(s) \pm 0.001s$ & $T(s) \pm 0.001s$   & $T(s) \pm 0.001s$  \\ \cmidrule(l){2-4} 
 			
 			\multicolumn{1}{c}{}  
@@ -1054,6 +1057,7 @@
 			$\mathbf{\bar{T}(s)}$ & \textbf{1.672}    & \textbf{1.689}  & \textbf{1.694}        
 		\end{tabular}
 	\end{table}
+	\end{minipage}
 	\vspace{0.5cm}
 	
 	\subsection{Test Z}
@@ -1100,8 +1104,11 @@
 	%%				    CONCLUSIONI
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
-	\newpage
 	\section{Conclusioni}
+	\paragraph{Introduzione}
+	\paragraph{T(0) Dipendenza dall'angolo}
+	\paragraph{T(l) Dipendenza dalla lunghezza}	
+	\paragraph{T(m) Dipendenza dalla massa}
 	
 	
 	

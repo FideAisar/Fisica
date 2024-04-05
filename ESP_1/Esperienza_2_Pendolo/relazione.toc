@@ -1,7 +1,6 @@
 \contentsline {section}{\numberline {1}Scopo dell’esperienza}{2}{section.1}%
 \contentsline {paragraph}{Aspettative}{2}{section*.2}%
 \contentsline {section}{\numberline {2}Strumentazione}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Misurazioni frequenti}{2}{subsection.2.1}%
 \contentsline {section}{\numberline {3}Scelta strumento di misura}{3}{section.3}%
 \contentsline {section}{\numberline {4}Dipendenza dall’angolo}{4}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Acquisizione dati}{4}{subsection.4.1}%
@@ -31,9 +30,13 @@
 \contentsline {subsubsection}{\numberline {5.2.2}Test Z}{13}{subsubsection.5.2.2}%
 \contentsline {paragraph}{Ipotesi nulla}{13}{section*.44}%
 \contentsline {paragraph}{Conclusione test}{14}{section*.47}%
-\contentsline {section}{\numberline {6}Dipendenza dalla massa}{15}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Acquisizione dati}{15}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Test Z}{15}{subsection.6.2}%
-\contentsline {paragraph}{Ipotesi nulla}{15}{section*.50}%
-\contentsline {paragraph}{Conclusione test}{16}{section*.54}%
-\contentsline {section}{\numberline {7}Conclusioni}{17}{section.7}%
+\contentsline {section}{\numberline {6}Dipendenza dalla massa}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Acquisizione dati}{14}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Test Z}{14}{subsection.6.2}%
+\contentsline {paragraph}{Ipotesi nulla}{14}{section*.50}%
+\contentsline {paragraph}{Conclusione test}{15}{section*.54}%
+\contentsline {section}{\numberline {7}Conclusioni}{15}{section.7}%
+\contentsline {paragraph}{Introduzione}{15}{section*.55}%
+\contentsline {paragraph}{T(0) Dipendenza dall'angolo}{15}{section*.56}%
+\contentsline {paragraph}{T(l) Dipendenza dalla lunghezza}{15}{section*.57}%
+\contentsline {paragraph}{T(m) Dipendenza dalla massa}{15}{section*.58}%
