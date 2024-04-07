@@ -2,41 +2,44 @@
 \contentsline {paragraph}{Aspettative}{2}{section*.2}%
 \contentsline {section}{\numberline {2}Strumentazione}{2}{section.2}%
 \contentsline {section}{\numberline {3}Scelta strumento di misura}{3}{section.3}%
+\contentsline {paragraph}{Ipotesi nulla}{3}{section*.6}%
+\contentsline {paragraph}{Conclusione test}{3}{section*.8}%
 \contentsline {section}{\numberline {4}Dipendenza dall’angolo}{4}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Acquisizione dati}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Retta di best-fit}{4}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Test del chi quadro}{6}{subsubsection.4.2.1}%
-\contentsline {paragraph}{Ipotesi nulla}{6}{section*.12}%
-\contentsline {paragraph}{Conclusione test}{6}{section*.14}%
+\contentsline {paragraph}{Ipotesi nulla}{6}{section*.14}%
+\contentsline {paragraph}{Conclusione test}{6}{section*.16}%
 \contentsline {subsubsection}{\numberline {4.2.2}Test Z}{6}{subsubsection.4.2.2}%
-\contentsline {paragraph}{Ipotesi nulla}{7}{section*.15}%
-\contentsline {paragraph}{Conclusione test}{7}{section*.18}%
-\contentsline {subsection}{\numberline {4.3}Determinazione dell'accelerazione di gravità g}{7}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Test Z}{7}{subsubsection.4.3.1}%
-\contentsline {paragraph}{Ipotesi nulla}{8}{section*.19}%
-\contentsline {subsection}{\numberline {4.4}Parabola di best-fit}{8}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Test del chi quadro}{9}{subsubsection.4.4.1}%
-\contentsline {paragraph}{Ipotesi nulla}{9}{section*.25}%
-\contentsline {paragraph}{Conclusione test}{9}{section*.27}%
-\contentsline {subsubsection}{\numberline {4.4.2}Test Z}{9}{subsubsection.4.4.2}%
-\contentsline {paragraph}{Ipotesi nulla}{10}{section*.28}%
-\contentsline {paragraph}{Conclusione test}{10}{section*.32}%
+\contentsline {paragraph}{Ipotesi nulla}{6}{section*.17}%
+\contentsline {paragraph}{Conclusione test}{6}{section*.20}%
+\contentsline {subsection}{\numberline {4.3}Determinazione del periodo delle piccole oscillazioni T0}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Determinazione dell'accelerazione di gravità g}{7}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Test Z}{8}{subsubsection.4.4.1}%
+\contentsline {paragraph}{Ipotesi nulla}{8}{section*.21}%
+\contentsline {subsection}{\numberline {4.5}Parabola di best-fit}{8}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Test del chi quadro}{9}{subsubsection.4.5.1}%
+\contentsline {paragraph}{Ipotesi nulla}{9}{section*.27}%
+\contentsline {paragraph}{Conclusione test}{9}{section*.29}%
+\contentsline {subsubsection}{\numberline {4.5.2}Test Z}{9}{subsubsection.4.5.2}%
+\contentsline {paragraph}{Ipotesi nulla}{10}{section*.30}%
+\contentsline {paragraph}{Conclusione test}{10}{section*.34}%
 \contentsline {section}{\numberline {5}Dipendenza dalla lunghezza}{11}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Acquisizione dati}{11}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Retta di best-fit}{11}{subsection.5.2}%
 \contentsline {subsubsection}{\numberline {5.2.1}Test del chi quadro}{12}{subsubsection.5.2.1}%
-\contentsline {paragraph}{Ipotesi nulla}{12}{section*.39}%
-\contentsline {paragraph}{Conclusione test}{13}{section*.41}%
+\contentsline {paragraph}{Ipotesi nulla}{12}{section*.41}%
+\contentsline {paragraph}{Conclusione test}{13}{section*.43}%
 \contentsline {subsubsection}{\numberline {5.2.2}Test Z}{13}{subsubsection.5.2.2}%
-\contentsline {paragraph}{Ipotesi nulla}{13}{section*.44}%
-\contentsline {paragraph}{Conclusione test}{14}{section*.47}%
+\contentsline {paragraph}{Ipotesi nulla}{13}{section*.46}%
+\contentsline {paragraph}{Conclusione test}{14}{section*.49}%
 \contentsline {section}{\numberline {6}Dipendenza dalla massa}{14}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Acquisizione dati}{14}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Test Z}{14}{subsection.6.2}%
-\contentsline {paragraph}{Ipotesi nulla}{14}{section*.50}%
-\contentsline {paragraph}{Conclusione test}{15}{section*.54}%
+\contentsline {paragraph}{Ipotesi nulla}{15}{section*.52}%
+\contentsline {paragraph}{Conclusione test}{15}{section*.56}%
 \contentsline {section}{\numberline {7}Conclusioni}{15}{section.7}%
-\contentsline {paragraph}{Introduzione}{15}{section*.55}%
-\contentsline {paragraph}{T(0) Dipendenza dall'angolo}{15}{section*.56}%
-\contentsline {paragraph}{T(l) Dipendenza dalla lunghezza}{15}{section*.57}%
-\contentsline {paragraph}{T(m) Dipendenza dalla massa}{15}{section*.58}%
+\contentsline {paragraph}{Introduzione}{15}{section*.57}%
+\contentsline {paragraph}{T(0) Dipendenza dall'angolo}{15}{section*.58}%
+\contentsline {paragraph}{T(l) Dipendenza dalla lunghezza}{15}{section*.59}%
+\contentsline {paragraph}{T(m) Dipendenza dalla massa}{15}{section*.60}%
