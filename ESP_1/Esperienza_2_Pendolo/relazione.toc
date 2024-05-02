@@ -39,7 +39,6 @@
 \contentsline {paragraph}{Ipotesi nulla}{15}{section*.52}%
 \contentsline {paragraph}{Conclusione test}{15}{section*.56}%
 \contentsline {section}{\numberline {7}Conclusioni}{15}{section.7}%
-\contentsline {paragraph}{Introduzione}{15}{section*.57}%
-\contentsline {paragraph}{T(0) Dipendenza dall'angolo}{15}{section*.58}%
-\contentsline {paragraph}{T(l) Dipendenza dalla lunghezza}{15}{section*.59}%
-\contentsline {paragraph}{T(m) Dipendenza dalla massa}{15}{section*.60}%
+\contentsline {paragraph}{T(0) Dipendenza dall'angolo}{15}{section*.57}%
+\contentsline {paragraph}{T(l) Dipendenza dalla lunghezza}{15}{section*.58}%
+\contentsline {paragraph}{T(m) Dipendenza dalla massa}{16}{section*.59}%

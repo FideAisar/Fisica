@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  7 APR 2024 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  7 APR 2024 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1651,7 +1651,7 @@ Overfull \hbox (1.61278pt too wide) in paragraph at lines 1114--1115
 ile con una massa dif-fer-ente. Nonos-tante questo
  []
 
-[15] (./relazione.aux (./titlepage.aux))
+[15] [16] (./relazione.aux (./titlepage.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1661,12 +1661,12 @@ Package rerunfilecheck Info: File `relazione.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  43651 strings out of 476076
- 1001230 string characters out of 5793775
+ 1001226 string characters out of 5793775
  1960187 words of memory out of 5000000
  64898 multiletter control sequences out of 15000+600000
  675526 words of font info for 149 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,22n,107p,905b,2727s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,22n,107p,917b,2727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/font
 s/type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1675,10 +1675,10 @@ urier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fon
 ts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
 a/putri8a.pfb>
-Output written on relazione.pdf (16 pages, 156033 bytes).
+Output written on relazione.pdf (17 pages, 158968 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
+ 358 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
  115 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
