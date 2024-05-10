@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Onde meccaniche}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Onde in una sbarra solida}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Onde in una corda tesa}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Onde nei gas}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Onde piane armoniche}{6}{section.2}%
+\contentsline {paragraph}{Periodo spaziale}{6}{section*.2}%
+\contentsline {paragraph}{Periodo temporale}{6}{section*.3}%
+\contentsline {subsection}{\numberline {2.1}Analisi di Fourier}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Onde sulla superficie di un liquido}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Propagazione dell'energia}{8}{subsection.2.3}%
+\contentsline {subsubsection}{Energia per unità di volume}{8}{section*.4}%
+\contentsline {subsubsection}{}{8}{section*.5}%
+\contentsline {subsection}{\numberline {2.4}Onde in più dimensioni}{9}{subsection.2.4}%
+\contentsline {subsubsection}{Onde elastiche in una membrana tesa}{9}{section*.6}%
+\contentsline {subsubsection}{Onde sferiche}{9}{section*.7}%
+\contentsline {subsection}{\numberline {2.5}Intensità delle onde sonore}{11}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Assorbimento dell'energia}{11}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Pacchetti d'onde}{11}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Velocità di fase e velocità di gruppo}{11}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Effetto Doppler}{11}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Onda d'urto}{11}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Onde stazionarie}{11}{section.3}%
+\contentsline {section}{\numberline {4}Fluidi}{12}{section.4}%
