@@ -8,7 +8,7 @@
 \usepackage[skins]{tcolorbox}
 \usepackage[version=4]{mhchem}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
-\usepackage{fourier}
+%\usepackage{fourier}
 \usepackage{xymtex}
 \usepackage{textcomp}
 \usepackage{eurosym}
@@ -292,10 +292,72 @@
 	\noindent
 	Supponiamo di avere del gas imperturbato (\(\rho_0, p_0\)) bloccato da due pistoni. Fornendo un impulso di pressione tramite i pistoni provociamo una compressione adiacente con una \textbf{conseguenti variazione di densità di massa}.
 	
-
-
-
-		
+	\[
+	\rho = \rho + d\rho \qquad p = p_0 + dp
+	\]
+	
+	\subsubsection{Densità}
+	Considero un elemnto di gas di massa \(dm = \rho_0S(dx)\) che a seguito della perturbazione subisce uno spostamento che lo porta a stare tra
+	\[
+	x + \xi(x,t') \quad \text{ e } \quad x + dx + \xi(x + dx,t')
+	\]
+	Così la sua dimensione diventa
+	\[
+	x + dx + \xi(x + dx,t') \textcolor{gray}{-x - \xi(x,t')} = dx + \xi(x + dx,t')- \xi(x,t') = dx + \frac{\partial \xi}{\partial x}dx = dx\left(1 + \frac{\partial \xi}{\partial x}\right)
+	\]
+	A partire da questa nuova espressione della "larghezza" dell'elemnto infinitesimo posso scrivere l'espressione della densità dopo la compressione:
+	\[
+	\rho = \frac{dm}{dV} = \frac{dm}{S(dx)} \frac{\rho_0 \textcolor{red}{S (dx)}}{\textcolor{red}{S(dx)}\left(1 + \frac{\partial \xi}{\partial x}\right)} = \rho_0\left(1 + \frac{\partial \xi}{\partial x}\right)^{-1}
+	\]
+	Ora andremo ad applicare una semplificazione bizzarra. Se la deformazione specifica $|\varepsilon| = \left|\frac{\partial \xi}{\partial x}\right|<< 1$, allora si può applicare la formula del binomio:
+	\[
+	\left(1 + \varepsilon\right)^{-n} = 1 - n\varepsilon + \textcolor{gray}{\frac{n(n+1)}{2!}\varepsilon^2\dots}
+	\]
+	Quindi posso scrivere la densità come
+	\[
+	\rho \approx \rho_0\left(1 - \frac{\partial \xi}{\partial x}\right)
+	\]
+	da cui la variazione
+	\begin{equation} \label{rho}
+	d\rho(x,t) = \rho - \rho_0 = - \rho_0\frac{\partial \xi}{\partial x}
+	\end{equation}
+	in cui il segno meno indica ce se il volumetto è compresso la densità aumenta, mentre se si espande la densità diminuisce.
+	
+	\subsubsection{Pressione}
+	Ad una variazione di densità corrisponde una variazione di pressione secondo la legge
+	\[
+	\beta = \rho\frac{dp}{d\rho} \quad \to \quad dp(x,t) = p(x,t) - p_0 = \beta\frac{d\rho}{\rho}
+	\]
+	da cui derivo che la pressione è 
+	\[
+	p(x,t) = \beta\frac{d\rho}{\rho_0} +  p_0 
+	\]
+	Sostituendo l'espressione della densità trovata prima nella \ref{rho} scrivo
+	\[
+	p(x,t) = \beta\frac{- \rho_0\frac{\partial \xi}{\partial x}}{\rho_0} +  p_0 =p_0 - \beta\frac{\partial \xi}{\partial x}
+	\]
+	\subsubsection{Forza}
+	La variazione di pressione causa un movimento del gas e la risultante su $dm$ è 
+	\begin{align*}
+	-dF = F(x,t') - F(x+dx.t') =& S\left[p(x,t') - p(x+dx,t')\right] \\
+							   =& S(dp) \\
+							   =& -S\frac{\partial p}{\partial x}dx \\
+							   =& -S\frac{\partial}{\partial x}\left(p_0 - \beta\frac{\partial \xi}{\partial x}\right)dx \\
+							   =& S\beta\frac{\partial^2\xi}{\partial x^2}dx
+	\end{align*}
+	
+	\[ 
+	\textbf{Risultante} \qquad	-dF = S\beta\frac{\partial^2\xi}{\partial x^2}dx  \mathbf{= dm a} = \rho_0 S(dx) \frac{\partial^2 \xi}{\partial t^2} 
+	\]
+	\begin{center}
+		\fboxsep6pt
+		\colorbox{myred}{\begin{minipage}{3in}
+				%\vspace{-0.3cm}
+				\begin{equation}
+					\frac{\partial^2\xi}{\partial x^2} = \frac{\rho_0}{\beta} \frac{\partial^2 \xi}{\partial t^2} \qquad \qquad v = \sqrt{\frac{\beta}{\rho_0}}
+				\end{equation}
+		\end{minipage}}
+	\end{center}
 \newpage
 \section{Onde piane armoniche}
 Un tipo molto importante di onda piana è l'\textbf{onda armonica} la cui forma si scrive
@@ -348,8 +410,12 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	
 	\newpage
-	\subsection{Propagazione dell'energia}
-	La propagazione di un campo che descrive in'onda è sempre accompagnato da una propagazione di energia. Per ottenere un'espressione del flusso di energia legato alla propagazione di un'onda piana armonica consideriamo un'onda in una barra solida e calcolo la potenzia media e l'energia per untià di volume ad essa associata.\\
+	\subsection{Propagazione dell'energia in una barra solida}
+	La propagazione di un campo che descrive in'onda è sempre accompagnato da una propagazione di energia. Osserviamo prima il fenomeno del flusso di energia legato alla propagazione di un'onda piana armonica in una barra solida andando a calcolare la potenzia media e l'energia per untià di volume ad essa associata.\\
+	
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
 	
 	\noindent
 	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
@@ -367,7 +433,7 @@ Tutte le espressioni della funzione d'onda sono:
 					=& -ES\left[k\xi_0\cos\left(kx -\omega t\right)\right]\left[-\omega \xi_0\cos\left(kx -\omega t\right)\right] \\
 					=& ESk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
 	\end{align*}
-	La potenza quindi è una cosinusoide traslata in alto di una sua ampiezza (con avvallamenti tangenti all'asse orizzontale). la potenza media è espirmibile come la retta che interseca la cosinusoide alla quota pari a metà la sua ampiezza; poi ricordandoci che l'espressione della velocità \(v = \sqrt{E/\rho}\) esprimo \(E = v^2 \rho\):
+	La potenza quindi è una cosinusoide traslata in alto di una sua ampiezza (con avvallamenti tangenti all'asse orizzontale). la potenza media è espirmibile come la retta che interseca la cosinusoide alla quota pari a metà la sua ampiezza; poi ricordandoci che
 	
 	\[ 
 	\boxed{v = \sqrt{E/\rho} \qquad E = v^2 \rho} \qquad \boxed{k = \frac{\omega}{v}}
@@ -405,17 +471,98 @@ Tutte le espressioni della funzione d'onda sono:
 	\mathcal{W} = \frac{dU}{dV} = \frac{1}{2}\rho \omega^2\xi_0^2
 	\]
 	con la quale possiamo esprimere la potenza media come 
-	\[ 
-	\bar{\mathcal{P}} = \mathcal{W} S v
+	\begin{center}
+		\fboxsep6pt
+		\colorbox{myred}{\begin{minipage}{1.2in}
+				%\vspace{-0.3cm}
+				\begin{equation}
+						\bar{\mathcal{P}} = \mathcal{W}S v
+				\end{equation}
+		\end{minipage}}
+	\end{center}
+	
+	\subsubsection{Intensità dell'onda}
+	Definiamo l'intensità di un'onda com e\textbf{potenza media per unità di superficie}, quindi
+	
+	\[
+	I = \frac{\mathcal{P}}{S} = \frac{1}{2}\rho\omega^2\xi_0^2v
 	\]
 	
-	\subsubsection{}
+	\subsection{Propagazione dell'energia in una corda tesa}
+	Studiamo ora lo stesso fenomeno ma in una corda tesa. La situazione è simile con la differenza che l'onda ora è trasversale.
 	
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	
+	\noindent
+	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
+	\[ 
+	\textbf{Onda:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right)
+	\]
+	\[ 
+	\textbf{Forza:} \quad F = T
+	\]
+	L'espressione della potenza è 
+	
+	\begin{align*}
+		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
+		=& T\frac{\partial\xi}{\partial t}\cos{\left(\frac{\pi}{2} + \alpha\right)} \qquad  \cos{\left(\frac{\pi}{2} + \alpha\right)} = \sin{\alpha} \approx \tan\alpha = \frac{\partial\xi}{\partial x} \\
+		= & T\frac{\partial\xi}{\partial t}\frac{\partial\xi}{\partial x} \\
+		=& Tk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
+	\end{align*}
+	Trovo la potenza media come prima esprimendo \(k\) e \(T\) come
+	\[ 
+	\boxed{v = \sqrt{T/\mu} \qquad T = v^2 \mu} \qquad \boxed{k = \frac{\omega}{v}}
+	\]
+	\begin{center}
+		\fboxsep6pt
+		\colorbox{myred}{\begin{minipage}{1.2in}
+				\vspace{-0.3cm}
+				\begin{equation}
+					\bar{\mathcal{P}} = \frac{1}{2}\mu\omega^2\xi^2v
+				\end{equation}
+		\end{minipage}}
+	\end{center}
+	
+	\subsubsection{Energia per unità di volume}
+	Considero l'elemento infinitesimo di massa \(dm = \mu dx \) descrive un moto armonico con 
+	\[ 
+	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
+	\]
+	\[ 
+	\textbf{Velocità} \quad v(x,t)= \frac{\partial\xi}{\partial t} = \omega \xi_0\cos\left(kx - \omega t\right) 
+	\]
+	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
+	
+	\[ 
+	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\rho S (dx)\omega^2 \xi_0^2 = \frac{1}{2}\rho V\omega^2 \xi_0^2
+	\]
+	Chiamiamo \textbf{densità di energia per unità di volume} il valore 
+	\[
+	\mathcal{W} = \frac{dU}{dV} = \frac{1}{2}\rho \omega^2\xi_0^2
+	\]
+	con la quale possiamo esprimere la potenza media come 
+	\begin{center}
+		\fboxsep6pt
+		\colorbox{myred}{\begin{minipage}{1.2in}
+				%\vspace{-0.3cm}
+				\begin{equation}
+					\bar{\mathcal{P}} = \mathcal{W} v
+				\end{equation}
+		\end{minipage}}
+	\end{center}
+	
+	
+	
+	
+	\subsection{Assorbimento dell'energia}
 	
 	\newpage
 	\subsection{Onde in più dimensioni}	
-	Prima di tutto definiamo \textbf{fronte d'onda} la superficie
-	su cui in un certo istante la fase dell'onda è costante (\(\phi = kx -\omega t\)). Per le onde piane il fronte d'onda è un piano che si sposta con velocità \(v\) dell'onda. Per caratterizzare la direzione di propagazione dell'onda introduciamo il \textbf{vettore di propagazione} \(\vec{k}\) con \(k = 2\pi/\lambda\) e verso uguale a quello di \(\vec{v}\) e il vettore posizione \(\vec{r}\) che individua la posizione di un punto P su un certo fronte d'onda. Con queste informazioni possiamo riscrivere la funzione d'onda come
+	Prima di tutto definiamo \textbf{fronte d'onda} la superfici su cui in un certo istante la fase dell'onda è costante (\(\phi = kx -\omega t\)). 
+
+	Per le onde piane il fronte d'onda è un piano che si sposta con velocità \(v\) dell'onda. Per caratterizzare la direzione di propagazione dell'onda introduciamo il \textbf{vettore di propagazione} \(\vec{k}\) con \(k = 2\pi/\lambda\) e verso uguale a quello di \(\vec{v}\) e il vettore posizione \(\vec{r}\) che individua la posizione di un punto P su un certo fronte d'onda. Con queste informazioni possiamo riscrivere la funzione d'onda come
 	\[ 
 	\xi(r,t) = \xi_0 \sin\left(\vec{k}\cdot \vec{r}- \omega t\right) 
 	\]
@@ -491,10 +638,10 @@ Tutte le espressioni della funzione d'onda sono:
 				\end{equation}
 		\end{minipage}}
 	\end{center}
+	
+	
 
 \newpage
-\subsection{Intensità delle onde sonore}
-\subsection{Assorbimento dell'energia}
 \subsection{Pacchetti d'onde}
 \subsection{Velocità di fase e velocità di gruppo}
 \subsection{Effetto Doppler}
