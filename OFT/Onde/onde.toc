@@ -5,23 +5,25 @@
 \contentsline {subsubsection}{Densità}{5}{section*.2}%
 \contentsline {subsubsection}{Pressione}{5}{section*.3}%
 \contentsline {subsubsection}{Forza}{6}{section*.4}%
+\contentsline {subsubsection}{Modulo di compressibilità adiabatica}{6}{section*.5}%
 \contentsline {section}{\numberline {2}Onde piane armoniche}{7}{section.2}%
-\contentsline {paragraph}{Periodo spaziale}{7}{section*.5}%
-\contentsline {paragraph}{Periodo temporale}{7}{section*.6}%
+\contentsline {paragraph}{Periodo spaziale}{7}{section*.6}%
+\contentsline {paragraph}{Periodo temporale}{7}{section*.7}%
 \contentsline {subsection}{\numberline {2.1}Analisi di Fourier}{8}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Onde sulla superficie di un liquido}{8}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Propagazione dell'energia in una barra solida}{9}{subsection.2.3}%
-\contentsline {subsubsection}{Energia per unità di volume}{9}{section*.7}%
-\contentsline {subsubsection}{Intensità dell'onda}{10}{section*.8}%
+\contentsline {subsubsection}{Energia per unità di volume}{9}{section*.8}%
+\contentsline {subsubsection}{Intensità dell'onda}{10}{section*.9}%
 \contentsline {subsection}{\numberline {2.4}Propagazione dell'energia in una corda tesa}{10}{subsection.2.4}%
-\contentsline {subsubsection}{Energia per unità di volume}{10}{section*.9}%
-\contentsline {subsection}{\numberline {2.5}Assorbimento dell'energia}{10}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Onde in più dimensioni}{11}{subsection.2.6}%
-\contentsline {subsubsection}{Onde elastiche in una membrana tesa}{11}{section*.10}%
-\contentsline {subsubsection}{Onde sferiche}{11}{section*.11}%
-\contentsline {subsection}{\numberline {2.7}Pacchetti d'onde}{13}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Velocità di fase e velocità di gruppo}{13}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Effetto Doppler}{13}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Onda d'urto}{13}{subsection.2.10}%
-\contentsline {section}{\numberline {3}Onde stazionarie}{13}{section.3}%
-\contentsline {section}{\numberline {4}Fluidi}{14}{section.4}%
+\contentsline {subsubsection}{Energia per unità di lunghezza}{10}{section*.10}%
+\contentsline {subsection}{\numberline {2.5}Onde in più dimensioni}{11}{subsection.2.5}%
+\contentsline {subsubsection}{Onde elastiche in una membrana tesa}{11}{section*.11}%
+\contentsline {subsubsection}{Onde sferiche}{11}{section*.12}%
+\contentsline {subsection}{\numberline {2.6}Onde cilindriche}{12}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Assorbimento dell'energia}{13}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Pacchetti d'onde}{14}{subsection.2.8}%
+\contentsline {subsubsection}{Velocità di fase e velocità di gruppo}{14}{section*.13}%
+\contentsline {subsection}{\numberline {2.9}Effetto Doppler}{16}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Onda d'urto}{16}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Onde stazionarie}{17}{section.3}%
+\contentsline {section}{\numberline {4}Fluidi}{18}{section.4}%

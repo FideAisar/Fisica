@@ -8,7 +8,7 @@
 \usepackage[skins]{tcolorbox}
 \usepackage[version=4]{mhchem}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
-%\usepackage{fourier}
+\usepackage{fourier}
 \usepackage{xymtex}
 \usepackage{textcomp}
 \usepackage{eurosym}
@@ -72,6 +72,8 @@
 % comandi per quadrati dimostrazioni
 \newcommand*{\QEDA}{\null\nobreak\hfill\ensuremath{\blacksquare}}%
 \newcommand*{\QEDB}{\null\nobreak\hfill\ensuremath{\square}}%
+
+\newcommand{\viola}[1]{\colorbox{myred}{$\displaystyle #1$}}
 
 
 %% regole
@@ -185,15 +187,11 @@
 	E\textcolor{orange}{S}\frac{\partial^2\xi}{\partial x^2}\textcolor{red}{dx} = \rho \textcolor{orange}{S} \textcolor{red}{dx} \frac{\partial^2 \xi}{\partial t^2}
 	\]
 	
-	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{2in}
-		\vspace{-0.3cm}
-		\begin{equation}
-		\frac{\partial^2\xi}{\partial x^2} = \frac{\rho}{E} \frac{\partial^2 \xi}{\partial t^2} \qquad \qquad v = \sqrt{\frac{E}{\rho}}
-		\end{equation}
-		\end{minipage}}
-	\end{center}
+	
+	\begin{equation}
+		\viola{\frac{\partial^2\xi}{\partial x^2} = \frac{\rho}{E} \frac{\partial^2 \xi}{\partial t^2} \qquad \qquad v = \sqrt{\frac{E}{\rho}}}
+	\end{equation}
+	
 	
 	\noindent
 	Inoltre oltre allo spostamento \(\xi(x,t)\) si propaga anche la forza \(F(x,t)\). Ciò è verificabile riutilizzando l'epressione della forza nella Legge di Hooke (derivandola prima rispetto a \(t\) e poi rispetto a \(x\)) e ricordando il Teorema di Schwartz, secondo il quale in una derivata mista non dipende dall'ordine di derivazione:
@@ -217,15 +215,11 @@
 	\end{cases}
 	\]
 	
-	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{2.2in}
-				\vspace{-0.3cm}
-				\begin{equation}
-					\frac{\partial^2F}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 F}{\partial t^2} \qquad \qquad v = \sqrt{\frac{E}{\rho}}
-				\end{equation}
-		\end{minipage}}
-	\end{center}
+
+	\begin{equation}
+		\viola{\frac{\partial^2F}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 F}{\partial t^2} \qquad \qquad v = \sqrt{\frac{E}{\rho}}}
+	\end{equation}
+
 	
 	\begin{center}
 		\fboxsep11pt
@@ -266,15 +260,10 @@
 	\[ 
 	T\frac{\partial^2\xi}{\partial x^2}\textcolor{red}{dx} = \mu \textcolor{red}{dx} \frac{\partial^2 \xi}{\partial t^2}
 	\]
-	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{2in}
-				\vspace{-0.3cm}
-				\begin{equation}
-					\frac{\partial^2\xi}{\partial x^2} = \frac{\mu}{T} \frac{\partial^2 \xi}{\partial t^2} \qquad \qquad v = \sqrt{\frac{T}{\mu}}
-				\end{equation}
-		\end{minipage}}
-	\end{center}
+
+	\begin{equation}
+		\viola{	\frac{\partial^2\xi}{\partial x^2} = \frac{\mu}{T} \frac{\partial^2 \xi}{\partial t^2} \qquad \qquad v = \sqrt{\frac{T}{\mu}}}
+	\end{equation}
 	
 	\begin{center}
 		\fboxsep11pt
@@ -287,8 +276,11 @@
 	
 \newpage
 \subsection{Onde nei gas}
-	Riprendiamo la definizione di \textbf{modulo di compressibilità} \(\beta = -V\frac{dp}{dV}\). Il valore di \(\beta\) dipende da come la pressione varia con la densità
-	\\
+	Se per i solidi la deformazione dipende dal modulo di Young secondo la legge \(\frac{\Delta L}{L} = \frac{1}{E}\sigma\), nel caso dei gas la variazione relativa di volume segue la legge
+	\[ 
+	\frac{\Delta V}{V} = -\frac{1}{\beta} \Delta p
+	\] \\
+	
 	\noindent
 	Supponiamo di avere del gas imperturbato (\(\rho_0, p_0\)) bloccato da due pistoni. Fornendo un impulso di pressione tramite i pistoni provociamo una compressione adiacente con una \textbf{conseguenti variazione di densità di massa}.
 	
@@ -349,15 +341,48 @@
 	\[ 
 	\textbf{Risultante} \qquad	-dF = S\beta\frac{\partial^2\xi}{\partial x^2}dx  \mathbf{= dm a} = \rho_0 S(dx) \frac{\partial^2 \xi}{\partial t^2} 
 	\]
-	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{3in}
-				%\vspace{-0.3cm}
-				\begin{equation}
-					\frac{\partial^2\xi}{\partial x^2} = \frac{\rho_0}{\beta} \frac{\partial^2 \xi}{\partial t^2} \qquad \qquad v = \sqrt{\frac{\beta}{\rho_0}}
-				\end{equation}
-		\end{minipage}}
-	\end{center}
+	
+	\begin{equation} \label{gas}
+		\viola{\frac{\partial^2\xi}{\partial x^2} = \frac{\rho_0}{\beta} \frac{\partial^2 \xi}{\partial t^2} \qquad \qquad v = \sqrt{\frac{\beta}{\rho_0}}}
+	\end{equation}
+	
+	Lungo la colonna di gas si propagano anche un'onda i pressione e una perturbazione di densità del gas, tuttue con la stessa velocitù data da \ref{gas}.
+	
+	\subsubsection{Modulo di compressibilità adiabatica}
+	Nel caso di trasformazioni adiabatiche vale (come dimostreremo più avanti) l'uguaglianza
+	\[
+	pV^\lambda = \text{costante}
+	\]
+	dalla quale, sviluppando il differenziale si possono trovare alcune caratteristiche di \(\beta\) in condizioni adiabatiche:
+	\[
+	d\left(pV^\gamma\right) = V^\gamma (dp) + \gamma p V^{(\gamma - 1)}dV \boldsymbol{= 0}
+	\]
+	\[ 
+	\to \quad  V^\gamma (dp) = \gamma p V^{(\gamma - 1)}(dV) \quad \to \quad \frac{\textcolor{red}{V^\gamma} (dp)}{p\textcolor{red}{V^\gamma}} = \frac{\gamma \textcolor{red}{p} V^{(\gamma - 1)}(dV)}{\textcolor{red}{p}V^\gamma}
+	\]
+	Dalla quale otteniamo (confrontata con l'espressione precedente di \(\beta\))
+	\[ 
+	\frac{dp}{p} = \gamma\frac{dV}{V} 
+	\]
+	\[ 
+	\frac{dV}{V} = \frac{1}{p\gamma}dp  \qquad \qquad \frac{\Delta V}{V} = -\frac{1}{\beta} \Delta p
+	\]
+	Da cui si ottiene la nuova espressione di \(\beta\)
+	
+	
+	\begin{equation}
+		\viola{\beta = \gamma p}
+	\end{equation}
+	
+	\begin{es}{calcolo velocità del suono}
+		Se assimiliamo l'aria ad un gas perfetto biatomico (\(\gamma = 7/5\)) dai risultati ottenuti fin'ora si trova che:
+		\[ 
+		v = \sqrt{\frac{\beta}{\rho_0}} = \sqrt{\frac{\gamma p_0}{\rho_0}} = \sqrt{\frac{(7/5)\cdot 1.01325\cdot 10^5}{1.29}} = 331.6 \frac{m}{s}
+		\]
+		Il risultato ottenuto è in accordo (3\%) con quello misurato, possiamo quindi dedurre che l'aprossimazione adiabatica è una bona approssimazione.
+	\end{es}
+	
+	
 \newpage
 \section{Onde piane armoniche}
 Un tipo molto importante di onda piana è l'\textbf{onda armonica} la cui forma si scrive
@@ -440,18 +465,14 @@ Tutte le espressioni della funzione d'onda sono:
 	\]
 	
 	\begin{align*}
-		\bar{\mathcal{P}} =& \frac{1}{2} ESk\omega \xi_0^2  \\
+		\mathcal{P}_m =& \frac{1}{2} ESk\omega \xi_0^2  \\
 			=& \frac{1}{2} (v^2 \rho)S\left(\frac{\omega}{v}\right) \omega\xi_0^2 
 	\end{align*}
-	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{1.5in}
-				%\vspace{-0.3cm}
-				\begin{equation}
-					\bar{\mathcal{P}} = \frac{1}{2}\rho \omega^2 \xi^2 S v
-				\end{equation}
-		\end{minipage}}
-	\end{center}
+	
+	\begin{equation}
+		\viola{\mathcal{P}_m = \frac{1}{2}\rho \omega^2 \xi^2 S v}
+	\end{equation}
+	
 	
 	\subsubsection{Energia per unità di volume}
 	Considero l'elemento infinitesimo di massa \(dm = \rho dV = \rho S dx\) descrive un moto armonico con 
@@ -464,25 +485,21 @@ Tutte le espressioni della funzione d'onda sono:
 	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
 	
 	\[ 
-	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\rho S (dx)\omega^2 \xi_0^2 = \frac{1}{2}\rho V\omega^2 \xi_0^2
+	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\rho S (dx)\omega^2 \xi_0^2 = \frac{1}{2}\rho (dV)\omega^2 \xi_0^2
 	\]
 	Chiamiamo \textbf{densità di energia per unità di volume} il valore 
 	\[
 	\mathcal{W} = \frac{dU}{dV} = \frac{1}{2}\rho \omega^2\xi_0^2
 	\]
 	con la quale possiamo esprimere la potenza media come 
-	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{1.2in}
-				%\vspace{-0.3cm}
-				\begin{equation}
-						\bar{\mathcal{P}} = \mathcal{W}S v
-				\end{equation}
-		\end{minipage}}
-	\end{center}
+	
+	\begin{equation}
+		\viola{\mathcal{P}_m = \mathcal{W}S v}
+	\end{equation}
+
 	
 	\subsubsection{Intensità dell'onda}
-	Definiamo l'intensità di un'onda com e\textbf{potenza media per unità di superficie}, quindi
+	Definiamo l'intensità di un'onda come  \textbf{potenza media per unità di superficie}, quindi
 	
 	\[
 	I = \frac{\mathcal{P}}{S} = \frac{1}{2}\rho\omega^2\xi_0^2v
@@ -515,17 +532,13 @@ Tutte le espressioni della funzione d'onda sono:
 	\[ 
 	\boxed{v = \sqrt{T/\mu} \qquad T = v^2 \mu} \qquad \boxed{k = \frac{\omega}{v}}
 	\]
-	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{1.2in}
-				\vspace{-0.3cm}
-				\begin{equation}
-					\bar{\mathcal{P}} = \frac{1}{2}\mu\omega^2\xi^2v
-				\end{equation}
-		\end{minipage}}
-	\end{center}
 	
-	\subsubsection{Energia per unità di volume}
+	\begin{equation}
+		\viola{\mathcal{P}_m = \frac{1}{2}\mu\omega^2\xi^2v}
+	\end{equation}
+	
+	
+	\subsubsection{Energia per unità di lunghezza}
 	Considero l'elemento infinitesimo di massa \(dm = \mu dx \) descrive un moto armonico con 
 	\[ 
 	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
@@ -536,27 +549,21 @@ Tutte le espressioni della funzione d'onda sono:
 	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
 	
 	\[ 
-	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\rho S (dx)\omega^2 \xi_0^2 = \frac{1}{2}\rho V\omega^2 \xi_0^2
+	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\mu(dx)\omega^2 \xi_0^2 
 	\]
-	Chiamiamo \textbf{densità di energia per unità di volume} il valore 
+	Chiamiamo \textbf{densità di energia per unità di lunghezza} il valore 
 	\[
-	\mathcal{W} = \frac{dU}{dV} = \frac{1}{2}\rho \omega^2\xi_0^2
+	\mathcal{W} = \frac{dU}{dx} = \frac{1}{2}\mu \omega^2\xi_0^2
 	\]
 	con la quale possiamo esprimere la potenza media come 
-	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{1.2in}
-				%\vspace{-0.3cm}
-				\begin{equation}
-					\bar{\mathcal{P}} = \mathcal{W} v
-				\end{equation}
-		\end{minipage}}
-	\end{center}
+	
+	\begin{equation}
+		\viola{\mathcal{P}_m = \mathcal{W} v}
+	\end{equation}
+
 	
 	
 	
-	
-	\subsection{Assorbimento dell'energia}
 	
 	\newpage
 	\subsection{Onde in più dimensioni}	
@@ -595,15 +602,11 @@ Tutte le espressioni della funzione d'onda sono:
 	T\left(\frac{\partial^2\xi(x,y,t)}{\partial y^2} + \frac{\partial^2\xi(x,y,t)}{\partial x^2}\right)\textcolor{red}{dxdy} = \rho_s(\textcolor{red}{dxdy})\frac{\partial^2\xi(x,y,t)}{\partial t^2}
 	\]
 	
-	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{4in}
-				\vspace{0.1cm}
-				\begin{equation}
-					\frac{\partial^2\xi(x,y,t)}{\partial y^2} + \frac{\partial^2\xi(x,y,t)}{\partial x^2} = \frac{\rho_s}{T}\frac{\partial^2\xi(x,y,t)}{\partial t^2} \qquad v = \sqrt{\frac{T}{\rho_s}}
-				\end{equation}
-		\end{minipage}}
-	\end{center}
+	
+	\begin{equation}
+		\viola{\frac{\partial^2\xi(x,y,t)}{\partial y^2} + \frac{\partial^2\xi(x,y,t)}{\partial x^2} = \frac{\rho_s}{T}\frac{\partial^2\xi(x,y,t)}{\partial t^2} \qquad v = \sqrt{\frac{T}{\rho_s}}}
+	\end{equation}
+
 	
 	
 	
@@ -611,7 +614,7 @@ Tutte le espressioni della funzione d'onda sono:
 	Se il mezzo è \textit{isotropo} è quindi la velocità di propagazione è uguale in tutte le direzioni, la funzoine d'\textbf{onda sferica armonica} è \(\xi(r,t) = A(r)\sin\left(kr -\omega t\right)\) dove \(r\) è la distanza dalla sorgfente e \(A(r)\) è l'ampiezza funzione di \(r\). \\
 	
 	\noindent
-	Diciamo che la nostra sorgente emetta un'onda di intensità \(I(r) = CA^2(r)\) dove \(C\) è una costante dipendente dal mezzo. Il punto fondamentale nella comprensione delle onde sferiche sta nel fatto che la potenza media trasmessa attraverso la superficie sferica \(S = 4\pi r^2\) deve risultare costante ad ogni valore di \(r\):
+	Diciamo che la nostra sorgente emetta un'onda di intensità \(I(r) = CA^2(r)\) dove \(C\) è una costante dipendente dal mezzo. In un'onda sferica la \textbf{potenza media} trasmessa attraverso la superficie sferica \(S = 4\pi r^2\) deve risultare \textbf{costante} ad ogni valore di \(r\):
 	
 	\[ 
 	\mathcal{P}_m = \textcolor{blue}{I}S = \text{cost.}
@@ -626,29 +629,169 @@ Tutte le espressioni della funzione d'onda sono:
 	\]
 
 	\noindent
-	Risulta quindi che l'ampiezza è inversamente proporzionale alla distanza \(r\) e quindi può essere scritta come \(A = \xi_0 /r\).
+	Risulta quindi che l'ampiezza è inversamente proporzionale alla distanza \(r\), come la pressione, e quindi può essere scritta come \(A = \xi_0 /r\).
+	\begin{equation}
+		\viola{\xi(r,t) = \frac{\xi_0}{r}\sin\left(kr -\omega t\right)}
+	\end{equation}
+	mentre l'intensità è inversamente proporzionale al quadrato della distanza dalla sorgente:
 	
+	\[ 
+	I(r) = \frac{\mathcal{P}_m}{S} = <
+	\]
 	
 	\begin{center}
-		\fboxsep6pt
-		\colorbox{myred}{\begin{minipage}{2in}
-				%\vspace{-0.3cm}
-				\begin{equation}
-					\xi(r,t) = \frac{\xi_0}{r}\sin\left(kr -\omega t\right)
-				\end{equation}
-		\end{minipage}}
+		\textcolor{red}{PERCHE SI TRATTA COME UNA CORDA?????????}
 	\end{center}
 	
+	\subsection{Onde cilindriche}
 	
 
-\newpage
-\subsection{Pacchetti d'onde}
-\subsection{Velocità di fase e velocità di gruppo}
-\subsection{Effetto Doppler}
-\subsection{Onda d'urto}
 
-\section{Onde stazionarie}
-
+	\newpage
+	\subsection{Assorbimento dell'energia}
+	Come abbiamo visto l'intensità di un'onda non rimane costante ma decresce al propagarsi dell'onda (nelle onde sferiche più rapidamente, nelle cilindriche meno...). Questo comportamento viene attribuito ad un \textbf{assorbimento di energia} dovuto a fenomeni di attrito interno. Studiando il fenomeno su uno spessore \(dx\) si ha un'aattenuazione che può essere considerata proporzionale all'intensità in \(x\) e allo spessore \(dx\).
+	
+	\[ 
+ 	dI = -\boldsymbol{\alpha} I(x)dx
+	\]
+	
+	dove \(\alpha\) è il \textbf{coefficiente di assorbimento}.
+	
+	\[ 
+	\int_{I_0}^{I} \frac{dI}{I} = -\alpha\int_{0}^{x} dx 
+	\]
+	\begin{equation}
+ 		\viola{I(x) = I_0e^{-\alpha x}}
+	\end{equation}
+	Quindi la decrescità dell'intensità è esponenziale. Definiamo la distanza \(x_0 = \frac{1}{\alpha}\) detta \textbf{lunghezza di assorbimento} la distanza tra due punti tali che \(I(x_1)/I(x_2) = \frac{1}{e}\).\\
+	
+	\noindent
+	Abbiamo appurato precedentemente che l'ampiezza dell'onda è direttamente proporzionale a \(\sqrt{I}\)
+	
+	\[ 
+	I = CA^2 \quad \to \quad A = \sqrt{\frac{I}{C}} = \sqrt{\frac{I_0e^{-\alpha x}}{C}}
+	\]
+	quindi la funzione d'onda in un mezzo che assorbe energia è:
+	
+	\[ 
+	\textbf{Onde piane:}\qquad \xi = \left(\frac{I_0e^{-\alpha x}}{C}\right)^{\frac{1}{2}} \sin\left(kx-\omega t\right) \quad = \quad \xi_0 \left(I_0e^{-\alpha x/2}\right)^{\frac{1}{2}}\sin\left(kx-\omega t\right)
+	\]
+	\[ 
+	\textbf{Onde sferiche:}\qquad \xi = \frac{\left(\frac{I_0e^{-\alpha x}}{C}\right)^{\frac{1}{2}}}{r} \sin\left(kx-\omega t\right) \quad = \quad \xi_0 \frac{\left(I_0e^{-\alpha x/2}\right)^{\frac{1}{2}}}{r}\sin\left(kx-\omega t\right)
+	\]
+	\[ 
+	\textbf{Onde cilindriche:}\qquad \xi = \frac{\left(\frac{I_0e^{-\alpha x}}{C}\right)^{\frac{1}{2}}}{\sqrt{r}} \sin\left(kx-\omega t\right) \quad = \quad \xi_0 \frac{\left(I_0e^{-\alpha x/2}\right)^{\frac{1}{2}}}{\sqrt{r}}\sin\left(kx-\omega t\right)
+	\]
+	
+	\newpage
+	\subsection{Pacchetti d'onde}
+	Fino ad ora abbiamo considerato onde armoniche di lunghezza e durata infinita. Tutte le sorgenti emettono onde attraverso processi di durata finita, quindi, nella realtà, un'onda ha una propria durata e estensione spaziale.\\
+	
+	\noindent
+	Considerato un pacchetto di lughezza \(\Delta x\) e durata \(\Delta t\), tali che \(\Delta x = v\Delta t\). Il pacchetto è poi caratterizzato da \(N\) oscillazioni tali che
+	
+	\[ 
+\Delta x  =N \lambda \qquad \Delta t = NT 
+	\]
+	ed esprimiamo il numero di onde \(k\) e la pulsazione \(\omega\) come
+	
+	\[ 
+	k = \frac{2\pi}{\lambda}= \frac{2\pi N}{\Delta x} \qquad \omega = \frac{2\pi}{T} = \frac{2\pi N}{\Delta t}
+	\]
+	
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	Se ammettiamo (come nella figura) che N non sia fisso ma abbia una acerta indeterminazione che esprimiamo come \(\Delta N = 1\), possiamo trovare altre espressioni per \(k\) e \(\omega\):
+	
+	\[ 
+	\boxed{\Delta k = \frac{2\pi}{\Delta x}} \qquad \boxed{ \Delta\omega = \frac{2\pi}{\Delta t}} \qquad \boxed{\Delta f = \frac{1}{\Delta t}}
+	\]
+	
+	\[ 
+	\viola{\Delta k \Delta x = 2\pi} \qquad \viola{\Delta \omega \Delta t = 2\pi} \qquad \viola{\Delta f \Delta t = 1}
+	\]
+	Queste osservazioni mettono i vevidenza la sostanziale differenza tra onda e pacchetto d'onda: mentre la prima ha una lunghezza d'onda \(\lambda\)  e una frequenza \(f\) ben definite che la descrivono completamente, nel secondo è presente una \textbf{banda di frequenze} e un \textbf{intervallo di numeri d'onda}
+	\[ 
+	\Delta f = \frac{1}{\boldsymbol{\Delta t}} \qquad \Delta k = \frac{2\pi}{\boldsymbol{\Delta x}}
+	\]
+	Da quest'ultime espressioni notiamo che al crescere di \(\Delta x\) e \(\Delta t\) minori risultano queste bande, infatti la limite per \(\Delta x,\Delta t \to \infty\) troviamo l'onda armonica. Se andiamo a considerare \textbf{brevi durate e piccole lunghezze} nel pacchetto sono contenute bande di lunghezze d'onda e frequenze distribuite significatibamente nell'intorno di \(\lambda\) \(f\).
+	
+		\subsubsection{Velocità di fase e velocità di gruppo}
+		Poiché diversi segmenti d'onda contenuti in un pacchetto possono avere frequenze diverse, la velocità del pacchetto non può essere identificata con quella delle componenti. Tuttavia è essenziale identificare la velocità del pacchetto perché il fenomeno fisico è rappresentato proprio dal pacchetto ed è la sua velocità quella con cui si propaga l'\textbf{energia} dell'onda.     
+		
+		Andiamo quindi a distinguere la \textbf{velocità di fase}, quella con cui si muovono le singole componenti dell'onda, e \textbf{velocità di gruppo}. 
+		La velocità dell'onda dipende dalla frequenza quando la propagazione avviene in un \textbf{mezzo dispersivo} come può avvenire per onde sulla superficie di un liquido o onde elettromagnetiche in mezzi materiali o in cavità conduttrici.\\
+		
+		\noindent
+		Mostriamo un esempio di velocità di gruppo nel caso di un pacchetto con solo due onde armoniche:
+		
+		\[ 
+		\xi(x,t) = \xi_0\sin\left(k_1x -\omega_1 t\right) + \xi_0\sin\left(k_2x -\omega_2 t\right)
+		\]
+		\[ 
+		\textcolor{gray}{\textit{prostaferesi: } \quad \sin\alpha + \sin\beta = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
+		\]
+		\[ 
+		\xi(x,t) = 2\xi_0\sin\left(\frac{(k_1 + k_2)x - (\omega_1 + \omega_2)t}{2}\right) \cos\left(\frac{(k_1 - k_2)x + (\omega_2 - \omega_1)t}{2}\right)
+		\]
+		Definiti \(k_m,\omega _m\) e \(\Delta k,\Delta\omega\)
+		\[ 
+		\boxed{k_m = \frac{k_1 + k_2}{2}} \qquad \boxed{\omega _m = \frac{\omega _1 + \omega _2}{2}} \qquad \boxed{\Delta k=\frac{k_1 - k_2}{2}} \qquad \boxed{\Delta \omega = \frac{\omega_1 - \omega_2}{2}}
+		\]
+		\[ 
+		\viola{\xi(x,t) = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)\sin\left(k_mx - \omega_mt\right)}
+		\]
+		\begin{center}
+			\textcolor{red}{inserire grafici}
+		\end{center}
+		
+		
+		\begin{tikzpicture}[scale=0.8]
+			% Assi cartesiani
+			\draw[->] (-5,0) -- (5,0) node[below] {$x$};
+			\draw[->] (0,-2) -- (0,2) node[left] {$\xi(x,t)$};
+			% Etichette sugli assi
+			\foreach \x/\xtext in {-4/-4, -3/-3, -2/-2, -1/-1, 1/1, 2/2, 3/3, 4/4}
+			\draw (\x,0.1) -- (\x,-0.1) node[below] {$\xtext$};
+			\foreach \y/\ytext in {-1/-\xi_0, 1/\xi_0}
+			\draw (0.1,\y) -- (-0.1,\y) node[left] {$\ytext$};
+			% Grafico
+			\draw[domain=-5:5, smooth, variable=\x, blue] plot ({\x},{2*cos(deg(0.5*\x)) * sin(deg(2*\x))});
+			% Etichette
+			\node[below] at (2.5,0) {$k_m x - \omega_m t$};
+			\node[left] at (0,1.5) {$2\xi_0$};
+		\end{tikzpicture}
+		
+		
+	
+		In sostanza il moto relativo di un'onda rispetto all'altra produce la sovrapposizione mostrata sopra: \textbf{l'onda di alta frequenza cambia} durante il moto ma \textbf{l'inviluppo conserva la stessa forma}.
+		
+		L'ampiezza dell'onda modulata
+		\[ 
+		A = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)
+		\]
+		non è costante ma presenta una struttura di tipo ondulatorio e descrive l'inviluppo dell'onda di alta frequenza.
+		
+		Abbiamo quindi un'onda di alta frequenza che si propaga con velocità di fase \(v_f\) e con ampiezza modulata da un'onda che si propaga con velocità \(v_g\) velocità di gruppo:
+		\[ 
+		\boldsymbol{v_f} = \frac{\omega _m}{k_m} \qquad \boldsymbol{v_g} = \frac{\Delta \omega }{\Delta k}
+		\]
+		              
+	
+	\newpage
+	\subsection{Effetto Doppler}
+	\subsection{Onda d'urto}
+	
+	\newpage
+	\section{Onde stazionarie}
+	Un'altro tipo di oscellazioni rilevanti sono le onde stazionarie. Per semplicità andremo a considerare onde su una corda fissata ai due estremi. Si osserva che le posizioni di massima ampiezza e dei punti fermi (nodi) non variano nel tempoo. Possiamo quindi definire questo tipo di oscillazione un'\textbf{oscillazione collettiva} del fenomeno \textbf{cui non è associato un fenomeno di propagazione}. \\
+	
+	\noindent
+	Consideriamo una corda fissa ad un solo estremo; sull'estremo libero applichiamo una perturbazione \textbf{sinusoidale} regressiva di frequenza \(f\) tramite un diapason:
+	\[ 
+	\xi_1 (x,t) = A\sin\left(kx +\omega t\right) 
+	\]
 
 \newpage
 \section{Fluidi}
