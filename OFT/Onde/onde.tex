@@ -31,6 +31,45 @@
 \usepackage{darkmode}
 \usepackage{cancel}
 
+% TIKZ settings
+\usetikzlibrary{arrows,arrows.meta}
+\tikzset{>=latex}
+\colorlet{vcol}{green!60!black}
+\tikzstyle{vvec}=[-{Latex[length=4,width=3]},thick,vcol,line cap=round]
+\tikzstyle{myarr}=[-{Latex[length=3,width=2]}]
+\tikzstyle{mydoublearr}=[{Latex[length=3,width=2]}-{Latex[length=3,width=2]}]
+\tikzset{
+	pics/eye/.style={
+		code={
+			\draw (#1-180:0.5) to[out=#1,in=#1-240,looseness=0.9] (#1-90:0.25)
+			(#1-180:0.5) to[out=#1,in=#1-130,looseness=0.9] (#1-270:0.25);
+			\clip (#1-180:0.47) to[out=#1,in=#1-240,looseness=0.9] (#1-90:0.24) --
+			(#1-270:0.242) to[out=#1-130,in=#1,looseness=0.9] cycle;
+			\draw[very thin,top color=white,bottom color=red!60!black!20,shading angle=#1-120]
+			(#1-180:0.48) circle(0.45);
+			\fill[brown!30!black,rotate=#1-180]
+			(0.07,0) ellipse({0.05} and 0.12);
+			\fill[black,rotate=#1-180]
+			(0.05,0) ellipse({0.03} and 0.06);
+	}},
+	pics/eye/.default=180
+}
+% REST
+\def\R{1.5}      % radius
+\def\N{5}        % number of wave fronts
+\def\lam{\R/\N}  % wavelength
+\def\angmin{30}  % min. angle velocity arrow
+\def\angmax{330} % min. angle velocity arrow
+\def\waves#1{
+	\foreach \i in {1,...,\N}{
+		\draw[blue,thick] ({-(\i-0.25)*#1*\lam},0) circle ({\lam*(\i-0.25)});
+	}
+	\foreach \a in {\angmin,90,150,210,270,\angmax}{
+		\draw[myarr,vcol] ({-(\N-0.25)*#1*\lam},0)++(\a:\R-0.50*\lam) --++ (\a:\lam);
+	}
+	\fill[red] (0,0) circle (0.06);
+}
+
 %\enabledarkmode
 \definecolor{myblue}{RGB}{224, 245, 255} 
 \definecolor{myred}{RGB}{234, 222, 255}
@@ -431,7 +470,7 @@ Tutte le espressioni della funzione d'onda sono:
 \]
 	\newpage
 	\subsection{Analisi di Fourier}
-	\subsection{Onde sulla superficie di un liquido}
+
 	
 	
 	\newpage
@@ -744,26 +783,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\]
 		\begin{center}
 			\textcolor{red}{inserire grafici}
-		\end{center}
-		
-		
-		\begin{tikzpicture}[scale=0.8]
-			% Assi cartesiani
-			\draw[->] (-5,0) -- (5,0) node[below] {$x$};
-			\draw[->] (0,-2) -- (0,2) node[left] {$\xi(x,t)$};
-			% Etichette sugli assi
-			\foreach \x/\xtext in {-4/-4, -3/-3, -2/-2, -1/-1, 1/1, 2/2, 3/3, 4/4}
-			\draw (\x,0.1) -- (\x,-0.1) node[below] {$\xtext$};
-			\foreach \y/\ytext in {-1/-\xi_0, 1/\xi_0}
-			\draw (0.1,\y) -- (-0.1,\y) node[left] {$\ytext$};
-			% Grafico
-			\draw[domain=-5:5, smooth, variable=\x, blue] plot ({\x},{2*cos(deg(0.5*\x)) * sin(deg(2*\x))});
-			% Etichette
-			\node[below] at (2.5,0) {$k_m x - \omega_m t$};
-			\node[left] at (0,1.5) {$2\xi_0$};
-		\end{tikzpicture}
-		
-		
+		\end{center}	
 	
 		In sostanza il moto relativo di un'onda rispetto all'altra produce la sovrapposizione mostrata sopra: \textbf{l'onda di alta frequenza cambia} durante il moto ma \textbf{l'inviluppo conserva la stessa forma}.
 		
@@ -773,14 +793,166 @@ Tutte le espressioni della funzione d'onda sono:
 		\]
 		non è costante ma presenta una struttura di tipo ondulatorio e descrive l'inviluppo dell'onda di alta frequenza.
 		
-		Abbiamo quindi un'onda di alta frequenza che si propaga con velocità di fase \(v_f\) e con ampiezza modulata da un'onda che si propaga con velocità \(v_g\) velocità di gruppo:
+		Abbiamo quindi un'onda di alta frequenza che si propaga con \textbf{velocità di fase media} \(v_f\) e con ampiezza modulata da un'onda che si propaga con velocità \(v_g\) \textbf{velocità di gruppo}:
 		\[ 
-		\boldsymbol{v_f} = \frac{\omega _m}{k_m} \qquad \boldsymbol{v_g} = \frac{\Delta \omega }{\Delta k}
+		v_f = \frac{\omega _m}{k_m} \qquad v_g = \frac{\Delta \omega }{\Delta k}
 		\]
-		              
-	
+		Più in dettaglio la velocità di gruppo, nel limite del continuo, è definita come 
+		\[ 
+		v_g = \frac{d\boldsymbol{\omega} }{d\boldsymbol{k}}
+		\]
+		invece dall'espressione della velocità di fase possiamo esprimere la pulsazione in funzione di \(v_f\) e \(k\):
+		\[ 
+		\boldsymbol{\omega (k)} = v_f(k)\boldsymbol{k}
+		\]
+		da cui
+		\begin{equation}\label{relazione di dispersione}
+			\viola{v_g = v_f + k\frac{dv_f}{dk}} 
+		\end{equation}
+		La velocità di gruppo può quindi essere minore o maggiore della velocità di fase, dipende dal segno della derivata di \(v_f\): se la velocità delle singole componenti decresce, allora la velocità di gruppo sarà minore, se invece è in crescita, la velocità di gruppo sarà maggiore. Il caso di \textbf{mezzo non dispersivo}, ovvero quando \(\boldsymbol{v_g = v_f}\) si ha quando \(\boldsymbol{dv_f/dk = 0}\).
+
+		\begin{es}{}
+			Servendosi delle seguenti uguaglianze
+			\[ 
+			\boxed{\frac{dk}{k}} = \boxed{-\frac{d\lambda}{\lambda}} = \boxed{\frac{df}{f}}
+			\]
+			la \ref{relazione di dispersione} è riscrivibile come 
+			\[ 
+			= v_f - \lambda \frac{dv_f}{d\lambda} = v_f + f\frac{dv_f}{df}
+			\]
+		\end{es}
+		
+		E' bene capire che la struttura del pacchetto in generale si modifica durante la propagazione e proprio per questo la velocità di fase (delle singole componenti) varia in funzione di \(k\) così come la velocità di gruppo
 	\newpage
 	\subsection{Effetto Doppler}
+	Se una sorgente di onde \(\boldsymbol{S}\) e un rivelatore di onde \(\boldsymbol{R}\) sono n moto reciproco la frequenza percepita dal rivelatore è in generale diversa dalla frequenza propira della sorgenre. Questo fenomeno prende il nome di effetto Doppler e si osserva per tutti i tipi di onde.
+	
+	Prendiamo in esame una sorgente che emette un qualsiasi tipo di onde armoniche sferiche di velocità \(v\), chiamiamo \textbf{fronte d'onda} la superficie sferica su cui la fase è costante e facciamo coincidere il fronte d'onda con una cresta. La cresta successiva a quella fissata sul fronte d'onda si trova a distanza spaziale \(\lambda\) e temporale \(T\) con differenza di fase \(2\pi \). In un tempo \(\Delta t\) l'onda avanza di uno spazio \(v\Delta t\) e il rivelatore viene attraversato da tanti fronti contenuti nello spazio \(v\Delta t\): 
+	\[ 
+	N = \frac{v\Delta t}{\lambda}
+	\]
+	quindi il rivelatore percepisce una frequenza
+	\[
+	f_R = \frac{N}{\Delta t}= \frac{v\Delta t}{\lambda \Delta t} = \frac{v}{\lambda} = f
+	\]
+	\begin{center}
+		\begin{tikzpicture}
+			\waves{0}
+			\node[vcol] at (30:1.22*\R) {$c$};
+			\draw[mydoublearr]
+			(-0.9*\R,-0.8*\R) node[left=-1,scale=0.7] {$y$}
+			|-++ (0.15*\R,-0.15*\R) node[right=-1,scale=0.7] {$x$};
+			\begin{scope}[shift={(0,-1.35*\R)}]
+				\draw[blue,thick,samples=100,smooth,variable=\x]
+				plot[domain=-\R:0](\x,{0.1*\R*sin(360/(\lam)*\x)}) %--
+				plot[domain=0:\R](\x,{-0.1*\R*sin(360/(\lam)*\x)});
+				\fill[red] (0,0) circle (0.05);
+				\draw[myarr,vcol] (-\R+0.25*\lam,0.04*\R) --++ (-\lam,0);
+				\draw[myarr,vcol] (\R-0.25*\lam,0.04*\R) --++ (\lam,0);
+				\draw[mydoublearr]
+				(-\R-2.3*\lam,0.06*\R) node[left=-1,scale=0.7] {$z$}
+				|-++ (0.15*\R,-0.15*\R) node[right=-1,scale=0.7] {$x$};
+			\end{scope}
+		\end{tikzpicture}
+	\end{center}
+	In questa condizione la frequenza percepita dal rivelatore è la frequenza propria della sorgente.
+	
+	\subsubsection{Osservatore in movimento}
+
+	% MOVING - DOPPLER SHIFT
+	\begin{tikzpicture}
+		\def\s{0.61}
+		\draw[blue!20,dashed,very thin,dash pattern=on 1 off 1]
+		({-(\N-0.25)*\s*\lam},0) -- (0,0);
+		\fill[red!20] ({-(\N-0.25)*\s*\lam},0) circle (0.06);
+		\waves{\s}
+		\node[vcol] at (30:{1.15*\R-\s*\R} and 1.2*\R) {$c$};
+		\draw[mydoublearr]
+		(-0.9*\R-\s*\R,-0.8*\R) node[left=-1,scale=0.7] {$y$}
+		|-++ (0.15*\R,-0.15*\R) node[right=-1,scale=0.7] {$x$};
+		%\draw[dashed] (\R-\s*\R,0) --++ (0,-1.3*\R);
+		%\draw[dashed] (0,0) --++ (0,-1.3*\R);
+		%\draw[dashed] (-\R-\s*\R,0) --++ (0,-1.3*\R);
+		\pic at ( 1.25*\R-\s*\R,0) {eye={180}};
+		\pic at (-1.15*\R-\s*\R,0) {eye={0}};
+		\draw[-{Latex[length=4.8,width=3.8]},white,line width=1.2]
+		(0.05,0) -- (0.22*\R+0.02,0);
+		\fill[red] (0,0) circle (0.06);
+		\draw[-{Latex[length=4,width=3]},thick,vcol,line cap=round]
+		(0.05,0) -- (0.22*\R,0); %node[right=-1] {$v$};
+		\begin{scope}[shift={(0,-1.35*\R)}]
+			\draw[blue,thick,samples=100,smooth,variable=\x]
+			plot[domain=-(\s+1)*(\R):0](\x,{0.1*\R*sin(360/(\s+1)/(\lam)*\x)}) %--
+			plot[domain=0:(1-\s)*(\R)](\x,{-0.1*\R*sin(360/(1-\s)/(\lam)*\x)});
+			\fill[red] (0,0) circle (0.05);
+			\draw[myarr,vcol] ({-(\s+1)*(\R-0.25*\lam)},0.04*\R) --++ (-\lam,0);
+			\draw[myarr,vcol] ({(1-\s)*(\R-0.25*\lam)},0.04*\R) --++ (\lam,0);
+			\draw[mydoublearr]
+			(-\R-\s*\R-2.3*\lam,0.06*\R) node[left=-1,scale=0.7] {$z$}
+			|-++ (0.15*\R,-0.15*\R) node[right=-1,scale=0.7] {$x$};
+		\end{scope}
+		%\draw[<->] (0,-1.5*\R) --++ (\R-\s*\R,0)
+		%  node[midway,right=2,below=1,scale=0.6] {$\sim c-v$}; %{$\sim\dfrac{c}{c+v}$};
+		%\draw[<->] (0,-1.5*\R) --++ (-\R-\s*\R,0)
+		%  node[midway,below=1,scale=0.6] {$\sim c+v$}; %{$\sim\dfrac{c}{c-v}$};
+	\end{tikzpicture}
+	
+	% DOPPLER SHIFT - distances
+	\begin{tikzpicture}
+		\def\R{2.0}     % total radius
+		\def\N{5}       % number of wave fronts
+		\def\lam{\R/\N} % wavelength
+		\def\s{0.5}     % shift
+		\def\ang{13}    % opening angle
+		\draw[dashed]
+		(-\s*\R,-0.27*\R) --++ (0,0.5*\R)
+		(0,-0.27*\R) --++ (0,0.5*\R);
+		\draw[blue!50,dashed,very thin,dash pattern=on 1 off 1]
+		({-\s*\R},0) -- (0,0);
+		\fill[red!20] ({-\s*\R},0) circle (0.06);
+		\foreach \i [evaluate={\r=\i*\lam;\a=\ang-1.2*\i;}] in {1,...,\N}{
+			\draw[blue,thick] ({-\i*\s*\lam},0)++(180-\a:\r) arc(180-\a:180+\a:\r);
+			\draw[blue,thick] ({-\i*\s*\lam},0)++(    \a:\r) arc(    \a:-\a:\r);
+		}
+		\draw[white,line width=1.2] %-{Latex[length=4.8,width=3.8]}
+		(0.05,0) -- (0.96*\lam-0.02,0);
+		\fill[red] (0,0) circle (0.06);
+		\draw[-{Latex[length=4,width=3]},thick,vcol,line cap=round]
+		(0.05,0) -- (0.96*\lam,0) node[left=3,above=0,scale=0.9] {$v_\mathrm{s}$};
+		\draw[->] (-\s*\R,0.18*\R) --++ (\s*\R,0)
+		node[midway,above=-1,scale=0.8] {$v\Delta t$};
+		\draw[->] (-\s*\R,-0.252*\R) --++ (\R,0)
+		node[midway,right=4,below=-1,scale=0.8] {$c\Delta t$};
+		\draw[->] (-\s*\R,-0.240*\R) --++ (-\R,0)
+		node[midway,below=-1,scale=0.8] {$c\Delta t$};
+		\draw[myarr,vcol] (0:\R-\s*\R-0.25*\lam) --++ (0:1.1*\lam) node[right=-1,scale=0.9] {$c$};
+		\draw[myarr,vcol] (180:\R+\s*\R-0.25*\lam) --++ (180:1.1*\lam) node[left=-1,scale=0.9] {$c$};
+	\end{tikzpicture}
+	
+	% SONIC BOOM
+	\begin{tikzpicture}
+		%\draw[red!60!black!90,dash pattern=on 2 off 2,thin]
+		%  (0.05,0.2*\R) --++ (0,-0.4*\R);
+		\waves{0.97}
+	\end{tikzpicture}
+	
+	% SUPERSONIC
+	\begin{tikzpicture}
+		\def\angmin{90}  % min. angle velocity arrow
+		\def\angmax{270} % min. angle velocity arrow
+		\def\f{1.4}
+		\def\ang{asin(1/\f)}
+		\waves{\f}
+		\draw[red!60!black!90,dash pattern=on 2 off 2,thin]
+		(0.015,0)++({180-\ang}:0.045) --++ ({180-\ang}:1.45*\R)
+		(0.015,0)++({180+\ang}:0.045) --++ ({180+\ang}:1.45*\R);
+		\foreach \i in {2,4,6}{
+			\draw[myarr,vcol] ({-(\i-0.25)*\f*\lam},0)++({90-\ang}:{\lam*(\i-0.45)}) --++ ({90-\ang}:\lam);
+			\draw[myarr,vcol] ({-(\i-0.25)*\f*\lam},0)++({\ang-90}:{\lam*(\i-0.45)}) --++ ({\ang-90}:\lam);
+		}
+	\end{tikzpicture}
+	
+	\newpage
 	\subsection{Onda d'urto}
 	
 	\newpage

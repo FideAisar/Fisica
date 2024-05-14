@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.20)  13 MAY 2024 19:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.20)  14 MAY 2024 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1552,64 +1552,70 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen395
 ))
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen396
+\pgfarrowlength=\dimen397
+\pgfarrowwidth=\dimen398
+\pgfarrowlinewidth=\dimen399
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 97.
-
-(./onde.aux)
+h' as default language. on input line 136.
+ (./onde.aux)
 \openout1 = `onde.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 136.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-97.
+136.
  (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 136.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-97.
+136.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 136.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-97.
+136.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count449
-\scratchdimen=\dimen396
+\scratchdimen=\dimen400
 \scratchbox=\box104
 \nofMPsegments=\count450
 \nofMParguments=\count451
 \everyMPshowfont=\toks57
 \MPscratchCnt=\count452
-\MPscratchDim=\dimen397
+\MPscratchDim=\dimen401
 \MPnumerator=\count453
 \makeMPintoPDFobject=\count454
 \everyMPtoPDFconversion=\toks58
@@ -1626,7 +1632,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 97.
+Package chemgreek Info: Activating mapping `fourier' on line 136.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1662,8 +1668,8 @@ Package chemgreek Info: Activating mapping `fourier' on line 97.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 97.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 97.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 136.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 136.
 
 (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-eng
 lish.trsl
@@ -1671,7 +1677,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 97.
+or `english'. on input line 136.
  (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
@@ -1684,7 +1690,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 97.
+Package hyperref Info: Link coloring OFF on input line 136.
  (./onde.out)
 (./onde.out)
 \@outlinefile=\write6
@@ -1770,32 +1776,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101 \newpage
+l.140 \newpage
                [1]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 151--152
  [][][][][][] 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 121.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 121.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 121.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 160.
 
-Overfull \hbox (10.07375pt too wide) in paragraph at lines 132--133
+Overfull \hbox (10.07375pt too wide) in paragraph at lines 171--172
 []\T1/futs/m/n/10 Una fun-zione del tipo $[]$ sod-disfa l'equazione dif-feren-z
 iale detta \T1/futs/b/n/10 equazione delle onde \T1/futs/m/n/10 o \T1/futs/b/n/
 10 equazione
  []
 
 [2]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 230--231
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 269--270
  [][][][][][] 
  []
 
 [3]
-Overfull \hbox (0.79782pt too wide) detected at line 254
+Overfull \hbox (0.79782pt too wide) detected at line 293
 \FML/futmi/m/it/10 dF[] \T1/futs/m/n/10 = \FML/futmi/m/it/10 T\T1/futs/m/n/10 (
 [] \FML/futmi/m/it/10 [] \FMS/futm/m/n/10 ^^@ [] \FML/futmi/m/it/10 \T1/futs/
 m/n/10 ) = \FML/futmi/m/it/10 T\T1/futs/m/n/10 ([] \FML/futmi/m/it/10 [] \FMS/
@@ -1806,83 +1812,90 @@ futmi/m/it/10 T[]dx
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 274--275
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 313--314
  [][][][][][] 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
 
-Overfull \hbox (13.65874pt too wide) in paragraph at lines 299--301
+Overfull \hbox (13.65874pt too wide) in paragraph at lines 338--340
 \T1/futs/m/n/10 A par-tire da questa nuova espres-sione della "larghezza" dell'
 elemnto in-finites-imo posso scri-vere l'espressione
  []
 
 [5]
-Underfull \hbox (badness 1242) in paragraph at lines 381--383
+Underfull \hbox (badness 1242) in paragraph at lines 420--422
 \T1/futs/m/n/10 Il risul-tato ot-tenuto è in ac-cordo (3%) con quello mis-urato
 , pos-si-amo quindi de-durre che
  []
 
 [6]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 412--413
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 451--452
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--425
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
 
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
 [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 614--615
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
 
  []
 
 [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 665--667
+Underfull \hbox (badness 10000) in paragraph at lines 704--706
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 688--689
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 723--725
+Underfull \hbox (badness 10000) in paragraph at lines 762--764
 
  []
 
-[14] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 788--789
+[14]
+Overfull \hbox (1.25583pt too wide) in paragraph at lines 796--797
+[]\T1/futs/m/n/10 Abbiamo quindi un'onda di alta fre-quenza che si propaga con 
+\T1/futs/b/n/10 ve-loc-ità di fase me-dia $\FML/futmi/m/it/10 v[]$ \T1/futs/m/n
+/10 e con ampiezza
+ []
+
+[15] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 960--961
 
  []
 
-[17] [18] (./onde.aux)
+[18] [19] (./onde.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `onde.out' has not changed.
-(rerunfilecheck)             Checksum: 804A2F5DF49B85A3D6CDFAA395E75385;4629.
+(rerunfilecheck)             Checksum: 24522CFAA0E081800FB96949D8DB0B11;4566.
  ) 
 Here is how much of TeX's memory you used:
- 50972 strings out of 476076
- 1160359 string characters out of 5793775
- 1986012 words of memory out of 5000000
- 72082 multiletter control sequences out of 15000+600000
+ 52169 strings out of 476076
+ 1187651 string characters out of 5793775
+ 2059867 words of memory out of 5000000
+ 73273 multiletter control sequences out of 15000+600000
  642528 words of font info for 118 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 117i,12n,113p,719b,1444s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,113p,719b,1442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fo
 nts/type1/public/fourier/fourier-mcl.pfb></usr/share/texmf-dist/fonts/type1/pub
@@ -1892,10 +1905,10 @@ ourier-mlit.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mlitb
 re/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/fonts/
 type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/
 putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on onde.pdf (19 pages, 164796 bytes).
+Output written on onde.pdf (20 pages, 183906 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 

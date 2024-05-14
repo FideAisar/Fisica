@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.3.23)  7 APR 2024 21:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.20)  14 MAY 2024 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1426,14 +1426,19 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 \openout2 = `titlepage.aux'.
 
 
-(./titlepage.tex [1
+(./titlepage.tex
+<IMG_0200.jpeg, id=99, 1606.0pt x 1490.56876pt>
+File: IMG_0200.jpeg Graphic file (type jpg)
+<use IMG_0200.jpeg>
+Package pdftex.def Info: IMG_0200.jpeg  used on input line 21.
+(pdftex.def)             Requested size: 160.6094pt x 149.0656pt.
+ [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/base/8r.enc}]) (./relazione.toc
+/enc/dvips/base/8r.enc} <./IMG_0200.jpeg>]) (./relazione.toc
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line
  8.
-
 (/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
@@ -1645,13 +1650,7 @@ Overfull \hbox (16.56999pt too wide) in paragraph at lines 1082--1112
 []$[]$ $[]$ 
  []
 
-[14]
-Overfull \hbox (1.61278pt too wide) in paragraph at lines 1114--1115
-\T1/futs/m/n/10 cludo af-fer-mando che nes-sun pe-ri-odo mis-rato è com-pat-i-b
-ile con una massa dif-fer-ente. Nonos-tante questo
- []
-
-[15] [16] (./relazione.aux (./titlepage.aux))
+[14] [15] [16] (./relazione.aux (./titlepage.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1660,10 +1659,10 @@ Package rerunfilecheck Info: File `relazione.out' has not changed.
 (rerunfilecheck)             Checksum: 926E70F0870DDE0171301967C0411CDA;3612.
  ) 
 Here is how much of TeX's memory you used:
- 43651 strings out of 476076
- 1001226 string characters out of 5793775
- 1960187 words of memory out of 5000000
- 64898 multiletter control sequences out of 15000+600000
+ 43658 strings out of 476076
+ 1001365 string characters out of 5793775
+ 1959187 words of memory out of 5000000
+ 64905 multiletter control sequences out of 15000+600000
  675526 words of font info for 149 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  102i,22n,107p,917b,2727s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1675,10 +1674,10 @@ urier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fon
 ts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
 a/putri8a.pfb>
-Output written on relazione.pdf (17 pages, 158968 bytes).
+Output written on relazione.pdf (17 pages, 268964 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
+ 359 PDF objects out of 1000 (max. 8388607)
  317 compressed objects within 4 object streams
  115 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
