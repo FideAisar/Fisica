@@ -70,6 +70,17 @@
 	\fill[red] (0,0) circle (0.06);
 }
 
+% svg + latex
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./imgs/}{#1.pdf_tex}
+}
+
 %\enabledarkmode
 \definecolor{myblue}{RGB}{224, 245, 255} 
 \definecolor{myred}{RGB}{234, 222, 255}
@@ -835,139 +846,135 @@ Tutte le espressioni della funzione d'onda sono:
 	\[
 	f_R = \frac{N}{\Delta t}= \frac{v\Delta t}{\lambda \Delta t} = \frac{v}{\lambda} = f
 	\]
-	\begin{center}
-		\begin{tikzpicture}
-			\waves{0}
-			\node[vcol] at (30:1.22*\R) {$c$};
-			\draw[mydoublearr]
-			(-0.9*\R,-0.8*\R) node[left=-1,scale=0.7] {$y$}
-			|-++ (0.15*\R,-0.15*\R) node[right=-1,scale=0.7] {$x$};
-			\begin{scope}[shift={(0,-1.35*\R)}]
-				\draw[blue,thick,samples=100,smooth,variable=\x]
-				plot[domain=-\R:0](\x,{0.1*\R*sin(360/(\lam)*\x)}) %--
-				plot[domain=0:\R](\x,{-0.1*\R*sin(360/(\lam)*\x)});
-				\fill[red] (0,0) circle (0.05);
-				\draw[myarr,vcol] (-\R+0.25*\lam,0.04*\R) --++ (-\lam,0);
-				\draw[myarr,vcol] (\R-0.25*\lam,0.04*\R) --++ (\lam,0);
-				\draw[mydoublearr]
-				(-\R-2.3*\lam,0.06*\R) node[left=-1,scale=0.7] {$z$}
-				|-++ (0.15*\R,-0.15*\R) node[right=-1,scale=0.7] {$x$};
-			\end{scope}
-		\end{tikzpicture}
-	\end{center}
 	In questa condizione la frequenza percepita dal rivelatore è la frequenza propria della sorgente.
 	
-	\subsubsection{Osservatore in movimento}
+	\subsubsection{Sorgente in moto}
+	Supponiamo che la sorgente si stia muovendo con velocità \(\boldsymbol{v_S} < v\) verso il rivelatore. Ogni intervallo \(T_0\) la sorgente percorre un tratto \(v_ST_0\) sicuramente minore di \(\lambda\) (\(v_S < v \to v_ST_0 < \lambda_0= vT\)). Si ha quindi che la distanza tra due fronti d'onda consecutivi è
+	\[ 
+	\lambda_R = \lambda_0 - v_ST
+	\]
+	quindi il rivelatore è attraversato da più fronti d'onda del caso precedente poiché è aumentata la loro "densità". Riscrivendo l'espressione di \(\lambda_R\) possiamo trovare una nuova espressione della frequenza percepita da \(R\): 
+	\[ 
+	\lambda_R = \lambda_0 - v_ST_0 = vT_0 - v_ST_0 = v\frac{1}{f_0} - v_S\frac{1}{f_0} = \frac{v - v_S}{f_0}
+	\]
+	quindi essendo la frequenza il numero di creste in un periodo: \(f =\frac{N}{T}\), esprimendo \(N\) come numero di lunghezze d'onda nello spazio percorso in un periodo: \(N = \frac{vT}{\lambda}\), troviamo che un'espressione della frequenza è il rapporto tra la velocità dell'onda e la lunghezza d'onda 
+	\[ 
+	f_R = \frac{v}{\lambda_R} = \frac{v}{\frac{v - v_S}{f_0}} \to
+	\]
+	\begin{equation}
+		\viola{f_R = \frac{v}{v - v_s}f_0}
+	\end{equation}
+	
+	\begin{figure}[ht]
+		\centering
+		\incfig{doppler12}
+		\caption{fadslòfas}
+		\label{fig:fasdkllfas}
+	\end{figure}
+	
+	\subsubsection{Rivelatore in moto}
+	Diciamo che il rivelatore si stia muovento con velocità \(v_R\). In questo caso i fronti d'onda non variano la loro densità, tuttavia il rivelatore ne percepirà comunque di più o di meno (in base se si sta avvicinando o allontanando) a causa del suo moto. I fronti d'onda che investono il rivelatore sono
+	\[ 
+	N = \frac{\text{spazio percorso}}{\lambda_0} = \frac{(v - v_R)\Delta t}{\lambda_0}
+	\]
+	da cui ricaviamo la frequenza percepita dal rivelatore
+	\[ 
+	f_R = \frac{v}{\lambda_R} = \frac{v - v_R}{vT_0} = \frac{v - v_R}{v(1/f_0)} \to
+	\]
+	\begin{equation}
+	\viola{f_R = \frac{v - v_R}{v}f_0}
+	\end{equation}
+	Come possiamo vedere dalle espressioni di \(f_R\) ottenute non sono simmetriche: seppur è il \textbf{moto relativo} quello che conta, non è lo stesso se la sorgente si muove o è il rivelatore a farlo.
+	
+	\subsubsection{Espressione generale}
+	Le espressioni trovate nei due casi possono essere riassunte in un'unica formula. Diciamo quindi di avere sia una \(v_S\) sia una \(v_R\). La distanza tra i fronti d'onda è influenzata solo dalla velocità della sorgente e vale
+	\[ 
+	\lambda_R = \lambda_0 - v_ST_0 = = vT_0 - v_ST_0 = \frac{v - v_s}{f_0}
+	\]
+	invece il numero \(N\) di fronti d'onda che investono il rivelatore dipende anche da \(v_R\):
+	\[ 
+	N = \frac{\text{spazio percorso}}{\lambda_R} = \frac{(v - v_R)T_0}{\frac{v - v_s}{f_0}} = \frac{(v - v_R)\frac{1}{\textcolor{red}{f_0}}}{\frac{v - v_s}{\textcolor{red}{f_0}}} = \frac{v - v_R}{v - v_S}
+	\]
+	Da queste due otteniamo che la frequenza (il numero di creste in un periodo) percepita vale
+	
+	\[ 
+	f_R = \frac{\frac{v - v_R}{v-v_S}}{T_0} \to
+	\]
+	\begin{equation}
+		  \viola{\boxed{f_R = \frac{v - v_R}{v-v_S}f_0}}
+	\end{equation}
 
-	% MOVING - DOPPLER SHIFT
-	\begin{tikzpicture}
-		\def\s{0.61}
-		\draw[blue!20,dashed,very thin,dash pattern=on 1 off 1]
-		({-(\N-0.25)*\s*\lam},0) -- (0,0);
-		\fill[red!20] ({-(\N-0.25)*\s*\lam},0) circle (0.06);
-		\waves{\s}
-		\node[vcol] at (30:{1.15*\R-\s*\R} and 1.2*\R) {$c$};
-		\draw[mydoublearr]
-		(-0.9*\R-\s*\R,-0.8*\R) node[left=-1,scale=0.7] {$y$}
-		|-++ (0.15*\R,-0.15*\R) node[right=-1,scale=0.7] {$x$};
-		%\draw[dashed] (\R-\s*\R,0) --++ (0,-1.3*\R);
-		%\draw[dashed] (0,0) --++ (0,-1.3*\R);
-		%\draw[dashed] (-\R-\s*\R,0) --++ (0,-1.3*\R);
-		\pic at ( 1.25*\R-\s*\R,0) {eye={180}};
-		\pic at (-1.15*\R-\s*\R,0) {eye={0}};
-		\draw[-{Latex[length=4.8,width=3.8]},white,line width=1.2]
-		(0.05,0) -- (0.22*\R+0.02,0);
-		\fill[red] (0,0) circle (0.06);
-		\draw[-{Latex[length=4,width=3]},thick,vcol,line cap=round]
-		(0.05,0) -- (0.22*\R,0); %node[right=-1] {$v$};
-		\begin{scope}[shift={(0,-1.35*\R)}]
-			\draw[blue,thick,samples=100,smooth,variable=\x]
-			plot[domain=-(\s+1)*(\R):0](\x,{0.1*\R*sin(360/(\s+1)/(\lam)*\x)}) %--
-			plot[domain=0:(1-\s)*(\R)](\x,{-0.1*\R*sin(360/(1-\s)/(\lam)*\x)});
-			\fill[red] (0,0) circle (0.05);
-			\draw[myarr,vcol] ({-(\s+1)*(\R-0.25*\lam)},0.04*\R) --++ (-\lam,0);
-			\draw[myarr,vcol] ({(1-\s)*(\R-0.25*\lam)},0.04*\R) --++ (\lam,0);
-			\draw[mydoublearr]
-			(-\R-\s*\R-2.3*\lam,0.06*\R) node[left=-1,scale=0.7] {$z$}
-			|-++ (0.15*\R,-0.15*\R) node[right=-1,scale=0.7] {$x$};
-		\end{scope}
-		%\draw[<->] (0,-1.5*\R) --++ (\R-\s*\R,0)
-		%  node[midway,right=2,below=1,scale=0.6] {$\sim c-v$}; %{$\sim\dfrac{c}{c+v}$};
-		%\draw[<->] (0,-1.5*\R) --++ (-\R-\s*\R,0)
-		%  node[midway,below=1,scale=0.6] {$\sim c+v$}; %{$\sim\dfrac{c}{c-v}$};
-	\end{tikzpicture}
-	
-	% DOPPLER SHIFT - distances
-	\begin{tikzpicture}
-		\def\R{2.0}     % total radius
-		\def\N{5}       % number of wave fronts
-		\def\lam{\R/\N} % wavelength
-		\def\s{0.5}     % shift
-		\def\ang{13}    % opening angle
-		\draw[dashed]
-		(-\s*\R,-0.27*\R) --++ (0,0.5*\R)
-		(0,-0.27*\R) --++ (0,0.5*\R);
-		\draw[blue!50,dashed,very thin,dash pattern=on 1 off 1]
-		({-\s*\R},0) -- (0,0);
-		\fill[red!20] ({-\s*\R},0) circle (0.06);
-		\foreach \i [evaluate={\r=\i*\lam;\a=\ang-1.2*\i;}] in {1,...,\N}{
-			\draw[blue,thick] ({-\i*\s*\lam},0)++(180-\a:\r) arc(180-\a:180+\a:\r);
-			\draw[blue,thick] ({-\i*\s*\lam},0)++(    \a:\r) arc(    \a:-\a:\r);
-		}
-		\draw[white,line width=1.2] %-{Latex[length=4.8,width=3.8]}
-		(0.05,0) -- (0.96*\lam-0.02,0);
-		\fill[red] (0,0) circle (0.06);
-		\draw[-{Latex[length=4,width=3]},thick,vcol,line cap=round]
-		(0.05,0) -- (0.96*\lam,0) node[left=3,above=0,scale=0.9] {$v_\mathrm{s}$};
-		\draw[->] (-\s*\R,0.18*\R) --++ (\s*\R,0)
-		node[midway,above=-1,scale=0.8] {$v\Delta t$};
-		\draw[->] (-\s*\R,-0.252*\R) --++ (\R,0)
-		node[midway,right=4,below=-1,scale=0.8] {$c\Delta t$};
-		\draw[->] (-\s*\R,-0.240*\R) --++ (-\R,0)
-		node[midway,below=-1,scale=0.8] {$c\Delta t$};
-		\draw[myarr,vcol] (0:\R-\s*\R-0.25*\lam) --++ (0:1.1*\lam) node[right=-1,scale=0.9] {$c$};
-		\draw[myarr,vcol] (180:\R+\s*\R-0.25*\lam) --++ (180:1.1*\lam) node[left=-1,scale=0.9] {$c$};
-	\end{tikzpicture}
-	
-	% SONIC BOOM
-	\begin{tikzpicture}
-		%\draw[red!60!black!90,dash pattern=on 2 off 2,thin]
-		%  (0.05,0.2*\R) --++ (0,-0.4*\R);
-		\waves{0.97}
-	\end{tikzpicture}
-	
-	% SUPERSONIC
-	\begin{tikzpicture}
-		\def\angmin{90}  % min. angle velocity arrow
-		\def\angmax{270} % min. angle velocity arrow
-		\def\f{1.4}
-		\def\ang{asin(1/\f)}
-		\waves{\f}
-		\draw[red!60!black!90,dash pattern=on 2 off 2,thin]
-		(0.015,0)++({180-\ang}:0.045) --++ ({180-\ang}:1.45*\R)
-		(0.015,0)++({180+\ang}:0.045) --++ ({180+\ang}:1.45*\R);
-		\foreach \i in {2,4,6}{
-			\draw[myarr,vcol] ({-(\i-0.25)*\f*\lam},0)++({90-\ang}:{\lam*(\i-0.45)}) --++ ({90-\ang}:\lam);
-			\draw[myarr,vcol] ({-(\i-0.25)*\f*\lam},0)++({\ang-90}:{\lam*(\i-0.45)}) --++ ({\ang-90}:\lam);
-		}
-	\end{tikzpicture}
-	
-	\newpage
 	\subsection{Onda d'urto}
+	Quando la sorgente si muove a velocità superiori a quella di propagazione dell'onda (\(v_S > v\))
+	
 	
 	\newpage
 	\section{Onde stazionarie}
-	Un'altro tipo di oscellazioni rilevanti sono le onde stazionarie. Per semplicità andremo a considerare onde su una corda fissata ai due estremi. Si osserva che le posizioni di massima ampiezza e dei punti fermi (nodi) non variano nel tempoo. Possiamo quindi definire questo tipo di oscillazione un'\textbf{oscillazione collettiva} del fenomeno \textbf{cui non è associato un fenomeno di propagazione}. \\
+	Un'altro tipo di oscellazioni rilevanti sono le onde stazionarie, onde i cui punti oscillano con ampiezza che varia solo con la posizione. Si osserva che le posizioni di massima ampiezza e dei punti fermi (nodi) non variano nel tempo, per questo possiamo definire questo tipo di oscillazione un'\textbf{oscillazione collettiva} del fenomeno \textbf{cui non è associato un fenomeno di propagazione}. \\
+	
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
 	
 	\noindent
-	Consideriamo una corda fissa ad un solo estremo; sull'estremo libero applichiamo una perturbazione \textbf{sinusoidale} regressiva di frequenza \(f\) tramite un diapason:
+	Consideriamo una corda fissa ad un solo estremo \(\boldsymbol{O}\) su cui poniamo lo zero dell'asse \(x\); sull'estremo libero applichiamo una perturbazione \textbf{sinusoidale} regressiva di frequenza \(f\) tramite un diapason:
 	\[ 
 	\xi_1 (x,t) = A\sin\left(kx +\omega t\right) 
 	\]
+	L'onda si propaga fino all'estremo fisso \(\boldsymbol{O}\) che deve rimanere fermo, tuttavia sappiamo che in \(\boldsymbol{O}\) risulta una perturbazione \(\xi_1(0,t)\). Ci deve essere una seconda perturbazione \(\xi_2(0,t)\) generata dal vincolo tale che
+	\[ 
+	\xi _1(0,t) + \xi _2 (0,t) = 0 \quad \to \quad \xi _2 (0,t) = - A\sin\left(\omega t\right) = A\sin\left(-\omega t\right)
+	\]
+	quindi la seconda onda si propaga nel verso positivo dell'asse \(x\) con equazione
+	\[ 
+	\xi _2 (x,t) = A\sin\left(kx - \omega t\right)
+	\]
+	L'equazione complessiva dell'onda si ottiene sommando le due
+	\[ 
+	\xi(x,t) = \xi_1 (x,t) +  \xi _2 (x,t) = A\left[\sin\left(kx +\omega t\right)  + \sin\left(kx - \omega t\right)\right]
+	\]
+	\[
+	\textcolor{gray}{\textit{prostaferesi: } \quad \sin\alpha + \sin\beta = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
+	\]
 
+	\begin{equation}
+		\viola{\xi (x,t) = 2A\sin\left(kx\right)\cos\left(\omega t\right)}
+	\end{equation}
+	L'equazione rappresenta  un'oscillazione armonica semplice di pulsazione \(\omega \) e con \textbf{ampiezza che dipende dalla posizione}; come ci aspettavamo nell'equazione \textbf{non compare il termine \(\boldsymbol{kx \pm \omega t}\)} proprio perché l'oscillazione non si propaga. Troviamo i massimi e i minimi ponendo 
+	\[ 
+	kx = \pm 1 \qquad \to \qquad kx = \frac{1}{2}\pi + m\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = \frac{\pi }{2}(1 + 2m) \quad \to 
+	\]
+	\begin{equation}
+		\textbf{Ventri:} \quad	\viola{x = \frac{\lambda}{4}(1+2m)} \quad m=0,1,2,\dots
+	\end{equation}
+	invece i nodi li troviamo ponendo 
+	\[ 
+	kx = 0 \qquad \to \qquad kx =  m'\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = m'\pi  \quad \to 
+	\]
+	\begin{equation}
+		\textbf{Nodi:} \quad	\viola{x = \frac{\lambda}{2} m'} \quad m'=0,1,2,\dots
+	\end{equation}
+	
+		\subsection{Corda tesa con due estremi fissi}
+		Supponiamo di avere una corda vibrante di lunghezza \(L\) con noni nei punti di coordinate \(x=0\) e \(x=L\).
+	
+	
+	\subsection{Corda tesa con un estremo fisso}
+	
+	
 \newpage
 \section{Fluidi}
-	
+	\subsection{Pressione}
+	\subsection{Equilibrio statico di un fluido}
+	\subsection{Principio di Archimede}
+	\subsection{Liquido in rotazione}
+	\subsection{Moto  di un fluido}
+		\subsubsection{Teorema di Bernoulli}
+		\subsubsection{Moto laminare}
+		\subsubsection{Moto turbolento}
+		
+	\subsection{Portanza}
+	\subsection{Fenomeni di superficie}
 	
 	
 \end{document}

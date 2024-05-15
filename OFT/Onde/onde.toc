@@ -23,7 +23,21 @@
 \contentsline {subsection}{\numberline {2.7}Pacchetti d'onde}{14}{subsection.2.7}%
 \contentsline {subsubsection}{Velocità di fase e velocità di gruppo}{14}{section*.13}%
 \contentsline {subsection}{\numberline {2.8}Effetto Doppler}{16}{subsection.2.8}%
-\contentsline {subsubsection}{Osservatore in movimento}{16}{section*.14}%
+\contentsline {subsubsection}{Sorgente in moto}{16}{section*.14}%
+\contentsline {subsubsection}{Rivelatore in moto}{17}{section*.15}%
+\contentsline {subsubsection}{Espressione generale}{17}{section*.16}%
 \contentsline {subsection}{\numberline {2.9}Onda d'urto}{17}{subsection.2.9}%
 \contentsline {section}{\numberline {3}Onde stazionarie}{18}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Corda tesa con due estremi fissi}{18}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Corda tesa con un estremo fisso}{18}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Fluidi}{19}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Pressione}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Equilibrio statico di un fluido}{19}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Principio di Archimede}{19}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Liquido in rotazione}{19}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Moto di un fluido}{19}{subsection.4.5}%
+\contentsline {subsubsection}{Teorema di Bernoulli}{19}{section*.17}%
+\contentsline {subsubsection}{Moto laminare}{19}{section*.18}%
+\contentsline {subsubsection}{Moto turbolento}{19}{section*.19}%
+\contentsline {subsection}{\numberline {4.6}Portanza}{19}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Fenomeni di superficie}{19}{subsection.4.7}%
