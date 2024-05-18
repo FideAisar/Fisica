@@ -29,15 +29,18 @@
 \contentsline {subsection}{\numberline {2.9}Onda d'urto}{17}{subsection.2.9}%
 \contentsline {section}{\numberline {3}Onde stazionarie}{18}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Corda tesa con due estremi fissi}{18}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Corda tesa con un estremo fisso}{18}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Fluidi}{19}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Pressione}{19}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Equilibrio statico di un fluido}{19}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Principio di Archimede}{19}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Liquido in rotazione}{19}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Moto di un fluido}{19}{subsection.4.5}%
-\contentsline {subsubsection}{Teorema di Bernoulli}{19}{section*.17}%
-\contentsline {subsubsection}{Moto laminare}{19}{section*.18}%
-\contentsline {subsubsection}{Moto turbolento}{19}{section*.19}%
-\contentsline {subsection}{\numberline {4.6}Portanza}{19}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Fenomeni di superficie}{19}{subsection.4.7}%
+\contentsline {subsection}{\numberline {3.2}Corda tesa con un estremo fisso}{19}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Onde stazionarie in una colonna di gas}{20}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Timbro}{20}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Fluidi}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Pressione}{21}{subsection.4.1}%
+\contentsline {subsubsection}{Equilibrio statico di un fluido}{21}{section*.17}%
+\contentsline {subsubsection}{Lavoro della pressione}{22}{section*.18}%
+\contentsline {subsection}{\numberline {4.2}Principio di Archimede}{22}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Liquido in rotazione}{22}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Moto di un fluido}{22}{subsection.4.4}%
+\contentsline {subsubsection}{Teorema di Bernoulli}{22}{section*.19}%
+\contentsline {subsubsection}{Moto laminare}{22}{section*.20}%
+\contentsline {subsubsection}{Moto turbolento}{22}{section*.21}%
+\contentsline {subsection}{\numberline {4.5}Portanza}{22}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Fenomeni di superficie}{22}{subsection.4.6}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.20)  15 MAY 2024 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.20)  18 MAY 2024 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -663,129 +663,6 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen288
 \Gm@dimlist=\toks45
 )
-(/usr/share/texmf-dist/tex/latex/fourier/fourier.sty
-Package: fourier 2022/02/05 2.3 fourier-GUTenberg package
-Now handling font encoding FML ...
-... no UTF-8 mapping file for font encoding FML
-Now handling font encoding FMS ...
-... no UTF-8 mapping file for font encoding FMS
-Now handling font encoding FMX ...
-... no UTF-8 mapping file for font encoding FMX
-
-(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+futs on input line 1
-12.
-
-(/usr/share/texmf-dist/tex/latex/fourier/t1futs.fd
-File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
-))
-(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(/usr/share/texmf-dist/tex/latex/fourier/fourier-orns.sty
-Package: fourier-orns 2022/02/05 2.3 fourier-ornaments package
-)
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 63.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 63.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 64.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 72.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `normal' on input line 72.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 72.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `bold' on input line 72.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 72.
-\symotherletters=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 74.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 79.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 80.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 83.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 85.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 126.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 126.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 126.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 126.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 126.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 127.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 1
-27.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 127
-.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 129.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 130.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 130.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 130.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 131.
-LaTeX Font Info:    Redeclaring math symbol \parallel on input line 147.
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 161.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 200.
-LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 223.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 228.
-LaTeX Font Info:    Redeclaring math delimiter \lvert on input line 230.
-LaTeX Font Info:    Redeclaring math delimiter \rvert on input line 232.
-LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 234.
-LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 236.
-LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 238.
-LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 240.
-LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 242.
-LaTeX Font Info:    Redeclaring math delimiter \langle on input line 244.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 246.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 248.
-LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 250.
-LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 252.
-LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 254.
-LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 256.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 260.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 261.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 262.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 263.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 264.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 265.
-LaTeX Font Info:    Redeclaring math accent \check on input line 266.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 267.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 268.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
-\symUfutm=\mathgroup5
-)
 (/usr/share/texmf-dist/tex/latex/xymtex/base/xymtex.sty
 Package `xymtex' (ver5.01) <March 10, 2013> [SF]
 xymtex.sty ver5.01 (for LaTeX2e) 2013/03/10[SF]
@@ -939,46 +816,39 @@ chemist.sty ver5.01 (for LaTeX2e) 2013/06/06[SF]
 LaTeX Info: Redefining \rm on input line 788.
 LaTeX Info: Redefining \mathversion on input line 892.
 \c@mv@chem=\count362
-LaTeX Font Info:    Encoding `FML' has changed to `OT1' for symbol font
+LaTeX Font Info:    Encoding `OML' has changed to `OT1' for symbol font
 (Font)              `letters' in the math version `chem' on input line 965.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `chem'
-(Font)                  FML/futmi/m/it --> OT1/cmr/m/n on input line 965.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `chem' on input line 965.
+(Font)                  OML/cmm/m/it --> OT1/cmr/m/n on input line 965.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `chem'
-(Font)                  T1/futs/m/n --> OT1/cmr/m/n on input line 965.
-LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
-(Font)              `symbols' in the math version `chem' on input line 965.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/m/n on input line 965.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `chem'
-(Font)                  FMS/futm/m/n --> OMS/cmsy/m/n on input line 965.
+(Font)                  OMS/cmsy/m/n --> OMS/cmsy/m/n on input line 965.
 \c@mv@boldchem=\count363
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `boldchem' on input line 96
-5.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `boldchem'
-(Font)                  T1/futs/m/n --> OT1/cmr/bx/n on input line 965.
-LaTeX Font Info:    Encoding `FML' has changed to `OT1' for symbol font
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 965.
+LaTeX Font Info:    Encoding `OML' has changed to `OT1' for symbol font
 (Font)              `letters' in the math version `boldchem' on input line 965.
 
 LaTeX Font Info:    Overwriting symbol font `letters' in version `boldchem'
-(Font)                  FML/futmi/m/it --> OT1/cmr/b/n on input line 965.
-LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
-(Font)              `symbols' in the math version `boldchem' on input line 965.
-
+(Font)                  OML/cmm/m/it --> OT1/cmr/b/n on input line 965.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldchem'
-(Font)                  FMS/futm/m/n --> OMS/cmsy/b/n on input line 965.
+(Font)                  OMS/cmsy/m/n --> OMS/cmsy/b/n on input line 965.
 \TestCount=\count364
 (/usr/share/texmf-dist/tex/latex/xymtex/chemist/assurechemist.sty
 Part of XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
  -- Released October 01, 2010 by Shinsaku Fujita
 XyMTeX Macro File `assurechemist' (ver5.00) <October 01, 2010> [SF]
-))) (/usr/share/texmf-dist/tex/latex/eurosym/eurosym.sty
+))) (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box80
 )
 (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup6
+\symrsfs=\mathgroup4
 )
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -1388,38 +1258,12 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup7
-\symAMSb=\mathgroup8
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
-
-LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
-LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
-20.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
-1.
-LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
-LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
-LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
-LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
-LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
-LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
-LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
-LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
-
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
-LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
-)
+))
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
 
@@ -1578,35 +1422,11 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 147.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-147.
- (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
-File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
-)
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 147.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-147.
-
-(/usr/share/texmf-dist/tex/latex/fourier/fmsfutm.fd
-File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
-)
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 147.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-147.
-
-(/usr/share/texmf-dist/tex/latex/fourier/fmxfutm.fd
-File: fmxfutm.fd futm-extension
-)
-LaTeX Font Info:    ... okay on input line 147.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count449
 \scratchdimen=\dimen400
@@ -1632,7 +1452,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 147.
+Package chemgreek Info: Activating mapping `default' on line 147.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1668,8 +1488,6 @@ Package chemgreek Info: Activating mapping `fourier' on line 147.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 147.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 147.
 
 (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-eng
 lish.trsl
@@ -1732,26 +1550,7 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 Non-PDF special ignored!
 <special> ps:0.8 setlinewidth 0 setgray
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/base/8r.enc}]) (./onde.toc
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line
- 2.
-
-(/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./onde.toc
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
 
 
@@ -1782,33 +1581,19 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 162--163
  [][][][][][] 
  []
 
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 171.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 171.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 171.
-
-Overfull \hbox (10.07375pt too wide) in paragraph at lines 182--183
-[]\T1/futs/m/n/10 Una fun-zione del tipo $[]$ sod-disfa l'equazione dif-feren-z
-iale detta \T1/futs/b/n/10 equazione delle onde \T1/futs/m/n/10 o \T1/futs/b/n/
-10 equazione
- []
-
 [2]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 280--281
  [][][][][][] 
  []
 
 [3]
-Overfull \hbox (0.79782pt too wide) detected at line 304
-\FML/futmi/m/it/10 dF[] \T1/futs/m/n/10 = \FML/futmi/m/it/10 T\T1/futs/m/n/10 (
-[] \FML/futmi/m/it/10 [] \FMS/futm/m/n/10 ^^@ [] \FML/futmi/m/it/10 \T1/futs/
-m/n/10 ) = \FML/futmi/m/it/10 T\T1/futs/m/n/10 ([] \FML/futmi/m/it/10 [] \FMS/
-futm/m/n/10 ^^@ [] \FML/futmi/m/it/10 \T1/futs/m/n/10 ) = \FML/futmi/m/it/10 T
- [] \T1/futs/m/n/10 = \FML/futmi/m/it/10 TdS \T1/futs/m/n/10 = \FML/futmi/m/it/
-10 T[]dx \T1/futs/m/n/10 = \FML/futmi/m/it/10 T[] [] dx \T1/futs/m/n/10 = \FML/
-futmi/m/it/10 T[]dx
+Overfull \hbox (62.30324pt too wide) detected at line 304
+\OML/cmm/m/it/10 dF[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 T\OT1/cmr/m/n/10 ([] \
+OML/cmm/m/it/10 [] \OMS/cmsy/m/n/10 ^^@ [] \OML/cmm/m/it/10 \OT1/cmr/m/n/10 )
+ = \OML/cmm/m/it/10 T\OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 [] \OMS/cmsy/m/n/10 
+^^@ [] \OML/cmm/m/it/10 \OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 T [] \OT1/cmr/m/n
+/10 = \OML/cmm/m/it/10 TdS \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 T[]dx \OT1/cmr/m/
+n/10 = \OML/cmm/m/it/10 T[] [] dx \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 T[]dx
  []
 
 
@@ -1821,19 +1606,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
-
-Overfull \hbox (13.65874pt too wide) in paragraph at lines 349--351
-\T1/futs/m/n/10 A par-tire da questa nuova espres-sione della "larghezza" dell'
-elemnto in-finites-imo posso scri-vere l'espressione
- []
-
-[5]
-Underfull \hbox (badness 1242) in paragraph at lines 431--433
-\T1/futs/m/n/10 Il risul-tato ot-tenuto è in ac-cordo (3%) con quello mis-urato
-, pos-si-amo quindi de-durre che
- []
-
-[6]
+[5] [6]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 462--463
  [][][][][][] 
  []
@@ -1868,20 +1641,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 773--775
 
  []
 
-[14]
-Overfull \hbox (1.25583pt too wide) in paragraph at lines 807--808
-[]\T1/futs/m/n/10 Abbiamo quindi un'onda di alta fre-quenza che si propaga con 
-\T1/futs/b/n/10 ve-loc-ità di fase me-dia $\FML/futmi/m/it/10 v[]$ \T1/futs/m/n
-/10 e con ampiezza
- []
-
-[15] (./imgs/doppler12.pdf_tex
-<./imgs/doppler12.pdf, id=311, page=1, 847.83315pt x 341.14972pt>
+[14] [15] (./imgs/doppler12.pdf_tex
+<./imgs/doppler12.pdf, id=330, page=1, 847.83315pt x 341.14972pt>
 File: ./imgs/doppler12.pdf Graphic file (type pdf)
 <use ./imgs/doppler12.pdf, page 1>
 Package pdftex.def Info: ./imgs/doppler12.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 433.62pt x 174.47858pt.
-<./imgs/doppler12.pdf, id=312, page=2, 847.83315pt x 341.14972pt>
+<./imgs/doppler12.pdf, id=331, page=2, 847.83315pt x 341.14972pt>
 File: ./imgs/doppler12.pdf Graphic file (type pdf)
 <use ./imgs/doppler12.pdf, page 2>
 Package pdftex.def Info: ./imgs/doppler12.pdf , page2 used on input line 65.
@@ -1891,39 +1657,80 @@ Package pdftex.def Info: ./imgs/doppler12.pdf , page2 used on input line 65.
 pdfTeX warning: /usr/bin/pdflatex (file ./imgs/doppler12.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >] [17]
+Overfull \hbox (1.02765pt too wide) in paragraph at lines 913--914
+\OT1/cmr/m/n/10 (nodi) non var-i-ano nel tempo, per questo pos-si-amo definire 
+questo tipo di os-cil-lazione un'\OT1/cmr/bx/n/10 oscillazione
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 913--914
 
  []
 
-[18] [19] (./onde.aux)
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 980--981
+ [][][][][][] 
+ []
+
+[18] [19]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1048--1049
+ [][][][][][] 
+ []
+
+[20]
+Overfull \hbox (59.11018pt too wide) detected at line 1110
+[]
+ []
+
+
+Overfull \hbox (61.3324pt too wide) in paragraph at lines 1101--1117
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1131
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 1132--1134
+
+ []
+
+[22] (./onde.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `onde.out' has not changed.
-(rerunfilecheck)             Checksum: 2AA5E7003A61C82C7E478861679B690D;6828.
+(rerunfilecheck)             Checksum: 4ACB2B930F4730BF53E64FB76DE3EA58;7360.
  ) 
 Here is how much of TeX's memory you used:
- 51214 strings out of 476076
- 1167015 string characters out of 5793775
- 1997877 words of memory out of 5000000
- 72291 multiletter control sequences out of 15000+600000
- 642528 words of font info for 118 fonts, out of 8000000 for 9000
+ 50641 strings out of 476076
+ 1160024 string characters out of 5793775
+ 1994231 words of memory out of 5000000
+ 71763 multiletter control sequences out of 15000+600000
+ 565581 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 117i,16n,113p,719b,1442s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fo
-nts/type1/public/fourier/fourier-mcl.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/fourier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/f
-ourier-mlit.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mlitb
-.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/sha
-re/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/fonts/
-type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/
-putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on onde.pdf (20 pages, 201871 bytes).
+ 117i,17n,113p,719b,1444s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb>
+Output written on onde.pdf (23 pages, 311204 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 470 compressed objects within 5 object streams
- 85 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 612 PDF objects out of 1000 (max. 8388607)
+ 522 compressed objects within 6 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 375 words of extra memory for PDF output out of 10000 (max. 10000000)
 

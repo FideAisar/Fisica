@@ -8,7 +8,7 @@
 \usepackage[skins]{tcolorbox}
 \usepackage[version=4]{mhchem}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
-\usepackage{fourier}
+%\usepackage{fourier}
 \usepackage{xymtex}
 \usepackage{textcomp}
 \usepackage{eurosym}
@@ -311,7 +311,7 @@
 	T\frac{\partial^2\xi}{\partial x^2}\textcolor{red}{dx} = \mu \textcolor{red}{dx} \frac{\partial^2 \xi}{\partial t^2}
 	\]
 
-	\begin{equation}
+	\begin{equation}\label{corda}
 		\viola{	\frac{\partial^2\xi}{\partial x^2} = \frac{\mu}{T} \frac{\partial^2 \xi}{\partial t^2} \qquad \qquad v = \sqrt{\frac{T}{\mu}}}
 	\end{equation}
 	
@@ -942,30 +942,226 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{equation}
 	L'equazione rappresenta  un'oscillazione armonica semplice di pulsazione \(\omega \) e con \textbf{ampiezza che dipende dalla posizione}; come ci aspettavamo nell'equazione \textbf{non compare il termine \(\boldsymbol{kx \pm \omega t}\)} proprio perché l'oscillazione non si propaga. Troviamo i massimi e i minimi ponendo 
 	\[ 
-	kx = \pm 1 \qquad \to \qquad kx = \frac{1}{2}\pi + m\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = \frac{\pi }{2}(1 + 2m) \quad \to 
+	\sin\left(kx\right) = \pm 1 \qquad \to \qquad kx = \frac{1}{2}\pi + m\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = \frac{\pi }{2}(1 + 2m) \quad \to 
 	\]
 	\begin{equation}
 		\textbf{Ventri:} \quad	\viola{x = \frac{\lambda}{4}(1+2m)} \quad m=0,1,2,\dots
 	\end{equation}
 	invece i nodi li troviamo ponendo 
 	\[ 
-	kx = 0 \qquad \to \qquad kx =  m'\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = m'\pi  \quad \to 
+	\sin\left(kx\right) = 0 \qquad \to \qquad kx =  m'\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = m'\pi  \quad \to 
 	\]
-	\begin{equation}
+	\begin{equation}\label{nodi}
 		\textbf{Nodi:} \quad	\viola{x = \frac{\lambda}{2} m'} \quad m'=0,1,2,\dots
 	\end{equation}
 	
 		\subsection{Corda tesa con due estremi fissi}
-		Supponiamo di avere una corda vibrante di lunghezza \(L\) con noni nei punti di coordinate \(x=0\) e \(x=L\).
-	
-	
-	\subsection{Corda tesa con un estremo fisso}
-	
+		Supponiamo di avere una corda vibrante di lunghezza \(L\) con nodi nei punti di coordinate \(x=0\) e \(x=L\). Vediamo come fissata una lunghezza \(L\) della corda, in questa possono aver luogo soltanto le onde stazionarie di lunghezza d'onda \(\lambda_m\) e frequenza \(f_m\): dalla \ref{nodi} si ha che i nodi, in \(x=0\) e \(x=L\), sono descritti da
+		\[ 
+		x = \frac{\lambda}{2}m \quad \rightarrow \quad \begin{cases}
+			0 = \frac{\lambda}{2}m\\ L = \frac{\lambda}{2}m
+		\end{cases}
+		\]
+		\begin{equation}\label{lambdam}
+			\text{dalla seconda: }\quad \to \quad \lambda = \viola{\lambda_m = \frac{2L}{\boldsymbol{m}}}
+		\end{equation}
+		Ricaviamo invece la frequenza dalla sua normale espressione utilizzando la \ref{corda} per la velocità:
+		\[ 
+		f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{2\frac{L}{m}} \quad \rightarrow \quad  \viola{f_m = \frac{\boldsymbol{m}}{2L}\sqrt{\frac{T}{\mu}}}
+		\]
+		In una corda tesa esiste dunque una \textbf{serie discreta} di lunghezze d'onda e frequenze detta \textbf{serie armonica} in  cui  la frequenza più bassa  \(f_1\) è chiamata \textbf{frequenza fondamentale} o \textbf{prima armonica}, tutte le altre sono dette \textbf{armoniche superiori}
+		
+		\begin{center}
+			\fboxsep11pt
+			\colorbox{myblue}{\begin{minipage}{5.75in}
+					\begin{blues}{Modo della corda}
+						Viene chiamato \textbf{modo} della corda una particolare onda stazionaria con \textit{tot} nodi. Una coda ha pertanto \(\infty^1\) modi discreti. Un particolare modo può essere eccitato pizzicando opporunamente la corda oppure per mezzo di un diapason.
+					\end{blues}
+			\end{minipage}}
+		\end{center}
+		
+		
+		Nel caso del diapason: se questo è posto su un estremo della corda così da fungere da nodo, genera un'onda che arrivata all'estremo opposto si andrà a riflettere tornando dal diapason per poi rifletersi nuovamente, tutto questo in un certo tempo \(t\) che possiamo trovare: sappiamo che l'onda viaggia a velocità \(v\) e deve percorrere un tratto lungo \(2L\), quindi 
+		\[ 
+		t = \frac{2L}{v}
+		\]
+		dalla \ref{lambdam} sappiamo che \(2L = \lambda \boldsymbol{m}\)
+		\[ 
+		t = \frac{\lambda m}{v}
+		\]
+		e sappiamo che il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T = \frac{\lambda}{v}\)
+		\[ 
+		t = mT
+		\]
+		quindi l'onda viene riflessa in un tempo multiplo del periodo e perciò l'onda sarà \textbf{in fase} con la crestà dell'onda che il diapason emette al tempo \(t + mT\) creando un fenomeno di \textbf{risonanza}. L'oscillazione tende quindi ad aumentare e il limite a questo aumento è solo posto a fenomeni di smorzamento dati da vincoli non ideali e attriti.
+		
+		Nel caso in cui non fosse soddisfattta la \ref{lambdam}, e quindi non si possa esprimere \(2L = \lambda m\) si stabilisce un'onda risultante di tutte le onde che hanno origine nelle varie riflessioni la cui ampiezza coincide con quella del diapason.
+		
+		\subsection{Corda tesa con un estremo fisso}
+		La condizione da soddisfare per avere onde stazionarie stabili in una corda con un estremo libero è imporre che une dei due estremi rimanga fisso (nodo), e che l'altro sia un ventre:
+		
+		\[ 
+		\text{Ventre:} \quad x = \frac{\lambda}{4}(1+2m) \quad \to \quad L = \frac{\lambda}{4}(1+2m) \quad \to 
+		\]
+		\begin{equation}\label{lambdam2}
+			\lambda = \viola{\lambda_m  = \frac{4L}{1+2m}}
+		\end{equation}
+		come nel caso a due estremi fissi ricaviamo la frequenza:
+		\[ 
+		f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{\frac{4L}{1+2m}} \quad \to
+		\]
+		\begin{equation}
+			\viola{f_m = \frac{1 + 2m}{4L} \sqrt{\frac{T}{\mu}}}
+		\end{equation}
+		Come prima se poniamo un diapason sull'estremo fisso si hanno le condizioni di risonanza: l'onda che arriva all'estremo libero viene riflessa senza capovolgersi, arrivata al diapason si capovolge e torna verso l'estremo libero; vediamo quanto impiega l'onda a percorrere la corda:
+		\[ 
+		t = \frac{2L}{v}
+		\]
+		dalla \ref{lambdam2} sappiamo che \(2L = \frac{1+2m}{2}\lambda\)
+		\[ 
+		t = \frac{1+2m}{2v}\lambda = \frac{1+2m}{2}\frac{\lambda}{v}
+		\]
+		e poiché il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T=\frac{\lambda}{v}\)
+		\[ 
+		t = \frac{1+2m}{2}T
+		\]
+		Anche in questo caso l'onda impiega un tempo proporzionale al periodo \textcolor{red}{nonm ho ben capito. riguarda questa parte sulle slide}
+		
+		\subsection{Onde stazionarie in una colonna di gas}
+		Andiamo a considerare, in una canna di un organo per esempio, un'onda di pressione e una di spostamento. Se la canna è aperta in entrambi gli estremisi realizzano le stesse condizioni per la pressione e per lo spostamento, in sostanza la condizione è equivalente alla corda con due estremi fissi.
+		
+		Se invece un estremo è chiuso, nel punto di chiusura si avràun ventre di pressione (che sale) e un nodo di spostamento (l'aria si ferma); la situazione è quindi analoga a quella di una corda con un estremo fisso e uno libero.
+		
+		\begin{center}
+			\textcolor{red}{riporta calcoli}
+		\end{center}
+		
+		\subsection{Timbro}
+		Uno strumento fornisce un massimo di potenza quando \textbf{la frequenza di eccitazione coincide con una delle frequenze della serie armonica}. Il fenomeno elle riflessioni multible \textbf{esalta le frequenze della serie armonica} e \textbf{smorza tute le altre} che risultano quasi assenti. Perciò comprendiamo come la stessa nota con frequenza fondamentale \(f_1\) abbia una composizione armonica che dipende dallo strumento, proprio perché ogni strumento fornisce frequenze di eccitazioni differenti.
+		
+		\begin{center}
+			\fboxsep11pt
+			\colorbox{myblue}{\begin{minipage}{5.75in}
+					\begin{blues}{Timbro}
+						La composizione armonica di una nota dipendente dallo strumento e dalla particolare frequenza di eccitazione è chiamata \textbf{timbro}
+					\end{blues}
+			\end{minipage}}
+		\end{center}
+		
+		
 	
 \newpage
 \section{Fluidi}
 	\subsection{Pressione}
-	\subsection{Equilibrio statico di un fluido}
+	Poiché non possiamo parlare di forza applicata in un punto del fluido andiamo a considerare un elemento infinitesimo di massa \(dm\) e volume \(dV\) e andiamo a distinguere le forze agenti su di esso. Distinguiamo le \textbf{forze di volume}, ovvero tutte quelle forze proporzionali a \(dV\), e \textbf{forze di superficie} porporzionali a \(dS\). \textit{Nel caso delle forze di superficie è bene caratterizzarle come somma di un termine normal a S e uno parallelo; noi consideriamo il fluido in equilibrio quindi il termine parallelo è nullo.}
+	
+	\[ 
+	\textbf{Forze di volume:} \quad dF_V = dma_z = \rho \boldsymbol{dV}a_z
+	\]
+	\[ 
+	\textbf{Forze di superficie:} \quad dF_{S\perp} = p\boldsymbol{dS}
+	\]
+	
+	\noindent
+	Le forze di superficie si riducono quindi alla sola componente perpendicolare e sono caratterizzate dalla pressione. La pressione che funge da coefficiente alla superficie \textbf{non ha caratteristiche direzionali}, è funzione scalare del punto che si considera e \textbf{non dipende deall'orientazione della superficie}.
+	
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	\[ 
+	\boxed{CH = AH \cos\left(\theta\right)} \qquad \boxed{BH = AH \sin\left(\theta\right)}
+	\]
+	\[ 
+	p_A = \frac{F_A}{AH}
+	\]
+	\[ 
+	\begin{cases}
+		F_C = \textcolor{blue}{F_A \cos\left(\theta\right)}\\
+		F_B = F_A \sin\left(\theta\right)
+	\end{cases} \quad \to \quad
+	\begin{cases}
+		p_C = \frac{F_C}{CH} = \frac{\textcolor{blue}{F_A \cos\left(\theta\right)}}{AH \cos\left(\theta\right)} = \frac{F_A}{AH} \\
+		p_B = \frac{F_B}{BH} = \frac{F_A \sin\left(\theta\right)}{AH \sin\left(\theta\right)} = \frac{F_A}{AH}
+	\end{cases}
+	\]
+	\[ 
+	\Longrightarrow\quad p_A = p_B = p_C =\boldsymbol{p}
+	\]
+	Quindi la pressione è una \textbf{quantità scalare} e il suo valore \textbf{dipende} in generale \textbf{dalla posizione del punto} ma non dalla direzione.
+	
+	
+		\subsubsection{Equilibrio statico di un fluido}
+		La condizione di equilibrio è che la somma di tutte le forze di volume e di superficie si annulli
+		\[ 
+		\overrightarrow{F}_{Vtot} + \overrightarrow{F}_{Stot} = 0
+		\]
+		Considero solo le forze dovute ad un'accelerazione lungo l'asse \(z\)
+		
+		\begin{es}{}
+		\begin{minipage}{0.5\textwidth}
+		\[ 
+		\textbf{Forze di volume: } \quad dF_V = dma_z = \rho a_z dV
+		\]
+		\begin{align*}
+			\textbf{Forze di superficie:} \quad dF_{S\perp} &= p(z)\boldsymbol{dS} - p(z + dz)dS \\
+														    &= \textcolor{red}{p(z)dS - p(z)dS} - p(dz)\textcolor{blue}{dS} \\
+														    &= -\frac{\partial p}{\partial z}dz \textcolor{blue}{dxdy} \\
+														    &=-\frac{\partial p}{\partial z} dV 
+		\end{align*}
+		\end{minipage}
+		\begin{minipage}{0.5\textwidth}
+			\begin{center}
+				\textcolor{red}{inserire grafici}
+			\end{center}
+		\end{minipage}
+		\end{es}
+		\noindent
+		Quindi per soddisfare la condizione di equilibrio deve valere
+		\[ 
+		\rho a_z dV -\frac{\partial p}{\partial z} dV  = 0 \quad \to
+		\]
+		\begin{equation}
+			\viola{\frac{\partial p}{\partial z} = \rho a_z }
+		\end{equation}
+		che se estendiamo su tutte e tre le dimensioni diventa
+		\begin{equation}\label{pressione}
+			\viola{\boxed{\overrightarrow{\nabla} p = \rho \vec{a}}}
+		\end{equation}
+		Quindi la pressione aumenta lungo il verso positivo della forza (determinata dall'accelerazione \(a_*\)). La forza di volume tende infatti a spostare il volumetto determinando una \textbf{reazione} del fluido che si manifesta come una variazione di pressione. \textit{Notare l'analogia della pressione con la tensione in un filo massivo}.\\
+		
+		\noindent
+		Si ottiene inoltre che la pressione è uniforme solo quando \(\rho a = 0\) che sulla terra sembrerebbe non poter mai essere verificata data l'accelerazione di gravità. Tuttavia per densità molto basse o volumi molto piccoli la pressione può essere considerata uniforme. \\
+		
+		\noindent
+		Se la forza di volume agente sul fluido è conservativa il lavoro compiuto non dipende dal particolare percorso seguito, ma solo dalle coordinate dal punto iniziale e finale; inoltre vale
+		\[ 
+		\overrightarrow{F} = m \vec{a} = -\overrightarrow{\nabla}E_p
+		\]
+		perciò si può esprimere la \ref{pressione} come \(-\rho\) per il gradiente dell'\textbf{energia potenziale per unità di massa}
+		\[
+			\overrightarrow{\nabla} p = -\rho \frac{\overrightarrow{\nabla}E_p}{m}
+		\]
+		\begin{equation}
+			\viola{\boxed{\overrightarrow{\nabla} p = -\rho \overrightarrow{\nabla}E_{p,m}}}
+		\end{equation}
+		Infatti le \textbf{superfici isobariche coincidono con quelle equipotenziali}, quindi le variazioni di pressione e di energia potenziale sono le stesse ovunque nel passaggio da una superficie equipotenziale ad un'altra. 
+		
+		Se espclicitiamo i due nabla otteniamo l'espressione della variazione infinitesima di pressione:
+		
+		\[ 
+		\boxed{\left|\overrightarrow{\nabla}p \right|= \left|\frac{dp}{ds}\right|} \qquad \boxed{\left|\overrightarrow{\nabla}E_{p,m} \right|= \left|\frac{dE_{p,m}}{ds}\right|}
+		\]
+		
+		\[ 
+		|dp |= -\rho |dE_{p,m}|
+		\]
+		quindi se lungo una superficie isobarica e equipotenziale si hanno pressione ed energia potenziale costanti, anche la densità lo è. Pertanto in un fluido sottoposto a forze conservative la \textbf{variazione di densità} segue geometricamente qualla di pressione e di energia potenziale.
+		
+	\subsubsection{Lavoro della pressione}
+	nel 
+	
+	
+	
 	\subsection{Principio di Archimede}
 	\subsection{Liquido in rotazione}
 	\subsection{Moto  di un fluido}
