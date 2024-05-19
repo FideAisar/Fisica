@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.20)  18 MAY 2024 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.20)  19 MAY 2024 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1642,12 +1642,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 773--775
  []
 
 [14] [15] (./imgs/doppler12.pdf_tex
-<./imgs/doppler12.pdf, id=330, page=1, 847.83315pt x 341.14972pt>
+<./imgs/doppler12.pdf, id=345, page=1, 847.83315pt x 341.14972pt>
 File: ./imgs/doppler12.pdf Graphic file (type pdf)
 <use ./imgs/doppler12.pdf, page 1>
 Package pdftex.def Info: ./imgs/doppler12.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 433.62pt x 174.47858pt.
-<./imgs/doppler12.pdf, id=331, page=2, 847.83315pt x 341.14972pt>
+<./imgs/doppler12.pdf, id=346, page=2, 847.83315pt x 341.14972pt>
 File: ./imgs/doppler12.pdf Graphic file (type pdf)
 <use ./imgs/doppler12.pdf, page 2>
 Package pdftex.def Info: ./imgs/doppler12.pdf , page2 used on input line 65.
@@ -1657,59 +1657,81 @@ Package pdftex.def Info: ./imgs/doppler12.pdf , page2 used on input line 65.
 pdfTeX warning: /usr/bin/pdflatex (file ./imgs/doppler12.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >] [17]
-Overfull \hbox (1.02765pt too wide) in paragraph at lines 913--914
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 920--921
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 972--973
+
+ []
+
+[18]
+Overfull \hbox (29.03494pt too wide) detected at line 1033
+[]
+ []
+
+[19] [20]
+Overfull \hbox (1.02765pt too wide) in paragraph at lines 1083--1084
 \OT1/cmr/m/n/10 (nodi) non var-i-ano nel tempo, per questo pos-si-amo definire 
 questo tipo di os-cil-lazione un'\OT1/cmr/bx/n/10 oscillazione
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 913--914
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1084
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 980--981
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1150--1151
  [][][][][][] 
  []
 
-[18] [19]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1048--1049
+[21] [22]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1218--1219
  [][][][][][] 
  []
 
-[20]
-Overfull \hbox (59.11018pt too wide) detected at line 1110
+[23]
+Overfull \hbox (59.11018pt too wide) detected at line 1281
 []
  []
 
 
-Overfull \hbox (61.3324pt too wide) in paragraph at lines 1101--1117
+Overfull \hbox (61.3324pt too wide) in paragraph at lines 1272--1288
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1131
+Underfull \hbox (badness 10000) in paragraph at lines 1300--1302
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1134
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1305
 
  []
 
-[22] (./onde.aux)
+[25] (./onde.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `onde.out' has not changed.
-(rerunfilecheck)             Checksum: 4ACB2B930F4730BF53E64FB76DE3EA58;7360.
+
+
+Package rerunfilecheck Warning: File `onde.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `onde.out':
+(rerunfilecheck)             Before: E1EE6BB2C20844F0B8808C686A28623D;7944
+(rerunfilecheck)             After:  68A9F6FD8ECB9EB0F1D68060B866B0CF;8101.
  ) 
 Here is how much of TeX's memory you used:
- 50641 strings out of 476076
- 1160024 string characters out of 5793775
+ 50660 strings out of 476076
+ 1160265 string characters out of 5793775
  1994231 words of memory out of 5000000
- 71763 multiletter control sequences out of 15000+600000
+ 71770 multiletter control sequences out of 15000+600000
  565581 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,17n,113p,719b,1444s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1727,10 +1749,10 @@ are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti10.pfb>
-Output written on onde.pdf (23 pages, 311204 bytes).
+Output written on onde.pdf (26 pages, 321962 bytes).
 PDF statistics:
- 612 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 97 named destinations out of 1000 (max. 500000)
- 375 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 649 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 

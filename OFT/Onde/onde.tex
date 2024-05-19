@@ -552,7 +552,7 @@ Tutte le espressioni della funzione d'onda sono:
 	Definiamo l'intensità di un'onda come  \textbf{potenza media per unità di superficie}, quindi
 	
 	\[
-	I = \frac{\mathcal{P}}{S} = \frac{1}{2}\rho\omega^2\xi_0^2v
+	I = \frac{\mathcal{P}_m}{S} = \frac{1}{2}\rho\omega^2\xi_0^2v
 	\]
 	
 	\subsection{Propagazione dell'energia in una corda tesa}
@@ -886,7 +886,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{equation}
 	Come possiamo vedere dalle espressioni di \(f_R\) ottenute non sono simmetriche: seppur è il \textbf{moto relativo} quello che conta, non è lo stesso se la sorgente si muove o è il rivelatore a farlo.
 	
-	\subsubsection{Espressione generale}
+		\subsubsection{Espressione generale}
 	Le espressioni trovate nei due casi possono essere riassunte in un'unica formula. Diciamo quindi di avere sia una \(v_S\) sia una \(v_R\). La distanza tra i fronti d'onda è influenzata solo dalla velocità della sorgente e vale
 	\[ 
 	\lambda_R = \lambda_0 - v_ST_0 = = vT_0 - v_ST_0 = \frac{v - v_s}{f_0}
@@ -908,6 +908,176 @@ Tutte le espressioni della funzione d'onda sono:
 	Quando la sorgente si muove a velocità superiori a quella di propagazione dell'onda (\(v_S > v\))
 	
 	
+	\newpage
+	\subsection{Interferenza}	
+	Prima di tutto diamo una definizione di sorgenti coerenti e incoerenti:
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Sorgenti coerenti}
+					Se la \textbf{differenza di fase} tra due onde in un punto qualsiasi è \textbf{costante} nel tempo, le sorgenti si dicono \textbf{coerenti}. Se ciò non si verifica (o si verifica in tempi bresi rispetto all'osservazione) le sorgenti sono dette \textbf{incoerenti}.
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	Quando due o più sorgenti coerenti emettono onde con \textbf{stessa pulsazione} \(\omega\) e queste onde si sovrappongono avviene il fenomeno dell'\textbf{interferenza}. Si verificano interferenze in ogni tipo di onde, si ha infatti una trattazione analitica indipendente dalla natura di esse.
+	
+		\subsubsection{Interferenza con stessa ampiezza}
+		Studiamo il caso unidimensionale di due onde piane coerenti con \textbf{medesima frequenza \(f\) e ampiezza \(\omega\)} che si propagano lungo la stessa direzione \(x\). Consideriamo un punto \(P\) distante \(x_1\) dalla primas sorgente e  \(x_2\) dalla seconda. In \(P\) si avranno le seguenti espressioni delle due onde:
+		\[ 
+		\xi_1 = A_0\cos\left(kx_1 -\omega t + \phi_1\right) = A_0\cos\left(\omega t - kx_1 - \phi_1\right)
+		\]
+		\[ 
+		\xi_2 = A_0\cos\left(kx_2 -\omega t + \phi_2\right) = A_0\cos\left(\omega t - kx_2 - \phi_2\right)
+		\]
+		Sappiamo che, essendo le sorgenti coerenti, lo sfasamento tra le due onde è fisso; chiamiamo questo sfasamento \(\delta\) così da eliminare il termine \(\phi_2\):
+		\[ 
+		\boxed{\delta = k(x_2 - x_1) + (\phi_2-\phi_1)}
+		\]
+		\[ 
+		\xi_1 = A_0\cos\left(\omega t - kx_1 - \phi_1\right)
+		\]
+		\[ 
+		\xi_2 = A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)
+		\] 
+		In P, l'onda risultante sarà la somma \(\xi _1 + \xi _2\)
+		
+		\begin{align*}
+			\xi =& \xi_1 + \xi _2 \\
+				=&  A_0\cos\left(\omega t - kx_1 - \phi_1\right) + A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)
+		\end{align*}
+		
+		\[
+		\textcolor{gray}{\textit{prostaferesi: } \quad \cos\alpha + \cos\beta = 2\cos\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
+		\]
+		
+		\begin{align*}
+			\xi =& A_0\cos\left(\omega t - kx_1 - \phi_1\right) + A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)\\
+				=& \textcolor{blue}{2A_0\cos\left(\delta/2\right)}\cos\left(\omega t - kx_1 - \phi_1+\delta/2\right)
+		\end{align*}
+		Come abbiamo visto precedentemente l'intensità è sempre proporzionale all'ampiezza al quadrato:
+		\[ 
+		I = K\textcolor{blue}{A}^2
+		\]
+		(in \(K\) sono kontenuti altri termini caratteristici e la superficie su cui si sta calcolando \(I\)),
+		\[ 
+		I = 4KA_0^2 \cos^2\left(\delta/2\right)
+		\]
+		
+		\[ 
+		\boxed{KA_0^2 = I_0}
+		\]
+		
+		\begin{equation}
+				\viola{I = 4I_0 \cos^2\left(\delta/2\right)}
+		\end{equation} \\
+		
+		\begin{es}{}
+			\paragraph{Interferenza costruttiva e distruttiva}
+			Nel caso di due onde con ampiezze uguali abbiamo l'equazione 
+			
+			\[ 
+			\xi_1 = A_0\cos\left(\omega t - kx_1 - \phi_1\right)
+			\qquad
+			\xi_2 = A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)
+			\] 
+			
+			l'interferenza sarà costruttiva se le due onde sono \textbf{in fase}, ovvero quando 
+			\[ 
+			\delta = 2m\pi \quad \to \quad \viola{\delta/2 = m\pi }
+			\]
+			Si avrà un'interferenza distruttiva invece quando le due onde sono \textbf{in opposizione di fase}, quindi quando (una e a 1 e l'altra a -1)
+			
+			\[ 
+			\delta = 2m\pi + \pi \quad \to \quad \viola{\delta = (2m+1)\pi }
+			\]
+			
+			condizioni che assumono senso anche nell'espressione dell'intensità: se l'interferenza è costruttiva mi aspetto che l'intensità sia massima, cosa che accade proprio quando  \(\delta/2 = m\pi \); se invece l'interferenza è distruttiva mi aspetto un'intensità nulla, che si ha quando \(\delta = m\pi \):
+			\[ 
+			I = 4I_0 \cos^2\left(\textcolor{red}{2m\pi }\right) = 4I_0 = I_\text{max}
+			\]
+			\[ 
+			I = 4I_0 \cos^2\left(\textcolor{blue}{m\pi }\right) = 0 
+			\]
+		\end{es}
+		
+		\subsubsection{Interferenza con ampiezze diverse}
+		Prendiamo in considerazine due onde \(\xi_1\) e \(\xi_2\) con ampiezze diverse. Ci è comodo rappresentare le onde in "forma vettoriale" così da poter esplicitare alcuni termini più agevolmente.
+		\[ 
+		\xi_1 = A_1 \cos\left(kx_1 - \omega t + \phi_1\right) = A_1 \cos\left(\omega t + \alpha_1\right)
+		\]
+		\[ 
+		\xi_2 = A_2 \cos\left(kx_2 - \omega t + \phi_2\right) = A_2 \cos\left(\omega t + \alpha_2\right)
+		\]
+		\[ 
+		\boldsymbol{\xi} = \xi _1 + \xi _2 = \boldsymbol{A}\cos\left(\omega t + \boldsymbol{\alpha}\right)
+		\]
+		Rappresentiamo \(A_1,A_2\) e \(A\) come dei vettori rotanti (per il contributo del coseno) visti all'istante \(t=0\), quindi senza il termine \(\omega t\):
+		
+		\begin{center}
+			\textcolor{red}{inserire grafici}
+		\end{center}
+		
+		Esplicitiamo l'angolo \(\alpha\):
+		\[ 
+		A\cos\alpha = A_1\cos\alpha_1 + A_2\cos\alpha_2		
+		\]
+		\[ 
+		A\sin\alpha = A_1\sin\alpha_1 + A_2\sin\alpha_2		
+		\]
+		da cui, elevando al quadrato:
+		\begin{align*} 
+		A^2\cos^2\alpha + A^2\sin^2\alpha =& (A_1\cos\alpha_1 + A_2\cos\alpha_2)^2 + (A_1\sin\alpha_1 + A_2\sin\alpha_2)^2\\
+									 A^2 =& A_1^2\cos^2\alpha_1 + 2A_2A_1\cos\alpha_1\cos\alpha_2 + A_2^2\cos^2\alpha_2 + \\ &+ A_1^2\sin^2\alpha_1 + 2A_2A_1\sin\alpha_1\sin\alpha_2 + A_2^2\sin^2\alpha_2\\
+									     =& A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) + 2A_2A_1(\cos\alpha_1\cos\alpha_2 + \sin\alpha_1\sin\alpha_2)\\
+									     =&  A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) +  2A_2A_1\cos\left(\alpha_1 - \alpha_2\right)
+		\end{align*} 
+		
+		\[ 
+		\boxed{\delta = \alpha_1 - \alpha_2}
+		\]
+		
+		\begin{equation}
+			A = \sqrt{A_1^2 + A_2^2 + 2A_2A_1\cos\delta}
+		\end{equation}
+		Come prima, sapendo che l'intensità è proporzionale all'ampiezza al quadrato:
+		\begin{align*}
+		I =& KA^2 \\ 
+		  =& K\left(A_1^2 + A_2^2 + 2A_2A_1\cos\delta\right)\\
+		  =& \textcolor{cyan}{KA_1^2} + \textcolor{blue}{KA_2^2} + 2\textcolor{red}{KA_1A_2}\cos\delta
+		\end{align*}
+		
+		\[ 
+		\boxed{\textcolor{cyan}{KA_1^2}= I_1} \qquad \boxed{\textcolor{blue}{KA_2^2} = I_2 } 
+		\]
+		per esprimere il termine rettangolare in funzione di \(I_1\) e \(I_2\) sviluppo \(I_1I_2 = K^2A_1^2A_2^2\) e quindi
+		
+		\[ 
+		\boxed{\sqrt{I_1I_2} = \textcolor{red}{KA_1A_2}}
+		\]
+		
+		da cui
+		
+		\begin{equation}
+			\viola{I = I_1 + I_2 + 2\sqrt{I_1I_2}\cos\delta}
+		\end{equation}
+		
+		
+		\begin{es}{}
+			\paragraph{Interferenza costruttiva e distruttiva}
+			Nel caso di due onde con ampiezze diverse 
+			\begin{center}
+				\textcolor{red}{trova}
+			\end{center}
+			
+		\end{es}
+		
+		
+		\subsection{Sorgenti puntiformi}
+			\begin{center}
+				\textcolor{red}{guarda slides}
+			\end{center}
+			
+		
 	\newpage
 	\section{Onde stazionarie}
 	Un'altro tipo di oscellazioni rilevanti sono le onde stazionarie, onde i cui punti oscillano con ampiezza che varia solo con la posizione. Si osserva che le posizioni di massima ampiezza e dei punti fermi (nodi) non variano nel tempo, per questo possiamo definire questo tipo di oscillazione un'\textbf{oscillazione collettiva} del fenomeno \textbf{cui non è associato un fenomeno di propagazione}. \\
@@ -936,7 +1106,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\[
 	\textcolor{gray}{\textit{prostaferesi: } \quad \sin\alpha + \sin\beta = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
 	\]
-
+	
 	\begin{equation}
 		\viola{\xi (x,t) = 2A\sin\left(kx\right)\cos\left(\omega t\right)}
 	\end{equation}
@@ -1048,7 +1218,8 @@ Tutte le espressioni della funzione d'onda sono:
 			\end{minipage}}
 		\end{center}
 		
-		
+	
+			
 	
 \newpage
 \section{Fluidi}
