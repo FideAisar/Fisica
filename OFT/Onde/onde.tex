@@ -349,7 +349,7 @@
 	\]
 	A partire da questa nuova espressione della "larghezza" dell'elemnto infinitesimo posso scrivere l'espressione della densità dopo la compressione:
 	\[
-	\rho = \frac{dm}{dV} = \frac{dm}{S(dx)} \frac{\rho_0 \textcolor{red}{S (dx)}}{\textcolor{red}{S(dx)}\left(1 + \frac{\partial \xi}{\partial x}\right)} = \rho_0\left(1 + \frac{\partial \xi}{\partial x}\right)^{-1}
+	\rho(x,t) = \frac{dm}{dV} = \frac{\rho_0 \textcolor{red}{S (dx)}}{\textcolor{red}{Sdx}\left(1 + \frac{\partial \xi}{\partial x}\right)} = \rho_0\left(1 + \frac{\partial \xi}{\partial x}\right)^{-1}
 	\]
 	Ora andremo ad applicare una semplificazione bizzarra. Se la deformazione specifica $|\varepsilon| = \left|\frac{\partial \xi}{\partial x}\right|<< 1$, allora si può applicare la formula del binomio:
 	\[
@@ -357,27 +357,27 @@
 	\]
 	Quindi posso scrivere la densità come
 	\[
-	\rho \approx \rho_0\left(1 - \frac{\partial \xi}{\partial x}\right)
+	\rho(x,t) \approx \rho_0\left(1 - \frac{\partial \xi}{\partial x}\right)
 	\]
 	da cui la variazione
 	\begin{equation} \label{rho}
-	d\rho(x,t) = \rho - \rho_0 = - \rho_0\frac{\partial \xi}{\partial x}
+	d\rho(x,t) = \rho(x,t) - \rho_0 = - \rho_0\frac{\partial \xi}{\partial x}
 	\end{equation}
 	in cui il segno meno indica ce se il volumetto è compresso la densità aumenta, mentre se si espande la densità diminuisce.
 	
 	\subsubsection{Pressione}
 	Ad una variazione di densità corrisponde una variazione di pressione secondo la legge
 	\[
-	\beta = \rho\frac{dp}{d\rho} \quad \to \quad dp(x,t) = p(x,t) - p_0 = \beta\frac{d\rho}{\rho}
+	\beta = \rho_0\frac{dp}{d\rho} \quad \to \quad dp(x,t) = p(x,t) - p_0 = \beta\frac{d\rho}{\rho_0}
 	\]
 	da cui derivo che la pressione è 
 	\[
 	p(x,t) = \beta\frac{d\rho}{\rho_0} +  p_0 
 	\]
 	Sostituendo l'espressione della densità trovata prima nella \ref{rho} scrivo
-	\[
-	p(x,t) = \beta\frac{- \rho_0\frac{\partial \xi}{\partial x}}{\rho_0} +  p_0 =p_0 - \beta\frac{\partial \xi}{\partial x}
-	\]
+	\begin{equation}\label{1press}
+	\viola{p(x,t)} = \beta\frac{- \rho_0\frac{\partial \xi}{\partial x}}{\rho_0} +  p_0 \viola{=p_0 - \beta\frac{\partial \xi}{\partial x}}
+	\end{equation}
 	\subsubsection{Forza}
 	La variazione di pressione causa un movimento del gas e la risultante su $dm$ è 
 	\begin{align*}
@@ -479,9 +479,6 @@ Tutte le espressioni della funzione d'onda sono:
 \[ 
 \xi(x,t) = \xi_0 \sin\left(kx \mp \omega t + \delta\right) \qquad \xi(x,t) = \xi_0 \sin\left[ 2\pi\left(\frac{x}{\lambda} \mp \frac{t}{T}\right) + \delta\right]  \qquad \xi_0\sin\left[\frac{2\pi}{\lambda}\left(x \mp vt\right) + \delta \right]
 \]
-	\newpage
-	\subsection{Analisi di Fourier}
-
 	
 	
 	\newpage
@@ -611,9 +608,54 @@ Tutte le espressioni della funzione d'onda sono:
 		\viola{\mathcal{P}_m = \mathcal{W} v}
 	\end{equation}
 
+	\subsection{Onde sonore}
+	Consideriamo ora delle onde sonore come onde di spostamento sempre accompagnate da onde di pressione:
+	\[ 
+	\textbf{Spostamento: }\quad \xi = \xi _0\sin(kx-\omega t)
+	\]
+	\[ 
+	\textbf{Pressione: }\quad dp = -\beta \frac{\partial\xi}{\partial x}
+	\]
+	\subsubsection{Pressione}
+	L'espressione della pressione era stata ricavata nel capitolo sulle onde nei gas (\ref{1press})
+	\[ 
+	p(x,t) = p_0 -\beta \frac{\partial \xi }{\partial x} \quad \to \quad dp(x,t) = p(x,t) - p_0 = -\beta \frac{\partial \xi }{\partial x}
+	\]
+	Sviluppando la derivata parziale, e ricordando alcune equivalenze
+	\[ 
+	\boxed{v = \sqrt{\frac{\beta}{\rho_0}} \to  \beta = v^2\rho_0} \qquad \boxed{k = \frac{\omega }{v}}
+	\]
+	troviamo
+	\begin{align*}
+		dp =& -\textcolor{red}{\beta} \textcolor{blue}{k} \xi_0 \cos\left(kx-\omega t\right) \\
+		   =& \textcolor{red}{v^2 \rho_0}\textcolor{blue}{\frac{\omega }{v}} \cos\left(kx-\omega t\right) \\
+		   =& \boldsymbol{\rho_0 v \omega  \xi_0}  \cos\left(kx-\omega t\right) \\ 
+		   =& \boldsymbol{\Delta p_{\text{max}}} \sin\left(kx -\omega t - \pi /2\right) \\
+	\end{align*}
+	Le onde di pressione sono quindi in ritardo di \(\pi /2\).
 	
-	
-	
+	\subsubsection{Potenza}
+	\[ 
+	\mathcal{P} = \overrightarrow{F}\cdot \vec{v} = (dp)S v = -\beta \frac{\partial\xi}{\partial x} S \frac{\partial\xi}{\partial t}
+	\]
+	\begin{align*}
+		\mathcal{P} &= \beta k \xi_0 \cos\left(kx- \omega t\right) S \omega  \xi_0 \cos\left(kx- \omega t\right)\\
+					&= v^2\rho_0 \frac{\omega}{v} \xi_0 \cos\left(kx- \omega t\right) S \omega \xi_0 \cos\left(kx- \omega t\right)\\
+					&=  \rho_0 v \omega ^2 S \xi_0^2 \cos^2\left(kx- \omega t\right) 
+	\end{align*}
+	Si ottiene quindi una potenza media pari a metà la sua ampiezza
+	\[ 
+	\mathcal{P}_m = \frac{1}{2} \rho_0 v \omega ^2 S \xi_0^2
+	\]
+	\subsubsection{Intensità}
+	Ricordando che l'intensità è la potenza per unità di superficie:
+	\[ 
+	I = \frac{\mathcal{P}_m }{S} =   \frac{1}{2} \rho_0 v \omega ^2 \xi_0^2
+	\]
+	Riconosciamo che \(\Delta p_{\text{max}} = \rho_0 v \omega  \xi_0\) e che quindi possiamo scrivere l'intensità come
+	\begin{equation}\label{intensita_fono}
+		\viola{I = \frac{(\rho_0 v \omega  \xi_0)^2}{2\rho_0 v} = \frac{\Delta p_{\text{max}}}{2\rho_0 v}}
+	\end{equation}
 	
 	\newpage
 	\subsection{Onde in più dimensioni}	
@@ -690,7 +732,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\]
 	
 	\begin{center}
-		\textcolor{red}{PERCHE SI TRATTA COME UNA CORDA?????????}
+		\textcolor{red}{completare}
 	\end{center}
 	
 	\subsection{Onde cilindriche}
@@ -905,7 +947,22 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{equation}
 
 	\subsection{Onda d'urto}
-	Quando la sorgente si muove a velocità superiori a quella di propagazione dell'onda (\(v_S > v\))
+	Quando la sorgente si muove a velocità superiori a quella di propagazione dell'onda (\(v_S > v\)), i fronti d'onda di quest'ultima ammettono un \textbf{inviluppo} rappresentato da due rette convergenti. L'inviluppo rappresenta \textbf{il luogo di punti di egual fase} e costituisce il  \textbf{nuovo fronte d'onda} che prende il nome di \textbf{onda d'urto}. Possiamo trovare gli angoli che descrivono le due rette tramite semplici calcoli trigonometrici: 
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	Poiché \(P\) e \(Q\) sono punti di egual fase, il tempo che impiega l'onda a percorrere il tratto \(S_1S'_1\) deve essere uguale al tempo che impiega la sorgente a percorrere il tratto \(S_1S_2\) (\textbf{a tempi uguali corrispondono uguali differenze di fase}).
+	\[ 
+	\boxed{a = S_1S_2} \qquad \boxed{S_1S'_1 = a\cos\left(\theta\right)}
+	\]
+	quindi l'uguaglianza dei temi diventa
+	\[ 
+	\frac{a}{v_s} = \frac{a\cos\left(\theta\right)}{v}
+	\]
+	\begin{equation}
+		\viola{\sin\left(\theta'\right) = \cos\left(\theta\right) = \frac{v}{v_s} }
+	\end{equation}
+	Da quest'ultima risulta evidente che la superficie conica (o triangolare) di egual fase può esistere solo se la sorgente si muove più velocemente dell'onda (risulterebbero seno e coseno maggiori di uno se no).
 	
 	
 	\newpage

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.20)  19 MAY 2024 22:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.20)  22 MAY 2024 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,38 +1616,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 473--475
 
  []
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
 
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 664--665
+[8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 
  []
 
 [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 715--717
+Underfull \hbox (badness 10000) in paragraph at lines 757--759
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--775
+Underfull \hbox (badness 10000) in paragraph at lines 815--817
 
  []
 
 [14] [15] (./imgs/doppler12.pdf_tex
-<./imgs/doppler12.pdf, id=345, page=1, 847.83315pt x 341.14972pt>
+<./imgs/doppler12.pdf, id=369, page=1, 847.83315pt x 341.14972pt>
 File: ./imgs/doppler12.pdf Graphic file (type pdf)
 <use ./imgs/doppler12.pdf, page 1>
 Package pdftex.def Info: ./imgs/doppler12.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 433.62pt x 174.47858pt.
-<./imgs/doppler12.pdf, id=346, page=2, 847.83315pt x 341.14972pt>
+<./imgs/doppler12.pdf, id=370, page=2, 847.83315pt x 341.14972pt>
 File: ./imgs/doppler12.pdf Graphic file (type pdf)
 <use ./imgs/doppler12.pdf, page 2>
 Package pdftex.def Info: ./imgs/doppler12.pdf , page2 used on input line 65.
@@ -1657,58 +1657,58 @@ Package pdftex.def Info: ./imgs/doppler12.pdf , page2 used on input line 65.
 pdfTeX warning: /usr/bin/pdflatex (file ./imgs/doppler12.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >] [17]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 920--921
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 977--978
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 972--973
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 
  []
 
 [18]
-Overfull \hbox (29.03494pt too wide) detected at line 1033
+Overfull \hbox (29.03494pt too wide) detected at line 1090
 []
  []
 
 [19] [20]
-Overfull \hbox (1.02765pt too wide) in paragraph at lines 1083--1084
+Overfull \hbox (1.02765pt too wide) in paragraph at lines 1140--1141
 \OT1/cmr/m/n/10 (nodi) non var-i-ano nel tempo, per questo pos-si-amo definire 
 questo tipo di os-cil-lazione un'\OT1/cmr/bx/n/10 oscillazione
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1083--1084
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1141
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1150--1151
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1207--1208
  [][][][][][] 
  []
 
 [21] [22]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1218--1219
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1275--1276
  [][][][][][] 
  []
 
 [23]
-Overfull \hbox (59.11018pt too wide) detected at line 1281
+Overfull \hbox (59.11018pt too wide) detected at line 1338
 []
  []
 
 
-Overfull \hbox (61.3324pt too wide) in paragraph at lines 1272--1288
+Overfull \hbox (61.3324pt too wide) in paragraph at lines 1329--1345
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1300--1302
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1359
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 1303--1305
+Underfull \hbox (badness 10000) in paragraph at lines 1360--1362
 
  []
 
@@ -1717,42 +1717,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 1303--1305
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `onde.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `onde.out':
-(rerunfilecheck)             Before: E1EE6BB2C20844F0B8808C686A28623D;7944
-(rerunfilecheck)             After:  68A9F6FD8ECB9EB0F1D68060B866B0CF;8101.
+Package rerunfilecheck Info: File `onde.out' has not changed.
+(rerunfilecheck)             Checksum: B63F830E2133DC51E59779556E98B897;8371.
  ) 
 Here is how much of TeX's memory you used:
- 50660 strings out of 476076
- 1160265 string characters out of 5793775
- 1994231 words of memory out of 5000000
- 71770 multiletter control sequences out of 15000+600000
+ 50672 strings out of 476076
+ 1160417 string characters out of 5793775
+ 1994305 words of memory out of 5000000
+ 71776 multiletter control sequences out of 15000+600000
  565581 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  117i,17n,113p,719b,1444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmti10.pfb>
-Output written on onde.pdf (26 pages, 321962 bytes).
+ic/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cmextra/cmmib7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on onde.pdf (26 pages, 334222 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 109 named destinations out of 1000 (max. 500000)
- 399 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 678 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 431 words of extra memory for PDF output out of 10000 (max. 10000000)
 
