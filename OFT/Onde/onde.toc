@@ -18,38 +18,43 @@
 \contentsline {subsubsection}{Pressione}{10}{section*.11}%
 \contentsline {subsubsection}{Potenza}{10}{section*.12}%
 \contentsline {subsubsection}{Intensità}{10}{section*.13}%
-\contentsline {subsection}{\numberline {2.4}Onde in più dimensioni}{11}{subsection.2.4}%
-\contentsline {subsubsection}{Onde elastiche in una membrana tesa}{11}{section*.14}%
-\contentsline {subsubsection}{Onde sferiche}{11}{section*.15}%
-\contentsline {subsection}{\numberline {2.5}Onde cilindriche}{12}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Assorbimento dell'energia}{13}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Pacchetti d'onde}{14}{subsection.2.7}%
-\contentsline {subsubsection}{Velocità di fase e velocità di gruppo}{14}{section*.16}%
-\contentsline {subsection}{\numberline {2.8}Effetto Doppler}{16}{subsection.2.8}%
-\contentsline {subsubsection}{Sorgente in moto}{16}{section*.17}%
-\contentsline {subsubsection}{Rivelatore in moto}{17}{section*.18}%
-\contentsline {subsubsection}{Espressione generale}{17}{section*.19}%
-\contentsline {subsection}{\numberline {2.9}Onda d'urto}{17}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Interferenza}{18}{subsection.2.10}%
-\contentsline {subsubsection}{Interferenza con stessa ampiezza}{18}{section*.20}%
-\contentsline {paragraph}{Interferenza costruttiva e distruttiva}{19}{section*.21}%
-\contentsline {subsubsection}{Interferenza con ampiezze diverse}{19}{section*.22}%
+\contentsline {subsection}{\numberline {2.4}Fonometria}{10}{subsection.2.4}%
+\contentsline {subsubsection}{Livello sonoro}{11}{section*.14}%
+\contentsline {subsection}{\numberline {2.5}Onde in più dimensioni}{12}{subsection.2.5}%
+\contentsline {subsubsection}{Onde elastiche in una membrana tesa}{12}{section*.15}%
+\contentsline {subsubsection}{Onde sferiche}{12}{section*.16}%
+\contentsline {subsubsection}{Intensità}{13}{section*.17}%
+\contentsline {subsection}{\numberline {2.6}Onde cilindriche}{13}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Assorbimento dell'energia}{14}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Pacchetti d'onde}{15}{subsection.2.8}%
+\contentsline {subsubsection}{Velocità di fase e velocità di gruppo}{15}{section*.18}%
+\contentsline {subsection}{\numberline {2.9}Effetto Doppler}{17}{subsection.2.9}%
+\contentsline {subsubsection}{Sorgente in moto}{17}{section*.19}%
+\contentsline {subsubsection}{Rivelatore in moto}{18}{section*.20}%
+\contentsline {subsubsection}{Espressione generale}{18}{section*.21}%
+\contentsline {subsection}{\numberline {2.10}Onda d'urto}{18}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Interferenza}{19}{subsection.2.11}%
+\contentsline {subsubsection}{Interferenza con stessa ampiezza}{19}{section*.22}%
 \contentsline {paragraph}{Interferenza costruttiva e distruttiva}{20}{section*.23}%
-\contentsline {subsection}{\numberline {2.11}Sorgenti puntiformi}{20}{subsection.2.11}%
-\contentsline {section}{\numberline {3}Onde stazionarie}{21}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Corda tesa con due estremi fissi}{21}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Corda tesa con un estremo fisso}{22}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Onde stazionarie in una colonna di gas}{23}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Timbro}{23}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Fluidi}{24}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Pressione}{24}{subsection.4.1}%
-\contentsline {subsubsection}{Equilibrio statico di un fluido}{24}{section*.24}%
-\contentsline {subsubsection}{Lavoro della pressione}{25}{section*.25}%
-\contentsline {subsection}{\numberline {4.2}Principio di Archimede}{25}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Liquido in rotazione}{25}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Moto di un fluido}{25}{subsection.4.4}%
-\contentsline {subsubsection}{Teorema di Bernoulli}{25}{section*.26}%
-\contentsline {subsubsection}{Moto laminare}{25}{section*.27}%
-\contentsline {subsubsection}{Moto turbolento}{25}{section*.28}%
-\contentsline {subsection}{\numberline {4.5}Portanza}{25}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Fenomeni di superficie}{25}{subsection.4.6}%
+\contentsline {subsubsection}{Interferenza con ampiezze diverse}{20}{section*.24}%
+\contentsline {paragraph}{Interferenza costruttiva e distruttiva}{21}{section*.25}%
+\contentsline {subsection}{\numberline {2.12}Sorgenti puntiformi}{21}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Riflessione e trasmissione}{22}{subsection.2.13}%
+\contentsline {section}{\numberline {3}Onde stazionarie}{23}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Corda tesa con due estremi fissi}{23}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Corda tesa con un estremo fisso}{24}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Onde stazionarie in una colonna di gas}{25}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Timbro}{25}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Fluidi}{26}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Pressione}{26}{subsection.4.1}%
+\contentsline {subsubsection}{Equilibrio statico di un fluido}{26}{section*.26}%
+\contentsline {subsubsection}{Lavoro della pressione}{27}{section*.27}%
+\contentsline {subsubsection}{Equilibrio in presenza di forza peso}{27}{section*.28}%
+\contentsline {subsection}{\numberline {4.2}Principio di Archimede}{28}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Liquido in rotazione}{28}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Moto di un fluido}{28}{subsection.4.4}%
+\contentsline {subsubsection}{Teorema di Bernoulli}{28}{section*.29}%
+\contentsline {subsubsection}{Moto laminare}{28}{section*.30}%
+\contentsline {subsubsection}{Moto turbolento}{28}{section*.31}%
+\contentsline {subsection}{\numberline {4.5}Portanza}{28}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Fenomeni di superficie}{28}{subsection.4.6}%

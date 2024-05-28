@@ -30,6 +30,7 @@
 \usepackage{hyperref}
 \usepackage{darkmode}
 \usepackage{cancel}
+\usepackage{siunitx}
 
 % TIKZ settings
 \usetikzlibrary{arrows,arrows.meta}
@@ -608,7 +609,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\viola{\mathcal{P}_m = \mathcal{W} v}
 	\end{equation}
 
-	\subsection{Onde sonore}
+	\subsection{Onde sonore}\label{Onde Sonore}
 	Consideriamo ora delle onde sonore come onde di spostamento sempre accompagnate da onde di pressione:
 	\[ 
 	\textbf{Spostamento: }\quad \xi = \xi _0\sin(kx-\omega t)
@@ -654,8 +655,72 @@ Tutte le espressioni della funzione d'onda sono:
 	\]
 	Riconosciamo che \(\Delta p_{\text{max}} = \rho_0 v \omega  \xi_0\) e che quindi possiamo scrivere l'intensità come
 	\begin{equation}\label{intensita_fono}
-		\viola{I = \frac{(\rho_0 v \omega  \xi_0)^2}{2\rho_0 v} = \frac{\Delta p_{\text{max}}}{2\rho_0 v}}
+		\viola{I = \frac{(\rho_0 v \omega  \xi_0)^2}{2\rho_0 v} = \frac{\Delta p_{\text{max}}^2}{2\rho_0 v}}
 	\end{equation}
+	
+	
+	\subsection{Fonometria}
+	Per essere messo in movimento il timpano ha bisogno di un'intensità minima che chiamiamo \textbf{soglia di udibilità}. Il limite superiore invece è chiamata \textbf{soglia del dolore} e rappresenta l'intensità sopra alla quale si percepisce una sensazione dolorosa. Entrambe vengono espresse o in funzione della frequenza o in funzione della lunghezza d'onda (\(\lambda=v/f\)); si ha quindi che le frequenze all'interno delle due soglie sono
+	\[ 
+		\SI{20}{\hertz} < f < \SI{20000}{\hertz}
+	\]
+	\[ 
+		\SI{17.15}{\m} < \lambda < \SI{1.715}{\cm}
+	\]
+	La\textbf{ soglia minima} convenzionale dell'udibilità è l'intensità \(I_0 = 10^{-12}\SI{}{\watt/\m^2}\) alla frequenza  \(f = 10^3\SI{}{\hertz}\). A questa si possono associare la corrispondente onda di pressione e ampiezza delle oscillazioni:
+	\[ 
+		\Delta p_{\text{max}} = \sqrt{2\rho_0 v I_0} = 2.97 \cdot 10^{-5} \SI{}{\pascal}
+	\]
+	e poiché  \(\Delta p_{\text{max}} = \rho_0 v \textcolor{red}{\omega } \xi_0\)
+	\[ 
+		\xi_0 = \frac{\Delta p_{\text{max}}}{\textcolor{red}{2\pi f}\rho_0 v} = 1.07 \cdot 10^{-11}\SI{}{\m}
+	\]
+	
+	Alla soglia del dolore invece si ottengono 
+	
+	\[ 
+	\Delta p_{\text{max}} = \sqrt{2\rho_0 v I_0} = 29.7 \SI{}{\pascal}
+	\]
+	\[ 
+	\xi_0 = \frac{\Delta p_{\text{max}}}{2\pi f\rho_0 v} = 1.07 \cdot 10^{-5}\SI{}{\m}
+	\]
+	In sintesi: l'orecchio umano si estendi su
+	\begin{itemize}
+		\item \textbf{3} ordini di grandezza in \textbf{frequenza}: \(0 - 10^3 \SI{}{\hertz}\)
+		\item \textbf{12} ordini di grandezza in \textbf{intensità}: \(1 - 10^12 \SI{}{\watt/\m^2}\)
+		\item \textbf{6} ordini di grandezza in \textbf{ampiezza di oscillazione}: \(10^{-11} - 10^{-5} \SI{}{\m}\)
+	\end{itemize}
+	
+	
+	
+	
+	
+	
+	\subsubsection{Livello sonoro}
+	Presa una certa intensità \(I\) si definisce un \textbf{livello sonoro} \(L\) rispetto a \(I_0\). Il livello sonoro è una valutazione logaritmica relativa di intensità e si esprime in decibel (\(\SI{}{\decibel}\)).
+	
+	Al livello sonoro associamo delle curve isofoniche, ovvero il luogo dei punti in cui si percepisce la stessa sensazione uditiva \(S\). 
+	
+	\begin{equation}\label{livello sonoro}
+		\viola{L = 10\log_{10}{\frac{I}{I_0}}}
+	\end{equation}
+	Vediamo come il livello sonoro risulta essere particolarmente pratico poiché \(L = 0\) con \(I_0\) per \(f=1000\SI{}{\hertz}\), quindi vale 0 alla soglia di udibilità; e vale \(\boldsymbol{120}\) con \(\boldsymbol{I/I_0 = 10^{12}}\) alla soglia del dolore.
+	
+	\begin{es}{Attenzione}
+		Il valore d'intensità \(I_0\) \textbf{dipende dalla frequenza}. Per questo anche il livello sonoro \(L\) non dipende tanto da \(I_0\) quanto più dalla frequenza. 
+		
+		Le curve isofoniche infatti non descrivono eguale intensità \(I\) ma eguale rapporto \(I/I_0\), che dipende dalla frequenza. Possiamo dire che \(S\) è una grandezza \textit{fisiologica} e \(L\) una grandezza fisica.
+	\end{es}
+	Secondo la \textbf{legge psicofisica di Fechner e Weber}
+	\[ 
+	S = kB = k10\log_10{\frac{I}{I_0}} = k'\log_10{\frac{I}{I_0}}
+	\]
+	quindi
+	\begin{equation}
+		S_2 - S_1 = k'\log_10{\frac{I_2}{I_1}}
+	\end{equation}
+	la sensazione sonora è proporzionale al logaritmo del rapporto tra le intensità che hanno prodotto le sensazioni
+	
 	
 	\newpage
 	\subsection{Onde in più dimensioni}	
@@ -705,6 +770,14 @@ Tutte le espressioni della funzione d'onda sono:
 	\subsubsection{Onde sferiche}
 	Se il mezzo è \textit{isotropo} è quindi la velocità di propagazione è uguale in tutte le direzioni, la funzoine d'\textbf{onda sferica armonica} è \(\xi(r,t) = A(r)\sin\left(kr -\omega t\right)\) dove \(r\) è la distanza dalla sorgfente e \(A(r)\) è l'ampiezza funzione di \(r\). \\
 	
+
+	\begin{figure}[ht]
+		\centering
+		\scalebox{.7}{\incfig{sfera}}
+		\caption{Onde sferiche}
+		\label{fig:Onde sferiche}
+	\end{figure}
+	
 	\noindent
 	Diciamo che la nostra sorgente emetta un'onda di intensità \(I(r) = CA^2(r)\) dove \(C\) è una costante dipendente dal mezzo. In un'onda sferica la \textbf{potenza media} trasmessa attraverso la superficie sferica \(S = 4\pi r^2\) deve risultare \textbf{costante} ad ogni valore di \(r\):
 	
@@ -725,15 +798,13 @@ Tutte le espressioni della funzione d'onda sono:
 	\begin{equation}
 		\viola{\xi(r,t) = \frac{\xi_0}{r}\sin\left(kr -\omega t\right)}
 	\end{equation}
-	mentre l'intensità è inversamente proporzionale al quadrato della distanza dalla sorgente:
+	
+	\subsubsection{Intensità}
+	Supponendo che le onde in questione siano onde sonore, andando quindi ad utilizzare le espressioni di pressione della sezione \ref{Onde Sonore} e andando a sostituire ogni \(\xi_0\) con \(\xi_0/r\) si ottiene la seguente espressione dell'intensità:
 	
 	\[ 
-	I(r) = \frac{\mathcal{P}_m}{S} = <
+	I(r) = \frac{\mathcal{P}_m}{S} = \frac{1}{2} \rho_0 v \omega ^2 \frac{\xi_0^2}{r^2}
 	\]
-	
-	\begin{center}
-		\textcolor{red}{completare}
-	\end{center}
 	
 	\subsection{Onde cilindriche}
 	
@@ -1134,6 +1205,28 @@ Tutte le espressioni della funzione d'onda sono:
 				\textcolor{red}{guarda slides}
 			\end{center}
 			
+		\newpage
+		\subsection{Riflessione e trasmissione}
+		Prendiamo in esame una corda divisa in due segmenti uniti ma con densità lineari differenti. La velocità, dipendendo da \(\mu\), sarà diversa nei due mezzi:
+		\[ 
+		v_1 = \sqrt{\frac{T}{\mu_1}} \qquad v_2 = \sqrt{\frac{T}{\mu_2}} 
+		\]
+		da cui, poiché \(k = \omega / v\), anche i due \(k\) saranno diversi
+		\[ 
+		k_1 = \omega \sqrt{\frac{\mu_1}{T}} \qquad k_2 = \omega \sqrt{\frac{\mu_2}{T}} 
+		\]
+		Andiamo quindi a distinguere tre tipi di onde che si propagano sulla corda: una incidente, una trasmessa e una riflessa:
+		\[ 
+		\xi_i = \xi_{0i}\sin\left(k_1 x - \omega t\right)
+		\]
+		\[ 
+		\xi_r = \xi_{0r}\sin\left(k_1 x + \omega t\right)
+		\]
+		\[ 
+		\xi_t = \xi_{0t}\sin\left(k_2 x - \omega t\right)
+		\]
+		Nel punto di contatto tra i due tratti \textbf{imponiamo la continuità della funzione d'onda}:
+		
 		
 	\newpage
 	\section{Onde stazionarie}
@@ -1369,7 +1462,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\[
 			\overrightarrow{\nabla} p = -\rho \frac{\overrightarrow{\nabla}E_p}{m}
 		\]
-		\begin{equation}
+		\begin{equation}\label{gradiente pressione}
 			\viola{\boxed{\overrightarrow{\nabla} p = -\rho \overrightarrow{\nabla}E_{p,m}}}
 		\end{equation}
 		Infatti le \textbf{superfici isobariche coincidono con quelle equipotenziali}, quindi le variazioni di pressione e di energia potenziale sono le stesse ovunque nel passaggio da una superficie equipotenziale ad un'altra. 
@@ -1386,11 +1479,46 @@ Tutte le espressioni della funzione d'onda sono:
 		quindi se lungo una superficie isobarica e equipotenziale si hanno pressione ed energia potenziale costanti, anche la densità lo è. Pertanto in un fluido sottoposto a forze conservative la \textbf{variazione di densità} segue geometricamente qualla di pressione e di energia potenziale.
 		
 	\subsubsection{Lavoro della pressione}
-	nel 
+	Nel caso di equilibrio statico non ci sono spostamenti di conseguenza il lavoro è nullo. Nel caso di non equilibrio invece, considerando una situazione semplice di una forza verticale ortogonale alla superficie:
+	\[ 
+	dW = dF dh = p\textcolor{blue}{S dh }= dp \textcolor{blue}{dV }
+	\] 
+	\begin{equation}
+		W = \int{pdV}
+	\end{equation}
 	
-	
+	\subsubsection{Equilibrio in presenza di forza peso}
+	Applichiamo i risultati ottenuti precedentemente. In questo caso abbiamo come accelerazione \(a_z = -g\), quindi secondo la \ref{pressione} la pressione \textbf{varia solo lungo l'asse z}. Esplicitiamo i due gradienti così da esplicitare la \ref{gradiente pressione}:
+	\[ 
+	\boxed{\nabla p_z = \frac{d p}{d z} }\qquad \boxed{\nabla E_{p,m,z} = \frac{d E_{p,m}}{d z} = g}
+	\]
+	\[ 
+	\frac{dp}{dz} = -\rho g
+	\]
+	\[ 
+	\int_{p_1}^{p_2}dp = -\rho g \int_{z_1}^{z_2}dz
+	\]
+	\[ 
+	p_2 - p_1 = -\rho g (z_2 - z_1)
+	\]
+	Quindi se la densità è costante, la pressione in un fluido in equilibrio sotto l'azione della forza di gravità varia secondo la \textbf{legge di Stevino }(\(p_2 = p_0\) e \(z_2 = 0\) e \(z_1 = -h\))
+	\begin{equation}\label{stevino}
+		\viola{ p(h) = p_0 -\rho g h}
+	\end{equation}
 	
 	\subsection{Principio di Archimede}
+	Un corpo immerso in un fluido riceve una spinta verticale verso l'alto  pari al peso del volume di fluido spostato
+	\begin{equation}
+	\viola{	\overrightarrow{F}_A = -\rho V \vec{g}}
+	\end{equation}
+	Se andiamo a considerare un corpo di massa \(m' = \rho'V\) immerso in un fluido, la risultante delle forze su di esso vale \(\overrightarrow{F}_V + \overrightarrow{F}_p\)
+
+	\[ 
+	-mg + 
+	\]
+	
+	
+	
 	\subsection{Liquido in rotazione}
 	\subsection{Moto  di un fluido}
 		\subsubsection{Teorema di Bernoulli}
