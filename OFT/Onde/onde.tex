@@ -1926,21 +1926,113 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 		\viola{\overrightarrow{J}_U = -k \overrightarrow{\nabla}T}
 	\end{equation}
 	
+	\noindent
+	Vediamo come usare in pratica la \ref{fourier calore}: consideriamo una parete piana indefinita \textbf{diatermica} di spessore \(s\) posta tra due ambienti a temperature \(T_1\) e \(T_2\). Andiamo ad analizzare una sezione della parete superficie \(dS\) in \(x\) attraverso la quale viene fornito il calore \(dQ_1\) alla massa \(dm\); intanto \(dm\) attraverso \(dS\) in \(x + dx\) cede il calore \(dQ_2\). Gli scambi di calore saranno quindi:
+	\[ 
+	dQ_1 = -k \left(\frac{\partial T}{\partial x}\right)_x dS dt
+	\]
+	\[ 
+	dQ_2 = -k \left(\frac{\partial T}{\partial x}\right)_{x+dx} dS dt 
+	\]
+	che tramite uno sviluppo di Taylor al primo membro
+	\[ 
+	\textcolor{gray}{f(x) = f(x_0) + f'(x)(x-x_0)}
+	\]
+	\begin{align*}
+		\left(\frac{\partial T}{\partial x}\right)_{x+dx} =& \left(\frac{\partial T}{\partial (x+dx)}\right)_{x+dx} + \left(\frac{\partial^2 T}{\partial (x + dx)^2}\right)_{x+dx}(x - x +dx) \\
+		=& \left(\frac{\partial T}{\partial x}\right)_x + \left(\frac{\partial^2 T}{\partial x^2}\right)_{x}dx
+	\end{align*}
+	
+	\[ 
+	\to dQ_2 = -k\left[\left(\frac{\partial T}{\partial x}\right)_x + \left(\frac{\partial^2 T}{\partial x^2}\right)_{x}\right]dxdSdt
+	\]
+	Complessivamente \(dm\) assorbe il calore \(dQ_1\) da sinistra e cede \(dQ_2\) a destra, per cui assorbe 
+	\[ 
+	dQ_1 - dQ_2  = k\frac{\partial^2 T}{\partial x^2}_{x}dSdx dt
+	\]
+	quindi ricordando che per variazioni infinitesime vale
+	\[ 
+	dQ = dmcdT = \rho dS dx c dT
+	\]
+	troviamo che 
+	\[ 
+	k\frac{\partial^2 T}{\partial x^2}_{x}\textcolor{red}{dSdx} dt = \rho  \textcolor{red}{dSdx} c dT
+	\]
+	ottenendo la legge che regola la variazione di temperatura in funzione del tempo e della posizione della parete (con \(T(x=0) = T_1\) e \(T(x = s) = T_2\))
+	\begin{equation}
+		\viola{\frac{\partial^2 T}{\partial x^2} = \rho \frac{c}{k} \frac{\partial T}{\partial t}}
+	\end{equation}
+	\begin{es}{A regime}
+		Arrivati alla temperatura di regime e una volta che la temperatura di ciascun punto ha raggiunto un valore stazionario \textbf{costante nel tempo} si annulla la derivata temporale e di conseguenza anche la derivata seconda spaziale:
+		\[ 
+		\frac{\partial T}{\partial t} = 0 \quad \Rightarrow \quad \frac{\partial^2 T}{\partial x^2} = 0\quad \Rightarrow \quad T(x) = \alpha + \beta x
+		\]
+		imponendo
+		\begin{align*}
+			&T(0) = T_1 = \alpha  \\
+			&T(s) = T_2 = \alpha + \beta s = T_1 + \beta s
+		\end{align*}
+		\[ 
+		\beta = \frac{T_2 - T_1}{s} 
+		\]
+		possiamo riscrivere l'andamento della temperatura come
+		\[ 
+		T(x) = T_1 - \frac{T_1 - T_2}{s}x \qquad |\overrightarrow{\nabla}T |= \frac{T_1 - T_2}{s}
+		\]
+		che mostra come la temperatura decresca linearmente partendo dal valore massimo (\(x=0\)) \(T_1\) fino al valore minimo (\(x=s\)) \(T_2\). \\
+		
+		Prima avevamo definito il il calore che flusice attraverso una superficie \(dS\) in un tempo \(dt\) come
+		\[ 
+		dQ = -k\frac{dT}{dn}dS dt
+		\]
+		dalla quale ricaviamo che, nel nostro caso, attraverso \(dS\) flusice il calore 
+		\[ 
+		Q = k\frac{T_1 - T_2}{s}St
+		\](\textcolor{red}{[!] In \textbf{regime stazionario} il calore che entra nella parete dal lato ad alta temperatura è uguale al calore che esce dal lato a assa temperatura. \textbf{C'è solo flusso di energia} e nessuna cessione alla parete [!]}).
+	\end{es}
+	
+	\paragraph{Equazione di continuità} Presa una superficie orientata \(\Sigma\) in un mezzo non in equilibrio termico di volume \(V\), in assenza di sorgenti di calore in \(V\) il calore che esce per unità di tempo da \(V\) attraverso \(\Sigma\) è uguale a meno la variazione per unità di tempo del calore contenuto in \(V\):
+	
+	\[ 
+	\int_{\Sigma} \overrightarrow{J}_U \cdot \hat{n} dS = -\frac{d}{dt}\int_V \boldsymbol{q} dV = - \int_V \frac{\partial q}{\partial t} dV
+	\]
+	ocn \(\boldsymbol{q}\) energia termica per unità di volume. \\
+	
+	\noindent
+	Se andiamo a riscriverla in forma differenziale otteniamo
+	\[ 
+	\overrightarrow{J}_U \cdot \hat{n}dS = - \frac{\partial q}{\partial t} dV
+	\]
+	portando il \(dV\) a sinistra
+	\[ 
+	\overrightarrow{J}_U \cdot \hat{n}\frac{dS}{dV} = - \frac{\partial q}{\partial t} 
+	\]
+	
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	
+	
 	\subsubsection{Convezione}
 	La connduzione termica nei fluidi è difficile da osservare perché in essi avviene un altro fenomeno di trasmissione del calore: la convezione.
 	
-	Riscaldando un fluido la parte più vicina alla sorgente di calore si scalda prima dilatandosi. Le parti di fluido più calde risentono quindi di una spinta di Archimede maggiore e tendono a spostarsi verso l'alto generando correnti ascensionali che fanno avvicinare le parti di fluido più fredde alla sorgente. \\
+	Riscaldando un fluido la parte più vicina alla sorgente di calore si scalda prima dilatandosi. Le parti di fluido più calde risentono quindi di una spinta di Archimede maggiore e tendono a spostarsi verso l'alto generando correnti ascensionali che fanno avvicinare le parti di fluido più fredde alla sorgente. 
 	
-	\noindent
-	Vediamo come usare in pratica la \ref{fourier calore}: consideriamo una parete piana indefinita \textbf{diatermica} posta tra due ambienti a temperature \(T_1\) e \(T_2\). Andiamo ad analizzare una sezione della parete superficie \(dS\) in \(x\) attraverso la quale viene fornito il calore \(dQ_1\) alla massa \(dm\); intanto \(dm\) attraverso \(dS\) in \(x + dx\) cede il calore \(dQ_2\). Gli scambi di calore saranno quindi:
-	\[ 
-	dQ_1 = -k \left(\frac{dT}{dn}\right)_x dS dt
-	\]
-	\[ 
-	dQ_2 = -k \left(\frac{dT}{dn}\right)_{x+dx} dS dt = 
-	\]
+	\subsubsection{Irraggiamento}
+	L'energia emessa sotto forma di onde elettromagnetiche in unità di tempo è descritta dalla \textbf{legge di Stefan-Boltzman} come
+	\begin{equation}\label{stefan boltzman}
+		\viola{\varepsilon = \boldsymbol{\sigma e}T^4}
+	\end{equation}
+	dove \(\boldsymbol{\sigma} = 5.67\cdot 10^{-8}\SI{}{\frac{\joule}{\second\meter^2\kelvin^4}}\) è una costante universale ed \(\boldsymbol{e}\) è l'\textbf{emissività} che varia tra \(0\) e \(1\): \(0\) per le pareti riflettenti, \(1\) per le cosiddette superfici nere. Una superficie nera assorbe tutta l'energia che incide su di essa.
 	
-	\subsubsection{Dilatazione termica di solidi e liquidi}
+	\subsubsection{Calore tra solido e fluido}
+	La trasmissione del calore tra un corpo solido a temperatura \(T\) e un fluido a temperatura \(T_0 < T\) messi a contatto tramite una superficie \(S\) è descritta dalla \textbf{legge di Newton}
+	\begin{equation}
+		\viola{Q = \boldsymbol{h}(T-T_0)St}
+	\end{equation}
+	dove \(\boldsymbol{h}\) è la \textbf{conducibilità termica esterna}
+	
+	
 	
 \end{document}
 

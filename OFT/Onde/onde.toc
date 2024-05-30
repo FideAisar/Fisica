@@ -75,5 +75,7 @@
 \contentsline {subsubsection}{Sorgenti di calore}{36}{section*.41}%
 \contentsline {subsection}{\numberline {5.5}Trasmissione del calore}{36}{subsection.5.5}%
 \contentsline {subsubsection}{Conduzione}{36}{section*.42}%
-\contentsline {subsubsection}{Convezione}{37}{section*.43}%
-\contentsline {subsubsection}{Dilatazione termica di solidi e liquidi}{37}{section*.44}%
+\contentsline {paragraph}{Equazione di continuità}{38}{section*.43}%
+\contentsline {subsubsection}{Convezione}{38}{section*.44}%
+\contentsline {subsubsection}{Irraggiamento}{39}{section*.45}%
+\contentsline {subsubsection}{Calore tra solido e fluido}{39}{section*.46}%
