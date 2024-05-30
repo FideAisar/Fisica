@@ -1529,6 +1529,419 @@ Tutte le espressioni della funzione d'onda sono:
 	\subsection{Fenomeni di superficie}
 	
 	
+	
+	
+	
+	
+	
+	
+\newpage
+\section{Termodinamica}
+\textcolor{red}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}
+
+
+\subsection{Termometria}
+Chiamiamo \textbf{sistema termodinamico} una porzione del mondo costituita da una oo più parti assimilabile a un sistema continuo macroscopicamente costituito da un numero di elementi pari a \(N_A = 6.0221 \cdot 10^{23}\). L'oggetto di studio saranno le proprietà fisiche macroscopiche e le loro varzioni, \textbf{trasformazioni} del sistema e \textbf{scambi energetici}.
+
+Quando si parlerà di \textbf{ambiente} si intenderà un insieme di una o più parti con cui il sistema termodinamico può interagire. L'ambiente quindi \textbf{contribuisce} in generale \textbf{a determinare le caratteristiche fisiche mascroscopiche del sistema}.
+
+Distinguiamo:
+\begin{enumerate}
+	\item \textbf{Sistma aperto} se avvengono scambi di energia e materia con l'ambiente;
+	\item \textbf{Sistma chiuso} se avvengono solo scambi di energia con l'ambiente;
+	\item \textbf{Sistma isolato} se non avvengono scambi con l'ambiente.
+\end{enumerate}
+
+\[ 
+\viola{\text{{L'insieme (sistema + ambiente) è detto \textbf{universo termodinamico}}}}
+\]
+\paragraph{Variabili termodinamiche}
+Al fine di descrivere il nostro sistema termodinamico viene utilizzato un numero ridotto di variabili termodinamiche, ovvero grandezze fisiche \textbf{direttamente misurabili}. Le distinguiamo in estensive ed intensive:
+
+\begin{center}
+\begin{minipage}{0.49\textwidth}
+	\begin{es}{Estensive}
+		Variabili \textit{additive} che esprimono proprità \textbf{globali} del sistema che dpendono in particolare dalle dimensioni o dall'estensione di quest'ultimo.
+		
+		\[\viola{\text{Massa}} \qquad \viola{\text{Volume}}\]
+		
+	\end{es}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+	\begin{es}{Intensive}
+	Variabili \textit{non additive} che esprimono proprità \textbf{locali} del sistema che possono variare da punto a punto.
+	
+	\[\viola{\text{Pressione}} \quad \viola{\text{Temperatura}}\quad \viola{\text{Pressione}}\]
+	
+	\end{es}
+\end{minipage}
+\end{center}
+In base al sistema termodinamico in esame saranno necessarie certe variabili termodinamiche; per esempio per descrivere lo stato di un gas ideale ne sono necessarie 3 \(pVT\) poiché legate dall'equazione di stato \( pV = nRT\) in cui due sono variabili e una dipendente dalle 2.\\
+
+\noindent
+\textbf{Osservazione}  La definizione si stato termodinamico è concettualmente diversa da stato meccanico. Uno stato meccanico presuppone la conoscenza di posizione e velocità degli \(n\) corpi interessati, lo stato termodinamico invece, data l'elevato numero di elementi \(n\) non permette ciò, anzi, ad uno stato termodinamico possono essere associti più stati meccanici.
+
+\subsubsection{Equilibrio termico}
+\textcolor{red}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}\\
+
+\noindent
+Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con rispettive temperature \(T_A\) e \(T_B\), i sistemi si dicono in \textbf{equilibrio termico} se hanno la stessa temperatura, \(T_A = T_B\)
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Temperatura}
+					La temperatura è l'indice dell'equilibrio termico tra due sistemi.
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	
+	Per portare due sistemi all'equilibrio termico bisogna porre questi in \textbf{contatto termico} tramite una parete. Se questa parete porta i due sistemi in equilibrio termico, allora prende il nome di  \textbf{parete diatermica}, se no \textbf{parete adiabatica}. \textit{Nella pratica la parete adiabatica e un caso ideale limite}. 
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Sistema adiabatico}
+					Un sistema è definito adiabatico se è circondato da pareti adiabatiche. Un sistema adiabatico non può essere messo in contatto termico con un'altro sistema o con l'ambiente. \textbf{Una parete è sempre necessaria} per evitare il contatto termico.
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	
+	\textit{In generale per il contatto termico non per forza deve entrare in gioco una parete; due solidi a contatto o due fluidi immiscibili non ne hanno bisogno; la parete è necessaria in casi come il contenimento di un gas.}
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione operativa di temperatura}
+					Per prima cosa occorre identificare un fenomeno fisico che dipenda dalla temperatura \(\theta\) e una grandezza \(X\) che lo caratterizzi. \(X\) è detta \textbf{caratteristica termometrica} e la temperatura funzione di \(X\) è detta \textbf{funzione termometrica} \(\theta(X)\).
+					
+					Il dispositivo in cui avviene il fenomeno e che fornisce il valore della caratteristica termometrica è indicato come \textbf{termometro}.
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+
+	\begin{center}
+	\begin{table}[H]
+		\begin{tabular}{@{}lll@{}}
+			 \textbf{Termometro}   & \textbf{Fenomeno}   & \textbf{Caratteristica termometrica} \(X\)     \\
+			 \textit{a liquido}  & dilatazione termica di un liquido   & lunghezza della colonna di liquido     \\
+			 \textit{a resistenza}   & variazione della resistenza elettrica  & resistenza elettrica     \\
+			 \textit{a gas a volume costante}   & variazione della pressione  & pressione  \\        
+		\end{tabular}
+	\end{table}
+	\end{center}
+	
+	
+	Nonostante i nostri termometri mostrano una variazione di temperatura lineare, la dipendenza \(\theta(X)\) non lo è (talvolta non è neanche monotona). Nella pratica i termometri vengono utilizzati in intervalli di temperatura nei quali la dipendenza può essere \textbf{approssimata con un andamento lineare} \\
+	\[\theta(X) = aX \qquad a \text{ costante}\]\\
+	E' essenziale che il sistema di cui noi andiamo a misurare la temperatura sia riproducibile con facilità, per questo si definisce un \textbf{punto fisso}, un valore arbitrario associato al sistema in condizioni di equilibrio facilmente riproducibili. Il punto fisso campione scelto è il \textbf{punto triplo dell'acqua}: stato in cui ghiaccio e acqua e vapor d'acqua saturo sono in equilibrio; a questo stato è stata assegnata la temperatura arbitraria di 
+	\[ 
+	T_{pt} = \SI{273.16}{\kelvin}
+	\]
+	Da questa possiamo ricavare la \textbf{temperatura empirica} di un termometro:
+	\begin{enumerate}
+	\item Si tara il termometro mettendolo in contatto termico con una cella al punto triplo dell'acqua; il termometro, raggiunto l'equilibrio, darà il valore \(X_{pt}\)
+	\[ 
+	\theta(X_{pt}) = aX_{pt} =  \SI{273.16}{}
+	\]
+	\item Si pone poi il termometro a contatto con il sistema a temperatura incognita; all'equilibrio il termometro fornirà il valore \(X\)
+	\[ 
+	\theta(X) = aX = \textcolor{red}{aX_{pt}}\frac{X}{X_{pt}} = \textcolor{red}{\theta(X_{pt})}\frac{X}{X_{pt}} = \textcolor{red}{273.16}\frac{X}{X_{pt}} 
+	\]\\
+	\begin{equation}\label{temperatura punto triplo}
+		\viola{\theta(X) = T  = 273.16\frac{X}{X_{pt}} \SI{ }{[\kelvin]} }
+	\end{equation}
+	\\
+	
+	\noindent
+	Da cui troviamo anche che la costante \(a\) vale \(a = 273.16/X_{pt}\).
+	
+	Termometri diversi forniscono sempre letture diverse qando in equilibrio termico con lo stesso stato di un sistema anche se tarati per costruzione al punto triplo dell'acqua (\textit{mio guess: cambierà il tipo di andamento, forse non più lineare}).
+	
+\end{enumerate}
+	\subsubsection{Termometro a gas}
+	\begin{center}
+		\begin{minipage}{0.49\textwidth}
+			\begin{center}
+				\textcolor{red}{inserire grafici}
+			\end{center}
+		\end{minipage}
+		\begin{minipage}{0.49\textwidth}
+			\begin{center}
+				\textcolor{red}{inserire grafici}
+			\end{center}
+		\end{minipage}
+	\end{center}
+	Si usa come caratteristica termometrica la pressione:
+	
+	come prima si misurerà la pressione al punto triplo
+	\[ 
+	T_{pt} = Cp_{pt}
+	\]
+	dalla quale ricaviamo la temperatura (\textcolor{red}{[!] non è una definizione accurata [!]})
+	\[ 
+	T = T_{pt}\frac{p}{p_{pt}} = 273.16\frac{p}{p_{pt}}\SI{}{\kelvin}
+	\]
+	Come si può vedere dal grafico diminuendo la pressione nel bulbo le temperature dei gas tendono ad assumere valori uguali. Quindi posso dire che la \textbf{pressione} è una \textbf{buona caratteristica temometrica} solo quando è \textbf{bassa}. Quindi il termometro a gas è un buono strumento solo quando il gas è in \textbf{condizioni ideali}.
+	
+	\[ 
+	T = T_{pt}\frac{p}{p_{pt}} = \left(\SI{273.16}{\kelvin}\right)\lim_{p\to 0}\left(\frac{p}{p_{pt}}\right)
+	\]
+	
+	\subsubsection{Dilatazione termica}
+	Il volume di un corpo, a pressione costante, aumenta al crescere della temperatura. Presa una sbarra di lunghezza \(L\) a temperatura \(T\) dopo una variazione di temperatura \(\Delta T\) si ha
+	\[ 
+	L +\Delta L = L + \alpha L\Delta T
+	\]
+	\[ 
+	\viola{\frac{\Delta L}{L} = \alpha \Delta T}
+	\]
+	con \(\alpha\) coefficiente di dilatazione lineare medio della sostanza. Nel caso di un oggetto isotropo, per la dilatazine volumica si ha
+	\[ 
+	V + \Delta V = \left(L_1L_2L_3\right) + \left(\alpha L_1 \Delta T\right)\left(\alpha L_2 \Delta T\right)\left(\alpha L_3 \Delta T\right) = V + V(\alpha \Delta T)^3 \approx V + V(3\alpha \Delta T)
+	\]
+	\[ 
+	\viola{\frac{\Delta V}{V} = 3\alpha \Delta T}
+	\]
+	
+	
+	\subsection{Esperimenti di Joule}
+	Joule condusse una serie di esperimenti sugli\textbf{ effetti termici del lavoro meccanico} (attraverso un mulinello, una resistenza, un pistone, dei blocchi strofinati). Nelle varie esperienza il sistema costituito dall'acqua e dal dispositivo meccanico o elettrico è racchiuso entro \textbf{pareti adiabatiche}. Il risultato ottenuto è che 
+	
+	\begin{center}
+		il \textbf{lavoro}  speso a parità di massa d'acqua è sempre \textbf{proporzionale alla variazione di temperatura} dell'acqua con la stessa costante di proporzionalità.
+		\[ 
+		W_{ad} = C\Delta T
+		\]
+	\end{center}
+	In analogi acon la definizione di energia potenziale per le forze conservative, introduciamo il concetto di \textbf{energia interna}, energia che dipende solo dallo stato del sistema (cioè dalle sue coordinate termodinamiche):
+	\[ 
+	W_{ad} = -\Delta U 
+	\]
+	\begin{es}{convenzione}
+		Se il sistema \textbf{fornisce lavoro all'esterno} il lavoro è assunto \textbf{positivo}, se il sistema \textbf{riceve lavoro} dall'ambiente allora il lavoro è assunto \textbf{negativo}.
+	\end{es}
+	Lo stesso incremento di temperatura è ottenibile senza compiere lavoro meccanico mediante uno \textbf{scambio di calore}, per esempio immergendo un corpo più caldo. Possiamo ottenere lo stesso cambiamento dello stato termodinamico dell'acqua, segnalato dalla stessa variazaione di temparatura per il quale il sistema va ad aumentare la sua energia interna secondo
+	\[ 
+	Q = \Delta U
+	\]
+	dove \(Q\) rappresenta il calore scambiato senza lavoro esterno. Da questa otteniamo che 
+	\[ 
+	Q = \Delta U = -W
+	\]
+	\begin{equation}\label{Mayer}
+		Q = -W_{ad}
+	\end{equation}
+	Esiste quindi un particolare scambio di energia che non comporta movimenti macroscopici al quale si dà il nome di \textbf{scambio di calore}.
+	
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Primo principio della termodinamica}
+					Se il sistema compie una trasformazione da uno stato A ad uno stato B, scambiando \textbf{calore} e \textbf{lavoro} con l'ambiente, \(Q\) e \(W\) \textbf{dipendono dalla particolare trasformazione} che congiunge i due stati termodinamici mentre \textbf{la differenza \(Q-W\) risulta indipendente} dalla trasformazione.\\
+					
+					Si può quindi scrivere che la differenza di energia interna 
+					\[ 
+					U_B - U_A = \Delta U 
+					\]
+					è uguale alla differenza \(Q-W\):
+					\begin{equation}\label{primoprincipio}
+						\Delta U = Q -W
+					\end{equation}
+				\end{redes}
+		\end{minipage}}
+	\end{center}
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	
+	\subsubsection{Energia interna}
+	Esiste quindi una funzione di stato \textbf{energia interna} le cui variazioni misurano gli scambi di energia con l'esterno durante una trasformazione. Quando si fornisce energia a un sistema questa resta immagazzinata sotto forma di energia interna e può essere poi riutilizzata.
+	
+	Da notare che l'energia interna non indica l'energia cinetica del sistema, o la sua energia potenziale, bensì energià legata a \textbf{proprietà interne del sistema} come moto molecolare o forze intermolecolari, infatti lo scambio di quest'energia  può avvenire non solo tramite lavoro, ma anche sotto forma di \textbf{scambio di calore}, riconducibile a fenomeni meccanici microscopici.\\
+	
+	\noindent
+	Spesso è utile considerare trasformazioni con variazioni infinitesime del tipo
+	\[ 
+	dQ = dU + dW
+	\]
+	dove però \(\boldsymbol{dU}\) è un \textbf{differenziale esatto} perché come abbiamo detto prima la differenza di energia interna è indipendente dalla trasformazione, e \(\boldsymbol{dQ}\) e \(\boldsymbol{dW}\) non sono differenziali esatti poiché questi dipendono da \textit{come si è svolta la trasformazione} e quindi non posso essere espressi come differenza dei valori di una funzione di stato.
+	
+	\subsection{Trasformazioni termodinamiche}
+	I valori di calore e lavoro \(Q\) e \(W\) possono essere calcolati direttamente solo in casi specifici se si conoscono le loro espressioni analitiche dal momento che cambiano con la trasformazione.  Se conosciamo le espressioni di \(\Delta U,Q,W\) in funzione delle coordiante termodinamiche 
+	\[ 
+	\Delta U = Q -W
+	\]
+	diventa un'eqwuazione che lega le coordinate termodinamiche durante la trasformazione, quindi diventa \textbf{l'equazione della trasformazione}.\\
+	
+	\noindent
+	Prima di distinguere tre tipi di trasformazioni facciamo qualche osservazione.
+	\begin{es}{1. corpi a contatto}
+		Prendiamo due corpi a temperature \(T_1\) e \(T_2\) i poniamoli in contatto termico in un contenitore adiabatico. Tra di essi avviene uno scambio di calore fino a che raggiungono l'equilibrio termico. Durante il processo c'è sempre una differenza di temperatura finita, quindi durante la trasformazione \textbf{non c'è mai equilibrio termico}.
+	\end{es}
+	\begin{es}{2. attrito}
+		Preso un cormpo con velocità inizial \(v\) frenato da una forza d'attrito. L'energia cinetica diminuisce e contemporaneamente la temperatura delle superfici a contatto, del corpo e del piano, aumenta. Anche se assumessimo che questo processo avvenga in un tempo molto breve così da poter essere pensato adiabatico, alla fine i corpi cederebbero calore all'ambiente raggiungendo l'equilibrio termico. \\
+		
+		Quindi nella prima fase non c'è equilibrio meccanico: \(W = -\Delta U = \Delta E_k\), l'energia cinetica decresce quindi l'energia interna cresce. Nella seconda fase invece non c'è equilibrio termico: \(\Delta U = Q\) dove \(Q\) è ceduto all'ambiente quindi \(U\) decresce. Durante il processo quindi \textbf{tutti gli stati intermedi sono di non equilibrio}.
+	\end{es}
+	
+	
+	\begin{enumerate}
+		\item \textbf{Trasformazioni adiabatiche}: una qualsiasi trasformazione in cui \(Q = 0\) (si ottiene per trasformazioni veloci) e quindi \(\Delta U = - W\). Il sistema non scambia calore con l'ambiente, ossia è \textbf{isolato termicamente}. Sperimentalmente si ottengono le condizioni adiabatiche chiudendo il sistema in un contenitore con pareti adiabatiche. Proprio per questo isolamento il sistema \textbf{non può raggiungere l'equilibrio termico}.
+		\item \textbf{Trasformazioni reversibili}: avvengono attraverso stati di eqwuilibrio e in assenza di qualsiasi forza dissipativa. Sono utili perché possono essere arrestate in qualunque stato intermedio e se ne può invertire il verso variando di poco le condizioni esterne.
+		\item \textbf{Trasformazioni irreversibili}: avvengono attraverso stati di non equilibrio e/o in presenza di forze dissipative.
+	\end{enumerate}
+	
+	\begin{es}{3. equilibrio}
+		Prendiamo una vasca d'acqua con all'interno un contenitore di gas. Le pareti del contenitore sono diatermiche quindi il gas è in equilibrio termico a temperatura costante \(T\). Si può espandere lentamente il contenitore muovendo una parete con una forza che sia sempre uguale e contraria a quella di pressione così da ottenere anche l'equilibrio meccanico. \\
+		
+		In questo caso tutti gli stati intermedi si possono considerare di equilibrio. Ciò può avvenire solo se si opera una trasformazione \textbf{quasi-statica}, ovvero: prima di procedere a una trasformazione infinitesima di stato si attende il ristabilirsi dell'equilibrio nella nuova condizione.
+		(\textcolor{red}{[!] La lentezza delle trasformazioni è condizione solo necessaria e non sufficiente. Vediamo come nel caso 1 si otterrebbero sempre stati intermedi di non equilibrio [!]})
+	\end{es}
+	
+	
+	\subsection{Calorimetria}
+	Abbiamo visto dal primo teorema della termodinamiche che lo scambio di calore \(Q\) comporta una variazione di energia interna \(\Delta U\) e uno scambio di lavoro \(W\) secondo la legge
+	\[ 
+	\Delta U = Q -W
+	\]
+	Per semplicità andremo a studiare scambi di calore tra corpi solidi o liquidi andando a trascurare eventuali dilatazioni e di conseguenza il lavoro meccanico. \\
+	
+	\noindent
+	In un contenitore adiabatico poniamo due corpi a temperature \(T_1\) e \(T_2\) a contatto  in modo che cedano calore \(Q\) fino ad arrivare all'equilibrio termico \(T_e\). Ognuno dei due corpi avrà una variazione della temperatura \(T_{e} - T_i\). 
+	Il sistema non scambia lavoro o calore con l'ambiente pertanto l'energia interna resta costante. Andando ad analizzare le energie interne ai due corpi, dovendo essere \(\Delta U = \Delta U_1 + \Delta U_2 = 0\) abbiamo \(\Delta U_1 = -\Delta U_2\); inoltre poiché non è stato compiuto un lavoro meccanico varrà \(Q_1 = -Q_2\): \textbf{il calore ceduto dal corpo è uguale in modulo a quello assorbito dall'acqua}.
+	
+	
+	Dalle misure si trova che esiste (nel limite di piccole variazioni di temperatura) \textbf{proporzionalità} tra il \textbf{calore scambiato} da un corpo, la \textbf{massa} del corpo stesso e la \textbf{variazione di temperatura}:
+	\[ 
+	Q = m \textcolor{red}{c}(T_f - T_i)
+	\]
+	dove \(\textcolor{red}{c}\) è il calore specifico caratteristico del corpo (osserviamo che il calore \(Q\) è una grandezza estensiva mentre il calore specivico \(c\) intensiva).
+	
+	Poiché deve valere \(Q_1 = -Q_2\) vale
+	\[ 
+	m_1 c_1(T_e - T_1) = -m_2 c_2(T_e - T_2)
+	\]
+	dalla quale note 3 su 4 variabili si può ricavare la quarta. Nel caso in cui non si possa assumere che il calore specifico sia praticamente costante bisogna scrivere
+	\begin{equation}
+		\viola{Q = \int dQ = m \int_{T_i}^{T_{f}}c(T)dT}
+	\end{equation}
+	
+	
+	\subsubsection{Calore specifico}
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Calore specifico}
+					Il calore specifico rappresenta il calore che occorre per scambiare con l'unità di massa di una data sostanza a temperatura \(T\) per farne variare la temperatura di \(\SI{1}{\kelvin}\).
+					
+					Il calore specifico è una grandezza intensiva caratteristica della sostanza.
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Capacità termica}
+					La capacità termica rappresenta il \textbf{calore da scambiare}  per farne variare la temperatura di \(\SI{1}{\kelvin}\).
+					\[ 
+					C = mc
+					\]
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	Per variazioni infinitesime
+	\[ 
+	dQ  =mc dT \quad \to \quad c = \frac{1}{m}\frac{dQ}{dT}
+	\]
+	Spesso si preferisce far riferimento al calore scambiato daun certo numero di moli di sostanza, pertanto si definisce   anche il \textbf{calore specifico molare}
+	\[ 
+	c = \frac{1}{n}\frac{dQ}{dT}
+	\]
+	\begin{es}{precisazioni}
+	 E' però necessaria una precisaziione riguardo le definizioni di calore specifico. Quando la trasformazione avviene in assenza di lavoro scambiato con l'ambiente \(dW = 0\) e \(dQ = dU\) prt cui
+	 \begin{equation}
+	 	c  = \frac{1}{m}\frac{dU}{dT} \qquad c  = \frac{1}{n}\frac{dU}{dT}
+	 \end{equation}
+	 equazioni che valgono solo quando il lavoro è nullo. Se però è compiuto lavoro esterno il calore scambiato dipende dalla trasformazione e è possibile definire diversi calori specifici per una stessa sostanza.
+	\end{es}
+	\subsubsection{Misura del calore specifico}
+	Si può effettuare la amisura del calore specifiico di un corpo tramite il \textbf{calorimetro di Regnault}. In un contenitore adiabatico si ha un recipiente pieno d'acqua a temperatura \(T_2\) con immerso un termometro e un agitatore. Si immerge quindi un corpo a temperatura \(T_1 > T_2\) e di calore specifico incognito \(c_x\). Raggiunto l'equilibrio a temperatura \(T_e\) il bilancio dei calori scambiati in modulo sarà
+	\[ 
+	m_xc_x(T_1 - T_e) = (C_1 + C_2)(T_e - T_2)
+	\]
+	dove il primo termine è il calore ceduto dal corpo e il secondo il calore assorbito dal calorimetro.
+	\[ 
+	c_x = \frac{(C_1 + C_2)(T_e - T_2)}{m_x(T_1 - T_e)}
+	\]
+	Naturalmente la misura non potrà essere più precida dell'1\% in quanto è impossibile ottenere un perfetto isolamento termico, inoltre la capacità termica del termometro deve essere adeguatamente piccola  in modo da minimizzare lo scambio di calore tra corpo e termometro.
+	
+	
+	\begin{center}
+		\textcolor{red}{temp di Debye e legge di Dulong-Petit}
+	\end{center}
+	
+	\subsubsection{Processi isotermi: cambiamenti di fase}
+	Si osserva che i cambiamenti di fase sono accompagnati da scambi di calore, più precisamente si tratta di quantità di calore \(\boldsymbol{\lambda}\) ben definite dette  \textbf{calori latenti}. Il calore richiesto per il cambiamento di fase da un corpo di massa \(m\) è 
+	\begin{equation}\label{calorelatente}
+	\viola{	Q = m\lambda}
+	\end{equation}
+	La caratteristica importante dei cambiamenti di fase è di essere trasformazioni \textbf{praticamente reversibili}.
+	(\textcolor{red}{[!] Il calore latente non ha un valore fisso. Per esempio nel caso dell'evaporazione è funzione della temperatura[!]}).
+	
+	\subsubsection{Sorgenti di calore}
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Sorgente di calore}
+					Si definisce \textbf{sorgente di calore} un corpo con capacità termica praticamente infinita e quindi con la proprietà di poter scambiare calore restando a temperatura costante
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	Grandi masse d'acqua o aria possono essere considerate sorgenti di calore; corpi meno massivi lo possono essere per tempi molto brevi.\\
+	
+	\noindent
+	Proprio per la loro caratteristica di rimanere a temperatura costante, se un corpo è messo a contatto con una sorgente e la differenza di temperatura è finita, \textbf{non può esserci equilibrio termico} durante lo scambio. Può esserci l'equilibrio solo se si mantiene il corpo a contatto con la sorgente abbastanza a lungo (oppure se la differenza di temperatura durante lo scambio è infinitesima).
+	
+	
+	\subsection{Trasmissione del calore}
+	
+	\subsubsection{Conduzione}
+	Prendiamo un corpo esteso in cui la temperatura non sia uniforme e tracciamo le \textbf{superfici isoterme} dove la funzione \(T(x,y,z) = \text{cost}\), diciamo che la superficie \(S_1\) ha temperatura \(T_1\) e così via. 
+	
+	Se \(dS\) è un elemento della superficie isoterma, il calore che fluisce attraverso \(dS\) nel tempo \(dt\) è 
+	\begin{equation}\label{fourier calore}
+		\viola{dQ = -\boldsymbol{k} \frac{dT}{dn}dS dt}
+	\end{equation}
+	\(\boldsymbol{k}\) è la \textbf{conduttività termica} del materiale e dipende dal materiale e dalla temperatura (dipendenza marcata nei metalli dove \(k\) cresce al decrescere della temperatura). Invece essendo \(\frac{dT}{dn}\) il \textbf{gradiente di temperatura} ortogonale a \(dS\) diretto verso temperature crescenti, il \(\boldsymbol{-}\) davanti a tutto indica che il flusso di calore è opposto al verso del gradiente di temperatura:\\
+	
+	\noindent
+	definiamo \(J_U\) il \textbf{flusso di calore per unità di superficie} 
+	\[ 
+	J_U \equiv \frac{\Delta Q}{\Delta S \Delta t} = - k \frac{dT}{dn}
+	\]
+	che in forma vettoriale si può scrivere
+	\begin{equation}
+		\viola{\overrightarrow{J}_U = -k \overrightarrow{\nabla}T}
+	\end{equation}
+	
+	\subsubsection{Convezione}
+	La connduzione termica nei fluidi è difficile da osservare perché in essi avviene un altro fenomeno di trasmissione del calore: la convezione.
+	
+	Riscaldando un fluido la parte più vicina alla sorgente di calore si scalda prima dilatandosi. Le parti di fluido più calde risentono quindi di una spinta di Archimede maggiore e tendono a spostarsi verso l'alto generando correnti ascensionali che fanno avvicinare le parti di fluido più fredde alla sorgente. \\
+	
+	\noindent
+	Vediamo come usare in pratica la \ref{fourier calore}: consideriamo una parete piana indefinita \textbf{diatermica} posta tra due ambienti a temperature \(T_1\) e \(T_2\). Andiamo ad analizzare una sezione della parete superficie \(dS\) in \(x\) attraverso la quale viene fornito il calore \(dQ_1\) alla massa \(dm\); intanto \(dm\) attraverso \(dS\) in \(x + dx\) cede il calore \(dQ_2\). Gli scambi di calore saranno quindi:
+	\[ 
+	dQ_1 = -k \left(\frac{dT}{dn}\right)_x dS dt
+	\]
+	\[ 
+	dQ_2 = -k \left(\frac{dT}{dn}\right)_{x+dx} dS dt = 
+	\]
+	
+	\subsubsection{Dilatazione termica di solidi e liquidi}
+	
 \end{document}
 
 
