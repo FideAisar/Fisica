@@ -79,3 +79,14 @@
 \contentsline {subsubsection}{Convezione}{38}{section*.44}%
 \contentsline {subsubsection}{Irraggiamento}{39}{section*.45}%
 \contentsline {subsubsection}{Calore tra solido e fluido}{39}{section*.46}%
+\contentsline {subsection}{\numberline {5.6}Gas ideali e reali}{39}{subsection.5.6}%
+\contentsline {subsubsection}{Legge isoterma di Boyle}{39}{section*.47}%
+\contentsline {subsubsection}{Legge isocora di Volta-Gay Lussac}{39}{section*.48}%
+\contentsline {subsubsection}{Legge di Avogadro}{39}{section*.49}%
+\contentsline {subsection}{\numberline {5.7}Trasformazioni di un gas}{39}{subsection.5.7}%
+\contentsline {subsubsection}{Calore e energia interna del gas ideale}{39}{section*.50}%
+\contentsline {subsubsection}{Relazione di Mayer}{39}{section*.51}%
+\contentsline {subsubsection}{Trasformazioni adiabatiche}{39}{section*.52}%
+\contentsline {subsubsection}{Trasformazioni isoterme}{39}{section*.53}%
+\contentsline {subsubsection}{Trasformazioni isocore}{39}{section*.54}%
+\contentsline {subsubsection}{Trasformazioni isobare}{39}{section*.55}%
