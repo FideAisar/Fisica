@@ -52,41 +52,42 @@
 \contentsline {subsubsection}{Equilibrio in presenza di forza peso}{28}{section*.28}%
 \contentsline {subsection}{\numberline {4.2}Principio di Archimede}{29}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Liquido in rotazione}{29}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Moto di un fluido}{29}{subsection.4.4}%
-\contentsline {subsubsection}{Teorema di Bernoulli}{29}{section*.29}%
-\contentsline {subsubsection}{Moto laminare}{29}{section*.30}%
-\contentsline {subsubsection}{Moto turbolento}{29}{section*.31}%
-\contentsline {subsection}{\numberline {4.5}Portanza}{29}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Fenomeni di superficie}{29}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Termodinamica}{30}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Termometria}{30}{subsection.5.1}%
-\contentsline {paragraph}{Variabili termodinamiche}{30}{section*.32}%
-\contentsline {subsubsection}{Equilibrio termico}{30}{section*.33}%
-\contentsline {subsubsection}{Termometro a gas}{32}{section*.34}%
-\contentsline {subsubsection}{Dilatazione termica}{32}{section*.35}%
-\contentsline {subsection}{\numberline {5.2}Esperimenti di Joule}{32}{subsection.5.2}%
-\contentsline {subsubsection}{Primo principio della termodinamica}{33}{section*.36}%
-\contentsline {subsubsection}{Energia interna}{33}{section*.37}%
-\contentsline {subsection}{\numberline {5.3}Trasformazioni termodinamiche}{34}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Calorimetria}{34}{subsection.5.4}%
-\contentsline {subsubsection}{Calore specifico}{35}{section*.38}%
-\contentsline {subsubsection}{Misura del calore specifico}{36}{section*.39}%
-\contentsline {subsubsection}{Processi isotermi: cambiamenti di fase}{36}{section*.40}%
-\contentsline {subsubsection}{Sorgenti di calore}{36}{section*.41}%
-\contentsline {subsection}{\numberline {5.5}Trasmissione del calore}{36}{subsection.5.5}%
-\contentsline {subsubsection}{Conduzione}{36}{section*.42}%
-\contentsline {paragraph}{Equazione di continuità}{38}{section*.43}%
-\contentsline {subsubsection}{Convezione}{38}{section*.44}%
-\contentsline {subsubsection}{Irraggiamento}{39}{section*.45}%
-\contentsline {subsubsection}{Calore tra solido e fluido}{39}{section*.46}%
-\contentsline {subsection}{\numberline {5.6}Gas ideali e reali}{39}{subsection.5.6}%
-\contentsline {subsubsection}{Legge isoterma di Boyle}{39}{section*.47}%
-\contentsline {subsubsection}{Legge isocora di Volta-Gay Lussac}{39}{section*.48}%
-\contentsline {subsubsection}{Legge di Avogadro}{39}{section*.49}%
-\contentsline {subsection}{\numberline {5.7}Trasformazioni di un gas}{39}{subsection.5.7}%
-\contentsline {subsubsection}{Calore e energia interna del gas ideale}{39}{section*.50}%
-\contentsline {subsubsection}{Relazione di Mayer}{39}{section*.51}%
-\contentsline {subsubsection}{Trasformazioni adiabatiche}{39}{section*.52}%
-\contentsline {subsubsection}{Trasformazioni isoterme}{39}{section*.53}%
-\contentsline {subsubsection}{Trasformazioni isocore}{39}{section*.54}%
-\contentsline {subsubsection}{Trasformazioni isobare}{39}{section*.55}%
+\contentsline {subsection}{\numberline {4.4}Moto di un fluido}{30}{subsection.4.4}%
+\contentsline {paragraph}{Descrizioni del moto}{31}{section*.29}%
+\contentsline {paragraph}{Tubi di flusso e portata}{31}{section*.30}%
+\contentsline {subsubsection}{Teorema di Bernoulli}{31}{section*.31}%
+\contentsline {subsubsection}{Moto laminare}{32}{section*.32}%
+\contentsline {subsubsection}{Moto turbolento}{33}{section*.33}%
+\contentsline {subsubsection}{Effetto Magnus e Portanza}{34}{section*.34}%
+\contentsline {section}{\numberline {5}Termodinamica}{35}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Termometria}{35}{subsection.5.1}%
+\contentsline {paragraph}{Variabili termodinamiche}{35}{section*.35}%
+\contentsline {subsubsection}{Equilibrio termico}{35}{section*.36}%
+\contentsline {subsubsection}{Termometro a gas}{37}{section*.37}%
+\contentsline {subsubsection}{Dilatazione termica}{37}{section*.38}%
+\contentsline {subsection}{\numberline {5.2}Esperimenti di Joule}{37}{subsection.5.2}%
+\contentsline {subsubsection}{Primo principio della termodinamica}{38}{section*.39}%
+\contentsline {subsubsection}{Energia interna}{38}{section*.40}%
+\contentsline {subsection}{\numberline {5.3}Trasformazioni termodinamiche}{39}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Calorimetria}{39}{subsection.5.4}%
+\contentsline {subsubsection}{Calore specifico}{40}{section*.41}%
+\contentsline {subsubsection}{Misura del calore specifico}{41}{section*.42}%
+\contentsline {subsubsection}{Processi isotermi: cambiamenti di fase}{41}{section*.43}%
+\contentsline {subsubsection}{Sorgenti di calore}{41}{section*.44}%
+\contentsline {subsection}{\numberline {5.5}Trasmissione del calore}{41}{subsection.5.5}%
+\contentsline {subsubsection}{Conduzione}{41}{section*.45}%
+\contentsline {paragraph}{Equazione di continuità}{43}{section*.46}%
+\contentsline {subsubsection}{Convezione}{43}{section*.47}%
+\contentsline {subsubsection}{Irraggiamento}{44}{section*.48}%
+\contentsline {subsubsection}{Calore tra solido e fluido}{44}{section*.49}%
+\contentsline {subsection}{\numberline {5.6}Gas ideali e reali}{44}{subsection.5.6}%
+\contentsline {subsubsection}{Legge isoterma di Boyle}{44}{section*.50}%
+\contentsline {subsubsection}{Legge isocora di Volta-Gay Lussac}{44}{section*.51}%
+\contentsline {subsubsection}{Legge di Avogadro}{44}{section*.52}%
+\contentsline {subsection}{\numberline {5.7}Trasformazioni di un gas}{44}{subsection.5.7}%
+\contentsline {subsubsection}{Calore e energia interna del gas ideale}{44}{section*.53}%
+\contentsline {subsubsection}{Relazione di Mayer}{44}{section*.54}%
+\contentsline {subsubsection}{Trasformazioni adiabatiche}{44}{section*.55}%
+\contentsline {subsubsection}{Trasformazioni isoterme}{44}{section*.56}%
+\contentsline {subsubsection}{Trasformazioni isocore}{44}{section*.57}%
+\contentsline {subsubsection}{Trasformazioni isobare}{44}{section*.58}%
