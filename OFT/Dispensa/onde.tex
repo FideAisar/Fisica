@@ -1,4 +1,4 @@
-\documentclass[x11names]{article}
+\documentclass[x11names]{report}
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{xcolor}
@@ -7,7 +7,7 @@
 \usepackage{array}
 \usepackage[skins]{tcolorbox}
 \usepackage[version=4]{mhchem}
-\usepackage[a4paper, total={6in, 10in}]{geometry}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
 %\usepackage{fourier}
 \usepackage{xymtex}
 \usepackage{textcomp}
@@ -136,6 +136,8 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 \definecolor{yblue}{RGB}{224, 245, 255} 
 \definecolor{yred}{RGB}{234, 222, 255}
 \definecolor{yorange}{RGB}{255, 102, 0}
+\definecolor{attenzione}{RGB}{255, 108, 94}
+
 
 % box
 \newtcolorbox{es}[2][]{%
@@ -168,6 +170,15 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 		colback=yred,before upper=\strut},
 	title=#2,#1
 }
+\newtcolorbox{attenzione}[2][]{%
+	enhanced,colback=attenzione,colframe=black,coltitle=black,
+	sharp corners,boxrule=0.4pt,
+	fonttitle=\itshape,
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
+		colback=attenzione,before upper=\strut},
+	title=#2,#1
+}
 
 
 % comandi per quadrati dimostrazioni
@@ -190,6 +201,11 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 \author{Federico Cesari}
 \date{}
 
+\usepackage[pagestyles]{titlesec}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{mystyle}
 
 
 %% DOCUMENTO
@@ -200,7 +216,8 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 \input{titlepage}
 \tableofcontents
 \newpage
-	
+
+\chapter{Onde}
 \section{Onde meccaniche}
 	Se in casi come il pendolo o un corpo attaccato ad una molla l'oscillazione è \textbf{macroscopica} perché tutto il sistema oscilla, in corpi continui elastici possono prodursi moti oscillatori locali, provocati in una zona specifica del corpo. Questa oscillazione indotta localmente si \textbf{propaga nel mezzo} con una certa velocità costituendo così un'\textbf{onda}.
 	
@@ -350,9 +367,11 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	\[ 
 	dF_x = T(\cos\alpha' - \cos\alpha ) = 0 
 	\]
-	\[ 
-	 dF_y = T(\sin\alpha' - \sin\alpha ) = T(\tan\alpha' - \tan\alpha ) = T\left[S(x+dx,t) - S(x)\right] = TdS = T\frac{\partial S}{\partial x}dx = T\frac{\partial}{\partial x}\left(\frac{\partial \xi}{\partial x}\right)dx = T\frac{\partial^2 \xi}{\partial x^2}dx
-	\]
+	\begin{align*}
+		dF_y = T(\sin\alpha' - \sin\alpha ) =& T(\tan\alpha' - \tan\alpha )\\
+		=& T\left[S(x+dx,t) - S(x)\right] = TdS = T\frac{\partial S}{\partial x}dx \\
+		=& T\frac{\partial}{\partial x}\left(\frac{\partial \xi}{\partial x}\right)dx =  T\frac{\partial^2 \xi}{\partial x^2}dx\\
+	\end{align*}
 	
 	\[ 
 	\textbf{Risultante} \qquad	dF =  T\frac{\partial^2 \xi}{\partial x^2}dx  \mathbf{= dm a} = dm \frac{\partial^2 \xi}{\partial t^2} 
@@ -659,7 +678,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\viola{\mathcal{P}_m = \mathcal{W} v}
 	\end{equation}
 
-	\subsection{Onde sonore}\label{Onde Sonore}
+	\section{Onde sonore}\label{Onde Sonore}
 	Consideriamo ora delle onde sonore come onde di spostamento sempre accompagnate da onde di pressione:
 	\[ 
 	\textbf{Spostamento: }\quad \xi = \xi _0\sin(kx-\omega t)
@@ -667,7 +686,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\[ 
 	\textbf{Pressione: }\quad dp = -\beta \frac{\partial\xi}{\partial x}
 	\]
-	\subsubsection{Pressione}
+	\subsection{Pressione}
 	L'espressione della pressione era stata ricavata nel capitolo sulle onde nei gas (\ref{1press})
 	\[ 
 	p(x,t) = p_0 -\beta \frac{\partial \xi }{\partial x} \quad \to \quad dp(x,t) = p(x,t) - p_0 = -\beta \frac{\partial \xi }{\partial x}
@@ -685,7 +704,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{align*}
 	Le onde di pressione sono quindi in ritardo di \(\pi /2\).
 	
-	\subsubsection{Potenza}
+	\subsection{Potenza}
 	\[ 
 	\mathcal{P} = \overrightarrow{F}\cdot \vec{v} = (dp)S v = -\beta \frac{\partial\xi}{\partial x} S \frac{\partial\xi}{\partial t}
 	\]
@@ -698,7 +717,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\[ 
 	\mathcal{P}_m = \frac{1}{2} \rho_0 v \omega ^2 S \xi_0^2
 	\]
-	\subsubsection{Intensità}
+	\subsection{Intensità}
 	Ricordando che l'intensità è la potenza per unità di superficie:
 	\[ 
 	I = \frac{\mathcal{P}_m }{S} =   \frac{1}{2} \rho_0 v \omega ^2 \xi_0^2
@@ -772,8 +791,7 @@ Tutte le espressioni della funzione d'onda sono:
 	la sensazione sonora è proporzionale al logaritmo del rapporto tra le intensità che hanno prodotto le sensazioni
 	
 	
-	\newpage
-	\subsection{Onde in più dimensioni}	
+	\section{Onde in più dimensioni}	
 	Prima di tutto definiamo \textbf{fronte d'onda} la superfici su cui in un certo istante la fase dell'onda è costante (\(\phi = kx -\omega t\)). 
 
 	Per le onde piane il fronte d'onda è un piano che si sposta con velocità \(v\) dell'onda. Per caratterizzare la direzione di propagazione dell'onda introduciamo il \textbf{vettore di propagazione} \(\vec{k}\) con \(k = 2\pi/\lambda\) e verso uguale a quello di \(\vec{v}\) e il vettore posizione \(\vec{r}\) che individua la posizione di un punto P su un certo fronte d'onda. Con queste informazioni possiamo riscrivere la funzione d'onda come
@@ -784,7 +802,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\[ 
 	\nabla^2\xi (x,y,z,t) = \frac{1}{v^2}\frac{\partial^2\xi (x,y,z,t)}{\partial t^2}
 	\]
-	\subsubsection{Onde elastiche in una membrana tesa}
+	\subsection{Onde elastiche in una membrana tesa}
 	Consideriamo una membrana piana tesa con tensione \(T\). Supponiamo di spostare leggermente la membrana dalla sua posizione di equilibrio e andiamo a studioare le tensioni che agiscono su un'area \(dxdy\). 
 	
 	Il ragionamento è uguale a quello fatto per la corda tesa, in questo caso però la tensione si distribuisce su tutto il lato \(d*\) e diventa \(T(d*)\):
@@ -817,7 +835,7 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	
 	
-	\subsubsection{Onde sferiche}
+	\subsection{Onde sferiche}
 	Se il mezzo è \textit{isotropo} è quindi la velocità di propagazione è uguale in tutte le direzioni, la funzoine d'\textbf{onda sferica armonica} è \(\xi(r,t) = A(r)\sin\left(kr -\omega t\right)\) dove \(r\) è la distanza dalla sorgfente e \(A(r)\) è l'ampiezza funzione di \(r\). \\
 	
 
@@ -856,7 +874,7 @@ Tutte le espressioni della funzione d'onda sono:
 	I(r) = \frac{\mathcal{P}_m}{S} = \frac{1}{2} \rho_0 v \omega ^2 \frac{\xi_0^2}{r^2}
 	\]
 	
-	\subsection{Onde cilindriche}
+	\section{Onde cilindriche}
 	
 
 
@@ -897,7 +915,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\]
 	
 	\newpage
-	\subsection{Pacchetti d'onde}
+	\section{Pacchetti d'onde}
 	Fino ad ora abbiamo considerato onde armoniche di lunghezza e durata infinita. Tutte le sorgenti emettono onde attraverso processi di durata finita, quindi, nella realtà, un'onda ha una propria durata e estensione spaziale.\\
 	
 	\noindent
@@ -930,7 +948,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\]
 	Da quest'ultime espressioni notiamo che al crescere di \(\Delta x\) e \(\Delta t\) minori risultano queste bande, infatti la limite per \(\Delta x,\Delta t \to \infty\) troviamo l'onda armonica. Se andiamo a considerare \textbf{brevi durate e piccole lunghezze} nel pacchetto sono contenute bande di lunghezze d'onda e frequenze distribuite significatibamente nell'intorno di \(\lambda\) \(f\).
 	
-		\subsubsection{Velocità di fase e velocità di gruppo}
+		\subsection{Velocità di fase e velocità di gruppo}
 		Poiché diversi segmenti d'onda contenuti in un pacchetto possono avere frequenze diverse, la velocità del pacchetto non può essere identificata con quella delle componenti. Tuttavia è essenziale identificare la velocità del pacchetto perché il fenomeno fisico è rappresentato proprio dal pacchetto ed è la sua velocità quella con cui si propaga l'\textbf{energia} dell'onda.     
 		
 		Andiamo quindi a distinguere la \textbf{velocità di fase}, quella con cui si muovono le singole componenti dell'onda, e \textbf{velocità di gruppo}. 
@@ -998,7 +1016,7 @@ Tutte le espressioni della funzione d'onda sono:
 		
 		E' bene capire che la struttura del pacchetto in generale si modifica durante la propagazione e proprio per questo la velocità di fase (delle singole componenti) varia in funzione di \(k\) così come la velocità di gruppo
 	\newpage
-	\subsection{Effetto Doppler}
+	\section{Effetto Doppler}
 	Se una sorgente di onde \(\boldsymbol{S}\) e un rivelatore di onde \(\boldsymbol{R}\) sono n moto reciproco la frequenza percepita dal rivelatore è in generale diversa dalla frequenza propira della sorgenre. Questo fenomeno prende il nome di effetto Doppler e si osserva per tutti i tipi di onde.
 	
 	Prendiamo in esame una sorgente che emette un qualsiasi tipo di onde armoniche sferiche di velocità \(v\), chiamiamo \textbf{fronte d'onda} la superficie sferica su cui la fase è costante e facciamo coincidere il fronte d'onda con una cresta. La cresta successiva a quella fissata sul fronte d'onda si trova a distanza spaziale \(\lambda\) e temporale \(T\) con differenza di fase \(2\pi \). In un tempo \(\Delta t\) l'onda avanza di uno spazio \(v\Delta t\) e il rivelatore viene attraversato da tanti fronti contenuti nello spazio \(v\Delta t\): 
@@ -1011,7 +1029,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\]
 	In questa condizione la frequenza percepita dal rivelatore è la frequenza propria della sorgente.
 	
-	\subsubsection{Sorgente in moto}
+	\subsection{Sorgente in moto}
 	Supponiamo che la sorgente si stia muovendo con velocità \(\boldsymbol{v_S} < v\) verso il rivelatore. Ogni intervallo \(T_0\) la sorgente percorre un tratto \(v_ST_0\) sicuramente minore di \(\lambda\) (\(v_S < v \to v_ST_0 < \lambda_0= vT\)). Si ha quindi che la distanza tra due fronti d'onda consecutivi è
 	\[ 
 	\lambda_R = \lambda_0 - v_ST
@@ -1035,7 +1053,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\label{fig:fasdkllfas}
 	\end{figure}
 	
-	\subsubsection{Rivelatore in moto}
+	\subsection{Rivelatore in moto}
 	Diciamo che il rivelatore si stia muovento con velocità \(v_R\). In questo caso i fronti d'onda non variano la loro densità, tuttavia il rivelatore ne percepirà comunque di più o di meno (in base se si sta avvicinando o allontanando) a causa del suo moto. I fronti d'onda che investono il rivelatore sono
 	\[ 
 	N = \frac{\text{spazio percorso}}{\lambda_0} = \frac{(v - v_R)\Delta t}{\lambda_0}
@@ -1049,7 +1067,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{equation}
 	Come possiamo vedere dalle espressioni di \(f_R\) ottenute non sono simmetriche: seppur è il \textbf{moto relativo} quello che conta, non è lo stesso se la sorgente si muove o è il rivelatore a farlo.
 	
-		\subsubsection{Espressione generale}
+		\subsection{Espressione generale}
 	Le espressioni trovate nei due casi possono essere riassunte in un'unica formula. Diciamo quindi di avere sia una \(v_S\) sia una \(v_R\). La distanza tra i fronti d'onda è influenzata solo dalla velocità della sorgente e vale
 	\[ 
 	\lambda_R = \lambda_0 - v_ST_0 = = vT_0 - v_ST_0 = \frac{v - v_s}{f_0}
@@ -1067,7 +1085,7 @@ Tutte le espressioni della funzione d'onda sono:
 		  \viola{\boxed{f_R = \frac{v - v_R}{v-v_S}f_0}}
 	\end{equation}
 
-	\subsection{Onda d'urto}
+	\section{Onda d'urto}
 	Quando la sorgente si muove a velocità superiori a quella di propagazione dell'onda (\(v_S > v\)), i fronti d'onda di quest'ultima ammettono un \textbf{inviluppo} rappresentato da due rette convergenti. L'inviluppo rappresenta \textbf{il luogo di punti di egual fase} e costituisce il  \textbf{nuovo fronte d'onda} che prende il nome di \textbf{onda d'urto}. Possiamo trovare gli angoli che descrivono le due rette tramite semplici calcoli trigonometrici: 
 	\begin{center}
 		\textcolor{red}{inserire grafici}
@@ -1087,7 +1105,7 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	
 	\newpage
-	\subsection{Interferenza}	
+	\section{Interferenza}	
 	Prima di tutto diamo una definizione di sorgenti coerenti e incoerenti:
 	\begin{center}
 		\fboxsep11pt
@@ -1099,7 +1117,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{center}
 	Quando due o più sorgenti coerenti emettono onde con \textbf{stessa pulsazione} \(\omega\) e queste onde si sovrappongono avviene il fenomeno dell'\textbf{interferenza}. Si verificano interferenze in ogni tipo di onde, si ha infatti una trattazione analitica indipendente dalla natura di esse.
 	
-		\subsubsection{Interferenza con stessa ampiezza}
+		\subsection{Interferenza con stessa ampiezza}
 		Studiamo il caso unidimensionale di due onde piane coerenti con \textbf{medesima frequenza \(f\) e ampiezza \(\omega\)} che si propagano lungo la stessa direzione \(x\). Consideriamo un punto \(P\) distante \(x_1\) dalla primas sorgente e  \(x_2\) dalla seconda. In \(P\) si avranno le seguenti espressioni delle due onde:
 		\[ 
 		\xi_1 = A_0\cos\left(kx_1 -\omega t + \phi_1\right) = A_0\cos\left(\omega t - kx_1 - \phi_1\right)
@@ -1150,7 +1168,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\end{equation} \\
 		
 		\begin{es}{}
-			\paragraph{Interferenza costruttiva e distruttiva}
+			\subsection{Interferenza costruttiva e distruttiva}
 			Nel caso di due onde con ampiezze uguali abbiamo l'equazione 
 			
 			\[ 
@@ -1178,7 +1196,7 @@ Tutte le espressioni della funzione d'onda sono:
 			\]
 		\end{es}
 		
-		\subsubsection{Interferenza con ampiezze diverse}
+		\subsection{Interferenza con ampiezze diverse}
 		Prendiamo in considerazine due onde \(\xi_1\) e \(\xi_2\) con ampiezze diverse. Ci è comodo rappresentare le onde in "forma vettoriale" così da poter esplicitare alcuni termini più agevolmente.
 		\[ 
 		\xi_1 = A_1 \cos\left(kx_1 - \omega t + \phi_1\right) = A_1 \cos\left(\omega t + \alpha_1\right)
@@ -1241,7 +1259,7 @@ Tutte le espressioni della funzione d'onda sono:
 		
 		
 		\begin{es}{}
-			\paragraph{Interferenza costruttiva e distruttiva}
+			\subsection{Interferenza costruttiva e distruttiva}
 			Nel caso di due onde con ampiezze diverse 
 			\begin{center}
 				\textcolor{red}{trova}
@@ -1256,7 +1274,7 @@ Tutte le espressioni della funzione d'onda sono:
 			\end{center}
 			
 		\newpage
-		\subsection{Riflessione e trasmissione}
+		\section{Riflessione e trasmissione}
 		Prendiamo in esame una corda divisa in due segmenti uniti ma con densità lineari differenti. La velocità, dipendendo da \(\mu\), sarà diversa nei due mezzi:
 		\[ 
 		v_1 = \sqrt{\frac{T}{\mu_1}} \qquad v_2 = \sqrt{\frac{T}{\mu_2}} 
@@ -1421,9 +1439,8 @@ Tutte le espressioni della funzione d'onda sono:
 	
 			
 	
-\newpage
-\section{Fluidi}
-	\subsection{Pressione}
+\chapter{Fluidodinamica}
+	\section{Pressione}
 	Poiché non possiamo parlare di forza applicata in un punto del fluido andiamo a considerare un elemento infinitesimo di massa \(dm\) e volume \(dV\) e andiamo a distinguere le forze agenti su di esso. Distinguiamo le \textbf{forze di volume}, ovvero tutte quelle forze proporzionali a \(dV\), e \textbf{forze di superficie} porporzionali a \(dS\). \textit{Nel caso delle forze di superficie è bene caratterizzarle come somma di un termine normal a S e uno parallelo; noi consideriamo il fluido in equilibrio quindi il termine parallelo è nullo.}
 	
 	\[ 
@@ -1461,7 +1478,7 @@ Tutte le espressioni della funzione d'onda sono:
 	Quindi la pressione è una \textbf{quantità scalare} e il suo valore \textbf{dipende} in generale \textbf{dalla posizione del punto} ma non dalla direzione.
 	
 	
-		\subsubsection{Equilibrio statico di un fluido}
+		\subsection{Equilibrio statico di un fluido}
 		La condizione di equilibrio è che la somma di tutte le forze di volume e di superficie si annulli
 		\[ 
 		\overrightarrow{F}_{Vtot} + \overrightarrow{F}_{Stot} = 0
@@ -1528,7 +1545,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\]
 		quindi se lungo una superficie isobarica e equipotenziale si hanno pressione ed energia potenziale costanti, anche la densità lo è. Pertanto in un fluido sottoposto a forze conservative la \textbf{variazione di densità} segue geometricamente qualla di pressione e di energia potenziale.
 		
-	\subsubsection{Lavoro della pressione}
+	\subsection{Lavoro della pressione}
 	Nel caso di equilibrio statico non ci sono spostamenti di conseguenza il lavoro è nullo. Nel caso di non equilibrio invece, considerando una situazione semplice di una forza verticale ortogonale alla superficie:
 	\[ 
 	dW = dF dh = p\textcolor{blue}{S dh }= dp \textcolor{blue}{dV }
@@ -1537,7 +1554,7 @@ Tutte le espressioni della funzione d'onda sono:
 		W = \int{pdV}
 	\end{equation}
 	
-	\subsubsection{Equilibrio in presenza di forza peso}
+	\subsection{Equilibrio in presenza di forza peso}
 	Applichiamo i risultati ottenuti precedentemente. In questo caso abbiamo come accelerazione \(a_z = -g\), quindi secondo la \ref{pressione} la pressione \textbf{varia solo lungo l'asse z}. Esplicitiamo i due gradienti così da esplicitare la \ref{gradiente pressione}:
 	\[ 
 	\boxed{\nabla p_z = \frac{d p}{d z} }\qquad \boxed{\nabla E_{p,m,z} = \frac{d E_{p,m}}{d z} = g}
@@ -1556,7 +1573,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\viola{ p(h) = p_0 -\rho g h}
 	\end{equation}
 	
-	\subsection{Principio di Archimede}
+	\section{Principio di Archimede}
 	Un corpo immerso in un fluido riceve una spinta verticale verso l'alto  pari al peso del volume di fluido spostato
 	\begin{equation}
 	\viola{	\overrightarrow{F}_A = -\rho V \vec{g}}
@@ -1619,7 +1636,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{center}
 	
 	
-	\subsection{Liquido in rotazione}
+	\section{Liquido in rotazione}
 	Andiamo a considerare un elemento \(dm\) di liquido e analiziamo le forze in gioco ponendoci nel sistema di riferimento non ineraziale del liquido rotante: 
 	\begin{enumerate}
 		\item Chiaramente la forza peso: \(\boldsymbol{dmg}\);
@@ -1718,21 +1735,27 @@ Tutte le espressioni della funzione d'onda sono:
 	z = h +\frac{\omega ^2}{2g}(x^2 +y^2)
 	\]
 	
-	\subsection{Moto  di un fluido}
+	\section{Moto  di un fluido}
 	Durante lo scorrimento tra due elementi di fluiso compare una \textbf{forza di attrito interno} con verso opposto alla velocit relativa tra i due. Sperimentalmente si trova che il modulo della forza d attrito vale 
 	\begin{equation}
 		dF = \boldsymbol{\eta} dS \frac{dv}{dn}
 	\end{equation}
 	
 	Il coefficiente \(\boldsymbol{\eta}\) indica la \textbf{viscosià del fluido}; nei liquidi decresce all'aumentare della temperatura, nei gas cresce. Chiamiamo \textbf{fluido ideale} o \textbf{non viscoso e incomprimibile} un fluido con \(\eta = 0\) e \(\rho = \) costante.
-	(\textcolor{red}{[!] Il concetto di viscosità assume importanza sono nei fluidi in movimento. La condizione di equilibrio statico  \(dv/dn = 0\) non dipende da \(\eta\)[!]}).
-	\\
 	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{attenzione}{\begin{minipage}{5.75in}
+				\begin{attenzione}{!!!}
+					Il concetto di viscosità assume importanza \textbf{solo nei fluidi in movimento}. La condizione di equilibrio statico  \(dv/dn = 0\) non dipende da \(\eta\).
+				\end{attenzione}
+		\end{minipage}}
+	\end{center}
 	
 	\noindent
 	La variazione di forma discussa prima è in parte dovuta all'attrito interno. Il contenitore si mette in modo iniziando a trascinare gli elementi di liquido sulle pareti e sul fondo; glie lementi si portano verso l'esterno fino a che non si stabilisce l'equilibrio dinamico.
 	
-	\paragraph{Descrizioni del moto}
+	\subsection{Descrizioni del moto}
 	\begin{center}
 		\begin{minipage}{0.49\textwidth}
 			\begin{es}{Lagrangiana}
@@ -1755,7 +1778,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\end{minipage}}
 	\end{center}
 	
-	\paragraph{Tubi di flusso e portata} Si tracciano delle linee orientate le cui tangenti  serovono a descrivere la direzione e la velocità in quel punto. L'insieme di tutte le linee di corrente attraverso una data sezione prende il nome di \textbf{tubo di flusso}.
+	\subsection{Tubi di flusso e portata} Si tracciano delle linee orientate le cui tangenti  serovono a descrivere la direzione e la velocità in quel punto. L'insieme di tutte le linee di corrente attraverso una data sezione prende il nome di \textbf{tubo di flusso}.
 	
 	\vspace{0.8cm}
 	\begin{center}
@@ -1832,7 +1855,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{center}
 	
 	
-		\subsubsection{Teorema di Bernoulli}
+		\subsection{Teorema di Bernoulli}
 		Prendiamo un fluido ideale che scorre in conidzioni di regime stazionario. Il volume \(dV_{1} = S_{1}d\ell_{1}\) che attraversa la sezione \(S_{1}\) nel tempo \(dt\) è uguale a quello \(dV_{2} = S_{2}d\ell_2\) che attraversa nello stesso intervallo la sezionem \(S_{2}\):
 		\[ 
 		dV_{1} = dV_{2}
@@ -1948,7 +1971,7 @@ Tutte le espressioni della funzione d'onda sono:
 		\end{center}
 		Notare che dalla legge della dinamica appena presentata, si ricavano tutte le leggi della statica precedenti: \textbf{la statica è sempre un caso particolare della dinamica}. Inoltre si rileva che la pressione misurata in un fluido in movimento è sempre minore di quelal misurata in un fluido in quiete.
 		
-		\subsubsection{Moto laminare}
+		\subsection{Moto laminare}
 		Trattiamo ora il moto di \textbf{fluidi reali}, ovvero fludi di cui non si può più apprissimare \(\eta = 0\) e per cui la densità è approssimabile a un valore costante \(\rho \approx \) costante. A velocità \textit{non elevate} il moto è detto \textbf{laminare}: il regime è stazionario con le linee di corrente costanti nel tempo
 		\begin{center}
 			\begin{minipage}{0.48\textwidth}
@@ -2048,8 +2071,17 @@ Tutte le espressioni della funzione d'onda sono:
 			 \viola{v_{m}= \frac{q}{S} = \frac{\frac{\pi R^4}{8\eta}\frac{p_{1} - p_{2}}{l}}{\pi R^2} = \frac{R^2}{8\eta}\frac{p_{1} - p_{2}}{l}}
 		\end{equation}
 		Come nel caso di un punto materiale in presenza di attrito radente, per mantenere il flusso di fluido è necessaria una differenza di pressione, ovvero una forza per vincere la resistenza del moto dovuta all'attrito interno.
+	
+		\begin{center}
+			\fboxsep11pt
+			\colorbox{attenzione}{\begin{minipage}{5.75in}
+					\begin{attenzione}{!!!}
+						Per i fluidi reali Bernoulli vale solo in misura approssimata  \(dv/dn = 0\) non dipende da \(\eta\).
+					\end{attenzione}
+			\end{minipage}}
+		\end{center}
 		
-		\subsubsection{Moto turbolento}
+		\subsection{Moto turbolento}
 		Al crescere del raggio del condotto compaiono vortici nel fluido e si parla di \textbf{moto turbolento o vorticoso}. I vortici sono causati da forti variazioni di velocità ortogonalmente alle linee di corrente, e quindi, a \textbf{notevoli forze di attrito interno} (altre cause sono variazione di forma del condotto...).
 		
 		Se il condotto è a sezione costante vale la legge sperimentale descritta da Reynolds che ha provato che si ha la transizione da regime laminare a turbolento quando il parametro \(\mathcal{R}\) detto numero di Reynolds super un certo valore critico:
@@ -2142,7 +2174,7 @@ Tutte le espressioni della funzione d'onda sono:
 		Dove la prima è detta \textbf{legge di Stokes} e vale per oggetti di forma sferica, mentre la seconda ha il coefficiente adimensionale \(c\) che dipende dalla forma dell'oggetto (soprattuto la parte posteriore).
 			
 		
-	\subsubsection{Effetto Magnus e Portanza}
+	\subsection{Effetto Magnus e Portanza}
 	Supponiamo che ora la sfera immersa nel fluido stia anche \textbf{ruotando su se stessa}. Ruotando trasporta per attrito una parte di fluido generando una \textbf{asimmetria} nelle velocità in alto e in basso. In generale la velocità del fluido sarà più alta dove viene trasportato il fluido dalla rotazione (in basso in figura). La differenza di velocità causa una differenza di pressione e quindi una spinta. Questo fenomeno prende il nome di \textbf{effetto Magnus}.
 	\begin{center}
 		% LAMINAR FLOW around object
@@ -2199,13 +2231,13 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	
 \newpage
-\section{Termodinamica}
+\chapter{Termodinamica}
 \textcolor{red}{Inserire piccolo riassunto pagina 426}\\
 
 \textcolor{red}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}
 
 
-\subsection{Termometria}
+\section{Termometria}
 Chiamiamo \textbf{sistema termodinamico} una porzione del mondo costituita da una oo più parti assimilabile a un sistema continuo macroscopicamente costituito da un numero di elementi pari a \(N_A = 6.0221 \cdot 10^{23}\). L'oggetto di studio saranno le proprietà fisiche macroscopiche e le loro varzioni, \textbf{trasformazioni} del sistema e \textbf{scambi energetici}.
 
 Quando si parlerà di \textbf{ambiente} si intenderà un insieme di una o più parti con cui il sistema termodinamico può interagire. L'ambiente quindi \textbf{contribuisce} in generale \textbf{a determinare le caratteristiche fisiche mascroscopiche del sistema}.
@@ -2220,7 +2252,7 @@ Distinguiamo:
 \[ 
 \viola{\text{{L'insieme (sistema + ambiente) è detto \textbf{universo termodinamico}}}}
 \]
-\paragraph{Variabili termodinamiche}
+\subsection{Variabili termodinamiche}
 Al fine di descrivere il nostro sistema termodinamico viene utilizzato un numero ridotto di variabili termodinamiche, ovvero grandezze fisiche \textbf{direttamente misurabili}. Le distinguiamo in estensive ed intensive:
 
 \begin{center}
@@ -2246,7 +2278,7 @@ In base al sistema termodinamico in esame saranno necessarie certe variabili ter
 \noindent
 \textbf{Osservazione}  La definizione si stato termodinamico è concettualmente diversa da stato meccanico. Uno stato meccanico presuppone la conoscenza di posizione e velocità degli \(n\) corpi interessati, lo stato termodinamico invece, data l'elevato numero di elementi \(n\) non permette ciò, anzi, ad uno stato termodinamico possono essere associti più stati meccanici.
 
-\subsubsection{Equilibrio termico}
+\section{Equilibrio termico}
 \textcolor{red}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}\\
 
 \noindent
@@ -2323,7 +2355,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	Termometri diversi forniscono sempre letture diverse qando in equilibrio termico con lo stesso stato di un sistema anche se tarati per costruzione al punto triplo dell'acqua (\textit{mio guess: cambierà il tipo di andamento, forse non più lineare}).
 	
 \end{enumerate}
-	\subsubsection{Termometro a gas}
+	\subsection{Termometro a gas}
 	\begin{center}
 		\begin{minipage}{0.49\textwidth}
 			\begin{center}
@@ -2342,7 +2374,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	\[ 
 	T_{pt} = Cp_{pt}
 	\]
-	dalla quale ricaviamo la temperatura (\textcolor{red}{[!] non è una definizione accurata [!]})
+	dalla quale ricaviamo la temperatura \colorbox{attenzione}{(\textit{non è una definizione accurata})}
 	\[ 
 	T = T_{pt}\frac{p}{p_{pt}} = 273.16\frac{p}{p_{pt}}\SI{}{\kelvin}
 	\]
@@ -2352,7 +2384,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	T = T_{pt}\frac{p}{p_{pt}} = \left(\SI{273.16}{\kelvin}\right)\lim_{p\to 0}\left(\frac{p}{p_{pt}}\right)
 	\]
 	
-	\subsubsection{Dilatazione termica}
+	\subsection{Dilatazione termica}
 	Il volume di un corpo, a pressione costante, aumenta al crescere della temperatura. Presa una sbarra di lunghezza \(L\) a temperatura \(T\) dopo una variazione di temperatura \(\Delta T\) si ha
 	\[ 
 	L +\Delta L = L + \alpha L\Delta T
@@ -2369,7 +2401,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	\]
 	
 	
-	\subsection{Esperimenti di Joule}
+	\section{Esperimenti di Joule}
 	Joule condusse una serie di esperimenti sugli\textbf{ effetti termici del lavoro meccanico} (attraverso un mulinello, una resistenza, un pistone, dei blocchi strofinati). Nelle varie esperienza il sistema costituito dall'acqua e dal dispositivo meccanico o elettrico è racchiuso entro \textbf{pareti adiabatiche}. Il risultato ottenuto è che 
 	
 	\begin{center}
@@ -2403,7 +2435,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 		\fboxsep11pt
 		\colorbox{yred}{\begin{minipage}{5.75in}
 				\begin{redes}{}
-					\subsubsection{Primo principio della termodinamica}
+					\subsection{Primo principio della termodinamica}
 					Se il sistema compie una trasformazione da uno stato A ad uno stato B, scambiando \textbf{calore} e \textbf{lavoro} con l'ambiente, \(Q\) e \(W\) \textbf{dipendono dalla particolare trasformazione} che congiunge i due stati termodinamici mentre \textbf{la differenza \(Q-W\) risulta indipendente} dalla trasformazione.\\
 					
 					Si può quindi scrivere che la differenza di energia interna 
@@ -2421,7 +2453,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 		\textcolor{red}{inserire grafici}
 	\end{center}
 	
-	\subsubsection{Energia interna}
+	\subsection{Energia interna}
 	Esiste quindi una funzione di stato \textbf{energia interna} le cui variazioni misurano gli scambi di energia con l'esterno durante una trasformazione. Quando si fornisce energia a un sistema questa resta immagazzinata sotto forma di energia interna e può essere poi riutilizzata.
 	
 	Da notare che l'energia interna non indica l'energia cinetica del sistema, o la sua energia potenziale, bensì energià legata a \textbf{proprietà interne del sistema} come moto molecolare o forze intermolecolari, infatti lo scambio di quest'energia  può avvenire non solo tramite lavoro, ma anche sotto forma di \textbf{scambio di calore}, riconducibile a fenomeni meccanici microscopici.\\
@@ -2462,11 +2494,19 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 		Prendiamo una vasca d'acqua con all'interno un contenitore di gas. Le pareti del contenitore sono diatermiche quindi il gas è in equilibrio termico a temperatura costante \(T\). Si può espandere lentamente il contenitore muovendo una parete con una forza che sia sempre uguale e contraria a quella di pressione così da ottenere anche l'equilibrio meccanico. \\
 		
 		In questo caso tutti gli stati intermedi si possono considerare di equilibrio. Ciò può avvenire solo se si opera una trasformazione \textbf{quasi-statica}, ovvero: prima di procedere a una trasformazione infinitesima di stato si attende il ristabilirsi dell'equilibrio nella nuova condizione.
-		(\textcolor{red}{[!] La lentezza delle trasformazioni è condizione solo necessaria e non sufficiente. Vediamo come nel caso 1 si otterrebbero sempre stati intermedi di non equilibrio [!]})
+		
+		\begin{center}
+			\fboxsep11pt
+			\colorbox{attenzione}{\begin{minipage}{5in}
+					\begin{attenzione}{!!!}
+						La lentezza delle trasformazioni è \textbf{condizione solo necessaria} e non sufficiente. Vediamo come nel caso 1 si otterrebbero sempre stati intermedi di non equilibrio.
+					\end{attenzione}
+			\end{minipage}}
+		\end{center}
 	\end{es}
 	
 	
-	\subsection{Calorimetria}
+	\section{Calorimetria}
 	Abbiamo visto dal primo teorema della termodinamiche che lo scambio di calore \(Q\) comporta una variazione di energia interna \(\Delta U\) e uno scambio di lavoro \(W\) secondo la legge
 	\[ 
 	\Delta U = Q -W
@@ -2494,7 +2534,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	\end{equation}
 	
 	
-	\subsubsection{Calore specifico}
+	\subsection{Calore specifico}
 	\begin{center}
 		\fboxsep11pt
 		\colorbox{yblue}{\begin{minipage}{5.75in}
@@ -2553,7 +2593,15 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	\viola{	Q = m\lambda}
 	\end{equation}
 	La caratteristica importante dei cambiamenti di fase è di essere trasformazioni \textbf{praticamente reversibili}.
-	(\textcolor{red}{[!] Il calore latente non ha un valore fisso. Per esempio nel caso dell'evaporazione è funzione della temperatura[!]}).
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{attenzione}{\begin{minipage}{5.75in}
+				\begin{attenzione}{!!!}
+					Il calore latente \textbf{non ha un valore fisso}. Per esempio nel caso dell'evaporazione è funzione della temperatura.
+				\end{attenzione}
+		\end{minipage}}
+	\end{center}
 	
 	\subsubsection{Sorgenti di calore}
 	\begin{center}
@@ -2570,9 +2618,9 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	Proprio per la loro caratteristica di rimanere a temperatura costante, se un corpo è messo a contatto con una sorgente e la differenza di temperatura è finita, \textbf{non può esserci equilibrio termico} durante lo scambio. Può esserci l'equilibrio solo se si mantiene il corpo a contatto con la sorgente abbastanza a lungo (oppure se la differenza di temperatura durante lo scambio è infinitesima).
 	
 	
-	\subsection{Trasmissione del calore}
+	\section{Trasmissione del calore}
 	
-	\subsubsection{Conduzione}
+	\subsection{Conduzione}
 	Prendiamo un corpo esteso in cui la temperatura non sia uniforme e tracciamo le \textbf{superfici isoterme} dove la funzione \(T(x,y,z) = \text{cost}\), diciamo che la superficie \(S_1\) ha temperatura \(T_1\) e così via. 
 	
 	Se \(dS\) è un elemento della superficie isoterma, il calore che fluisce attraverso \(dS\) nel tempo \(dt\) è 
@@ -2653,10 +2701,18 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 		dalla quale ricaviamo che, nel nostro caso, attraverso \(dS\) flusice il calore 
 		\[ 
 		Q = k\frac{T_1 - T_2}{s}St
-		\](\textcolor{red}{[!] In \textbf{regime stazionario} il calore che entra nella parete dal lato ad alta temperatura è uguale al calore che esce dal lato a assa temperatura. \textbf{C'è solo flusso di energia} e nessuna cessione alla parete [!]}).
+		\]
+		\begin{center}
+			\fboxsep11pt
+			\colorbox{attenzione}{\begin{minipage}{5in}
+					\begin{attenzione}{!!!}
+						In \textbf{regime stazionario} il calore che entra nella parete dal lato ad alta temperatura è uguale al calore che esce dal lato a assa temperatura. \textbf{C'è solo flusso di energia} e nessuna cessione alla parete.
+					\end{attenzione}
+			\end{minipage}}
+		\end{center}
 	\end{es}
 	
-	\paragraph{Equazione di continuità} Presa una superficie orientata \(\Sigma\) in un mezzo non in equilibrio termico di volume \(V\), in assenza di sorgenti di calore in \(V\) il calore che esce per unità di tempo da \(V\) attraverso \(\Sigma\) è uguale a meno la variazione per unità di tempo del calore contenuto in \(V\):
+	\section{Equazione di continuità} Presa una superficie orientata \(\Sigma\) in un mezzo non in equilibrio termico di volume \(V\), in assenza di sorgenti di calore in \(V\) il calore che esce per unità di tempo da \(V\) attraverso \(\Sigma\) è uguale a meno la variazione per unità di tempo del calore contenuto in \(V\):
 	
 	\[ 
 	\int_{\Sigma} \overrightarrow{J}_U \cdot \hat{n} dS = -\frac{d}{dt}\int_V \boldsymbol{q} dV = - \int_V \frac{\partial q}{\partial t} dV
@@ -2678,35 +2734,35 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	\end{center}
 	
 	
-	\subsubsection{Convezione}
+	\subsection{Convezione}
 	La connduzione termica nei fluidi è difficile da osservare perché in essi avviene un altro fenomeno di trasmissione del calore: la convezione.
 	
 	Riscaldando un fluido la parte più vicina alla sorgente di calore si scalda prima dilatandosi. Le parti di fluido più calde risentono quindi di una spinta di Archimede maggiore e tendono a spostarsi verso l'alto generando correnti ascensionali che fanno avvicinare le parti di fluido più fredde alla sorgente. 
 	
-	\subsubsection{Irraggiamento}
+	\subsection{Irraggiamento}
 	L'energia emessa sotto forma di onde elettromagnetiche in unità di tempo è descritta dalla \textbf{legge di Stefan-Boltzman} come
 	\begin{equation}\label{stefan boltzman}
 		\viola{\varepsilon = \boldsymbol{\sigma e}T^4}
 	\end{equation}
 	dove \(\boldsymbol{\sigma} = 5.67\cdot 10^{-8}\SI{}{\frac{\joule}{\second\meter^2\kelvin^4}}\) è una costante universale ed \(\boldsymbol{e}\) è l'\textbf{emissività} che varia tra \(0\) e \(1\): \(0\) per le pareti riflettenti, \(1\) per le cosiddette superfici nere. Una superficie nera assorbe tutta l'energia che incide su di essa.
 	
-	\subsubsection{Calore tra solido e fluido}
+	\subsection{Calore tra solido e fluido}
 	La trasmissione del calore tra un corpo solido a temperatura \(T\) e un fluido a temperatura \(T_0 < T\) messi a contatto tramite una superficie \(S\) è descritta dalla \textbf{legge di Newton}
 	\begin{equation}
 		\viola{Q = \boldsymbol{h}(T-T_0)St}
 	\end{equation}
 	dove \(\boldsymbol{h}\) è la \textbf{conducibilità termica esterna}
 	
-	\subsection{Gas ideali e reali}
-	\subsubsection{Legge isoterma di Boyle}
-	\subsubsection{Legge isocora di Volta-Gay Lussac}
-	\subsubsection{Legge di Avogadro}
+	\section{Gas ideali e reali}
+	\section{Legge isoterma di Boyle}
+	\section{Legge isocora di Volta-Gay Lussac}
+	\section{Legge di Avogadro}
 	
-	\subsection{Trasformazioni  di un gas}
-	\subsubsection{Calore e energia interna del gas ideale}
-	\subsubsection{Relazione di Mayer}
+	\section{Trasformazioni  di un gas}
+	\section{Calore e energia interna del gas ideale}
+	\section{Relazione di Mayer}
 	
-	\subsubsection{Trasformazioni adiabatiche}
+	\section{Trasformazioni adiabatiche}
 	Il gas è racchiuso da pareti adiabariche e può scambiare solo lavoro con l'ambiente (tramite una parete mobile).
 	 
 	\begin{align*}
@@ -2727,9 +2783,11 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	\boxed{c_{P} - c_{V} = R}
 	\]
 	
-	\subsubsection{Trasformazioni isoterme}
-	\subsubsection{Trasformazioni isocore}
-	\subsubsection{Trasformazioni isobare}
+	
+	
+	\section{Trasformazioni isoterme}
+	\section{Trasformazioni isocore}
+	\section{Trasformazioni isobare}
 	
 	
 \end{document}
