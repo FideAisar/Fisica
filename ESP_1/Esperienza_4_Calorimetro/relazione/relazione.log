@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  24 JUN 2024 23:26
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  26 JUN 2024 17:13
  restricted system commands enabled.
 **relazione.tex
 (./relazione.tex
@@ -1385,75 +1385,98 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 (/usr/share/texmf-dist/tex/latex/capt-of/capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 )
+(/usr/share/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen390
+\dashlinegap=\dimen391
+\adl@box=\box122
+\adl@height=\dimen392
+\adl@heightsave=\dimen393
+\adl@depth=\dimen394
+\adl@depthsave=\dimen395
+\adl@finaldepth=\dimen396
+\adl@columns=\count425
+\adl@ncol=\count426
+\adl@currentcolumn=\count427
+\adl@currentcolumnsave=\count428
+\adl@totalheight=\count429
+\adl@totalheightsave=\count430
+\adl@dash=\count431
+\adl@gap=\count432
+\adl@cla=\count433
+\adl@clb=\count434
+\adl@everyvbox=\toks53
+\adl@LTpagetotal=\dimen397
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 73.
+h' as default language. on input line 93.
  (./relazione.aux
 (./titlepage.aux))
 \openout1 = relazione.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
 3.
  (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 93.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-73.
+93.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 93.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-73.
+93.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 93.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-73.
+93.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count425
-\scratchdimen=\dimen390
-\scratchbox=\box122
-\nofMPsegments=\count426
-\nofMParguments=\count427
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count428
-\MPscratchDim=\dimen391
-\MPnumerator=\count429
-\makeMPintoPDFobject=\count430
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count435
+\scratchdimen=\dimen398
+\scratchbox=\box123
+\nofMPsegments=\count436
+\nofMParguments=\count437
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count438
+\MPscratchDim=\dimen399
+\MPnumerator=\count439
+\makeMPintoPDFobject=\count440
+\everyMPtoPDFconversion=\toks55
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1467,7 +1490,7 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 73.
+Package chemgreek Info: Activating mapping `fourier' on line 93.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1503,8 +1526,8 @@ Package chemgreek Info: Activating mapping `fourier' on line 73.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 73.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 73.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 93.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 93.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1513,7 +1536,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 93.
  (./relazione.out)
 (./relazione.out)
 \@outlinefile=\write4
@@ -1528,40 +1551,13 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 73.
+or `english'. on input line 93.
 
 \openout2 = titlepage.aux
  (./titlepage.tex [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./relazione.toc
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line
- 2.
- (/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./relazione.toc)
 \tf@toc=\write5
 
 \openout5 = relazione.toc
@@ -1573,100 +1569,153 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 ] [2
 Missing character: There is no ’ (U+2019) in font futb8t!
 ]
-Package pgfplots info on input line 187: Using 'lua backend=false' for plot 0 (
+Package pgfplots info on input line 207: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
-Package pgfplots info on input line 298: Using 'lua backend=false' for plot 0 (
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line
+ 219.
+ (/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 219.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 219.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 219.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 219.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 219.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 219.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 219
+.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 219
+.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package pgfplots info on input line 318: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 332.
+(Font)              scaled to size 7.35999pt on input line 352.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 332.
+(Font)              scaled to size 6.25598pt on input line 352.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 332.
+(Font)              scaled to size 7.35999pt on input line 352.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 332.
-Package pgfplots info on input line 434: Using 'lua backend=false' for plot 0 (
+(Font)              scaled to size 6.25598pt on input line 352.
+Package pgfplots info on input line 454: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
  [3]
-Package pgfplots info on input line 537: Using 'lua backend=false' for plot 0 (
+Package pgfplots info on input line 557: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
- [4] [5] [6] [7]
+ [4]
+Overfull \hbox (2.58917pt too wide) in paragraph at lines 601--602
+[]\T1/futs/m/n/10 Una volta ver-sata, viene reg-is-trata la tem-per-atura dell'a
+c-qua a in-ter-valli di un min-uto per quasi quindici
+ []
+
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 587.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 587.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 587.
+(Font)              scaled to size 8.27998pt on input line 610.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 587.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 587.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 587.
+(Font)              scaled to size 8.27998pt on input line 610.
 
+warning  (pdf backend): ignoring duplicate destination with the name 'Hfootnote.
+3'
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 587.
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 606--639
+[]$[]$ $[]$
+ []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 587.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 587.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 587.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
+Package pgfplots info on input line 740: Using 'lua backend=false' for plot 0 (
+type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 757--758
 
  []
 
-[8]
-Overfull \hbox (6.03516pt too wide) detected at line 613
-[]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 762.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 762.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 762.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 762.
+
+
+LaTeX Warning: Reference `covarianza' on page 6 undefined on input line 765.
+
+Package pgfplots info on input line 861: Using 'lua backend=false' for plot 0 (
+type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 894.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 894.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 894.
+
+Underfull \hbox (badness 2020) in paragraph at lines 911--912
+[]\T1/futs/m/n/10 Per trovare l'equazione della retta si uti-lizza il metodo dei
+ min-imi
  []
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 38.
-See the caption package documentation for explanation.
+Overfull \hbox (1.56998pt too wide) in paragraph at lines 890--922
+$[]$ $[]$ 
+ []
 
-[9] (./relazione.aux (./titlepage.aux))
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
- ***********
-Package rerunfilecheck Info: File `relazione.out' has not changed.
-(rerunfilecheck)             Checksum: 95278AA119391BE9CFC2CF6907D52994;1768.
-)
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 929.
+! Missing number, treated as zero.
+<to be read again> 
+c
+l.930 				\multicolumn{cols}{pos}{text}
+                                     \\ \midrule
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
-Here is how much of LuaTeX's memory you used:
- 48816 strings out of 476447
- 305267,2373549 words of node,token memory allocated
- 614 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 17 attribute, 64 glue_spec
-, 17 attribute_list, 2 write nodes
-   avail lists: 1:1,2:33276,3:17890,4:100,5:310,6:38,7:12072,8:106,9:6174,10:14,
-11:118
- 69537 multiletter control sequences out of 65536+600000
- 182 fonts using 11214711 bytes
- 102i,19n,101p,720b,3034s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/fo
-urier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
-mlit.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/
-share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/font
-s/type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia
-/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on relazione.pdf (10 pages, 118340 bytes).
+! Package array Error:  Illegal pream-token (s): `c' used.
 
-PDF statistics: 159 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 131072)
- 112 words of extra memory for PDF output out of 10000 (max. 100000000)
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.930 				\multicolumn{cols}{pos}{text}
+                                     \\ \midrule
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
+! Undefined control sequence.
+\@addamp ...mp \@firstampfalse \else \@preamerror 
+                                                  5\fi 
+l.930 				\multicolumn{cols}{pos}{text}
+                                     \\ \midrule
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+o
+l.930 				\multicolumn{cols}{pos}{text}
+                                     \\ \midrule
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a nu

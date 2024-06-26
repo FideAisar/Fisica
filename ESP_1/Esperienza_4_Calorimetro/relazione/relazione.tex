@@ -28,19 +28,39 @@
 \usepackage{siunitx}
 \usepgfplotslibrary{colormaps}
 
+\captionsetup[table]{name=Tabella}
+%<\pagenumbering{gobble}
 
 % Indice
 \renewcommand*\contentsname{Indice}
 \setcounter{tocdepth}{3}
 %\setcounter{secnumdepth}{2}
 
-%Regole tabelle
-\captionsetup[table]{name=Tabella}
+%Tabellle
 \usepackage{booktabs}
 \usepackage{caption}
 \usepackage{float}
 \usepackage{titlesec}
 \usepackage{capt-of}
+
+%dashed line
+\usepackage{array}
+\usepackage{arydshln}
+\setlength\dashlinedash{0.2pt}
+\setlength\dashlinegap{1.5pt}
+\setlength\arrayrulewidth{0.3pt}
+
+%Widows & Orphans & Penalties
+
+\widowpenalty500
+\clubpenalty500
+\clubpenalty=9996
+\exhyphenpenalty=50 %for line-breaking at an explicit hyphen
+\brokenpenalty=4991
+\predisplaypenalty=10000
+\postdisplaypenalty=1549
+\displaywidowpenalty=1602
+\floatingpenalty = 20000
 
 
 
@@ -573,6 +593,611 @@
 	
 	\newpage
 	\section{Seconda presa dati}
+	\subsection{Cilindro metallico}
+	Per prima cosa si procede all'acquisizioni di alcune misure preliminari. Alcune di queste saranno già utilizzabili per il calcolo finale del calore specifico del cilindro metallico, altre invece verranno utilizzate per ricavare altri dati utili. Pesiamo sulla bilancia il vaso del calorimetro, il vaso con all'interno circa \(2.6 \SI{}{\kilogram}\) d'acqua, il cilindro metallico e il becher (nel caso sia necessario tarare qualche misura succesivamente).
+	
+	L'acqua versata all'interno del vaso è stata diluita con acqua fredda fino a farla arrivare ad una temperatura di circa \(14 ^\circ C\), in modo da reintrare nella scala di lettura del termometro fissato nel calorimetro (\(12-24 ^\circ C\)).
+	
+	Una volta versata, viene registrata la temperatura dell'acqua a intervalli di un minuto per quasi quindici minuti.
+	
+	Si immerge il cilindro metallico in un bollitore per scaldarlo fino a una temperatura di circa \(90 ^\circ C\). Subito prima dell'immersione del cilindro nel vaso pieno d'acqua si acquisiscono le temperature dell'acqua nel vaso, del corpo e dell'ambiente così da correggere eventuali dispersioni avvenute nell'attesa che il cilindro si scaldasse.
+	
+	\vspace{1cm}
+	\begin{minipage}{0.4\textwidth}
+		\begin{table}[H] \centering
+			%\ra{1.3}
+			\begin{small}
+				\begin{tabular}{@{}lr@{}}\toprule
+					\textbf{Oggetto}&   \(\boldsymbol{(m \pm 0.0001) \SI{}{\kilogram}}\) \\ \midrule
+					\textbf{Massa vaso}		 & \(1.3775\)   \\  \hdashline
+					\textbf{Massa vaso + acqua}		 & \(3.9825\)   \\  \hdashline
+					\textbf{Massa cilindro metallico}		 & \(0.3866\)   \\  \hdashline
+					\textbf{Massa becher}		 & \(0.2246\)   \\
+					\bottomrule
+				\end{tabular}
+			\end{small}
+			\caption{Misure preliminari (masse)}
+		\end{table}
+	\end{minipage}
+	\begin{minipage}{0.6\textwidth}
+		\begin{table}[H] \centering
+			%\ra{1.3}
+			\begin{small}
+				\begin{tabular}{@{}lrr@{}}\toprule
+					\textbf{Oggetto}					&  			& \textbf{(\(\boldsymbol{T}\))} \(\boldsymbol{^\circ C}\))\\ \midrule
+					\textbf{Temp. cilindro metallico}	& 			& \(86 \pm 1\)	 \\  \hdashline
+					\textbf{Temp. acqua}				&					&\(15.20 \pm 0.01)\)		 	 \\  \hdashline
+					\textbf{Temp. ambiente}				&					& \(19 \pm 1\)		 	  \\  
+					\bottomrule
+				\end{tabular}
+			\end{small}
+			\caption{Misure preliminari (temperature)}
+		\end{table}
+	\end{minipage}
+	\vspace{1cm}
+	\footnotetext{Non arrotondo per difetto l'errore assosciato a \(m_{a}\) perché andrei a sottostimarlo del 40\%}
+	
+	\noindent
+	Immerdo il cilindro metallico nell'acqua del calorimetro si acquisisce la temperatura dell'acqua a intervalli di \(5 s\) fino a che questa non raggiuge una soglia di equilibrio. Una volta raggiunta la temperatura di equilibrio si acquisisce nuovamente a intervalli di un minuto.
+	
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[
+					title={Temperatura dell'acqua nel calorimetro in funzione del tempo (cilindro metallico)},
+					xlabel={t ( $s$ )},
+					ylabel={T ( $^\circ C$ )},
+					xmin=0, xmax=1780,
+					ymin=15, ymax=18,
+					xtick={},
+					ytick={},
+					legend pos=south east,
+					ymajorgrids=true,
+					grid style=dashed,
+					enlargelimits=0.1,
+					width=\textwidth,
+					height=7cm,
+					point meta min=15,
+					point meta max=18,
+					colormap={yellowred}{
+						color(0cm)=(yellow)
+						color(1cm)=(red)
+					},
+					]
+					
+					% Define the data
+					\pgfplotstableread{
+						x y yerr
+						0 15.2 0.01
+						60 15.31 0.01
+						120 15.32 0.01
+						180 15.33 0.01
+						240 15.35 0.01
+						300 15.37 0.01
+						360 15.39 0.01
+						420 15.41 0.01
+						480 15.43 0.01
+						540 15.45 0.01
+						600 15.46 0.01
+						660 15.49 0.01
+						843 15.45 0.01
+						846 16.0 0.01
+						851 16.1 0.01
+						857 16.62 0.01
+						862 16.82 0.01
+						867 17.7 0.01
+						872 17.3 0.01
+						877 17.4 0.01
+						882 17.49 0.01
+						887 17.54 0.01
+						894 17.59 0.01
+						898 17.58 0.01
+						901 17.59 0.01
+						907 17.6 0.01
+						911 17.68 0.01
+						917 17.68 0.01
+						921 17.7 0.01
+						927 17.7 0.01
+						932 17.71 0.01
+						937 17.71 0.01
+						941 17.72 0.01
+						946 17.72 0.01
+						951 17.72 0.01
+						956 17.72 0.01
+						962 17.72 0.01
+						967 17.72 0.01
+						971 17.72 0.01
+						976 17.73 0.01
+						981 17.73 0.01
+						1047 17.74 0.01
+						1106 17.75 0.01
+						1165 17.76 0.01
+						1226 17.77 0.01
+						1286 17.78 0.01
+						1407 17.79 0.01
+						1466 17.79 0.01
+						1528 17.79 0.01
+						1586 17.81 0.01
+						1648 17.81 0.01
+						1706 17.83 0.01
+						1766 17.83 0.01
+					} \datatable
+					
+					% Plot the data with gradient
+					\addplot[
+					scatter, 
+					only marks, 
+					scatter src=explicit,
+					scatter/use mapped color={
+						draw=mapped color,
+						fill=mapped color
+					},
+					error bars/.cd,
+					y dir=both, y explicit
+					]
+					table[x=x, y=y, y error=yerr, meta=y] {\datatable};
+					\addplot[
+					only marks,
+					mark=star,
+					]
+					coordinates {(832, 15.48)};
+					\addplot[
+					only marks,
+					mark=star,
+					]
+					coordinates {(860, 17.75)};
+					\legend{,,Misure scartate}
+				\end{axis}
+			\end{tikzpicture}
+		\end{figure}
+	\end{center}
+	
+	Analizzando la presa dati complessiva sono evidenti due sbavature, dovute a un errore di battitura o di lettura sul termometro, che vado a scartare. E' chiaro che la prima imprecisione (temperatura misurata nell'istante di immersione del cilindro) è sicuramente sbagliata: la temperatura dell'acqua stava aumentando gradualmente e non è fisicamente spiegabile un crollo simile. Anche la seconda esce completamente fuori dall'andamento della temperatura in quegli istanti ed è quindi ragionevole scartarla. \\
+	
+	\noindent
+	Avendo dovuto scartare la temperatura all'istante di immersione si dovrà ricavare \(T_{1}\) temperatura iniziale dell'acqua tramite un fit lineare delle prime misure; nello stesso modo si determinerà \(T_{\text{eq}}\) temperatura di equilibrio.
+	
+	\subsubsection{Fit lineare \(T_{1}\) e \(T_{\text{eq}}\)}
+	Per ricavare \(T_{\text{eq}}\) si traccia  la retta di best fit delle temperature finali e la si interseca con la retta \(x=t_{i}\) tempo di immersione del corpo. Si andrà quindi a simulare un "innalzamento istantaneo" della temperatura. 
+	
+	Risulta molto più semplice traslare il grafico, come riportato sotto, portando \(t_{i}\) sullo \(0\) così che le due temperature trovate abbiano come errore quello sull'intercetta \(b\). In appendice viene esposto un secondo metodo che non necessita la traslazione del grafico e in cui entra in gioco la covarianza (\ref{covarianza}).
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[
+					title={Temperatura dell'acqua nel calorimetro in funzione del tempo (cilindro metallico)},
+					xlabel={t ( $s$ )},
+					ylabel={T ( $^\circ C$ )},
+					xmin=-843, xmax=936,
+					ymin=15, ymax=18,
+					xtick={},
+					ytick={},
+					legend pos=south east,
+					ymajorgrids=true,
+					grid style=dashed,
+					enlargelimits=0.1,
+					width=\textwidth,
+					height=7cm,
+					point meta min=15,
+					point meta max=18,
+					colormap={yellowred}{
+						color(0cm)=(yellow)
+						color(1cm)=(red)
+					},
+					]
+					
+					% Define the data
+					\pgfplotstableread{
+						x y yerr
+						-843 15.2 0.01
+						-783 15.31 0.01
+						-723 15.32 0.01
+						-663 15.33 0.01
+						-603 15.35 0.01
+						-543 15.37 0.01
+						-483 15.39 0.01
+						-423 15.41 0.01
+						-363 15.43 0.01
+						-303 15.45 0.01
+						-243 15.46 0.01
+						-183 15.49 0.01
+						3 16.0 0.01
+						8 16.1 0.01
+						14 16.62 0.01
+						19 16.82 0.01
+						29 17.3 0.01
+						34 17.4 0.01
+						39 17.49 0.01
+						44 17.54 0.01
+						51 17.59 0.01
+						55 17.58 0.01
+						58 17.59 0.01
+						64 17.6 0.01
+						68 17.68 0.01
+						74 17.68 0.01
+						78 17.7 0.01
+						84 17.7 0.01
+						89 17.71 0.01
+						94 17.71 0.01
+						98 17.72 0.01
+						103 17.72 0.01
+						108 17.72 0.01
+						113 17.72 0.01
+						119 17.72 0.01
+						124 17.72 0.01
+						128 17.72 0.01
+						133 17.73 0.01
+						138 17.73 0.01
+						204 17.74 0.01
+						263 17.75 0.01
+						322 17.76 0.01
+						383 17.77 0.01
+						443 17.78 0.01
+						564 17.79 0.01
+						623 17.79 0.01
+						685 17.79 0.01
+						743 17.81 0.01
+						805 17.81 0.01
+						863 17.83 0.01
+						923 17.83 0.01
+					} \datatable
+					
+					% Plot the data with gradient
+					\addplot[
+					scatter, 
+					only marks, 
+					scatter src=explicit,
+					scatter/use mapped color={
+						draw=mapped color,
+						fill=mapped color
+					},
+					error bars/.cd,
+					y dir=both, y explicit
+					]
+					table[x=x, y=y, y error=yerr, meta=y] {\datatable};
+					% Add vertical line at x=0
+					\addplot [
+					domain=15:18,
+					samples=2,
+					color=gray,
+					]
+					coordinates {(0,15) (0,18)};
+					
+					% Add line y = 15.539645 + 0.000306x
+					\addplot [
+					domain=-900:150,
+					samples=100,
+					color=gray,
+					]
+					{15.539645 + 0.000306*x};
+					
+					% Add line y = 17.707 + 0.00013x
+					\addplot [
+					domain=-150:990,
+					samples=100,
+					color=gray,
+					]
+					{17.707 + 0.00013*x};
+				\end{axis}
+			\end{tikzpicture}
+		\end{figure}
+	\end{center}
+	\vspace{-1cm}
+	\begin{minipage}{0.3\textwidth}
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{@{}cc@{}}
+				\multicolumn{2}{c}{$\mathbf{T_{1}}$} \\ \midrule
+			 	$\boldsymbol{t(s)}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
+				60	& 	$15.31$   \\\hdashline
+				120	& 	$15.32$  \\\hdashline
+				180	& 	$15.33$  \\\hdashline
+				240	& 	$15.35 $   \\\hdashline
+				300	& 	$15.37$  \\\hdashline
+				360	& 	$15.39$   \\\hdashline
+				420	& 	$15.41 $   \\\hdashline
+				480	& 	$15.43 $   \\\hdashline
+				540	& 	$15.45 $   \\\hdashline
+				600	& 	$15.46$   \\ \hdashline
+				660	& 	$15.49 $  \\ \bottomrule   
+			\end{tabular}
+		\end{table}
+	\end{minipage}
+	\begin{minipage}{0.7\textwidth}
+		Per trovare l'equazione della retta si utilizza il metodo dei minimi quadrati. L'errore relativo sul tempo è di due ordini di grandezza minore rispetto all'errore relativo sulla temperatura quindi quest'ultima sarà la variabile \(y\) e il tempo, che abbiamo appurato avere errore trascurabile rispetto a quello sulla temperatura, la \(x\). Con il metodo dei minimi quadrati si trovano i parametri \(\boldsymbol{a}\) e \(\boldsymbol{b}\) della retta:
+		\[ 
+		y = \boldsymbol{a} + \boldsymbol{b} x
+		\]
+		\[ 
+		\boldsymbol{a = 15.28 \pm 0.01} \qquad \qquad \boldsymbol{b = 0.00031 \pm 0.00002}
+		\]
+		
+
+		Per verificare che la retta trovata si adatti bene ai dati è bene effettuare un test del \(\chi^2\).
+	\end{minipage}
+	
+	\paragraph{Ipotesi nulla} La retta \(y = \boldsymbol{a} + \boldsymbol{b}x\) descrive bene l’andamento dei dati osservati sperimentalmente.
+	
+	
+	\begin{table}[H] \centering
+		%\ra{1.3}
+		\begin{small}
+			\begin{tabular}{@{}lrcr@{}}\toprule
+				\multicolumn{4}{c}{\textbf{valori per test} \(\boldsymbol{\chi^2}\)}\\ \midrule
+				\textbf{Livello di significatività}		 &  \(m_{a}\) &\(2.6050 \pm 0.00014\)\footnotemark  & \(\SI{}{\kilogram}\) \\  \hdashline
+				\textbf{Valore di} \(\boldsymbol{\chi^2}\)	 & \(m_{e}\)  &\(0.23	\pm 0.01 \) & \(\SI{}{\kilogram}\)   \\  \hdashline
+				\textbf{Gradi di libertà}		 & \(T_{2}\)  &\(86 \pm 1\) & \(\SI{}{\degC}\)   \\   \hdashline
+				\(\boldsymbol{\chi^2}\) \textbf{sospetto}		& \(T_{2}\)  &\(86 \pm 1\) & \(\SI{}{\degC}\)   \\ \hdashline
+				\(\boldsymbol{\chi^2}\) \textbf{critico}		& \(T_{2}\)  &\(86 \pm 1\) & \(\SI{}{\degC}\)   \\ 
+				\bottomrule
+			\end{tabular}
+		\end{small}
+		\caption{\(\chi^2\) \(T_{1}\)}
+	\end{table}
+	
+	
+	\begin{table}[H] \centering
+		%\ra{1.3}
+		\begin{small}
+			\begin{tabular}{@{}lrcr@{}}\toprule
+				\textbf{Oggetto}&  & \textbf{misura} & \textbf{u.m.}\\ \midrule
+				\textbf{Massa acqua}		 &  \(m_{a}\) &\(2.6050 \pm 0.00014\)\footnotemark  & \(\SI{}{\kilogram}\) \\  \hdashline
+				\textbf{Massa equivalente}		 & \(m_{e}\)  &\(0.23	\pm 0.01 \) & \(\SI{}{\kilogram}\)   \\  \hdashline
+				\textbf{Temperatura corpo}		 & \(T_{2}\)  &\(86 \pm 1\) & \(\SI{}{\degC}\)   \\   
+				\bottomrule
+			\end{tabular}
+		\end{small}
+		\caption{Dati finali}
+	\end{table}
+	
+	
+	
+	\[ 
+	\rosso{\boldsymbol{T_{\text{eq}} = 17.71	\pm 0.02}}
+	\]
+	
+	
+	\subsection{Massa d'acqua}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[
+					title={Temperatura dell'acqua nel calorimetro in funzione del tempo (cilindro metallico)},
+					xlabel={t ( $s$ )},
+					ylabel={T ( $^\circ C$ )},
+					xmin=0, xmax=1900,
+					ymin=17.8, ymax=20.6,
+					xtick={},
+					ytick={},
+					legend pos=north west,
+					ymajorgrids=true,
+					grid style=dashed,
+					enlargelimits=0.1,
+					width=\textwidth,
+					height=7cm,
+					point meta min=17.9,
+					point meta max=20.4,
+					colormap={yellowred}{
+						color(0cm)=(cyan)
+						color(1cm)=(blue)
+					},
+					]
+					
+					% Define the data
+					\pgfplotstableread{
+						x y yerr
+						0.00 17.90 0.01
+						60.00 17.91 0.01
+						120.00 17.92 0.01
+						180.00 17.93 0.01
+						240.00 17.93 0.01
+						300.00 17.94 0.01
+						360.00 17.94 0.01
+						420.00 17.95 0.01
+						480.00 17.95 0.01
+						540.00 17.96 0.01
+						624.00 17.96 0.01
+						684.00 17.97 0.01
+						744.00 17.97 0.01
+						803.00 17.99 0.01
+						1001.00 18.00 0.01
+						1006.00 18.00 0.01
+						1013.00 19.4 0.01
+						1017.00 19.81 0.01
+						1021.00 20.04 0.01
+						1025.00 20.27 0.01
+						1030.00 20.34 0.01
+						1036.00 20.37 0.01
+						1041.00 20.40 0.01
+						1046.00 20.41 0.01
+						1051.00 20.42 0.01
+						1056.00 20.42 0.01
+						1061.00 20.42 0.01
+						1066.00 20.42 0.01
+						1071.00 20.43 0.01
+						1076.00 20.43 0.01
+						1081.00 20.43 0.01
+						1086.00 20.43 0.01
+						1091.00 20.43 0.01
+						1096.00 20.43 0.01
+						1101.00 20.43 0.01
+						1106.00 20.43 0.01
+						1111.00 20.43 0.01
+						1116.00 20.43 0.01
+						1121.00 20.43 0.01
+						1126.00 20.43 0.01
+						1131.00 20.43 0.01
+						1186.00 20.42 0.01
+						1246.00 20.41 0.01
+						1306.00 20.41 0.01
+						1366.00 20.40 0.01
+						1426.00 20.40 0.01
+						1486.00 20.40 0.01
+						1546.00 20.39 0.01
+						1606.00 20.39 0.01
+						1666.00 20.38 0.01
+						1726.00 20.38 0.01
+						1786.00 20.38 0.01
+						1846.00 20.37 0.01
+						
+					} \datatable
+					
+					% Plot the data with gradient
+					\addplot[
+					scatter, 
+					only marks, 
+					scatter src=explicit,
+					scatter/use mapped color={
+						draw=mapped color,
+						fill=mapped color
+					},
+					error bars/.cd,
+					y dir=both, y explicit
+					]
+					table[x=x, y=y, y error=yerr, meta=y] {\datatable};
+				\end{axis}
+			\end{tikzpicture}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[
+					title={Temperatura dell'acqua nel calorimetro in funzione del tempo (cilindro metallico)},
+					xlabel={t ( $s$ )},
+					ylabel={T ( $^\circ C$ )},
+					xmin=-1005, xmax=1000,
+					ymin=17.8, ymax=20.6,
+					xtick={},
+					ytick={},
+					legend pos=north west,
+					ymajorgrids=true,
+					grid style=dashed,
+					enlargelimits=0.1,
+					width=\textwidth,
+					height=7cm,
+					point meta min=17.9,
+					point meta max=20.4,
+					colormap={yellowred}{
+						color(0cm)=(cyan)
+						color(1cm)=(blue)
+					},
+					]
+					
+					% Define the data
+					\pgfplotstableread{
+						x y yerr
+						-1001 17.90 0.01
+						-941 17.91 0.01
+						-881 17.92 0.01
+						-821 17.93 0.01
+						-761 17.93 0.01
+						-701 17.94 0.01
+						-641 17.94 0.01
+						-581 17.95 0.01
+						-521 17.95 0.01
+						-461 17.96 0.01
+						-377 17.96 0.01
+						-317 17.97 0.01
+						-257 17.97 0.01
+						-198 17.99 0.01
+						0 18.00 0.01
+						5 18.00 0.01
+						12 19.4 0.01
+						16 19.81 0.01
+						20 20.04 0.01
+						24 20.27 0.01
+						29 20.34 0.01
+						35 20.37 0.01
+						40 20.40 0.01
+						45 20.41 0.01
+						50 20.42 0.01
+						55 20.42 0.01
+						60 20.42 0.01
+						65 20.42 0.01
+						70 20.43 0.01
+						75 20.43 0.01
+						80 20.43 0.01
+						85 20.43 0.01
+						90 20.43 0.01
+						95 20.43 0.01
+						100 20.43 0.01
+						105 20.43 0.01
+						110 20.43 0.01
+						115 20.43 0.01
+						120 20.43 0.01
+						125 20.43 0.01
+						130 20.43 0.01
+						185 20.42 0.01
+						245 20.41 0.01
+						305 20.41 0.01
+						365 20.40 0.01
+						425 20.40 0.01
+						485 20.40 0.01
+						545 20.39 0.01
+						605 20.39 0.01
+						665 20.38 0.01
+						725 20.38 0.01
+						785 20.38 0.01
+						845 20.37 0.01
+						
+					} \datatable
+					
+					% Plot the data with gradient
+					\addplot[
+					scatter, 
+					only marks, 
+					scatter src=explicit,
+					scatter/use mapped color={
+						draw=mapped color,
+						fill=mapped color
+					},
+					error bars/.cd,
+					y dir=both, y explicit
+					]
+					table[x=x, y=y, y error=yerr, meta=y] {\datatable};
+					
+					% Add vertical line at x=0
+					\addplot [
+					domain=15:18,
+					samples=2,
+					color=gray,
+					]
+					coordinates {(0,17.65) (0,20.7)};
+					
+					\addplot [
+					domain=-150:990,
+					samples=100,
+					color=gray,
+					]
+					{20.429 - 0.000068181818181745*x};
+				\end{axis}
+			\end{tikzpicture}
+		\end{figure}
+	\end{center}
+	\begin{minipage}{\textwidth}
+		\[ 
+		\azzurro{\boldsymbol{T_{1} = 18.00 \pm	0.01} }
+		\]
+	\end{minipage}
+	\begin{minipage}{\textwidth}
+		\[ 
+		\blu{\boldsymbol{T_{\text{eq}} = 20.43 \pm 0.01} }
+		\]
+	\end{minipage}
+	
+	
+	
+	
+	\subsection{Analisi errori}
 	
 	\newpage
 	\section{Confronto masse equivalenti e calori specifici}
@@ -584,7 +1209,7 @@
 	
 	\newpage
 	\section{Appendice}
-	\subsection{Calcolo \(T_{1}\) e \(T_{\text{eq}}\) con covarianze}
+	\subsection{Calcolo \(T_{1}\) e \(T_{\text{eq}}\) con covarianze} \label{covarianza}
 	Al fine di semplificare la ricerca di temperatura iniziale e temperatura di equilibrio è utile traslare i grafici portando l'istante d'immersione (prima del corpo poi della massa d'acqua) sullo \(0\). In questo modo le due temperature risultano essere semplicemente i termini noti delle rette di best-fit. \\
 	
 	Senza ricorrere alla traslazione è possibile ricavare i due valori trovando l'intersezione delle due rette di best-fit con la retta \(x=t_{\text{i}}\) istante di immersione. In questo caso però il punto dove le rette intersecano \(x=t_{\text{i}}\) dipenderà dai parametri delle due rette  \(\boldsymbol{a}\) e \(\boldsymbol{b}\), grandezze dipendenti. Perciò nell'errore da associare a \(T_{1}\) e \(T_{\text{eq}}\) entrerà in gioco anche la covarianza \(\sigma_{ab}\):
