@@ -108,13 +108,53 @@
 	%\textcolor{white}{.}
 	%\vfill
 	\newpage
-	\section*{Scopo dell’esperienza e aspettative teoriche}
+	\section*{Scopo dell’esperienza e premesse teoriche}
+	L'esperienza ha come obiettivi la misura del calore specifico \(c_{x}\) di un corpo metallico (un cilindro di acciaio) tramite l'utilizzo di un calorimetro e la taratura di quest'ultimo determinata dalla sua massa equivalente \(m_{e}\). \\
+	
+	\noindent
+	Il principio zero della termodinamica afferma che tra due corpi a temperature differenti posti a contatto avviene uno scambio di calore che ne fa variare le temperature portandoli ad una temperatura di equilibrio. Inoltre la quantità di calore ceduto dal corpo caldo è uguale al calore assoribito da quello freddo:
+	\[ 
+	|Q_{\text{ced}}| = |Q_{\text{ass}}|
+	\]
+	con il calore espresso come \(Q = mc\Delta T\): prodotto di massa del corpo, il suo calore specifico e la sua variazione di temperatura. 
+	
+	Nel nostro caso il calore ceduto è quello del sistema del calorimetro (calorimetro + acqua). Con temperatura del sistema acqua (\(m_{a}\)) + calorimetro \(T_{1}\) e temperatura \(T_{2}\) del corpo (\(m_{c}\))  Si può riscrivere la prima equazione come:
+	\begin{equation}\label{uno}
+	\sum m_{\text{cal}}c_{\text{cal}}(T_{\text{eq}} - T_{1}) +  m_{a}c_{a}(T_{\text{eq}} - T_{1}) = m_{c}c_{x}(T_{2} - T_{\text{eq}})
+	\end{equation}
+	Durante l'esperieza verrà calcolata la massa equivalente \(m_{e}\), massa d'acqua che assorbe lo stesso calore che viene sottratto dal sistema calorimetro. Per farlo si versa nel calorimetro una massa \(m'_{a}\) d'acqua calda (di cui è noto il calore specifico), riscrivendo l'equilibrio energetico si può determinare \(m_{e}\)
+	\[ 
+	m'_{a}c_{a}(T'_{2} - T'_{\text{eq}}) = (m_{a} + m_{e})(T_{\text{eq}})
+	\]
+	 \[ 
+	 m_{e}c_{a}(T'_{2} - T'_{\text{eq}}) +  m_{a}c_{a}(T'_{\text{eq}} - T'_{1}) = m_{a}c_{a}(T'_{\text{eq}} - T'_{1})
+	\]
+	 dove \(m_{e}\) è l'unica incognita. \\
+	 
+	
+	 \noindent
+	 Trovata la massa equivalente è possibile ricavare il calore specifico \(c_{x}\) del cilindro metallico sostituendo \(\sum m_{\text{cal}}c_{\text{cal}}\) con \(m_{e}c_{a}\) nella (\ref{uno}):
+	 \[ 
+	 m_{e}c_{a}(T_{\text{eq}} - T_{1}) +  m_{a}c_{a}(T_{\text{eq}} - T_{1}) = m_{c}c_{x}(T_{2} - T_{\text{eq}})
+	 \]
+	
+	
 	\section*{Strumentazione}
-	\paragraph{appunti su metodologia}
-	\begin{enumerate}
-		\item L'errore di misure derivate da somme e differenze sono tutti ricavati come semplici somme in quadratura.
-		\item Se l'errore associato a una misura derivata da una somma o una differenza era del tipo \(0.14\), \(0.014\), \(0.00\dots 014\) è sempre stato approssimato per eccesso. Si è preferito avere errori lievemente maggiori ma più realistici.
-	\end{enumerate}
+	\begin{table}[H] \centering
+		%\ra{1.3}
+		\begin{small}
+			\begin{tabular}{@{}lcr@{}}\toprule
+				\textbf{strumento}& \textbf{sensibilità}& \textbf{utilizzo} \\ \midrule
+				\textbf{Cronometro digitale}	&	\(0.01 \SI{}{\second}\) s &  misura tempo presa dati\\  \hdashline
+				\textbf{Termometro a mercurio (1)}	& \(0.01 ^\circ C\)	 &  misura temperatura acqua nel calorimetro\\  \hdashline
+				\textbf{Termometro a mercurio (2)}	& \(1 ^\circ C\)	 & misura temperatura ambiente  \\  \hdashline
+				\textbf{Termometro digitale}	& \(0.01 ^\circ C\)	 &  misura temperatura acqua calda nella borraccia (\(m'_{a}\))\\  \hdashline
+				\textbf{ilancia elettronica} & \(0.0001 \SI{}{\kilogram}\) & misura masse \\ \bottomrule
+			\end{tabular}
+		\end{small}
+		\caption{Misure preliminari (masse)}
+	\end{table}
+	Ovviamente è stato utilizzato un calorimetro e un bollitore per scaldare l'acqua (e il corpo a bagnomaria).
 	
 	\newpage
 	\section{Prima presa dati}
@@ -1443,8 +1483,8 @@
 					enlargelimits=0.1,
 					width=\textwidth,
 					height=7cm,
-					point meta min=17.9,
-					point meta max=20.4,
+					point meta min=15.48,
+					point meta max=19.4,
 					colormap={yellowred}{
 						color(0cm)=(cyan)
 						color(1cm)=(blue)
@@ -1463,7 +1503,6 @@
 						-300 15.74 0.01
 						-240 15.76 0.01
 						-180 15.77 0.01
-						-120  0.01
 						-60 15.83 0.01
 						0 15.85 0.01
 						5 15.86 0.01
@@ -1616,40 +1655,146 @@
 	\boxed{\boldsymbol{c'_{x} = (0.211 \pm 0.002) \frac{\text{cal}}{g ^\circ C}}}
 	\]
 	
-	\subsection{Confronto finale}
+	\newpage
+	\section{Confronto masse equivalenti e calori specifici}
 	Conclusa la seconda presa dati e ottenuti i valori del calore specifico del corpo e della massa equivalente del calorimetro si procede nella verifica che i risultati ottenuti nelle due prese dati siano compatibili tra di loro per scongiurare eventuali errori di procedura.
 	
 	\begin{table}[H] \centering
 		%\ra{1.3}
 		\begin{small}
-			\begin{tabular}{@{}lccc@{}}\toprule
-				\multicolumn{4}{c}{confronto prima e dopo correzioni} \\ \bottomrule
+			\begin{tabular}{@{}lccc@{}}
 				&  	\textbf{misura}	& \textbf{errore assoluto} & \textbf{errore relativo}   \\ \bottomrule
 				\(m_{e}\) & 0.22   & 0.02 & 9.1 \% \\ \hdashline
 				\(m'_{e}\) &0.206 & 0.001 & 0.5 \% \\ \midrule
 				\(c_{x}\) & 0.233 & 0.005& 2.1\%\\ \hdashline
 				\(c'_{x}\) &0.211 & 0.002& 0.9 \%\\ \bottomrule
 			\end{tabular}
-			\caption{misure per calore specifico}
+			\caption{confronto prima e dopo correzion}
 		\end{small}
 	\end{table}
 	
-Si evince che le correzioni hanno permesso una stima di massa equivalente e calore specifico molto più precisa
+Si evince che le correzioni hanno permesso una stima di massa equivalente e calore specifico molto più precisa; tuttavia potrebbero risultare non compatibili i valori. Per accertarsi che i risultati della prima presa dati siano consistenti con quelli della seconda si sottopongono questi ultimi a un test \(z\). Più precisamente si va a verificare che la differenza tra \(c_{x}\) e \(c'_{x}\) e tra \(m_{e}\) e \(m'_{e}\) sia compatibile con \(0\):
+\[ 
+z = \frac{|m_e-m'_e|}{\sqrt{\sigma_{m_e}^2 + \sigma_{m'_e}^2}}  \qquad \qquad \qquad z = \frac{|c_{x}-c'_{x}|}{\sqrt{\sigma_{c_{x}}^2 + \sigma_{c'_{x}}^2}}
+\]
+
+
+\vspace{0.4cm}
+\begin{center}
+	\begin{minipage}{0.48\textwidth}
+		\subsection{Test Z (\(m_{e}\))}
+		\paragraph{Ipotesi nulla} I valori \(c_{x}\) e \(c'_{x}\) sono compatibili con un livello di signifatività del 5\%
+		\begin{table}[H] \centering
+			%\ra{1.3}
+			\begin{small}
+				\begin{tabular}{@{}lcr@{}}\toprule
+					\multicolumn{3}{c}{\textbf{valori per test} \(\boldsymbol{z}\)}\\ \midrule
+					\textbf{Livello di significatività}		 &  \(\alpha\) &\(0.05\) \\  \hdashline
+					\(\boldsymbol{z}\) \textbf{osservato}		& \(z_{\text{oss}}\)  &\(0.7\)\\ \hdashline
+					\(\boldsymbol{z}\) \textbf{critico}		& \(z_{\text{cri}}\)  &\(1.96\)\\ 
+					\bottomrule
+				\end{tabular}
+			\end{small}
+			\caption{\(z\) \(m_{e} - m'_{e}\)}
+		\end{table}
+	\end{minipage}
+	\hspace{0.3cm}
+	\begin{minipage}{0.48\textwidth}
+		\subsection{Test Z (\(c_{x}\))}
+		\paragraph{Ipotesi nulla}  I valori \(m_{e}\) e \(m'_{e}\) sono compatibili con un livello di signifatività del 5\%
+		\begin{table}[H] \centering
+			%\ra{1.3}
+			\begin{small}
+				\begin{tabular}{@{}lcr@{}}\toprule
+					\multicolumn{3}{c}{\textbf{valori per test} \(\boldsymbol{z}\)}\\ \midrule
+					\textbf{Livello di significatività}		 &  \(\alpha\) &\(0.05\) \\  \hdashline
+					\(\boldsymbol{z}\) \textbf{osservato}		& \(z_{\text{oss}}\)  &\(4.0\)\\ \hdashline
+					\(\boldsymbol{z}\) \textbf{critico}		& \(z_{\text{cri}}\)  &\(1.96\)\\ 
+					\bottomrule
+				\end{tabular}
+			\end{small}
+			\caption{\(z\) \(c_{x} - c'_{x}\)}
+		\end{table}
+	\end{minipage}
+\end{center}
+
+	Accetto la prima ipotesi nulla e rifiuto la seconda: le masse equivalenti risultano essere compatibili (livello di significatività del 5\%) mentre i calori speifici non lo sono. Una spiegazione plausibile è una prima presa dati imprecisa e più grossolana rispetto alla seconda che ha fornito un valore di \(c_{x}\) con errore di 0.9\% contro il 2.1\% della prima. Per accertarsi di quale calore specifico sia il più accurato li si confronta con il calore specifico dell'acciaio fornitoci dalla letteratura:
+	\[ 
+	c_{x_{\text{lett}}} = 0.215 \frac{\text{cal}}{g ^\circ C}
+	\]
+	
+	\subsection{Test Z con calore specifico teorico}
+	\paragraph{Iptesi nulla} Il calore specifico sperimentale (prima \(c_{x}\) e poi \(c'_{x}\)) è compatibile con il calore specifico fornito dalla letteratura
+	
+	\begin{center}
+		\begin{minipage}{0.48\textwidth}
+			\begin{table}[H] \centering
+				%\ra{1.3}
+				\begin{small}
+					\begin{tabular}{@{}lcr@{}}\toprule
+						\multicolumn{3}{c}{\textbf{valori per test} \(\boldsymbol{z}\)}\\ \midrule
+						\textbf{Livello di significatività}		 &  \(\alpha\) &\(0.05\) \\  \hdashline
+						\(\boldsymbol{z}\) \textbf{osservato}		& \(z_{\text{oss}}\)  &\(1.82\)\\ \hdashline
+						\(\boldsymbol{z}\) \textbf{critico}		& \(z_{\text{cri}}\)  &\(1.96\)\\ 
+						\bottomrule
+					\end{tabular}
+				\end{small}
+				\caption{\(z\) \(c_{x} - c_{x_{\text{lett}}}\)}
+			\end{table}
+		\end{minipage}
+		\hspace{0.3cm}
+		\begin{minipage}{0.48\textwidth}
+			\begin{table}[H] \centering
+				%\ra{1.3}
+				\begin{small}
+					\begin{tabular}{@{}lcr@{}}\toprule
+						\multicolumn{3}{c}{\textbf{valori per test} \(\boldsymbol{z}\)}\\ \midrule
+						\textbf{Livello di significatività}		 &  \(\alpha\) &\(0.05\) \\  \hdashline
+						\(\boldsymbol{z}\) \textbf{osservato}		& \(z_{\text{oss}}\)  &\(3.8\)\\ \hdashline
+						\(\boldsymbol{z}\) \textbf{critico}		& \(z_{\text{cri}}\)  &\(1.96\)\\ 
+						\bottomrule
+					\end{tabular}
+				\end{small}
+				\caption{\(z\) \(c'_{x} - c_{x_{\text{lett}}}\)}
+			\end{table}
+		\end{minipage}
+	\end{center}
+	
+	Come ci si poteva aspettare il primo calore specifico non risulta compatibile con quello teorico, mentre il secondo, frutto della presa dati più precisa, risulta compatibile (con un livello di significatività del 5\%). L'esito positivo del secondo test \(z\) evidenzia, oltre alla già verificata precisione, l'accuratezza dei valori ottenuti nella seconda procedura (rispetto alla prima). 
+	
+ 
+
 	
 	
-	
-	
-	
-	\newpage
-	\section{Confronto masse equivalenti e calori specifici}
-	
-	\newpage
 	\section{Errori sistematici}
+	Per accertarsi che nessun fattore esterno abbia influenzato in modo significativo le prese dati si studiano i contributi energetici dell'agitatore e dell'ambiente esterno nel quale viene dispersa parte del calore.
+	
 	\subsection{Influenza agitatore}
+	
+	
+	Il motorino elettrico che muove l'agitatore eroga una potenza di \(\SI{3}{\watt}\). Se si ipotizzasse per assurdo che tutta l’energia elettrica venisse convertita in calore, l'aumento di temperatura causato dal movimento dell’agitatore in un intervallo di tempo sarebbe:
+	\[ 
+	P = \frac{Q_{\text{ass}}}{\Delta t} = \frac{(m_{a} + m_{e})c_{a}\Delta T}{\Delta t} \quad \to \quad \Delta T = \frac{P\Delta t}{(m_{a} + m_{e})c_{a}}
+	\]
+	In un intervallo di tempo pari a circa \(1800\) secondi si ha una variazione di temperatura pari a 
+	\[ 
+	\Delta T = 0.45 ^\circ C 
+	\]
+	pari a crica 
+	\[
+	0.007 \frac{^\circ C}{60 s}
+	\]
+	Una variazione di \(0.007 ^\circ C\) al minuto non è apprezzabile dal termometro utilizzato nel calorimetro (sensibilità \(0.01^\circ C\))
 	\subsection{Calore disperso}
 	
 	\newpage
 	\section{Appendice}
+	\subsection{Calcoli e approssimazioni ricorrenti}
+	\begin{enumerate}
+		\item L'errore di misure derivate da somme e differenze sono tutti ricavati come semplici somme in quadratura.
+		\item Se l'errore associato a una misura derivata da una somma o una differenza era del tipo \(0.14\), \(0.014\), \(0.00\dots 014\) è sempre stato approssimato per eccesso. Si è preferito avere errori lievemente maggiori ma più realistici.
+	\end{enumerate}
+	
 	\subsection{Calcolo \(T_{1}\) e \(T_{\text{eq}}\) con covarianze} \label{covarianza}
 	Al fine di semplificare la ricerca di temperatura iniziale e temperatura di equilibrio è utile traslare i grafici portando l'istante d'immersione (prima del corpo poi della massa d'acqua) sullo \(0\). In questo modo le due temperature risultano essere semplicemente i termini noti delle rette di best-fit. \\
 	
@@ -1659,8 +1804,7 @@ Si evince che le correzioni hanno permesso una stima di massa equivalente e calo
 	\]
 	con tutte le derivate parziali calcolate in 
 	
-	\newpage
-	\section{temp}
+	\subsection{Errori associati a \(c_{x}\) e \(m_{e}\)} 
 	\[ 
 	m_{e} = \frac{m'_{a}\left(T'_{2} - T'_{\text{eq}}\right)}{T'_{\text{eq}} - T'_{1}} - m_{a} =  \frac{m'_{a}\Delta T'_{2e}}{\Delta T'_{e1}} - m_{a}
 	\] \label{sigma me}
@@ -1668,7 +1812,7 @@ Si evince che le correzioni hanno permesso una stima di massa equivalente e calo
 		\sigma_{m_e} &= \sqrt{\left(\frac{\partial m_{e}}{\partial m'_{a}}\right)^2\sigma_{m'_{a}}^2 + \left(\frac{\partial m_{e}}{\partial\Delta T_{2e}}\right)^2\sigma_{\Delta T_{2e}}^2 + \left(\frac{\partial m_{e}}{\partial\Delta T_{e1}}\right)^2\sigma_{\Delta T_{e1}}^2 + \left(\frac{\partial m_{e}}{\partial m_{a}}\right)^2\sigma^2_{m_{a}}} \\
 					 &= \sqrt{\left(\frac{\Delta T_{2e}}{\Delta T_{e1}}\right)^2\sigma_{m'_{a}}^2 + \left(\frac{m'_{a}}{\Delta T_{e1}}\right)^2\sigma^2_{\Delta T_{2e}} + \left(\frac{m'_{a}\Delta T_{2e}}{\Delta T_{e1}^2}\right)^2\sigma^2_{\Delta T_{e1}}+\sigma^2_{m_{a}}}
 	\end{align*}
-	\vspace{5cm}
+	\vspace{1cm}
 	
 	\[ 
 	c_{x} = \frac{(m_{e} + m_{a})c_{a}(T_{e} - T_{1})}{m_{c}(T_{2}-T_{e})} = \frac{Mc_{a}}{m_{c}}\frac{\Delta T_{e1}}{\Delta T_{2e}}

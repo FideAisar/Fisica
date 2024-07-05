@@ -1,35 +1,70 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.31)  3 JUL 2024 14:47
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  5 JUL 2024 15:55
+ restricted system commands enabled.
 **relazione.tex
 (./relazione.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
-(/usr/share/texmf-dist/tex/latex/base/article.cls
+Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/fide/.texlive/texmf-var/luate
+x-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lu
+a".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/fide/.texlive/texmf-var/luate
+x-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texmf-dist/
+tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
-)
-\c@part=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
+luaotfload | db : Font names database loaded from /home/fide/.texlive/texmf-var/
+luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
-\bibindent=\dimen140
+\bibindent=\dimen139
 )
 (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks17
-\pgfutil@tempdima=\dimen141
-\pgfutil@tempdimb=\dimen142
+\pgfutil@tempdima=\dimen140
+\pgfutil@tempdimb=\dimen141
 )
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box51
@@ -57,13 +92,13 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: luatex.def on input line 107.
 
-(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(/usr/share/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen143
-\Gin@req@width=\dimen144
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
 )
 (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
@@ -77,41 +112,41 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 x
 \pgfkeys@tmptoks=\toks21
 ))
-\pgf@x=\dimen145
-\pgf@y=\dimen146
-\pgf@xa=\dimen147
-\pgf@ya=\dimen148
-\pgf@xb=\dimen149
-\pgf@yb=\dimen150
-\pgf@xc=\dimen151
-\pgf@yc=\dimen152
-\pgf@xd=\dimen153
-\pgf@yd=\dimen154
+\pgf@x=\dimen144
+\pgf@y=\dimen145
+\pgf@xa=\dimen146
+\pgf@ya=\dimen147
+\pgf@xb=\dimen148
+\pgf@yb=\dimen149
+\pgf@xc=\dimen150
+\pgf@yc=\dimen151
+\pgf@xd=\dimen152
+\pgf@yd=\dimen153
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count196
-\c@pgf@countb=\count197
-\c@pgf@countc=\count198
-\c@pgf@countd=\count199
+\c@pgf@counta=\count194
+\c@pgf@countb=\count195
+\c@pgf@countc=\count196
+\c@pgf@countd=\count197
 \t@pgf@toka=\toks22
 \t@pgf@tokb=\toks23
 \t@pgf@tokc=\toks24
-\pgf@sys@id@count=\count266
+\pgf@sys@id@count=\count198
  (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-luatex.def
 
-(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count267
-\pgfsyssoftpath@bigbuffer@items=\count268
+\pgfsyssoftpath@smallbuffer@items=\count199
+\pgfsyssoftpath@bigbuffer@items=\count266
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -122,7 +157,7 @@ Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
+Package xcolor Info: Driver file: luatex.def on input line 274.
 
 (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
@@ -141,8 +176,8 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen155
-\pgfmath@count=\count269
+\pgfmath@dimen=\dimen154
+\pgfmath@count=\count267
 \pgfmath@box=\box52
 \pgfmath@toks=\toks25
 \pgfmath@stack@operand=\toks26
@@ -160,52 +195,52 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count270
+\c@pgfmathroundto@lastzeros=\count268
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen156
-\pgf@picmaxx=\dimen157
-\pgf@picminy=\dimen158
-\pgf@picmaxy=\dimen159
-\pgf@pathminx=\dimen160
-\pgf@pathmaxx=\dimen161
-\pgf@pathminy=\dimen162
-\pgf@pathmaxy=\dimen163
-\pgf@xx=\dimen164
-\pgf@xy=\dimen165
-\pgf@yx=\dimen166
-\pgf@yy=\dimen167
-\pgf@zx=\dimen168
-\pgf@zy=\dimen169
+\pgf@picminx=\dimen155
+\pgf@picmaxx=\dimen156
+\pgf@picminy=\dimen157
+\pgf@picmaxy=\dimen158
+\pgf@pathminx=\dimen159
+\pgf@pathmaxx=\dimen160
+\pgf@pathminy=\dimen161
+\pgf@pathmaxy=\dimen162
+\pgf@xx=\dimen163
+\pgf@xy=\dimen164
+\pgf@yx=\dimen165
+\pgf@yy=\dimen166
+\pgf@zx=\dimen167
+\pgf@zy=\dimen168
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen170
-\pgf@path@lasty=\dimen171
+\pgf@path@lastx=\dimen169
+\pgf@path@lasty=\dimen170
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen172
-\pgf@shorten@start@additional=\dimen173
+\pgf@shorten@end@additional=\dimen171
+\pgf@shorten@start@additional=\dimen172
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count271
+\pgf@picture@serial@count=\count269
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen174
+\pgflinewidth=\dimen173
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
 ex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen175
-\pgf@pt@y=\dimen176
-\pgf@pt@temp=\dimen177
+\pgf@pt@x=\dimen174
+\pgf@pt@y=\dimen175
+\pgf@pt@temp=\dimen176
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -217,13 +252,13 @@ x
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen178
+\pgfarrowsep=\dimen177
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen179
-\pgf@sys@shading@range@num=\count272
-\pgf@shadingcount=\count273
+\pgf@max=\dimen178
+\pgf@sys@shading@range@num=\count270
+\pgf@shadingcount=\count271
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -252,8 +287,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen180
-\pgf@nodesepend=\dimen181
+\pgf@nodesepstart=\dimen179
+\pgf@nodesepend=\dimen180
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
@@ -265,8 +300,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen182
-\pgffor@skip=\dimen183
+\pgffor@iter=\dimen181
+\pgffor@skip=\dimen182
 \pgffor@stack=\toks28
 \pgffor@toks=\toks29
 ))
@@ -276,32 +311,32 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count274
-\pgfplotmarksize=\dimen184
+\pgf@plot@mark@count=\count272
+\pgfplotmarksize=\dimen183
 )
-\tikz@lastx=\dimen185
-\tikz@lasty=\dimen186
-\tikz@lastxsaved=\dimen187
-\tikz@lastysaved=\dimen188
-\tikz@lastmovetox=\dimen189
-\tikz@lastmovetoy=\dimen190
-\tikzleveldistance=\dimen191
-\tikzsiblingdistance=\dimen192
+\tikz@lastx=\dimen184
+\tikz@lasty=\dimen185
+\tikz@lastxsaved=\dimen186
+\tikz@lastysaved=\dimen187
+\tikz@lastmovetox=\dimen188
+\tikz@lastmovetoy=\dimen189
+\tikzleveldistance=\dimen190
+\tikzsiblingdistance=\dimen191
 \tikz@figbox=\box58
 \tikz@figbox@bg=\box59
 \tikz@tempbox=\box60
 \tikz@tempbox@bg=\box61
-\tikztreelevel=\count275
-\tikznumberofchildren=\count276
-\tikznumberofcurrentchild=\count277
-\tikz@fig@count=\count278
+\tikztreelevel=\count273
+\tikznumberofchildren=\count274
+\tikznumberofcurrentchild=\count275
+\tikz@fig@count=\count276
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count279
-\pgfmatrixcurrentcolumn=\count280
-\pgf@matrix@numberofcolumns=\count281
+\pgfmatrixcurrentrow=\count277
+\pgfmatrixcurrentcolumn=\count278
+\pgf@matrix@numberofcolumns=\count279
 )
-\tikz@expandcount=\count282
+\tikz@expandcount=\count280
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
@@ -312,12 +347,14 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
+\pgfplots@luabackend@table=\catcodetable14
 \t@pgfplots@toka=\toks30
 \t@pgfplots@tokb=\toks31
 \t@pgfplots@tokc=\toks32
-\pgfplots@tmpa=\dimen193
-\c@pgfplots@coordindex=\count283
-\c@pgfplots@scanlineindex=\count284
+\pgfplots@tmpa=\dimen192
+\c@pgfplots@coordindex=\count281
+\c@pgfplots@scanlineindex=\count282
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
@@ -330,33 +367,39 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@tokc=\toks35
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
-gfutil-common-lists.tex))
-(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+gfutil-common-lists.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/luamath/pgflibraryluamath.code
+.tex)
+Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.1
+0 is up-to-date
+) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+Package pgfplots info on input line 82: Found new luatex: initializing lua comm
+ands instead of write18 (shell-escape)
+
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
 .code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
 ext.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
 x
-\c@pgfplotsarray@tmp=\count285
+\c@pgfplotsarray@tmp=\count283
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
 ex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
 ex
-\c@pgfplotstable@counta=\count286
+\c@pgfplotstable@counta=\count284
 \t@pgfplotstable@a=\toks36
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
 x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
-(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex))
-(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
 .code.tex
-\c@pgfplotslibrarysurf@no=\count287
+\c@pgfplotslibrarysurf@no=\count285
 
 (/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
-pgfsys-pdftex.def)))
+pgfsys-luatex.def)))
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
@@ -372,14 +415,14 @@ pgfsys-pdftex.def)))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen194
-\pgfdecoratedremainingdistance=\dimen195
-\pgfdecoratedinputsegmentcompleteddistance=\dimen196
-\pgfdecoratedinputsegmentremainingdistance=\dimen197
-\pgf@decorate@distancetomove=\dimen198
-\pgf@decorate@repeatstate=\count288
-\pgfdecorationsegmentamplitude=\dimen199
-\pgfdecorationsegmentlength=\dimen256
+\pgfdecoratedcompleteddistance=\dimen193
+\pgfdecoratedremainingdistance=\dimen194
+\pgfdecoratedinputsegmentcompleteddistance=\dimen195
+\pgfdecoratedinputsegmentremainingdistance=\dimen196
+\pgf@decorate@distancetomove=\dimen197
+\pgf@decorate@repeatstate=\count286
+\pgfdecorationsegmentamplitude=\dimen198
+\pgfdecorationsegmentlength=\dimen199
 )
 \tikz@lib@dec@box=\box62
 )
@@ -393,13 +436,13 @@ decorations.pathreplacing.code.tex
 ons.pathreplacing.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua
 .code.tex)
-\pgfplots@numplots=\count289
-\pgfplots@xmin@reg=\dimen257
-\pgfplots@xmax@reg=\dimen258
-\pgfplots@ymin@reg=\dimen259
-\pgfplots@ymax@reg=\dimen260
-\pgfplots@zmin@reg=\dimen261
-\pgfplots@zmax@reg=\dimen262
+\pgfplots@numplots=\count287
+\pgfplots@xmin@reg=\dimen256
+\pgfplots@xmax@reg=\dimen257
+\pgfplots@ymin@reg=\dimen258
+\pgfplots@ymax@reg=\dimen259
+\pgfplots@zmin@reg=\dimen260
+\pgfplots@zmax@reg=\dimen261
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 plotmarks.code.tex
@@ -444,6 +487,7 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks37
 )
 (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
@@ -452,9 +496,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count290
+\c@svg@param@lastpage=\count288
 \svg@box=\box63
-\c@svg@param@currpage=\count291
+\c@svg@param@currpage=\count289
 )
 (/usr/share/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
@@ -476,24 +520,24 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks37
-\ex@=\dimen263
+\@emptytoks=\toks38
+\ex@=\dimen262
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen264
+\pmbraise@=\dimen263
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count292
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count293
-\leftroot@=\count294
+\inf@bad=\count290
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count291
+\leftroot@=\count292
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count295
-\DOTSCASE@=\count296
+\classnum@=\count293
+\DOTSCASE@=\count294
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -503,43 +547,43 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen265
+\big@size=\dimen264
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count297
+\macc@depth=\count295
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count298
+\c@MaxMatrixCols=\count296
 \dotsspace@=\muskip16
-\c@parentequation=\count299
-\dspbrk@lvl=\count300
-\tag@help=\toks38
-\row@=\count301
-\column@=\count302
-\maxfields@=\count303
-\andhelp@=\toks39
-\eqnshift@=\dimen266
-\alignsep@=\dimen267
-\tagshift@=\dimen268
-\tagwidth@=\dimen269
-\totwidth@=\dimen270
-\lineht@=\dimen271
-\@envbody=\toks40
+\c@parentequation=\count297
+\dspbrk@lvl=\count298
+\tag@help=\toks39
+\row@=\count299
+\column@=\count300
+\maxfields@=\count301
+\andhelp@=\toks40
+\eqnshift@=\dimen265
+\alignsep@=\dimen266
+\tagshift@=\dimen267
+\tagwidth@=\dimen268
+\totwidth@=\dimen269
+\lineht@=\dimen270
+\@envbody=\toks41
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks41
+\mathdisplay@stack=\toks42
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen272
+\col@sep=\dimen271
 \ar@mcellbox=\box66
-\extrarowheight=\dimen273
-\NC@list=\toks42
+\extrarowheight=\dimen272
+\NC@list=\toks43
 \extratabsurround=\skip53
 \backup@length=\skip54
 \ar@cellbox=\box67
@@ -549,8 +593,8 @@ Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
 
 (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks43
-\verbatim@line=\toks44
+\every@verbatim=\toks44
+\verbatim@line=\toks45
 \verbatim@in@stream=\read3
 )
 (/usr/share/texmf-dist/tex/latex/environ/environ.sty
@@ -558,17 +602,17 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 )
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count304
+\etb@tempcnta=\count302
 )
 \tcb@titlebox=\box68
 \tcb@upperbox=\box69
 \tcb@lowerbox=\box70
 \tcb@phantombox=\box71
-\c@tcbbreakpart=\count305
-\c@tcblayer=\count306
-\c@tcolorbox@number=\count307
+\c@tcbbreakpart=\count303
+\c@tcblayer=\count304
+\c@tcolorbox@number=\count305
 \l__tcobox_tmpa_box=\box72
-\l__tcobox_tmpa_dim=\dimen274
+\l__tcobox_tmpa_dim=\dimen273
 \tcb@temp=\box73
 \tcb@temp=\box74
 \tcb@temp=\box75
@@ -594,9 +638,10 @@ Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-02-20 L3 programming layer (loader) 
 
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count308
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-02-20 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count306
+Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box78
 ))
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -604,15 +649,15 @@ Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
 )
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count309
-\calc@Bcount=\count310
-\calc@Adimen=\dimen275
-\calc@Bdimen=\dimen276
+\calc@Acount=\count307
+\calc@Bcount=\count308
+\calc@Adimen=\dimen274
+\calc@Bdimen=\dimen275
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count311
+\calc@Ccount=\count309
 \calc@Cskip=\skip57
 )
 (/usr/share/texmf-dist/tex/latex/chemgreek/chemgreek.sty
@@ -621,10 +666,10 @@ Package: xparse 2024-02-18 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count312
-\g__chemgreek_tmpa_int=\count313
+\l__chemgreek_tmpa_int=\count310
+\g__chemgreek_tmpa_int=\count311
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count314
+\l__mhchem_ce_distanceFromLastComma_int=\count312
 \__mhchem_arrow_extPgfLength_skip=\skip58
 \mhchem@minispace@tmp=\skip59
 \mhchem@minibackspace@tmp=\skip60
@@ -635,11 +680,11 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
 \mhchem@smallbondwidth=\skip65
 \mhchem@bondtmp@minussidebearingleft=\skip66
 \mhchem@bondtmp@minussidebearingright=\skip67
-\l__mhchem_option_version_int=\count315
-\mhchem@option@minusmathsidebearingleft=\dimen277
-\mhchem@option@minusmathsidebearingright=\dimen278
-\mhchem@option@minustextsidebearingleft=\dimen279
-\mhchem@option@minustextsidebearingright=\dimen280
+\l__mhchem_option_version_int=\count313
+\mhchem@option@minusmathsidebearingleft=\dimen276
+\mhchem@option@minusmathsidebearingright=\dimen277
+\mhchem@option@minustextsidebearingleft=\dimen278
+\mhchem@option@minustextsidebearingright=\dimen279
 )
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -647,27 +692,27 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count316
-\Gm@cntv=\count317
-\c@Gm@tempcnt=\count318
-\Gm@bindingoffset=\dimen281
-\Gm@wd@mp=\dimen282
-\Gm@odd@mp=\dimen283
-\Gm@even@mp=\dimen284
-\Gm@layoutwidth=\dimen285
-\Gm@layoutheight=\dimen286
-\Gm@layouthoffset=\dimen287
-\Gm@layoutvoffset=\dimen288
-\Gm@dimlist=\toks45
+\Gm@cnth=\count314
+\Gm@cntv=\count315
+\c@Gm@tempcnt=\count316
+\Gm@bindingoffset=\dimen280
+\Gm@wd@mp=\dimen281
+\Gm@odd@mp=\dimen282
+\Gm@even@mp=\dimen283
+\Gm@layoutwidth=\dimen284
+\Gm@layoutheight=\dimen285
+\Gm@layouthoffset=\dimen286
+\Gm@layoutvoffset=\dimen287
+\Gm@dimlist=\toks46
 )
 (/usr/share/texmf-dist/tex/latex/fourier/fourier.sty
 Package: fourier 2022/02/05 2.3 fourier-GUTenberg package
-Now handling font encoding FML ...
-... no UTF-8 mapping file for font encoding FML
-Now handling font encoding FMS ...
-... no UTF-8 mapping file for font encoding FMS
-Now handling font encoding FMX ...
-... no UTF-8 mapping file for font encoding FMX
+
+
+Package fourier Warning: Please consider loading "fourier-otf.sty" instead of
+(fourier)                "fourier.sty" with Unicode engines LuaTeX or XeTeX,
+(fourier)                so that Type1 fonts get replaced by OpenType fonts.
+(fourier)                See file "Erewhon-Math.pdf" for more information.
 
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -788,54 +833,54 @@ Package `xymtex' (ver5.01) <March 10, 2013> [SF]
 xymtex.sty ver5.01 (for LaTeX2e) 2013/03/10[SF]
 (/usr/share/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count319
-\d@lta=\count320
-\@delta=\dimen289
-\@@delta=\dimen290
-\@gridcnt=\count321
-\@joinkind=\count322
-\@dotgap=\dimen291
-\@ddotgap=\dimen292
-\@x@diff=\count323
-\@y@diff=\count324
-\x@diff=\dimen293
-\y@diff=\dimen294
+\@@multicnt=\count317
+\d@lta=\count318
+\@delta=\dimen288
+\@@delta=\dimen289
+\@gridcnt=\count319
+\@joinkind=\count320
+\@dotgap=\dimen290
+\@ddotgap=\dimen291
+\@x@diff=\count321
+\@y@diff=\count322
+\x@diff=\dimen292
+\y@diff=\dimen293
 \@dotbox=\box79
-\num@segments=\count325
-\num@segmentsi=\count326
+\num@segments=\count323
+\num@segmentsi=\count324
 \@datafile=\read4
 ) (/usr/share/texmf-dist/tex/latex/xymtex/base/chemstr.sty
 XyMTeX for Drawing Chemical Structural Formulas. Version 5.01
  -- Released June 19, 2013 by Shinsaku Fujita
 XyMTeX Macro File `chemstr' (ver5.01) <June 19, 2013> [SF]
-\@tempcntXa=\count327
-\@tempcntYa=\count328
-\@tempcntz=\count329
-\@tempcntXb=\count330
-\@tempcntYb=\count331
-\@tempcntzz=\count332
-\@tempcntXc=\count333
-\@tempcntYc=\count334
-\@tempcntzzz=\count335
-\@tempcntXd=\count336
-\@tempcntYd=\count337
-\@tempcntzzzz=\count338
-\@dimtempa=\dimen295
-\@tempdimd=\dimen296
-\@tempdime=\dimen297
-\@cnttempa=\count339
-\@cnttempb=\count340
-\noshift=\count341
-\shifti=\count342
-\shiftii=\count343
-\shiftiii=\count344
-\@tmpaa=\count345
-\yl@xdiff=\count346
-\yl@ydiff=\count347
-\yl@shiftii=\count348
-\yl@shifti=\count349
-\x@ryl=\count350
-\y@ryl=\count351
+\@tempcntXa=\count325
+\@tempcntYa=\count326
+\@tempcntz=\count327
+\@tempcntXb=\count328
+\@tempcntYb=\count329
+\@tempcntzz=\count330
+\@tempcntXc=\count331
+\@tempcntYc=\count332
+\@tempcntzzz=\count333
+\@tempcntXd=\count334
+\@tempcntYd=\count335
+\@tempcntzzzz=\count336
+\@dimtempa=\dimen294
+\@tempdimd=\dimen295
+\@tempdime=\dimen296
+\@cnttempa=\count337
+\@cnttempb=\count338
+\noshift=\count339
+\shifti=\count340
+\shiftii=\count341
+\shiftiii=\count342
+\@tmpaa=\count343
+\yl@xdiff=\count344
+\yl@ydiff=\count345
+\yl@shiftii=\count346
+\yl@shifti=\count347
+\x@ryl=\count348
+\y@ryl=\count349
 ) (/usr/share/texmf-dist/tex/latex/xymtex/base/carom.sty
 XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
  -- Released October 01, 2010 by Shinsaku Fujita
@@ -884,7 +929,7 @@ XyMTeX Macro File `polymers' (ver5.00) <October 01, 2010> [SF]
 XyMTeX for Drawing Chemical Structural Formulas. Version 5.01
  -- Released July 20, 2013 by Shinsaku Fujita
 XyMTeX Macro File `methylen' (ver5.01) <July 20, 2013> [SF]
-\test@termcnt=\count352
+\test@termcnt=\count350
 ) (/usr/share/texmf-dist/tex/latex/xymtex/base/fusering.sty
 XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
  -- Released October 01, 2010 by Shinsaku Fujita
@@ -893,11 +938,11 @@ XyMTeX Macro File `fusering' (ver5.00) <October 01, 2010> [SF]
 XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
  -- Released October 01, 2010 by Shinsaku Fujita
 XyMTeX Macro File `sizeredc' (ver5.00) <October 01, 2010> [SF]
-\@tempcntx=\count353
-\@tempcnty=\count354
-\@tempcntz=\count355
-\@xArg=\count356
-\@yArg=\count357
+\@tempcntx=\count351
+\@tempcnty=\count352
+\@tempcntz=\count353
+\@xArg=\count354
+\@yArg=\count355
 ) (/usr/share/texmf-dist/tex/latex/xymtex/base/steroid.sty
 XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
  -- Released October 01, 2010 by Shinsaku Fujita
@@ -917,25 +962,25 @@ XyMTeX Macro File `assurelatexmode' (ver5.01) <May 27, 2013> [SF]
 ) (/usr/share/texmf-dist/tex/latex/xymtex/chemist/chemist.sty
 Package `chemist' (ver5.01) <June 6, 2013> [SF]
 chemist.sty ver5.01 (for LaTeX2e) 2013/06/06[SF]
-\c@compd=\count358
-\c@deriv=\count359
-\reactarrowsep=\dimen298
-\verbatimleftmargin=\dimen299
-\verbatimbaselineskip=\dimen300
-\hsgr@d=\dimen301
-\vsgr@d=\dimen302
-\vwgr@d=\dimen303
-\hwgr@d=\dimen304
-\vsepgr@d=\dimen305
-\hsepgr@d=\dimen306
-\nrep=\count360
-\nrepmax=\count361
-\ybaselineshift=\dimen307
-\tbaselineshift=\dimen308
-\@savetbaselineshift=\dimen309
+\c@compd=\count356
+\c@deriv=\count357
+\reactarrowsep=\dimen297
+\verbatimleftmargin=\dimen298
+\verbatimbaselineskip=\dimen299
+\hsgr@d=\dimen300
+\vsgr@d=\dimen301
+\vwgr@d=\dimen302
+\hwgr@d=\dimen303
+\vsepgr@d=\dimen304
+\hsepgr@d=\dimen305
+\nrep=\count358
+\nrepmax=\count359
+\ybaselineshift=\dimen306
+\tbaselineshift=\dimen307
+\@savetbaselineshift=\dimen308
 LaTeX Info: Redefining \rm on input line 788.
 LaTeX Info: Redefining \mathversion on input line 892.
-\c@mv@chem=\count362
+\c@mv@chem=\count360
 LaTeX Font Info:    Encoding `FML' has changed to `OT1' for symbol font
 (Font)              `letters' in the math version `chem' on input line 965.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `chem'
@@ -948,7 +993,7 @@ LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
 (Font)              `symbols' in the math version `chem' on input line 965.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `chem'
 (Font)                  FMS/futm/m/n --> OMS/cmsy/m/n on input line 965.
-\c@mv@boldchem=\count363
+\c@mv@boldchem=\count361
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
 (Font)              `operators' in the math version `boldchem' on input line 96
 5.
@@ -964,7 +1009,7 @@ LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
 
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldchem'
 (Font)                  FMS/futm/m/n --> OMS/cmsy/b/n on input line 965.
-\TestCount=\count364
+\TestCount=\count362
 (/usr/share/texmf-dist/tex/latex/xymtex/chemist/assurechemist.sty
 Part of XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
  -- Released October 01, 2010 by Shinsaku Fujita
@@ -978,18 +1023,18 @@ Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen310
-\captionmargin=\dimen311
-\caption@leftmargin=\dimen312
-\caption@rightmargin=\dimen313
-\caption@width=\dimen314
-\caption@indent=\dimen315
-\caption@parindent=\dimen316
-\caption@hangindent=\dimen317
+\caption@tempdima=\dimen309
+\captionmargin=\dimen310
+\caption@leftmargin=\dimen311
+\caption@rightmargin=\dimen312
+\caption@width=\dimen313
+\caption@indent=\dimen314
+\caption@parindent=\dimen315
+\caption@hangindent=\dimen316
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count365
-\c@continuedfloat=\count366
+\c@caption@flags=\count363
+\c@continuedfloat=\count364
 )
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
@@ -997,25 +1042,25 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip69
 \LTpre=\skip70
 \LTpost=\skip71
-\LTchunksize=\count367
-\LTcapwidth=\dimen318
+\LTchunksize=\count365
+\LTcapwidth=\dimen317
 \LT@head=\box81
 \LT@firsthead=\box82
 \LT@foot=\box83
 \LT@lastfoot=\box84
 \LT@gbox=\box85
-\LT@cols=\count368
-\LT@rows=\count369
-\c@LT@tables=\count370
-\c@LT@chunks=\count371
-\LT@p@ftn=\toks46
+\LT@cols=\count366
+\LT@rows=\count367
+\c@LT@tables=\count368
+\c@LT@chunks=\count369
+\LT@p@ftn=\toks47
 )
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count372
-\float@exts=\toks47
+\c@float@type=\count370
+\float@exts=\toks48
 \float@box=\box86
-\@float@everytoks=\toks48
+\@float@everytoks=\toks49
 \@floatcapt=\box87
 )
 (/usr/share/texmf-dist/tex/latex/attachfile/attachfile.sty
@@ -1051,26 +1096,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count373
+\c@section@level=\count371
 )
-\@linkdim=\dimen319
-\Hy@linkcounter=\count374
-\Hy@pagecounter=\count375
+\@linkdim=\dimen318
+\Hy@linkcounter=\count372
+\Hy@pagecounter=\count373
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
 (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count376
+\Hy@SavedSpaceFactor=\count374
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4179.
 Package hyperref Info: Link nesting OFF on input line 4184.
@@ -1079,14 +1120,14 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count377
+\c@Hy@tempcnt=\count375
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen320
+\XeTeXLinkMargin=\dimen319
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1095,9 +1136,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count378
-\Field@Width=\dimen321
-\Fld@charsize=\dimen322
+\Fld@menulength=\count376
+\Field@Width=\dimen320
+\Fld@charsize=\dimen321
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -1110,22 +1151,26 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count379
-\c@Item=\count380
-\c@Hfootnote=\count381
+\Hy@abspage=\count377
+\c@Item=\count378
+\c@Hfootnote=\count379
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hluatex.
 
-(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+(/usr/share/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-01-20 v7.01h Hyperref driver for luaTeX
 
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
 (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count382
-\c@bookmark@seq@number=\count383
+\Fld@listcount=\count380
+\c@bookmark@seq@number=\count381
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1138,7 +1183,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip72
 )
-\c@atfi@tmp=\count384
+\c@atfi@tmp=\count382
 \atfi@appearancewidth=\skip73
 \atfi@appearanceheight=\skip74
 \atfi@appearancedepth=\skip75
@@ -1147,9 +1192,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip76
-\multirow@cntb=\count385
+\multirow@cntb=\count383
 \multirow@dima=\skip77
-\bigstrutjot=\dimen323
+\bigstrutjot=\dimen322
 )
 (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -1160,126 +1205,126 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 (/usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
 Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
-\l__tblr_a_int=\count386
-\l__tblr_c_int=\count387
-\l__tblr_r_int=\count388
-\l__tblr_d_dim=\dimen324
-\l__tblr_h_dim=\dimen325
-\l__tblr_o_dim=\dimen326
-\l__tblr_p_dim=\dimen327
-\l__tblr_q_dim=\dimen328
-\l__tblr_r_dim=\dimen329
-\l__tblr_s_dim=\dimen330
-\l__tblr_t_dim=\dimen331
-\l__tblr_v_dim=\dimen332
-\l__tblr_w_dim=\dimen333
+\l__tblr_a_int=\count384
+\l__tblr_c_int=\count385
+\l__tblr_r_int=\count386
+\l__tblr_d_dim=\dimen323
+\l__tblr_h_dim=\dimen324
+\l__tblr_o_dim=\dimen325
+\l__tblr_p_dim=\dimen326
+\l__tblr_q_dim=\dimen327
+\l__tblr_r_dim=\dimen328
+\l__tblr_s_dim=\dimen329
+\l__tblr_t_dim=\dimen330
+\l__tblr_v_dim=\dimen331
+\l__tblr_w_dim=\dimen332
 \l__tblr_a_box=\box89
 \l__tblr_b_box=\box90
 \l__tblr_c_box=\box91
 \l__tblr_d_box=\box92
-\g__tblr_table_count_int=\count389
-\c@rownum=\count390
-\c@colnum=\count391
-\c@rowcount=\count392
-\c@colcount=\count393
-\abovesep=\dimen334
-\belowsep=\dimen335
-\leftsep=\dimen336
-\rightsep=\dimen337
-\g_tblr_level_int=\count394
-\g__tblr_data_row_key_count_int=\count395
-\g__tblr_data_column_key_count_int=\count396
-\g__tblr_data_cell_key_count_int=\count397
-\g__tblr_array_int=\count398
-\l__tblr_key_count_int=\count399
-\l__tblr_key_quotient_int=\count400
-\l__tblr_key_quotient_two_int=\count401
-\l__tblr_key_remainder_int=\count402
-\g__tblr_data_str_value_count_int=\count403
-\rulewidth=\dimen338
-\l__tblr_strut_dp_dim=\dimen339
-\l__tblr_strut_ht_dim=\dimen340
-\g__tblr_cell_wd_dim=\dimen341
-\g__tblr_cell_ht_dim=\dimen342
-\g__tblr_cell_head_dim=\dimen343
-\g__tblr_cell_foot_dim=\dimen344
-\l__column_target_dim=\dimen345
+\g__tblr_table_count_int=\count387
+\c@rownum=\count388
+\c@colnum=\count389
+\c@rowcount=\count390
+\c@colcount=\count391
+\abovesep=\dimen333
+\belowsep=\dimen334
+\leftsep=\dimen335
+\rightsep=\dimen336
+\g_tblr_level_int=\count392
+\g__tblr_data_row_key_count_int=\count393
+\g__tblr_data_column_key_count_int=\count394
+\g__tblr_data_cell_key_count_int=\count395
+\g__tblr_array_int=\count396
+\l__tblr_key_count_int=\count397
+\l__tblr_key_quotient_int=\count398
+\l__tblr_key_quotient_two_int=\count399
+\l__tblr_key_remainder_int=\count400
+\g__tblr_data_str_value_count_int=\count401
+\rulewidth=\dimen337
+\l__tblr_strut_dp_dim=\dimen338
+\l__tblr_strut_ht_dim=\dimen339
+\g__tblr_cell_wd_dim=\dimen340
+\g__tblr_cell_ht_dim=\dimen341
+\g__tblr_cell_head_dim=\dimen342
+\g__tblr_cell_foot_dim=\dimen343
+\l__column_target_dim=\dimen344
 \l__tblr_caption_box=\box93
 \l__tblr_caption_left_box=\box94
 \l__tblr_row_head_box=\box95
 \l__tblr_row_foot_box=\box96
-\l__tblr_row_head_foot_dim=\dimen346
-\tablewidth=\dimen347
+\l__tblr_row_head_foot_dim=\dimen345
+\tablewidth=\dimen346
 \l__tblr_table_firsthead_box=\box97
 \l__tblr_table_middlehead_box=\box98
 \l__tblr_table_lasthead_box=\box99
 \l__tblr_table_firstfoot_box=\box100
 \l__tblr_table_middlefoot_box=\box101
 \l__tblr_table_lastfoot_box=\box102
-\l__tblr_remain_height_dim=\dimen348
-\l__tblr_long_from_int=\count404
-\l__tblr_long_to_int=\count405
-\l__tblr_curr_i_int=\count406
-\l__tblr_prev_i_int=\count407
-\l__tblr_table_page_int=\count408
+\l__tblr_remain_height_dim=\dimen347
+\l__tblr_long_from_int=\count402
+\l__tblr_long_to_int=\count403
+\l__tblr_curr_i_int=\count404
+\l__tblr_prev_i_int=\count405
+\l__tblr_table_page_int=\count406
 \l__tblr_table_head_box=\box103
 \l__tblr_table_foot_box=\box104
-\l__tblr_table_head_foot_dim=\dimen349
-\l__tblr_table_head_body_foot_dim=\dimen350
+\l__tblr_table_head_foot_dim=\dimen348
+\l__tblr_table_head_body_foot_dim=\dimen349
 \l__tblr_table_box=\box105
 \l__tblr_table_hlines_box=\box106
 \l__tblr_hline_box=\box107
 \l__tblr_row_box=\box108
-\l__tblr_col_o_wd_dim=\dimen351
-\l__tblr_col_b_wd_dim=\dimen352
-\l__tblr_hline_leftskip_dim=\dimen353
-\l__tblr_hline_rightskip_dim=\dimen354
-\l__tblr_row_ht_dim=\dimen355
-\l__tblr_row_dp_dim=\dimen356
-\l__tblr_row_abovesep_dim=\dimen357
-\l__tblr_row_belowsep_dim=\dimen358
+\l__tblr_col_o_wd_dim=\dimen350
+\l__tblr_col_b_wd_dim=\dimen351
+\l__tblr_hline_leftskip_dim=\dimen352
+\l__tblr_hline_rightskip_dim=\dimen353
+\l__tblr_row_ht_dim=\dimen354
+\l__tblr_row_dp_dim=\dimen355
+\l__tblr_row_abovesep_dim=\dimen356
+\l__tblr_row_belowsep_dim=\dimen357
 \l__tblr_row_vlines_box=\box109
 \l__tblr_vline_box=\box110
 \l__tblr_cell_box=\box111
-\l__row_upper_dim=\dimen359
-\l__row_lower_dim=\dimen360
-\l__row_vpace_dim=\dimen361
-\l__tblr_vline_aboveskip_dim=\dimen362
-\l__tblr_vline_belowskip_dim=\dimen363
-\l__tblr_cell_wd_dim=\dimen364
-\l__tblr_cell_ht_dim=\dimen365
+\l__row_upper_dim=\dimen358
+\l__row_lower_dim=\dimen359
+\l__row_vpace_dim=\dimen360
+\l__tblr_vline_aboveskip_dim=\dimen361
+\l__tblr_vline_belowskip_dim=\dimen362
+\l__tblr_cell_wd_dim=\dimen363
+\l__tblr_cell_ht_dim=\dimen364
 \l__tblr_diag_box=\box112
 )
 (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
-\everycr=\toks49
+\everycr=\toks50
 \minrowclearance=\skip78
 )
 (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen366
-\lightrulewidth=\dimen367
-\cmidrulewidth=\dimen368
-\belowrulesep=\dimen369
-\belowbottomsep=\dimen370
-\aboverulesep=\dimen371
-\abovetopsep=\dimen372
-\cmidrulesep=\dimen373
-\cmidrulekern=\dimen374
-\defaultaddspace=\dimen375
-\@cmidla=\count409
-\@cmidlb=\count410
-\@aboverulesep=\dimen376
-\@belowrulesep=\dimen377
-\@thisruleclass=\count411
-\@lastruleclass=\count412
-\@thisrulewidth=\dimen378
+\heavyrulewidth=\dimen365
+\lightrulewidth=\dimen366
+\cmidrulewidth=\dimen367
+\belowrulesep=\dimen368
+\belowbottomsep=\dimen369
+\aboverulesep=\dimen370
+\abovetopsep=\dimen371
+\cmidrulesep=\dimen372
+\cmidrulekern=\dimen373
+\defaultaddspace=\dimen374
+\@cmidla=\count407
+\@cmidlb=\count408
+\@aboverulesep=\dimen375
+\@belowrulesep=\dimen376
+\@thisruleclass=\count409
+\@lastruleclass=\count410
+\@thisrulewidth=\dimen377
 )
 (/usr/share/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
-\FN@temptoken=\toks50
-\footnotemargin=\dimen379
-\@outputbox@depth=\dimen380
+\FN@temptoken=\toks51
+\footnotemargin=\dimen378
+\@outputbox@depth=\dimen379
 Package footmisc Info: Declaring symbol style bringhurst on input line 696.
 Package footmisc Info: Declaring symbol style chicago on input line 704.
 Package footmisc Info: Declaring symbol style wiley on input line 713.
@@ -1291,38 +1336,38 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
 )
 (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count413
-\l__siunitx_number_exponent_fixed_int=\count414
-\l__siunitx_number_min_decimal_int=\count415
-\l__siunitx_number_min_integer_int=\count416
-\l__siunitx_number_round_precision_int=\count417
-\l__siunitx_number_lower_threshold_int=\count418
-\l__siunitx_number_upper_threshold_int=\count419
-\l__siunitx_number_group_first_int=\count420
-\l__siunitx_number_group_size_int=\count421
-\l__siunitx_number_group_minimum_int=\count422
-\l__siunitx_angle_tmp_dim=\dimen381
+\l__siunitx_number_uncert_offset_int=\count411
+\l__siunitx_number_exponent_fixed_int=\count412
+\l__siunitx_number_min_decimal_int=\count413
+\l__siunitx_number_min_integer_int=\count414
+\l__siunitx_number_round_precision_int=\count415
+\l__siunitx_number_lower_threshold_int=\count416
+\l__siunitx_number_upper_threshold_int=\count417
+\l__siunitx_number_group_first_int=\count418
+\l__siunitx_number_group_size_int=\count419
+\l__siunitx_number_group_minimum_int=\count420
+\l__siunitx_angle_tmp_dim=\dimen380
 \l__siunitx_angle_marker_box=\box113
 \l__siunitx_angle_unit_box=\box114
-\l__siunitx_compound_count_int=\count423
+\l__siunitx_compound_count_int=\count421
 
 (/usr/share/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
 \l__siunitx_table_tmp_box=\box115
-\l__siunitx_table_tmp_dim=\dimen382
-\l__siunitx_table_column_width_dim=\dimen383
+\l__siunitx_table_tmp_dim=\dimen381
+\l__siunitx_table_column_width_dim=\dimen382
 \l__siunitx_table_integer_box=\box116
 \l__siunitx_table_decimal_box=\box117
 \l__siunitx_table_uncert_box=\box118
 \l__siunitx_table_before_box=\box119
 \l__siunitx_table_after_box=\box120
-\l__siunitx_table_before_dim=\dimen384
-\l__siunitx_table_carry_dim=\dimen385
-\l__siunitx_unit_tmp_int=\count424
-\l__siunitx_unit_position_int=\count425
-\l__siunitx_unit_total_int=\count426
+\l__siunitx_table_before_dim=\dimen383
+\l__siunitx_table_carry_dim=\dimen384
+\l__siunitx_unit_tmp_int=\count422
+\l__siunitx_unit_position_int=\count423
+\l__siunitx_unit_total_int=\count424
 )
 (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.colormaps.
 code.tex) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
@@ -1330,38 +1375,38 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box121
 \beforetitleunit=\skip79
 \aftertitleunit=\skip80
-\ttl@plus=\dimen386
-\ttl@minus=\dimen387
-\ttl@toksa=\toks51
-\titlewidth=\dimen388
-\titlewidthlast=\dimen389
-\titlewidthfirst=\dimen390
+\ttl@plus=\dimen385
+\ttl@minus=\dimen386
+\ttl@toksa=\toks52
+\titlewidth=\dimen387
+\titlewidthlast=\dimen388
+\titlewidthfirst=\dimen389
 )
 (/usr/share/texmf-dist/tex/latex/capt-of/capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 )
 (/usr/share/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2019/02/21 v1.76 
-\dashlinedash=\dimen391
-\dashlinegap=\dimen392
+\dashlinedash=\dimen390
+\dashlinegap=\dimen391
 \adl@box=\box122
-\adl@height=\dimen393
-\adl@heightsave=\dimen394
-\adl@depth=\dimen395
-\adl@depthsave=\dimen396
-\adl@finaldepth=\dimen397
-\adl@columns=\count427
-\adl@ncol=\count428
-\adl@currentcolumn=\count429
-\adl@currentcolumnsave=\count430
-\adl@totalheight=\count431
-\adl@totalheightsave=\count432
-\adl@dash=\count433
-\adl@gap=\count434
-\adl@cla=\count435
-\adl@clb=\count436
-\adl@everyvbox=\toks52
-\adl@LTpagetotal=\dimen398
+\adl@height=\dimen392
+\adl@heightsave=\dimen393
+\adl@depth=\dimen394
+\adl@depthsave=\dimen395
+\adl@finaldepth=\dimen396
+\adl@columns=\count425
+\adl@ncol=\count426
+\adl@currentcolumn=\count427
+\adl@currentcolumnsave=\count428
+\adl@totalheight=\count429
+\adl@totalheightsave=\count430
+\adl@dash=\count431
+\adl@gap=\count432
+\adl@cla=\count433
+\adl@clb=\count434
+\adl@everyvbox=\toks53
+\adl@LTpagetotal=\dimen397
 )
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 103.
@@ -1371,7 +1416,7 @@ h' as default language. on input line 103.
 LaTeX Warning: Label `errore in appendice' multiply defined.
 
 )
-\openout1 = `relazione.aux'.
+\openout1 = relazione.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
 LaTeX Font Info:    ... okay on input line 103.
@@ -1382,6 +1427,13 @@ LaTeX Font Info:    ... okay on input line 103.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
 LaTeX Font Info:    ... okay on input line 103.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+03.
+ (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 103.
 LaTeX Font Info:    ... okay on input line 103.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
 LaTeX Font Info:    ... okay on input line 103.
@@ -1390,7 +1442,8 @@ LaTeX Font Info:    ... okay on input line 103.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 103.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
 103.
- (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
+
+(/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 103.
@@ -1417,17 +1470,17 @@ LaTeX Font Info:    ... okay on input line 103.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count437
-\scratchdimen=\dimen399
+\scratchcounter=\count435
+\scratchdimen=\dimen398
 \scratchbox=\box123
-\nofMPsegments=\count438
-\nofMParguments=\count439
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count440
-\MPscratchDim=\dimen400
-\MPnumerator=\count441
-\makeMPintoPDFobject=\count442
-\everyMPtoPDFconversion=\toks54
+\nofMPsegments=\count436
+\nofMParguments=\count437
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count438
+\MPscratchDim=\dimen399
+\MPnumerator=\count439
+\makeMPintoPDFobject=\count440
+\everyMPtoPDFconversion=\toks55
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1444,9 +1497,9 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 Package chemgreek Info: Activating mapping `fourier' on line 103.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: luatex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1491,8 +1544,8 @@ Package hyperref Info: Link coloring OFF on input line 103.
  (./relazione.out)
 (./relazione.out)
 \@outlinefile=\write4
-\openout4 = `relazione.out'.
 
+\openout4 = relazione.out
  (/usr/share/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
@@ -1503,343 +1556,190 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 103.
-\openout2 = `titlepage.aux'.
 
+\openout2 = titlepage.aux
  (./titlepage.tex [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/base/8r.enc}]) (./relazione.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./relazione.toc
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line
- 3.
-
-(/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+ 2.
+ (/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 3.
+(Font)              scaled to size 9.19998pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 3.
+(Font)              scaled to size 6.99199pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 3.
+(Font)              scaled to size 5.51999pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 3.
+(Font)              scaled to size 9.19998pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 3.
+(Font)              scaled to size 6.99199pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 3.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+(Font)              scaled to size 5.51999pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write5
-\openout5 = `relazione.toc'.
 
+\openout5 = relazione.toc
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.110 	\newpage
-                [1
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
 
 
 ]
-Overfull \hbox (21.34927pt too wide) in paragraph at lines 115--116
-[]\T1/futs/m/n/10 L'errore di mis-ure derivate da somme e dif-ferenze sono tutt
-i ri-ca-vati come sem-plici somme in quadratura. 
- []
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
-[2]
-Overfull \hbox (2.58917pt too wide) in paragraph at lines 126--127
-[]\T1/futs/m/n/10 Una volta ver-sata, viene reg-is-trata la tem-per-atura dell'
-acqua a in-ter-valli di un min-uto per quasi quindici
  []
 
 
-Overfull \hbox (4.81924pt too wide) in paragraph at lines 128--129
-\T1/futs/m/n/10 Subito prima dell'immersione del cilin-dro nel vaso pieno d'acq
-ua si ac-qui-sis-cono le tem-per-a-ture dell'acqua
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+
  []
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 135.
+(Font)              scaled to size 8.27998pt on input line 146.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 135.
+(Font)              scaled to size 8.27998pt on input line 146.
+[2
+Missing character: There is no ’ (U+2019) in font futb8t!
+]
+Overfull \hbox (2.58917pt too wide) in paragraph at lines 166--167
+[]\T1/futs/m/n/10 Una volta ver-sata, viene reg-is-trata la tem-per-atura dell'a
+c-qua a in-ter-valli di un min-uto per quasi quindici
+ []
 
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 131--163
+
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 171--203
 []$[]$ $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
+Package pgfplots info on input line 308: Using 'lua backend=false' for plot 0 (
+type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 290.
+(hyperref)                removing `math shift' on input line 330.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 290.
+(hyperref)                removing `subscript' on input line 330.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 290.
+(hyperref)                removing `math shift' on input line 330.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 290.
+(hyperref)                removing `subscript' on input line 330.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
+Package pgfplots info on input line 432: Using 'lua backend=false' for plot 0 (
+type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
 [4]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 425.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 465.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 425.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 465.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 425.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 465.
 
-Underfull \hbox (badness 2020) in paragraph at lines 442--443
-[]\T1/futs/m/n/10 Per trovare l'equazione della retta si uti-lizza il metodo de
-i min-imi
+Underfull \hbox (badness 2020) in paragraph at lines 482--483
+[]\T1/futs/m/n/10 Per trovare l'equazione della retta si uti-lizza il metodo dei
+ min-imi
  []
 
 
-Overfull \hbox (1.56998pt too wide) in paragraph at lines 421--453
+Overfull \hbox (1.56998pt too wide) in paragraph at lines 461--493
 $[]$ $[]$ 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 460.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 500.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 476.
+(hyperref)                removing `math shift' on input line 516.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 476.
+(hyperref)                removing `subscript' on input line 516.
 
 
-Overfull \hbox (1.56998pt too wide) in paragraph at lines 478--506
+Overfull \hbox (1.56998pt too wide) in paragraph at lines 518--546
 $[]$ $[]$ 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
+[5
+Missing character: There is no ’ (U+2019) in font futr8t!
+]
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 543.
+(Font)              scaled to size 7.35999pt on input line 583.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 543.
+(Font)              scaled to size 6.25598pt on input line 583.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 543.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 583.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6.8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 543.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 583.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 543.
+(Font)              scaled to size 7.35999pt on input line 583.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 543.
+(Font)              scaled to size 6.25598pt on input line 583.
 
-Overfull \hbox (1.93922pt too wide) in paragraph at lines 553--555
-\T1/futs/m/n/10 Prima di tutto al-cune mis-ure pre-lim-i-nari: ven-gono pe-sate
- nuo-va-mente tutte le masse (per even-tu-ali residui
+Overfull \hbox (1.93922pt too wide) in paragraph at lines 593--595
+\T1/futs/m/n/10 Prima di tutto al-cune mis-ure pre-lim-i-nari: ven-gono pe-sate nuo-va-mente tutte le masse (per even-tu-ali residui
  []
 
-[6]
-Overfull \hbox (13.02817pt too wide) in paragraph at lines 561--571
+[6
+Missing character: There is no ’ (U+2019) in font futr8t!
+]
+Overfull \hbox (13.02817pt too wide) in paragraph at lines 601--611
  [][] 
  []
 
 
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 557--590
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 597--630
 []$[]$ $[]$ 
  []
 
+Package pgfplots info on input line 738: Using 'lua backend=false' for plot 0 (
+type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 706.
+(hyperref)                removing `math shift' on input line 746.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 706.
+(hyperref)                removing `subscript' on input line 746.
 
 [7]
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 831--863
-[]$[]$ $[]$ 
- []
+Package pgfplots info on input line 849: Using 'lua backend=false' for plot 0 (
+type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
 
-[8] [9] [10]
-Overfull \hbox (1.56998pt too wide) in paragraph at lines 967--999
-$[]$ $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1106.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1106.
-
-[11]
-Overfull \hbox (1.56998pt too wide) in paragraph at lines 1227--1257
-$[]$ $[]$ 
- []
-
-
-Overfull \hbox (13.02817pt too wide) in paragraph at lines 1291--1301
- [][] 
- []
-
-
-Overfull \hbox (1.56998pt too wide) in paragraph at lines 1287--1320
-$[]$ $[]$ 
- []
-
-[12]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1422.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1422.
-
-
-! Package pgfplots Error: input table '<inline_table>' has an unbalanced number
- of columns in row '11' (expected '3' cols; got '2'). Maybe the input table is 
-corrupted? If you need unbalanced data, consider using 'nan' in empty cells (pe
-rhaps combined with 'unbounded coords=jump'). The offending line is -120 0.01.
-
-See the pgfplots package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1498 					}  \datatable
-                         ^^M
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-[13]
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 1533--1558
-[]$[]$ $[]$ 
- []
-
-[14] [15] [16] [17]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 1653.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 1653.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 1653.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 1653.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 1653.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 1653.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1653.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1653.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1653.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1653.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1654--1655
-
- []
-
-[18]
-Overfull \hbox (6.03516pt too wide) detected at line 1679
-[]
- []
-
-[19] (./relazione.aux (./titlepage.aux))
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
- ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `relazione.out' has not changed.
-(rerunfilecheck)             Checksum: 19B2DFB1E24C6A8B7EB2846078EC97CC;3558.
- ) 
-Here is how much of TeX's memory you used:
- 48120 strings out of 476076
- 1130814 string characters out of 5793775
- 2070348 words of memory out of 5000000
- 69360 multiletter control sequences out of 15000+600000
- 729670 words of font info for 210 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 102i,22n,107p,721b,2974s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/
-type1/public/fourier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/public/
-fourier/fourier-mlit.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/four
-ier-mlitb.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb>
-</usr/share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texmf-di
-st/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texmf-dist/fonts/type1/adob
-e/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb
->
-Output written on relazione.pdf (20 pages, 245726 bytes).
-PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Overfull \hbox (16.56998pt too wide) in parag
