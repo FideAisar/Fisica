@@ -1,0 +1,51 @@
+\contentsline {chapter}{\numberline {1}Termodinamica - I principio}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Termometria}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Variabili termodinamiche}{3}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Equilibrio termico}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Termometro a gas}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Dilatazione termica}{6}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Esperimenti di Joule}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Primo principio della termodinamica}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Energia interna}{7}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Trasformazioni termodinamiche}{8}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Calorimetria}{9}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Calore specifico}{10}{subsection.1.4.1}%
+\contentsline {subsubsection}{Misura del calore specifico}{10}{equation.1.4.5}%
+\contentsline {subsubsection}{Processi isotermi: cambiamenti di fase}{11}{equation.1.4.5}%
+\contentsline {subsubsection}{Sorgenti di calore}{11}{equation.1.4.6}%
+\contentsline {section}{\numberline {1.5}Trasmissione del calore}{11}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Conduzione}{11}{subsection.1.5.1}%
+\contentsline {paragraph}{Equazione di continuità}{13}{equation.1.5.9}%
+\contentsline {subsection}{\numberline {1.5.2}Convezione}{14}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Irraggiamento}{14}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Calore tra solido e fluido}{14}{subsection.1.5.4}%
+\contentsline {chapter}{\numberline {2}Gas ideali e reali}{15}{chapter.2}%
+\contentsline {subsection}{\numberline {2.0.1}Legge isoterma di Boyle}{15}{subsection.2.0.1}%
+\contentsline {subsection}{\numberline {2.0.2}Legge isobara di Gay-Lussac}{15}{subsection.2.0.2}%
+\contentsline {subsection}{\numberline {2.0.3}Legge isocora di Gay-Lussac}{15}{subsection.2.0.3}%
+\contentsline {subsection}{\numberline {2.0.4}Legge di avogadro}{16}{subsection.2.0.4}%
+\contentsline {subsection}{\numberline {2.0.5}Equazione di stato dei gas ideali}{16}{subsection.2.0.5}%
+\contentsline {section}{\numberline {2.1}Trasformazioni di un gas}{16}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Calore e energia interna del gas ideale}{17}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Relazione di Mayer}{17}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Trasformazioni adiabatiche}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Trasformazioni}{17}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Rendimento}{17}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Cicli}{17}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Gas reali}{17}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Teoria cinetica dei gas ideali}{17}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Termodinamica - II principio}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Secondo principio della termodinamica}{18}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Enunciato di Kelvin-Plank}{18}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Enunciato di Clausius}{18}{subsection.3.1.2}%
+\contentsline {subsubsection}{Ciclo monotermo}{19}{Item.18}%
+\contentsline {section}{\numberline {3.2}Teorema di Carnot - espressione matematica}{19}{section.3.2}%
+\contentsline {subsubsection}{Studio del rendimento massimo}{20}{equation.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.1}Teorema di Clausius}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Temperatura termodinamica assoluta}{21}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Entropia}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Principio di aumento dell'entropia}{23}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Calcoli di variazione di entropia}{24}{subsection.3.3.2}%
+\contentsline {subsubsection}{Scambi di calore con sorgenti}{24}{section*.2}%
+\contentsline {subsubsection}{Scambi di calore tra corpi}{24}{section*.2}%
+\contentsline {subsubsection}{Cambiamenti di fase}{24}{section*.2}%

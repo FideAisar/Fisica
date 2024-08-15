@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  5 JUL 2024 15:55
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  21 JUL 2024 22:20
  restricted system commands enabled.
 **relazione.tex
 (./relazione.tex
@@ -1614,132 +1614,330 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 [2
 Missing character: There is no ’ (U+2019) in font futb8t!
 ]
-Overfull \hbox (2.58917pt too wide) in paragraph at lines 166--167
+Overfull \hbox (2.58917pt too wide) in paragraph at lines 167--168
 []\T1/futs/m/n/10 Una volta ver-sata, viene reg-is-trata la tem-per-atura dell'a
 c-qua a in-ter-valli di un min-uto per quasi quindici
  []
 
 
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 171--203
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 172--204
 []$[]$ $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-Package pgfplots info on input line 308: Using 'lua backend=false' for plot 0 (
+Package pgfplots info on input line 309: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 330.
+(hyperref)                removing `math shift' on input line 331.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 330.
+(hyperref)                removing `subscript' on input line 331.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 330.
+(hyperref)                removing `math shift' on input line 331.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 330.
+(hyperref)                removing `subscript' on input line 331.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-Package pgfplots info on input line 432: Using 'lua backend=false' for plot 0 (
+Package pgfplots info on input line 433: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
-[4]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 465.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 466.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 465.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 466.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 465.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 466.
 
-Underfull \hbox (badness 2020) in paragraph at lines 482--483
+Underfull \hbox (badness 2020) in paragraph at lines 483--484
 []\T1/futs/m/n/10 Per trovare l'equazione della retta si uti-lizza il metodo dei
  min-imi
  []
 
 
-Overfull \hbox (1.56998pt too wide) in paragraph at lines 461--493
+Overfull \hbox (1.56998pt too wide) in paragraph at lines 462--494
 $[]$ $[]$ 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 500.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 501.
+[4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 516.
+(hyperref)                removing `math shift' on input line 517.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 516.
+(hyperref)                removing `subscript' on input line 517.
 
 
-Overfull \hbox (1.56998pt too wide) in paragraph at lines 518--546
+Overfull \hbox (1.56998pt too wide) in paragraph at lines 519--547
 $[]$ $[]$ 
+ []
+
+
+Overfull \hbox (1.93922pt too wide) in paragraph at lines 581--582
+\T1/futs/m/n/10 Prima di tutto al-cune mis-ure pre-lim-i-nari: ven-gono pe-sate nuo-va-mente tutte le masse (per even-tu-ali residui
  []
 
 [5
 Missing character: There is no ’ (U+2019) in font futr8t!
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
-
- []
-
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 583.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 583.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 583.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6.8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 583.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 583.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 583.
-
-Overfull \hbox (1.93922pt too wide) in paragraph at lines 593--595
-\T1/futs/m/n/10 Prima di tutto al-cune mis-ure pre-lim-i-nari: ven-gono pe-sate nuo-va-mente tutte le masse (per even-tu-ali residui
- []
-
-[6
-Missing character: There is no ’ (U+2019) in font futr8t!
-]
-Overfull \hbox (13.02817pt too wide) in paragraph at lines 601--611
+Overfull \hbox (13.02817pt too wide) in paragraph at lines 588--598
  [][] 
  []
 
 
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 597--630
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 584--617
 []$[]$ $[]$ 
  []
 
-Package pgfplots info on input line 738: Using 'lua backend=false' for plot 0 (
+Package pgfplots info on input line 725: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 746.
+(hyperref)                removing `math shift' on input line 733.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 746.
+(hyperref)                removing `subscript' on input line 733.
 
-[7]
-Package pgfplots info on input line 849: Using 'lua backend=false' for plot 0 (
+[6]
+Package pgfplots info on input line 836: Using 'lua backend=false' for plot 0 (
 type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
 
-Overfull \hbox (16.56998pt too wide) in parag
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 858--890
+[]$[]$ $[]$ 
+ []
+
+[7
+Missing character: There is no ’ (U+2019) in font futr8t!
+]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 925.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 925.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 925.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6.8> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 925.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 925.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 925.
+ [8] [9]
+Overfull \hbox (1.56998pt too wide) in paragraph at lines 994--1026
+$[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1028
+
+ []
+
+Package pgfplots info on input line 1126: Using 'lua backend=false' for plot 0 
+(type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1133.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1133.
+
+Package pgfplots info on input line 1234: Using 'lua backend=false' for plot 0 
+(type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
+[10]
+Overfull \hbox (1.56998pt too wide) in paragraph at lines 1254--1284
+$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (13.02817pt too wide) in paragraph at lines 1318--1328
+ [][] 
+ []
+
+
+Overfull \hbox (1.56998pt too wide) in paragraph at lines 1314--1347
+$[]$ $[]$ 
+ []
+
+[11
+Missing character: There is no ’ (U+2019) in font futr8t!
+]
+Package pgfplots info on input line 1442: Using 'lua backend=false' for plot 0 
+(type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1449.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1449.
+
+Package pgfplots info on input line 1538: Using 'lua backend=false' for plot 0 
+(type 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
+[12]
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 1559--1584
+[]$[]$ $[]$ 
+ []
+
+[13] [14]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 1672.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 1672.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 1672.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 1672.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 1672.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 1672.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1672.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1672.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1690.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1690.
+
+[15] [16
+Missing character: There is no ’ (U+2019) in font futr8t!
+Missing character: There is no ’ (U+2019) in font futr8t!
+] [17]
+Overfull \hbox (21.34924pt too wide) in paragraph at lines 1791--1792
+[]\T1/futs/m/n/10 L'er-rore di mis-ure derivate da somme e dif-ferenze sono tutt
+i ri-ca-vati come sem-plici somme in quadratura. 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1795.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1795.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1795.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1795.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1796--1797
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1812.
+
+
+Overfull \hbox (6.03516pt too wide) detected at line 1828
+[]
+ []
+
+[18] (./relazione.aux (./titlepage.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `relazione.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `relazione.out':
+(rerunfilecheck)             Before: 42D4035983BE59EF494C356D1E84D0B4;4301
+(rerunfilecheck)             After:  FF871F94B29D8D3335DD6254F3C13891;4400.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 49385 strings out of 476447
+ 195371,2373549 words of node,token memory allocated
+ 731 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 48 attribute, 64 glue_spec
+, 48 attribute_list, 2 write nodes
+   avail lists: 2:22152,3:10379,4:102,5:674,6:77,7:10324,8:106,9:4017,10:14,11:4
+90
+ 69974 multiletter control sequences out of 65536+600000
+ 235 fonts using 14592119 bytes
+ 102i,22n,101p,720b,3032s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.5'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.3'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.2'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.1'
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-me
+x.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texmf-d
+ist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1
+/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi8a
+.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texm
+f-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on relazione.pdf (19 pages, 265187 bytes).
+
+PDF statistics: 326 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 94 named destinations out of 1000 (max. 131072)
+ 216 words of extra memory for PDF output out of 10000 (max. 100000000)
+

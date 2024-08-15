@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}Prima presa dati}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Cilindro metallico}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Fit lineare \(T_{1}\) e \(T_{\text {eq}}\)}{4}{subsubsection.1.1.1}%
+\contentsline {paragraph}{Ipotesi nulla}{5}{table.caption.6}%
+\contentsline {subsubsection}{\numberline {1.1.2}Fit lineare \(T_{\text {eq}}\)}{5}{subsubsection.1.1.2}%
+\contentsline {paragraph}{Ipotesi nulla}{5}{table.caption.8}%
+\contentsline {subsection}{\numberline {1.2}Massa d'acqua}{6}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Fit lineare \(T'_{\text {eq}}\)}{7}{subsubsection.1.2.1}%
+\contentsline {paragraph}{Ipotesi nulla}{7}{table.caption.14}%
+\contentsline {subsection}{\numberline {1.3}Calcolo massa equivalente e calore specifico}{8}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Analisi errori}{8}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Seconda presa dati}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Cilindro metallico}{10}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Fit lineare \(T_{\text {eq}}\)}{10}{subsubsection.2.1.1}%
+\contentsline {paragraph}{Ipotesi nulla}{11}{table.caption.22}%
+\contentsline {subsection}{\numberline {2.2}Massa d'acqua}{12}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Fit lineare \(T'_{\text {eq}}\)}{12}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Calcolo massa equivalente e calore specifico}{13}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Confronto masse equivalenti e calori specifici}{15}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Test Z (\(m_{e}\))}{15}{subsection.3.1}%
+\contentsline {paragraph}{Ipotesi nulla}{15}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Test Z (\(c_{x}\))}{15}{subsection.3.2}%
+\contentsline {paragraph}{Ipotesi nulla}{15}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Test Z con calore specifico teorico}{15}{subsection.3.3}%
+\contentsline {paragraph}{Ipotesi nulla}{15}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Errori sistematici}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Influenza agitatore}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Calore disperso}{16}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusioni}{16}{section.5}%
+\contentsline {section}{\numberline {6}Appendice}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Calcoli e approssimazioni ricorrenti}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Calcolo \(T_{1}\) e \(T_{\text {eq}}\) con covarianze}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Errori associati a \(c_{x}\) e \(m_{e}\)}{18}{subsection.6.3}%

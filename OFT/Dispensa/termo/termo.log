@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  21 JUL 2024 22:25
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  15 AUG 2024 10:13
  restricted system commands enabled.
-**onde.tex
-(./onde.tex
+**termo.tex
+(./termo.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
@@ -1609,12 +1609,67 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen394
 )))
+(/usr/share/texmf-dist/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+
+(/usr/share/texmf-dist/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write6
+\mtcindent=\skip72
+\mtcskipamount=\skip73
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks58
+\mtc@strutbox=\box104
+\mtc@hstrutbox=\box105
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+
+\openout6 = termo.mtc0
+
+\openout6 = termo.mtc
+ (./termo.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+
+\openout6 = termo.mtc
+
+\openout6 = termo.mtc0
+\c@mtc=\count448
+\c@minitocdepth=\count449
+\c@ptc=\count450
+\c@parttocdepth=\count451
+\ptcindent=\skip74
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(/usr/share/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(/usr/share/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+))
+(/usr/share/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup9
+)
 (/usr/share/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 )
 (/usr/share/texmf-dist/tex/latex/contour/contour.sty
 Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
-\con@length=\skip72
+\con@length=\skip75
 
 Loading configuration file `contour.cfg'.
 (/usr/share/texmf-dist/tex/latex/contour/contour.cfg
@@ -1643,86 +1698,86 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowlinewidth=\dimen398
 ) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box104
-\beforetitleunit=\skip73
-\aftertitleunit=\skip74
+\ttl@box=\box106
+\beforetitleunit=\skip76
+\aftertitleunit=\skip77
 \ttl@plus=\dimen399
 \ttl@minus=\dimen400
-\ttl@toksa=\toks58
+\ttl@toksa=\toks59
 \titlewidth=\dimen401
 \titlewidthlast=\dimen402
 \titlewidthfirst=\dimen403
 
 (/usr/share/texmf-dist/tex/latex/titlesec/titleps.sty))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 214.
- (./onde.aux)
-\openout1 = onde.aux
+h' as default language. on input line 216.
+ (./termo.aux)
+\openout1 = termo.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 214.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-14.
+16.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 214.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 216.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-214.
+216.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 216.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-214.
+216.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 216.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-214.
+216.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count448
+\scratchcounter=\count452
 \scratchdimen=\dimen404
-\scratchbox=\box105
-\nofMPsegments=\count449
-\nofMParguments=\count450
-\everyMPshowfont=\toks59
-\MPscratchCnt=\count451
+\scratchbox=\box107
+\nofMPsegments=\count453
+\nofMParguments=\count454
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count455
 \MPscratchDim=\dimen405
-\MPnumerator=\count452
-\makeMPintoPDFobject=\count453
-\everyMPtoPDFconversion=\toks60
+\MPnumerator=\count456
+\makeMPintoPDFobject=\count457
+\everyMPtoPDFconversion=\toks61
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1744,7 +1799,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 214.
+Package chemgreek Info: Activating mapping `fourier' on line 216.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1780,8 +1835,11 @@ Package chemgreek Info: Activating mapping `fourier' on line 214.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 214.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \iintop on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \iiintop on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \oiintop on input line 216.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 216.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 216.
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -1800,7 +1858,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 214.
+or `english'. on input line 216.
  (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
@@ -1813,15 +1871,23 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 214.
- (./onde.out)
-(./onde.out)
-\@outlinefile=\write6
+Package hyperref Info: Link coloring OFF on input line 216.
+ (./termo.out)
+(./termo.out)
+\@outlinefile=\write7
 
-\openout6 = onde.out
- (./titlepage.tex [1
+\openout7 = termo.out
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./onde.toc
+
+Package minitoc(hints) Warning: W0099
+(minitoc(hints))                --- The titlesec package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+(./termo.toc
 LaTeX Font Info:    Trying to load font information for FML+futmi on input line
  2.
  (/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
@@ -1855,97 +1921,217 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1
+LaTeX Font Info:    Trying to load font information for U+esint on input line 2
+.
 
-])
-\tf@toc=\write7
+(/usr/share/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+) [1
 
-\openout7 = onde.toc
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write8
+
+\openout8 = termo.toc
  [2]
 Chapter 1.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 230--231
- [][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
  []
 
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 239.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 239.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 239.
 
-Overfull \hbox (10.07375pt too wide) in paragraph at lines 250--251
-[]\T1/futs/m/n/10 Una fun-zione del tipo $[]$ sod-disfa l'equazione dif-feren-zi
-ale detta \T1/futs/b/n/10 equazione delle onde \T1/futs/m/n/10 o \T1/futs/b/n/1
-0 equazione
+Underfull \hbox (badness 1320) in paragraph at lines 256--257
+[]\T1/futs/m/n/10 Vari-abili \T1/futs/m/it/10 ad-di-tive \T1/futs/m/n/10 che es-
+p-ri-mono pro-prità
  []
 
 [3
 
-] [4]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 348--349
- [][][][][][] 
- []
-
-[5]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 394--395
- [][][][][][] 
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 411.
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
-[7] [8]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 532--533
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 287--288
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--545
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 298--299
+ [][][][][][] 
+ []
 
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 311--312
+ [][][][][][] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--346
+
+ []
+
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 445--446
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 467--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+
+Overfull \hbox (1.2515pt too wide) in paragraph at lines 483--484
+[]\T1/futs/b/n/10 Trasfor-mazioni adi-a-batiche\T1/futs/m/n/10 : una qual-si-asi
+ trasfor-mazione in cui $\FML/futmi/m/it/10 Q \T1/futs/m/n/10 = 0$ (si ot-tiene per trasfor-mazioni
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 541--542
+ [][][][][][] 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 552--553
+ [][][][][][] 
+ []
+
+[10]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 598--599
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 608--609
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
 
  []
 
-[10] [11] [12]
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
-758.
- (/usr/share/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
-)
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 768.
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 839--840
+Underfull \hbox (badness 10000) in paragraph at lines 624--626
 
  []
 
-(./imgs/sfera.pdf_tex
-<./imgs/sfera.pdf, id=564, page=1, 292.44583pt x 193.78973pt>
-File: ./imgs/sfera.pdf Graphic file (type pdf)
-<use ./imgs/sfera.pdf, page 1>
-Package luatex.def Info: ./imgs/sfera.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 433.62pt x 287.34541pt.
-) [14] [15<./imgs/sfera.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 896--898
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 689--691
 
  []
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 919--920
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 714--716
+
+ []
+
+[13] [14]
+Chapter 2.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 774.
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 774--775
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 788--789
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 806--807
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (11.6093pt too wide) in paragraph at lines 811--813
+\T1/futs/m/n/10 Vo-lumi di gas di-versi, aventi stessa tem-per-atura e stessa pr
+es-sione, con-tengono lo stesso nu-mero di molecole. 
+ []
+
+[15
+
+]
+
+LaTeX Warning: Reference `lavoro' on page 16 undefined on input line 846.
+
+
+LaTeX Warning: Reference `lavoro' on page 16 undefined on input line 850.
+
+[16] [17]
+Chapter 3.
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 915--916
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--919
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
+
+ []
+
+[18
+
+]
+Overfull \hbox (2.50273pt too wide) in paragraph at lines 941--943
+\T1/futs/m/n/10 mente in con-trasto con l'enun-ci-ato di Clau-sius. Quindi l'uni
+ca situ-azione pos-si-bile per un \T1/futs/m/it/10 ci-clo monotermo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
 
  []
 
@@ -1954,492 +2140,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 954--956
 
  []
 
-[17]
-Overfull \hbox (1.25583pt too wide) in paragraph at lines 988--989
-[]\T1/futs/m/n/10 Ab-bi-amo quindi un'onda di alta fre-quenza che si propaga con
- \T1/futs/b/n/10 ve-loc-ità di fase me-dia $\FML/futmi/m/it/10 v[]$ \T1/futs/m
-/n/10 e con ampiezza
- []
 
-[18] (./imgs/doppler12.pdf_tex
-<./imgs/doppler12.pdf, id=599, page=1, 847.83318pt x 341.14972pt>
-File: ./imgs/doppler12.pdf Graphic file (type pdf)
-<use ./imgs/doppler12.pdf, page 1>
-Package luatex.def Info: ./imgs/doppler12.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 433.62pt x 174.47858pt.
-<./imgs/doppler12.pdf, id=600, page=2, 847.83318pt x 341.14972pt>
-File: ./imgs/doppler12.pdf Graphic file (type pdf)
-<use ./imgs/doppler12.pdf, page 2>
-Package luatex.def Info: ./imgs/doppler12.pdf , page2 used on input line 65.
-(luatex.def)             Requested size: 433.62pt x 174.47858pt.
-) [19] [20<./imgs/doppler12.pdf><./imgs/doppler12.pdf>] [21]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1116--1117
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 995--996
  [][][][][][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
-
- []
-
-[22] [23] [24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 1301--1302
-
- []
-
-[26]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1368--1369
- [][][][][][] 
- []
-
-[27]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1436--1437
- [][][][][][] 
- []
-
-[28]
-Chapter 2.
-
-Overfull \hbox (32.26317pt too wide) detected at line 1498
-[]
- []
-
-
-Overfull \hbox (33.83316pt too wide) in paragraph at lines 1489--1505
-[]$[]$ $[]$ 
- []
-
-[29
-
+[19
+Missing character: There is no ’ (U+2019) in font futr8t!
+Missing character: There is no ’ (U+2019) in font futr8t!
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1517--1519
+Underfull \hbox (badness 10000) in paragraph at lines 997--998
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1520--1522
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1016
 
  []
 
 
-Overfull \hbox (5.27937pt too wide) in paragraph at lines 1545--1547
-\T1/futs/m/n/10 quindi se lungo una su-per-fi-cie iso-bar-ica e equipoten-ziale si hanno pres-sione ed en-er-gia poten-ziale costanti,
- []
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1020.
 
-[30] [31]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 1674.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 1674.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 1674.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6.8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 1674.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 1674.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 1674.
 
-Overfull \hbox (1.56999pt too wide) in paragraph at lines 1650--1701
-$[]$ $[]$ 
- []
-
-[32]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1752--1753
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1047--1048
  [][][][][][] 
  []
 
-
-Underfull \hbox (badness 1515) in paragraph at lines 1762--1763
-\T1/futs/m/n/10 In sostanza è una de-scrizione \T1/futs/b/n/10 analoga a
+[20]
+Overfull \hbox (9.71326pt too wide) in paragraph at lines 1054--1055
+[]\T1/futs/m/n/10 Per di-mostrarlo im-mag-ini-amo di met-tere $\FML/futmi/m/it/
+10 n$ \T1/futs/m/n/10 mac-chine re-versibili tra le sor-genti $\FML/futmi/m/it/
+10 T[]$ \T1/futs/m/n/10 e una nuova sorgente$\FML/futmi/m/it/10 T[]$
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 1767--1768
-\T1/futs/m/n/10 flu-ida $\FML/futmi/m/it/10 P\T1/futs/m/n/10 (\FML/futmi/m/it/1
-0 x; y; z\T1/futs/m/n/10 )$ e si con-sid-era la ve-loc-ità
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1103
+
  []
 
-[33]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1778--1779
+[21]
+LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
+1112.
+ (/usr/share/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
+)
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1126--1127
  [][][][][][] 
  []
 
-contour: Using real outline for `$v_2$' on input line 1820.
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1838--1839
- [][][][][][] 
+[22]
+Overfull \hbox (1.90926pt too wide) in paragraph at lines 1154--1155
+\T1/futs/m/n/10 Im-poni-amo che la prima trasfor-mazione sia ir-re-versibile e 
+la sec-onda re-versibile così che la trasfor-mazione
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1854--1855
- [][][][][][] 
- []
-
-[34
-Non-PDF special ignored!
-Non-PDF special ignored!]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1970--1971
- [][][][][][] 
- []
-
-[35]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2081--2082
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2098
-
- []
-
-[36]
-Overfull \hbox (7.45264pt too wide) in paragraph at lines 2211--2212
-[]\T1/futs/m/n/10 Per ri-cavare un'espres-sione della forza pos-si-amo pas-sare dall'equazione di Bernoulli. Si hanno i seguenti
- []
-
-[37
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 7 (U+0037) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 7 (U+0037) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 7 (U+0037) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 7 (U+0037) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 6 (U+0036) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 1 (U+0031) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 6 (U+0036) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 1 (U+0031) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-] [38]
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2235--2236
-
- []
-
-
-Underfull \hbox (badness 1320) in paragraph at lines 2261--2262
-[]\T1/futs/m/n/10 Vari-abili \T1/futs/m/it/10 ad-di-tive \T1/futs/m/n/10 che es-
-p-ri-mono pro-prità
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2276--2277
-
- []
-
-[39
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2282--2283
-
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2292--2293
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2303--2304
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2316--2317
- [][][][][][] 
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 2331--2332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2346--2347
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2349--2351
-
- []
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 2450--2450
-
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2450--2451
- [][][][][][] 
- []
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 2459--2460
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2472--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2481--2482
-
- []
-
-[43]
-Overfull \hbox (1.2515pt too wide) in paragraph at lines 2488--2489
-[]\T1/futs/b/n/10 Trasfor-mazioni adi-a-batiche\T1/futs/m/n/10 : una qual-si-asi
- trasfor-mazione in cui $\FML/futmi/m/it/10 Q \T1/futs/m/n/10 = 0$ (si ot-tiene per trasfor-mazioni
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2513--2515
-
- []
-
-[44]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2546--2547
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2557--2558
- [][][][][][] 
- []
-
-[45]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2603--2604
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2613--2614
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2615--2616
-
- []
-
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 2629--2631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2694--2696
-
- []
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 2719--2721
-
- []
-
-[48]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2768--2769
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2782--2783
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2800--2801
- [][][][][][] 
- []
-
-[49]
-Overfull \hbox (11.6093pt too wide) in paragraph at lines 2805--2807
-\T1/futs/m/n/10 Vo-lumi di gas di-versi, aventi stessa tem-per-atura e stessa pr
-es-sione, con-tengono lo stesso nu-mero di molecole. 
- []
-
-[50] [51] [52] (./onde.aux)
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1180.
+
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the termo.maf file.
+
+\openout6 = termo.maf
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the termo.log file.
+
+[23] [24] (./termo.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `onde.out' has not changed.
-(rerunfilecheck)             Checksum: 4043AD718810A521F8F0A526A9C7E5DC;16047.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `termo.out' has not changed.
+(rerunfilecheck)             Checksum: A3657391582D7CBC5862C78BD7615E87;8894.
 )
 
 Here is how much of LuaTeX's memory you used:
- 55905 strings out of 476447
- 195359,2848258 words of node,token memory allocated
- 2055 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 382 attribute, 63 glue_spe
-c, 382 attribute_list, 2 write nodes
-   avail lists: 1:1,2:20436,3:10462,4:700,5:929,6:156,7:13061,8:95,9:1415,10:25,
-11:525
- 76046 multiletter control sequences out of 65536+600000
- 155 fonts using 9447679 bytes
- 117i,24n,109p,718b,1986s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56277 strings out of 476447
+ 125027,2373549 words of node,token memory allocated
+ 1147 words of node memory still in use:
+   11 hlist, 2 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 139 attribute, 65 glue_sp
+ec, 139 attribute_list, 2 write nodes
+   avail lists: 1:1,2:2339,3:1395,4:268,5:935,6:166,7:7025,8:67,9:1027,10:25,11:
+508
+ 76588 multiletter control sequences out of 65536+600000
+ 111 fonts using 6631287 bytes
+ 117i,16n,109p,719b,1986s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
-mcl.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/
-share/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-d
-ist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
-a/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/s
-hare/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts
-/type1/adobe/utopia/putri8a.pfb>
-Output written on onde.pdf (53 pages, 678761 bytes).
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/es
+int-type1/esint10.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
+mex.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr
+/share/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texmf
+-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/typ
+e1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi
+8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/te
+xmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on termo.pdf (24 pages, 185566 bytes).
 
-PDF statistics: 1016 PDF objects out of 1200 (max. 8388607)
- 905 compressed objects within 10 object streams
- 215 named destinations out of 1000 (max. 131072)
- 818 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 448 PDF objects out of 1000 (max. 8388607)
+ 407 compressed objects within 5 object streams
+ 106 named destinations out of 1000 (max. 131072)
+ 416 words of extra memory for PDF output out of 10000 (max. 100000000)
 

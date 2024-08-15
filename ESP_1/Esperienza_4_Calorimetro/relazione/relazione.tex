@@ -112,31 +112,31 @@
 	L'esperienza ha come obiettivi la misura del calore specifico \(c_{x}\) di un corpo metallico (un cilindro di acciaio) tramite l'utilizzo di un calorimetro e la taratura di quest'ultimo determinata dalla sua massa equivalente \(m_{e}\). \\
 	
 	\noindent
-	Il principio zero della termodinamica afferma che tra due corpi a temperature differenti posti a contatto avviene uno scambio di calore che ne fa variare le temperature portandoli ad una temperatura di equilibrio. Inoltre la quantità di calore ceduto dal corpo caldo è uguale al calore assoribito da quello freddo:
+	Il principio zero della termodinamica afferma che tra due corpi a temperature differenti posti a contatto avviene uno scambio di calore che ne fa variare le temperature portandoli ad una temperatura di equilibrio. Inoltre la quantità di calore ceduto dal corpo caldo è uguale al calore assorbito da quello freddo:
 	\[ 
 	|Q_{\text{ced}}| = |Q_{\text{ass}}|
 	\]
 	con il calore espresso come \(Q = mc\Delta T\): prodotto di massa del corpo, il suo calore specifico e la sua variazione di temperatura. 
 	
-	Nel nostro caso il calore ceduto è quello del sistema del calorimetro (calorimetro + acqua). Con temperatura del sistema acqua (\(m_{a}\)) + calorimetro \(T_{1}\) e temperatura \(T_{2}\) del corpo (\(m_{c}\))  Si può riscrivere la prima equazione come:
+	Nel nostro caso il calore è ceduto dal sistema del calorimetro (calorimetro + acqua) con temperatura \(T_{1}\) del sistema acqua (\(m_{a}\)) + calorimetro  e temperatura \(T_{2}\) del corpo (\(m_{c}\)).  Si può riscrivere la prima equazione come:
 	\begin{equation}\label{uno}
-	\sum m_{\text{cal}}c_{\text{cal}}(T_{\text{eq}} - T_{1}) +  m_{a}c_{a}(T_{\text{eq}} - T_{1}) = m_{c}c_{x}(T_{2} - T_{\text{eq}})
+		\sum m_{\text{cal}}c_{\text{cal}}(T_{\text{eq}} - T_{1}) +  m_{a}c_{a}(T_{\text{eq}} - T_{1}) = m_{c}c_{x}(T_{2} - T_{\text{eq}})
 	\end{equation}
-	Durante l'esperieza verrà calcolata la massa equivalente \(m_{e}\), massa d'acqua che assorbe lo stesso calore che viene sottratto dal sistema calorimetro. Per farlo si versa nel calorimetro una massa \(m'_{a}\) d'acqua calda (di cui è noto il calore specifico), riscrivendo l'equilibrio energetico si può determinare \(m_{e}\)
+	Durante l'esperienza verrà calcolata la massa equivalente \(m_{e}\), massa d'acqua che assorbe lo stesso calore che viene sottratto dal sistema del calorimetro. Per farlo si versa nel calorimetro una massa \(m'_{a}\) d'acqua calda (di cui è noto il calore specifico) e trovando temperature iniziali e di equilibrio, riscrivendo l'equilibrio energetico, si può determinare \(m_{e}\)
 	\[ 
 	m'_{a}c_{a}(T'_{2} - T'_{\text{eq}}) = (m_{a} + m_{e})(T_{\text{eq}})
 	\]
-	 \[ 
-	 m_{e}c_{a}(T'_{2} - T'_{\text{eq}}) +  m_{a}c_{a}(T'_{\text{eq}} - T'_{1}) = m_{a}c_{a}(T'_{\text{eq}} - T'_{1})
+	\[ 
+	m_{e}c_{a}(T'_{2} - T'_{\text{eq}}) +  m_{a}c_{a}(T'_{\text{eq}} - T'_{1}) = m_{a}c_{a}(T'_{\text{eq}} - T'_{1})
 	\]
-	 dove \(m_{e}\) è l'unica incognita. \\
-	 
+	dove \(m_{e}\) è l'unica incognita. \\
 	
-	 \noindent
-	 Trovata la massa equivalente è possibile ricavare il calore specifico \(c_{x}\) del cilindro metallico sostituendo \(\sum m_{\text{cal}}c_{\text{cal}}\) con \(m_{e}c_{a}\) nella (\ref{uno}):
-	 \[ 
-	 m_{e}c_{a}(T_{\text{eq}} - T_{1}) +  m_{a}c_{a}(T_{\text{eq}} - T_{1}) = m_{c}c_{x}(T_{2} - T_{\text{eq}})
-	 \]
+	
+	\noindent
+	Trovata la massa equivalente è possibile ricavare il calore specifico \(c_{x}\) del cilindro metallico sostituendo \(\sum m_{\text{cal}}c_{\text{cal}}\) con \(m_{e}c_{a}\) nella (\ref{uno}):
+	\[ 
+	m_{e}c_{a}(T_{\text{eq}} - T_{1}) +  m_{a}c_{a}(T_{\text{eq}} - T_{1}) = m_{c}c_{x}(T_{2} - T_{\text{eq}})
+	\]
 	
 	
 	\section*{Strumentazione}
@@ -147,21 +147,22 @@
 				\textbf{strumento}& \textbf{sensibilità}& \textbf{utilizzo} \\ \midrule
 				\textbf{Cronometro digitale}	&	\(0.01 \SI{}{\second}\) s &  misura tempo presa dati\\  \hdashline
 				\textbf{Termometro a mercurio (1)}	& \(0.01 ^\circ C\)	 &  misura temperatura acqua nel calorimetro\\  \hdashline
-				\textbf{Termometro a mercurio (2)}	& \(1 ^\circ C\)	 & misura temperatura ambiente  \\  \hdashline
+				\textbf{Termometro a mercurio (2)}	& \(1 ^\circ C\)	 &  misura temperatura corpo nel bollitore\\  \hdashline  
+				\textbf{Termometro a mercurio (3)}	& \(1 ^\circ C\)	 & misura temperatura ambiente  \\  \hdashline
 				\textbf{Termometro digitale}	& \(0.01 ^\circ C\)	 &  misura temperatura acqua calda nella borraccia (\(m'_{a}\))\\  \hdashline
 				\textbf{ilancia elettronica} & \(0.0001 \SI{}{\kilogram}\) & misura masse \\ \bottomrule
 			\end{tabular}
 		\end{small}
 		\caption{Misure preliminari (masse)}
 	\end{table}
-	Ovviamente è stato utilizzato un calorimetro e un bollitore per scaldare l'acqua (e il corpo a bagnomaria).
+	E' stato utilizzato un bollitore per scaldare l'acqua (e il corpo a bagnomaria) e ovviamente un calorimetro, composto di un vaso metallico interno che contiene l'acqua e un recipiente esterno isolante (nella pratica non riesce ad ottenere la perfetta adiabaticità del sistema). Alcuni contenitori come un becher e una caraffa sono stati utilizzati come tara per alcune misurazioni.
 	
 	\newpage
 	\section{Prima presa dati}
 	\subsection{Cilindro metallico}
-	Per prima cosa si procede all'acquisizioni di alcune misure preliminari. Alcune di queste saranno già utilizzabili per il calcolo finale del calore specifico del cilindro metallico, altre invece verranno utilizzate per ricavare altri dati utili. Pesiamo sulla bilancia il vaso del calorimetro, il vaso con all'interno circa \(2.6 \SI{}{\kilogram}\) d'acqua, il cilindro metallico e il becher (nel caso sia necessario tarare qualche misura succesivamente).
+	Per prima cosa si procede all'acquisizione di alcune misure preliminari. Alcune di queste saranno già utilizzabili per il calcolo finale del calore specifico del cilindro metallico, altre invece verranno utilizzate per ricavare altri dati utili. Pesiamo sulla bilancia il vaso del calorimetro, il vaso con all'interno circa \(2.6 \SI{}{\kilogram}\) d'acqua, il cilindro metallico e il becher (nel caso sia necessario tarare qualche misura successivamente).
 	
-	L'acqua versata all'interno del vaso è stata diluita con acqua fredda fino a farla arrivare ad una temperatura di circa \(14 ^\circ C\), in modo da reintrare nella scala di lettura del termometro fissato nel calorimetro (\(12-24 ^\circ C\)).
+	L'acqua versata all'interno del vaso è stata diluita con acqua fredda fino a farla arrivare ad una temperatura di circa \(14 ^\circ C\), in modo da rientrare nella scala di lettura del termometro fissato nel calorimetro (\(12-24 ^\circ C\)).
 	
 	Una volta versata, viene registrata la temperatura dell'acqua a intervalli di un minuto per quasi quindici minuti.
 	
@@ -202,11 +203,11 @@
 	\vspace{1cm}
 	
 	
-	Dalle seguenti misure si ricava la massa d'acqua \(m_{a}\) presente nel calorimetro come divverenza della massa del vaso più l'acqua e la massa del vaso: \(\boldsymbol{(m_{a} = 2.6050\pm 0.0002)\SI{}{\kilogram}}\)\footnotemark. \\
-
-
+	Dalle seguenti misure si ricava la massa d'acqua \(m_{a}\) presente nel calorimetro come differenza della massa del vaso più l'acqua e la massa del vaso: \(\boldsymbol{(m_{a} = 2.6050\pm 0.0002)\SI{}{\kilogram}}\)\footnotemark. \\
+	
+	
 	\noindent
-	Immergo il cilindro metallico nell'acqua del calorimetro si acquisisce la temperatura dell'acqua a intervalli di \(5 s\) fino a che questa non raggiuge una soglia di equilibrio. Una volta raggiunta la temperatura di equilibrio si acquisisce nuovamente a intervalli di un minuto.
+	Immergo il cilindro metallico nell'acqua del calorimetro si acquisisce la temperatura dell'acqua a intervalli di \(5 s\) fino a che questa non raggiunge una soglia di equilibrio. Una volta raggiunta la temperatura di equilibrio si acquisisce nuovamente a intervalli di un minuto.
 	
 	
 	\begin{center}
@@ -226,7 +227,7 @@
 					grid style=dashed,
 					enlargelimits=0.1,
 					width=\textwidth,
-					height=7cm,
+					height=6.5cm,
 					point meta min=15,
 					point meta max=18,
 					colormap={yellowred}{
@@ -330,7 +331,7 @@
 	\subsubsection{Fit lineare \(T_{1}\) e \(T_{\text{eq}}\)}
 	Per ricavare \(T_{\text{eq}}\) si traccia  la retta di best fit delle temperature finali e la si interseca con la retta \(x=t_{i}\) tempo di immersione del corpo. Si andrà quindi a simulare un "innalzamento istantaneo" della temperatura. 
 	
-	Risulta molto più semplice traslare il grafico, come riportato sotto, portando \(t_{i} = 843 s\) sullo \(0\) (\(t' = t - 843s\)) così che le due temperature trovate abbiano come errore quello sull'intercetta \(b\). In appendice viene esposto un secondo metodo che non necessita la traslazione del grafico e in cui entra in gioco la covarianza (\ref{covarianza}). \\
+	Risulta molto più semplice traslare il grafico, come riportato sotto, portando \(t_{i} = 843 s\) sullo \(0\) (\(t' = t - 843s\)) così che le due temperature trovate abbiano come errore quello sull'intercetta \(b\) delle rispettive rette di best fit. In appendice viene esposto un secondo metodo che non necessita della traslazione del grafico e in cui entra in gioco la covarianza (\ref{covarianza}). \\
 	
 	\noindent
 	Per prima cosa troviamo \(T_{1}\):
@@ -463,7 +464,7 @@
 			\centering
 			\begin{tabular}{@{}cc@{}}
 				\multicolumn{2}{c}{$\mathbf{T_{1}}$} \\ \midrule
-			 	$\boldsymbol{t(s)}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
+				$\boldsymbol{(t \pm 0.01) s}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
 				-783	& 	$15.31$   \\\hdashline
 				-723	& 	$15.32$  \\\hdashline
 				-663	& 	$15.33$  \\\hdashline
@@ -479,15 +480,15 @@
 		\end{table}
 	\end{minipage}
 	\begin{minipage}{0.7\textwidth}
-		Per trovare l'equazione della retta si utilizza il metodo dei minimi quadrati. L'errore relativo sul tempo è di due ordini di grandezza minore rispetto all'errore relativo sulla temperatura quindi quest'ultima sarà la variabile \(y\) e il tempo, che abbiamo appurato avere errore trascurabile rispetto a quello sulla temperatura, la \(x\). Con il metodo dei minimi quadrati si trovano i parametri \(\boldsymbol{a}\) e \(\boldsymbol{b}\) della retta:
+		Per trovare l'equazione della retta si utilizza il metodo dei minimi quadrati. L'errore relativo sul tempo è di due ordini di grandezza minore rispetto all'errore relativo sulla temperatura quindi quest'ultima sarà la variabile \(y\), il tempo, che abbiamo appurato avere errore trascurabile rispetto a quello sulla temperatura, la \(x\). Con il metodo dei minimi quadrati si trovano i parametri \(\boldsymbol{a}\) e \(\boldsymbol{b}\) della retta:
 		\[ 
 		y = \boldsymbol{a} + \boldsymbol{b} x
 		\]
 		\[ 
-		\boldsymbol{a = 15.28 \pm 0.01} \qquad \qquad \boldsymbol{b = 0.00031 \pm 0.00002}
+		\boldsymbol{a = (15.28 \pm 0.01)^\circ C} \qquad \qquad \boldsymbol{b = (0.00031 \pm 0.00002)\frac{^\circ C}{s}}
 		\]
 		
-
+		
 		Per verificare che la retta trovata si adatti bene ai dati è bene effettuare un test del \(\chi^2\).
 	\end{minipage}
 	
@@ -500,7 +501,7 @@
 			\begin{tabular}{@{}lcr@{}}\toprule
 				\multicolumn{3}{c}{\textbf{valori per test} \(\boldsymbol{\chi^2}\)}\\ \midrule
 				\textbf{Livello di significatività}		 &  \(\alpha\) &\(0.05\)\footnotemark \\  \hdashline
-					\textbf{Gradi di libertà}		 & \(n\)  &\((11-2) = 9\) \\   \hdashline
+				\textbf{Gradi di libertà}		 & \(n\)  &\((11-2) = 9\) \\   \hdashline
 				\textbf{Valore di} \(\boldsymbol{\chi^2}\)	 & \(\chi^2\)  &\(2.61\)\\  \hdashline
 				\(\boldsymbol{\chi^2}\) \textbf{sospetto}		& \(\chi^2_{\text{sos}}\)  &\(3.32\)\\ \hdashline
 				\(\boldsymbol{\chi^2}\) \textbf{critico}		& \(\chi^2_{\text{cri}}\)  &\(16.91\)\\ 
@@ -511,17 +512,17 @@
 	\end{table}
 	
 	\noindent
-	Il valore \(\chi^2\) rilevato è minore di quello sospetto: un piccolo valore di \(\chi^2\) è indice di barre d'errore troppo grandi o di una forte vicinanza tra valori sperimentali e valori teorici. A corroborare l'ipotesi di una presa dati molto precisa si rileva un coefficiente di correlazione lineare \(r = 0.997\). Inoltre l'errore associato alla temperatura (\(0.01 ^\circ C\)) è la sensibilità del termometro utilizzato e quindi non può essere stato sovrastimato. Concludo quindi accettando l'ipotesi nulla con un livello di significatività del 5\%.
+	Il valore \(\chi^2\) rilevato è minore di quello sospetto: un piccolo valore di \(\chi^2\) è indice di barre d'errore troppo grandi o di una forte vicinanza tra valori sperimentali e valori teorici tuttavia è impossibile aver sovrastimato l'errore sulle misure in quanto questo corrisponde alla sensibilità del termomtero; piuttosto il risultato del test è spiegabile da una presa dati molto precisa. A corroborare l'ipotesi di una presa dati molto precisa si rileva un coefficiente di correlazione lineare \(r = 0.997\). Concludo quindi accettando l'ipotesi nulla con un livello di significatività del 5\%.
 	
 	\subsubsection{Fit lineare \(T_{\text{eq}}\)}
 	
 	\begin{minipage}{0.7\textwidth}
-		Per trovare l'equazione della retta si utilizza nuovamente il metodo dei minimi quadrati con il quale si ottengono i parametri \(\boldsymbol{a}\) e \(\boldsymbol{b}\) della retta:
+		Per trovare l'equazione della retta si utilizza nuovamente il metodo dei minimi quadrati con il quale si ottengono i parametri \(\boldsymbol{a'}\) e \(\boldsymbol{b'}\) della retta:
 		\[ 
-		y = \boldsymbol{a} + \boldsymbol{b} x
+		y = \boldsymbol{a'} + \boldsymbol{b'} x
 		\]
 		\[ 
-		\boldsymbol{a = 17.71 \pm	0.02} \qquad \qquad \boldsymbol{b = 0.00013	\pm 0.00003}
+		\boldsymbol{a' = (17.71 \pm	0.02)^\circ C} \qquad \qquad \boldsymbol{b' = (0.00013	\pm 0.00003)\frac{^\circ C}{s}}
 		\]
 		
 		
@@ -532,7 +533,7 @@
 			\centering
 			\begin{tabular}{@{}cc@{}}
 				\multicolumn{2}{c}{$\mathbf{T_{\text{eq}}}$} \\ \midrule
-				$\boldsymbol{t(s)}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
+				$\boldsymbol{(t \pm 0.01) s}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
 				564	& 	$17.78$   \\\hdashline
 				623	& 	$17.79$  \\\hdashline
 				685	& 	$17.79$  \\\hdashline
@@ -544,7 +545,7 @@
 		\end{table}
 	\end{minipage}
 	
-	\paragraph{Ipotesi nulla} La retta \(y = \boldsymbol{a} + \boldsymbol{b}x\) descrive bene l’andamento dei dati osservati sperimentalmente.
+	\paragraph{Ipotesi nulla} La retta \(y = \boldsymbol{a'} + \boldsymbol{b'}x\) descrive bene l'andamento dei dati osservati sperimentalmente.
 	
 	
 	\begin{table}[H] \centering
@@ -570,28 +571,14 @@
 	\begin{es}{\(T_{1}\) e \(T_{\text{eq}}\)}
 		Appurato che entrambe le rette possono essere buone approssimazioni dei miei dati, avendo traslato il grafico della temperatura portando il tempo di immersione sullo 0, le due temperature saranno semplicemente i due termini noti delle due rette:
 		\[ 
-		\giallo{\boldsymbol{T_{1} = 15.28	\pm 0.01}}\qquad \qquad \rosso{\boldsymbol{T_{\text{eq}} = 17.71	\pm 0.02}}
+		\giallo{\boldsymbol{T_{1} = (15.28	\pm 0.01)^\circ C}}\qquad \qquad \rosso{\boldsymbol{T_{\text{eq}} = (17.71	\pm 0.02)^\circ C}}
 		\]
 	\end{es}
 	
 	
 	
 	\subsection{Massa d'acqua}
-	Per ricavare il valore della capacità termica del calorimetro si può calcolare la massa equivalente d'acqua, infatti vale \(C_{c} = m_{e} c_{a}\): la capacità termica del calorimetro è uguale al prodotto tra la massa equivalnte d'acqua e il calore specifico dell'acqua (quatità nota). \\
-	
-	\noindent
-	Riprendeno l'equazione di equilibrio energetico possiamo ricavare la formula della massa equivalente, l'unica differenza è che questa volta non verrà utilizzato il cilindro metallico, ma bensì una massa d'ac	ua \(m'_{a}\) a temperatura \(T'_{2}\), così che sia noto il calore specifico del corpo immerso nel calorimetro con all'interno la massa \(m_{a(2)}\)\footnote{Il calcolo di \(m_{a(2)}\) è specificato nella fase finale della presa dati (\ref{calcolo me e cx})} d'acqua a temperatura \(T'_{1}\).
-	
-	\[ 
-	 m'_{a}c_{x}(T'_{2} - T'_{e}) = (m_{e}c_{a} + m_{a(2)}c_{a})(T'_{\text{eq}} - T'_{1})
-	\] 
-	
-	\[ 
-	\to \quad m_{e} = \frac{m'_{a}(T'_{2} - T'_{\text{eq}})}{T'_{\text{eq}}-T'_{1}}
-	\]
-	
-	\noindent
-	Prima di tutto alcune misure preliminari: vengono pesate nuovamente tutte le masse (per eventuali residui di acqua rimasti sul cilindro o nei contenitori utilizzati per pesare) e misurate le temperature dell'acqua nel calorimetro e dell'acqua riscaldata nel bollitore.
+	Prima di tutto alcune misure preliminari: vengono pesate nuovamente tutte le masse (per eventuali residui di acqua rimasti sul cilindro o nei contenitori utilizzati per pesare) e misurate le temperature dell'acqua nel calorimetro e dell'acqua riscaldata nel bollitore e poi messa nella borraccia.
 	
 	\vspace{1cm}
 	\begin{minipage}{0.4\textwidth}
@@ -630,8 +617,8 @@
 	
 	Nel momento dell'estrazione del corpo dal calorimetro parte dell'acqua in quest'utlimo potrebbe essere rimasta attaccata al corpo. Per ricavare la massa d'acqua rimasta nel calorimetro pesiamo la massa del corpo bagnato in un becher; si ricava la massa d'acqua \(m_{a(2)}\) presente nel calorimetro come:
 	\begin{align*}
-	\boldsymbol{	m_{a(2)} =}& m_{a} - (m_{\text{bercher+corpo}} - m_{\text{bercher}} - m_{\text{c}}) \\
-				 \boldsymbol{=}& \boldsymbol{(2.6000 \pm 0.0002) \SI{}{\kilogram}}
+		\boldsymbol{	m_{a(2)} =}& m_{a} - (m_{\text{becher+corpo}} - m_{\text{becher}} - m_{\text{c}}) \\
+		\boldsymbol{=}& \boldsymbol{(2.6000 \pm 0.0002) \SI{}{\kilogram}}
 	\end{align*}
 	Si ricava invece la massa d'acqua da versare togliendo la tara utilizzata (borraccia) alla massa borraccia più acqua:
 	\[ 
@@ -754,7 +741,7 @@
 			\centering
 			\begin{tikzpicture}
 				\begin{axis}[
-					title={Temperatura dell'acqua nel calorimetro in funzione del tempo (cilindro metallico)},
+					title={Temperatura dell'acqua nel calorimetro in funzione del tempo (massa d'acqua)},
 					xlabel={t ( $s$ )},
 					ylabel={T ( $^\circ C$ )},
 					xmin=-1005, xmax=1000,
@@ -873,7 +860,7 @@
 			\centering
 			\begin{tabular}{@{}cc@{}}
 				\multicolumn{2}{c}{$\mathbf{T'_{\text{eq}}}$} \\ \midrule
-				$\boldsymbol{t(s)}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
+				$\boldsymbol{(t \pm 0.01) s}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
 				245	& 	$20.41$   \\\hdashline
 				305	& 	$20.41$  \\\hdashline
 				365	& 	$20.40$  \\\hdashline
@@ -894,7 +881,7 @@
 		y = \boldsymbol{a} + \boldsymbol{b} x
 		\]
 		\[ 
-		\boldsymbol{a = 20.43 \pm 0.01} \qquad \qquad \boldsymbol{b = -0.00007 \pm 0.00001}
+		\boldsymbol{a = (20.43 \pm 0.01)^\circ C} \qquad \qquad \boldsymbol{b = (-0.00007 \pm 0.00001)\frac{^\circ C}{s}}
 		\]
 		
 		
@@ -921,13 +908,13 @@
 	\end{table}
 	
 	\noindent
-	Il valore \(\chi^2\) rilevato è sospetto, tuttavia, come per i fit precedenti, l'unica spiegazione che si può dare a tale risultato è una presa dati molto precisa; non si può pensare a barre d'errore troppo grandi poiché l'errore sulla temperatura è la sensibilità dello strumento. Accettando l'ipotesi nulla con un livello di significatività del 5\%.
+	Il valore \(\chi^2\) rilevato è sospetto, tuttavia, come per i fit precedenti, l'unica spiegazione che si può dare a tale risultato è una presa dati molto precisa; non si può pensare a barre d'errore troppo grandi poiché l'errore sulla temperatura è la sensibilità dello strumento. Accetto l'ipotesi nulla con un livello di significatività del 5\%.
 	
 	
 	\begin{es}{\(T'_{1}\) e \(T'_{\text{eq}}\)}
 		Conclusa l'analisi delle misure si ha \(T'_{1}\), di cui si ha la misura diretta, e \(T'_{\text{eq}}\)
 		\[ 
-		\azzurro{\boldsymbol{T'_{1} = 18.00 \pm 0.01}}\qquad \qquad \blu{\boldsymbol{T_{\text{eq}} = 20.43 \pm 0.01}}
+		\azzurro{\boldsymbol{T'_{1} = (18.00 \pm 0.01)^\circ C}}\qquad \qquad \blu{\boldsymbol{T_{\text{eq}} = (20.43 \pm 0.01)^\circ C}}
 		\]
 	\end{es}
 	
@@ -937,12 +924,12 @@
 	\[ 
 	m_{e} = \frac{m'_{a}\left(T'_{2} - T'_{\text{eq}}\right)}{T'_{\text{eq}} - T'_{1}} - m_{a(2)} \pm \sigma_{m_e} =  \frac{m'_{a}\Delta T'_{2e}}{\Delta T'_{e1}} - m_{a(2)}\pm \sigma_{m_e} \footnotemark\footnotetext{\label{errore in appendice}Lo sviluppo dell'errore di \(m_{e}\) e di \(c_{x}\) è riportato in appendice (\ref{sigma me})}
 	\]
-
+	
 	\begin{table}[H] \centering
 		%\ra{1.3}
 		\begin{small}
 			\begin{tabular}{@{}lcccr@{}}\toprule
-								&  	\textbf{misure}	& \textbf{errore assoluto} & \textbf{errore relativo}  & u.m.\\ \midrule
+				&  	\textbf{misure}	& \textbf{errore assoluto} & \textbf{errore relativo}  & u.m.\\ \midrule
 				\(\Delta T'_{2e}\)	&  \(61.6\)	& \(0.1\)	& \(0.002\)	&\(^\circ C\)			\\  \hdashline
 				\(\Delta T'_{e1}\)	&  \(2.43\)	& \(0.01\)	& \(0.01\)	&\(^\circ C\)			\\  \hdashline
 				\(m'_{a}\)			&  \(0.1116\)	& \(0.0002\)	& \(0.002\)	&\(\SI{}{\kilogram}\) 	 \\  \hdashline
@@ -984,7 +971,7 @@
 	\]
 	
 	\subsection{Analisi errori}
-	Visti i risultati ottenuti è possibile ripetere l'esperienza modificando alcuni parametri iniziali così da ottenere un calore specifico e una massa equivalente più accurati. Per fare ciò si vanno a confrontare gli errori relativi dei fattori delle due espressioni e si individua quale di questi è il maggiore (e quindi è più responsabile dell'aumentare delle incertezze).
+	Visti i risultati ottenuti è possibile ripetere l'esperienza modificando alcuni parametri iniziali così da ottenere un calore specifico e una massa equivalente più accurati. Per fare ciò si vanno a confrontare gli errori relativi dei fattori delle due espressioni e si individua quale di questi è il maggiore (e quindi è più influente nell'aumento delle incertezze).
 	
 	Tra i fattori di \(m_{e}\) si nota subito che l'errore relativo di \(\Delta T'_{e1} = T'_{\text{eq}} - T'_{1}\) è di un ordine di grandezza superiore agli altri; invece tra i fattori di \(c_{x}\) sia \(\Delta T_{2e}=T_{2} - T_{\text{eq}}\) sia \(\Delta T_{e1} = T_{\text{eq}} - T_{1}\) risultano di un ordine di grandezza superiori agli altri. 
 	
@@ -993,7 +980,7 @@
 	Per far si che nella prossima presa dati questi errori relativi diminuiscano decidiamo di aumentare i delta in questo modo:
 	\begin{enumerate}
 		\item Diminuire la temperatura iniziale cominciando con \(T_{1}\) e \(T'_{1}\) minori;
-		\item Aumentare la temperatura finale comnciando con la temperatura del corpo \(T_{2}\) maggiore;
+		\item Aumentare la temperatura finale cominciando con la temperatura del corpo \(T_{2}\) maggiore;
 		\item Aumentare la massa d'acqua nel calorimetro così che \(M\) risulti maggiore.
 	\end{enumerate}
 	
@@ -1040,9 +1027,9 @@
 	Dalle seguenti misure si ricava la massa d'acqua \(m_{a}\) presente nel calorimetro come differenza della massa del vaso più l'acqua e la massa del vaso: \(\boldsymbol{(m_{a} = 2.8030\pm 0.0002)\SI{}{\kilogram}}\). \\
 	
 	\noindent
-	Immerso il cilindro metallico nell'acqua del calorimetro si acquisisce la temperatura dell'acqua a intervalli di \(5 s\) fino a che questa non raggiuge una soglia di equilibrio. Una volta raggiunta la temperatura di equilibrio si acquisisce nuovamente a intervalli di un minuto.
+	Immerso il cilindro metallico nell'acqua del calorimetro si acquisisce la temperatura dell'acqua a intervalli di \(5 s\) fino a che questa non raggiunge una soglia di equilibrio. Una volta raggiunta la temperatura di equilibrio si acquisisce nuovamente a intervalli di un minuto.
 	
-		\begin{center}
+	\begin{center}
 		\begin{figure}[H]
 			\centering
 			\begin{tikzpicture}
@@ -1060,8 +1047,8 @@
 					enlargelimits=0.1,
 					width=\textwidth,
 					height=7cm,
-					point meta min=15,
-					point meta max=18,
+					point meta min=13,
+					point meta max=15.61,
 					colormap={yellowred}{
 						color(0cm)=(yellow)
 						color(1cm)=(red)
@@ -1150,7 +1137,7 @@
 	Per ricavare \(T_{\text{eq}}\) si trasla il grafico portando l'istante di immersione sullo zero e si traccia  la retta di best fit delle temperature finali.
 	\noindent
 	Per prima cosa troviamo \(T_{\text{eq}}\):
-		\begin{center}
+	\begin{center}
 		\begin{figure}[H]
 			\centering
 			\begin{tikzpicture}
@@ -1168,8 +1155,8 @@
 					enlargelimits=0.1,
 					width=\textwidth,
 					height=7cm,
-					point meta min=15,
-					point meta max=18,
+					point meta min=13,
+					point meta max=15.6,
 					colormap={yellowred}{
 						color(0cm)=(yellow)
 						color(1cm)=(red)
@@ -1269,7 +1256,7 @@
 			\centering
 			\begin{tabular}{@{}cc@{}}
 				\multicolumn{2}{c}{$\mathbf{T_{\text{eq}}}$} \\ \midrule
-				$\boldsymbol{t(s)}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
+				$\boldsymbol{(t \pm 0.01) s}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
 				220 & 15.46 \\ \hdashline
 				280 & 15.48 \\ \hdashline
 				340 & 15.50 \\ \hdashline
@@ -1283,12 +1270,12 @@
 		\end{table}
 	\end{minipage}
 	\begin{minipage}{0.7\textwidth}
-		 Con il metodo dei minimi quadrati si trovano i parametri \(\boldsymbol{a}\) e \(\boldsymbol{b}\) della retta:
+		Con il metodo dei minimi quadrati si trovano i parametri \(\boldsymbol{a}\) e \(\boldsymbol{b}\) della retta:
 		\[ 
 		y = \boldsymbol{a} + \boldsymbol{b} x
 		\]
 		\[ 
-		\boldsymbol{a = 15.40	 \pm 0.01} \qquad \qquad \boldsymbol{b = 0.00031 \pm 0.00002}
+		\boldsymbol{a = (15.40	 \pm 0.01)^\circ C} \qquad \qquad \boldsymbol{b = (0.00031 \pm 0.00002)\frac{^\circ C}{s}}
 		\]
 		
 		
@@ -1315,11 +1302,11 @@
 	\end{table}
 	
 	\noindent
-	Il valore \(\chi^2\) rilevato è minore di quello sospetto: un piccolo valore di \(\chi^2\) è indice di barre d'errore troppo grandi o di una forte vicinanza tra valori sperimentali e valori teorici. A corroborare l'ipotesi di una presa dati molto precisa si rileva un coefficiente di correlazione lineare \(r = 0.997\). Inoltre l'errore associato alla temperatura (\(0.01 ^\circ C\)) è la sensibilità del termometro utilizzato e quindi non può essere stato sovrastimato. Concludo quindi accettando l'ipotesi nulla con un livello di significatività del 5\%.
+	L'unica spiegazione ad un chi quadro sospetto in questo caso è di nuovo una misura molto precisa. Accetto l'ipotesi nulla con un livello di significatività del 5\%.
 	
 	\begin{es}{\(T_{1}\) e \(T_{\text{eq}}\)}
 		\[ 
-		\giallo{\boldsymbol{T_{1} = 13.26	\pm 0.01}}\qquad \qquad \rosso{\boldsymbol{T_{\text{eq}} = 15.50	\pm 0.01}}
+		\giallo{\boldsymbol{T_{1} = (13.26	\pm 0.01)^\circ C}}\qquad \qquad \rosso{\boldsymbol{T_{\text{eq}} = (15.40	\pm 0.01)^\circ C}}
 		\]
 	\end{es}
 	
@@ -1574,7 +1561,7 @@
 			\centering
 			\begin{tabular}{@{}cc@{}}
 				\multicolumn{2}{c}{$\mathbf{T'_{\text{eq}}}$} \\ \midrule
-				$\boldsymbol{t(s)}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
+				$\boldsymbol{(t \pm 0.01) s}$ & $\boldsymbol{(T \pm 0.01) ^\circ C}$  \\ \midrule
 				160 & 18.99 \\ \hdashline
 				220 & 18.99 \\ \hdashline
 				280 & 18.99 \\ \hdashline
@@ -1599,7 +1586,7 @@
 	\begin{es}{\(T'_{1}\) e \(T'_{\text{eq}}\)}
 		Conclusa l'analisi delle misure si hanno
 		\[ 
-		\azzurro{\boldsymbol{T'_{1} = 15.85 \pm 0.01}}\qquad \qquad \blu{\boldsymbol{T_{\text{eq}} = 18.99 \pm 0.01}}
+		\azzurro{\boldsymbol{T'_{1} = (15.85 \pm 0.01)^\circ C}}\qquad \qquad \blu{\boldsymbol{T_{\text{eq}} = (18.99 \pm 0.01)^\circ C}}
 		\]
 	\end{es}
 	
@@ -1607,7 +1594,7 @@
 	\subsection{Calcolo massa equivalente e calore specifico}\label{calcolo me e cx 2}
 	Dalle misure appena concluse è possibile trovare il valore della massa equivalente:
 	\[ 
-	m'_{e} = \frac{m'_{a}\left(T'_{2} - T'_{\text{eq}}\right)}{T'_{\text{eq}} - T'_{1}} - m_{a(2)} \pm \sigma_{m'_e} =  \frac{m'_{a}\Delta T'_{2e}}{\Delta T'_{e1}} - m_{a(2)}\pm \sigma_{m'_e} \footnotemark\footnotetext{\label{errore in appendice}Lo sviluppo dell'errore di \(m_{e}\) e di \(c_{x}\) è riportato in appendice (\ref{sigma me})}
+	m'_{e} = \frac{m'_{a}\left(T'_{2} - T'_{\text{eq}}\right)}{T'_{\text{eq}} - T'_{1}} - m_{a(2)} \pm \sigma_{m'_e} =  \frac{m'_{a}\Delta T'_{2e}}{\Delta T'_{e1}} - m_{a(2)}\pm \sigma_{m'_e} 
 	\]
 	
 	\begin{table}[H] \centering
@@ -1669,62 +1656,62 @@
 				\(c_{x}\) & 0.233 & 0.005& 2.1\%\\ \hdashline
 				\(c'_{x}\) &0.211 & 0.002& 0.9 \%\\ \bottomrule
 			\end{tabular}
-			\caption{confronto prima e dopo correzion}
+			\caption{confronto prima e dopo correzioni}
 		\end{small}
 	\end{table}
 	
-Si evince che le correzioni hanno permesso una stima di massa equivalente e calore specifico molto più precisa; tuttavia potrebbero risultare non compatibili i valori. Per accertarsi che i risultati della prima presa dati siano consistenti con quelli della seconda si sottopongono questi ultimi a un test \(z\). Più precisamente si va a verificare che la differenza tra \(c_{x}\) e \(c'_{x}\) e tra \(m_{e}\) e \(m'_{e}\) sia compatibile con \(0\):
-\[ 
-z = \frac{|m_e-m'_e|}{\sqrt{\sigma_{m_e}^2 + \sigma_{m'_e}^2}}  \qquad \qquad \qquad z = \frac{|c_{x}-c'_{x}|}{\sqrt{\sigma_{c_{x}}^2 + \sigma_{c'_{x}}^2}}
-\]
-
-
-\vspace{0.4cm}
-\begin{center}
-	\begin{minipage}{0.48\textwidth}
-		\subsection{Test Z (\(m_{e}\))}
-		\paragraph{Ipotesi nulla} I valori \(c_{x}\) e \(c'_{x}\) sono compatibili con un livello di signifatività del 5\%
-		\begin{table}[H] \centering
-			%\ra{1.3}
-			\begin{small}
-				\begin{tabular}{@{}lcr@{}}\toprule
-					\multicolumn{3}{c}{\textbf{valori per test} \(\boldsymbol{z}\)}\\ \midrule
-					\textbf{Livello di significatività}		 &  \(\alpha\) &\(0.05\) \\  \hdashline
-					\(\boldsymbol{z}\) \textbf{osservato}		& \(z_{\text{oss}}\)  &\(0.7\)\\ \hdashline
-					\(\boldsymbol{z}\) \textbf{critico}		& \(z_{\text{cri}}\)  &\(1.96\)\\ 
-					\bottomrule
-				\end{tabular}
-			\end{small}
-			\caption{\(z\) \(m_{e} - m'_{e}\)}
-		\end{table}
-	\end{minipage}
-	\hspace{0.3cm}
-	\begin{minipage}{0.48\textwidth}
-		\subsection{Test Z (\(c_{x}\))}
-		\paragraph{Ipotesi nulla}  I valori \(m_{e}\) e \(m'_{e}\) sono compatibili con un livello di signifatività del 5\%
-		\begin{table}[H] \centering
-			%\ra{1.3}
-			\begin{small}
-				\begin{tabular}{@{}lcr@{}}\toprule
-					\multicolumn{3}{c}{\textbf{valori per test} \(\boldsymbol{z}\)}\\ \midrule
-					\textbf{Livello di significatività}		 &  \(\alpha\) &\(0.05\) \\  \hdashline
-					\(\boldsymbol{z}\) \textbf{osservato}		& \(z_{\text{oss}}\)  &\(4.0\)\\ \hdashline
-					\(\boldsymbol{z}\) \textbf{critico}		& \(z_{\text{cri}}\)  &\(1.96\)\\ 
-					\bottomrule
-				\end{tabular}
-			\end{small}
-			\caption{\(z\) \(c_{x} - c'_{x}\)}
-		\end{table}
-	\end{minipage}
-\end{center}
-
-	Accetto la prima ipotesi nulla e rifiuto la seconda: le masse equivalenti risultano essere compatibili (livello di significatività del 5\%) mentre i calori speifici non lo sono. Una spiegazione plausibile è una prima presa dati imprecisa e più grossolana rispetto alla seconda che ha fornito un valore di \(c_{x}\) con errore di 0.9\% contro il 2.1\% della prima. Per accertarsi di quale calore specifico sia il più accurato li si confronta con il calore specifico dell'acciaio fornitoci dalla letteratura:
+	Si evince che le correzioni hanno permesso una stima di massa equivalente e calore specifico molto più precisa; tuttavia potrebbero risultare non compatibili i valori. Per accertarsi che i risultati della prima presa dati siano consistenti con quelli della seconda si sottopongono questi ultimi a un test \(z\). Più precisamente si va a verificare che la differenza tra \(c_{x}\) e \(c'_{x}\) e tra \(m_{e}\) e \(m'_{e}\) sia compatibile con \(0\):
+	\[ 
+	z = \frac{|m_e-m'_e|}{\sqrt{\sigma_{m_e}^2 + \sigma_{m'_e}^2}}  \qquad \qquad \qquad z = \frac{|c_{x}-c'_{x}|}{\sqrt{\sigma_{c_{x}}^2 + \sigma_{c'_{x}}^2}}
+	\]
+	
+	
+	\vspace{0.4cm}
+	\begin{center}
+		\begin{minipage}{0.48\textwidth}
+			\subsection{Test Z (\(m_{e}\))}
+			\paragraph{Ipotesi nulla} La differenza dei valori \(c_{x}\) e \(c'_{x}\) è compatibile con zero con un livello di significatività del 5\%
+			\begin{table}[H] \centering
+				%\ra{1.3}
+				\begin{small}
+					\begin{tabular}{@{}lcr@{}}\toprule
+						\multicolumn{3}{c}{\textbf{valori per test} \(\boldsymbol{z}\)}\\ \midrule
+						\textbf{Livello di significatività}		 &  \(\alpha\) &\(0.05\) \\  \hdashline
+						\(\boldsymbol{z}\) \textbf{osservato}		& \(z_{\text{oss}}\)  &\(0.7\)\\ \hdashline
+						\(\boldsymbol{z}\) \textbf{critico}		& \(z_{\text{cri}}\)  &\(1.96\)\\ 
+						\bottomrule
+					\end{tabular}
+				\end{small}
+				\caption{\(z\) \(m_{e} - m'_{e}\)}
+			\end{table}
+		\end{minipage}
+		\hspace{0.3cm}
+		\begin{minipage}{0.48\textwidth}
+			\subsection{Test Z (\(c_{x}\))}
+			\paragraph{Ipotesi nulla}  La differenza dei valori \(m_e\) e \(m'_e\) è compatibile con zero con un livello di significatività del 5\%
+			\begin{table}[H] \centering
+				%\ra{1.3}
+				\begin{small}
+					\begin{tabular}{@{}lcr@{}}\toprule
+						\multicolumn{3}{c}{\textbf{valori per test} \(\boldsymbol{z}\)}\\ \midrule
+						\textbf{Livello di significatività}		 &  \(\alpha\) &\(0.05\) \\  \hdashline
+						\(\boldsymbol{z}\) \textbf{osservato}		& \(z_{\text{oss}}\)  &\(4.0\)\\ \hdashline
+						\(\boldsymbol{z}\) \textbf{critico}		& \(z_{\text{cri}}\)  &\(1.96\)\\ 
+						\bottomrule
+					\end{tabular}
+				\end{small}
+				\caption{\(z\) \(c_{x} - c'_{x}\)}
+			\end{table}
+		\end{minipage}
+	\end{center}
+	
+	Accetto la prima ipotesi nulla e rifiuto la seconda: le masse equivalenti risultano essere compatibili (livello di significatività del 5\%) mentre i calori specifici non lo sono. Una spiegazione plausibile è una prima presa dati imprecisa e più grossolana rispetto alla seconda che ha fornito un valore di \(c_{x}\) con errore di 0.9\% contro il 2.1\% della prima. Per accertarsi di quale calore specifico sia il più accurato li si confronta con il calore specifico dell'acciaio fornitoci dalla letteratura:
 	\[ 
 	c_{x_{\text{lett}}} = 0.215 \frac{\text{cal}}{g ^\circ C}
 	\]
 	
 	\subsection{Test Z con calore specifico teorico}
-	\paragraph{Iptesi nulla} Il calore specifico sperimentale (prima \(c_{x}\) e poi \(c'_{x}\)) è compatibile con il calore specifico fornito dalla letteratura
+	\paragraph{Ipotesi nulla} Il calore specifico sperimentale (prima \(c_{x}\) e poi \(c'_{x}\)) è compatibile con il calore specifico fornito dalla letteratura
 	
 	\begin{center}
 		\begin{minipage}{0.48\textwidth}
@@ -1762,8 +1749,8 @@ z = \frac{|m_e-m'_e|}{\sqrt{\sigma_{m_e}^2 + \sigma_{m'_e}^2}}  \qquad \qquad \q
 	
 	Come ci si poteva aspettare il primo calore specifico non risulta compatibile con quello teorico, mentre il secondo, frutto della presa dati più precisa, risulta compatibile (con un livello di significatività del 5\%). L'esito positivo del secondo test \(z\) evidenzia, oltre alla già verificata precisione, l'accuratezza dei valori ottenuti nella seconda procedura (rispetto alla prima). 
 	
- 
-
+	
+	
 	
 	
 	\section{Errori sistematici}
@@ -1780,29 +1767,47 @@ z = \frac{|m_e-m'_e|}{\sqrt{\sigma_{m_e}^2 + \sigma_{m'_e}^2}}  \qquad \qquad \q
 	\[ 
 	\Delta T = 0.45 ^\circ C 
 	\]
-	pari a crica 
+	pari a circa 
 	\[
 	0.007 \frac{^\circ C}{60 s}
 	\]
-	Una variazione di \(0.007 ^\circ C\) al minuto non è apprezzabile dal termometro utilizzato nel calorimetro (sensibilità \(0.01^\circ C\))
+	Una variazione di \(0.007 ^\circ C\) al minuto non è apprezzabile dal termometro utilizzato nel calorimetro (sensibilità \(0.01^\circ C\)); ogni due minuti si avrebbe una variazione di poco più di \(0.01^\circ C\) che rientra nelle naturali fluttuazioni statistiche delle misure; dopo il terzo minuto si comincerebbe ad avere un centesimo di grado in più su ogni misura ogni due minuti. Per perfezionare la presa dati bisognerebbe sottrarre la variazione di temperatura dovuta all'agitatore laddove questa è percepibile dal termometro.
+	
+	Certo è che le stime appena fatte sono assurde e fisicamente impossibili; nella realtà dei fatti è improbabile che l''agitatore abbia influito sulla presa dati visto il contributo minimo anche in condizioni ideali nelle quali tutta l'energia del motore è convertita in calore.
+	
+	
 	\subsection{Calore disperso}
+	Possibili errori possono essere stati le temperature iniziali del corpo e della massa d'acqua \(m'_a\) che potrebbero essersi raffreddati durante il processo di immissione nel calorimetro. Tuttavia per prevenire questo tipo di errori la temperatura di questi ultimi è sempre stata registrata nell'istante subito precedente all'inserimento nel calorimetro.
+	
+	\section{Conclusioni}
+	L'esperienza ha permesso di determinare in modo accurato il calore specifico di un cilindro di acciaio e della massa equivalente di un calorimetro. Per arrivare ai risultati ottenuti sono state effettuate due prese dati: la prima ha permesso di analizzare quali elementi influenzavano l'incertezza delle nostre incognite che, nella seconda presa dati, sono state ricalcolate in maniera più precisa.
+	
+	Il sistema del calorimetro pur non essendo completamente adiabatico non ha influenzato significativamente i risultati; eventuali dissipazioni di energia sono risultate trascurabili.
 	
 	\newpage
 	\section{Appendice}
 	\subsection{Calcoli e approssimazioni ricorrenti}
 	\begin{enumerate}
 		\item L'errore di misure derivate da somme e differenze sono tutti ricavati come semplici somme in quadratura.
-		\item Se l'errore associato a una misura derivata da una somma o una differenza era del tipo \(0.14\), \(0.014\), \(0.00\dots 014\) è sempre stato approssimato per eccesso. Si è preferito avere errori lievemente maggiori ma più realistici.
+		\item Se l'errore associato a una misura derivata da una somma o una differenza era del tipo \(0.14\), \(0.014\), \(0.00\dots 014\) è sempre stato approssimato per eccesso. Si è preferito avere errori lievemente maggiori invece di sottostimati.
 	\end{enumerate}
 	
 	\subsection{Calcolo \(T_{1}\) e \(T_{\text{eq}}\) con covarianze} \label{covarianza}
-	Al fine di semplificare la ricerca di temperatura iniziale e temperatura di equilibrio è utile traslare i grafici portando l'istante d'immersione (prima del corpo poi della massa d'acqua) sullo \(0\). In questo modo le due temperature risultano essere semplicemente i termini noti delle rette di best-fit. \\
+	Al fine di semplificare la ricerca di temperatura iniziale e temperatura di equilibrio è utile traslare i grafici portando l'istante d'immersione (prima del corpo poi della massa d'acqua) sullo \(0\). In questo modo le due temperature risultano essere semplicemente i termini noti delle rette di best fit. \\
 	
-	Senza ricorrere alla traslazione è possibile ricavare i due valori trovando l'intersezione delle due rette di best-fit con la retta \(x=t_{\text{i}}\) istante di immersione. In questo caso però il punto dove le rette intersecano \(x=t_{\text{i}}\) dipenderà dai parametri delle due rette  \(\boldsymbol{a}\) e \(\boldsymbol{b}\), grandezze dipendenti. Perciò nell'errore da associare a \(T_{1}\) e \(T_{\text{eq}}\) entrerà in gioco anche la covarianza \(\sigma_{ab}\):
+	Senza ricorrere alla traslazione è possibile ricavare i due valori trovando l'intersezione delle due rette di best fit con la retta \(x=t_{\text{i}}\) istante di immersione. In questo caso però il punto dove le rette intersecano \(x=t_{\text{i}}\) dipenderà dai parametri delle due rette  \(\boldsymbol{a}\) e \(\boldsymbol{b}\), grandezze dipendenti. Perciò nell'errore da associare a \(T_{1}\) e \(T_{\text{eq}}\) entrerà in gioco anche la covarianza \(\sigma_{ab}\):
 	\[ 
 	\sigma_T^2 = \left(\frac{\partial T}{\partial a}\right)^2 \sigma_a^2 + \left(\frac{\partial T}{\partial b}\right)^2 \sigma_b^2 + 2\left(\frac{\partial T}{\partial a}\right)\left(\frac{\partial T}{\partial b}\right) \sigma_{ab}
 	\]
-	con tutte le derivate parziali calcolate in 
+	con
+	\[
+	\sigma_{ab} = -\frac{\sigma_y^2\sum^N x_i}{N\sum^Nx_i^2 + (\sum^N x_i)^2}
+	\]
+	Andando a calcolare la temperatura si ottiene lo stesso risultato ottenuto traslando il grafico con \(t_i = 0\):
+	\[
+	T_{1} = a + b(t_i) \pm \sigma_T = (15.28 \pm 0.01)^\circ C
+	\]
+	
 	
 	\subsection{Errori associati a \(c_{x}\) e \(m_{e}\)} 
 	\[ 
@@ -1810,7 +1815,7 @@ z = \frac{|m_e-m'_e|}{\sqrt{\sigma_{m_e}^2 + \sigma_{m'_e}^2}}  \qquad \qquad \q
 	\] \label{sigma me}
 	\begin{align*}
 		\sigma_{m_e} &= \sqrt{\left(\frac{\partial m_{e}}{\partial m'_{a}}\right)^2\sigma_{m'_{a}}^2 + \left(\frac{\partial m_{e}}{\partial\Delta T_{2e}}\right)^2\sigma_{\Delta T_{2e}}^2 + \left(\frac{\partial m_{e}}{\partial\Delta T_{e1}}\right)^2\sigma_{\Delta T_{e1}}^2 + \left(\frac{\partial m_{e}}{\partial m_{a}}\right)^2\sigma^2_{m_{a}}} \\
-					 &= \sqrt{\left(\frac{\Delta T_{2e}}{\Delta T_{e1}}\right)^2\sigma_{m'_{a}}^2 + \left(\frac{m'_{a}}{\Delta T_{e1}}\right)^2\sigma^2_{\Delta T_{2e}} + \left(\frac{m'_{a}\Delta T_{2e}}{\Delta T_{e1}^2}\right)^2\sigma^2_{\Delta T_{e1}}+\sigma^2_{m_{a}}}
+		&= \sqrt{\left(\frac{\Delta T_{2e}}{\Delta T_{e1}}\right)^2\sigma_{m'_{a}}^2 + \left(\frac{m'_{a}}{\Delta T_{e1}}\right)^2\sigma^2_{\Delta T_{2e}} + \left(\frac{m'_{a}\Delta T_{2e}}{\Delta T_{e1}^2}\right)^2\sigma^2_{\Delta T_{e1}}+\sigma^2_{m_{a}}}
 	\end{align*}
 	\vspace{1cm}
 	
@@ -1819,7 +1824,7 @@ z = \frac{|m_e-m'_e|}{\sqrt{\sigma_{m_e}^2 + \sigma_{m'_e}^2}}  \qquad \qquad \q
 	\]
 	\begin{align*}
 		\sigma_{c_{x}} =&  \sqrt{\left(\frac{\partial c_{x}}{\partial M}\right)^2\sigma_{M}^2 + \left(\frac{\partial c_{x}}{\partial c_{a}}\right)^2\sigma_{c_{a}}^2 + \left(\frac{\partial c_{x}}{\partial m_{c}}\right)^2\sigma_{m_{c}}^2+ \left(\frac{\partial c_{x}}{\partial\Delta T_{e1}}\right)^2\sigma_{\Delta T_{e1}}^2 + \left(\frac{\partial c_{x}}{\partial \Delta T_{2e}}\right)^2\sigma^2_{\Delta T_{2e}}} \\
-		 =& \sqrt{\left(\frac{c_{a}}{m_{c}}\frac{\Delta T_{e1}}{\Delta T_{2e}}\right)^2\sigma^2_{M} + \left( \frac{M}{m_{c}}\frac{\Delta T_{e1}}{\Delta T_{2e}} \right)^2\sigma_{c_{a}}^2 + \left(\frac{Mc_{a}}{m_{c}^2}\frac{\Delta T_{e1}}{\Delta T_{2e}}\right)^2 \sigma_{m_{c}}^2 + \left(\frac{Mc_{a}}{m_{c}}\frac{1}{\Delta T_{2e}}\right)^2\sigma_{\Delta T_{e1}}^2 + \left(\frac{Mc_{a}}{m_{c}}\frac{\Delta T_{e1}}{\Delta T_{2e}^2}\right)^2\sigma_{T_{2e}}^2}
+		=& \sqrt{\left(\frac{c_{a}}{m_{c}}\frac{\Delta T_{e1}}{\Delta T_{2e}}\right)^2\sigma^2_{M} + \left( \frac{M}{m_{c}}\frac{\Delta T_{e1}}{\Delta T_{2e}} \right)^2\sigma_{c_{a}}^2 + \left(\frac{Mc_{a}}{m_{c}^2}\frac{\Delta T_{e1}}{\Delta T_{2e}}\right)^2 \sigma_{m_{c}}^2 + \left(\frac{Mc_{a}}{m_{c}}\frac{1}{\Delta T_{2e}}\right)^2\sigma_{\Delta T_{e1}}^2 + \left(\frac{Mc_{a}}{m_{c}}\frac{\Delta T_{e1}}{\Delta T_{2e}^2}\right)^2\sigma_{T_{2e}}^2}
 	\end{align*}
 	
 	

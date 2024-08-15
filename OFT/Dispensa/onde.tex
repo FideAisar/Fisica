@@ -8,7 +8,7 @@
 \usepackage[skins]{tcolorbox}
 \usepackage[version=4]{mhchem}
 \usepackage[a4paper, total={6in, 9in}]{geometry}
-%\usepackage{fourier}
+\usepackage{fourier}
 \usepackage{xymtex}
 \usepackage{textcomp}
 \usepackage{eurosym}
@@ -213,12 +213,12 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 
 \begin{document}
 	
-\input{titlepage}
-\tableofcontents
-\newpage
-
-\chapter{Onde}
-\section{Onde meccaniche}
+	\input{titlepage}
+	\tableofcontents
+	\newpage
+	
+	\chapter{Onde}
+	\section{Onde meccaniche}
 	Se in casi come il pendolo o un corpo attaccato ad una molla l'oscillazione è \textbf{macroscopica} perché tutto il sistema oscilla, in corpi continui elastici possono prodursi moti oscillatori locali, provocati in una zona specifica del corpo. Questa oscillazione indotta localmente si \textbf{propaga nel mezzo} con una certa velocità costituendo così un'\textbf{onda}.
 	
 	\begin{center}
@@ -265,7 +265,7 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 		\textcolor{red}{\frac{\partial^2 f}{\partial t^2} =} \frac{\partial}{\partial t}\left(\frac{\partial f}{\partial t}\right) =\frac{\partial}{\partial t}\left(\frac{\partial f}{\partial z}\textcolor{orange}{\frac{\partial z}{\partial t}}\right) =\textcolor{cyan}{\frac{\partial}{\partial t}}\left(\textcolor{orange}{-v}\frac{\partial f}{\partial z}\right) = \textcolor{cyan}{-v\frac{\partial }{\partial z}}\left(\textcolor{orange}{-v}\frac{\partial f}{\partial z}\right) \textcolor{red}{=v^2\frac{\partial^2 f}{\partial z^2}}
 		\]
 		\[ 
-	    \frac{\partial^2\xi}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2\xi}{\partial t^2}
+		\frac{\partial^2\xi}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2\xi}{\partial t^2}
 		\]
 		\newline
 		Il passaggio più ambiguo è quello evidenziato in \textcolor{cyan}{ciano}, in cui viene cambiata variabile di derivazione da \(t\) a \(z\). Trattando una funzione qualsiasi, la derivata di qualsiasi funzione rispetto a \(t\) è uguale a \(-v\) derivata rispetto a z (\(-v\) rappresenta il \(dz\) che va a moltiplicare). 
@@ -277,12 +277,12 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	G(x,t) = f(x-vt) + g(x+vt)
 	\]
 	
-
-
-\newpage
-\subsection{Onde in una sbarra solida}
+	
+	
+	\newpage
+	\subsection{Onde in una sbarra solida}
 	Prendiamo una sbarra solida  e supponiamo di sollecitare  il tratto iniziale applicando una \textbf{forza impulsiva}. Analiziamo un segmento di lunghezza \(dx\): su di esso agiscono la forza elastica \(\vec{F}(x,t)\)  esercitata dagli elementi a sinistra del segmento e la forza elastica \(-\vec{F}(x + dx,t)\) di verso opposto esercitata dagli elementi a destra.
-
+	
 	\begin{center}
 		\textcolor{red}{inserire grafici}
 	\end{center}
@@ -333,11 +333,11 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	\end{cases}
 	\]
 	
-
+	
 	\begin{equation}
 		\viola{\frac{\partial^2F}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 F}{\partial t^2} \qquad \qquad v = \sqrt{\frac{E}{\rho}}}
 	\end{equation}
-
+	
 	
 	\begin{center}
 		\fboxsep11pt
@@ -348,8 +348,8 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 		\end{minipage}}
 	\end{center}
 	
-\newpage
-\subsection{Onde in una corda tesa}
+	\newpage
+	\subsection{Onde in una corda tesa}
 	Quando si sposta rapidamente in direzione trasversale l'estremo di una corda tesa (con un estremo fisso) vediamo la perturbazione che si propaga lungo la corda da un estremo all'altro. Supponiamo di spostare leggermente la corda dalla sua posizione di equilibrio e andiamo a studiare le tensioni che agiscono su un segmento di corda \(\mathbf{dl}\). Per piccoli angoli \(\alpha\) e \(\alpha'\) possiamo introdurre le seguenti approssimazioni:
 	
 	\[ 
@@ -380,7 +380,7 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	\[ 
 	T\frac{\partial^2\xi}{\partial x^2}\textcolor{red}{dx} = \mu \textcolor{red}{dx} \frac{\partial^2 \xi}{\partial t^2}
 	\]
-
+	
 	\begin{equation}\label{corda}
 		\viola{	\frac{\partial^2\xi}{\partial x^2} = \frac{\mu}{T} \frac{\partial^2 \xi}{\partial t^2} \qquad \qquad v = \sqrt{\frac{T}{\mu}}}
 	\end{equation}
@@ -394,8 +394,8 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 		\end{minipage}}
 	\end{center}
 	
-\newpage
-\subsection{Onde nei gas}
+	\newpage
+	\subsection{Onde nei gas}
 	Se per i solidi la deformazione dipende dal modulo di Young secondo la legge \(\frac{\Delta L}{L} = \frac{1}{E}\sigma\), nel caso dei gas la variazione relativa di volume segue la legge
 	\[ 
 	\frac{\Delta V}{V} = -\frac{1}{\beta} \Delta p
@@ -431,7 +431,7 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	\]
 	da cui la variazione
 	\begin{equation} \label{rho}
-	d\rho(x,t) = \rho(x,t) - \rho_0 = - \rho_0\frac{\partial \xi}{\partial x}
+		d\rho(x,t) = \rho(x,t) - \rho_0 = - \rho_0\frac{\partial \xi}{\partial x}
 	\end{equation}
 	in cui il segno meno indica ce se il volumetto è compresso la densità aumenta, mentre se si espande la densità diminuisce.
 	
@@ -446,16 +446,16 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	\]
 	Sostituendo l'espressione della densità trovata prima nella \ref{rho} scrivo
 	\begin{equation}\label{1press}
-	\viola{p(x,t)} = \beta\frac{- \rho_0\frac{\partial \xi}{\partial x}}{\rho_0} +  p_0 \viola{=p_0 - \beta\frac{\partial \xi}{\partial x}}
+		\viola{p(x,t)} = \beta\frac{- \rho_0\frac{\partial \xi}{\partial x}}{\rho_0} +  p_0 \viola{=p_0 - \beta\frac{\partial \xi}{\partial x}}
 	\end{equation}
 	\subsubsection{Forza}
 	La variazione di pressione causa un movimento del gas e la risultante su $dm$ è 
 	\begin{align*}
-	-dF = F(x,t') - F(x+dx.t') =& S\left[p(x,t') - p(x+dx,t')\right] \\
-							   =& S(dp) \\
-							   =& -S\frac{\partial p}{\partial x}dx \\
-							   =& -S\frac{\partial}{\partial x}\left(p_0 - \beta\frac{\partial \xi}{\partial x}\right)dx \\
-							   =& S\beta\frac{\partial^2\xi}{\partial x^2}dx
+		-dF = F(x,t') - F(x+dx.t') =& S\left[p(x,t') - p(x+dx,t')\right] \\
+		=& S(dp) \\
+		=& -S\frac{\partial p}{\partial x}dx \\
+		=& -S\frac{\partial}{\partial x}\left(p_0 - \beta\frac{\partial \xi}{\partial x}\right)dx \\
+		=& S\beta\frac{\partial^2\xi}{\partial x^2}dx
 	\end{align*}
 	
 	\[ 
@@ -503,52 +503,52 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	\end{es}
 	
 	
-\newpage
-\section{Onde piane armoniche}
-Un tipo molto importante di onda piana è l'\textbf{onda armonica} la cui forma si scrive
-
-\[ 
-\xi(x,t) = \xi_0 \sin\left(\boldsymbol{k}x \mp \boldsymbol{\omega} t + \boldsymbol{\delta}\right)
-\]
-dove \(k\) è il \textbf{numero d'onde}.
-\begin{center}
-	\textcolor{red}{inserire grafici}
-\end{center}
-
-\noindent
-\paragraph{Periodo spaziale} Fissato un tempo \(t=t_0\), definiamo la lunghezza d'onda \(\lambda\) come la periodicità spaziale dell'onda. Essendo \(\lambda\) lo spazio tra due creste d'onda possiamo calcolarla come \(\lambda = x_2 - x_1 = 2\pi / k\), da cui si deduce che \(k\) è uguale al numero di lunghezze d'onda in un intervallo spaziale pari a \(2\pi\) metri.
-
-In generale il periodo spaziale può essere espresso tramite \(\lambda\) o \(k\).
-
-\begin{center}
-	\fboxsep11pt
-	\colorbox{yblue}{\begin{minipage}{5.75in}
-			\begin{blues}{Lunghezza d'onda \(\lambda\)}
-				La lungheza d'onda è lo spazio percorso dalla perturbaione nell'intervallo di tempo di un periodo \(T\).
-				\[ 
-				\lambda = \frac{2\pi}{k} = vT
-				\]
-			\end{blues}
-	\end{minipage}}
-\end{center}
-
-\paragraph{Periodo temporale} Fissato unpunto nello spazio \(x=x_0\), definiamo il periodo \(T = t_2-t_2\)
-
-\[ T = \frac{2\pi}{\omega}\] 
-come l'intervallo temporale tra due istanti nei quali l'onda, essendo armonica, assume lo stesso valore.
-
-Sapendo che la pulsazione è la velocità dell'onda nel percorrere un giro (\(2\pi\)), i due periodi dono legati dalla relazione
-\[ 
-\lambda = vT
-\]
-Quindi possiamo esprimere il periodo temporale tramite \(T\), \(f\), \(\omega\).\\
-
-\noindent
-Tutte le espressioni della funzione d'onda sono:
-
-\[ 
-\xi(x,t) = \xi_0 \sin\left(kx \mp \omega t + \delta\right) \qquad \xi(x,t) = \xi_0 \sin\left[ 2\pi\left(\frac{x}{\lambda} \mp \frac{t}{T}\right) + \delta\right]  \qquad \xi_0\sin\left[\frac{2\pi}{\lambda}\left(x \mp vt\right) + \delta \right]
-\]
+	\newpage
+	\section{Onde piane armoniche}
+	Un tipo molto importante di onda piana è l'\textbf{onda armonica} la cui forma si scrive
+	
+	\[ 
+	\xi(x,t) = \xi_0 \sin\left(\boldsymbol{k}x \mp \boldsymbol{\omega} t + \boldsymbol{\delta}\right)
+	\]
+	dove \(k\) è il \textbf{numero d'onde}.
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	
+	\noindent
+	\paragraph{Periodo spaziale} Fissato un tempo \(t=t_0\), definiamo la lunghezza d'onda \(\lambda\) come la periodicità spaziale dell'onda. Essendo \(\lambda\) lo spazio tra due creste d'onda possiamo calcolarla come \(\lambda = x_2 - x_1 = 2\pi / k\), da cui si deduce che \(k\) è uguale al numero di lunghezze d'onda in un intervallo spaziale pari a \(2\pi\) metri.
+	
+	In generale il periodo spaziale può essere espresso tramite \(\lambda\) o \(k\).
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Lunghezza d'onda \(\lambda\)}
+					La lungheza d'onda è lo spazio percorso dalla perturbaione nell'intervallo di tempo di un periodo \(T\).
+					\[ 
+					\lambda = \frac{2\pi}{k} = vT
+					\]
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	
+	\paragraph{Periodo temporale} Fissato unpunto nello spazio \(x=x_0\), definiamo il periodo \(T = t_2-t_2\)
+	
+	\[ T = \frac{2\pi}{\omega}\] 
+	come l'intervallo temporale tra due istanti nei quali l'onda, essendo armonica, assume lo stesso valore.
+	
+	Sapendo che la pulsazione è la velocità dell'onda nel percorrere un giro (\(2\pi\)), i due periodi dono legati dalla relazione
+	\[ 
+	\lambda = vT
+	\]
+	Quindi possiamo esprimere il periodo temporale tramite \(T\), \(f\), \(\omega\).\\
+	
+	\noindent
+	Tutte le espressioni della funzione d'onda sono:
+	
+	\[ 
+	\xi(x,t) = \xi_0 \sin\left(kx \mp \omega t + \delta\right) \qquad \xi(x,t) = \xi_0 \sin\left[ 2\pi\left(\frac{x}{\lambda} \mp \frac{t}{T}\right) + \delta\right]  \qquad \xi_0\sin\left[\frac{2\pi}{\lambda}\left(x \mp vt\right) + \delta \right]
+	\]
 	
 	
 	\newpage
@@ -571,9 +571,9 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	\begin{align*}
 		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
-					=& -ES\frac{\partial\xi}{\partial x}\frac{\partial\xi}{\partial t} \\
-					=& -ES\left[k\xi_0\cos\left(kx -\omega t\right)\right]\left[-\omega \xi_0\cos\left(kx -\omega t\right)\right] \\
-					=& ESk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
+		=& -ES\frac{\partial\xi}{\partial x}\frac{\partial\xi}{\partial t} \\
+		=& -ES\left[k\xi_0\cos\left(kx -\omega t\right)\right]\left[-\omega \xi_0\cos\left(kx -\omega t\right)\right] \\
+		=& ESk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
 	\end{align*}
 	La potenza quindi è una cosinusoide traslata in alto di una sua ampiezza (con avvallamenti tangenti all'asse orizzontale). la potenza media è espirmibile come la retta che interseca la cosinusoide alla quota pari a metà la sua ampiezza; poi ricordandoci che
 	
@@ -583,7 +583,7 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	\begin{align*}
 		\mathcal{P}_m =& \frac{1}{2} ESk\omega \xi_0^2  \\
-			=& \frac{1}{2} (v^2 \rho)S\left(\frac{\omega}{v}\right) \omega\xi_0^2 
+		=& \frac{1}{2} (v^2 \rho)S\left(\frac{\omega}{v}\right) \omega\xi_0^2 
 	\end{align*}
 	
 	\begin{equation}
@@ -613,7 +613,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\begin{equation}
 		\viola{\mathcal{P}_m = \mathcal{W}S v}
 	\end{equation}
-
+	
 	
 	\subsubsection{Intensità dell'onda}
 	Definiamo l'intensità di un'onda come  \textbf{potenza media per unità di superficie}, quindi
@@ -677,7 +677,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\begin{equation}
 		\viola{\mathcal{P}_m = \mathcal{W} v}
 	\end{equation}
-
+	
 	\section{Onde sonore}\label{Onde Sonore}
 	Consideriamo ora delle onde sonore come onde di spostamento sempre accompagnate da onde di pressione:
 	\[ 
@@ -698,9 +698,9 @@ Tutte le espressioni della funzione d'onda sono:
 	troviamo
 	\begin{align*}
 		dp =& -\textcolor{red}{\beta} \textcolor{blue}{k} \xi_0 \cos\left(kx-\omega t\right) \\
-		   =& \textcolor{red}{v^2 \rho_0}\textcolor{blue}{\frac{\omega }{v}} \cos\left(kx-\omega t\right) \\
-		   =& \boldsymbol{\rho_0 v \omega  \xi_0}  \cos\left(kx-\omega t\right) \\ 
-		   =& \boldsymbol{\Delta p_{\text{max}}} \sin\left(kx -\omega t - \pi /2\right) \\
+		=& \textcolor{red}{v^2 \rho_0}\textcolor{blue}{\frac{\omega }{v}} \cos\left(kx-\omega t\right) \\
+		=& \boldsymbol{\rho_0 v \omega  \xi_0}  \cos\left(kx-\omega t\right) \\ 
+		=& \boldsymbol{\Delta p_{\text{max}}} \sin\left(kx -\omega t - \pi /2\right) \\
 	\end{align*}
 	Le onde di pressione sono quindi in ritardo di \(\pi /2\).
 	
@@ -710,8 +710,8 @@ Tutte le espressioni della funzione d'onda sono:
 	\]
 	\begin{align*}
 		\mathcal{P} &= \beta k \xi_0 \cos\left(kx- \omega t\right) S \omega  \xi_0 \cos\left(kx- \omega t\right)\\
-					&= v^2\rho_0 \frac{\omega}{v} \xi_0 \cos\left(kx- \omega t\right) S \omega \xi_0 \cos\left(kx- \omega t\right)\\
-					&=  \rho_0 v \omega ^2 S \xi_0^2 \cos^2\left(kx- \omega t\right) 
+		&= v^2\rho_0 \frac{\omega}{v} \xi_0 \cos\left(kx- \omega t\right) S \omega \xi_0 \cos\left(kx- \omega t\right)\\
+		&=  \rho_0 v \omega ^2 S \xi_0^2 \cos^2\left(kx- \omega t\right) 
 	\end{align*}
 	Si ottiene quindi una potenza media pari a metà la sua ampiezza
 	\[ 
@@ -731,18 +731,18 @@ Tutte le espressioni della funzione d'onda sono:
 	\subsection{Fonometria}
 	Per essere messo in movimento il timpano ha bisogno di un'intensità minima che chiamiamo \textbf{soglia di udibilità}. Il limite superiore invece è chiamata \textbf{soglia del dolore} e rappresenta l'intensità sopra alla quale si percepisce una sensazione dolorosa. Entrambe vengono espresse o in funzione della frequenza o in funzione della lunghezza d'onda (\(\lambda=v/f\)); si ha quindi che le frequenze all'interno delle due soglie sono
 	\[ 
-		\SI{20}{\hertz} < f < \SI{20000}{\hertz}
+	\SI{20}{\hertz} < f < \SI{20000}{\hertz}
 	\]
 	\[ 
-		\SI{17.15}{\m} < \lambda < \SI{1.715}{\cm}
+	\SI{17.15}{\m} < \lambda < \SI{1.715}{\cm}
 	\]
 	La\textbf{ soglia minima} convenzionale dell'udibilità è l'intensità \(I_0 = 10^{-12}\SI{}{\watt/\m^2}\) alla frequenza  \(f = 10^3\SI{}{\hertz}\). A questa si possono associare la corrispondente onda di pressione e ampiezza delle oscillazioni:
 	\[ 
-		\Delta p_{\text{max}} = \sqrt{2\rho_0 v I_0} = 2.97 \cdot 10^{-5} \SI{}{\pascal}
+	\Delta p_{\text{max}} = \sqrt{2\rho_0 v I_0} = 2.97 \cdot 10^{-5} \SI{}{\pascal}
 	\]
 	e poiché  \(\Delta p_{\text{max}} = \rho_0 v \textcolor{red}{\omega } \xi_0\)
 	\[ 
-		\xi_0 = \frac{\Delta p_{\text{max}}}{\textcolor{red}{2\pi f}\rho_0 v} = 1.07 \cdot 10^{-11}\SI{}{\m}
+	\xi_0 = \frac{\Delta p_{\text{max}}}{\textcolor{red}{2\pi f}\rho_0 v} = 1.07 \cdot 10^{-11}\SI{}{\m}
 	\]
 	
 	Alla soglia del dolore invece si ottengono 
@@ -793,7 +793,7 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	\section{Onde in più dimensioni}	
 	Prima di tutto definiamo \textbf{fronte d'onda} la superfici su cui in un certo istante la fase dell'onda è costante (\(\phi = kx -\omega t\)). 
-
+	
 	Per le onde piane il fronte d'onda è un piano che si sposta con velocità \(v\) dell'onda. Per caratterizzare la direzione di propagazione dell'onda introduciamo il \textbf{vettore di propagazione} \(\vec{k}\) con \(k = 2\pi/\lambda\) e verso uguale a quello di \(\vec{v}\) e il vettore posizione \(\vec{r}\) che individua la posizione di un punto P su un certo fronte d'onda. Con queste informazioni possiamo riscrivere la funzione d'onda come
 	\[ 
 	\xi(r,t) = \xi_0 \sin\left(\vec{k}\cdot \vec{r}- \omega t\right) 
@@ -831,14 +831,14 @@ Tutte le espressioni della funzione d'onda sono:
 	\begin{equation}
 		\viola{\frac{\partial^2\xi(x,y,t)}{\partial y^2} + \frac{\partial^2\xi(x,y,t)}{\partial x^2} = \frac{\rho_s}{T}\frac{\partial^2\xi(x,y,t)}{\partial t^2} \qquad v = \sqrt{\frac{T}{\rho_s}}}
 	\end{equation}
-
+	
 	
 	
 	
 	\subsection{Onde sferiche}
 	Se il mezzo è \textit{isotropo} è quindi la velocità di propagazione è uguale in tutte le direzioni, la funzoine d'\textbf{onda sferica armonica} è \(\xi(r,t) = A(r)\sin\left(kr -\omega t\right)\) dove \(r\) è la distanza dalla sorgfente e \(A(r)\) è l'ampiezza funzione di \(r\). \\
 	
-
+	
 	\begin{figure}[ht]
 		\centering
 		\scalebox{.7}{\incfig{sfera}}
@@ -860,7 +860,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\[ 
 	A(r) = \sqrt{\frac{\mathcal{P}_m}{4\pi r^2}} = \frac{1}{2r}\sqrt{\frac{\mathcal{P}_m}{\pi}}
 	\]
-
+	
 	\noindent
 	Risulta quindi che l'ampiezza è inversamente proporzionale alla distanza \(r\), come la pressione, e quindi può essere scritta come \(A = \xi_0 /r\).
 	\begin{equation}
@@ -876,14 +876,14 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	\section{Onde cilindriche}
 	
-
-
+	
+	
 	\newpage
 	\subsection{Assorbimento dell'energia}
 	Come abbiamo visto l'intensità di un'onda non rimane costante ma decresce al propagarsi dell'onda (nelle onde sferiche più rapidamente, nelle cilindriche meno...). Questo comportamento viene attribuito ad un \textbf{assorbimento di energia} dovuto a fenomeni di attrito interno. Studiando il fenomeno su uno spessore \(dx\) si ha un'aattenuazione che può essere considerata proporzionale all'intensità in \(x\) e allo spessore \(dx\).
 	
 	\[ 
- 	dI = -\boldsymbol{\alpha} I(x)dx
+	dI = -\boldsymbol{\alpha} I(x)dx
 	\]
 	
 	dove \(\alpha\) è il \textbf{coefficiente di assorbimento}.
@@ -892,7 +892,7 @@ Tutte le espressioni della funzione d'onda sono:
 	\int_{I_0}^{I} \frac{dI}{I} = -\alpha\int_{0}^{x} dx 
 	\]
 	\begin{equation}
- 		\viola{I(x) = I_0e^{-\alpha x}}
+		\viola{I(x) = I_0e^{-\alpha x}}
 	\end{equation}
 	Quindi la decrescità dell'intensità è esponenziale. Definiamo la distanza \(x_0 = \frac{1}{\alpha}\) detta \textbf{lunghezza di assorbimento} la distanza tra due punti tali che \(I(x_1)/I(x_2) = \frac{1}{e}\).\\
 	
@@ -922,7 +922,7 @@ Tutte le espressioni della funzione d'onda sono:
 	Considerato un pacchetto di lughezza \(\Delta x\) e durata \(\Delta t\), tali che \(\Delta x = v\Delta t\). Il pacchetto è poi caratterizzato da \(N\) oscillazioni tali che
 	
 	\[ 
-\Delta x  =N \lambda \qquad \Delta t = NT 
+	\Delta x  =N \lambda \qquad \Delta t = NT 
 	\]
 	ed esprimiamo il numero di onde \(k\) e la pulsazione \(\omega\) come
 	
@@ -948,73 +948,73 @@ Tutte le espressioni della funzione d'onda sono:
 	\]
 	Da quest'ultime espressioni notiamo che al crescere di \(\Delta x\) e \(\Delta t\) minori risultano queste bande, infatti la limite per \(\Delta x,\Delta t \to \infty\) troviamo l'onda armonica. Se andiamo a considerare \textbf{brevi durate e piccole lunghezze} nel pacchetto sono contenute bande di lunghezze d'onda e frequenze distribuite significatibamente nell'intorno di \(\lambda\) \(f\).
 	
-		\subsection{Velocità di fase e velocità di gruppo}
-		Poiché diversi segmenti d'onda contenuti in un pacchetto possono avere frequenze diverse, la velocità del pacchetto non può essere identificata con quella delle componenti. Tuttavia è essenziale identificare la velocità del pacchetto perché il fenomeno fisico è rappresentato proprio dal pacchetto ed è la sua velocità quella con cui si propaga l'\textbf{energia} dell'onda.     
-		
-		Andiamo quindi a distinguere la \textbf{velocità di fase}, quella con cui si muovono le singole componenti dell'onda, e \textbf{velocità di gruppo}. 
-		La velocità dell'onda dipende dalla frequenza quando la propagazione avviene in un \textbf{mezzo dispersivo} come può avvenire per onde sulla superficie di un liquido o onde elettromagnetiche in mezzi materiali o in cavità conduttrici.\\
-		
-		\noindent
-		Mostriamo un esempio di velocità di gruppo nel caso di un pacchetto con solo due onde armoniche:
-		
-		\[ 
-		\xi(x,t) = \xi_0\sin\left(k_1x -\omega_1 t\right) + \xi_0\sin\left(k_2x -\omega_2 t\right)
-		\]
-		\[ 
-		\textcolor{gray}{\textit{prostaferesi: } \quad \sin\alpha + \sin\beta = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
-		\]
-		\[ 
-		\xi(x,t) = 2\xi_0\sin\left(\frac{(k_1 + k_2)x - (\omega_1 + \omega_2)t}{2}\right) \cos\left(\frac{(k_1 - k_2)x + (\omega_2 - \omega_1)t}{2}\right)
-		\]
-		Definiti \(k_m,\omega _m\) e \(\Delta k,\Delta\omega\)
-		\[ 
-		\boxed{k_m = \frac{k_1 + k_2}{2}} \qquad \boxed{\omega _m = \frac{\omega _1 + \omega _2}{2}} \qquad \boxed{\Delta k=\frac{k_1 - k_2}{2}} \qquad \boxed{\Delta \omega = \frac{\omega_1 - \omega_2}{2}}
-		\]
-		\[ 
-		\viola{\xi(x,t) = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)\sin\left(k_mx - \omega_mt\right)}
-		\]
-		\begin{center}
-			\textcolor{red}{inserire grafici}
-		\end{center}	
+	\subsection{Velocità di fase e velocità di gruppo}
+	Poiché diversi segmenti d'onda contenuti in un pacchetto possono avere frequenze diverse, la velocità del pacchetto non può essere identificata con quella delle componenti. Tuttavia è essenziale identificare la velocità del pacchetto perché il fenomeno fisico è rappresentato proprio dal pacchetto ed è la sua velocità quella con cui si propaga l'\textbf{energia} dell'onda.     
 	
-		In sostanza il moto relativo di un'onda rispetto all'altra produce la sovrapposizione mostrata sopra: \textbf{l'onda di alta frequenza cambia} durante il moto ma \textbf{l'inviluppo conserva la stessa forma}.
-		
-		L'ampiezza dell'onda modulata
+	Andiamo quindi a distinguere la \textbf{velocità di fase}, quella con cui si muovono le singole componenti dell'onda, e \textbf{velocità di gruppo}. 
+	La velocità dell'onda dipende dalla frequenza quando la propagazione avviene in un \textbf{mezzo dispersivo} come può avvenire per onde sulla superficie di un liquido o onde elettromagnetiche in mezzi materiali o in cavità conduttrici.\\
+	
+	\noindent
+	Mostriamo un esempio di velocità di gruppo nel caso di un pacchetto con solo due onde armoniche:
+	
+	\[ 
+	\xi(x,t) = \xi_0\sin\left(k_1x -\omega_1 t\right) + \xi_0\sin\left(k_2x -\omega_2 t\right)
+	\]
+	\[ 
+	\textcolor{gray}{\textit{prostaferesi: } \quad \sin\alpha + \sin\beta = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
+	\]
+	\[ 
+	\xi(x,t) = 2\xi_0\sin\left(\frac{(k_1 + k_2)x - (\omega_1 + \omega_2)t}{2}\right) \cos\left(\frac{(k_1 - k_2)x + (\omega_2 - \omega_1)t}{2}\right)
+	\]
+	Definiti \(k_m,\omega _m\) e \(\Delta k,\Delta\omega\)
+	\[ 
+	\boxed{k_m = \frac{k_1 + k_2}{2}} \qquad \boxed{\omega _m = \frac{\omega _1 + \omega _2}{2}} \qquad \boxed{\Delta k=\frac{k_1 - k_2}{2}} \qquad \boxed{\Delta \omega = \frac{\omega_1 - \omega_2}{2}}
+	\]
+	\[ 
+	\viola{\xi(x,t) = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)\sin\left(k_mx - \omega_mt\right)}
+	\]
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}	
+	
+	In sostanza il moto relativo di un'onda rispetto all'altra produce la sovrapposizione mostrata sopra: \textbf{l'onda di alta frequenza cambia} durante il moto ma \textbf{l'inviluppo conserva la stessa forma}.
+	
+	L'ampiezza dell'onda modulata
+	\[ 
+	A = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)
+	\]
+	non è costante ma presenta una struttura di tipo ondulatorio e descrive l'inviluppo dell'onda di alta frequenza.
+	
+	Abbiamo quindi un'onda di alta frequenza che si propaga con \textbf{velocità di fase media} \(v_f\) e con ampiezza modulata da un'onda che si propaga con velocità \(v_g\) \textbf{velocità di gruppo}:
+	\[ 
+	v_f = \frac{\omega _m}{k_m} \qquad v_g = \frac{\Delta \omega }{\Delta k}
+	\]
+	Più in dettaglio la velocità di gruppo, nel limite del continuo, è definita come 
+	\[ 
+	v_g = \frac{d\boldsymbol{\omega} }{d\boldsymbol{k}}
+	\]
+	invece dall'espressione della velocità di fase possiamo esprimere la pulsazione in funzione di \(v_f\) e \(k\):
+	\[ 
+	\boldsymbol{\omega (k)} = v_f(k)\boldsymbol{k}
+	\]
+	da cui
+	\begin{equation}\label{relazione di dispersione}
+		\viola{v_g = v_f + k\frac{dv_f}{dk}} 
+	\end{equation}
+	La velocità di gruppo può quindi essere minore o maggiore della velocità di fase, dipende dal segno della derivata di \(v_f\): se la velocità delle singole componenti decresce, allora la velocità di gruppo sarà minore, se invece è in crescita, la velocità di gruppo sarà maggiore. Il caso di \textbf{mezzo non dispersivo}, ovvero quando \(\boldsymbol{v_g = v_f}\) si ha quando \(\boldsymbol{dv_f/dk = 0}\).
+	
+	\begin{es}{}
+		Servendosi delle seguenti uguaglianze
 		\[ 
-		A = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)
+		\boxed{\frac{dk}{k}} = \boxed{-\frac{d\lambda}{\lambda}} = \boxed{\frac{df}{f}}
 		\]
-		non è costante ma presenta una struttura di tipo ondulatorio e descrive l'inviluppo dell'onda di alta frequenza.
-		
-		Abbiamo quindi un'onda di alta frequenza che si propaga con \textbf{velocità di fase media} \(v_f\) e con ampiezza modulata da un'onda che si propaga con velocità \(v_g\) \textbf{velocità di gruppo}:
+		la \ref{relazione di dispersione} è riscrivibile come 
 		\[ 
-		v_f = \frac{\omega _m}{k_m} \qquad v_g = \frac{\Delta \omega }{\Delta k}
+		= v_f - \lambda \frac{dv_f}{d\lambda} = v_f + f\frac{dv_f}{df}
 		\]
-		Più in dettaglio la velocità di gruppo, nel limite del continuo, è definita come 
-		\[ 
-		v_g = \frac{d\boldsymbol{\omega} }{d\boldsymbol{k}}
-		\]
-		invece dall'espressione della velocità di fase possiamo esprimere la pulsazione in funzione di \(v_f\) e \(k\):
-		\[ 
-		\boldsymbol{\omega (k)} = v_f(k)\boldsymbol{k}
-		\]
-		da cui
-		\begin{equation}\label{relazione di dispersione}
-			\viola{v_g = v_f + k\frac{dv_f}{dk}} 
-		\end{equation}
-		La velocità di gruppo può quindi essere minore o maggiore della velocità di fase, dipende dal segno della derivata di \(v_f\): se la velocità delle singole componenti decresce, allora la velocità di gruppo sarà minore, se invece è in crescita, la velocità di gruppo sarà maggiore. Il caso di \textbf{mezzo non dispersivo}, ovvero quando \(\boldsymbol{v_g = v_f}\) si ha quando \(\boldsymbol{dv_f/dk = 0}\).
-
-		\begin{es}{}
-			Servendosi delle seguenti uguaglianze
-			\[ 
-			\boxed{\frac{dk}{k}} = \boxed{-\frac{d\lambda}{\lambda}} = \boxed{\frac{df}{f}}
-			\]
-			la \ref{relazione di dispersione} è riscrivibile come 
-			\[ 
-			= v_f - \lambda \frac{dv_f}{d\lambda} = v_f + f\frac{dv_f}{df}
-			\]
-		\end{es}
-		
-		E' bene capire che la struttura del pacchetto in generale si modifica durante la propagazione e proprio per questo la velocità di fase (delle singole componenti) varia in funzione di \(k\) così come la velocità di gruppo
+	\end{es}
+	
+	E' bene capire che la struttura del pacchetto in generale si modifica durante la propagazione e proprio per questo la velocità di fase (delle singole componenti) varia in funzione di \(k\) così come la velocità di gruppo
 	\newpage
 	\section{Effetto Doppler}
 	Se una sorgente di onde \(\boldsymbol{S}\) e un rivelatore di onde \(\boldsymbol{R}\) sono n moto reciproco la frequenza percepita dal rivelatore è in generale diversa dalla frequenza propira della sorgenre. Questo fenomeno prende il nome di effetto Doppler e si osserva per tutti i tipi di onde.
@@ -1063,11 +1063,11 @@ Tutte le espressioni della funzione d'onda sono:
 	f_R = \frac{v}{\lambda_R} = \frac{v - v_R}{vT_0} = \frac{v - v_R}{v(1/f_0)} \to
 	\]
 	\begin{equation}
-	\viola{f_R = \frac{v - v_R}{v}f_0}
+		\viola{f_R = \frac{v - v_R}{v}f_0}
 	\end{equation}
 	Come possiamo vedere dalle espressioni di \(f_R\) ottenute non sono simmetriche: seppur è il \textbf{moto relativo} quello che conta, non è lo stesso se la sorgente si muove o è il rivelatore a farlo.
 	
-		\subsection{Espressione generale}
+	\subsection{Espressione generale}
 	Le espressioni trovate nei due casi possono essere riassunte in un'unica formula. Diciamo quindi di avere sia una \(v_S\) sia una \(v_R\). La distanza tra i fronti d'onda è influenzata solo dalla velocità della sorgente e vale
 	\[ 
 	\lambda_R = \lambda_0 - v_ST_0 = = vT_0 - v_ST_0 = \frac{v - v_s}{f_0}
@@ -1082,9 +1082,9 @@ Tutte le espressioni della funzione d'onda sono:
 	f_R = \frac{\frac{v - v_R}{v-v_S}}{T_0} \to
 	\]
 	\begin{equation}
-		  \viola{\boxed{f_R = \frac{v - v_R}{v-v_S}f_0}}
+		\viola{\boxed{f_R = \frac{v - v_R}{v-v_S}f_0}}
 	\end{equation}
-
+	
 	\section{Onda d'urto}
 	Quando la sorgente si muove a velocità superiori a quella di propagazione dell'onda (\(v_S > v\)), i fronti d'onda di quest'ultima ammettono un \textbf{inviluppo} rappresentato da due rette convergenti. L'inviluppo rappresenta \textbf{il luogo di punti di egual fase} e costituisce il  \textbf{nuovo fronte d'onda} che prende il nome di \textbf{onda d'urto}. Possiamo trovare gli angoli che descrivono le due rette tramite semplici calcoli trigonometrici: 
 	\begin{center}
@@ -1117,185 +1117,185 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{center}
 	Quando due o più sorgenti coerenti emettono onde con \textbf{stessa pulsazione} \(\omega\) e queste onde si sovrappongono avviene il fenomeno dell'\textbf{interferenza}. Si verificano interferenze in ogni tipo di onde, si ha infatti una trattazione analitica indipendente dalla natura di esse.
 	
-		\subsection{Interferenza con stessa ampiezza}
-		Studiamo il caso unidimensionale di due onde piane coerenti con \textbf{medesima frequenza \(f\) e ampiezza \(\omega\)} che si propagano lungo la stessa direzione \(x\). Consideriamo un punto \(P\) distante \(x_1\) dalla primas sorgente e  \(x_2\) dalla seconda. In \(P\) si avranno le seguenti espressioni delle due onde:
-		\[ 
-		\xi_1 = A_0\cos\left(kx_1 -\omega t + \phi_1\right) = A_0\cos\left(\omega t - kx_1 - \phi_1\right)
-		\]
-		\[ 
-		\xi_2 = A_0\cos\left(kx_2 -\omega t + \phi_2\right) = A_0\cos\left(\omega t - kx_2 - \phi_2\right)
-		\]
-		Sappiamo che, essendo le sorgenti coerenti, lo sfasamento tra le due onde è fisso; chiamiamo questo sfasamento \(\delta\) così da eliminare il termine \(\phi_2\):
-		\[ 
-		\boxed{\delta = k(x_2 - x_1) + (\phi_2-\phi_1)}
-		\]
+	\subsection{Interferenza con stessa ampiezza}
+	Studiamo il caso unidimensionale di due onde piane coerenti con \textbf{medesima frequenza \(f\) e ampiezza \(\omega\)} che si propagano lungo la stessa direzione \(x\). Consideriamo un punto \(P\) distante \(x_1\) dalla primas sorgente e  \(x_2\) dalla seconda. In \(P\) si avranno le seguenti espressioni delle due onde:
+	\[ 
+	\xi_1 = A_0\cos\left(kx_1 -\omega t + \phi_1\right) = A_0\cos\left(\omega t - kx_1 - \phi_1\right)
+	\]
+	\[ 
+	\xi_2 = A_0\cos\left(kx_2 -\omega t + \phi_2\right) = A_0\cos\left(\omega t - kx_2 - \phi_2\right)
+	\]
+	Sappiamo che, essendo le sorgenti coerenti, lo sfasamento tra le due onde è fisso; chiamiamo questo sfasamento \(\delta\) così da eliminare il termine \(\phi_2\):
+	\[ 
+	\boxed{\delta = k(x_2 - x_1) + (\phi_2-\phi_1)}
+	\]
+	\[ 
+	\xi_1 = A_0\cos\left(\omega t - kx_1 - \phi_1\right)
+	\]
+	\[ 
+	\xi_2 = A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)
+	\] 
+	In P, l'onda risultante sarà la somma \(\xi _1 + \xi _2\)
+	
+	\begin{align*}
+		\xi =& \xi_1 + \xi _2 \\
+		=&  A_0\cos\left(\omega t - kx_1 - \phi_1\right) + A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)
+	\end{align*}
+	
+	\[
+	\textcolor{gray}{\textit{prostaferesi: } \quad \cos\alpha + \cos\beta = 2\cos\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
+	\]
+	
+	\begin{align*}
+		\xi =& A_0\cos\left(\omega t - kx_1 - \phi_1\right) + A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)\\
+		=& \textcolor{blue}{2A_0\cos\left(\delta/2\right)}\cos\left(\omega t - kx_1 - \phi_1+\delta/2\right)
+	\end{align*}
+	Come abbiamo visto precedentemente l'intensità è sempre proporzionale all'ampiezza al quadrato:
+	\[ 
+	I = K\textcolor{blue}{A}^2
+	\]
+	(in \(K\) sono kontenuti altri termini caratteristici e la superficie su cui si sta calcolando \(I\)),
+	\[ 
+	I = 4KA_0^2 \cos^2\left(\delta/2\right)
+	\]
+	
+	\[ 
+	\boxed{KA_0^2 = I_0}
+	\]
+	
+	\begin{equation}
+		\viola{I = 4I_0 \cos^2\left(\delta/2\right)}
+	\end{equation} \\
+	
+	\begin{es}{}
+		\subsection{Interferenza costruttiva e distruttiva}
+		Nel caso di due onde con ampiezze uguali abbiamo l'equazione 
+		
 		\[ 
 		\xi_1 = A_0\cos\left(\omega t - kx_1 - \phi_1\right)
-		\]
-		\[ 
+		\qquad
 		\xi_2 = A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)
 		\] 
-		In P, l'onda risultante sarà la somma \(\xi _1 + \xi _2\)
 		
-		\begin{align*}
-			\xi =& \xi_1 + \xi _2 \\
-				=&  A_0\cos\left(\omega t - kx_1 - \phi_1\right) + A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)
-		\end{align*}
-		
-		\[
-		\textcolor{gray}{\textit{prostaferesi: } \quad \cos\alpha + \cos\beta = 2\cos\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
-		\]
-		
-		\begin{align*}
-			\xi =& A_0\cos\left(\omega t - kx_1 - \phi_1\right) + A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)\\
-				=& \textcolor{blue}{2A_0\cos\left(\delta/2\right)}\cos\left(\omega t - kx_1 - \phi_1+\delta/2\right)
-		\end{align*}
-		Come abbiamo visto precedentemente l'intensità è sempre proporzionale all'ampiezza al quadrato:
+		l'interferenza sarà costruttiva se le due onde sono \textbf{in fase}, ovvero quando 
 		\[ 
-		I = K\textcolor{blue}{A}^2
+		\delta = 2m\pi \quad \to \quad \viola{\delta/2 = m\pi }
 		\]
-		(in \(K\) sono kontenuti altri termini caratteristici e la superficie su cui si sta calcolando \(I\)),
-		\[ 
-		I = 4KA_0^2 \cos^2\left(\delta/2\right)
-		\]
+		Si avrà un'interferenza distruttiva invece quando le due onde sono \textbf{in opposizione di fase}, quindi quando (una e a 1 e l'altra a -1)
 		
 		\[ 
-		\boxed{KA_0^2 = I_0}
+		\delta = 2m\pi + \pi \quad \to \quad \viola{\delta = (2m+1)\pi }
 		\]
 		
-		\begin{equation}
-				\viola{I = 4I_0 \cos^2\left(\delta/2\right)}
-		\end{equation} \\
-		
-		\begin{es}{}
-			\subsection{Interferenza costruttiva e distruttiva}
-			Nel caso di due onde con ampiezze uguali abbiamo l'equazione 
-			
-			\[ 
-			\xi_1 = A_0\cos\left(\omega t - kx_1 - \phi_1\right)
-			\qquad
-			\xi_2 = A_0\cos\left(\omega t - kx_2 - \phi_1 - \boldsymbol{\delta}\right)
-			\] 
-			
-			l'interferenza sarà costruttiva se le due onde sono \textbf{in fase}, ovvero quando 
-			\[ 
-			\delta = 2m\pi \quad \to \quad \viola{\delta/2 = m\pi }
-			\]
-			Si avrà un'interferenza distruttiva invece quando le due onde sono \textbf{in opposizione di fase}, quindi quando (una e a 1 e l'altra a -1)
-			
-			\[ 
-			\delta = 2m\pi + \pi \quad \to \quad \viola{\delta = (2m+1)\pi }
-			\]
-			
-			condizioni che assumono senso anche nell'espressione dell'intensità: se l'interferenza è costruttiva mi aspetto che l'intensità sia massima, cosa che accade proprio quando  \(\delta/2 = m\pi \); se invece l'interferenza è distruttiva mi aspetto un'intensità nulla, che si ha quando \(\delta = m\pi \):
-			\[ 
-			I = 4I_0 \cos^2\left(\textcolor{red}{2m\pi }\right) = 4I_0 = I_\text{max}
-			\]
-			\[ 
-			I = 4I_0 \cos^2\left(\textcolor{blue}{m\pi }\right) = 0 
-			\]
-		\end{es}
-		
-		\subsection{Interferenza con ampiezze diverse}
-		Prendiamo in considerazine due onde \(\xi_1\) e \(\xi_2\) con ampiezze diverse. Ci è comodo rappresentare le onde in "forma vettoriale" così da poter esplicitare alcuni termini più agevolmente.
+		condizioni che assumono senso anche nell'espressione dell'intensità: se l'interferenza è costruttiva mi aspetto che l'intensità sia massima, cosa che accade proprio quando  \(\delta/2 = m\pi \); se invece l'interferenza è distruttiva mi aspetto un'intensità nulla, che si ha quando \(\delta = m\pi \):
 		\[ 
-		\xi_1 = A_1 \cos\left(kx_1 - \omega t + \phi_1\right) = A_1 \cos\left(\omega t + \alpha_1\right)
+		I = 4I_0 \cos^2\left(\textcolor{red}{2m\pi }\right) = 4I_0 = I_\text{max}
 		\]
 		\[ 
-		\xi_2 = A_2 \cos\left(kx_2 - \omega t + \phi_2\right) = A_2 \cos\left(\omega t + \alpha_2\right)
+		I = 4I_0 \cos^2\left(\textcolor{blue}{m\pi }\right) = 0 
 		\]
-		\[ 
-		\boldsymbol{\xi} = \xi _1 + \xi _2 = \boldsymbol{A}\cos\left(\omega t + \boldsymbol{\alpha}\right)
-		\]
-		Rappresentiamo \(A_1,A_2\) e \(A\) come dei vettori rotanti (per il contributo del coseno) visti all'istante \(t=0\), quindi senza il termine \(\omega t\):
-		
+	\end{es}
+	
+	\subsection{Interferenza con ampiezze diverse}
+	Prendiamo in considerazine due onde \(\xi_1\) e \(\xi_2\) con ampiezze diverse. Ci è comodo rappresentare le onde in "forma vettoriale" così da poter esplicitare alcuni termini più agevolmente.
+	\[ 
+	\xi_1 = A_1 \cos\left(kx_1 - \omega t + \phi_1\right) = A_1 \cos\left(\omega t + \alpha_1\right)
+	\]
+	\[ 
+	\xi_2 = A_2 \cos\left(kx_2 - \omega t + \phi_2\right) = A_2 \cos\left(\omega t + \alpha_2\right)
+	\]
+	\[ 
+	\boldsymbol{\xi} = \xi _1 + \xi _2 = \boldsymbol{A}\cos\left(\omega t + \boldsymbol{\alpha}\right)
+	\]
+	Rappresentiamo \(A_1,A_2\) e \(A\) come dei vettori rotanti (per il contributo del coseno) visti all'istante \(t=0\), quindi senza il termine \(\omega t\):
+	
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	
+	Esplicitiamo l'angolo \(\alpha\):
+	\[ 
+	A\cos\alpha = A_1\cos\alpha_1 + A_2\cos\alpha_2		
+	\]
+	\[ 
+	A\sin\alpha = A_1\sin\alpha_1 + A_2\sin\alpha_2		
+	\]
+	da cui, elevando al quadrato:
+	\begin{align*} 
+		A^2\cos^2\alpha + A^2\sin^2\alpha =& (A_1\cos\alpha_1 + A_2\cos\alpha_2)^2 + (A_1\sin\alpha_1 + A_2\sin\alpha_2)^2\\
+		A^2 =& A_1^2\cos^2\alpha_1 + 2A_2A_1\cos\alpha_1\cos\alpha_2 + A_2^2\cos^2\alpha_2 + \\ &+ A_1^2\sin^2\alpha_1 + 2A_2A_1\sin\alpha_1\sin\alpha_2 + A_2^2\sin^2\alpha_2\\
+		=& A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) + 2A_2A_1(\cos\alpha_1\cos\alpha_2 + \sin\alpha_1\sin\alpha_2)\\
+		=&  A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) +  2A_2A_1\cos\left(\alpha_1 - \alpha_2\right)
+	\end{align*} 
+	
+	\[ 
+	\boxed{\delta = \alpha_1 - \alpha_2}
+	\]
+	
+	\begin{equation}
+		A = \sqrt{A_1^2 + A_2^2 + 2A_2A_1\cos\delta}
+	\end{equation}
+	Come prima, sapendo che l'intensità è proporzionale all'ampiezza al quadrato:
+	\begin{align*}
+		I =& KA^2 \\ 
+		=& K\left(A_1^2 + A_2^2 + 2A_2A_1\cos\delta\right)\\
+		=& \textcolor{cyan}{KA_1^2} + \textcolor{blue}{KA_2^2} + 2\textcolor{red}{KA_1A_2}\cos\delta
+	\end{align*}
+	
+	\[ 
+	\boxed{\textcolor{cyan}{KA_1^2}= I_1} \qquad \boxed{\textcolor{blue}{KA_2^2} = I_2 } 
+	\]
+	per esprimere il termine rettangolare in funzione di \(I_1\) e \(I_2\) sviluppo \(I_1I_2 = K^2A_1^2A_2^2\) e quindi
+	
+	\[ 
+	\boxed{\sqrt{I_1I_2} = \textcolor{red}{KA_1A_2}}
+	\]
+	
+	da cui
+	
+	\begin{equation}
+		\viola{I = I_1 + I_2 + 2\sqrt{I_1I_2}\cos\delta}
+	\end{equation}
+	
+	
+	\begin{es}{}
+		\subsection{Interferenza costruttiva e distruttiva}
+		Nel caso di due onde con ampiezze diverse 
 		\begin{center}
-			\textcolor{red}{inserire grafici}
+			\textcolor{red}{trova}
 		\end{center}
 		
-		Esplicitiamo l'angolo \(\alpha\):
-		\[ 
-		A\cos\alpha = A_1\cos\alpha_1 + A_2\cos\alpha_2		
-		\]
-		\[ 
-		A\sin\alpha = A_1\sin\alpha_1 + A_2\sin\alpha_2		
-		\]
-		da cui, elevando al quadrato:
-		\begin{align*} 
-		A^2\cos^2\alpha + A^2\sin^2\alpha =& (A_1\cos\alpha_1 + A_2\cos\alpha_2)^2 + (A_1\sin\alpha_1 + A_2\sin\alpha_2)^2\\
-									 A^2 =& A_1^2\cos^2\alpha_1 + 2A_2A_1\cos\alpha_1\cos\alpha_2 + A_2^2\cos^2\alpha_2 + \\ &+ A_1^2\sin^2\alpha_1 + 2A_2A_1\sin\alpha_1\sin\alpha_2 + A_2^2\sin^2\alpha_2\\
-									     =& A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) + 2A_2A_1(\cos\alpha_1\cos\alpha_2 + \sin\alpha_1\sin\alpha_2)\\
-									     =&  A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) +  2A_2A_1\cos\left(\alpha_1 - \alpha_2\right)
-		\end{align*} 
-		
-		\[ 
-		\boxed{\delta = \alpha_1 - \alpha_2}
-		\]
-		
-		\begin{equation}
-			A = \sqrt{A_1^2 + A_2^2 + 2A_2A_1\cos\delta}
-		\end{equation}
-		Come prima, sapendo che l'intensità è proporzionale all'ampiezza al quadrato:
-		\begin{align*}
-		I =& KA^2 \\ 
-		  =& K\left(A_1^2 + A_2^2 + 2A_2A_1\cos\delta\right)\\
-		  =& \textcolor{cyan}{KA_1^2} + \textcolor{blue}{KA_2^2} + 2\textcolor{red}{KA_1A_2}\cos\delta
-		\end{align*}
-		
-		\[ 
-		\boxed{\textcolor{cyan}{KA_1^2}= I_1} \qquad \boxed{\textcolor{blue}{KA_2^2} = I_2 } 
-		\]
-		per esprimere il termine rettangolare in funzione di \(I_1\) e \(I_2\) sviluppo \(I_1I_2 = K^2A_1^2A_2^2\) e quindi
-		
-		\[ 
-		\boxed{\sqrt{I_1I_2} = \textcolor{red}{KA_1A_2}}
-		\]
-		
-		da cui
-		
-		\begin{equation}
-			\viola{I = I_1 + I_2 + 2\sqrt{I_1I_2}\cos\delta}
-		\end{equation}
-		
-		
-		\begin{es}{}
-			\subsection{Interferenza costruttiva e distruttiva}
-			Nel caso di due onde con ampiezze diverse 
-			\begin{center}
-				\textcolor{red}{trova}
-			\end{center}
-			
-		\end{es}
-		
-		
-		\subsection{Sorgenti puntiformi}
-			\begin{center}
-				\textcolor{red}{guarda slides}
-			\end{center}
-			
-		\newpage
-		\section{Riflessione e trasmissione}
-		Prendiamo in esame una corda divisa in due segmenti uniti ma con densità lineari differenti. La velocità, dipendendo da \(\mu\), sarà diversa nei due mezzi:
-		\[ 
-		v_1 = \sqrt{\frac{T}{\mu_1}} \qquad v_2 = \sqrt{\frac{T}{\mu_2}} 
-		\]
-		da cui, poiché \(k = \omega / v\), anche i due \(k\) saranno diversi
-		\[ 
-		k_1 = \omega \sqrt{\frac{\mu_1}{T}} \qquad k_2 = \omega \sqrt{\frac{\mu_2}{T}} 
-		\]
-		Andiamo quindi a distinguere tre tipi di onde che si propagano sulla corda: una incidente, una trasmessa e una riflessa:
-		\[ 
-		\xi_i = \xi_{0i}\sin\left(k_1 x - \omega t\right)
-		\]
-		\[ 
-		\xi_r = \xi_{0r}\sin\left(k_1 x + \omega t\right)
-		\]
-		\[ 
-		\xi_t = \xi_{0t}\sin\left(k_2 x - \omega t\right)
-		\]
-		Nel punto di contatto tra i due tratti \textbf{imponiamo la continuità della funzione d'onda}:
-		
-		
+	\end{es}
+	
+	
+	\subsection{Sorgenti puntiformi}
+	\begin{center}
+		\textcolor{red}{guarda slides}
+	\end{center}
+	
+	\newpage
+	\section{Riflessione e trasmissione}
+	Prendiamo in esame una corda divisa in due segmenti uniti ma con densità lineari differenti. La velocità, dipendendo da \(\mu\), sarà diversa nei due mezzi:
+	\[ 
+	v_1 = \sqrt{\frac{T}{\mu_1}} \qquad v_2 = \sqrt{\frac{T}{\mu_2}} 
+	\]
+	da cui, poiché \(k = \omega / v\), anche i due \(k\) saranno diversi
+	\[ 
+	k_1 = \omega \sqrt{\frac{\mu_1}{T}} \qquad k_2 = \omega \sqrt{\frac{\mu_2}{T}} 
+	\]
+	Andiamo quindi a distinguere tre tipi di onde che si propagano sulla corda: una incidente, una trasmessa e una riflessa:
+	\[ 
+	\xi_i = \xi_{0i}\sin\left(k_1 x - \omega t\right)
+	\]
+	\[ 
+	\xi_r = \xi_{0r}\sin\left(k_1 x + \omega t\right)
+	\]
+	\[ 
+	\xi_t = \xi_{0t}\sin\left(k_2 x - \omega t\right)
+	\]
+	Nel punto di contatto tra i due tratti \textbf{imponiamo la continuità della funzione d'onda}:
+	
+	
 	\newpage
 	\section{Onde stazionarie}
 	Un'altro tipo di oscellazioni rilevanti sono le onde stazionarie, onde i cui punti oscillano con ampiezza che varia solo con la posizione. Si osserva che le posizioni di massima ampiezza e dei punti fermi (nodi) non variano nel tempo, per questo possiamo definire questo tipo di oscillazione un'\textbf{oscillazione collettiva} del fenomeno \textbf{cui non è associato un fenomeno di propagazione}. \\
@@ -1343,103 +1343,103 @@ Tutte le espressioni della funzione d'onda sono:
 		\textbf{Nodi:} \quad	\viola{x = \frac{\lambda}{2} m'} \quad m'=0,1,2,\dots
 	\end{equation}
 	
-		\subsection{Corda tesa con due estremi fissi}
-		Supponiamo di avere una corda vibrante di lunghezza \(L\) con nodi nei punti di coordinate \(x=0\) e \(x=L\). Vediamo come fissata una lunghezza \(L\) della corda, in questa possono aver luogo soltanto le onde stazionarie di lunghezza d'onda \(\lambda_m\) e frequenza \(f_m\): dalla \ref{nodi} si ha che i nodi, in \(x=0\) e \(x=L\), sono descritti da
-		\[ 
-		x = \frac{\lambda}{2}m \quad \rightarrow \quad \begin{cases}
-			0 = \frac{\lambda}{2}m\\ L = \frac{\lambda}{2}m
-		\end{cases}
-		\]
-		\begin{equation}\label{lambdam}
-			\text{dalla seconda: }\quad \to \quad \lambda = \viola{\lambda_m = \frac{2L}{\boldsymbol{m}}}
-		\end{equation}
-		Ricaviamo invece la frequenza dalla sua normale espressione utilizzando la \ref{corda} per la velocità:
-		\[ 
-		f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{2\frac{L}{m}} \quad \rightarrow \quad  \viola{f_m = \frac{\boldsymbol{m}}{2L}\sqrt{\frac{T}{\mu}}}
-		\]
-		In una corda tesa esiste dunque una \textbf{serie discreta} di lunghezze d'onda e frequenze detta \textbf{serie armonica} in  cui  la frequenza più bassa  \(f_1\) è chiamata \textbf{frequenza fondamentale} o \textbf{prima armonica}, tutte le altre sono dette \textbf{armoniche superiori}
-		
-		\begin{center}
-			\fboxsep11pt
-			\colorbox{yblue}{\begin{minipage}{5.75in}
-					\begin{blues}{Modo della corda}
-						Viene chiamato \textbf{modo} della corda una particolare onda stazionaria con \textit{tot} nodi. Una coda ha pertanto \(\infty^1\) modi discreti. Un particolare modo può essere eccitato pizzicando opporunamente la corda oppure per mezzo di un diapason.
-					\end{blues}
-			\end{minipage}}
-		\end{center}
-		
-		
-		Nel caso del diapason: se questo è posto su un estremo della corda così da fungere da nodo, genera un'onda che arrivata all'estremo opposto si andrà a riflettere tornando dal diapason per poi rifletersi nuovamente, tutto questo in un certo tempo \(t\) che possiamo trovare: sappiamo che l'onda viaggia a velocità \(v\) e deve percorrere un tratto lungo \(2L\), quindi 
-		\[ 
-		t = \frac{2L}{v}
-		\]
-		dalla \ref{lambdam} sappiamo che \(2L = \lambda \boldsymbol{m}\)
-		\[ 
-		t = \frac{\lambda m}{v}
-		\]
-		e sappiamo che il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T = \frac{\lambda}{v}\)
-		\[ 
-		t = mT
-		\]
-		quindi l'onda viene riflessa in un tempo multiplo del periodo e perciò l'onda sarà \textbf{in fase} con la crestà dell'onda che il diapason emette al tempo \(t + mT\) creando un fenomeno di \textbf{risonanza}. L'oscillazione tende quindi ad aumentare e il limite a questo aumento è solo posto a fenomeni di smorzamento dati da vincoli non ideali e attriti.
-		
-		Nel caso in cui non fosse soddisfattta la \ref{lambdam}, e quindi non si possa esprimere \(2L = \lambda m\) si stabilisce un'onda risultante di tutte le onde che hanno origine nelle varie riflessioni la cui ampiezza coincide con quella del diapason.
-		
-		\subsection{Corda tesa con un estremo fisso}
-		La condizione da soddisfare per avere onde stazionarie stabili in una corda con un estremo libero è imporre che une dei due estremi rimanga fisso (nodo), e che l'altro sia un ventre:
-		
-		\[ 
-		\text{Ventre:} \quad x = \frac{\lambda}{4}(1+2m) \quad \to \quad L = \frac{\lambda}{4}(1+2m) \quad \to 
-		\]
-		\begin{equation}\label{lambdam2}
-			\lambda = \viola{\lambda_m  = \frac{4L}{1+2m}}
-		\end{equation}
-		come nel caso a due estremi fissi ricaviamo la frequenza:
-		\[ 
-		f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{\frac{4L}{1+2m}} \quad \to
-		\]
-		\begin{equation}
-			\viola{f_m = \frac{1 + 2m}{4L} \sqrt{\frac{T}{\mu}}}
-		\end{equation}
-		Come prima se poniamo un diapason sull'estremo fisso si hanno le condizioni di risonanza: l'onda che arriva all'estremo libero viene riflessa senza capovolgersi, arrivata al diapason si capovolge e torna verso l'estremo libero; vediamo quanto impiega l'onda a percorrere la corda:
-		\[ 
-		t = \frac{2L}{v}
-		\]
-		dalla \ref{lambdam2} sappiamo che \(2L = \frac{1+2m}{2}\lambda\)
-		\[ 
-		t = \frac{1+2m}{2v}\lambda = \frac{1+2m}{2}\frac{\lambda}{v}
-		\]
-		e poiché il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T=\frac{\lambda}{v}\)
-		\[ 
-		t = \frac{1+2m}{2}T
-		\]
-		Anche in questo caso l'onda impiega un tempo proporzionale al periodo \textcolor{red}{nonm ho ben capito. riguarda questa parte sulle slide}
-		
-		\subsection{Onde stazionarie in una colonna di gas}
-		Andiamo a considerare, in una canna di un organo per esempio, un'onda di pressione e una di spostamento. Se la canna è aperta in entrambi gli estremisi realizzano le stesse condizioni per la pressione e per lo spostamento, in sostanza la condizione è equivalente alla corda con due estremi fissi.
-		
-		Se invece un estremo è chiuso, nel punto di chiusura si avràun ventre di pressione (che sale) e un nodo di spostamento (l'aria si ferma); la situazione è quindi analoga a quella di una corda con un estremo fisso e uno libero.
-		
-		\begin{center}
-			\textcolor{red}{riporta calcoli}
-		\end{center}
-		
-		\subsection{Timbro}
-		Uno strumento fornisce un massimo di potenza quando \textbf{la frequenza di eccitazione coincide con una delle frequenze della serie armonica}. Il fenomeno elle riflessioni multible \textbf{esalta le frequenze della serie armonica} e \textbf{smorza tute le altre} che risultano quasi assenti. Perciò comprendiamo come la stessa nota con frequenza fondamentale \(f_1\) abbia una composizione armonica che dipende dallo strumento, proprio perché ogni strumento fornisce frequenze di eccitazioni differenti.
-		
-		\begin{center}
-			\fboxsep11pt
-			\colorbox{yblue}{\begin{minipage}{5.75in}
-					\begin{blues}{Timbro}
-						La composizione armonica di una nota dipendente dallo strumento e dalla particolare frequenza di eccitazione è chiamata \textbf{timbro}
-					\end{blues}
-			\end{minipage}}
-		\end{center}
-		
+	\subsection{Corda tesa con due estremi fissi}
+	Supponiamo di avere una corda vibrante di lunghezza \(L\) con nodi nei punti di coordinate \(x=0\) e \(x=L\). Vediamo come fissata una lunghezza \(L\) della corda, in questa possono aver luogo soltanto le onde stazionarie di lunghezza d'onda \(\lambda_m\) e frequenza \(f_m\): dalla \ref{nodi} si ha che i nodi, in \(x=0\) e \(x=L\), sono descritti da
+	\[ 
+	x = \frac{\lambda}{2}m \quad \rightarrow \quad \begin{cases}
+		0 = \frac{\lambda}{2}m\\ L = \frac{\lambda}{2}m
+	\end{cases}
+	\]
+	\begin{equation}\label{lambdam}
+		\text{dalla seconda: }\quad \to \quad \lambda = \viola{\lambda_m = \frac{2L}{\boldsymbol{m}}}
+	\end{equation}
+	Ricaviamo invece la frequenza dalla sua normale espressione utilizzando la \ref{corda} per la velocità:
+	\[ 
+	f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{2\frac{L}{m}} \quad \rightarrow \quad  \viola{f_m = \frac{\boldsymbol{m}}{2L}\sqrt{\frac{T}{\mu}}}
+	\]
+	In una corda tesa esiste dunque una \textbf{serie discreta} di lunghezze d'onda e frequenze detta \textbf{serie armonica} in  cui  la frequenza più bassa  \(f_1\) è chiamata \textbf{frequenza fondamentale} o \textbf{prima armonica}, tutte le altre sono dette \textbf{armoniche superiori}
 	
-			
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Modo della corda}
+					Viene chiamato \textbf{modo} della corda una particolare onda stazionaria con \textit{tot} nodi. Una coda ha pertanto \(\infty^1\) modi discreti. Un particolare modo può essere eccitato pizzicando opporunamente la corda oppure per mezzo di un diapason.
+				\end{blues}
+		\end{minipage}}
+	\end{center}
 	
-\chapter{Fluidodinamica}
+	
+	Nel caso del diapason: se questo è posto su un estremo della corda così da fungere da nodo, genera un'onda che arrivata all'estremo opposto si andrà a riflettere tornando dal diapason per poi rifletersi nuovamente, tutto questo in un certo tempo \(t\) che possiamo trovare: sappiamo che l'onda viaggia a velocità \(v\) e deve percorrere un tratto lungo \(2L\), quindi 
+	\[ 
+	t = \frac{2L}{v}
+	\]
+	dalla \ref{lambdam} sappiamo che \(2L = \lambda \boldsymbol{m}\)
+	\[ 
+	t = \frac{\lambda m}{v}
+	\]
+	e sappiamo che il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T = \frac{\lambda}{v}\)
+	\[ 
+	t = mT
+	\]
+	quindi l'onda viene riflessa in un tempo multiplo del periodo e perciò l'onda sarà \textbf{in fase} con la crestà dell'onda che il diapason emette al tempo \(t + mT\) creando un fenomeno di \textbf{risonanza}. L'oscillazione tende quindi ad aumentare e il limite a questo aumento è solo posto a fenomeni di smorzamento dati da vincoli non ideali e attriti.
+	
+	Nel caso in cui non fosse soddisfattta la \ref{lambdam}, e quindi non si possa esprimere \(2L = \lambda m\) si stabilisce un'onda risultante di tutte le onde che hanno origine nelle varie riflessioni la cui ampiezza coincide con quella del diapason.
+	
+	\subsection{Corda tesa con un estremo fisso}
+	La condizione da soddisfare per avere onde stazionarie stabili in una corda con un estremo libero è imporre che une dei due estremi rimanga fisso (nodo), e che l'altro sia un ventre:
+	
+	\[ 
+	\text{Ventre:} \quad x = \frac{\lambda}{4}(1+2m) \quad \to \quad L = \frac{\lambda}{4}(1+2m) \quad \to 
+	\]
+	\begin{equation}\label{lambdam2}
+		\lambda = \viola{\lambda_m  = \frac{4L}{1+2m}}
+	\end{equation}
+	come nel caso a due estremi fissi ricaviamo la frequenza:
+	\[ 
+	f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{\frac{4L}{1+2m}} \quad \to
+	\]
+	\begin{equation}
+		\viola{f_m = \frac{1 + 2m}{4L} \sqrt{\frac{T}{\mu}}}
+	\end{equation}
+	Come prima se poniamo un diapason sull'estremo fisso si hanno le condizioni di risonanza: l'onda che arriva all'estremo libero viene riflessa senza capovolgersi, arrivata al diapason si capovolge e torna verso l'estremo libero; vediamo quanto impiega l'onda a percorrere la corda:
+	\[ 
+	t = \frac{2L}{v}
+	\]
+	dalla \ref{lambdam2} sappiamo che \(2L = \frac{1+2m}{2}\lambda\)
+	\[ 
+	t = \frac{1+2m}{2v}\lambda = \frac{1+2m}{2}\frac{\lambda}{v}
+	\]
+	e poiché il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T=\frac{\lambda}{v}\)
+	\[ 
+	t = \frac{1+2m}{2}T
+	\]
+	Anche in questo caso l'onda impiega un tempo proporzionale al periodo \textcolor{red}{nonm ho ben capito. riguarda questa parte sulle slide}
+	
+	\subsection{Onde stazionarie in una colonna di gas}
+	Andiamo a considerare, in una canna di un organo per esempio, un'onda di pressione e una di spostamento. Se la canna è aperta in entrambi gli estremisi realizzano le stesse condizioni per la pressione e per lo spostamento, in sostanza la condizione è equivalente alla corda con due estremi fissi.
+	
+	Se invece un estremo è chiuso, nel punto di chiusura si avràun ventre di pressione (che sale) e un nodo di spostamento (l'aria si ferma); la situazione è quindi analoga a quella di una corda con un estremo fisso e uno libero.
+	
+	\begin{center}
+		\textcolor{red}{riporta calcoli}
+	\end{center}
+	
+	\subsection{Timbro}
+	Uno strumento fornisce un massimo di potenza quando \textbf{la frequenza di eccitazione coincide con una delle frequenze della serie armonica}. Il fenomeno elle riflessioni multible \textbf{esalta le frequenze della serie armonica} e \textbf{smorza tute le altre} che risultano quasi assenti. Perciò comprendiamo come la stessa nota con frequenza fondamentale \(f_1\) abbia una composizione armonica che dipende dallo strumento, proprio perché ogni strumento fornisce frequenze di eccitazioni differenti.
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Timbro}
+					La composizione armonica di una nota dipendente dallo strumento e dalla particolare frequenza di eccitazione è chiamata \textbf{timbro}
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	
+	
+	
+	
+	\chapter{Fluidodinamica}
 	\section{Pressione}
 	Poiché non possiamo parlare di forza applicata in un punto del fluido andiamo a considerare un elemento infinitesimo di massa \(dm\) e volume \(dV\) e andiamo a distinguere le forze agenti su di esso. Distinguiamo le \textbf{forze di volume}, ovvero tutte quelle forze proporzionali a \(dV\), e \textbf{forze di superficie} porporzionali a \(dS\). \textit{Nel caso delle forze di superficie è bene caratterizzarle come somma di un termine normal a S e uno parallelo; noi consideriamo il fluido in equilibrio quindi il termine parallelo è nullo.}
 	
@@ -1478,73 +1478,73 @@ Tutte le espressioni della funzione d'onda sono:
 	Quindi la pressione è una \textbf{quantità scalare} e il suo valore \textbf{dipende} in generale \textbf{dalla posizione del punto} ma non dalla direzione.
 	
 	
-		\subsection{Equilibrio statico di un fluido}
-		La condizione di equilibrio è che la somma di tutte le forze di volume e di superficie si annulli
-		\[ 
-		\overrightarrow{F}_{Vtot} + \overrightarrow{F}_{Stot} = 0
-		\]
-		Considero solo le forze dovute ad un'accelerazione lungo l'asse \(z\)
-		
-		\begin{es}{}
+	\subsection{Equilibrio statico di un fluido}
+	La condizione di equilibrio è che la somma di tutte le forze di volume e di superficie si annulli
+	\[ 
+	\overrightarrow{F}_{Vtot} + \overrightarrow{F}_{Stot} = 0
+	\]
+	Considero solo le forze dovute ad un'accelerazione lungo l'asse \(z\)
+	
+	\begin{es}{}
 		\begin{minipage}{0.5\textwidth}
-		\[ 
-		\textbf{Forze di volume: } \quad dF_V = dma_z = \rho a_z dV
-		\]
-		\begin{align*}
-			\textbf{Forze di superficie:} \quad dF_{S\perp} &= p(z)\boldsymbol{dS} - p(z + dz)dS \\
-														    &= \textcolor{red}{p(z)dS - p(z)dS} - p(dz)\textcolor{blue}{dS} \\
-														    &= -\frac{\partial p}{\partial z}dz \textcolor{blue}{dxdy} \\
-														    &=-\frac{\partial p}{\partial z} dV 
-		\end{align*}
+			\[ 
+			\textbf{Forze di volume: } \quad dF_V = dma_z = \rho a_z dV
+			\]
+			\begin{align*}
+				\textbf{Forze di superficie:} \quad dF_{S\perp} &= p(z)\boldsymbol{dS} - p(z + dz)dS \\
+				&= \textcolor{red}{p(z)dS - p(z)dS} - p(dz)\textcolor{blue}{dS} \\
+				&= -\frac{\partial p}{\partial z}dz \textcolor{blue}{dxdy} \\
+				&=-\frac{\partial p}{\partial z} dV 
+			\end{align*}
 		\end{minipage}
 		\begin{minipage}{0.5\textwidth}
 			\begin{center}
 				\textcolor{red}{inserire grafici}
 			\end{center}
 		\end{minipage}
-		\end{es}
-		\noindent
-		Quindi per soddisfare la condizione di equilibrio deve valere
-		\[ 
-		\rho a_z dV -\frac{\partial p}{\partial z} dV  = 0 \quad \to
-		\]
-		\begin{equation}
-			\viola{\frac{\partial p}{\partial z} = \rho a_z }
-		\end{equation}
-		che se estendiamo su tutte e tre le dimensioni diventa
-		\begin{equation}\label{pressione}
-			\viola{\boxed{\overrightarrow{\nabla} p = \rho \vec{a}}}
-		\end{equation}
-		Quindi la pressione aumenta lungo il verso positivo della forza (determinata dall'accelerazione \(a_*\)). La forza di volume tende infatti a spostare il volumetto determinando una \textbf{reazione} del fluido che si manifesta come una variazione di pressione. \textit{Notare l'analogia della pressione con la tensione in un filo massivo}.\\
-		
-		\noindent
-		Si ottiene inoltre che la pressione è uniforme solo quando \(\rho a = 0\) che sulla terra sembrerebbe non poter mai essere verificata data l'accelerazione di gravità. Tuttavia per densità molto basse o volumi molto piccoli la pressione può essere considerata uniforme. \\
-		
-		\noindent
-		Se la forza di volume agente sul fluido è conservativa il lavoro compiuto non dipende dal particolare percorso seguito, ma solo dalle coordinate dal punto iniziale e finale; inoltre vale
-		\[ 
-		\overrightarrow{F} = m \vec{a} = -\overrightarrow{\nabla}E_p
-		\]
-		perciò si può esprimere la \ref{pressione} come \(-\rho\) per il gradiente dell'\textbf{energia potenziale per unità di massa}
-		\[
-			\overrightarrow{\nabla} p = -\rho \frac{\overrightarrow{\nabla}E_p}{m}
-		\]
-		\begin{equation}\label{gradiente pressione}
-			\viola{\boxed{\overrightarrow{\nabla} p = -\rho \overrightarrow{\nabla}E_{p,m}}}
-		\end{equation}
-		Infatti le \textbf{superfici isobariche coincidono con quelle equipotenziali}, quindi le variazioni di pressione e di energia potenziale sono le stesse ovunque nel passaggio da una superficie equipotenziale ad un'altra. 
-		
-		Se espclicitiamo i due nabla otteniamo l'espressione della variazione infinitesima di pressione:
-		
-		\[ 
-		\boxed{\left|\overrightarrow{\nabla}p \right|= \left|\frac{dp}{ds}\right|} \qquad \boxed{\left|\overrightarrow{\nabla}E_{p,m} \right|= \left|\frac{dE_{p,m}}{ds}\right|}
-		\]
-		
-		\[ 
-		|dp |= -\rho |dE_{p,m}|
-		\]
-		quindi se lungo una superficie isobarica e equipotenziale si hanno pressione ed energia potenziale costanti, anche la densità lo è. Pertanto in un fluido sottoposto a forze conservative la \textbf{variazione di densità} segue geometricamente qualla di pressione e di energia potenziale.
-		
+	\end{es}
+	\noindent
+	Quindi per soddisfare la condizione di equilibrio deve valere
+	\[ 
+	\rho a_z dV -\frac{\partial p}{\partial z} dV  = 0 \quad \to
+	\]
+	\begin{equation}
+		\viola{\frac{\partial p}{\partial z} = \rho a_z }
+	\end{equation}
+	che se estendiamo su tutte e tre le dimensioni diventa
+	\begin{equation}\label{pressione}
+		\viola{\boxed{\overrightarrow{\nabla} p = \rho \vec{a}}}
+	\end{equation}
+	Quindi la pressione aumenta lungo il verso positivo della forza (determinata dall'accelerazione \(a_*\)). La forza di volume tende infatti a spostare il volumetto determinando una \textbf{reazione} del fluido che si manifesta come una variazione di pressione. \textit{Notare l'analogia della pressione con la tensione in un filo massivo}.\\
+	
+	\noindent
+	Si ottiene inoltre che la pressione è uniforme solo quando \(\rho a = 0\) che sulla terra sembrerebbe non poter mai essere verificata data l'accelerazione di gravità. Tuttavia per densità molto basse o volumi molto piccoli la pressione può essere considerata uniforme. \\
+	
+	\noindent
+	Se la forza di volume agente sul fluido è conservativa il lavoro compiuto non dipende dal particolare percorso seguito, ma solo dalle coordinate dal punto iniziale e finale; inoltre vale
+	\[ 
+	\overrightarrow{F} = m \vec{a} = -\overrightarrow{\nabla}E_p
+	\]
+	perciò si può esprimere la \ref{pressione} come \(-\rho\) per il gradiente dell'\textbf{energia potenziale per unità di massa}
+	\[
+	\overrightarrow{\nabla} p = -\rho \frac{\overrightarrow{\nabla}E_p}{m}
+	\]
+	\begin{equation}\label{gradiente pressione}
+		\viola{\boxed{\overrightarrow{\nabla} p = -\rho \overrightarrow{\nabla}E_{p,m}}}
+	\end{equation}
+	Infatti le \textbf{superfici isobariche coincidono con quelle equipotenziali}, quindi le variazioni di pressione e di energia potenziale sono le stesse ovunque nel passaggio da una superficie equipotenziale ad un'altra. 
+	
+	Se espclicitiamo i due nabla otteniamo l'espressione della variazione infinitesima di pressione:
+	
+	\[ 
+	\boxed{\left|\overrightarrow{\nabla}p \right|= \left|\frac{dp}{ds}\right|} \qquad \boxed{\left|\overrightarrow{\nabla}E_{p,m} \right|= \left|\frac{dE_{p,m}}{ds}\right|}
+	\]
+	
+	\[ 
+	|dp |= -\rho |dE_{p,m}|
+	\]
+	quindi se lungo una superficie isobarica e equipotenziale si hanno pressione ed energia potenziale costanti, anche la densità lo è. Pertanto in un fluido sottoposto a forze conservative la \textbf{variazione di densità} segue geometricamente qualla di pressione e di energia potenziale.
+	
 	\subsection{Lavoro della pressione}
 	Nel caso di equilibrio statico non ci sono spostamenti di conseguenza il lavoro è nullo. Nel caso di non equilibrio invece, considerando una situazione semplice di una forza verticale ortogonale alla superficie:
 	\[ 
@@ -1576,10 +1576,10 @@ Tutte le espressioni della funzione d'onda sono:
 	\section{Principio di Archimede}
 	Un corpo immerso in un fluido riceve una spinta verticale verso l'alto  pari al peso del volume di fluido spostato
 	\begin{equation}
-	\viola{	\overrightarrow{F}_A = -\rho V \vec{g}}
+		\viola{	\overrightarrow{F}_A = -\rho V \vec{g}}
 	\end{equation}
 	
-
+	
 	
 	Vediamo come ottenere questa relazione: immaginiamo una prozione di fluido "immerso" di volume \(V_{0}\); essendo in equilibrio la somma delle forze di volume e delle forze di pressione deve essere nulla
 	\[ 
@@ -1646,7 +1646,7 @@ Tutte le espressioni della funzione d'onda sono:
 	L'elemento \(dm\) è quindi soggetto a due forze di volume (conservative) e a una forza di pressione. Essendo soggetto a forze conservative possiamo scrivere l'espressione della sua energia potenziale come
 	\begin{align*}
 		dW = \overrightarrow{F} \cdot d\vec{s} =& (dm \vec{g} - dm \omega^2 \vec{r}) \cdot \boldsymbol{d\vec{s}}\\
-		   									   =& dmg\boldsymbol{dz} - dm \omega^2(x+y)\boldsymbol{dxdy}
+		=& dmg\boldsymbol{dz} - dm \omega^2(x+y)\boldsymbol{dxdy}
 	\end{align*} 
 	\begin{minipage}{0.5\textwidth}
 		ponendo lo zero di energia potenziale a terra possiamo ottenere l'espressione di quest'ultima:
@@ -1701,12 +1701,12 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	\vspace{0.3cm}
 	Andiamo ora studiare lo stesso caso ma in un sistema di riferimento inerziale. In questo caso l'elemento di liquido non  è più in quiete, la risultante delle forze su di esso dovrà dare un termine centripeto. La condizione di equilibrio è soddisfatta solamente lungo la direzione verticale e, come sappiamo dalla \ref{pressione}, vale
-
+	
 	\begin{align*}
-			&\overrightarrow{F}_{V,z} + \overrightarrow{F}_{p,z} = 0 \\
-			& dm g + p(z)dS - p(z+dz)dS = 0 \quad  \to \quad dmg - p(dz)dS = 0\\
-			& dmg - \frac{\partial p}{\partial z}dzdxdy = 0 \\
-			& dmg - \frac{\partial p}{\partial z}dV = 0  \quad \to \quad \rho dV g -  \frac{\partial p}{\partial z}dV = 0 \\
+		&\overrightarrow{F}_{V,z} + \overrightarrow{F}_{p,z} = 0 \\
+		& dm g + p(z)dS - p(z+dz)dS = 0 \quad  \to \quad dmg - p(dz)dS = 0\\
+		& dmg - \frac{\partial p}{\partial z}dzdxdy = 0 \\
+		& dmg - \frac{\partial p}{\partial z}dV = 0  \quad \to \quad \rho dV g -  \frac{\partial p}{\partial z}dV = 0 \\
 	\end{align*}
 	\[ 
 	\boxed{\rho g = \frac{\partial p}{\partial z}}
@@ -1714,8 +1714,8 @@ Tutte le espressioni della funzione d'onda sono:
 	Per le forze radiali invece non sono soddisfatte le condizioni di equilibrio (e ricordando che sono forze centripete):
 	\begin{align*}
 		dF_{r} =& p(r)dS - p(r+dr)dS \\
-			   =& - \frac{\partial p}{\partial r}drdS \\
-			   =& - \frac{\partial p}{\partial r}dV \\
+		=& - \frac{\partial p}{\partial r}drdS \\
+		=& - \frac{\partial p}{\partial r}dV \\
 		-dm \omega^2 r =& - \frac{\partial p}{\partial r}dV \\
 		-\rho dV \omega^2 r =& - \frac{\partial p}{\partial r}dV \\
 	\end{align*}
@@ -1855,325 +1855,325 @@ Tutte le espressioni della funzione d'onda sono:
 	\end{center}
 	
 	
-		\subsection{Teorema di Bernoulli}
-		Prendiamo un fluido ideale che scorre in conidzioni di regime stazionario. Il volume \(dV_{1} = S_{1}d\ell_{1}\) che attraversa la sezione \(S_{1}\) nel tempo \(dt\) è uguale a quello \(dV_{2} = S_{2}d\ell_2\) che attraversa nello stesso intervallo la sezionem \(S_{2}\):
-		\[ 
-		dV_{1} = dV_{2}
-		\]
-		\begin{center}
+	\subsection{Teorema di Bernoulli}
+	Prendiamo un fluido ideale che scorre in conidzioni di regime stazionario. Il volume \(dV_{1} = S_{1}d\ell_{1}\) che attraversa la sezione \(S_{1}\) nel tempo \(dt\) è uguale a quello \(dV_{2} = S_{2}d\ell_2\) che attraversa nello stesso intervallo la sezionem \(S_{2}\):
+	\[ 
+	dV_{1} = dV_{2}
+	\]
+	\begin{center}
+		\begin{tikzpicture}
+			\def\LL{1.7}          % length pipe left
+			\def\LR{1.7}          % length pipe right
+			\def\L{3.5*\LL}       % total length
+			\def\H{2.0}           % height
+			\def\l{\L-\LL-\LR}    % length between pipes
+			\def\xL{0.32*\LL}     % position volume left
+			\def\xR{\L-0.80*\LR}  % position volume right
+			\def\lL{0.2*\LR}      % length volume left
+			\def\lR{\lL*\Ry/\ry}  % length volume right
+			\def\rx{0.08}         % small pipe horizontal radius left
+			\def\ry{0.32}         % small pipe vertical radius left
+			\def\Rx{0.18}         % big pipe vertical radius right
+			\def\Ry{0.90}         % big pipe vertical radius right
+			\def\v{1.0}           % velocity magnitude
+			\def\F{0.9}           % force magnitude
+			\def\y{(\Ry+0.35*\H)} % height from ground
+			
+			% WATER
+			\draw[horizontal water,thick]
+			(0,\Ry) -- (0,-\Ry) coordinate (P1) --++ (\LL,0) to[out=0,in=180]
+			(\L-\LR,\H-\ry) -- (\L,\H-\ry) coordinate (P2) arc(-90:90:{\rx} and \ry)
+			--++ (-\LR,0)  to[out=180,in=0] (\LL,\Ry) -- cycle;
+			\node[above left=2] at (P1) {$P_1$};
+			\node[above=-1,right=0] at (P2) {$P_2$};
+			
+			% VOLUMES
+			\draw[vvec] (\xL+\lL+\Rx,0) --++ (\v*1.2*\ry/\Ry,0) node[above=-1] {$v_1$};
+			\draw[vvec] (\xR+\lR+\rx,\H-0.2*\ry) --++ (\v,0) node[right=-2] {$v_2$};
+			\draw[force] (\L-0.7*\ry+0.8*\F,\H+0.2*\ry) --++ (-0.8*\F,0) node[pos=0.3,above] {$F_2$};
+			\draw[dark water,dashed,very thin]
+			(\xL,0) ellipse({\Rx} and \Ry)
+			(\xR,\H) ellipse({\rx} and \ry);
+			\draw[dark water]
+			(\xL,\Ry)
+			arc(90:-90:{\Rx} and \Ry) coordinate (A1) --++ (\lL,0)
+			arc(-90:90:{\Rx} and \Ry) -- cycle;
+			\draw[dark water]
+			(\xR,\H+\ry) coordinate (A2)
+			arc(90:-90:{\rx} and \ry) --++ (\lR,0)
+			arc(-90:90:{\rx} and \ry) -- cycle;
+			\draw[width]
+			(\xL,1.15*\Ry) --++ (\lL,0) node[midway,above] {$d\ell_1$};
+			\draw[width]
+			(\xR,\H-1.6*\ry) --++ (\lR,0) node[midway,fill=white,inner sep=0] {$d\ell_2$};
+			\node[left=1,below=-1] at (A1) {$S_1$};
+			\node[left=1,above=-1] at (A2) {$S_2$};
+			
+			% CONTAINER
+			\draw[mydarkblue,thick]
+			(0,\Ry) -- (0,-\Ry)  coordinate (A1) --++ (\LL,0) to[out=0,in=180]
+			(\L-\LR,\H-\ry) -- (\L,\H-\ry) coordinate (A2) arc(-90:90:{\rx} and \ry)
+			--++ (-\LR,0)  to[out=180,in=0] (\LL,\Ry) -- cycle;
+			\draw[water,thick]
+			(0,0) ellipse({\Rx} and \Ry);
+			
+			% HEIGHT
+			\draw[dashed] (0.23*\L,{-\y}) --++ (0.6*\L,0);
+			\draw[<->]
+			(1.1*\LL,{-\y}) --++ (0,{\y}) node[pos=0.13,above right=-1] {$h_1$};
+			\draw[<->]
+			(0.95*\xR,{-\y}) --++ (0,{\H+\y}) node[midway,fill=white,inner sep=1] {$h_2$};
+			\draw[force] (0.1*\Ry-\F,0) --++ (\F,0) node[pos=0.4,above=-1] {$F_1$};
+			
+		\end{tikzpicture}
+	\end{center}
+	\vspace{0.8cm}
+	Andiamo ora a studiare il lavoro delle forze di volume e delle forze di pressione sui due volumi in considerazione:
+	
+	\begin{center}
+		\begin{minipage}{0.49\textwidth}
+			\begin{es}{Lavoro forza peso}
+				\begin{align*}
+					dW_{G} =& =-dE_{p} = \\
+					=& -dm(h_{2} - h_{1})g\\
+					=& -\rho dV(h_{2} - h_{1})g
+				\end{align*}
+			\end{es}
+		\end{minipage}
+		\begin{minipage}{0.49\textwidth}
+			\begin{es}{Lavoro forze di pressione}
+				\begin{align*}
+					dW_{P} =& \overrightarrow{F}_{1} \cdot d\vec{\ell}_{1} + \overrightarrow{F}_{2} \cdot d\vec{\ell}_{2} \\
+					=& p_{1} S_{1} d\ell_{1} - p_{2} S_{2} d\ell_{2} \\
+					=& (p_{1} - p_{2})dV
+				\end{align*}
+			\end{es}
+		\end{minipage}
+	\end{center}
+	Da cui si ricava una variazione di energia cinetica (\(W = \Delta E_{K}\)) pari a
+	\[ 
+	dE_{K} = dW_{G} + dW_{P} =  (p_{1} - p_{2})dV-\rho dV(h_{2} - h_{1})g
+	\]
+	\begin{align*}
+		dE_{K} =& dW_{G} + dW_{P} \\
+		\frac{1}{2}\rho dVv_{2}^2 - \frac{1}{2}\rho dVv_{1}^2	=& (p_{1} - p_{2})dV-\rho dV(h_{2} - h_{1})g \\
+	\end{align*}
+	\begin{equation}\label{bernoulli}
+		\viola{\boxed{p_{1} + \frac{1}{2}\rho v_{1}^2	+ \rho g h_{1} = p_{2} + \frac{1}{2}\rho v_{2}^2	+ \rho g h_{2}}}
+	\end{equation}
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yred}{\begin{minipage}{5.75in}
+				\begin{redes}{Teorema di Bernoulli}
+					In un fluido ideale in moto con regime stazionario la somma della: \textbf{pressione}, \textbf{densità di energia cinetica} e della \textbf{densità di energia potenziale} è costante lungo il condotto (lungo qualunque tubo di flusso).
+				\end{redes}
+		\end{minipage}}
+	\end{center}
+	Notare che dalla legge della dinamica appena presentata, si ricavano tutte le leggi della statica precedenti: \textbf{la statica è sempre un caso particolare della dinamica}. Inoltre si rileva che la pressione misurata in un fluido in movimento è sempre minore di quelal misurata in un fluido in quiete.
+	
+	\subsection{Moto laminare}
+	Trattiamo ora il moto di \textbf{fluidi reali}, ovvero fludi di cui non si può più apprissimare \(\eta = 0\) e per cui la densità è approssimabile a un valore costante \(\rho \approx \) costante. A velocità \textit{non elevate} il moto è detto \textbf{laminare}: il regime è stazionario con le linee di corrente costanti nel tempo
+	\begin{center}
+		\begin{minipage}{0.48\textwidth}
+			% LAMINAR FLOW LAYERS
+			\hspace{0.6cm}
 			\begin{tikzpicture}
-				\def\LL{1.7}          % length pipe left
-				\def\LR{1.7}          % length pipe right
-				\def\L{3.5*\LL}       % total length
-				\def\H{2.0}           % height
-				\def\l{\L-\LL-\LR}    % length between pipes
-				\def\xL{0.32*\LL}     % position volume left
-				\def\xR{\L-0.80*\LR}  % position volume right
-				\def\lL{0.2*\LR}      % length volume left
-				\def\lR{\lL*\Ry/\ry}  % length volume right
-				\def\rx{0.08}         % small pipe horizontal radius left
-				\def\ry{0.32}         % small pipe vertical radius left
-				\def\Rx{0.18}         % big pipe vertical radius right
-				\def\Ry{0.90}         % big pipe vertical radius right
-				\def\v{1.0}           % velocity magnitude
-				\def\F{0.9}           % force magnitude
-				\def\y{(\Ry+0.35*\H)} % height from ground
+				\def\L{5.0}   % total length
+				\def\Rx{0.40} % big pipe vertical radius right
+				\def\Ry{0.90} % big pipe vertical radius right
+				\def\v{1.3}   % velocity magnitude
+				\def\N{3}     % velocity magnitude
 				
 				% WATER
 				\draw[horizontal water,thick]
-				(0,\Ry) -- (0,-\Ry) coordinate (P1) --++ (\LL,0) to[out=0,in=180]
-				(\L-\LR,\H-\ry) -- (\L,\H-\ry) coordinate (P2) arc(-90:90:{\rx} and \ry)
-				--++ (-\LR,0)  to[out=180,in=0] (\LL,\Ry) -- cycle;
-				\node[above left=2] at (P1) {$P_1$};
-				\node[above=-1,right=0] at (P2) {$P_2$};
+				(0,\Ry) -- (0,-\Ry)  coordinate (A1) --++ (\L,0) arc(-90:90:{\Rx} and \Ry) -- cycle;
+				\draw[water]
+				(\L,0) ellipse({\Rx} and \Ry);
 				
-				% VOLUMES
-				\draw[vvec] (\xL+\lL+\Rx,0) --++ (\v*1.2*\ry/\Ry,0) node[above=-1] {$v_1$};
-				\draw[vvec] (\xR+\lR+\rx,\H-0.2*\ry) --++ (\v,0) node[right=-2] {$v_2$};
-				\draw[force] (\L-0.7*\ry+0.8*\F,\H+0.2*\ry) --++ (-0.8*\F,0) node[pos=0.3,above] {$F_2$};
-				\draw[dark water,dashed,very thin]
-				(\xL,0) ellipse({\Rx} and \Ry)
-				(\xR,\H) ellipse({\rx} and \ry);
-				\draw[dark water]
-				(\xL,\Ry)
-				arc(90:-90:{\Rx} and \Ry) coordinate (A1) --++ (\lL,0)
-				arc(-90:90:{\Rx} and \Ry) -- cycle;
-				\draw[dark water]
-				(\xR,\H+\ry) coordinate (A2)
-				arc(90:-90:{\rx} and \ry) --++ (\lR,0)
-				arc(-90:90:{\rx} and \ry) -- cycle;
-				\draw[width]
-				(\xL,1.15*\Ry) --++ (\lL,0) node[midway,above] {$d\ell_1$};
-				\draw[width]
-				(\xR,\H-1.6*\ry) --++ (\lR,0) node[midway,fill=white,inner sep=0] {$d\ell_2$};
-				\node[left=1,below=-1] at (A1) {$S_1$};
-				\node[left=1,above=-1] at (A2) {$S_2$};
-				
-				% CONTAINER
-				\draw[mydarkblue,thick]
-				(0,\Ry) -- (0,-\Ry)  coordinate (A1) --++ (\LL,0) to[out=0,in=180]
-				(\L-\LR,\H-\ry) -- (\L,\H-\ry) coordinate (A2) arc(-90:90:{\rx} and \ry)
-				--++ (-\LR,0)  to[out=180,in=0] (\LL,\Ry) -- cycle;
+				\draw[water]
+				(0,0) ellipse({\Rx} and \Ry);
+				%\draw[horizontal water,line width=0.1] %draw=none
+				%  (0,-\Ry) rectangle (\L,\Ry);
+				\foreach \i [evaluate={\x=(\i-0.5)/(\N+0.5)}] in {1,...,\N}{
+					\draw[mydarkblue] %,line width=0.05
+					(0,0) ellipse({\x*\Rx} and \x*\Ry)
+					(\L,0) ellipse({\x*\Rx} and \x*\Ry);
+					\draw[mydarkblue] %,dashed]  %,line width=0.05
+					(0, \x*\Ry) --++ (\L,0)
+					(0,-\x*\Ry) --++ (\L,0); %arc(90:-90:{\x*\Rx} and \x*\Ry) --++ (-\L,0);
+				}
+				%\draw[horizontal water,draw=none]
+				%  (0,{-\N/(\N+1)*\Ry}) rectangle (\L,{\N/(\N+1)*\Ry});
 				\draw[water,thick]
 				(0,0) ellipse({\Rx} and \Ry);
-				
-				% HEIGHT
-				\draw[dashed] (0.23*\L,{-\y}) --++ (0.6*\L,0);
-				\draw[<->]
-				(1.1*\LL,{-\y}) --++ (0,{\y}) node[pos=0.13,above right=-1] {$h_1$};
-				\draw[<->]
-				(0.95*\xR,{-\y}) --++ (0,{\H+\y}) node[midway,fill=white,inner sep=1] {$h_2$};
-				\draw[force] (0.1*\Ry-\F,0) --++ (\F,0) node[pos=0.4,above=-1] {$F_1$};
+				\foreach \i [evaluate={\x=(\i-0.5)/(\N+0.5)}] in {1,...,\N}{
+					\draw[mydarkblue] (0,0) ellipse({\x*\Rx} and \x*\Ry);
+				}
+				%\draw[mydarkblue,thick]
+				%  (0,\Ry) arc(90:-90:{\Rx} and \Ry) coordinate (A1) --++ (\L,0) arc(-90:90:{\Rx} and \Ry) -- cycle;
+				\draw[vcol!70!black,dashed,samples=100,smooth,variable=\y,domain=-1:1]
+				plot({0.4*\L+\v*(1-0.7*\y*\y)},\y*\Ry);
+				\draw[vvec] (0.4*\L,0) --++ (\v,0);
+				\foreach \i [evaluate={\y=(\i)/(\N+0.5); \vy=\v*(1-0.7*\y^2);}] in {1,...,\N}{
+					\draw[vvec] (0.4*\L, \y*\Ry) --++ (\vy,0);
+					\draw[vvec] (0.4*\L,-\y*\Ry) --++ (\vy,0);
+				}
 				
 			\end{tikzpicture}
-		\end{center}
-		\vspace{0.8cm}
-		Andiamo ora a studiare il lavoro delle forze di volume e delle forze di pressione sui due volumi in considerazione:
-		
-		\begin{center}
-			\begin{minipage}{0.49\textwidth}
-				\begin{es}{Lavoro forza peso}
-					\begin{align*}
-						dW_{G} =& =-dE_{p} = \\
-							   =& -dm(h_{2} - h_{1})g\\
-							   =& -\rho dV(h_{2} - h_{1})g
-					\end{align*}
-				\end{es}
-			\end{minipage}
-			\begin{minipage}{0.49\textwidth}
-				\begin{es}{Lavoro forze di pressione}
-					\begin{align*}
-						dW_{P} =& \overrightarrow{F}_{1} \cdot d\vec{\ell}_{1} + \overrightarrow{F}_{2} \cdot d\vec{\ell}_{2} \\
-						       =& p_{1} S_{1} d\ell_{1} - p_{2} S_{2} d\ell_{2} \\
-						       =& (p_{1} - p_{2})dV
-					\end{align*}
-				\end{es}
-			\end{minipage}
-		\end{center}
-		Da cui si ricava una variazione di energia cinetica (\(W = \Delta E_{K}\)) pari a
-		\[ 
-		dE_{K} = dW_{G} + dW_{P} =  (p_{1} - p_{2})dV-\rho dV(h_{2} - h_{1})g
-		\]
-		\begin{align*}
-			dE_{K} =& dW_{G} + dW_{P} \\
-			\frac{1}{2}\rho dVv_{2}^2 - \frac{1}{2}\rho dVv_{1}^2	=& (p_{1} - p_{2})dV-\rho dV(h_{2} - h_{1})g \\
-		\end{align*}
-		\begin{equation}\label{bernoulli}
-				\viola{\boxed{p_{1} + \frac{1}{2}\rho v_{1}^2	+ \rho g h_{1} = p_{2} + \frac{1}{2}\rho v_{2}^2	+ \rho g h_{2}}}
-		\end{equation}
-		\begin{center}
-			\fboxsep11pt
-			\colorbox{yred}{\begin{minipage}{5.75in}
-					\begin{redes}{Teorema di Bernoulli}
-						In un fluido ideale in moto con regime stazionario la somma della: \textbf{pressione}, \textbf{densità di energia cinetica} e della \textbf{densità di energia potenziale} è costante lungo il condotto (lungo qualunque tubo di flusso).
-					\end{redes}
-			\end{minipage}}
-		\end{center}
-		Notare che dalla legge della dinamica appena presentata, si ricavano tutte le leggi della statica precedenti: \textbf{la statica è sempre un caso particolare della dinamica}. Inoltre si rileva che la pressione misurata in un fluido in movimento è sempre minore di quelal misurata in un fluido in quiete.
-		
-		\subsection{Moto laminare}
-		Trattiamo ora il moto di \textbf{fluidi reali}, ovvero fludi di cui non si può più apprissimare \(\eta = 0\) e per cui la densità è approssimabile a un valore costante \(\rho \approx \) costante. A velocità \textit{non elevate} il moto è detto \textbf{laminare}: il regime è stazionario con le linee di corrente costanti nel tempo
-		\begin{center}
-			\begin{minipage}{0.48\textwidth}
-				% LAMINAR FLOW LAYERS
-				\hspace{0.6cm}
-				\begin{tikzpicture}
-					\def\L{5.0}   % total length
-					\def\Rx{0.40} % big pipe vertical radius right
-					\def\Ry{0.90} % big pipe vertical radius right
-					\def\v{1.3}   % velocity magnitude
-					\def\N{3}     % velocity magnitude
-					
-					% WATER
-					\draw[horizontal water,thick]
-					(0,\Ry) -- (0,-\Ry)  coordinate (A1) --++ (\L,0) arc(-90:90:{\Rx} and \Ry) -- cycle;
-					\draw[water]
-					(\L,0) ellipse({\Rx} and \Ry);
-					
-					\draw[water]
-					(0,0) ellipse({\Rx} and \Ry);
-					%\draw[horizontal water,line width=0.1] %draw=none
-					%  (0,-\Ry) rectangle (\L,\Ry);
-					\foreach \i [evaluate={\x=(\i-0.5)/(\N+0.5)}] in {1,...,\N}{
-						\draw[mydarkblue] %,line width=0.05
-						(0,0) ellipse({\x*\Rx} and \x*\Ry)
-						(\L,0) ellipse({\x*\Rx} and \x*\Ry);
-						\draw[mydarkblue] %,dashed]  %,line width=0.05
-						(0, \x*\Ry) --++ (\L,0)
-						(0,-\x*\Ry) --++ (\L,0); %arc(90:-90:{\x*\Rx} and \x*\Ry) --++ (-\L,0);
-					}
-					%\draw[horizontal water,draw=none]
-					%  (0,{-\N/(\N+1)*\Ry}) rectangle (\L,{\N/(\N+1)*\Ry});
-					\draw[water,thick]
-					(0,0) ellipse({\Rx} and \Ry);
-					\foreach \i [evaluate={\x=(\i-0.5)/(\N+0.5)}] in {1,...,\N}{
-						\draw[mydarkblue] (0,0) ellipse({\x*\Rx} and \x*\Ry);
-					}
-					%\draw[mydarkblue,thick]
-					%  (0,\Ry) arc(90:-90:{\Rx} and \Ry) coordinate (A1) --++ (\L,0) arc(-90:90:{\Rx} and \Ry) -- cycle;
-					\draw[vcol!70!black,dashed,samples=100,smooth,variable=\y,domain=-1:1]
-					plot({0.4*\L+\v*(1-0.7*\y*\y)},\y*\Ry);
-					\draw[vvec] (0.4*\L,0) --++ (\v,0);
-					\foreach \i [evaluate={\y=(\i)/(\N+0.5); \vy=\v*(1-0.7*\y^2);}] in {1,...,\N}{
-						\draw[vvec] (0.4*\L, \y*\Ry) --++ (\vy,0);
-						\draw[vvec] (0.4*\L,-\y*\Ry) --++ (\vy,0);
-					}
-					
-				\end{tikzpicture}
-			\end{minipage}
-			\begin{minipage}{0.48\textwidth}
-				% PRESSURE
-				\hspace{1cm}
-				\begin{tikzpicture}[x={(1cm,0)},y={(0.55cm,0.40cm)},z={(0,1cm)}]
-					\def\L{1.8}   % cube side
-					\def\H{1.2}   % total height
-					\def\d{0.8}   % total distance
-					\def\N{7}     % number of layers
-					\def\t{\H/\N} % layer thickness
-					%\draw[dark water] (0,0,0) -- (\L,0,0) -- (\L,\L,0) -- ( 0,\L,0) -- cycle;
-					\def\layer#1#2#3#4{
-						\draw[#1] (#2+\L,0,#3) --++ (0,\L,0) --++ (0,0,-#4) --++ (0,-\L,0) -- cycle;
-						\draw[#1] (#2,0,#3) --++ (\L,0,0) --++ (0,0,-#4) --++ (-\L,0,0) -- cycle;
-						\draw[#1] (#2,0,#3) --++ (\L,0,0) --++ (0,\L,0) --++ (-\L,0,0) -- cycle;
-					}
-					
-					\layer{metal}{0}{0}{0.6*\t}
-					\foreach \i [evaluate={\x=(\i-1)*\d/(\N-1); \ya=\i*\H/\N; \yb=(\i-1)*\H/\N;}] in {1,...,\N}{
-						\layer{water}{\x}{\ya}{\t}
-					}
-					\layer{metal}{\d}{\H+0.6*\t}{0.6*\t}
-					\draw[force] (\L+\d,0.7*\L,\H+0.3*\t) --++ (1.2,0,0) node[above=1,right=-2] {$\vb{F}$};
-					\draw[vvec] (\L+\d,0.4*\L,\H-0.5*\t) --++ (1,0,0) node[below=0,right=-1] {$\vb{v}$};
-					\node at (\d+0.45*\L,0.5*\L,\H+0.6*\t) {$A$};
-					%\draw[width] (0.06*\L,0,0) --++ (0,0,\H) node[midway,fill=white,inner sep=0.5] {$h$};
-					\draw[->,thick]
-					(-0.1*\L,0,-0.1*\H) --++ (0,0,1.4*\H) node[above=-1] {$z$};
-					\tick{-0.1*\L,0,0}{0} node[left=-1] {0};
-					\tick{-0.1*\L,0,\H}{0} node[left=-1] {$h$};
-					
-				\end{tikzpicture}
-			\end{minipage}
-		\end{center}
-		Considerando un condotto lungo \(l\) e di raggio \(R\) si dimostra che la velocità in base alla distanza radiale vale
-		\begin{equation}
-			\viola{v(r) = \frac{p_{1}-p_{2}}{4\eta l}(R^2-r^2)}
-		\end{equation}
-		In queste condizioni cambia la formula della portata che diventa
-		\[ 
-		q = \int_{0}^{R}v(r)2\pi r \ dr
-		\]
-		da cui si ottiene la \textbf{legge di Hagen-Poiseuille} (valida per raggi molto piccoli)
-		\begin{equation}
-			q = \frac{\pi R^4}{8\eta}\frac{p_{1} - p_{2}}{l}
-		\end{equation}
-		dalla quale possiamo trovare il valore della velocità media:
-		\begin{equation}
-			 \viola{v_{m}= \frac{q}{S} = \frac{\frac{\pi R^4}{8\eta}\frac{p_{1} - p_{2}}{l}}{\pi R^2} = \frac{R^2}{8\eta}\frac{p_{1} - p_{2}}{l}}
-		\end{equation}
-		Come nel caso di un punto materiale in presenza di attrito radente, per mantenere il flusso di fluido è necessaria una differenza di pressione, ovvero una forza per vincere la resistenza del moto dovuta all'attrito interno.
+		\end{minipage}
+		\begin{minipage}{0.48\textwidth}
+			% PRESSURE
+			\hspace{1cm}
+			\begin{tikzpicture}[x={(1cm,0)},y={(0.55cm,0.40cm)},z={(0,1cm)}]
+				\def\L{1.8}   % cube side
+				\def\H{1.2}   % total height
+				\def\d{0.8}   % total distance
+				\def\N{7}     % number of layers
+				\def\t{\H/\N} % layer thickness
+				%\draw[dark water] (0,0,0) -- (\L,0,0) -- (\L,\L,0) -- ( 0,\L,0) -- cycle;
+				\def\layer#1#2#3#4{
+					\draw[#1] (#2+\L,0,#3) --++ (0,\L,0) --++ (0,0,-#4) --++ (0,-\L,0) -- cycle;
+					\draw[#1] (#2,0,#3) --++ (\L,0,0) --++ (0,0,-#4) --++ (-\L,0,0) -- cycle;
+					\draw[#1] (#2,0,#3) --++ (\L,0,0) --++ (0,\L,0) --++ (-\L,0,0) -- cycle;
+				}
+				
+				\layer{metal}{0}{0}{0.6*\t}
+				\foreach \i [evaluate={\x=(\i-1)*\d/(\N-1); \ya=\i*\H/\N; \yb=(\i-1)*\H/\N;}] in {1,...,\N}{
+					\layer{water}{\x}{\ya}{\t}
+				}
+				\layer{metal}{\d}{\H+0.6*\t}{0.6*\t}
+				\draw[force] (\L+\d,0.7*\L,\H+0.3*\t) --++ (1.2,0,0) node[above=1,right=-2] {$\vb{F}$};
+				\draw[vvec] (\L+\d,0.4*\L,\H-0.5*\t) --++ (1,0,0) node[below=0,right=-1] {$\vb{v}$};
+				\node at (\d+0.45*\L,0.5*\L,\H+0.6*\t) {$A$};
+				%\draw[width] (0.06*\L,0,0) --++ (0,0,\H) node[midway,fill=white,inner sep=0.5] {$h$};
+				\draw[->,thick]
+				(-0.1*\L,0,-0.1*\H) --++ (0,0,1.4*\H) node[above=-1] {$z$};
+				\tick{-0.1*\L,0,0}{0} node[left=-1] {0};
+				\tick{-0.1*\L,0,\H}{0} node[left=-1] {$h$};
+				
+			\end{tikzpicture}
+		\end{minipage}
+	\end{center}
+	Considerando un condotto lungo \(l\) e di raggio \(R\) si dimostra che la velocità in base alla distanza radiale vale
+	\begin{equation}
+		\viola{v(r) = \frac{p_{1}-p_{2}}{4\eta l}(R^2-r^2)}
+	\end{equation}
+	In queste condizioni cambia la formula della portata che diventa
+	\[ 
+	q = \int_{0}^{R}v(r)2\pi r \ dr
+	\]
+	da cui si ottiene la \textbf{legge di Hagen-Poiseuille} (valida per raggi molto piccoli)
+	\begin{equation}
+		q = \frac{\pi R^4}{8\eta}\frac{p_{1} - p_{2}}{l}
+	\end{equation}
+	dalla quale possiamo trovare il valore della velocità media:
+	\begin{equation}
+		\viola{v_{m}= \frac{q}{S} = \frac{\frac{\pi R^4}{8\eta}\frac{p_{1} - p_{2}}{l}}{\pi R^2} = \frac{R^2}{8\eta}\frac{p_{1} - p_{2}}{l}}
+	\end{equation}
+	Come nel caso di un punto materiale in presenza di attrito radente, per mantenere il flusso di fluido è necessaria una differenza di pressione, ovvero una forza per vincere la resistenza del moto dovuta all'attrito interno.
 	
-		\begin{center}
-			\fboxsep11pt
-			\colorbox{attenzione}{\begin{minipage}{5.75in}
-					\begin{attenzione}{!!!}
-						Per i fluidi reali Bernoulli vale solo in misura approssimata  \(dv/dn = 0\) non dipende da \(\eta\).
-					\end{attenzione}
-			\end{minipage}}
-		\end{center}
-		
-		\subsection{Moto turbolento}
-		Al crescere del raggio del condotto compaiono vortici nel fluido e si parla di \textbf{moto turbolento o vorticoso}. I vortici sono causati da forti variazioni di velocità ortogonalmente alle linee di corrente, e quindi, a \textbf{notevoli forze di attrito interno} (altre cause sono variazione di forma del condotto...).
-		
-		Se il condotto è a sezione costante vale la legge sperimentale descritta da Reynolds che ha provato che si ha la transizione da regime laminare a turbolento quando il parametro \(\mathcal{R}\) detto numero di Reynolds super un certo valore critico:
-		\[ 
-		\mathcal{R} = \frac{\rho v L}{\eta} \qquad  v_{\text{crit}} = \mathcal{R}_{\text{crit}}\frac{\eta}{\rho L}
-		\]
-		dove \(L\) è la \textbf{lunghezza caratteristica convenzionale} (per tubazioni cilindriche è il diametro).
-		
-		All'aumentare della differenza di pressione si raggiunge un \textbf{regime di moto stabile in regime turbolento} e si trova che la velocità media si può esprimere come
-		\[ 
-		v_{m}^2 = 2\frac{L}{k}\frac{\rho }{2} \frac{p_{1} - p_{2}}{l} 
-		\]
-		Vediamo quindi come il gradiente di pressione \((p_{1}-p_{2}/l)\) sia necessario per mantenere una certa velocità di flusso, più precisamente in regime vorticoso questo è una funzione quadratica della velocità, in regime laminare è una funzione lineare. \\
-		
-		\noindent
-		Consideriamo una sfera immers in un fluido in moto. Se il fluido è ideale si avrà \textbf{completa simmetria delle linee di corrente}, quindi eguale pressione a monte e a valle della sfera che rimarrà ferma; questo risultato è indicato come \textbf{paradosso di D'Alembert}. 
-		
-		Se invece il fluido è reale si forma una scia vorticosa con pressione a valle maggiore e conseguente applicazione di una forza sulla sfera.
-		
-		\begin{center}
-			\begin{minipage}{0.49\textwidth}
-				% LAMINAR FLOW around object
-				\begin{tikzpicture}
-					\def\W{7.0}   % total length
-					\def\H{3.5}   % total height
-					\def\R{1.0}   % total distance
-					\def\N{5}     % number of layers
-					\def\t{\H/\N} % layer thickness
-					(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
-					\draw[metal]
-					(0,0) circle(\R);
-					\foreach \s in {-1,1}{
-						\foreach \i [evaluate={\fy=\s*(\i-0.5)/\N; \y=\fy*0.5*\H;}] in {1,...,\N}{
-							\draw[myblue,thick,postaction={decorate},decoration={markings,
-								mark=at position {0.2} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
-							(-\W/2,\y) to[out=0,in=180] (0,\s*\R+0.7*\fy) to[out=0,in=180] (\W/2,\y);
-						}
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{attenzione}{\begin{minipage}{5.75in}
+				\begin{attenzione}{!!!}
+					Per i fluidi reali Bernoulli vale solo in misura approssimata  \(dv/dn = 0\) non dipende da \(\eta\).
+				\end{attenzione}
+		\end{minipage}}
+	\end{center}
+	
+	\subsection{Moto turbolento}
+	Al crescere del raggio del condotto compaiono vortici nel fluido e si parla di \textbf{moto turbolento o vorticoso}. I vortici sono causati da forti variazioni di velocità ortogonalmente alle linee di corrente, e quindi, a \textbf{notevoli forze di attrito interno} (altre cause sono variazione di forma del condotto...).
+	
+	Se il condotto è a sezione costante vale la legge sperimentale descritta da Reynolds che ha provato che si ha la transizione da regime laminare a turbolento quando il parametro \(\mathcal{R}\) detto numero di Reynolds super un certo valore critico:
+	\[ 
+	\mathcal{R} = \frac{\rho v L}{\eta} \qquad  v_{\text{crit}} = \mathcal{R}_{\text{crit}}\frac{\eta}{\rho L}
+	\]
+	dove \(L\) è la \textbf{lunghezza caratteristica convenzionale} (per tubazioni cilindriche è il diametro).
+	
+	All'aumentare della differenza di pressione si raggiunge un \textbf{regime di moto stabile in regime turbolento} e si trova che la velocità media si può esprimere come
+	\[ 
+	v_{m}^2 = 2\frac{L}{k}\frac{\rho }{2} \frac{p_{1} - p_{2}}{l} 
+	\]
+	Vediamo quindi come il gradiente di pressione \((p_{1}-p_{2}/l)\) sia necessario per mantenere una certa velocità di flusso, più precisamente in regime vorticoso questo è una funzione quadratica della velocità, in regime laminare è una funzione lineare. \\
+	
+	\noindent
+	Consideriamo una sfera immers in un fluido in moto. Se il fluido è ideale si avrà \textbf{completa simmetria delle linee di corrente}, quindi eguale pressione a monte e a valle della sfera che rimarrà ferma; questo risultato è indicato come \textbf{paradosso di D'Alembert}. 
+	
+	Se invece il fluido è reale si forma una scia vorticosa con pressione a valle maggiore e conseguente applicazione di una forza sulla sfera.
+	
+	\begin{center}
+		\begin{minipage}{0.49\textwidth}
+			% LAMINAR FLOW around object
+			\begin{tikzpicture}
+				\def\W{7.0}   % total length
+				\def\H{3.5}   % total height
+				\def\R{1.0}   % total distance
+				\def\N{5}     % number of layers
+				\def\t{\H/\N} % layer thickness
+				(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
+				\draw[metal]
+				(0,0) circle(\R);
+				\foreach \s in {-1,1}{
+					\foreach \i [evaluate={\fy=\s*(\i-0.5)/\N; \y=\fy*0.5*\H;}] in {1,...,\N}{
+						\draw[myblue,thick,postaction={decorate},decoration={markings,
+							mark=at position {0.2} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
+						(-\W/2,\y) to[out=0,in=180] (0,\s*\R+0.7*\fy) to[out=0,in=180] (\W/2,\y);
 					}
-				\end{tikzpicture}
-				\begin{equation}
-					\viola{F_{\text{res}}= 6\pi \eta R v}
-				\end{equation}
-			\end{minipage}
-			\begin{minipage}{0.49\textwidth}
-				% TURBULENCE around object
-				\begin{tikzpicture}
-					\def\W{7.0}   % total length
-					\def\H{3.5}   % total height
-					\def\R{1.0}   % total distance
-					\def\N{5}     % number of layers
-					\def\t{\H/\N} % layer thickness
-					(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
-					\draw[metal]
-					(0,0) circle(\R);
-					\foreach \s in {-1,1}{
-						\foreach \i [evaluate={\fy=\s*(\i-0.5)/\N; \y=\fy*0.5*\H;}] in {3,...,\N}{
-							\draw[myblue,thick,postaction={decorate},decoration={markings,
-								mark=at position {0.2} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
-							(-\W/2,\y) to[out=0,in=180] (0,\s*\R+0.7*\fy) to[out=0,in=180] (\W/2,\y);
-						}
+				}
+			\end{tikzpicture}
+			\begin{equation}
+				\viola{F_{\text{res}}= 6\pi \eta R v}
+			\end{equation}
+		\end{minipage}
+		\begin{minipage}{0.49\textwidth}
+			% TURBULENCE around object
+			\begin{tikzpicture}
+				\def\W{7.0}   % total length
+				\def\H{3.5}   % total height
+				\def\R{1.0}   % total distance
+				\def\N{5}     % number of layers
+				\def\t{\H/\N} % layer thickness
+				(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
+				\draw[metal]
+				(0,0) circle(\R);
+				\foreach \s in {-1,1}{
+					\foreach \i [evaluate={\fy=\s*(\i-0.5)/\N; \y=\fy*0.5*\H;}] in {3,...,\N}{
+						\draw[myblue,thick,postaction={decorate},decoration={markings,
+							mark=at position {0.2} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
+						(-\W/2,\y) to[out=0,in=180] (0,\s*\R+0.7*\fy) to[out=0,in=180] (\W/2,\y);
 					}
-					
-					%\def\p{node[circle,fill=red,inner sep=0.9] {}} % probe dot
-					\draw[myblue,thick,postaction={decorate},decoration={markings,
-						mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
-					(-\W/2,{1.5/\N*0.5*\H}) to[out=0,in=180] (0,{\R+0.7*1.5/\N}) to[out=0,in=140,looseness=1.2]
-					(0.28*\W,0.17*\H) to[out=-40,in=180,looseness=1.1] (0.40*\W,0.02*\H) to[out=0,in=50,looseness=4]
-					(0.38*\W,0.15*\H);
-					\draw[myblue,thick,postaction={decorate},decoration={markings,
-						mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
-					(-\W/2,{0.5/\N*0.5*\H}) to[out=0,in=180] (0,{\R+0.7*0.5/\N}) to[out=0,in=140,looseness=1.0]
-					(0.20*\W,0.20*\H) to[out=-40,in=-70,looseness=3] (0.16*\W,0.15*\H);
-					\draw[myblue,thick,postaction={decorate},decoration={markings,
-						mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
-					(-\W/2,{-0.5/\N*0.5*\H}) to[out=0,in=180] (0,{-\R-0.7*0.5/\N}) to[out=0,in=-140,looseness=1.1]
-					(-40:1.15*\R) to[out=40,in=180,looseness=1.1] (0.27*\W,0.05*\H) to[out=0,in=-80,looseness=2]
-					(0.22*\W,-0.10*\H);
-					\draw[myblue,thick,postaction={decorate},decoration={markings,
-						mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
-					(-\W/2,{-1.5/\N*0.5*\H}) to[out=0,in=180] (0,{-\R-0.7*1.5/\N}) to[out=0,in=-150,looseness=1.1]
-					(0.30*\W,-0.16*\H) to[out=30,in=180,looseness=1.1] (0.46*\W,-0.05*\H) to[out=0,in=-110,looseness=4]
-					(0.41*\W,-0.13*\H);
-					
-				\end{tikzpicture}
-				\begin{equation}
-					\viola{F_{\text{res}}= \frac{1}{2}cS\rho v^2}
-				\end{equation}
-			\end{minipage}
-		\end{center}
-		Dove la prima è detta \textbf{legge di Stokes} e vale per oggetti di forma sferica, mentre la seconda ha il coefficiente adimensionale \(c\) che dipende dalla forma dell'oggetto (soprattuto la parte posteriore).
-			
-		
+				}
+				
+				%\def\p{node[circle,fill=red,inner sep=0.9] {}} % probe dot
+				\draw[myblue,thick,postaction={decorate},decoration={markings,
+					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
+				(-\W/2,{1.5/\N*0.5*\H}) to[out=0,in=180] (0,{\R+0.7*1.5/\N}) to[out=0,in=140,looseness=1.2]
+				(0.28*\W,0.17*\H) to[out=-40,in=180,looseness=1.1] (0.40*\W,0.02*\H) to[out=0,in=50,looseness=4]
+				(0.38*\W,0.15*\H);
+				\draw[myblue,thick,postaction={decorate},decoration={markings,
+					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
+				(-\W/2,{0.5/\N*0.5*\H}) to[out=0,in=180] (0,{\R+0.7*0.5/\N}) to[out=0,in=140,looseness=1.0]
+				(0.20*\W,0.20*\H) to[out=-40,in=-70,looseness=3] (0.16*\W,0.15*\H);
+				\draw[myblue,thick,postaction={decorate},decoration={markings,
+					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
+				(-\W/2,{-0.5/\N*0.5*\H}) to[out=0,in=180] (0,{-\R-0.7*0.5/\N}) to[out=0,in=-140,looseness=1.1]
+				(-40:1.15*\R) to[out=40,in=180,looseness=1.1] (0.27*\W,0.05*\H) to[out=0,in=-80,looseness=2]
+				(0.22*\W,-0.10*\H);
+				\draw[myblue,thick,postaction={decorate},decoration={markings,
+					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
+				(-\W/2,{-1.5/\N*0.5*\H}) to[out=0,in=180] (0,{-\R-0.7*1.5/\N}) to[out=0,in=-150,looseness=1.1]
+				(0.30*\W,-0.16*\H) to[out=30,in=180,looseness=1.1] (0.46*\W,-0.05*\H) to[out=0,in=-110,looseness=4]
+				(0.41*\W,-0.13*\H);
+				
+			\end{tikzpicture}
+			\begin{equation}
+				\viola{F_{\text{res}}= \frac{1}{2}cS\rho v^2}
+			\end{equation}
+		\end{minipage}
+	\end{center}
+	Dove la prima è detta \textbf{legge di Stokes} e vale per oggetti di forma sferica, mentre la seconda ha il coefficiente adimensionale \(c\) che dipende dalla forma dell'oggetto (soprattuto la parte posteriore).
+	
+	
 	\subsection{Effetto Magnus e Portanza}
 	Supponiamo che ora la sfera immersa nel fluido stia anche \textbf{ruotando su se stessa}. Ruotando trasporta per attrito una parte di fluido generando una \textbf{asimmetria} nelle velocità in alto e in basso. In generale la velocità del fluido sarà più alta dove viene trasportato il fluido dalla rotazione (in basso in figura). La differenza di velocità causa una differenza di pressione e quindi una spinta. Questo fenomeno prende il nome di \textbf{effetto Magnus}.
 	\begin{center}
@@ -2230,59 +2230,59 @@ Tutte le espressioni della funzione d'onda sono:
 	
 	
 	
-\newpage
-\chapter{Termodinamica}
-\textcolor{red}{Inserire piccolo riassunto pagina 426}\\
-
-\textcolor{red}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}
-
-
-\section{Termometria}
-Chiamiamo \textbf{sistema termodinamico} una porzione del mondo costituita da una oo più parti assimilabile a un sistema continuo macroscopicamente costituito da un numero di elementi pari a \(N_A = 6.0221 \cdot 10^{23}\). L'oggetto di studio saranno le proprietà fisiche macroscopiche e le loro varzioni, \textbf{trasformazioni} del sistema e \textbf{scambi energetici}.
-
-Quando si parlerà di \textbf{ambiente} si intenderà un insieme di una o più parti con cui il sistema termodinamico può interagire. L'ambiente quindi \textbf{contribuisce} in generale \textbf{a determinare le caratteristiche fisiche mascroscopiche del sistema}.
-
-Distinguiamo:
-\begin{enumerate}
-	\item \textbf{Sistma aperto} se avvengono scambi di energia e materia con l'ambiente;
-	\item \textbf{Sistma chiuso} se avvengono solo scambi di energia con l'ambiente;
-	\item \textbf{Sistma isolato} se non avvengono scambi con l'ambiente.
-\end{enumerate}
-
-\[ 
-\viola{\text{{L'insieme (sistema + ambiente) è detto \textbf{universo termodinamico}}}}
-\]
-\subsection{Variabili termodinamiche}
-Al fine di descrivere il nostro sistema termodinamico viene utilizzato un numero ridotto di variabili termodinamiche, ovvero grandezze fisiche \textbf{direttamente misurabili}. Le distinguiamo in estensive ed intensive:
-
-\begin{center}
-\begin{minipage}{0.49\textwidth}
-	\begin{es}{Estensive}
-		Variabili \textit{additive} che esprimono proprità \textbf{globali} del sistema che dpendono in particolare dalle dimensioni o dall'estensione di quest'ultimo.
-		
-		\[\viola{\text{Massa}} \qquad \viola{\text{Volume}}\]
-		
-	\end{es}
-\end{minipage}
-\begin{minipage}{0.49\textwidth}
-	\begin{es}{Intensive}
-	Variabili \textit{non additive} che esprimono proprità \textbf{locali} del sistema che possono variare da punto a punto.
+	\newpage
+	\chapter{Termodinamica}
+	\textcolor{red}{Inserire piccolo riassunto pagina 426}\\
 	
-	\[\viola{\text{Pressione}} \quad \viola{\text{Temperatura}}\quad \viola{\text{Pressione}}\]
+	\textcolor{red}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}
 	
-	\end{es}
-\end{minipage}
-\end{center}
-In base al sistema termodinamico in esame saranno necessarie certe variabili termodinamiche; per esempio per descrivere lo stato di un gas ideale ne sono necessarie 3 \(pVT\) poiché legate dall'equazione di stato \( pV = nRT\) in cui due sono variabili e una dipendente dalle 2.\\
-
-\noindent
-\textbf{Osservazione}  La definizione si stato termodinamico è concettualmente diversa da stato meccanico. Uno stato meccanico presuppone la conoscenza di posizione e velocità degli \(n\) corpi interessati, lo stato termodinamico invece, data l'elevato numero di elementi \(n\) non permette ciò, anzi, ad uno stato termodinamico possono essere associti più stati meccanici.
-
-\section{Equilibrio termico}
-\textcolor{red}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}\\
-
-\noindent
-Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con rispettive temperature \(T_A\) e \(T_B\), i sistemi si dicono in \textbf{equilibrio termico} se hanno la stessa temperatura, \(T_A = T_B\)
+	
+	\section{Termometria}
+	Chiamiamo \textbf{sistema termodinamico} una porzione del mondo costituita da una oo più parti assimilabile a un sistema continuo macroscopicamente costituito da un numero di elementi pari a \(N_A = 6.0221 \cdot 10^{23}\). L'oggetto di studio saranno le proprietà fisiche macroscopiche e le loro varzioni, \textbf{trasformazioni} del sistema e \textbf{scambi energetici}.
+	
+	Quando si parlerà di \textbf{ambiente} si intenderà un insieme di una o più parti con cui il sistema termodinamico può interagire. L'ambiente quindi \textbf{contribuisce} in generale \textbf{a determinare le caratteristiche fisiche mascroscopiche del sistema}.
+	
+	Distinguiamo:
+	\begin{enumerate}
+		\item \textbf{Sistma aperto} se avvengono scambi di energia e materia con l'ambiente;
+		\item \textbf{Sistma chiuso} se avvengono solo scambi di energia con l'ambiente;
+		\item \textbf{Sistma isolato} se non avvengono scambi con l'ambiente.
+	\end{enumerate}
+	
+	\[ 
+	\viola{\text{{L'insieme (sistema + ambiente) è detto \textbf{universo termodinamico}}}}
+	\]
+	\subsection{Variabili termodinamiche}
+	Al fine di descrivere il nostro sistema termodinamico viene utilizzato un numero ridotto di variabili termodinamiche, ovvero grandezze fisiche \textbf{direttamente misurabili}. Le distinguiamo in estensive ed intensive:
+	
+	\begin{center}
+		\begin{minipage}{0.49\textwidth}
+			\begin{es}{Estensive}
+				Variabili \textit{additive} che esprimono proprità \textbf{globali} del sistema che dpendono in particolare dalle dimensioni o dall'estensione di quest'ultimo.
+				
+				\[\viola{\text{Massa}} \qquad \viola{\text{Volume}}\]
+				
+			\end{es}
+		\end{minipage}
+		\begin{minipage}{0.49\textwidth}
+			\begin{es}{Intensive}
+				Variabili \textit{non additive} che esprimono proprità \textbf{locali} del sistema che possono variare da punto a punto.
+				
+				\[\viola{\text{Pressione}} \quad \viola{\text{Temperatura}}\quad \viola{\text{Pressione}}\]
+				
+			\end{es}
+		\end{minipage}
+	\end{center}
+	In base al sistema termodinamico in esame saranno necessarie certe variabili termodinamiche; per esempio per descrivere lo stato di un gas ideale ne sono necessarie 3 \(pVT\) poiché legate dall'equazione di stato \( pV = nRT\) in cui due sono variabili e una dipendente dalle 2.\\
+	
+	\noindent
+	\textbf{Osservazione}  La definizione si stato termodinamico è concettualmente diversa da stato meccanico. Uno stato meccanico presuppone la conoscenza di posizione e velocità degli \(n\) corpi interessati, lo stato termodinamico invece, data l'elevato numero di elementi \(n\) non permette ciò, anzi, ad uno stato termodinamico possono essere associti più stati meccanici.
+	
+	\section{Equilibrio termico}
+	\textcolor{red}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}\\
+	
+	\noindent
+	Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con rispettive temperature \(T_A\) e \(T_B\), i sistemi si dicono in \textbf{equilibrio termico} se hanno la stessa temperatura, \(T_A = T_B\)
 	\begin{center}
 		\fboxsep11pt
 		\colorbox{yblue}{\begin{minipage}{5.75in}
@@ -2315,16 +2315,16 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 				\end{blues}
 		\end{minipage}}
 	\end{center}
-
+	
 	\begin{center}
-	\begin{table}[H]
-		\begin{tabular}{@{}lll@{}}
-			 \textbf{Termometro}   & \textbf{Fenomeno}   & \textbf{Caratteristica termometrica} \(X\)     \\
-			 \textit{a liquido}  & dilatazione termica di un liquido   & lunghezza della colonna di liquido     \\
-			 \textit{a resistenza}   & variazione della resistenza elettrica  & resistenza elettrica     \\
-			 \textit{a gas a volume costante}   & variazione della pressione  & pressione  \\        
-		\end{tabular}
-	\end{table}
+		\begin{table}[H]
+			\begin{tabular}{@{}lll@{}}
+				\textbf{Termometro}   & \textbf{Fenomeno}   & \textbf{Caratteristica termometrica} \(X\)     \\
+				\textit{a liquido}  & dilatazione termica di un liquido   & lunghezza della colonna di liquido     \\
+				\textit{a resistenza}   & variazione della resistenza elettrica  & resistenza elettrica     \\
+				\textit{a gas a volume costante}   & variazione della pressione  & pressione  \\        
+			\end{tabular}
+		\end{table}
 	\end{center}
 	
 	
@@ -2336,25 +2336,25 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	\]
 	Da questa possiamo ricavare la \textbf{temperatura empirica} di un termometro:
 	\begin{enumerate}
-	\item Si tara il termometro mettendolo in contatto termico con una cella al punto triplo dell'acqua; il termometro, raggiunto l'equilibrio, darà il valore \(X_{pt}\)
-	\[ 
-	\theta(X_{pt}) = aX_{pt} =  \SI{273.16}{}
-	\]
-	\item Si pone poi il termometro a contatto con il sistema a temperatura incognita; all'equilibrio il termometro fornirà il valore \(X\)
-	\[ 
-	\theta(X) = aX = \textcolor{red}{aX_{pt}}\frac{X}{X_{pt}} = \textcolor{red}{\theta(X_{pt})}\frac{X}{X_{pt}} = \textcolor{red}{273.16}\frac{X}{X_{pt}} 
-	\]\\
-	\begin{equation}\label{temperatura punto triplo}
-		\viola{\theta(X) = T  = 273.16\frac{X}{X_{pt}} \SI{ }{[\kelvin]} }
-	\end{equation}
-	\\
-	
-	\noindent
-	Da cui troviamo anche che la costante \(a\) vale \(a = 273.16/X_{pt}\).
-	
-	Termometri diversi forniscono sempre letture diverse qando in equilibrio termico con lo stesso stato di un sistema anche se tarati per costruzione al punto triplo dell'acqua (\textit{mio guess: cambierà il tipo di andamento, forse non più lineare}).
-	
-\end{enumerate}
+		\item Si tara il termometro mettendolo in contatto termico con una cella al punto triplo dell'acqua; il termometro, raggiunto l'equilibrio, darà il valore \(X_{pt}\)
+		\[ 
+		\theta(X_{pt}) = aX_{pt} =  \SI{273.16}{}
+		\]
+		\item Si pone poi il termometro a contatto con il sistema a temperatura incognita; all'equilibrio il termometro fornirà il valore \(X\)
+		\[ 
+		\theta(X) = aX = \textcolor{red}{aX_{pt}}\frac{X}{X_{pt}} = \textcolor{red}{\theta(X_{pt})}\frac{X}{X_{pt}} = \textcolor{red}{273.16}\frac{X}{X_{pt}} 
+		\]\\
+		\begin{equation}\label{temperatura punto triplo}
+			\viola{\theta(X) = T  = 273.16\frac{X}{X_{pt}} \SI{ }{[\kelvin]} }
+		\end{equation}
+		\\
+		
+		\noindent
+		Da cui troviamo anche che la costante \(a\) vale \(a = 273.16/X_{pt}\).
+		
+		Termometri diversi forniscono sempre letture diverse qando in equilibrio termico con lo stesso stato di un sistema anche se tarati per costruzione al punto triplo dell'acqua (\textit{mio guess: cambierà il tipo di andamento, forse non più lineare}).
+		
+	\end{enumerate}
 	\subsection{Termometro a gas}
 	\begin{center}
 		\begin{minipage}{0.49\textwidth}
@@ -2565,11 +2565,11 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	c = \frac{1}{n}\frac{dQ}{dT}
 	\]
 	\begin{es}{precisazioni}
-	 E' però necessaria una precisaziione riguardo le definizioni di calore specifico. Quando la trasformazione avviene in assenza di lavoro scambiato con l'ambiente \(dW = 0\) e \(dQ = dU\) prt cui
-	 \begin{equation}
-	 	c  = \frac{1}{m}\frac{dU}{dT} \qquad c  = \frac{1}{n}\frac{dU}{dT}
-	 \end{equation}
-	 equazioni che valgono solo quando il lavoro è nullo. Se però è compiuto lavoro esterno il calore scambiato dipende dalla trasformazione e è possibile definire diversi calori specifici per una stessa sostanza.
+		E' però necessaria una precisaziione riguardo le definizioni di calore specifico. Quando la trasformazione avviene in assenza di lavoro scambiato con l'ambiente \(dW = 0\) e \(dQ = dU\) prt cui
+		\begin{equation}
+			c  = \frac{1}{m}\frac{dU}{dT} \qquad c  = \frac{1}{n}\frac{dU}{dT}
+		\end{equation}
+		equazioni che valgono solo quando il lavoro è nullo. Se però è compiuto lavoro esterno il calore scambiato dipende dalla trasformazione e è possibile definire diversi calori specifici per una stessa sostanza.
 	\end{es}
 	\subsubsection{Misura del calore specifico}
 	Si può effettuare la amisura del calore specifiico di un corpo tramite il \textbf{calorimetro di Regnault}. In un contenitore adiabatico si ha un recipiente pieno d'acqua a temperatura \(T_2\) con immerso un termometro e un agitatore. Si immerge quindi un corpo a temperatura \(T_1 > T_2\) e di calore specifico incognito \(c_x\). Raggiunto l'equilibrio a temperatura \(T_e\) il bilancio dei calori scambiati in modulo sarà
@@ -2590,7 +2590,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	\subsubsection{Processi isotermi: cambiamenti di fase}
 	Si osserva che i cambiamenti di fase sono accompagnati da scambi di calore, più precisamente si tratta di quantità di calore \(\boldsymbol{\lambda}\) ben definite dette  \textbf{calori latenti}. Il calore richiesto per il cambiamento di fase da un corpo di massa \(m\) è 
 	\begin{equation}\label{calorelatente}
-	\viola{	Q = m\lambda}
+		\viola{	Q = m\lambda}
 	\end{equation}
 	La caratteristica importante dei cambiamenti di fase è di essere trasformazioni \textbf{praticamente reversibili}.
 	
@@ -2726,7 +2726,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	\]
 	e quindi come per i fluidi ()
 	\begin{equation}
-	\viola{	\frac{\partial q}{\partial t} + \overrightarrow{\nabla} \cdot \overrightarrow{J}_U  = 0 }
+		\viola{	\frac{\partial q}{\partial t} + \overrightarrow{\nabla} \cdot \overrightarrow{J}_U  = 0 }
 	\end{equation}
 	
 	\begin{center}
@@ -2735,7 +2735,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 	
 	
 	\subsection{Convezione}
-	La connduzione termica nei fluidi è difficile da osservare perché in essi avviene un altro fenomeno di trasmissione del calore: la convezione.
+	La conduzione termica nei fluidi è difficile da osservare perché in essi avviene un altro fenomeno di trasmissione del calore: la convezione.
 	
 	Riscaldando un fluido la parte più vicina alla sorgente di calore si scalda prima dilatandosi. Le parti di fluido più calde risentono quindi di una spinta di Archimede maggiore e tendono a spostarsi verso l'alto generando correnti ascensionali che fanno avvicinare le parti di fluido più fredde alla sorgente. 
 	
@@ -2762,7 +2762,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 					\subsection{Legge isoterma di Boyle}
 					Per un gas ideale in equilibrio termodinamico (\(p_{0}, V_{0}, T\)) il prodotto \(pV\) è costante  in tutti gli stati di equilibrio collegati da \textbf{trasformazioni isoterme e non}.
 					\[ 
-					\boldsymbol{pv = \text{ cost}}
+					\boldsymbol{pV = \text{ cost}}
 					\]
 				\end{redes}
 		\end{minipage}}
@@ -2775,7 +2775,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 					\subsection{Legge isobara di Gay-Lussac}
 					Per un gas ideale in equilibrio termodinamico (\(p_{0}, V_{0}, T\)) vale
 					\[ 
-					\boldsymbol{V = V(1 + \alpha t)}
+					\boldsymbol{V = V_0(1 + \alpha t)}
 					\]
 					in tutti gli stati di equilibrio collegati da \textbf{trasformazioni isobare}.
 				\end{redes}
@@ -2789,7 +2789,7 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 					\subsection{Legge isocora di Gay-Lussac}
 					Per un gas ideale in equilibrio termodinamico (\(p_{0}, V_{0}, T\)) vale
 					\[ 
-					\boldsymbol{p = p(1 + \beta t)}
+					\boldsymbol{p = p_0(1 + \beta t)}
 					\]
 					in tutti gli stati di equilibrio collegati da \textbf{trasformazioni isocore}.
 					
@@ -2800,38 +2800,94 @@ Ora precisiamo il concetto di equilibrio termico. Presi due sistemi A e B con ri
 		\end{minipage}}
 	\end{center}
 	
-
+	
 	\subsection{Legge di avogadro}
-	Volumi di gas diversi, aventi stessa temperatura e stessa pressione, contengono lo stesso numero di molecole.
-					
+	Volumi di gas diversi, aventi stessa temperatura e stessa pressione, contengono lo stesso numero di molecole.\\
 	Il volume di un gas dipende quindi dal numero di molecole da cui è costituito e non dal tipo di molecole o dalla loro dimensione. \textit{A stessa temperatura e pressione un litro di ossigeno contiene lo stesso numero di molecole di un litro di elio.}
-
+	
+	Si chiama mole una quantità di materia che contiene tante entità elementari quanti sono gli atomi contenuti in 0.012 kg dell'isotopo $^{12}C$ del carbonio, ovvero $N_A = 6.022\cdot10^{23}$ entità elementari. 
+	
+	\subsection{Equazione di stato dei gas ideali}
+	Consideriamo n moli di gas reale alla pressione atmosferica $p_0$, temperatura $T_0 = 274.15\,K$ e volume $V_0 = nV_m$.
+	Mantenendo costante il volume e portando la temperatura al valore T abbiamo da Gay-Lussac che: 
+	
+	\[ 
+	p_T = p_0 \alpha T \quad \Longrightarrow \quad p_T V_0 = p_0 (V_0 \,\alpha\, T) = p_0 V_T
+	\]
+	Nel secondo passaggio si è moltiplicato per $V_0$ ambo i lati dell'equazione.\\ $V_0$ e $p_T$ sono le coordinate termodinamiche in un particolare stato di equilibrio alla temperatura T, come lo sono $p_0$ e $V_T$ sempre alla temperatura T. In base alla legge di Boyle si ha: 
+	\[ 
+	p_T V_0  = p_0 V_T = pV
+	\]
+	essendo p e V le generiche coordinate di uno stato di equilibrio alla temperatura T. Otteniamo dunque:
+	\[ 
+	pV \;=\; p_0 \,V_0\, \alpha\, T \;=\; n\, p_0\, V_m\, \alpha\, T \;=\; n\, R\, T  
+	\]
+	dove il prodotto $p_0\, V_m\, \alpha\, = R$  è una costante universale per tutti i gas, ovvero $R = 8.314\, J/mol\,K$. Dunque abbiamo ricavato l'equazione di stato dei gas ideali: 
+	\begin{equation}
+		\viola{pV = n\,R\,T }
+	\end{equation}
 	
 	\section{Trasformazioni  di un gas}
+	Una trasformazione che porti un gas da uno stato A ad uno stato B può svolgersi attraverso stati di equilibrio termodinamico ed è rappresentabile nel piano di Clapeyron da una curva continua. Se invece la trasformazione avviene attraverso stati di non equilibrio si una rappresentazione a tratti per indicare che si ignorano i valori delle coordinate termodinamiche durante il processo.
+	Quando un gas si espande o viene compresso avviene uno scambio di lavoro che in termini infinitesimi si può scrivere come $dW = p\,dV$. In una trasformazione dallo stato A allo stato B si ha:
+	\begin{equation}\label{lavoro}
+		W \;=\; \int_{A}^{B} p(V)\,dV
+	\end{equation}
+	utile però solo se si conosce l'espressione esplicita di p(V), situazione soddisfatta sostanzialmente in due sole situazioni: 
+	\begin{itemize}
+		\item[a)] la \textbf{trasformazione è reversibile} e pertanto si può calcolare l'integrale in quanto la pressione è determinata in ogni stato intermedio; 
+		\item[b)] \textbf{è nota la pressione esterna} che, per esempio, è costante; caso tipico di quando il processo avviene sotto pressione atmosferica; allora, anche se la trasformazione non è reversibile, il lavoro è calcolabile ed è dato da  $\;W = p_{amb}\,(V_B - V_A)$
+	\end{itemize}
+	In tutti gli altri casi in cui la pressione non è nota la pressione non si può applicare la (\ref{lavoro}). 
+	Ad ogni modo se la trasformazione è \textbf{isocora} il lavoro è nullo in quanto $V$ = costante. 
+	
+	
+	Il lavoro, se si può utilizzare (\ref{lavoro}), in accordo con il significato geometrico dell'operazione di integrazione è pari all'area compresa tra la curva e l'asse dei volumi. In una trasformazione ciclica reversibile il lavoro è dato dall'area racchiusa dal ciclo stesso.
+	
 	\section{Calore e energia interna del gas ideale}
+	In una trasformazione generica un gas scambia anche calore con l'ambiente e per il calcolo bisogna ricorrere al primo principio. Per una trasformazione infinitesima isocora si ha $dQ = n\,c_V\,dT$. \\Le quantità:
+	\[ 
+	c_V = \frac{1}{n}\left(\frac{dQ}{dT}\right)_V \quad,\quad c_p = \frac{1}{n}\left(\frac{dQ}{dT}\right)_p
+	\]
+	si chiamano, rispettivamente, calore specifico molare a volume costante e a pressione costante e si misurano in $J/\text{mol}\,K$. 
+	Se $c_V$ e $c_P$ possono essere ritenuti costanti, il calore scambiato per una variazione $\Delta T$ di temperatura risulta: 
+	\begin{equation} 
+		Q_V = n\,c_V\Delta T \quad,\quad Q_p = n\,c_p\Delta T
+	\end{equation}
+	Altrimenti
+	\begin{equation} 
+		Q_V = n\int_{A}^{B} c_V\,dT \quad,\quad Q_p = n\int_{A}^{B} c_p\,dT
+	\end{equation}
+	Come nel caso dei solidi e dei liquidi il calore scambiato dipende solo dalla variazione di temperatura. In un gas ideale risulta inoltre sempre vero $c_p > c_V$ (Dimostrazione pag. 403). 
+	
+	\subsection{Energia interna}
+	La dipendenza dell'energia interna di un gas ideale dalle coordinate termodinamiche è stata ricavata dall'\textit{esperienza sull'espansione libera}, eseguita da \textit{Joule}.
+	\[ IMMAGINE \]
+	
+	
+	
 	\section{Relazione di Mayer}
 	
 	\section{Trasformazioni adiabatiche}
-	Il gas è racchiuso da pareti adiabariche e può scambiare solo lavoro con l'ambiente (tramite una parete mobile).
-	 
+	Il gas è racchiuso da pareti adiabatiche e può scambiare lavoro solo con l'ambiente (tramite una parete mobile).
+	
 	\begin{align*}
 		Q = 0 \quad \Rightarrow \quad W_{AB} =& -\Delta U \\
-											 =& -nc_{V} T
+		=& -nc_{V} \Delta T
 	\end{align*}
 	
 	\[ 
 	pV = nRT \quad \Rightarrow \quad nT = \frac{pV}{R}
 	\]
-	Presa una trasformazione dal punto \(A\) al punot \(B\) si avrà quindi
+	Presa una trasformazione dal punto \(A\) al punto \(B\) si avrà quindi
 	\begin{align*}
 		W_{AB} =& nc_{V}(T_{A} - T_{B}) = c_{v}\frac{(p_{A}V_{A} - p_{b}V_{B})}{R} \\
-			   =& \frac{1}{\gamma -1}(p_{A}V_{A} - p_{b}V_{B})
+		=& \frac{1}{\gamma -1}(p_{A}V_{A} - p_{b}V_{B})
 	\end{align*}
 	con 
 	\[ 
 	\boxed{c_{P} - c_{V} = R}
 	\]
-	
 	
 	
 	\section{Trasformazioni isoterme}
