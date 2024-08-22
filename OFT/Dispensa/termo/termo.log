@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  15 AUG 2024 10:13
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  21 AUG 2024 08:33
  restricted system commands enabled.
 **termo.tex
 (./termo.tex
@@ -2199,6 +2199,31 @@ la sec-onda re-versibile così che la trasfor-mazione
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 1180.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1185--1186
+
+ []
+
+[23]
+Overfull \hbox (7.90233pt too wide) in paragraph at lines 1187--1197
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1206
+
+ []
+
+
+Overfull \hbox (7.90233pt too wide) in paragraph at lines 1207--1219
+[]$[]$ $[]$
+ []
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the termo.maf file.
@@ -2214,7 +2239,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the termo.log file.
 
-[23] [24] (./termo.aux)
+[24] (./termo.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -2230,10 +2255,10 @@ Package rerunfilecheck Info: File `termo.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  56277 strings out of 476447
  125027,2373549 words of node,token memory allocated
- 1147 words of node memory still in use:
-   11 hlist, 2 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 139 attribute, 65 glue_sp
-ec, 139 attribute_list, 2 write nodes
-   avail lists: 1:1,2:2339,3:1395,4:268,5:935,6:166,7:7025,8:67,9:1027,10:25,11:
+ 1183 words of node memory still in use:
+   11 hlist, 2 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 148 attribute, 65 glue_sp
+ec, 148 attribute_list, 2 write nodes
+   avail lists: 1:1,2:2321,3:1395,4:268,5:935,6:166,7:7025,8:67,9:1027,10:25,11:
 508
  76588 multiletter control sequences out of 65536+600000
  111 fonts using 6631287 bytes
@@ -2247,7 +2272,7 @@ mex.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr
 e1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi
 8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/te
 xmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on termo.pdf (24 pages, 185566 bytes).
+Output written on termo.pdf (24 pages, 189086 bytes).
 
 PDF statistics: 448 PDF objects out of 1000 (max. 8388607)
  407 compressed objects within 5 object streams

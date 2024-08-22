@@ -1178,7 +1178,66 @@ La variazione di entropia \textbf{non può essere negativa}:
 \]
 \subsection{Calcoli di variazione di entropia}
 \subsubsection{Scambi di calore con sorgenti}
-Consideriamo la 
+\paragraph{Sorgnete - Sorgente}
+Consideriamo lo scambio di calore tra due sorgenti \(T_{2}\) e \(T_{1}\) senza alcuna macchina termica che lavora tra le due. \(T_{2}\) cede il calore \(-Q\) e \(T_{1}\) assorbe il calore \(Q\). 
+
+
+Il processo descritto è \textit{irreversibile}, inoltre per definizione lo scambio di calore di una sorgente è \textit{isotermo}. Per il calcolo dell'entropia utiliziamo una trasformazione isoterma reversibile tra gli stessi stati iniziali e finali.\\
+
+\begin{minipage}{0.49\textwidth}
+	\[ 
+	\Delta S_{1} = \int_{A}^{B}\frac{dQ}{T_{1}} = \frac{Q}{T_{1}}
+	\]
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+	\[ 
+	\Delta S_{2} = \int_{A}^{B}\left(-\frac{dQ}{T_{2}}\right) = -\frac{Q}{T_{2}}
+	\]
+\end{minipage}  \\
+
+\[ 
+\Delta S_{u} = \Delta S_{2} + \Delta S_{1}  = Q\left(\frac{1}{T_{1}} - \frac{1}{T_{2}}\right)
+\] \\
+Si ha quindi un aumento dell'entropia (\(T_{2} > T_{1}\)) in accordo con il principio esposto prima.
+
+
+\noindent
+\paragraph{Sorgnete - macchina - Sorgente}Se invece consideriamo una macchina termica che lavora tra le due sorgenti si avrà: \\
+
+\begin{minipage}{0.49\textwidth}
+	\[ 
+	\Delta S_{1} = \int_{A}^{B}\frac{dQ_{1}}{T_{1}} = \frac{Q_{2}}{T_{2}}
+	\]
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+	\[ 
+	\Delta S_{1} = \int_{A}^{B}\frac{dQ_{1}}{T_{1}} = 
+	\frac{Q_{1}}{T_{1}}
+	\]
+\end{minipage}
+La variazione di entropia del sistema macchina è nulla in un ciclo. Calcloliamo quindi la variazione di entropia dell'ambiente prendendo i calori con i segni opposti
+\[ 
+\Delta S_{u} = \Delta S_{\text{amb}}  = -\left(\frac{Q_{2}}{T_{2}} + \frac{Q_{1}}{T_{1}}\right)
+\]
+Dal teorema di Clausius sappiamo che la parentesi è negativa e si ha quindi un aumento dell'entropia. Notare che se la macchina fosse reversibile la variazione di entropia sarebbe nulla.
+
+\paragraph{Sorgente - Corpo}
+Se poniamo a contatto un corpo a tepmeratura \(T_{1}\) con una sorgente (immaginiamo la sorgente più calda del corpo). La trasformazione è irreversibile, quindi, immaginiamo infiniti scambi di calore tra il corpo e infinite sorgenti a temperatura \(T_{1} + dT\), \(T_{1} + 2dT\), ... \(T_{2}\). Con ciascuna di queste trasformazioni reversibili viene scambiato il calore 
+\[ 
+dQ = mcdT 
+\]
+Quindi si ha che il corpo assorbe il calore
+\[ 
+Q = mc(T_{2} - T_{1})
+\]
+e la sorgente cede il calore \(-Q\). 
+
+Per calcolare la variazione di entropia del corpo "sommiamo" le infinite variazioni dovute agli scambi di calore con le infinite sorgenti:
+\[ 
+\Delta S_{\text{sis}} = \int_{T_{1}}^{T_{2}}\left(\frac{mcdT}{T}\right) = \log\left(\frac{T_{2}}{T_{1}}\right)
+\]
+
+
 \subsubsection{Scambi di calore tra corpi}
 \subsubsection{Cambiamenti di fase}
 

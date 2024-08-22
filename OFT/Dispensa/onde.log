@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  21 JUL 2024 22:25
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  22 AUG 2024 22:12
  restricted system commands enabled.
 **onde.tex
 (./onde.tex
@@ -1858,11 +1858,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
-])
+] [2])
 \tf@toc=\write7
 
 \openout7 = onde.toc
- [2]
+ [3]
 Chapter 1.
 
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 230--231
@@ -1882,564 +1882,255 @@ ale detta \T1/futs/b/n/10 equazione delle onde \T1/futs/m/n/10 o \T1/futs/b/n/1
 0 equazione
  []
 
-[3
+[4
 
-] [4]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 348--349
- [][][][][][] 
- []
-
-[5]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 394--395
- [][][][][][] 
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
-
- []
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 411.
-
-[7] [8]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 532--533
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--545
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
-
- []
-
-[10] [11] [12]
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
-758.
- (/usr/share/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
-)
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 768.
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 839--840
-
- []
-
-(./imgs/sfera.pdf_tex
-<./imgs/sfera.pdf, id=564, page=1, 292.44583pt x 193.78973pt>
-File: ./imgs/sfera.pdf Graphic file (type pdf)
-<use ./imgs/sfera.pdf, page 1>
-Package luatex.def Info: ./imgs/sfera.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 433.62pt x 287.34541pt.
-) [14] [15<./imgs/sfera.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 896--898
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 919--920
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 954--956
-
- []
-
-[17]
-Overfull \hbox (1.25583pt too wide) in paragraph at lines 988--989
-[]\T1/futs/m/n/10 Ab-bi-amo quindi un'onda di alta fre-quenza che si propaga con
- \T1/futs/b/n/10 ve-loc-ità di fase me-dia $\FML/futmi/m/it/10 v[]$ \T1/futs/m
-/n/10 e con ampiezza
- []
-
-[18] (./imgs/doppler12.pdf_tex
-<./imgs/doppler12.pdf, id=599, page=1, 847.83318pt x 341.14972pt>
-File: ./imgs/doppler12.pdf Graphic file (type pdf)
-<use ./imgs/doppler12.pdf, page 1>
-Package luatex.def Info: ./imgs/doppler12.pdf , page1 used on input line 56.
-(luatex.def)             Requested size: 433.62pt x 174.47858pt.
-<./imgs/doppler12.pdf, id=600, page=2, 847.83318pt x 341.14972pt>
-File: ./imgs/doppler12.pdf Graphic file (type pdf)
-<use ./imgs/doppler12.pdf, page 2>
-Package luatex.def Info: ./imgs/doppler12.pdf , page2 used on input line 65.
-(luatex.def)             Requested size: 433.62pt x 174.47858pt.
-) [19] [20<./imgs/doppler12.pdf><./imgs/doppler12.pdf>] [21]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1116--1117
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
-
- []
-
-[22] [23] [24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 1301--1302
-
- []
-
-[26]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1368--1369
- [][][][][][] 
- []
-
-[27]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1436--1437
- [][][][][][] 
- []
-
-[28]
-Chapter 2.
-
-Overfull \hbox (32.26317pt too wide) detected at line 1498
-[]
- []
-
-
-Overfull \hbox (33.83316pt too wide) in paragraph at lines 1489--1505
-[]$[]$ $[]$ 
- []
-
-[29
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1517--1519
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1520--1522
-
- []
-
-
-Overfull \hbox (5.27937pt too wide) in paragraph at lines 1545--1547
-\T1/futs/m/n/10 quindi se lungo una su-per-fi-cie iso-bar-ica e equipoten-ziale si hanno pres-sione ed en-er-gia poten-ziale costanti,
- []
-
-[30] [31]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 1674.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 1674.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 1674.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6.8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 1674.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 1674.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 1674.
-
-Overfull \hbox (1.56999pt too wide) in paragraph at lines 1650--1701
-$[]$ $[]$ 
- []
-
-[32]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1752--1753
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 1762--1763
-\T1/futs/m/n/10 In sostanza è una de-scrizione \T1/futs/b/n/10 analoga a
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 1767--1768
-\T1/futs/m/n/10 flu-ida $\FML/futmi/m/it/10 P\T1/futs/m/n/10 (\FML/futmi/m/it/1
-0 x; y; z\T1/futs/m/n/10 )$ e si con-sid-era la ve-loc-ità
- []
-
-[33]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1778--1779
- [][][][][][] 
- []
-
-contour: Using real outline for `$v_2$' on input line 1820.
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1838--1839
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1854--1855
- [][][][][][] 
- []
-
-[34
-Non-PDF special ignored!
-Non-PDF special ignored!]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 1970--1971
- [][][][][][] 
- []
-
-[35]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2081--2082
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2098
-
- []
-
-[36]
-Overfull \hbox (7.45264pt too wide) in paragraph at lines 2211--2212
-[]\T1/futs/m/n/10 Per ri-cavare un'espres-sione della forza pos-si-amo pas-sare dall'equazione di Bernoulli. Si hanno i seguenti
- []
-
-[37
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 7 (U+0037) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 7 (U+0037) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 7 (U+0037) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 7 (U+0037) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 6 (U+0036) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no - (U+002D) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 1 (U+0031) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no r (U+0072) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no c (U+0063) in font nullfont!
-Missing character: There is no t (U+0074) in font nullfont!
-Missing character: There is no a (U+0061) in font nullfont!
-Missing character: There is no n (U+006E) in font nullfont!
-Missing character: There is no g (U+0067) in font nullfont!
-Missing character: There is no l (U+006C) in font nullfont!
-Missing character: There is no e (U+0065) in font nullfont!
-Missing character: There is no ( (U+0028) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 6 (U+0036) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no , (U+002C) in font nullfont!
-Missing character: There is no 0 (U+0030) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 5 (U+0035) in font nullfont!
-Missing character: There is no 2 (U+0032) in font nullfont!
-Missing character: There is no * (U+002A) in font nullfont!
-Missing character: There is no 3 (U+0033) in font nullfont!
-Missing character: There is no . (U+002E) in font nullfont!
-Missing character: There is no 1 (U+0031) in font nullfont!
-Missing character: There is no ) (U+0029) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-] [38]
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2235--2236
-
- []
-
-
-Underfull \hbox (badness 1320) in paragraph at lines 2261--2262
-[]\T1/futs/m/n/10 Vari-abili \T1/futs/m/it/10 ad-di-tive \T1/futs/m/n/10 che es-
-p-ri-mono pro-prità
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2276--2277
-
- []
-
-[39
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2282--2283
-
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2292--2293
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2303--2304
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2316--2317
- [][][][][][] 
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 2331--2332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2346--2347
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2349--2351
-
- []
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 2450--2450
-
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2450--2451
- [][][][][][] 
- []
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 2459--2460
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2472--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2481--2482
-
- []
-
-[43]
-Overfull \hbox (1.2515pt too wide) in paragraph at lines 2488--2489
-[]\T1/futs/b/n/10 Trasfor-mazioni adi-a-batiche\T1/futs/m/n/10 : una qual-si-asi
- trasfor-mazione in cui $\FML/futmi/m/it/10 Q \T1/futs/m/n/10 = 0$ (si ot-tiene per trasfor-mazioni
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2513--2515
-
- []
-
-[44]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2546--2547
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2557--2558
- [][][][][][] 
- []
-
-[45]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2603--2604
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2613--2614
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2615--2616
-
- []
-
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 2629--2631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2694--2696
-
- []
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 2719--2721
-
- []
-
-[48]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2768--2769
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2782--2783
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 2800--2801
- [][][][][][] 
- []
-
-[49]
-Overfull \hbox (11.6093pt too wide) in paragraph at lines 2805--2807
-\T1/futs/m/n/10 Vo-lumi di gas di-versi, aventi stessa tem-per-atura e stessa pr
-es-sione, con-tengono lo stesso nu-mero di molecole. 
- []
-
-[50] [51] [52] (./onde.aux)
+] [5] (./onde.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `onde.out' has not changed.
-(rerunfilecheck)             Checksum: 4043AD718810A521F8F0A526A9C7E5DC;16047.
+
+
+Package rerunfilecheck Warning: File `onde.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `onde.out':
+(rerunfilecheck)             Before: BB523FF43B2136BB6240660BB45AB7A6;19131
+(rerunfilecheck)             After:  8D4985375C57AE66F2D7922DE1126232;195.
 )
 
 Here is how much of LuaTeX's memory you used:
- 55905 strings out of 476447
- 195359,2848258 words of node,token memory allocated
- 2055 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 382 attribute, 63 glue_spe
-c, 382 attribute_list, 2 write nodes
-   avail lists: 1:1,2:20436,3:10462,4:700,5:929,6:156,7:13061,8:95,9:1415,10:25,
-11:525
- 76046 multiletter control sequences out of 65536+600000
- 155 fonts using 9447679 bytes
- 117i,24n,109p,718b,1986s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
-mcl.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/
-share/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-d
-ist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
-a/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/s
-hare/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts
-/type1/adobe/utopia/putri8a.pfb>
-Output written on onde.pdf (53 pages, 678761 bytes).
+ 54112 strings out of 476447
+ 125027,2373549 words of node,token memory allocated
+ 569 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 14 attribute, 62 glue_spec
+, 14 attribute_list, 2 write nodes
+   avail lists: 2:1510,3:555,4:212,5:775,6:158,7:4611,8:95,9:867,10:14,11:245
+ 74491 multiletter control sequences out of 65536+600000
+ 89 fonts using 5345327 bytes
+ 117i,10n,109p,718b,1464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-PDF statistics: 1016 PDF objects out of 1200 (max. 8388607)
- 905 compressed objects within 10 object streams
- 215 named destinations out of 1000 (max. 131072)
- 818 words of extra memory for PDF output out of 10000 (max. 100000000)
+warning  (pdf backend): unreferenced destination with name 'section*.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.3.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.3.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.5.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.2.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.2.1'
+
+warning  (pdf backend): unreferenced destination with name 'equation.5.2.2'
+
+warning  (pdf backend): unreferenced destination with name 'section.5.2'
+
+warning  (pdf backend): unreferenced destination with name 'Item.21'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.1.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.1.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.5.1'
+
+warning  (pdf backend): unreferenced destination with name 'chapter.5'
+
+warning  (pdf backend): unreferenced destination with name 'section.4.8'
+
+warning  (pdf backend): unreferenced destination with name 'section.4.7'
+
+warning  (pdf backend): unreferenced destination with name 'section.4.6'
+
+warning  (pdf backend): unreferenced destination with name 'section.4.5'
+
+warning  (pdf backend): unreferenced destination with name 'section.4.4'
+
+warning  (pdf backend): unreferenced destination with name 'section.4.3'
+
+warning  (pdf backend): unreferenced destination with name 'section.4.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.1.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.4.1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.0.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.0.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.0.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.0.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.0.1'
+
+warning  (pdf backend): unreferenced destination with name 'chapter.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.5.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.5.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.5.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.5.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.3.5'
+
+warning  (pdf backend): unreferenced destination with name 'equation.3.4.6'
+
+warning  (pdf backend): unreferenced destination with name 'equation.3.4.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.4.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.3.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.3.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.3.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.3.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.3.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.2.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.2.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.3.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.1.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.3.1'
+
+warning  (pdf backend): unreferenced destination with name 'chapter.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.4.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.4.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.4.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.4.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.4.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.4.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.2.4'
+
+warning  (pdf backend): unreferenced destination with name 'section.2.3'
+
+warning  (pdf backend): unreferenced destination with name 'section.2.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.1.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.1.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.1.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.2.1'
+
+warning  (pdf backend): unreferenced destination with name 'chapter.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.10.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.10.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.10.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.10.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.1.10'
+
+warning  (pdf backend): unreferenced destination with name 'section.1.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.8.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.8.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.8.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.8.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.8.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.1.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.7.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.7.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.7.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.7.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.1.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.6.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.1.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.5.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.1.5'
+
+warning  (pdf backend): unreferenced destination with name 'equation.1.4.16'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.4.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.4.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.1.4'
+
+warning  (pdf backend): unreferenced destination with name 'section*.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.3.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.3.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.3.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.3.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.1.3'
+
+warning  (pdf backend): unreferenced destination with name 'equation.1.2.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.2.2'
+
+warning  (pdf backend): unreferenced destination with name 'equation.1.2.9'
+
+warning  (pdf backend): unreferenced destination with name 'equation.1.2.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.2.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.1.2'
+
+warning  (pdf backend): unreferenced destination with name 'equation.1.1.6'
+
+warning  (pdf backend): unreferenced destination with name 'equation.1.1.5'
+
+warning  (pdf backend): unreferenced destination with name 'equation.1.1.4'
+
+warning  (pdf backend): unreferenced destination with name 'section*.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.1.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.1.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.1.1'
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/fo
+urier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
+mlit.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/
+share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/font
+s/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/
+putri8a.pfb>
+Output written on onde.pdf (6 pages, 88875 bytes).
+
+PDF statistics: 626 PDF objects out of 1000 (max. 8388607)
+ 604 compressed objects within 7 object streams
+ 114 named destinations out of 1000 (max. 131072)
+ 896 words of extra memory for PDF output out of 10000 (max. 100000000)
 

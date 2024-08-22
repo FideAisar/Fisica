@@ -47,5 +47,8 @@
 \contentsline {subsection}{\numberline {3.3.1}Principio di aumento dell'entropia}{23}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Calcoli di variazione di entropia}{24}{subsection.3.3.2}%
 \contentsline {subsubsection}{Scambi di calore con sorgenti}{24}{section*.2}%
+\contentsline {paragraph}{Sorgnete - Sorgente}{24}{section*.2}%
+\contentsline {paragraph}{Sorgnete - macchina - Sorgente}{24}{section*.2}%
+\contentsline {paragraph}{Sorgente - Corpo}{24}{section*.2}%
 \contentsline {subsubsection}{Scambi di calore tra corpi}{24}{section*.2}%
 \contentsline {subsubsection}{Cambiamenti di fase}{24}{section*.2}%
