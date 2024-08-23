@@ -32,6 +32,7 @@
 \usepackage{cancel}
 \usepackage{siunitx}
 \usepackage{tikz-3dplot}
+\usepackage{wrapfig}
 
 \usepackage{physics}
 \usepackage{tikz}
@@ -525,302 +526,320 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	\end{es}
 %	
 %	
-	\newpage
-	\section{Onde piane armoniche}
-	Un tipo molto importante di onda piana è l'\textbf{onda armonica} la cui forma si scrive
+%	\newpage
+%	\section{Onde piane armoniche}
+%	Un tipo molto importante di onda piana è l'\textbf{onda armonica} la cui forma si scrive
+%	
+%	\[ 
+%	\xi(x,t) = \xi_0 \sin\left(\boldsymbol{k}x \mp \boldsymbol{\omega} t + \boldsymbol{\delta}\right)
+%	\]
+%	dove \(k\) è il \textbf{numero d'onde}.
+%	
+%	\vspace{0.6cm}
+%	\begin{minipage}{0.4\textwidth}
+%		\begin{center}
+%			\includegraphics[scale=0.4]{imgs/periodo1.png}
+%		\end{center}
+%	\end{minipage}
+%	\begin{minipage}{0.60\textwidth}
+%		\begin{center}
+%			\includegraphics[scale=0.4]{imgs/periodo2.png}
+%		\end{center}
+%	\end{minipage}
+%	\vspace{0.2cm}
+%	
+%	
+%	\noindent
+%	\paragraph{Periodo spaziale} Fissato un tempo \(t=t_0\), definiamo la lunghezza d'onda \(\lambda\) come la periodicità spaziale dell'onda. Essendo \(\lambda\) lo spazio tra due creste d'onda possiamo calcolarla come \(\lambda = x_2 - x_1 = 2\pi / k\), da cui si deduce che \(k\) è uguale al numero di lunghezze d'onda in un intervallo spaziale pari a \(2\pi\) metri.
+%	
+%	In generale il periodo spaziale può essere espresso tramite \(\lambda\) o \(k\).
+%	
+%	\begin{center}
+%		\fboxsep11pt
+%		\colorbox{yblue}{\begin{minipage}{5.75in}
+%				\begin{blues}{Lunghezza d'onda \(\lambda\)}
+%					La lungheza d'onda è lo spazio percorso dalla perturbaione nell'intervallo di tempo di un periodo \(T\).
+%					\[ 
+%					\lambda = \frac{2\pi}{k} = vT
+%					\]
+%				\end{blues}
+%		\end{minipage}}
+%	\end{center}
+%	
+%	\paragraph{Periodo temporale} Fissato unpunto nello spazio \(x=x_0\), definiamo il periodo \(T = t_2-t_2\)
+%	
+%	\[ T = \frac{2\pi}{\omega}\] 
+%	come l'intervallo temporale tra due istanti nei quali l'onda, essendo armonica, assume lo stesso valore.
+%	
+%	Sapendo che la pulsazione è la velocità dell'onda nel percorrere un giro (\(2\pi\)), i due periodi dono legati dalla relazione
+%	\[ 
+%	\lambda = vT
+%	\]
+%	Quindi possiamo esprimere il periodo temporale tramite \(T\), \(f\), \(\omega\).\\
+%	
+%	\noindent
+%	Tutte le espressioni della funzione d'onda sono:
+%	
+%	\[ 
+%	\xi(x,t) = \xi_0 \sin\left(kx \mp \omega t + \delta\right) \qquad \xi(x,t) = \xi_0 \sin\left[ 2\pi\left(\frac{x}{\lambda} \mp \frac{t}{T}\right) + \delta\right]  \qquad \xi_0\sin\left[\frac{2\pi}{\lambda}\left(x \mp vt\right) + \delta \right]
+%	\]
+%	
+%
+%	\newpage
+%	\subsection{Propagazione dell'energia in una barra solida}
+%	La propagazione di un campo che descrive in'onda è sempre accompagnato da una propagazione di energia. Osserviamo prima il fenomeno del flusso di energia legato alla propagazione di un'onda piana armonica in una barra solida andando a calcolare la potenzia media e l'energia per untià di volume ad essa associata.\\
+%	
+%
+%	
+%	\noindent
+%	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
+%	\[ 
+%	\textbf{Onda:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right)
+%	\]
+%	\[ 
+%	\textbf{Forza:} \quad F = -ES\frac{\partial\xi}{\partial x}
+%	\]
+%	L'espressione della potenza è 
+%	
+%	\begin{align*}
+%		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
+%		=& -ES\frac{\partial\xi}{\partial x}\frac{\partial\xi}{\partial t} \\
+%		=& -ES\left[k\xi_0\cos\left(kx -\omega t\right)\right]\left[-\omega \xi_0\cos\left(kx -\omega t\right)\right] \\
+%		=& ESk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
+%	\end{align*}
+%	La potenza quindi è una cosinusoide traslata in alto di una sua ampiezza (con avvallamenti tangenti all'asse orizzontale). la potenza media è espirmibile come la retta che interseca la cosinusoide alla quota pari a metà la sua ampiezza; poi ricordandoci che
+%	
+%	\[ 
+%	\boxed{v = \sqrt{E/\rho} \qquad E = v^2 \rho} \qquad \boxed{k = \frac{\omega}{v}}
+%	\]
+%	
+%	\begin{align*}
+%		\mathcal{P}_m =& \frac{1}{2} ESk\omega \xi_0^2  \\
+%		=& \frac{1}{2} (v^2 \rho)S\left(\frac{\omega}{v}\right) \omega\xi_0^2 
+%	\end{align*}
+%	
+%	\begin{equation}
+%		\viola{\mathcal{P}_m = \frac{1}{2}\rho \omega^2 \xi^2 S v}
+%	\end{equation}
+%	\\
+%	
+%	\subsubsection{Energia per unità di volume}
+%	Considero l'elemento infinitesimo di massa \(dm = \rho dV = \rho S dx\) descrive un moto armonico con 
+%	\[ 
+%	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
+%	\]
+%	\[ 
+%	\textbf{Velocità} \quad v(x,t)= \frac{\partial\xi}{\partial t} = \omega \xi_0\cos\left(kx - \omega t\right) 
+%	\]
+%	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
+%	
+%	\[ 
+%	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\rho S (dx)\omega^2 \xi_0^2 = \frac{1}{2}\rho (dV)\omega^2 \xi_0^2
+%	\]
+%	Chiamiamo \textbf{densità di energia per unità di volume} il valore 
+%	\[
+%	\mathcal{W} = \frac{dU}{dV} = \frac{1}{2}\rho \omega^2\xi_0^2
+%	\]
+%	con la quale possiamo esprimere la potenza media come 
+%	
+%	\begin{equation}
+%		\viola{\mathcal{P}_m = \mathcal{W}S v}
+%	\end{equation}
+%	
+%	
+%	\subsubsection{Intensità dell'onda}
+%	Definiamo l'intensità di un'onda come  \textbf{potenza media per unità di superficie}, quindi
+%	
+%	\[
+%	I = \frac{\mathcal{P}_m}{S} = \frac{1}{2}\rho\omega^2\xi_0^2v
+%	\]
+%	
+%	\subsection{Propagazione dell'energia in una corda tesa}
+%	Studiamo ora lo stesso fenomeno ma in una corda tesa. La situazione è simile con la differenza che l'onda ora è trasversale.
+%	
+%	\begin{center}
+%		\includegraphics[scale=0.35]{imgs/energiacorda.png}
+%	\end{center}
+%	
+%	\noindent
+%	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
+%	\[ 
+%	\textbf{Onda:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right)
+%	\]
+%	\[ 
+%	\textbf{Forza:} \quad F = T
+%	\]
+%	L'espressione della potenza è 
+%	
+%	\begin{align*}
+%		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
+%		=& T\frac{\partial\xi}{\partial t}\cos{\left(\frac{\pi}{2} + \alpha\right)} \qquad  \cos{\left(\frac{\pi}{2} + \alpha\right)} = \sin{\alpha} \approx \tan\alpha = \frac{\partial\xi}{\partial x} \\
+%		= & T\frac{\partial\xi}{\partial t}\frac{\partial\xi}{\partial x} \\
+%		=& Tk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
+%	\end{align*}
+%	Trovo la potenza media come prima esprimendo \(k\) e \(T\) come
+%	\[ 
+%	\boxed{v = \sqrt{T/\mu} \qquad T = v^2 \mu} \qquad \boxed{k = \frac{\omega}{v}}
+%	\]
+%	
+%	\vspace{0.2cm}
+%	\begin{equation}
+%		\viola{\mathcal{P}_m = \frac{1}{2}\mu\omega^2\xi^2v}
+%	\end{equation}
+%	\\
+%	
+%	\subsubsection{Energia per unità di lunghezza}
+%	Considero l'elemento infinitesimo di massa \(dm = \mu dx \) descrive un moto armonico con 
+%	\[ 
+%	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
+%	\]
+%	\[ 
+%	\textbf{Velocità} \quad v(x,t)= \frac{\partial\xi}{\partial t} = \omega \xi_0\cos\left(kx - \omega t\right) 
+%	\]
+%	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
+%	
+%	\[ 
+%	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\mu(dx)\omega^2 \xi_0^2 
+%	\]
+%	Chiamiamo \textbf{densità di energia per unità di lunghezza} il valore 
+%	\[
+%	\mathcal{W} = \frac{dU}{dx} = \frac{1}{2}\mu \omega^2\xi_0^2
+%	\]
+%	con la quale possiamo esprimere la potenza media come 
+%	
+%	\begin{equation}
+%		\viola{\mathcal{P}_m = \mathcal{W} v}
+%	\end{equation}
+%	
+%	\section{Onde sonore}\label{Onde Sonore}
+%	Consideriamo ora delle onde sonore come onde di spostamento sempre accompagnate da onde di pressione:
+%	\[ 
+%	\textbf{Spostamento: }\quad \xi = \xi _0\sin(kx-\omega t)
+%	\]
+%	\[ 
+%	\textbf{Pressione: }\quad dp = -\beta \frac{\partial\xi}{\partial x}
+%	\]
+%	\subsection{Pressione}
+%	L'espressione della pressione era stata ricavata nel capitolo sulle onde nei gas (\ref{1press})
+%	\[ 
+%	p(x,t) = p_0 -\beta \frac{\partial \xi }{\partial x} \quad \to \quad dp(x,t) = p(x,t) - p_0 = -\beta \frac{\partial \xi }{\partial x}
+%	\]
+%	Sviluppando la derivata parziale, e ricordando alcune equivalenze
+%	\[ 
+%	\boxed{v = \sqrt{\frac{\beta}{\rho_0}} \to  \beta = v^2\rho_0} \qquad \boxed{k = \frac{\omega }{v}}
+%	\]
+%	troviamo
+%	\begin{align*}
+%		dp =& -\textcolor{red}{\beta} \textcolor{blue}{k} \xi_0 \cos\left(kx-\omega t\right) \\
+%		=& \textcolor{red}{v^2 \rho_0}\textcolor{blue}{\frac{\omega }{v}} \cos\left(kx-\omega t\right) \\
+%		=& \boldsymbol{\rho_0 v \omega  \xi_0}  \cos\left(kx-\omega t\right) \\ 
+%		=& \boldsymbol{\Delta p_{\text{max}}} \sin\left(kx -\omega t - \pi /2\right) \\
+%	\end{align*}
+%	Le onde di pressione sono quindi in ritardo di \(\pi /2\).
+%	
+%	\subsection{Potenza}
+%	\[ 
+%	\mathcal{P} = \overrightarrow{F}\cdot \vec{v} = (dp)S v = -\beta \frac{\partial\xi}{\partial x} S \frac{\partial\xi}{\partial t}
+%	\]
+%	\begin{align*}
+%		\mathcal{P} &= \beta k \xi_0 \cos\left(kx- \omega t\right) S \omega  \xi_0 \cos\left(kx- \omega t\right)\\
+%		&= v^2\rho_0 \frac{\omega}{v} \xi_0 \cos\left(kx- \omega t\right) S \omega \xi_0 \cos\left(kx- \omega t\right)\\
+%		&=  \rho_0 v \omega ^2 S \xi_0^2 \cos^2\left(kx- \omega t\right) 
+%	\end{align*}
+%	Si ottiene quindi una potenza media pari a metà la sua ampiezza
+%	\[ 
+%	\mathcal{P}_m = \frac{1}{2} \rho_0 v \omega ^2 S \xi_0^2
+%	\]
+%	\subsection{Intensità}
+%	Ricordando che l'intensità è la potenza per unità di superficie:
+%	\[ 
+%	I = \frac{\mathcal{P}_m }{S} =   \frac{1}{2} \rho_0 v \omega ^2 \xi_0^2
+%	\]
+%	Riconosciamo che \(\Delta p_{\text{max}} = \rho_0 v \omega  \xi_0\) e che quindi possiamo scrivere l'intensità come
+%	
+%	\vspace{0.2cm}
+%	\begin{equation}\label{intensita_fono}
+%		\viola{I = \frac{(\rho_0 v \omega  \xi_0)^2}{2\rho_0 v} = \frac{\Delta p_{\text{max}}^2}{2\rho_0 v}}
+%	\end{equation}
+%	\vspace{0.2cm}
+	
+	\subsection{Fonometria}
+	Per essere messo in movimento il timpano ha bisogno di un'intensità minima che chiamiamo \textbf{soglia di udibilità}. Il limite superiore invece è chiamata \textbf{soglia del dolore} e rappresenta l'intensità sopra alla quale si percepisce una sensazione dolorosa. Entrambe vengono espresse o in funzione della frequenza o in funzione della lunghezza d'onda (\(\lambda=v/f\)); si ha quindi che le frequenze all'interno delle due soglie sono
+	\[ 
+	\SI{20}{\hertz} < f < \SI{20000}{\hertz}
+	\]
+	\[ 
+	\SI{17.15}{\m} < \lambda < \SI{1.715}{\cm}
+	\]
+	
+	\begin{minipage}{0.5\textwidth}
+	\begin{center}
+		\includegraphics[scale=0.25]{imgs/sogliadolore.png}
+	\end{center}
+	\end{minipage}
+		\begin{minipage}{0.5\textwidth}
+		\begin{center}
+			\includegraphics[scale=0.35]{imgs/livello_sonoro.png}
+		\end{center}
+	\end{minipage}
+	
+	La\textbf{ soglia minima} convenzionale dell'udibilità è l'intensità \(I_0 = 10^{-12}\SI{}{\watt/\m^2}\) alla frequenza  \(f = 10^3\SI{}{\hertz}\). A questa si possono associare la corrispondente onda di pressione e ampiezza delle oscillazioni:
+	\[ 
+	\Delta p_{\text{max}} = \sqrt{2\rho_0 v I_0} = 2.97 \cdot 10^{-5} \SI{}{\pascal}
+	\]
+	e poiché  \(\Delta p_{\text{max}} = \rho_0 v \textcolor{red}{\omega } \xi_0\)
+	\[ 
+	\xi_0 = \frac{\Delta p_{\text{max}}}{\textcolor{red}{2\pi f}\rho_0 v} = 1.07 \cdot 10^{-11}\SI{}{\m}
+	\]
+	
+	Alla soglia del dolore invece si ottengono 
 	
 	\[ 
-	\xi(x,t) = \xi_0 \sin\left(\boldsymbol{k}x \mp \boldsymbol{\omega} t + \boldsymbol{\delta}\right)
+	\Delta p_{\text{max}} = \sqrt{2\rho_0 v I_0} = 29.7 \SI{}{\pascal}
 	\]
-	dove \(k\) è il \textbf{numero d'onde}.
+	\[ 
+	\xi_0 = \frac{\Delta p_{\text{max}}}{2\pi f\rho_0 v} = 1.07 \cdot 10^{-5}\SI{}{\m}
+	\]
+	In sintesi: l'orecchio umano si estendi su
+	\begin{itemize}
+		\item \textbf{3} ordini di grandezza in \textbf{frequenza}: \(0 - 10^3 \SI{}{\hertz}\)
+		\item \textbf{12} ordini di grandezza in \textbf{intensità}: \(1 - 10^12 \SI{}{\watt/\m^2}\)
+		\item \textbf{6} ordini di grandezza in \textbf{ampiezza di oscillazione}: \(10^{-11} - 10^{-5} \SI{}{\m}\)
+	\end{itemize}
 	
-	\vspace{0.6cm}
-	\begin{minipage}{0.4\textwidth}
-		\begin{center}
-			\includegraphics[scale=0.4]{imgs/periodo1.png}
-		\end{center}
-	\end{minipage}
-	\begin{minipage}{0.60\textwidth}
-		\begin{center}
-			\includegraphics[scale=0.4]{imgs/periodo2.png}
-		\end{center}
-	\end{minipage}
+	
+	
+	
+	
+	
+	\subsubsection{Livello sonoro}
+	Presa una certa intensità \(I\) si definisce un \textbf{livello sonoro} \(L\) rispetto a \(I_0\). Il livello sonoro è una valutazione logaritmica relativa di intensità e si esprime in decibel (\(\SI{}{\decibel}\)).
+	
+	Al livello sonoro associamo delle curve isofoniche, ovvero il luogo dei punti in cui si percepisce la stessa sensazione uditiva \(S\). 
+	
+	\vspace{0.2cm}
+	\begin{equation}\label{livello sonoro}
+		\viola{L = 10\log_{10}{\frac{I}{I_0}}}
+	\end{equation}
 	\vspace{0.2cm}
 	
+	Vediamo come il livello sonoro risulta essere particolarmente pratico poiché \(L = 0\) con \(I_0\) per \(f=1000\SI{}{\hertz}\), quindi vale 0 alla soglia di udibilità; e vale \(\boldsymbol{120}\) con \(\boldsymbol{I/I_0 = 10^{12}}\) alla soglia del dolore.
 	
-	\noindent
-	\paragraph{Periodo spaziale} Fissato un tempo \(t=t_0\), definiamo la lunghezza d'onda \(\lambda\) come la periodicità spaziale dell'onda. Essendo \(\lambda\) lo spazio tra due creste d'onda possiamo calcolarla come \(\lambda = x_2 - x_1 = 2\pi / k\), da cui si deduce che \(k\) è uguale al numero di lunghezze d'onda in un intervallo spaziale pari a \(2\pi\) metri.
-	
-	In generale il periodo spaziale può essere espresso tramite \(\lambda\) o \(k\).
-	
-	\begin{center}
-		\fboxsep11pt
-		\colorbox{yblue}{\begin{minipage}{5.75in}
-				\begin{blues}{Lunghezza d'onda \(\lambda\)}
-					La lungheza d'onda è lo spazio percorso dalla perturbaione nell'intervallo di tempo di un periodo \(T\).
-					\[ 
-					\lambda = \frac{2\pi}{k} = vT
-					\]
-				\end{blues}
-		\end{minipage}}
-	\end{center}
-	
-	\paragraph{Periodo temporale} Fissato unpunto nello spazio \(x=x_0\), definiamo il periodo \(T = t_2-t_2\)
-	
-	\[ T = \frac{2\pi}{\omega}\] 
-	come l'intervallo temporale tra due istanti nei quali l'onda, essendo armonica, assume lo stesso valore.
-	
-	Sapendo che la pulsazione è la velocità dell'onda nel percorrere un giro (\(2\pi\)), i due periodi dono legati dalla relazione
+	\begin{es}{Attenzione}
+		Il valore d'intensità \(I_0\) \textbf{dipende dalla frequenza}. Per questo anche il livello sonoro \(L\) non dipende tanto da \(I_0\) quanto più dalla frequenza. 
+		
+		Le curve isofoniche infatti non descrivono eguale intensità \(I\) ma eguale rapporto \(I/I_0\), che dipende dalla frequenza. Possiamo dire che \(S\) è una grandezza \textit{fisiologica} e \(L\) una grandezza fisica.
+	\end{es}
+	Secondo la \textbf{legge psicofisica di Fechner e Weber}
 	\[ 
-	\lambda = vT
+	S = kB = k10\log_10{\frac{I}{I_0}} = k'\log_10{\frac{I}{I_0}}
 	\]
-	Quindi possiamo esprimere il periodo temporale tramite \(T\), \(f\), \(\omega\).\\
-	
-	\noindent
-	Tutte le espressioni della funzione d'onda sono:
-	
-	\[ 
-	\xi(x,t) = \xi_0 \sin\left(kx \mp \omega t + \delta\right) \qquad \xi(x,t) = \xi_0 \sin\left[ 2\pi\left(\frac{x}{\lambda} \mp \frac{t}{T}\right) + \delta\right]  \qquad \xi_0\sin\left[\frac{2\pi}{\lambda}\left(x \mp vt\right) + \delta \right]
-	\]
-	
-
-	\newpage
-	\subsection{Propagazione dell'energia in una barra solida}
-	La propagazione di un campo che descrive in'onda è sempre accompagnato da una propagazione di energia. Osserviamo prima il fenomeno del flusso di energia legato alla propagazione di un'onda piana armonica in una barra solida andando a calcolare la potenzia media e l'energia per untià di volume ad essa associata.\\
-	
-
-	
-	\noindent
-	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
-	\[ 
-	\textbf{Onda:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right)
-	\]
-	\[ 
-	\textbf{Forza:} \quad F = -ES\frac{\partial\xi}{\partial x}
-	\]
-	L'espressione della potenza è 
-	
-	\begin{align*}
-		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
-		=& -ES\frac{\partial\xi}{\partial x}\frac{\partial\xi}{\partial t} \\
-		=& -ES\left[k\xi_0\cos\left(kx -\omega t\right)\right]\left[-\omega \xi_0\cos\left(kx -\omega t\right)\right] \\
-		=& ESk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
-	\end{align*}
-	La potenza quindi è una cosinusoide traslata in alto di una sua ampiezza (con avvallamenti tangenti all'asse orizzontale). la potenza media è espirmibile come la retta che interseca la cosinusoide alla quota pari a metà la sua ampiezza; poi ricordandoci che
-	
-	\[ 
-	\boxed{v = \sqrt{E/\rho} \qquad E = v^2 \rho} \qquad \boxed{k = \frac{\omega}{v}}
-	\]
-	
-	\begin{align*}
-		\mathcal{P}_m =& \frac{1}{2} ESk\omega \xi_0^2  \\
-		=& \frac{1}{2} (v^2 \rho)S\left(\frac{\omega}{v}\right) \omega\xi_0^2 
-	\end{align*}
-	
+	quindi
 	\begin{equation}
-		\viola{\mathcal{P}_m = \frac{1}{2}\rho \omega^2 \xi^2 S v}
+		S_2 - S_1 = k'\log_10{\frac{I_2}{I_1}}
 	\end{equation}
-	\\
+	la sensazione sonora è proporzionale al logaritmo del rapporto tra le intensità che hanno prodotto le sensazioni
 	
-	\subsubsection{Energia per unità di volume}
-	Considero l'elemento infinitesimo di massa \(dm = \rho dV = \rho S dx\) descrive un moto armonico con 
-	\[ 
-	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
-	\]
-	\[ 
-	\textbf{Velocità} \quad v(x,t)= \frac{\partial\xi}{\partial t} = \omega \xi_0\cos\left(kx - \omega t\right) 
-	\]
-	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
-	
-	\[ 
-	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\rho S (dx)\omega^2 \xi_0^2 = \frac{1}{2}\rho (dV)\omega^2 \xi_0^2
-	\]
-	Chiamiamo \textbf{densità di energia per unità di volume} il valore 
-	\[
-	\mathcal{W} = \frac{dU}{dV} = \frac{1}{2}\rho \omega^2\xi_0^2
-	\]
-	con la quale possiamo esprimere la potenza media come 
-	
-	\begin{equation}
-		\viola{\mathcal{P}_m = \mathcal{W}S v}
-	\end{equation}
-	
-	
-	\subsubsection{Intensità dell'onda}
-	Definiamo l'intensità di un'onda come  \textbf{potenza media per unità di superficie}, quindi
-	
-	\[
-	I = \frac{\mathcal{P}_m}{S} = \frac{1}{2}\rho\omega^2\xi_0^2v
-	\]
-	
-	\subsection{Propagazione dell'energia in una corda tesa}
-	Studiamo ora lo stesso fenomeno ma in una corda tesa. La situazione è simile con la differenza che l'onda ora è trasversale.
-	
-	\begin{center}
-		\includegraphics[scale=0.35]{imgs/energiacorda.png}
-	\end{center}
-	
-	\noindent
-	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
-	\[ 
-	\textbf{Onda:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right)
-	\]
-	\[ 
-	\textbf{Forza:} \quad F = T
-	\]
-	L'espressione della potenza è 
-	
-	\begin{align*}
-		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
-		=& T\frac{\partial\xi}{\partial t}\cos{\left(\frac{\pi}{2} + \alpha\right)} \qquad  \cos{\left(\frac{\pi}{2} + \alpha\right)} = \sin{\alpha} \approx \tan\alpha = \frac{\partial\xi}{\partial x} \\
-		= & T\frac{\partial\xi}{\partial t}\frac{\partial\xi}{\partial x} \\
-		=& Tk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
-	\end{align*}
-	Trovo la potenza media come prima esprimendo \(k\) e \(T\) come
-	\[ 
-	\boxed{v = \sqrt{T/\mu} \qquad T = v^2 \mu} \qquad \boxed{k = \frac{\omega}{v}}
-	\]
-	
-	\begin{equation}
-		\viola{\mathcal{P}_m = \frac{1}{2}\mu\omega^2\xi^2v}
-	\end{equation}
-	\\
-	
-	\subsubsection{Energia per unità di lunghezza}
-	Considero l'elemento infinitesimo di massa \(dm = \mu dx \) descrive un moto armonico con 
-	\[ 
-	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
-	\]
-	\[ 
-	\textbf{Velocità} \quad v(x,t)= \frac{\partial\xi}{\partial t} = \omega \xi_0\cos\left(kx - \omega t\right) 
-	\]
-	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
-	
-	\[ 
-	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\mu(dx)\omega^2 \xi_0^2 
-	\]
-	Chiamiamo \textbf{densità di energia per unità di lunghezza} il valore 
-	\[
-	\mathcal{W} = \frac{dU}{dx} = \frac{1}{2}\mu \omega^2\xi_0^2
-	\]
-	con la quale possiamo esprimere la potenza media come 
-	
-	\begin{equation}
-		\viola{\mathcal{P}_m = \mathcal{W} v}
-	\end{equation}
-	
-	\section{Onde sonore}\label{Onde Sonore}
-	Consideriamo ora delle onde sonore come onde di spostamento sempre accompagnate da onde di pressione:
-	\[ 
-	\textbf{Spostamento: }\quad \xi = \xi _0\sin(kx-\omega t)
-	\]
-	\[ 
-	\textbf{Pressione: }\quad dp = -\beta \frac{\partial\xi}{\partial x}
-	\]
-	\subsection{Pressione}
-	L'espressione della pressione era stata ricavata nel capitolo sulle onde nei gas (\ref{1press})
-	\[ 
-	p(x,t) = p_0 -\beta \frac{\partial \xi }{\partial x} \quad \to \quad dp(x,t) = p(x,t) - p_0 = -\beta \frac{\partial \xi }{\partial x}
-	\]
-	Sviluppando la derivata parziale, e ricordando alcune equivalenze
-	\[ 
-	\boxed{v = \sqrt{\frac{\beta}{\rho_0}} \to  \beta = v^2\rho_0} \qquad \boxed{k = \frac{\omega }{v}}
-	\]
-	troviamo
-	\begin{align*}
-		dp =& -\textcolor{red}{\beta} \textcolor{blue}{k} \xi_0 \cos\left(kx-\omega t\right) \\
-		=& \textcolor{red}{v^2 \rho_0}\textcolor{blue}{\frac{\omega }{v}} \cos\left(kx-\omega t\right) \\
-		=& \boldsymbol{\rho_0 v \omega  \xi_0}  \cos\left(kx-\omega t\right) \\ 
-		=& \boldsymbol{\Delta p_{\text{max}}} \sin\left(kx -\omega t - \pi /2\right) \\
-	\end{align*}
-	Le onde di pressione sono quindi in ritardo di \(\pi /2\).
-	
-	\subsection{Potenza}
-	\[ 
-	\mathcal{P} = \overrightarrow{F}\cdot \vec{v} = (dp)S v = -\beta \frac{\partial\xi}{\partial x} S \frac{\partial\xi}{\partial t}
-	\]
-	\begin{align*}
-		\mathcal{P} &= \beta k \xi_0 \cos\left(kx- \omega t\right) S \omega  \xi_0 \cos\left(kx- \omega t\right)\\
-		&= v^2\rho_0 \frac{\omega}{v} \xi_0 \cos\left(kx- \omega t\right) S \omega \xi_0 \cos\left(kx- \omega t\right)\\
-		&=  \rho_0 v \omega ^2 S \xi_0^2 \cos^2\left(kx- \omega t\right) 
-	\end{align*}
-	Si ottiene quindi una potenza media pari a metà la sua ampiezza
-	\[ 
-	\mathcal{P}_m = \frac{1}{2} \rho_0 v \omega ^2 S \xi_0^2
-	\]
-	\subsection{Intensità}
-	Ricordando che l'intensità è la potenza per unità di superficie:
-	\[ 
-	I = \frac{\mathcal{P}_m }{S} =   \frac{1}{2} \rho_0 v \omega ^2 \xi_0^2
-	\]
-	Riconosciamo che \(\Delta p_{\text{max}} = \rho_0 v \omega  \xi_0\) e che quindi possiamo scrivere l'intensità come
-	\begin{equation}\label{intensita_fono}
-		\viola{I = \frac{(\rho_0 v \omega  \xi_0)^2}{2\rho_0 v} = \frac{\Delta p_{\text{max}}^2}{2\rho_0 v}}
-	\end{equation}
-	
-%	
-%	\subsection{Fonometria}
-%	Per essere messo in movimento il timpano ha bisogno di un'intensità minima che chiamiamo \textbf{soglia di udibilità}. Il limite superiore invece è chiamata \textbf{soglia del dolore} e rappresenta l'intensità sopra alla quale si percepisce una sensazione dolorosa. Entrambe vengono espresse o in funzione della frequenza o in funzione della lunghezza d'onda (\(\lambda=v/f\)); si ha quindi che le frequenze all'interno delle due soglie sono
-%	\[ 
-%	\SI{20}{\hertz} < f < \SI{20000}{\hertz}
-%	\]
-%	\[ 
-%	\SI{17.15}{\m} < \lambda < \SI{1.715}{\cm}
-%	\]
-%	La\textbf{ soglia minima} convenzionale dell'udibilità è l'intensità \(I_0 = 10^{-12}\SI{}{\watt/\m^2}\) alla frequenza  \(f = 10^3\SI{}{\hertz}\). A questa si possono associare la corrispondente onda di pressione e ampiezza delle oscillazioni:
-%	\[ 
-%	\Delta p_{\text{max}} = \sqrt{2\rho_0 v I_0} = 2.97 \cdot 10^{-5} \SI{}{\pascal}
-%	\]
-%	e poiché  \(\Delta p_{\text{max}} = \rho_0 v \textcolor{red}{\omega } \xi_0\)
-%	\[ 
-%	\xi_0 = \frac{\Delta p_{\text{max}}}{\textcolor{red}{2\pi f}\rho_0 v} = 1.07 \cdot 10^{-11}\SI{}{\m}
-%	\]
-%	
-%	Alla soglia del dolore invece si ottengono 
-%	
-%	\[ 
-%	\Delta p_{\text{max}} = \sqrt{2\rho_0 v I_0} = 29.7 \SI{}{\pascal}
-%	\]
-%	\[ 
-%	\xi_0 = \frac{\Delta p_{\text{max}}}{2\pi f\rho_0 v} = 1.07 \cdot 10^{-5}\SI{}{\m}
-%	\]
-%	In sintesi: l'orecchio umano si estendi su
-%	\begin{itemize}
-%		\item \textbf{3} ordini di grandezza in \textbf{frequenza}: \(0 - 10^3 \SI{}{\hertz}\)
-%		\item \textbf{12} ordini di grandezza in \textbf{intensità}: \(1 - 10^12 \SI{}{\watt/\m^2}\)
-%		\item \textbf{6} ordini di grandezza in \textbf{ampiezza di oscillazione}: \(10^{-11} - 10^{-5} \SI{}{\m}\)
-%	\end{itemize}
-%	
-%	
-%	
-%	
-%	
-%	
-%	\subsubsection{Livello sonoro}
-%	Presa una certa intensità \(I\) si definisce un \textbf{livello sonoro} \(L\) rispetto a \(I_0\). Il livello sonoro è una valutazione logaritmica relativa di intensità e si esprime in decibel (\(\SI{}{\decibel}\)).
-%	
-%	Al livello sonoro associamo delle curve isofoniche, ovvero il luogo dei punti in cui si percepisce la stessa sensazione uditiva \(S\). 
-%	
-%	\begin{equation}\label{livello sonoro}
-%		\viola{L = 10\log_{10}{\frac{I}{I_0}}}
-%	\end{equation}
-%	Vediamo come il livello sonoro risulta essere particolarmente pratico poiché \(L = 0\) con \(I_0\) per \(f=1000\SI{}{\hertz}\), quindi vale 0 alla soglia di udibilità; e vale \(\boldsymbol{120}\) con \(\boldsymbol{I/I_0 = 10^{12}}\) alla soglia del dolore.
-%	
-%	\begin{es}{Attenzione}
-%		Il valore d'intensità \(I_0\) \textbf{dipende dalla frequenza}. Per questo anche il livello sonoro \(L\) non dipende tanto da \(I_0\) quanto più dalla frequenza. 
-%		
-%		Le curve isofoniche infatti non descrivono eguale intensità \(I\) ma eguale rapporto \(I/I_0\), che dipende dalla frequenza. Possiamo dire che \(S\) è una grandezza \textit{fisiologica} e \(L\) una grandezza fisica.
-%	\end{es}
-%	Secondo la \textbf{legge psicofisica di Fechner e Weber}
-%	\[ 
-%	S = kB = k10\log_10{\frac{I}{I_0}} = k'\log_10{\frac{I}{I_0}}
-%	\]
-%	quindi
-%	\begin{equation}
-%		S_2 - S_1 = k'\log_10{\frac{I_2}{I_1}}
-%	\end{equation}
-%	la sensazione sonora è proporzionale al logaritmo del rapporto tra le intensità che hanno prodotto le sensazioni
-%	
 %	
 %	\section{Onde in più dimensioni}	
 %	Prima di tutto definiamo \textbf{fronte d'onda} la superfici su cui in un certo istante la fase dell'onda è costante (\(\phi = kx -\omega t\)). 
@@ -839,7 +858,7 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	Il ragionamento è uguale a quello fatto per la corda tesa, in questo caso però la tensione si distribuisce su tutto il lato \(d*\) e diventa \(T(d*)\):
 %	
 %	\begin{center}
-%		\textcolor{red}{inserire grafici}
+%		\includegraphics[scale=0.35]{imgs/membrana.png}
 %	\end{center}
 %	
 %	\[ 
@@ -858,24 +877,21 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	T\left(\frac{\partial^2\xi(x,y,t)}{\partial y^2} + \frac{\partial^2\xi(x,y,t)}{\partial x^2}\right)\textcolor{red}{dxdy} = \rho_s(\textcolor{red}{dxdy})\frac{\partial^2\xi(x,y,t)}{\partial t^2}
 %	\]
 %	
-%	
+%	\vspace{0.3cm}
 %	\begin{equation}
 %		\viola{\frac{\partial^2\xi(x,y,t)}{\partial y^2} + \frac{\partial^2\xi(x,y,t)}{\partial x^2} = \frac{\rho_s}{T}\frac{\partial^2\xi(x,y,t)}{\partial t^2} \qquad v = \sqrt{\frac{T}{\rho_s}}}
 %	\end{equation}
+%	\vspace{0.2cm}
 %	
 %	
-%	
-%	
+%	\newpage
 %	\subsection{Onde sferiche}
+%	\begin{wrapfigure}{r}{0.4\textwidth}
+%		\begin{center}
+%			\includegraphics[scale=0.15]{imgs/ondesferiche.png}
+%		\end{center}
+%	\end{wrapfigure}
 %	Se il mezzo è \textit{isotropo} è quindi la velocità di propagazione è uguale in tutte le direzioni, la funzoine d'\textbf{onda sferica armonica} è \(\xi(r,t) = A(r)\sin\left(kr -\omega t\right)\) dove \(r\) è la distanza dalla sorgfente e \(A(r)\) è l'ampiezza funzione di \(r\). \\
-%	
-%	
-%	\begin{figure}[ht]
-%		\centering
-%		\scalebox{.7}{\incfig{sfera}}
-%		\caption{Onde sferiche}
-%		\label{fig:Onde sferiche}
-%	\end{figure}
 %	
 %	\noindent
 %	Diciamo che la nostra sorgente emetta un'onda di intensità \(I(r) = CA^2(r)\) dove \(C\) è una costante dipendente dal mezzo. In un'onda sferica la \textbf{potenza media} trasmessa attraverso la superficie sferica \(S = 4\pi r^2\) deve risultare \textbf{costante} ad ogni valore di \(r\):
@@ -889,11 +905,12 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	\]
 %	
 %	\[ 
-%	A(r) = \sqrt{\frac{\mathcal{P}_m}{4\pi r^2}} = \frac{1}{2r}\sqrt{\frac{\mathcal{P}_m}{\pi}}
+%	A(r) = \sqrt{\frac{\mathcal{P}_m}{4\pi r^2}} = \frac{1}{r}\sqrt{\frac{4\mathcal{P}_m}{\pi}}
 %	\]
 %	
 %	\noindent
 %	Risulta quindi che l'ampiezza è inversamente proporzionale alla distanza \(r\), come la pressione, e quindi può essere scritta come \(A = \xi_0 /r\).
+%	
 %	\begin{equation}
 %		\viola{\xi(r,t) = \frac{\xi_0}{r}\sin\left(kr -\omega t\right)}
 %	\end{equation}
@@ -905,185 +922,208 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	I(r) = \frac{\mathcal{P}_m}{S} = \frac{1}{2} \rho_0 v \omega ^2 \frac{\xi_0^2}{r^2}
 %	\]
 %	
-%	\section{Onde cilindriche}
+%	\subsection{Onde cilindriche}
+%	Le onde cilindriche hanno come fronti d'onda gusci cilindrici coassiali. La sorgente potrebbe essere intesa come un gruppo di sorgenti puntiformi poste una dopo l'altra.
 %	
-%	
-%	
-%	\newpage
-%	\subsection{Assorbimento dell'energia}
-%	Come abbiamo visto l'intensità di un'onda non rimane costante ma decresce al propagarsi dell'onda (nelle onde sferiche più rapidamente, nelle cilindriche meno...). Questo comportamento viene attribuito ad un \textbf{assorbimento di energia} dovuto a fenomeni di attrito interno. Studiando il fenomeno su uno spessore \(dx\) si ha un'aattenuazione che può essere considerata proporzionale all'intensità in \(x\) e allo spessore \(dx\).
-%	
+%	Come per le onde sferiche sappiamo che la potenza media trasmessa attraverso la superficie cilindrica deve essere costante per ogni valore di \(r\):
+%
+%		\begin{center}
+%			\includegraphics[scale=0.30]{imgs/cilindro.png}
+%		\end{center}
+%
 %	\[ 
-%	dI = -\boldsymbol{\alpha} I(x)dx
+%		\mathcal{P}_{m} = \textcolor{blue}{I}S = \text{cost}
+%	\]
+%	\[ 
+%		\mathcal{P}_{m} = \textcolor{blue}{CA^2}2\pi rh = \text{cost}
+%	\]
+%	\[ 
+%	A(r) = \sqrt{\frac{\mathcal{P}_{m}}{2C\pi rh}} = \frac{1}{\sqrt{r}}\sqrt{\frac{\mathcal{P}_{m}}{2C\pi h}}
 %	\]
 %	
-%	dove \(\alpha\) è il \textbf{coefficiente di assorbimento}.
+%	L'ampiezza è inversamente proporzionale alla radice del raggio e può essere riscritta come \(\xi_0 /\sqrt{r}\).
 %	
-%	\[ 
-%	\int_{I_0}^{I} \frac{dI}{I} = -\alpha\int_{0}^{x} dx 
-%	\]
+%	\vspace{0.2cm}
 %	\begin{equation}
-%		\viola{I(x) = I_0e^{-\alpha x}}
-%	\end{equation}
-%	Quindi la decrescità dell'intensità è esponenziale. Definiamo la distanza \(x_0 = \frac{1}{\alpha}\) detta \textbf{lunghezza di assorbimento} la distanza tra due punti tali che \(I(x_1)/I(x_2) = \frac{1}{e}\).\\
-%	
-%	\noindent
-%	Abbiamo appurato precedentemente che l'ampiezza dell'onda è direttamente proporzionale a \(\sqrt{I}\)
-%	
-%	\[ 
-%	I = CA^2 \quad \to \quad A = \sqrt{\frac{I}{C}} = \sqrt{\frac{I_0e^{-\alpha x}}{C}}
-%	\]
-%	quindi la funzione d'onda in un mezzo che assorbe energia è:
-%	
-%	\[ 
-%	\textbf{Onde piane:}\qquad \xi = \left(\frac{I_0e^{-\alpha x}}{C}\right)^{\frac{1}{2}} \sin\left(kx-\omega t\right) \quad = \quad \xi_0 \left(I_0e^{-\alpha x/2}\right)^{\frac{1}{2}}\sin\left(kx-\omega t\right)
-%	\]
-%	\[ 
-%	\textbf{Onde sferiche:}\qquad \xi = \frac{\left(\frac{I_0e^{-\alpha x}}{C}\right)^{\frac{1}{2}}}{r} \sin\left(kx-\omega t\right) \quad = \quad \xi_0 \frac{\left(I_0e^{-\alpha x/2}\right)^{\frac{1}{2}}}{r}\sin\left(kx-\omega t\right)
-%	\]
-%	\[ 
-%	\textbf{Onde cilindriche:}\qquad \xi = \frac{\left(\frac{I_0e^{-\alpha x}}{C}\right)^{\frac{1}{2}}}{\sqrt{r}} \sin\left(kx-\omega t\right) \quad = \quad \xi_0 \frac{\left(I_0e^{-\alpha x/2}\right)^{\frac{1}{2}}}{\sqrt{r}}\sin\left(kx-\omega t\right)
-%	\]
-%	
-%	\newpage
-%	\section{Pacchetti d'onde}
-%	Fino ad ora abbiamo considerato onde armoniche di lunghezza e durata infinita. Tutte le sorgenti emettono onde attraverso processi di durata finita, quindi, nella realtà, un'onda ha una propria durata e estensione spaziale.\\
-%	
-%	\noindent
-%	Considerato un pacchetto di lughezza \(\Delta x\) e durata \(\Delta t\), tali che \(\Delta x = v\Delta t\). Il pacchetto è poi caratterizzato da \(N\) oscillazioni tali che
-%	
-%	\[ 
-%	\Delta x  =N \lambda \qquad \Delta t = NT 
-%	\]
-%	ed esprimiamo il numero di onde \(k\) e la pulsazione \(\omega\) come
-%	
-%	\[ 
-%	k = \frac{2\pi}{\lambda}= \frac{2\pi N}{\Delta x} \qquad \omega = \frac{2\pi}{T} = \frac{2\pi N}{\Delta t}
-%	\]
-%	
-%	\begin{center}
-%		\textcolor{red}{inserire grafici}
-%	\end{center}
-%	Se ammettiamo (come nella figura) che N non sia fisso ma abbia una acerta indeterminazione che esprimiamo come \(\Delta N = 1\), possiamo trovare altre espressioni per \(k\) e \(\omega\):
-%	
-%	\[ 
-%	\boxed{\Delta k = \frac{2\pi}{\Delta x}} \qquad \boxed{ \Delta\omega = \frac{2\pi}{\Delta t}} \qquad \boxed{\Delta f = \frac{1}{\Delta t}}
-%	\]
-%	
-%	\[ 
-%	\viola{\Delta k \Delta x = 2\pi} \qquad \viola{\Delta \omega \Delta t = 2\pi} \qquad \viola{\Delta f \Delta t = 1}
-%	\]
-%	Queste osservazioni mettono i vevidenza la sostanziale differenza tra onda e pacchetto d'onda: mentre la prima ha una lunghezza d'onda \(\lambda\)  e una frequenza \(f\) ben definite che la descrivono completamente, nel secondo è presente una \textbf{banda di frequenze} e un \textbf{intervallo di numeri d'onda}
-%	\[ 
-%	\Delta f = \frac{1}{\boldsymbol{\Delta t}} \qquad \Delta k = \frac{2\pi}{\boldsymbol{\Delta x}}
-%	\]
-%	Da quest'ultime espressioni notiamo che al crescere di \(\Delta x\) e \(\Delta t\) minori risultano queste bande, infatti la limite per \(\Delta x,\Delta t \to \infty\) troviamo l'onda armonica. Se andiamo a considerare \textbf{brevi durate e piccole lunghezze} nel pacchetto sono contenute bande di lunghezze d'onda e frequenze distribuite significatibamente nell'intorno di \(\lambda\) \(f\).
-%	
-%	\subsection{Velocità di fase e velocità di gruppo}
-%	Poiché diversi segmenti d'onda contenuti in un pacchetto possono avere frequenze diverse, la velocità del pacchetto non può essere identificata con quella delle componenti. Tuttavia è essenziale identificare la velocità del pacchetto perché il fenomeno fisico è rappresentato proprio dal pacchetto ed è la sua velocità quella con cui si propaga l'\textbf{energia} dell'onda.     
-%	
-%	Andiamo quindi a distinguere la \textbf{velocità di fase}, quella con cui si muovono le singole componenti dell'onda, e \textbf{velocità di gruppo}. 
-%	La velocità dell'onda dipende dalla frequenza quando la propagazione avviene in un \textbf{mezzo dispersivo} come può avvenire per onde sulla superficie di un liquido o onde elettromagnetiche in mezzi materiali o in cavità conduttrici.\\
-%	
-%	\noindent
-%	Mostriamo un esempio di velocità di gruppo nel caso di un pacchetto con solo due onde armoniche:
-%	
-%	\[ 
-%	\xi(x,t) = \xi_0\sin\left(k_1x -\omega_1 t\right) + \xi_0\sin\left(k_2x -\omega_2 t\right)
-%	\]
-%	\[ 
-%	\textcolor{gray}{\textit{prostaferesi: } \quad \sin\alpha + \sin\beta = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
-%	\]
-%	\[ 
-%	\xi(x,t) = 2\xi_0\sin\left(\frac{(k_1 + k_2)x - (\omega_1 + \omega_2)t}{2}\right) \cos\left(\frac{(k_1 - k_2)x + (\omega_2 - \omega_1)t}{2}\right)
-%	\]
-%	Definiti \(k_m,\omega _m\) e \(\Delta k,\Delta\omega\)
-%	\[ 
-%	\boxed{k_m = \frac{k_1 + k_2}{2}} \qquad \boxed{\omega _m = \frac{\omega _1 + \omega _2}{2}} \qquad \boxed{\Delta k=\frac{k_1 - k_2}{2}} \qquad \boxed{\Delta \omega = \frac{\omega_1 - \omega_2}{2}}
-%	\]
-%	\[ 
-%	\viola{\xi(x,t) = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)\sin\left(k_mx - \omega_mt\right)}
-%	\]
-%	\begin{center}
-%		\textcolor{red}{inserire grafici}
-%	\end{center}	
-%	
-%	In sostanza il moto relativo di un'onda rispetto all'altra produce la sovrapposizione mostrata sopra: \textbf{l'onda di alta frequenza cambia} durante il moto ma \textbf{l'inviluppo conserva la stessa forma}.
-%	
-%	L'ampiezza dell'onda modulata
-%	\[ 
-%	A = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)
-%	\]
-%	non è costante ma presenta una struttura di tipo ondulatorio e descrive l'inviluppo dell'onda di alta frequenza.
-%	
-%	Abbiamo quindi un'onda di alta frequenza che si propaga con \textbf{velocità di fase media} \(v_f\) e con ampiezza modulata da un'onda che si propaga con velocità \(v_g\) \textbf{velocità di gruppo}:
-%	\[ 
-%	v_f = \frac{\omega _m}{k_m} \qquad v_g = \frac{\Delta \omega }{\Delta k}
-%	\]
-%	Più in dettaglio la velocità di gruppo, nel limite del continuo, è definita come 
-%	\[ 
-%	v_g = \frac{d\boldsymbol{\omega} }{d\boldsymbol{k}}
-%	\]
-%	invece dall'espressione della velocità di fase possiamo esprimere la pulsazione in funzione di \(v_f\) e \(k\):
-%	\[ 
-%	\boldsymbol{\omega (k)} = v_f(k)\boldsymbol{k}
-%	\]
-%	da cui
-%	\begin{equation}\label{relazione di dispersione}
-%		\viola{v_g = v_f + k\frac{dv_f}{dk}} 
-%	\end{equation}
-%	La velocità di gruppo può quindi essere minore o maggiore della velocità di fase, dipende dal segno della derivata di \(v_f\): se la velocità delle singole componenti decresce, allora la velocità di gruppo sarà minore, se invece è in crescita, la velocità di gruppo sarà maggiore. Il caso di \textbf{mezzo non dispersivo}, ovvero quando \(\boldsymbol{v_g = v_f}\) si ha quando \(\boldsymbol{dv_f/dk = 0}\).
-%	
-%	\begin{es}{}
-%		Servendosi delle seguenti uguaglianze
-%		\[ 
-%		\boxed{\frac{dk}{k}} = \boxed{-\frac{d\lambda}{\lambda}} = \boxed{\frac{df}{f}}
-%		\]
-%		la \ref{relazione di dispersione} è riscrivibile come 
-%		\[ 
-%		= v_f - \lambda \frac{dv_f}{d\lambda} = v_f + f\frac{dv_f}{df}
-%		\]
-%	\end{es}
-%	
-%	E' bene capire che la struttura del pacchetto in generale si modifica durante la propagazione e proprio per questo la velocità di fase (delle singole componenti) varia in funzione di \(k\) così come la velocità di gruppo
-%	\newpage
-%	\section{Effetto Doppler}
-%	Se una sorgente di onde \(\boldsymbol{S}\) e un rivelatore di onde \(\boldsymbol{R}\) sono n moto reciproco la frequenza percepita dal rivelatore è in generale diversa dalla frequenza propira della sorgenre. Questo fenomeno prende il nome di effetto Doppler e si osserva per tutti i tipi di onde.
-%	
-%	Prendiamo in esame una sorgente che emette un qualsiasi tipo di onde armoniche sferiche di velocità \(v\), chiamiamo \textbf{fronte d'onda} la superficie sferica su cui la fase è costante e facciamo coincidere il fronte d'onda con una cresta. La cresta successiva a quella fissata sul fronte d'onda si trova a distanza spaziale \(\lambda\) e temporale \(T\) con differenza di fase \(2\pi \). In un tempo \(\Delta t\) l'onda avanza di uno spazio \(v\Delta t\) e il rivelatore viene attraversato da tanti fronti contenuti nello spazio \(v\Delta t\): 
-%	\[ 
-%	N = \frac{v\Delta t}{\lambda}
-%	\]
-%	quindi il rivelatore percepisce una frequenza
-%	\[
-%	f_R = \frac{N}{\Delta t}= \frac{v\Delta t}{\lambda \Delta t} = \frac{v}{\lambda} = f
-%	\]
-%	In questa condizione la frequenza percepita dal rivelatore è la frequenza propria della sorgente.
-%	
-%	\subsection{Sorgente in moto}
-%	Supponiamo che la sorgente si stia muovendo con velocità \(\boldsymbol{v_S} < v\) verso il rivelatore. Ogni intervallo \(T_0\) la sorgente percorre un tratto \(v_ST_0\) sicuramente minore di \(\lambda\) (\(v_S < v \to v_ST_0 < \lambda_0= vT\)). Si ha quindi che la distanza tra due fronti d'onda consecutivi è
-%	\[ 
-%	\lambda_R = \lambda_0 - v_ST
-%	\]
-%	quindi il rivelatore è attraversato da più fronti d'onda del caso precedente poiché è aumentata la loro "densità". Riscrivendo l'espressione di \(\lambda_R\) possiamo trovare una nuova espressione della frequenza percepita da \(R\): 
-%	\[ 
-%	\lambda_R = \lambda_0 - v_ST_0 = vT_0 - v_ST_0 = v\frac{1}{f_0} - v_S\frac{1}{f_0} = \frac{v - v_S}{f_0}
-%	\]
-%	quindi essendo la frequenza il numero di creste in un periodo: \(f =\frac{N}{T}\), esprimendo \(N\) come numero di lunghezze d'onda nello spazio percorso in un periodo: \(N = \frac{vT}{\lambda}\), troviamo che un'espressione della frequenza è il rapporto tra la velocità dell'onda e la lunghezza d'onda 
-%	\[ 
-%	f_R = \frac{v}{\lambda_R} = \frac{v}{\frac{v - v_S}{f_0}} \to
-%	\]
-%	\begin{equation}
-%		\viola{f_R = \frac{v}{v - v_s}f_0}
+%		\viola{\xi(r,t) = \frac{\xi_0}{\sqrt{r}}\sin(kr - \omega t)}
 %	\end{equation}
 %	
-%	\begin{figure}[ht]
-%		\centering
-%		\incfig{doppler12}
-%		\caption{fadslòfas}
-%		\label{fig:fasdkllfas}
-%	\end{figure}
 %	
+	
+	\newpage
+	\subsection{Assorbimento dell'energia}
+	Come abbiamo visto l'intensità di un'onda non rimane costante ma decresce al propagarsi dell'onda (nelle onde sferiche più rapidamente, nelle cilindriche meno...). Questo comportamento viene attribuito ad un \textbf{assorbimento di energia} dovuto a fenomeni di attrito interno. Studiando il fenomeno su uno spessore \(dx\) si ha un'aattenuazione che può essere considerata proporzionale all'intensità in \(x\) e allo spessore \(dx\).
+	
+	\[ 
+	dI = -\boldsymbol{\alpha} I(x)dx
+	\]
+	
+	dove \(\alpha\) è il \textbf{coefficiente di assorbimento}.
+	
+	\[ 
+	\int_{I_0}^{I} \frac{dI}{I} = -\alpha\int_{0}^{x} dx 
+	\]
+	\begin{equation}
+		\viola{I(x) = I_0e^{-\alpha x}}
+	\end{equation}
+	Quindi la decrescità dell'intensità è esponenziale. Definiamo la distanza \(x_0 = \frac{1}{\alpha}\) detta \textbf{lunghezza di assorbimento} la distanza tra due punti tali che \(I(x_1)/I(x_2) = \frac{1}{e}\).\\
+	
+	\noindent
+	Abbiamo appurato precedentemente che l'ampiezza dell'onda è direttamente proporzionale a \(\sqrt{I}\)
+	
+	\[ 
+	I = CA^2 \quad \to \quad A = \sqrt{\frac{I}{C}} = \sqrt{\frac{I_0e^{-\alpha x}}{C}}
+	\]
+	quindi la funzione d'onda in un mezzo che assorbe energia è:
+	
+	\[ 
+	\textbf{Onde piane:}\qquad \xi = \left(\frac{I_0e^{-\alpha x}}{C}\right)^{\frac{1}{2}} \sin\left(kx-\omega t\right) \quad = \quad \xi_0 \left(I_0e^{-\alpha x/2}\right)^{\frac{1}{2}}\sin\left(kx-\omega t\right)
+	\]
+	\[ 
+	\textbf{Onde sferiche:}\qquad \xi = \frac{\left(\frac{I_0e^{-\alpha x}}{C}\right)^{\frac{1}{2}}}{r} \sin\left(kx-\omega t\right) \quad = \quad \xi_0 \frac{\left(I_0e^{-\alpha x/2}\right)^{\frac{1}{2}}}{r}\sin\left(kx-\omega t\right)
+	\]
+	\[ 
+	\textbf{Onde cilindriche:}\qquad \xi = \frac{\left(\frac{I_0e^{-\alpha x}}{C}\right)^{\frac{1}{2}}}{\sqrt{r}} \sin\left(kx-\omega t\right) \quad = \quad \xi_0 \frac{\left(I_0e^{-\alpha x/2}\right)^{\frac{1}{2}}}{\sqrt{r}}\sin\left(kx-\omega t\right)
+	\]
+	
+	\newpage
+	\section{Pacchetti d'onde}
+	Fino ad ora abbiamo considerato onde armoniche di lunghezza e durata infinita. Tutte le sorgenti emettono onde attraverso processi di durata finita, quindi, nella realtà, un'onda ha una propria durata e estensione spaziale.\\
+	
+	\noindent
+	Considerato un pacchetto di lughezza \(\Delta x\) e durata \(\Delta t\), tali che \(\Delta x = v\Delta t\). Il pacchetto è poi caratterizzato da \(N\) oscillazioni tali che
+	
+	\[ 
+	\Delta x  =N \lambda \qquad \Delta t = NT 
+	\]
+	ed esprimiamo il numero di onde \(k\) e la pulsazione \(\omega\) come
+	
+	\[ 
+	k = \frac{2\pi}{\lambda}= \frac{2\pi N}{\Delta x} \qquad \omega = \frac{2\pi}{T} = \frac{2\pi N}{\Delta t}
+	\]
+	
+	\vspace{0.2cm}
+	\begin{center}
+		\includegraphics[scale=0.4]{imgs/pacchetti.png}
+	\end{center}
+	\vspace{0.2cm}
+	
+	Se ammettiamo (come nella figura) che N non sia fisso ma abbia una acerta indeterminazione che esprimiamo come \(\Delta N = 1\), possiamo trovare altre espressioni per \(k\) e \(\omega\):
+	
+	\[ 
+	\boxed{\Delta k = \frac{2\pi}{\Delta x}} \qquad \boxed{ \Delta\omega = \frac{2\pi}{\Delta t}} \qquad \boxed{\Delta f = \frac{1}{\Delta t}}
+	\]
+	
+	\[ 
+	\viola{\Delta k \Delta x = 2\pi} \qquad \viola{\Delta \omega \Delta t = 2\pi} \qquad \viola{\Delta f \Delta t = 1}
+	\]
+	Queste osservazioni mettono i vevidenza la sostanziale differenza tra onda e pacchetto d'onda: mentre la prima ha una lunghezza d'onda \(\lambda\)  e una frequenza \(f\) ben definite che la descrivono completamente, nel secondo è presente una \textbf{banda di frequenze} e un \textbf{intervallo di numeri d'onda}
+	\[ 
+	\Delta f = \frac{1}{\boldsymbol{\Delta t}} \qquad \Delta k = \frac{2\pi}{\boldsymbol{\Delta x}}
+	\]
+	Da quest'ultime espressioni notiamo che al crescere di \(\Delta x\) e \(\Delta t\) minori risultano queste bande, infatti la limite per \(\Delta x,\Delta t \to \infty\) troviamo l'onda armonica. Se andiamo a considerare \textbf{brevi durate e piccole lunghezze} nel pacchetto sono contenute bande di lunghezze d'onda e frequenze distribuite significatibamente nell'intorno di \(\lambda\) \(f\).
+	
+	\subsection{Velocità di fase e velocità di gruppo}
+	Poiché diversi segmenti d'onda contenuti in un pacchetto possono avere frequenze diverse, la velocità del pacchetto non può essere identificata con quella delle componenti. Tuttavia è essenziale identificare la velocità del pacchetto perché il fenomeno fisico è rappresentato proprio dal pacchetto ed è la sua velocità quella con cui si propaga l'\textbf{energia} dell'onda.     
+	
+	Andiamo quindi a distinguere la \textbf{velocità di fase}, quella con cui si muovono le singole componenti dell'onda, e \textbf{velocità di gruppo}. 
+	La velocità dell'onda dipende dalla frequenza quando la propagazione avviene in un \textbf{mezzo dispersivo} come può avvenire per onde sulla superficie di un liquido o onde elettromagnetiche in mezzi materiali o in cavità conduttrici.\\
+	
+	\noindent
+	Mostriamo un esempio di velocità di gruppo nel caso di un pacchetto con solo due onde armoniche:
+	
+	\[ 
+	\xi(x,t) = \xi_0\sin\left(k_1x -\omega_1 t\right) + \xi_0\sin\left(k_2x -\omega_2 t\right)
+	\]
+	\[ 
+	\textcolor{gray}{\textit{prostaferesi: } \quad \sin\alpha + \sin\beta = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
+	\]
+	\[ 
+	\xi(x,t) = 2\xi_0\sin\left(\frac{(k_1 + k_2)x - (\omega_1 + \omega_2)t}{2}\right) \cos\left(\frac{(k_1 - k_2)x + (\omega_2 - \omega_1)t}{2}\right)
+	\]
+	Definiti \(k_m,\omega _m\) e \(\Delta k,\Delta\omega\)
+	\[ 
+	\boxed{k_m = \frac{k_1 + k_2}{2}} \qquad \boxed{\omega _m = \frac{\omega _1 + \omega _2}{2}} \qquad \boxed{\Delta k=\frac{k_1 - k_2}{2}} \qquad \boxed{\Delta \omega = \frac{\omega_1 - \omega_2}{2}}
+	\]
+	\[ 
+	\viola{\xi(x,t) = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)\sin\left(k_mx - \omega_mt\right)}
+	\]
+
+	
+	
+	In sostanza il moto relativo di un'onda rispetto all'altra produce la sovrapposizione mostrata sopra: \textbf{l'onda di alta frequenza cambia} durante il moto ma \textbf{l'inviluppo conserva la stessa forma}.
+	
+	L'ampiezza dell'onda modulata
+	\[ 
+	A = 2\xi_0\cos\left(\frac{\Delta k}{2}x - \frac{\Delta\omega}{2}t \right)
+	\]
+	non è costante ma presenta una struttura di tipo ondulatorio e descrive l'inviluppo dell'onda di alta frequenza.
+	
+	Abbiamo quindi un'onda di alta frequenza che si propaga con \textbf{velocità di fase media} \(v_f\) e con ampiezza modulata da un'onda che si propaga con velocità \(v_g\) \textbf{velocità di gruppo}:
+	\[ 
+	v_f = \frac{\omega _m}{k_m} \qquad v_g = \frac{\Delta \omega }{\Delta k}
+	\]
+	Più in dettaglio la velocità di gruppo, nel limite del continuo, è definita come 
+	\[ 
+	v_g = \frac{d\boldsymbol{\omega} }{d\boldsymbol{k}}
+	\]
+	invece dall'espressione della velocità di fase possiamo esprimere la pulsazione in funzione di \(v_f\) e \(k\):
+	\[ 
+	\boldsymbol{\omega (k)} = v_f(k)\boldsymbol{k}
+	\]
+	da cui
+	\begin{equation}\label{relazione di dispersione}
+		\viola{v_g = v_f + k\frac{dv_f}{dk}} 
+	\end{equation}
+	La velocità di gruppo può quindi essere minore o maggiore della velocità di fase, dipende dal segno della derivata di \(v_f\): se la velocità delle singole componenti decresce, allora la velocità di gruppo sarà minore, se invece è in crescita, la velocità di gruppo sarà maggiore. Il caso di \textbf{mezzo non dispersivo}, ovvero quando \(\boldsymbol{v_g = v_f}\) si ha quando \(\boldsymbol{dv_f/dk = 0}\).
+	
+	\begin{es}{}
+		Servendosi delle seguenti uguaglianze
+		\[ 
+		\boxed{\frac{dk}{k}} = \boxed{-\frac{d\lambda}{\lambda}} = \boxed{\frac{df}{f}}
+		\]
+		la \ref{relazione di dispersione} è riscrivibile come 
+		\[ 
+		= v_f - \lambda \frac{dv_f}{d\lambda} = v_f + f\frac{dv_f}{df}
+		\]
+	\end{es}
+	
+	E' bene capire che la struttura del pacchetto in generale si modifica durante la propagazione e proprio per questo la velocità di fase (delle singole componenti) varia in funzione di \(k\) così come la velocità di gruppo
+	\newpage
+	\section{Effetto Doppler}
+	Se una sorgente di onde \(\boldsymbol{S}\) e un rivelatore di onde \(\boldsymbol{R}\) sono n moto reciproco la frequenza percepita dal rivelatore è in generale diversa dalla frequenza propira della sorgenre. Questo fenomeno prende il nome di effetto Doppler e si osserva per tutti i tipi di onde.
+	
+	Prendiamo in esame una sorgente che emette un qualsiasi tipo di onde armoniche sferiche di velocità \(v\), chiamiamo \textbf{fronte d'onda} la superficie sferica su cui la fase è costante e facciamo coincidere il fronte d'onda con una cresta. La cresta successiva a quella fissata sul fronte d'onda si trova a distanza spaziale \(\lambda\) e temporale \(T\) con differenza di fase \(2\pi \). In un tempo \(\Delta t\) l'onda avanza di uno spazio \(v\Delta t\) e il rivelatore viene attraversato da tanti fronti contenuti nello spazio \(v\Delta t\): 
+	\[ 
+	N = \frac{v\Delta t}{\lambda}
+	\]
+	quindi il rivelatore percepisce una frequenza
+	\[
+	f_R = \frac{N}{\Delta t}= \frac{v\Delta t}{\lambda \Delta t} = \frac{v}{\lambda} = f
+	\]
+	In questa condizione la frequenza percepita dal rivelatore è la frequenza propria della sorgente.
+	
+	\subsection{Sorgente in moto}
+	Supponiamo che la sorgente si stia muovendo con velocità \(\boldsymbol{v_S} < v\) verso il rivelatore. Ogni intervallo \(T_0\) la sorgente percorre un tratto \(v_ST_0\) sicuramente minore di \(\lambda\) (\(v_S < v \to v_ST_0 < \lambda_0= vT\)). Si ha quindi che la distanza tra due fronti d'onda consecutivi è
+	\[ 
+	\lambda_R = \lambda_0 - v_ST
+	\]
+	quindi il rivelatore è attraversato da più fronti d'onda del caso precedente poiché è aumentata la loro "densità". Riscrivendo l'espressione di \(\lambda_R\) possiamo trovare una nuova espressione della frequenza percepita da \(R\): 
+	\[ 
+	\lambda_R = \lambda_0 - v_ST_0 = vT_0 - v_ST_0 = v\frac{1}{f_0} - v_S\frac{1}{f_0} = \frac{v - v_S}{f_0}
+	\]
+	quindi essendo la frequenza il numero di creste in un periodo: \(f =\frac{N}{T}\), esprimendo \(N\) come numero di lunghezze d'onda nello spazio percorso in un periodo: \(N = \frac{vT}{\lambda}\), troviamo che un'espressione della frequenza è il rapporto tra la velocità dell'onda e la lunghezza d'onda 
+	\[ 
+	f_R = \frac{v}{\lambda_R} = \frac{v}{\frac{v - v_S}{f_0}} \to
+	\]
+	\begin{equation}
+		\viola{f_R = \frac{v}{v - v_s}f_0}
+	\end{equation}
+	
+	\begin{center}
+		\includegraphics[scale=0.4]{imgs/doppler.png}
+	\end{center}
+	
 %	\subsection{Rivelatore in moto}
 %	Diciamo che il rivelatore si stia muovento con velocità \(v_R\). In questo caso i fronti d'onda non variano la loro densità, tuttavia il rivelatore ne percepirà comunque di più o di meno (in base se si sta avvicinando o allontanando) a causa del suo moto. I fronti d'onda che investono il rivelatore sono
 %	\[ 

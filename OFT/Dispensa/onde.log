@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  23 AUG 2024 07:41
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  23 AUG 2024 18:07
  restricted system commands enabled.
 **onde.tex
 (./onde.tex
@@ -1609,6 +1609,14 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen394
 )))
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen395
+\WF@size=\dimen396
+\c@WF@wrappedlines=\count448
+\WF@box=\box104
+\WF@everypar=\toks58
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/usr/share/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 )
@@ -1637,10 +1645,10 @@ decorations.markings.code.tex
 ons.markings.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen395
-\pgfarrowlength=\dimen396
-\pgfarrowwidth=\dimen397
-\pgfarrowlinewidth=\dimen398
+\pgfarrowinset=\dimen397
+\pgfarrowlength=\dimen398
+\pgfarrowwidth=\dimen399
+\pgfarrowlinewidth=\dimen400
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 angles.code.tex
@@ -1651,86 +1659,86 @@ quotes.code.tex
 File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box104
+\ttl@box=\box105
 \beforetitleunit=\skip73
 \aftertitleunit=\skip74
-\ttl@plus=\dimen399
-\ttl@minus=\dimen400
-\ttl@toksa=\toks58
-\titlewidth=\dimen401
-\titlewidthlast=\dimen402
-\titlewidthfirst=\dimen403
+\ttl@plus=\dimen401
+\ttl@minus=\dimen402
+\ttl@toksa=\toks59
+\titlewidth=\dimen403
+\titlewidthlast=\dimen404
+\titlewidthfirst=\dimen405
 
 (/usr/share/texmf-dist/tex/latex/titlesec/titleps.sty))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 223.
+h' as default language. on input line 224.
  (./onde.aux)
 \openout1 = onde.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 223.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 224.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-23.
+24.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 223.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 224.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-223.
+224.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 224.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-223.
+224.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 224.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-223.
+224.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count448
-\scratchdimen=\dimen404
-\scratchbox=\box105
-\nofMPsegments=\count449
-\nofMParguments=\count450
-\everyMPshowfont=\toks59
-\MPscratchCnt=\count451
-\MPscratchDim=\dimen405
-\MPnumerator=\count452
-\makeMPintoPDFobject=\count453
-\everyMPtoPDFconversion=\toks60
+\scratchcounter=\count449
+\scratchdimen=\dimen406
+\scratchbox=\box106
+\nofMPsegments=\count450
+\nofMParguments=\count451
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count452
+\MPscratchDim=\dimen407
+\MPnumerator=\count453
+\makeMPintoPDFobject=\count454
+\everyMPtoPDFconversion=\toks61
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1752,7 +1760,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 223.
+Package chemgreek Info: Activating mapping `fourier' on line 224.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1788,8 +1796,8 @@ Package chemgreek Info: Activating mapping `fourier' on line 223.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 223.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 223.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 224.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 224.
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -1808,7 +1816,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 223.
+or `english'. on input line 224.
  (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
@@ -1821,7 +1829,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 223.
+Package hyperref Info: Link coloring OFF on input line 224.
  (./onde.out)
 (./onde.out)
 \@outlinefile=\write6
@@ -1872,96 +1880,115 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 ]
 Chapter 1.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 766.
+
+<imgs/sogliadolore.png, id=60, 978.65625pt x 679.03688pt>
+File: imgs/sogliadolore.png Graphic file (type png)
+<use imgs/sogliadolore.png>
+Package luatex.def Info: imgs/sogliadolore.png  used on input line 777.
+(luatex.def)             Requested size: 244.66347pt x 169.7588pt.
+
+Overfull \hbox (27.85347pt too wide) in paragraph at lines 777--778
+ [] 
+ []
+
+<imgs/livello_sonoro.png, id=61, 685.05937pt x 504.38437pt>
+File: imgs/livello_sonoro.png Graphic file (type png)
+<use imgs/livello_sonoro.png>
+Package luatex.def Info: imgs/livello_sonoro.png  used on input line 782.
+(luatex.def)             Requested size: 239.77437pt x 176.53717pt.
+
+Overfull \hbox (22.96437pt too wide) in paragraph at lines 782--783
+ [] 
+ []
+
+
+Overfull \hbox (16.56999pt too wide) in paragraph at lines 775--785
+[]$[]$ $[]$ 
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
+805.
+(/usr/share/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
+)
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 815.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 815.
+
 [2
 
-]
-<imgs/periodo1.png, id=79, 411.78844pt x 227.34938pt>
-File: imgs/periodo1.png Graphic file (type png)
-<use imgs/periodo1.png>
-Package luatex.def Info: imgs/periodo1.png  used on input line 540.
-(luatex.def)             Requested size: 164.71245pt x 90.93813pt.
-<imgs/periodo2.png, id=80, 411.78844pt x 227.34938pt>
-File: imgs/periodo2.png Graphic file (type png)
-<use imgs/periodo2.png>
-Package luatex.def Info: imgs/periodo2.png  used on input line 545.
-(luatex.def)             Requested size: 164.71245pt x 90.93813pt.
-
-Overfull \hbox (16.56998pt too wide) in paragraph at lines 538--549
-[]$[]$ $[]$
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 565--566
- [][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 576--578
-
- []
-
-[3<./imgs/periodo1.png><./imgs/periodo2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 622--624
+<./imgs/sogliadolore.png><./imgs/livello_sonoro.png>] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 968--970
 
  []
 
 [4]
-<imgs/energiacorda.png, id=98, 568.37344pt x 429.10312pt>
-File: imgs/energiacorda.png Graphic file (type png)
-<use imgs/energiacorda.png>
-Package luatex.def Info: imgs/energiacorda.png  used on input line 660.
-(luatex.def)             Requested size: 198.93369pt x 150.18834pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 686--688
+Underfull \hbox (badness 10000) in paragraph at lines 991--992
 
  []
 
-[5<./imgs/energiacorda.png>]
+<imgs/pacchetti.png, id=85, 709.90219pt x 395.22656pt>
+File: imgs/pacchetti.png Graphic file (type png)
+<use imgs/pacchetti.png>
+Package luatex.def Info: imgs/pacchetti.png  used on input line 1007.
+(luatex.def)             Requested size: 283.95584pt x 158.08781pt.
 
-LaTeX Warning: Reference `1press' on page 6 undefined on input line 721.
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1031
 
-[6] [7] (./onde.aux)
+ []
+
+[5<./imgs/pacchetti.png>]
+Overfull \hbox (1.25583pt too wide) in paragraph at lines 1062--1063
+[]\T1/futs/m/n/10 Ab-bi-amo quindi un'onda di alta fre-quenza che si propaga con
+ \T1/futs/b/n/10 ve-loc-ità di fase me-dia $\FML/futmi/m/it/10 v[]$ \T1/futs/m
+/n/10 e con ampiezza
+ []
+
+[6] [7]
+<imgs/doppler.png, id=103, 801.74532pt x 346.29375pt>
+File: imgs/doppler.png Graphic file (type png)
+<use imgs/doppler.png>
+Package luatex.def Info: imgs/doppler.png  used on input line 1124.
+(luatex.def)             Requested size: 320.69244pt x 138.51503pt.
+ [8<./imgs/doppler.png>] (./onde.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `onde.out' has not changed.
-(rerunfilecheck)             Checksum: 2512D79F194CC7CF60C22CBFF024D99B;1848.
+(rerunfilecheck)             Checksum: AED2F2D4CE1606FC6396F6E04428D156;1185.
 )
 
 Here is how much of LuaTeX's memory you used:
- 54048 strings out of 476447
+ 54172 strings out of 476447
  125027,2373549 words of node,token memory allocated
- 702 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 45 attribute, 62 glue_spec
-, 45 attribute_list, 2 write nodes
-   avail lists: 1:1,2:792,3:431,4:72,5:583,6:38,7:3798,8:76,9:831,10:10,11:209
- 74466 multiletter control sequences out of 65536+600000
- 110 fonts using 6646175 bytes
- 117i,15n,109p,718b,1536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 717 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 51 attribute, 62 glue_spec
+, 51 attribute_list, 2 write nodes
+   avail lists: 2:726,3:351,4:60,5:666,6:33,7:4907,8:66,9:868,10:10,11:296
+ 74566 multiletter control sequences out of 65536+600000
+ 116 fonts using 7006719 bytes
+ 117i,9n,109p,718b,1377s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
-mcl.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/
-share/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-d
-ist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
-a/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/s
-hare/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts
-/type1/adobe/utopia/putri8a.pfb>
-Output written on onde.pdf (8 pages, 207703 bytes).
+mex.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr
+/share/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texmf
+-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/typ
+e1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi
+8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/te
+xmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on onde.pdf (9 pages, 745637 bytes).
 
-PDF statistics: 155 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 131072)
- 104 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 147 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 131072)
+ 80 words of extra memory for PDF output out of 10000 (max. 100000000)
 
