@@ -43,46 +43,13 @@
 \tikzset{>=latex}
 \contourlength{1.1pt}
 
-\colorlet{mydarkblue}{blue!40!black}
-\colorlet{myblue}{blue!30}
-\colorlet{myred}{red!65!black}
-\colorlet{vcol}{green!45!black}
-\colorlet{watercol}{blue!80!cyan!10!white}
-\colorlet{darkwatercol}{blue!80!cyan!80!black!30!white}
-\tikzstyle{water}=[draw=mydarkblue,top color=watercol!90,bottom color=watercol!90!black,middle color=watercol!50,shading angle=0]
-\tikzstyle{horizontal water}=[water,
-top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=watercol!80,shading angle=0]
-\tikzstyle{dark water}=[draw=blue!20!black,top color=darkwatercol,bottom color=darkwatercol!80!black,middle color=darkwatercol!40,shading angle=0]
-\tikzstyle{vvec}=[->,very thick,vcol,line cap=round]
-\tikzstyle{force}=[->,myred,very thick,line cap=round]
-\tikzstyle{width}=[{Latex[length=3,width=3]}-{Latex[length=3,width=3]}]
-
-\colorlet{watercol}{blue!80!cyan!10!white}
-\colorlet{darkwatercol}{blue!80!cyan!20!white}
-\colorlet{metalcol}{blue!40!black!10!white}
-\tikzstyle{force}=[->,myred,very thick,line cap=round]
-\tikzstyle{vvec}=[->,very thick,vcol,line cap=round]
-\tikzstyle{ground}=[preaction={fill,top color=black!10,bottom color=black!5,shading angle=20},
-fill,pattern=north east lines,draw=none,minimum width=0.3,minimum height=0.6]
-\tikzstyle{mass}=[line width=0.6,red!30!black,fill=red!40!black!10,rounded corners=1,
-top color=red!40!black!20,bottom color=red!40!black!10,shading angle=20]
-\tikzstyle{rope}=[brown!70!black,line width=1.2,line cap=round] %very thick
-\tikzstyle{piston}=[blue!50!black,top color=blue!30,bottom color=blue!50,middle color=blue!20,shading angle=0]
-\tikzstyle{water}=[draw=mydarkblue,top color=watercol!90,bottom color=watercol!90!black,shading angle=5]
-\tikzstyle{vertical water}=[water,
-top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=watercol!80,shading angle=90]
-\tikzstyle{dark water}=[draw=mydarkblue,top color=darkwatercol,bottom color=darkwatercol!80!black,shading angle=5]
-\tikzstyle{metal}=[draw=metalcol!20!black,top color=metalcol,bottom color=metalcol!90!black,shading angle=10]
-\tikzstyle{width}=[{Latex[length=3,width=3]}-{Latex[length=3,width=3]}]
-\tikzstyle{force}=[->,myred,thick,line cap=round]
-\tikzstyle{Fproj}=[force,myred!40]
-\newcommand{\vbF}{\vb{F}}
-\tikzstyle{rope}=[brown!20!black,double=brown!70!black,double distance=1,line width=0.3] %very thick
-%\def\rope#1{ \draw[black,line width=2.3] #1; \draw[rope] #1; }
-\def\tick#1#2{\draw[thick] (#1)++(#2:0.1) --++ (#2-180:0.2)}
-
 
 % TIKZ settings
+\usetikzlibrary{calc} % for pic
+\usetikzlibrary{angles,quotes} % for pic (angle labels)
+%\usetikzlibrary{arrows.meta} % for arrow size
+\usepackage[outline]{contour} % glow around text
+\contourlength{1.2pt}
 \usetikzlibrary{arrows,arrows.meta}
 \tikzset{>=latex}
 \colorlet{vcol}{green!60!black}
@@ -120,6 +87,48 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	}
 	\fill[red] (0,0) circle (0.06);
 }
+\def\ropee#1{ \draw[black,line width=2.3] #1; \draw[ropee] #1; }
+\def\tick#1#2{\draw[thick] (#1)++(#2:0.1) --++ (#2-180:0.2)}
+\tikzstyle{wood}=[draw=brown!80!black,rounded corners=0.1,top color=brown!80,bottom color=brown!80!black!80,shading angle=10]
+
+\colorlet{mydarkblue}{blue!40!black}
+\colorlet{myblue}{blue!30}
+\colorlet{myred}{red!65!black}
+\colorlet{vcol}{green!45!black}
+\colorlet{watercol}{blue!80!cyan!10!white}
+\colorlet{darkwatercol}{blue!80!cyan!80!black!30!white}
+\tikzstyle{water}=[draw=mydarkblue,top color=watercol!90,bottom color=watercol!90!black,middle color=watercol!50,shading angle=0]
+\tikzstyle{horizontal water}=[water,
+top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=watercol!80,shading angle=0]
+\tikzstyle{dark water}=[draw=blue!20!black,top color=darkwatercol,bottom color=darkwatercol!80!black,middle color=darkwatercol!40,shading angle=0]
+\tikzstyle{vvec}=[->,very thick,vcol,line cap=round]
+\tikzstyle{force}=[->,myred,very thick,line cap=round]
+\tikzstyle{width}=[{Latex[length=3,width=3]}-{Latex[length=3,width=3]}]
+
+\colorlet{watercol}{blue!80!cyan!10!white}
+\colorlet{darkwatercol}{blue!80!cyan!20!white}
+\colorlet{metalcol}{blue!40!black!10!white}
+\tikzstyle{force}=[->,myred,very thick,line cap=round]
+\tikzstyle{vvec}=[->,very thick,vcol,line cap=round]
+\tikzstyle{ground}=[preaction={fill,top color=black!10,bottom color=black!5,shading angle=20},
+fill,pattern=north east lines,draw=none,minimum width=0.3,minimum height=0.6]
+\tikzstyle{mass}=[line width=0.6,red!30!black,fill=red!40!black!10,rounded corners=1,
+top color=red!40!black!20,bottom color=red!40!black!10,shading angle=20]
+\tikzstyle{rope}=[brown!70!black,line width=1.2,line cap=round] 
+\tikzstyle{ropee}=[brown!30!black,double=brown!90!black,double distance=1.2,line width=0.4,line cap=round]%very thick
+\tikzstyle{piston}=[blue!50!black,top color=blue!30,bottom color=blue!50,middle color=blue!20,shading angle=0]
+\tikzstyle{water}=[draw=mydarkblue,top color=watercol!90,bottom color=watercol!90!black,shading angle=5]
+\tikzstyle{vertical water}=[water,
+top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=watercol!80,shading angle=90]
+\tikzstyle{dark water}=[draw=mydarkblue,top color=darkwatercol,bottom color=darkwatercol!80!black,shading angle=5]
+\tikzstyle{metal}=[draw=metalcol!20!black,top color=metalcol,bottom color=metalcol!90!black,shading angle=10]
+\tikzstyle{width}=[{Latex[length=3,width=3]}-{Latex[length=3,width=3]}]
+\tikzstyle{force}=[->,myred,thick,line cap=round]
+\tikzstyle{Fproj}=[force,myred!40]
+\newcommand{\vbF}{\vb{F}}
+\tikzstyle{rope}=[brown!20!black,double=brown!70!black,double distance=1,line width=0.3] %very thick
+
+
 
 % svg + latex
 \usepackage{import}
@@ -218,74 +227,71 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	\newpage
 	
 	\chapter{Onde}
-	\section{Onde meccaniche}
-	Se in casi come il pendolo o un corpo attaccato ad una molla l'oscillazione è \textbf{macroscopica} perché tutto il sistema oscilla, in corpi continui elastici possono prodursi moti oscillatori locali, provocati in una zona specifica del corpo. Questa oscillazione indotta localmente si \textbf{propaga nel mezzo} con una certa velocità costituendo così un'\textbf{onda}.
-	
-	\begin{center}
-		\fboxsep11pt
-		\colorbox{yblue}{\begin{minipage}{5.75in}
-				\begin{blues}{Definizione: \textbf{Onda}}
-					Un'onda è una perturbazione locale impulsiva e periodica che si porpaga in un mezzo (corpo continuo ed elastico) con una certa velocità \(v\). Nel caso unidimensionale parliamo di \textbf{onda piana} \(\xi(x,t)\) la cui deformazione è costante in tutti i punti con stessa \(x\)
-				\end{blues}
-		\end{minipage}}
-	\end{center}
-	
-	Per descrivere l'andamento di un'onda possiamo: \textbf{fissare un istante \(t\)} e osservare la deformazione su tutto lo spazio \(x\), come se fosse una foto dell'onda; oppure \textbf{fissare un punto dello spazio \(x\)} e osservare al variare del tempo come varia la forma dell'onda, come se fosse un filmato.
-	
-	\begin{center}
-		\textcolor{red}{inserire grafici}
-	\end{center}
-	
-	Vediamo ora come possiamo scrivere l'equazione che descrive la perturbazione in funzione della posizione \(\mathbf{x}\) e del tempo \(\mathbf{t}\): per farlo serviamoci di un sistema di riferimento \(\mathbf{O}\) solidale con l'istante \(t=0\) e un sistema di riferimento \(\mathbf{O'}\) solidale con lo spostamento dell'onda che viaggia a velocità \(v\).
-	
-	Possiamo quindi descrivere la posizione l'andamento di un'onda piana tramite una funzione del tipo
-	
-	\[ 
-	\begin{cases} 
-		x' = x\pm vt \\ \xi' = \xi 
-	\end{cases} 
-	\quad \Rightarrow \quad \xi(x,t) = \mathbf{f(x \pm vt)}
-	\]
-	
-	Una funzione del tipo \(\mathbf{f(x \pm vt)}\) soddisfa l'equazione differenziale detta \textbf{equazione delle onde} o \textbf{equazione di d'Alembert}:
-	
-	\[ 
-	\nabla^2_\xi- \frac{1}{v^2} \frac{\partial^2\xi}{\partial t^2} = 0 \quad \Rightarrow \quad \boxed{\frac{\partial^2\xi}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2\xi}{\partial t^2}}
-	\]
-	
-	\begin{es}{dimostrazione}
-		\[ 
-		\mathbf{z = x - vt} \quad \Longleftrightarrow \quad \boxed{\frac{\partial z}{\partial x} = 1}   \quad \quad \boxed{\frac{\partial z}{\partial t} = -v}  \quad \Longleftrightarrow \quad  \mathbf{f = f(z)}
-		\]
-		
-		\[ 
-		\textcolor{blue}{\frac{\partial^2 f}{\partial x^2} =} \frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right) =\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial z}\frac{\partial z}{\partial x}\right)  \textcolor{blue}{=\frac{\partial^2 f}{\partial z^2}}
-		\]
-		\[ 
-		\textcolor{red}{\frac{\partial^2 f}{\partial t^2} =} \frac{\partial}{\partial t}\left(\frac{\partial f}{\partial t}\right) =\frac{\partial}{\partial t}\left(\frac{\partial f}{\partial z}\textcolor{orange}{\frac{\partial z}{\partial t}}\right) =\textcolor{cyan}{\frac{\partial}{\partial t}}\left(\textcolor{orange}{-v}\frac{\partial f}{\partial z}\right) = \textcolor{cyan}{-v\frac{\partial }{\partial z}}\left(\textcolor{orange}{-v}\frac{\partial f}{\partial z}\right) \textcolor{red}{=v^2\frac{\partial^2 f}{\partial z^2}}
-		\]
-		\[ 
-		\frac{\partial^2\xi}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2\xi}{\partial t^2}
-		\]
-		\newline
-		Il passaggio più ambiguo è quello evidenziato in \textcolor{cyan}{ciano}, in cui viene cambiata variabile di derivazione da \(t\) a \(z\). Trattando una funzione qualsiasi, la derivata di qualsiasi funzione rispetto a \(t\) è uguale a \(-v\) derivata rispetto a z (\(-v\) rappresenta il \(dz\) che va a moltiplicare). 
-	\end{es}	
-	
-	\noindent
-	Notare che l'equazione delle onde è soddisfatta solo per funzioni che hanno come argomento combinazioni lineari di \(x\) e \(t\) (\(\xi(x \pm vt)\)); è perciò \textbf{l'argomento che importa e non la funzione in sè}. Una combinazione lineare di soluzioni è ancora soluzione dell'equazione, la soluzione generale ha forma
-	\[ 
-	G(x,t) = f(x-vt) + g(x+vt)
-	\]
-	
-	
-	
-%	\newpage
-%	\subsection{Onde in una sbarra solida}
-%	Prendiamo una sbarra solida  e supponiamo di sollecitare  il tratto iniziale applicando una \textbf{forza impulsiva}. Analiziamo un segmento di lunghezza \(dx\): su di esso agiscono la forza elastica \(\vec{F}(x,t)\)  esercitata dagli elementi a sinistra del segmento e la forza elastica \(-\vec{F}(x + dx,t)\) di verso opposto esercitata dagli elementi a destra.
+%	\section{Onde meccaniche}
+%	Se in casi come il pendolo o un corpo attaccato ad una molla l'oscillazione è \textbf{macroscopica} perché tutto il sistema oscilla, in corpi continui elastici possono prodursi moti oscillatori locali, provocati in una zona specifica del corpo. Questa oscillazione indotta localmente si \textbf{propaga nel mezzo} con una certa velocità costituendo così un'\textbf{onda}.
+%	
+%	\begin{center}
+%		\fboxsep11pt
+%		\colorbox{yblue}{\begin{minipage}{5.75in}
+%				\begin{blues}{Definizione: \textbf{Onda}}
+%					Un'onda è una perturbazione locale impulsiva e periodica che si porpaga in un mezzo (corpo continuo ed elastico) con una certa velocità \(v\). Nel caso unidimensionale parliamo di \textbf{onda piana} \(\xi(x,t)\) la cui deformazione è costante in tutti i punti con stessa \(x\)
+%				\end{blues}
+%		\end{minipage}}
+%	\end{center}
+%	
+%	Per descrivere l'andamento di un'onda possiamo: \textbf{fissare un istante \(t\)} e osservare la deformazione su tutto lo spazio \(x\), come se fosse una foto dell'onda; oppure \textbf{fissare un punto dello spazio \(x\)} e osservare al variare del tempo come varia la forma dell'onda, come se fosse un filmato.
 %	
 %	\begin{center}
 %		\textcolor{red}{inserire grafici}
 %	\end{center}
+%	
+%	Vediamo ora come possiamo scrivere l'equazione che descrive la perturbazione in funzione della posizione \(\mathbf{x}\) e del tempo \(\mathbf{t}\): per farlo serviamoci di un sistema di riferimento \(\mathbf{O}\) solidale con l'istante \(t=0\) e un sistema di riferimento \(\mathbf{O'}\) solidale con lo spostamento dell'onda che viaggia a velocità \(v\).
+%	
+%	Possiamo quindi descrivere la posizione l'andamento di un'onda piana tramite una funzione del tipo
+%	
+%	\[ 
+%	\begin{cases} 
+%		x' = x\pm vt \\ \xi' = \xi 
+%	\end{cases} 
+%	\quad \Rightarrow \quad \xi(x,t) = \mathbf{f(x \pm vt)}
+%	\]
+%	
+%	Una funzione del tipo \(\mathbf{f(x \pm vt)}\) soddisfa l'equazione differenziale detta \textbf{equazione delle onde} o \textbf{equazione di d'Alembert}:
+%	
+%	\[ 
+%	\nabla^2_\xi- \frac{1}{v^2} \frac{\partial^2\xi}{\partial t^2} = 0 \quad \Rightarrow \quad \boxed{\frac{\partial^2\xi}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2\xi}{\partial t^2}}
+%	\]
+%	
+%	\begin{es}{dimostrazione}
+%		\[ 
+%		\mathbf{z = x - vt} \quad \Longleftrightarrow \quad \boxed{\frac{\partial z}{\partial x} = 1}   \quad \quad \boxed{\frac{\partial z}{\partial t} = -v}  \quad \Longleftrightarrow \quad  \mathbf{f = f(z)}
+%		\]
+%		
+%		\[ 
+%		\textcolor{blue}{\frac{\partial^2 f}{\partial x^2} =} \frac{\partial}{\partial x}\left(\frac{\partial f}{\partial x}\right) =\frac{\partial}{\partial x}\left(\frac{\partial f}{\partial z}\frac{\partial z}{\partial x}\right)  \textcolor{blue}{=\frac{\partial^2 f}{\partial z^2}}
+%		\]
+%		\[ 
+%		\textcolor{red}{\frac{\partial^2 f}{\partial t^2} =} \frac{\partial}{\partial t}\left(\frac{\partial f}{\partial t}\right) =\frac{\partial}{\partial t}\left(\frac{\partial f}{\partial z}\textcolor{orange}{\frac{\partial z}{\partial t}}\right) =\textcolor{cyan}{\frac{\partial}{\partial t}}\left(\textcolor{orange}{-v}\frac{\partial f}{\partial z}\right) = \textcolor{cyan}{-v\frac{\partial }{\partial z}}\left(\textcolor{orange}{-v}\frac{\partial f}{\partial z}\right) \textcolor{red}{=v^2\frac{\partial^2 f}{\partial z^2}}
+%		\]
+%		\[ 
+%		\frac{\partial^2\xi}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2\xi}{\partial t^2}
+%		\]
+%		\newline
+%		Il passaggio più ambiguo è quello evidenziato in \textcolor{cyan}{ciano}, in cui viene cambiata variabile di derivazione da \(t\) a \(z\). Trattando una funzione qualsiasi, la derivata di qualsiasi funzione rispetto a \(t\) è uguale a \(-v\) derivata rispetto a z (\(-v\) rappresenta il \(dz\) che va a moltiplicare). 
+%	\end{es}	
+%	
+%	\noindent
+%	Notare che l'equazione delle onde è soddisfatta solo per funzioni che hanno come argomento combinazioni lineari di \(x\) e \(t\) (\(\xi(x \pm vt)\)); è perciò \textbf{l'argomento che importa e non la funzione in sè}. Una combinazione lineare di soluzioni è ancora soluzione dell'equazione, la soluzione generale ha forma
+%	\[ 
+%	G(x,t) = f(x-vt) + g(x+vt)
+%	\]
+%	
+%	\subsection{Onde in una sbarra solida}
+%	Prendiamo una sbarra solida  e supponiamo di sollecitare  il tratto iniziale applicando una \textbf{forza impulsiva}. Analiziamo un segmento di lunghezza \(dx\): su di esso agiscono la forza elastica \(\vec{F}(x,t)\)  esercitata dagli elementi a sinistra del segmento e la forza elastica \(-\vec{F}(x + dx,t)\) di verso opposto esercitata dagli elementi a destra.
+%	
+%		\begin{center}
+%				\includegraphics[scale=0.3]{imgs/ondeinsbarra.png}
+%		\end{center}
 %	
 %	\noindent
 %	Alla cessazione dello stimolo (\(t'\)) agiscono le forze elastiche e si ha che la lunghezza dell'elemento passa da \(dx\) a 
@@ -298,7 +304,7 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	\]
 %	Possiamo quindi scrivere la legge del moto con accelerazione \(a = \partial^2 \xi / \partial t^2\):
 %	\[ 
-%	\textbf{Risultante} \qquad	dF = \frac{\partial F}{\partial x}dx = \frac{\partial}{\partial x}\left(ES\frac{\partial\xi}{\partial x}\right)dx = ES\frac{\partial^2\xi}{\partial x^2} \mathbf{= dm a} = dm \frac{\partial^2 \xi}{\partial t^2}
+%	\textbf{Risultante} \qquad	dF = \frac{\partial F}{\partial x}dx = \frac{\partial}{\partial x}\left(ES\frac{\partial\xi}{\partial x}\right)dx = ES\frac{\partial^2\xi}{\partial x^2}dx \mathbf{= dm a} = dm \frac{\partial^2 \xi}{\partial t^2}
 %	\]
 %	esprimendo la massa come \(dm = \rho S dx\) si ottiene l'equazione delle onde di d'Alembert dove il coefficiente del termine a destra gioca il ruolo di \(1/v^2\), da questo possiamo scrivere la velocità di propagazione dell'onda:
 %	\[ 
@@ -360,9 +366,18 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	\boxed{\tan\alpha = \frac{\partial \xi}{\partial x} = S(x,t)}
 %	\]
 %	
-%	\begin{center}
-%		\textcolor{red}{inserire grafici}
-%	\end{center}
+%	\vspace{0.2cm}
+%	\begin{minipage}{0.5\textwidth}
+%		\begin{center}
+%			\includegraphics[scale=0.2]{imgs/corda1.png}
+%		\end{center}
+%	\end{minipage}
+%	\begin{minipage}{0.5\textwidth}
+%		\begin{center}
+%			\includegraphics[scale=0.2]{imgs/corda2.png}
+%		\end{center}
+%	\end{minipage}
+%	\vspace{0.2cm}
 %	
 %	
 %	\[ 
@@ -409,6 +424,10 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	\[
 %	\rho = \rho + d\rho \qquad p = p_0 + dp
 %	\]
+%	
+%	\begin{center}
+%		\includegraphics[scale=0.3]{imgs/ondeingas.png}
+%	\end{center}
 %	
 %	\subsubsection{Densità}
 %	Considero un elemnto di gas di massa \(dm = \rho_0S(dx)\) che a seguito della perturbazione subisce uno spostamento che lo porta a stare tra
@@ -506,230 +525,239 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	\end{es}
 %	
 %	
-%	\newpage
-%	\section{Onde piane armoniche}
-%	Un tipo molto importante di onda piana è l'\textbf{onda armonica} la cui forma si scrive
-%	
-%	\[ 
-%	\xi(x,t) = \xi_0 \sin\left(\boldsymbol{k}x \mp \boldsymbol{\omega} t + \boldsymbol{\delta}\right)
-%	\]
-%	dove \(k\) è il \textbf{numero d'onde}.
-%	\begin{center}
-%		\textcolor{red}{inserire grafici}
-%	\end{center}
-%	
-%	\noindent
-%	\paragraph{Periodo spaziale} Fissato un tempo \(t=t_0\), definiamo la lunghezza d'onda \(\lambda\) come la periodicità spaziale dell'onda. Essendo \(\lambda\) lo spazio tra due creste d'onda possiamo calcolarla come \(\lambda = x_2 - x_1 = 2\pi / k\), da cui si deduce che \(k\) è uguale al numero di lunghezze d'onda in un intervallo spaziale pari a \(2\pi\) metri.
-%	
-%	In generale il periodo spaziale può essere espresso tramite \(\lambda\) o \(k\).
-%	
-%	\begin{center}
-%		\fboxsep11pt
-%		\colorbox{yblue}{\begin{minipage}{5.75in}
-%				\begin{blues}{Lunghezza d'onda \(\lambda\)}
-%					La lungheza d'onda è lo spazio percorso dalla perturbaione nell'intervallo di tempo di un periodo \(T\).
-%					\[ 
-%					\lambda = \frac{2\pi}{k} = vT
-%					\]
-%				\end{blues}
-%		\end{minipage}}
-%	\end{center}
-%	
-%	\paragraph{Periodo temporale} Fissato unpunto nello spazio \(x=x_0\), definiamo il periodo \(T = t_2-t_2\)
-%	
-%	\[ T = \frac{2\pi}{\omega}\] 
-%	come l'intervallo temporale tra due istanti nei quali l'onda, essendo armonica, assume lo stesso valore.
-%	
-%	Sapendo che la pulsazione è la velocità dell'onda nel percorrere un giro (\(2\pi\)), i due periodi dono legati dalla relazione
-%	\[ 
-%	\lambda = vT
-%	\]
-%	Quindi possiamo esprimere il periodo temporale tramite \(T\), \(f\), \(\omega\).\\
-%	
-%	\noindent
-%	Tutte le espressioni della funzione d'onda sono:
-%	
-%	\[ 
-%	\xi(x,t) = \xi_0 \sin\left(kx \mp \omega t + \delta\right) \qquad \xi(x,t) = \xi_0 \sin\left[ 2\pi\left(\frac{x}{\lambda} \mp \frac{t}{T}\right) + \delta\right]  \qquad \xi_0\sin\left[\frac{2\pi}{\lambda}\left(x \mp vt\right) + \delta \right]
-%	\]
-%	
-%	
-%	\newpage
-%	\subsection{Propagazione dell'energia in una barra solida}
-%	La propagazione di un campo che descrive in'onda è sempre accompagnato da una propagazione di energia. Osserviamo prima il fenomeno del flusso di energia legato alla propagazione di un'onda piana armonica in una barra solida andando a calcolare la potenzia media e l'energia per untià di volume ad essa associata.\\
-%	
-%	\begin{center}
-%		\includegraphics[scale=0.5]{imgs/ondeinsbarra.png}
-%	\end{center}
-%	
-%	\noindent
-%	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
-%	\[ 
-%	\textbf{Onda:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right)
-%	\]
-%	\[ 
-%	\textbf{Forza:} \quad F = -ES\frac{\partial\xi}{\partial x}
-%	\]
-%	L'espressione della potenza è 
-%	
-%	\begin{align*}
-%		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
-%		=& -ES\frac{\partial\xi}{\partial x}\frac{\partial\xi}{\partial t} \\
-%		=& -ES\left[k\xi_0\cos\left(kx -\omega t\right)\right]\left[-\omega \xi_0\cos\left(kx -\omega t\right)\right] \\
-%		=& ESk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
-%	\end{align*}
-%	La potenza quindi è una cosinusoide traslata in alto di una sua ampiezza (con avvallamenti tangenti all'asse orizzontale). la potenza media è espirmibile come la retta che interseca la cosinusoide alla quota pari a metà la sua ampiezza; poi ricordandoci che
-%	
-%	\[ 
-%	\boxed{v = \sqrt{E/\rho} \qquad E = v^2 \rho} \qquad \boxed{k = \frac{\omega}{v}}
-%	\]
-%	
-%	\begin{align*}
-%		\mathcal{P}_m =& \frac{1}{2} ESk\omega \xi_0^2  \\
-%		=& \frac{1}{2} (v^2 \rho)S\left(\frac{\omega}{v}\right) \omega\xi_0^2 
-%	\end{align*}
-%	
-%	\begin{equation}
-%		\viola{\mathcal{P}_m = \frac{1}{2}\rho \omega^2 \xi^2 S v}
-%	\end{equation}
-%	\\
-%	
-%	\subsubsection{Energia per unità di volume}
-%	Considero l'elemento infinitesimo di massa \(dm = \rho dV = \rho S dx\) descrive un moto armonico con 
-%	\[ 
-%	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
-%	\]
-%	\[ 
-%	\textbf{Velocità} \quad v(x,t)= \frac{\partial\xi}{\partial t} = \omega \xi_0\cos\left(kx - \omega t\right) 
-%	\]
-%	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
-%	
-%	\[ 
-%	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\rho S (dx)\omega^2 \xi_0^2 = \frac{1}{2}\rho (dV)\omega^2 \xi_0^2
-%	\]
-%	Chiamiamo \textbf{densità di energia per unità di volume} il valore 
-%	\[
-%	\mathcal{W} = \frac{dU}{dV} = \frac{1}{2}\rho \omega^2\xi_0^2
-%	\]
-%	con la quale possiamo esprimere la potenza media come 
-%	
-%	\begin{equation}
-%		\viola{\mathcal{P}_m = \mathcal{W}S v}
-%	\end{equation}
-%	
-%	
-%	\subsubsection{Intensità dell'onda}
-%	Definiamo l'intensità di un'onda come  \textbf{potenza media per unità di superficie}, quindi
-%	
-%	\[
-%	I = \frac{\mathcal{P}_m}{S} = \frac{1}{2}\rho\omega^2\xi_0^2v
-%	\]
-%	
-%	\subsection{Propagazione dell'energia in una corda tesa}
-%	Studiamo ora lo stesso fenomeno ma in una corda tesa. La situazione è simile con la differenza che l'onda ora è trasversale.
-%	
-%	\begin{center}
-%		\textcolor{red}{inserire grafici}
-%	\end{center}
-%	
-%	\noindent
-%	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
-%	\[ 
-%	\textbf{Onda:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right)
-%	\]
-%	\[ 
-%	\textbf{Forza:} \quad F = T
-%	\]
-%	L'espressione della potenza è 
-%	
-%	\begin{align*}
-%		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
-%		=& T\frac{\partial\xi}{\partial t}\cos{\left(\frac{\pi}{2} + \alpha\right)} \qquad  \cos{\left(\frac{\pi}{2} + \alpha\right)} = \sin{\alpha} \approx \tan\alpha = \frac{\partial\xi}{\partial x} \\
-%		= & T\frac{\partial\xi}{\partial t}\frac{\partial\xi}{\partial x} \\
-%		=& Tk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
-%	\end{align*}
-%	Trovo la potenza media come prima esprimendo \(k\) e \(T\) come
-%	\[ 
-%	\boxed{v = \sqrt{T/\mu} \qquad T = v^2 \mu} \qquad \boxed{k = \frac{\omega}{v}}
-%	\]
-%	
-%	\begin{equation}
-%		\viola{\mathcal{P}_m = \frac{1}{2}\mu\omega^2\xi^2v}
-%	\end{equation}
-%	\\
-%	
-%	\subsubsection{Energia per unità di lunghezza}
-%	Considero l'elemento infinitesimo di massa \(dm = \mu dx \) descrive un moto armonico con 
-%	\[ 
-%	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
-%	\]
-%	\[ 
-%	\textbf{Velocità} \quad v(x,t)= \frac{\partial\xi}{\partial t} = \omega \xi_0\cos\left(kx - \omega t\right) 
-%	\]
-%	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
-%	
-%	\[ 
-%	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\mu(dx)\omega^2 \xi_0^2 
-%	\]
-%	Chiamiamo \textbf{densità di energia per unità di lunghezza} il valore 
-%	\[
-%	\mathcal{W} = \frac{dU}{dx} = \frac{1}{2}\mu \omega^2\xi_0^2
-%	\]
-%	con la quale possiamo esprimere la potenza media come 
-%	
-%	\begin{equation}
-%		\viola{\mathcal{P}_m = \mathcal{W} v}
-%	\end{equation}
-%	
-%	\section{Onde sonore}\label{Onde Sonore}
-%	Consideriamo ora delle onde sonore come onde di spostamento sempre accompagnate da onde di pressione:
-%	\[ 
-%	\textbf{Spostamento: }\quad \xi = \xi _0\sin(kx-\omega t)
-%	\]
-%	\[ 
-%	\textbf{Pressione: }\quad dp = -\beta \frac{\partial\xi}{\partial x}
-%	\]
-%	\subsection{Pressione}
-%	L'espressione della pressione era stata ricavata nel capitolo sulle onde nei gas (\ref{1press})
-%	\[ 
-%	p(x,t) = p_0 -\beta \frac{\partial \xi }{\partial x} \quad \to \quad dp(x,t) = p(x,t) - p_0 = -\beta \frac{\partial \xi }{\partial x}
-%	\]
-%	Sviluppando la derivata parziale, e ricordando alcune equivalenze
-%	\[ 
-%	\boxed{v = \sqrt{\frac{\beta}{\rho_0}} \to  \beta = v^2\rho_0} \qquad \boxed{k = \frac{\omega }{v}}
-%	\]
-%	troviamo
-%	\begin{align*}
-%		dp =& -\textcolor{red}{\beta} \textcolor{blue}{k} \xi_0 \cos\left(kx-\omega t\right) \\
-%		=& \textcolor{red}{v^2 \rho_0}\textcolor{blue}{\frac{\omega }{v}} \cos\left(kx-\omega t\right) \\
-%		=& \boldsymbol{\rho_0 v \omega  \xi_0}  \cos\left(kx-\omega t\right) \\ 
-%		=& \boldsymbol{\Delta p_{\text{max}}} \sin\left(kx -\omega t - \pi /2\right) \\
-%	\end{align*}
-%	Le onde di pressione sono quindi in ritardo di \(\pi /2\).
-%	
-%	\subsection{Potenza}
-%	\[ 
-%	\mathcal{P} = \overrightarrow{F}\cdot \vec{v} = (dp)S v = -\beta \frac{\partial\xi}{\partial x} S \frac{\partial\xi}{\partial t}
-%	\]
-%	\begin{align*}
-%		\mathcal{P} &= \beta k \xi_0 \cos\left(kx- \omega t\right) S \omega  \xi_0 \cos\left(kx- \omega t\right)\\
-%		&= v^2\rho_0 \frac{\omega}{v} \xi_0 \cos\left(kx- \omega t\right) S \omega \xi_0 \cos\left(kx- \omega t\right)\\
-%		&=  \rho_0 v \omega ^2 S \xi_0^2 \cos^2\left(kx- \omega t\right) 
-%	\end{align*}
-%	Si ottiene quindi una potenza media pari a metà la sua ampiezza
-%	\[ 
-%	\mathcal{P}_m = \frac{1}{2} \rho_0 v \omega ^2 S \xi_0^2
-%	\]
-%	\subsection{Intensità}
-%	Ricordando che l'intensità è la potenza per unità di superficie:
-%	\[ 
-%	I = \frac{\mathcal{P}_m }{S} =   \frac{1}{2} \rho_0 v \omega ^2 \xi_0^2
-%	\]
-%	Riconosciamo che \(\Delta p_{\text{max}} = \rho_0 v \omega  \xi_0\) e che quindi possiamo scrivere l'intensità come
-%	\begin{equation}\label{intensita_fono}
-%		\viola{I = \frac{(\rho_0 v \omega  \xi_0)^2}{2\rho_0 v} = \frac{\Delta p_{\text{max}}^2}{2\rho_0 v}}
-%	\end{equation}
-%	
+	\newpage
+	\section{Onde piane armoniche}
+	Un tipo molto importante di onda piana è l'\textbf{onda armonica} la cui forma si scrive
+	
+	\[ 
+	\xi(x,t) = \xi_0 \sin\left(\boldsymbol{k}x \mp \boldsymbol{\omega} t + \boldsymbol{\delta}\right)
+	\]
+	dove \(k\) è il \textbf{numero d'onde}.
+	
+	\vspace{0.6cm}
+	\begin{minipage}{0.4\textwidth}
+		\begin{center}
+			\includegraphics[scale=0.4]{imgs/periodo1.png}
+		\end{center}
+	\end{minipage}
+	\begin{minipage}{0.60\textwidth}
+		\begin{center}
+			\includegraphics[scale=0.4]{imgs/periodo2.png}
+		\end{center}
+	\end{minipage}
+	\vspace{0.2cm}
+	
+	
+	\noindent
+	\paragraph{Periodo spaziale} Fissato un tempo \(t=t_0\), definiamo la lunghezza d'onda \(\lambda\) come la periodicità spaziale dell'onda. Essendo \(\lambda\) lo spazio tra due creste d'onda possiamo calcolarla come \(\lambda = x_2 - x_1 = 2\pi / k\), da cui si deduce che \(k\) è uguale al numero di lunghezze d'onda in un intervallo spaziale pari a \(2\pi\) metri.
+	
+	In generale il periodo spaziale può essere espresso tramite \(\lambda\) o \(k\).
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Lunghezza d'onda \(\lambda\)}
+					La lungheza d'onda è lo spazio percorso dalla perturbaione nell'intervallo di tempo di un periodo \(T\).
+					\[ 
+					\lambda = \frac{2\pi}{k} = vT
+					\]
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	
+	\paragraph{Periodo temporale} Fissato unpunto nello spazio \(x=x_0\), definiamo il periodo \(T = t_2-t_2\)
+	
+	\[ T = \frac{2\pi}{\omega}\] 
+	come l'intervallo temporale tra due istanti nei quali l'onda, essendo armonica, assume lo stesso valore.
+	
+	Sapendo che la pulsazione è la velocità dell'onda nel percorrere un giro (\(2\pi\)), i due periodi dono legati dalla relazione
+	\[ 
+	\lambda = vT
+	\]
+	Quindi possiamo esprimere il periodo temporale tramite \(T\), \(f\), \(\omega\).\\
+	
+	\noindent
+	Tutte le espressioni della funzione d'onda sono:
+	
+	\[ 
+	\xi(x,t) = \xi_0 \sin\left(kx \mp \omega t + \delta\right) \qquad \xi(x,t) = \xi_0 \sin\left[ 2\pi\left(\frac{x}{\lambda} \mp \frac{t}{T}\right) + \delta\right]  \qquad \xi_0\sin\left[\frac{2\pi}{\lambda}\left(x \mp vt\right) + \delta \right]
+	\]
+	
+
+	\newpage
+	\subsection{Propagazione dell'energia in una barra solida}
+	La propagazione di un campo che descrive in'onda è sempre accompagnato da una propagazione di energia. Osserviamo prima il fenomeno del flusso di energia legato alla propagazione di un'onda piana armonica in una barra solida andando a calcolare la potenzia media e l'energia per untià di volume ad essa associata.\\
+	
+
+	
+	\noindent
+	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
+	\[ 
+	\textbf{Onda:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right)
+	\]
+	\[ 
+	\textbf{Forza:} \quad F = -ES\frac{\partial\xi}{\partial x}
+	\]
+	L'espressione della potenza è 
+	
+	\begin{align*}
+		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
+		=& -ES\frac{\partial\xi}{\partial x}\frac{\partial\xi}{\partial t} \\
+		=& -ES\left[k\xi_0\cos\left(kx -\omega t\right)\right]\left[-\omega \xi_0\cos\left(kx -\omega t\right)\right] \\
+		=& ESk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
+	\end{align*}
+	La potenza quindi è una cosinusoide traslata in alto di una sua ampiezza (con avvallamenti tangenti all'asse orizzontale). la potenza media è espirmibile come la retta che interseca la cosinusoide alla quota pari a metà la sua ampiezza; poi ricordandoci che
+	
+	\[ 
+	\boxed{v = \sqrt{E/\rho} \qquad E = v^2 \rho} \qquad \boxed{k = \frac{\omega}{v}}
+	\]
+	
+	\begin{align*}
+		\mathcal{P}_m =& \frac{1}{2} ESk\omega \xi_0^2  \\
+		=& \frac{1}{2} (v^2 \rho)S\left(\frac{\omega}{v}\right) \omega\xi_0^2 
+	\end{align*}
+	
+	\begin{equation}
+		\viola{\mathcal{P}_m = \frac{1}{2}\rho \omega^2 \xi^2 S v}
+	\end{equation}
+	\\
+	
+	\subsubsection{Energia per unità di volume}
+	Considero l'elemento infinitesimo di massa \(dm = \rho dV = \rho S dx\) descrive un moto armonico con 
+	\[ 
+	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
+	\]
+	\[ 
+	\textbf{Velocità} \quad v(x,t)= \frac{\partial\xi}{\partial t} = \omega \xi_0\cos\left(kx - \omega t\right) 
+	\]
+	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
+	
+	\[ 
+	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\rho S (dx)\omega^2 \xi_0^2 = \frac{1}{2}\rho (dV)\omega^2 \xi_0^2
+	\]
+	Chiamiamo \textbf{densità di energia per unità di volume} il valore 
+	\[
+	\mathcal{W} = \frac{dU}{dV} = \frac{1}{2}\rho \omega^2\xi_0^2
+	\]
+	con la quale possiamo esprimere la potenza media come 
+	
+	\begin{equation}
+		\viola{\mathcal{P}_m = \mathcal{W}S v}
+	\end{equation}
+	
+	
+	\subsubsection{Intensità dell'onda}
+	Definiamo l'intensità di un'onda come  \textbf{potenza media per unità di superficie}, quindi
+	
+	\[
+	I = \frac{\mathcal{P}_m}{S} = \frac{1}{2}\rho\omega^2\xi_0^2v
+	\]
+	
+	\subsection{Propagazione dell'energia in una corda tesa}
+	Studiamo ora lo stesso fenomeno ma in una corda tesa. La situazione è simile con la differenza che l'onda ora è trasversale.
+	
+	\begin{center}
+		\includegraphics[scale=0.35]{imgs/energiacorda.png}
+	\end{center}
+	
+	\noindent
+	Per prima cosa mettiamo in evidenza le equazioni che entrano in gioco:
+	\[ 
+	\textbf{Onda:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right)
+	\]
+	\[ 
+	\textbf{Forza:} \quad F = T
+	\]
+	L'espressione della potenza è 
+	
+	\begin{align*}
+		\mathcal{P} =& \vec{F} \cdot \vec{u} \\
+		=& T\frac{\partial\xi}{\partial t}\cos{\left(\frac{\pi}{2} + \alpha\right)} \qquad  \cos{\left(\frac{\pi}{2} + \alpha\right)} = \sin{\alpha} \approx \tan\alpha = \frac{\partial\xi}{\partial x} \\
+		= & T\frac{\partial\xi}{\partial t}\frac{\partial\xi}{\partial x} \\
+		=& Tk\omega \xi_0^2\cos^2\left(kx-\omega t\right)
+	\end{align*}
+	Trovo la potenza media come prima esprimendo \(k\) e \(T\) come
+	\[ 
+	\boxed{v = \sqrt{T/\mu} \qquad T = v^2 \mu} \qquad \boxed{k = \frac{\omega}{v}}
+	\]
+	
+	\begin{equation}
+		\viola{\mathcal{P}_m = \frac{1}{2}\mu\omega^2\xi^2v}
+	\end{equation}
+	\\
+	
+	\subsubsection{Energia per unità di lunghezza}
+	Considero l'elemento infinitesimo di massa \(dm = \mu dx \) descrive un moto armonico con 
+	\[ 
+	\textbf{Posizione:} \quad \xi(x,t) = \xi_0\sin\left(kx - \omega t\right) 
+	\]
+	\[ 
+	\textbf{Velocità} \quad v(x,t)= \frac{\partial\xi}{\partial t} = \omega \xi_0\cos\left(kx - \omega t\right) 
+	\]
+	Quindi l'energia meccanica risulta pari all'energia cinetica massima assunto dall'elemento \(dm\), che si trova utilizzando la velocità massima \(v_{\text{max}} = \omega \xi_0\):
+	
+	\[ 
+	dU = \frac{1}{2}(dm)v_{\text{max}}^2 = \frac{1}{2}\mu(dx)\omega^2 \xi_0^2 
+	\]
+	Chiamiamo \textbf{densità di energia per unità di lunghezza} il valore 
+	\[
+	\mathcal{W} = \frac{dU}{dx} = \frac{1}{2}\mu \omega^2\xi_0^2
+	\]
+	con la quale possiamo esprimere la potenza media come 
+	
+	\begin{equation}
+		\viola{\mathcal{P}_m = \mathcal{W} v}
+	\end{equation}
+	
+	\section{Onde sonore}\label{Onde Sonore}
+	Consideriamo ora delle onde sonore come onde di spostamento sempre accompagnate da onde di pressione:
+	\[ 
+	\textbf{Spostamento: }\quad \xi = \xi _0\sin(kx-\omega t)
+	\]
+	\[ 
+	\textbf{Pressione: }\quad dp = -\beta \frac{\partial\xi}{\partial x}
+	\]
+	\subsection{Pressione}
+	L'espressione della pressione era stata ricavata nel capitolo sulle onde nei gas (\ref{1press})
+	\[ 
+	p(x,t) = p_0 -\beta \frac{\partial \xi }{\partial x} \quad \to \quad dp(x,t) = p(x,t) - p_0 = -\beta \frac{\partial \xi }{\partial x}
+	\]
+	Sviluppando la derivata parziale, e ricordando alcune equivalenze
+	\[ 
+	\boxed{v = \sqrt{\frac{\beta}{\rho_0}} \to  \beta = v^2\rho_0} \qquad \boxed{k = \frac{\omega }{v}}
+	\]
+	troviamo
+	\begin{align*}
+		dp =& -\textcolor{red}{\beta} \textcolor{blue}{k} \xi_0 \cos\left(kx-\omega t\right) \\
+		=& \textcolor{red}{v^2 \rho_0}\textcolor{blue}{\frac{\omega }{v}} \cos\left(kx-\omega t\right) \\
+		=& \boldsymbol{\rho_0 v \omega  \xi_0}  \cos\left(kx-\omega t\right) \\ 
+		=& \boldsymbol{\Delta p_{\text{max}}} \sin\left(kx -\omega t - \pi /2\right) \\
+	\end{align*}
+	Le onde di pressione sono quindi in ritardo di \(\pi /2\).
+	
+	\subsection{Potenza}
+	\[ 
+	\mathcal{P} = \overrightarrow{F}\cdot \vec{v} = (dp)S v = -\beta \frac{\partial\xi}{\partial x} S \frac{\partial\xi}{\partial t}
+	\]
+	\begin{align*}
+		\mathcal{P} &= \beta k \xi_0 \cos\left(kx- \omega t\right) S \omega  \xi_0 \cos\left(kx- \omega t\right)\\
+		&= v^2\rho_0 \frac{\omega}{v} \xi_0 \cos\left(kx- \omega t\right) S \omega \xi_0 \cos\left(kx- \omega t\right)\\
+		&=  \rho_0 v \omega ^2 S \xi_0^2 \cos^2\left(kx- \omega t\right) 
+	\end{align*}
+	Si ottiene quindi una potenza media pari a metà la sua ampiezza
+	\[ 
+	\mathcal{P}_m = \frac{1}{2} \rho_0 v \omega ^2 S \xi_0^2
+	\]
+	\subsection{Intensità}
+	Ricordando che l'intensità è la potenza per unità di superficie:
+	\[ 
+	I = \frac{\mathcal{P}_m }{S} =   \frac{1}{2} \rho_0 v \omega ^2 \xi_0^2
+	\]
+	Riconosciamo che \(\Delta p_{\text{max}} = \rho_0 v \omega  \xi_0\) e che quindi possiamo scrivere l'intensità come
+	\begin{equation}\label{intensita_fono}
+		\viola{I = \frac{(\rho_0 v \omega  \xi_0)^2}{2\rho_0 v} = \frac{\Delta p_{\text{max}}^2}{2\rho_0 v}}
+	\end{equation}
+	
 %	
 %	\subsection{Fonometria}
 %	Per essere messo in movimento il timpano ha bisogno di un'intensità minima che chiamiamo \textbf{soglia di udibilità}. Il limite superiore invece è chiamata \textbf{soglia del dolore} e rappresenta l'intensità sopra alla quale si percepisce una sensazione dolorosa. Entrambe vengono espresse o in funzione della frequenza o in funzione della lunghezza d'onda (\(\lambda=v/f\)); si ha quindi che le frequenze all'interno delle due soglie sono

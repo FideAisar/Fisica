@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  22 AUG 2024 22:12
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  23 AUG 2024 07:41
  restricted system commands enabled.
 **onde.tex
 (./onde.tex
@@ -1641,6 +1641,14 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowlength=\dimen396
 \pgfarrowwidth=\dimen397
 \pgfarrowlinewidth=\dimen398
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+angles.code.tex
+File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+quotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box104
@@ -1655,60 +1663,60 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 
 (/usr/share/texmf-dist/tex/latex/titlesec/titleps.sty))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 214.
+h' as default language. on input line 223.
  (./onde.aux)
 \openout1 = onde.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 214.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 223.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-14.
+23.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 214.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 223.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 
-214.
+223.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 223.
 LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
-214.
+223.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 223.
 LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
-214.
+223.
 
 (/usr/share/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1744,7 +1752,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 
-Package chemgreek Info: Activating mapping `fourier' on line 214.
+Package chemgreek Info: Activating mapping `fourier' on line 223.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1780,8 +1788,8 @@ Package chemgreek Info: Activating mapping `fourier' on line 214.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 214.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 214.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 223.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 223.
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -1800,7 +1808,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 214.
+or `english'. on input line 223.
  (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
@@ -1813,7 +1821,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 214.
+Package hyperref Info: Link coloring OFF on input line 223.
  (./onde.out)
 (./onde.out)
 \@outlinefile=\write6
@@ -1854,283 +1862,106 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1
-
-] [2])
+))
 \tf@toc=\write7
 
 \openout7 = onde.toc
- [3]
-Chapter 1.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 230--231
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+]
+Chapter 1.
+[2
+
+]
+<imgs/periodo1.png, id=79, 411.78844pt x 227.34938pt>
+File: imgs/periodo1.png Graphic file (type png)
+<use imgs/periodo1.png>
+Package luatex.def Info: imgs/periodo1.png  used on input line 540.
+(luatex.def)             Requested size: 164.71245pt x 90.93813pt.
+<imgs/periodo2.png, id=80, 411.78844pt x 227.34938pt>
+File: imgs/periodo2.png Graphic file (type png)
+<use imgs/periodo2.png>
+Package luatex.def Info: imgs/periodo2.png  used on input line 545.
+(luatex.def)             Requested size: 164.71245pt x 90.93813pt.
+
+Overfull \hbox (16.56998pt too wide) in paragraph at lines 538--549
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 565--566
  [][][][][][] 
  []
 
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 239.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 239.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 239.
 
-Overfull \hbox (10.07375pt too wide) in paragraph at lines 250--251
-[]\T1/futs/m/n/10 Una fun-zione del tipo $[]$ sod-disfa l'equazione dif-feren-zi
-ale detta \T1/futs/b/n/10 equazione delle onde \T1/futs/m/n/10 o \T1/futs/b/n/1
-0 equazione
+Underfull \hbox (badness 10000) in paragraph at lines 576--578
+
  []
 
-[4
+[3<./imgs/periodo1.png><./imgs/periodo2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
 
-] [5] (./onde.aux)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
+
+ []
+
+[4]
+<imgs/energiacorda.png, id=98, 568.37344pt x 429.10312pt>
+File: imgs/energiacorda.png Graphic file (type png)
+<use imgs/energiacorda.png>
+Package luatex.def Info: imgs/energiacorda.png  used on input line 660.
+(luatex.def)             Requested size: 198.93369pt x 150.18834pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--688
+
+ []
+
+[5<./imgs/energiacorda.png>]
+
+LaTeX Warning: Reference `1press' on page 6 undefined on input line 721.
+
+[6] [7] (./onde.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
 
-Package rerunfilecheck Warning: File `onde.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: Checksums for `onde.out':
-(rerunfilecheck)             Before: BB523FF43B2136BB6240660BB45AB7A6;19131
-(rerunfilecheck)             After:  8D4985375C57AE66F2D7922DE1126232;195.
+Package rerunfilecheck Info: File `onde.out' has not changed.
+(rerunfilecheck)             Checksum: 2512D79F194CC7CF60C22CBFF024D99B;1848.
 )
 
 Here is how much of LuaTeX's memory you used:
- 54112 strings out of 476447
+ 54048 strings out of 476447
  125027,2373549 words of node,token memory allocated
- 569 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 14 attribute, 62 glue_spec
-, 14 attribute_list, 2 write nodes
-   avail lists: 2:1510,3:555,4:212,5:775,6:158,7:4611,8:95,9:867,10:14,11:245
- 74491 multiletter control sequences out of 65536+600000
- 89 fonts using 5345327 bytes
- 117i,10n,109p,718b,1464s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'section*.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.5.3.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.5.3.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.5.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.5.2.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.5.2.1'
-
-warning  (pdf backend): unreferenced destination with name 'equation.5.2.2'
-
-warning  (pdf backend): unreferenced destination with name 'section.5.2'
-
-warning  (pdf backend): unreferenced destination with name 'Item.21'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.5.1.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.5.1.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.5.1'
-
-warning  (pdf backend): unreferenced destination with name 'chapter.5'
-
-warning  (pdf backend): unreferenced destination with name 'section.4.8'
-
-warning  (pdf backend): unreferenced destination with name 'section.4.7'
-
-warning  (pdf backend): unreferenced destination with name 'section.4.6'
-
-warning  (pdf backend): unreferenced destination with name 'section.4.5'
-
-warning  (pdf backend): unreferenced destination with name 'section.4.4'
-
-warning  (pdf backend): unreferenced destination with name 'section.4.3'
-
-warning  (pdf backend): unreferenced destination with name 'section.4.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.1.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.4.1'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.0.5'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.0.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.0.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.0.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.4.0.1'
-
-warning  (pdf backend): unreferenced destination with name 'chapter.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.5.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.5.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.5.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.5.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.3.5'
-
-warning  (pdf backend): unreferenced destination with name 'equation.3.4.6'
-
-warning  (pdf backend): unreferenced destination with name 'equation.3.4.5'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.4.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.3.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.3.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.3.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.3.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.3.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.2.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.2.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.3.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.1.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.3.1'
-
-warning  (pdf backend): unreferenced destination with name 'chapter.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.4.6'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.4.5'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.4.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.4.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.4.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.4.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.2.4'
-
-warning  (pdf backend): unreferenced destination with name 'section.2.3'
-
-warning  (pdf backend): unreferenced destination with name 'section.2.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.1.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.1.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.1.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.2.1'
-
-warning  (pdf backend): unreferenced destination with name 'chapter.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.10.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.10.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.10.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.10.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.1.10'
-
-warning  (pdf backend): unreferenced destination with name 'section.1.9'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.8.5'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.8.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.8.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.8.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.8.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.1.8'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.7.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.7.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.7.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.7.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.1.7'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.6.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.1.6'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.5.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.1.5'
-
-warning  (pdf backend): unreferenced destination with name 'equation.1.4.16'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.4.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.4.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.1.4'
-
-warning  (pdf backend): unreferenced destination with name 'section*.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.3.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.3.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.3.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.3.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.1.3'
-
-warning  (pdf backend): unreferenced destination with name 'equation.1.2.10'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.2.2'
-
-warning  (pdf backend): unreferenced destination with name 'equation.1.2.9'
-
-warning  (pdf backend): unreferenced destination with name 'equation.1.2.8'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.2.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.1.2'
-
-warning  (pdf backend): unreferenced destination with name 'equation.1.1.6'
-
-warning  (pdf backend): unreferenced destination with name 'equation.1.1.5'
-
-warning  (pdf backend): unreferenced destination with name 'equation.1.1.4'
-
-warning  (pdf backend): unreferenced destination with name 'section*.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.1.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.1.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.1.1.1'
+ 702 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 45 attribute, 62 glue_spec
+, 45 attribute_list, 2 write nodes
+   avail lists: 1:1,2:792,3:431,4:72,5:583,6:38,7:3798,8:76,9:831,10:10,11:209
+ 74466 multiletter control sequences out of 65536+600000
+ 110 fonts using 6646175 bytes
+ 117i,15n,109p,718b,1536s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/fo
-urier/fourier-mex.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
-mlit.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/
-share/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texmf-dist/font
-s/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/
-putri8a.pfb>
-Output written on onde.pdf (6 pages, 88875 bytes).
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
+mcl.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/
+share/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texmf-d
+ist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
+a/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/s
+hare/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts
+/type1/adobe/utopia/putri8a.pfb>
+Output written on onde.pdf (8 pages, 207703 bytes).
 
-PDF statistics: 626 PDF objects out of 1000 (max. 8388607)
- 604 compressed objects within 7 object streams
- 114 named destinations out of 1000 (max. 131072)
- 896 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 155 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 131072)
+ 104 words of extra memory for PDF output out of 10000 (max. 100000000)
 

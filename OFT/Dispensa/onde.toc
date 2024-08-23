@@ -1,2 +1,13 @@
-\contentsline {chapter}{\numberline {1}Onde}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Onde meccaniche}{4}{section.1.1}%
+\contentsline {chapter}{\numberline {1}Onde}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Onde piane armoniche}{3}{section.1.1}%
+\contentsline {paragraph}{Periodo spaziale}{3}{section.1.1}%
+\contentsline {paragraph}{Periodo temporale}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Propagazione dell'energia in una barra solida}{4}{subsection.1.1.1}%
+\contentsline {subsubsection}{Energia per unità di volume}{4}{equation.1.1.1}%
+\contentsline {subsubsection}{Intensità dell'onda}{5}{equation.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Propagazione dell'energia in una corda tesa}{5}{subsection.1.1.2}%
+\contentsline {subsubsection}{Energia per unità di lunghezza}{6}{equation.1.1.3}%
+\contentsline {section}{\numberline {1.2}Onde sonore}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Pressione}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Potenza}{7}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Intensità}{7}{subsection.1.2.3}%
