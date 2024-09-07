@@ -1,8 +1,40 @@
 \contentsline {chapter}{\numberline {1}Onde}{2}{chapter.1}%
-\contentsline {subsection}{\numberline {1.0.1}Fonometria}{2}{subsection.1.0.1}%
-\contentsline {subsubsection}{Livello sonoro}{3}{section*.2}%
-\contentsline {subsection}{\numberline {1.0.2}Assorbimento dell'energia}{4}{subsection.1.0.2}%
-\contentsline {section}{\numberline {1.1}Pacchetti d'onde}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Velocità di fase e velocità di gruppo}{5}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}Effetto Doppler}{8}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Sorgente in moto}{8}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.1}Onde meccaniche}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Onde in una sbarra solida}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Onde in una corda tesa}{5}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Onde nei gas}{6}{subsection.1.1.3}%
+\contentsline {subsubsection}{Densità}{6}{section*.2}%
+\contentsline {subsubsection}{Pressione}{7}{equation.1.1.4}%
+\contentsline {subsubsection}{Forza}{7}{equation.1.1.5}%
+\contentsline {subsubsection}{Modulo di compressibilità adiabatica}{7}{equation.1.1.6}%
+\contentsline {section}{\numberline {1.2}Onde piane armoniche}{9}{section.1.2}%
+\contentsline {paragraph}{Periodo spaziale}{9}{section.1.2}%
+\contentsline {paragraph}{Periodo temporale}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Propagazione dell'energia in una barra solida}{10}{subsection.1.2.1}%
+\contentsline {subsubsection}{Energia per unità di volume}{10}{equation.1.2.8}%
+\contentsline {subsubsection}{Intensità dell'onda}{11}{equation.1.2.9}%
+\contentsline {subsection}{\numberline {1.2.2}Propagazione dell'energia in una corda tesa}{11}{subsection.1.2.2}%
+\contentsline {subsubsection}{Energia per unità di lunghezza}{12}{equation.1.2.10}%
+\contentsline {section}{\numberline {1.3}Onde sonore}{12}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Pressione}{12}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Potenza}{13}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Intensità}{13}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Fonometria}{13}{subsection.1.3.4}%
+\contentsline {subsubsection}{Livello sonoro}{14}{section*.3}%
+\contentsline {section}{\numberline {1.4}Onde in più dimensioni}{14}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Onde elastiche in una membrana tesa}{15}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Onde sferiche}{16}{subsection.1.4.2}%
+\contentsline {subsubsection}{Intensità}{16}{equation.1.4.16}%
+\contentsline {subsection}{\numberline {1.4.3}Onde cilindriche}{16}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Assorbimento dell'energia}{18}{subsection.1.4.4}%
+\contentsline {section}{\numberline {1.5}Pacchetti d'onde}{19}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Velocità di fase e velocità di gruppo}{19}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.6}Effetto Doppler}{22}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Sorgente in moto}{22}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Rivelatore in moto}{23}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Espressione generale}{23}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Onda d'urto}{23}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}Onde sferiche}{24}{subsection.1.6.5}%
+\contentsline {section}{\numberline {1.7}Interferenza}{24}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Interferenza con stessa ampiezza}{24}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Interferenza costruttiva e distruttiva}{25}{subsection.1.7.2}%
