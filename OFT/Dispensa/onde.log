@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  7 SEP 2024 08:50
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  11 SEP 2024 13:55
  restricted system commands enabled.
 **onde.tex
 (./onde.tex
@@ -1870,15 +1870,15 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write7
-
-\openout7 = onde.toc
-
+)
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
-]
+])
+\tf@toc=\write7
+
+\openout7 = onde.toc
+ [2]
 Chapter 1.
 
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 240--241
@@ -1898,15 +1898,15 @@ ale detta \T1/futs/b/n/10 equazione delle onde \T1/futs/m/n/10 o \T1/futs/b/n/1
 0 equazione
  []
 
-[2
+[3
 
 ]
-<imgs/ondeinsbarra.png, id=219, 877.77937pt x 605.26125pt>
+<imgs/ondeinsbarra.png, id=340, 877.77937pt x 605.26125pt>
 File: imgs/ondeinsbarra.png Graphic file (type png)
 <use imgs/ondeinsbarra.png>
 Package luatex.def Info: imgs/ondeinsbarra.png  used on input line 294.
 (luatex.def)             Requested size: 263.33585pt x 181.57976pt.
- [3<./imgs/ondeinsbarra.png>]
+ [4<./imgs/ondeinsbarra.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 318--320
 
  []
@@ -1926,13 +1926,13 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 356--357
  [][][][][][] 
  []
 
-[4]
-<imgs/corda1.png, id=231, 983.92593pt x 255.20343pt>
+[5]
+<imgs/corda1.png, id=352, 983.92593pt x 255.20343pt>
 File: imgs/corda1.png Graphic file (type png)
 <use imgs/corda1.png>
 Package luatex.def Info: imgs/corda1.png  used on input line 373.
 (luatex.def)             Requested size: 196.7817pt x 51.03978pt.
-<imgs/corda2.png, id=232, 599.23875pt x 383.93437pt>
+<imgs/corda2.png, id=353, 599.23875pt x 383.93437pt>
 File: imgs/corda2.png Graphic file (type png)
 <use imgs/corda2.png>
 Package luatex.def Info: imgs/corda2.png  used on input line 378.
@@ -1957,12 +1957,12 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 412--413
  [][][][][][] 
  []
 
-[5<./imgs/corda1.png><./imgs/corda2.png>]
+[6<./imgs/corda1.png><./imgs/corda2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
 
-<imgs/ondeingas.png, id=240, 804.75656pt x 383.93437pt>
+<imgs/ondeingas.png, id=361, 804.75656pt x 383.93437pt>
 File: imgs/ondeingas.png Graphic file (type png)
 <use imgs/ondeingas.png>
 Package luatex.def Info: imgs/ondeingas.png  used on input line 430.
@@ -1971,18 +1971,18 @@ Package luatex.def Info: imgs/ondeingas.png  used on input line 430.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 433.
 
-[6<./imgs/ondeingas.png>]
+[7<./imgs/ondeingas.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 489--491
 
  []
 
-[7] [8]
-<imgs/periodo1.png, id=258, 411.78844pt x 227.34938pt>
+[8] [9]
+<imgs/periodo1.png, id=379, 411.78844pt x 227.34938pt>
 File: imgs/periodo1.png Graphic file (type png)
 <use imgs/periodo1.png>
 Package luatex.def Info: imgs/periodo1.png  used on input line 541.
 (luatex.def)             Requested size: 164.71245pt x 90.93813pt.
-<imgs/periodo2.png, id=259, 411.78844pt x 227.34938pt>
+<imgs/periodo2.png, id=380, 411.78844pt x 227.34938pt>
 File: imgs/periodo2.png Graphic file (type png)
 <use imgs/periodo2.png>
 Package luatex.def Info: imgs/periodo2.png  used on input line 546.
@@ -2002,7 +2002,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 577--579
 
  []
 
-[9<./imgs/periodo1.png><./imgs/periodo2.png>]
+[10<./imgs/periodo1.png><./imgs/periodo2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 590--591
 
  []
@@ -2012,8 +2012,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 623--625
 
  []
 
-[10]
-<imgs/energiacorda.png, id=274, 568.37344pt x 429.10312pt>
+[11]
+<imgs/energiacorda.png, id=395, 568.37344pt x 429.10312pt>
 File: imgs/energiacorda.png Graphic file (type png)
 <use imgs/energiacorda.png>
 Package luatex.def Info: imgs/energiacorda.png  used on input line 661.
@@ -2023,8 +2023,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 688--690
 
  []
 
-[11<./imgs/energiacorda.png>] [12]
-<imgs/sogliadolore.png, id=288, 978.65625pt x 679.03688pt>
+[12<./imgs/energiacorda.png>] [13]
+<imgs/sogliadolore.png, id=409, 978.65625pt x 679.03688pt>
 File: imgs/sogliadolore.png Graphic file (type png)
 <use imgs/sogliadolore.png>
 Package luatex.def Info: imgs/sogliadolore.png  used on input line 777.
@@ -2034,7 +2034,7 @@ Overfull \hbox (27.85347pt too wide) in paragraph at lines 777--778
  [] 
  []
 
-<imgs/livello_sonoro.png, id=289, 685.05937pt x 504.38437pt>
+<imgs/livello_sonoro.png, id=410, 685.05937pt x 504.38437pt>
 File: imgs/livello_sonoro.png Graphic file (type png)
 <use imgs/livello_sonoro.png>
 Package luatex.def Info: imgs/livello_sonoro.png  used on input line 782.
@@ -2049,7 +2049,7 @@ Overfull \hbox (16.56999pt too wide) in paragraph at lines 775--785
 []$[]$ $[]$ 
  []
 
-[13<./imgs/sogliadolore.png><./imgs/livello_sonoro.png>]
+[14<./imgs/sogliadolore.png><./imgs/livello_sonoro.png>]
 LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
 805.
 
@@ -2060,14 +2060,14 @@ File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 815.
 
-[14]
-<imgs/membrana.png, id=303, 365.86688pt x 299.61937pt>
+[15]
+<imgs/membrana.png, id=424, 365.86688pt x 299.61937pt>
 File: imgs/membrana.png Graphic file (type png)
 <use imgs/membrana.png>
 Package luatex.def Info: imgs/membrana.png  used on input line 861.
 (luatex.def)             Requested size: 128.05531pt x 104.86835pt.
- [15<./imgs/membrana.png>]
-<imgs/ondesferiche.png, id=311, 1027.58907pt x 642.90187pt>
+ [16<./imgs/membrana.png>]
+<imgs/ondesferiche.png, id=431, 1027.58907pt x 642.90187pt>
 File: imgs/ondesferiche.png Graphic file (type png)
 <use imgs/ondesferiche.png>
 Package luatex.def Info: imgs/ondesferiche.png  used on input line 891.
@@ -2089,22 +2089,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 894--895
 
  []
 
-<imgs/cilindro.png, id=313, 294.34969pt x 377.91188pt>
+<imgs/cilindro.png, id=433, 294.34969pt x 377.91188pt>
 File: imgs/cilindro.png Graphic file (type png)
 <use imgs/cilindro.png>
 Package luatex.def Info: imgs/cilindro.png  used on input line 931.
 (luatex.def)             Requested size: 88.30557pt x 113.37444pt.
-[16<./imgs/ondesferiche.png><./imgs/cilindro.png>] [17]
+[17<./imgs/ondesferiche.png><./imgs/cilindro.png>] [18]
 Underfull \hbox (badness 10000) in paragraph at lines 968--970
 
  []
 
-[18]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 991--992
 
  []
 
-<imgs/pacchetti.png, id=331, 709.90219pt x 395.22656pt>
+<imgs/pacchetti.png, id=451, 709.90219pt x 395.22656pt>
 File: imgs/pacchetti.png Graphic file (type png)
 <use imgs/pacchetti.png>
 Package luatex.def Info: imgs/pacchetti.png  used on input line 1007.
@@ -2114,54 +2114,337 @@ Underfull \hbox (badness 10000) in paragraph at lines 1029--1031
 
  []
 
-[19<./imgs/pacchetti.png>]
+[20<./imgs/pacchetti.png>]
 Overfull \hbox (1.25583pt too wide) in paragraph at lines 1062--1063
 []\T1/futs/m/n/10 Ab-bi-amo quindi un'onda di alta fre-quenza che si propaga con
  \T1/futs/b/n/10 ve-loc-ità di fase me-dia $\FML/futmi/m/it/10 v[]$ \T1/futs/m
 /n/10 e con ampiezza
  []
 
-[20] [21]
-<imgs/doppler.png, id=349, 801.74532pt x 346.29375pt>
+[21] [22]
+<imgs/doppler.png, id=470, 801.74532pt x 346.29375pt>
 File: imgs/doppler.png Graphic file (type png)
 <use imgs/doppler.png>
 Package luatex.def Info: imgs/doppler.png  used on input line 1124.
 (luatex.def)             Requested size: 320.69244pt x 138.51503pt.
- [22<./imgs/doppler.png>]
-<imgs/ondaurto.png, id=356, 376.40625pt x 376.40625pt>
+ [23<./imgs/doppler.png>]
+<imgs/ondaurto.png, id=477, 376.40625pt x 376.40625pt>
 File: imgs/ondaurto.png Graphic file (type png)
 <use imgs/ondaurto.png>
 Package luatex.def Info: imgs/ondaurto.png  used on input line 1163.
 (luatex.def)             Requested size: 150.55983pt x 150.55983pt.
- [23<./imgs/ondaurto.png>]
+ [24<./imgs/ondaurto.png>]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 1190--1191
  [][][][][][] 
  []
 
-[24]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 1242--1243
 
  []
 
-[25] (./onde.aux)
+[26] [27] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
+
+ []
+
+<imgs/stazionarie.png, id=505, 164.11313pt x 49.68562pt>
+File: imgs/stazionarie.png Graphic file (type png)
+<use imgs/stazionarie.png>
+Package luatex.def Info: imgs/stazionarie.png  used on input line 1378.
+(luatex.def)             Requested size: 164.11272pt x 49.6855pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1386
+
+ []
+
+<imgs/riflessa1.png, id=506, 735.74875pt x 595.22375pt>
+File: imgs/riflessa1.png Graphic file (type png)
+<use imgs/riflessa1.png>
+Package luatex.def Info: imgs/riflessa1.png  used on input line 1389.
+(luatex.def)             Requested size: 80.9326pt x 65.47481pt.
+<imgs/riflessa2.png, id=507, 735.74875pt x 595.22375pt>
+File: imgs/riflessa2.png Graphic file (type png)
+<use imgs/riflessa2.png>
+Package luatex.def Info: imgs/riflessa2.png  used on input line 1394.
+(luatex.def)             Requested size: 80.9326pt x 65.47481pt.
+[29<./imgs/stazionarie.png><./imgs/riflessa1.png><./imgs/riflessa2.png>]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1457--1458
+ [][][][][][] 
+ []
+
+[30]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1525--1526
+ [][][][][][] 
+ []
+
+[31] [32]
+Chapter 2.
+
+Overfull \hbox (32.26317pt too wide) detected at line 1587
+[]
+ []
+
+
+Overfull \hbox (33.83316pt too wide) in paragraph at lines 1578--1594
+[]$[]$ $[]$ 
+ []
+
+[33
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1606--1609
+
+ []
+
+
+Overfull \hbox (5.27937pt too wide) in paragraph at lines 1634--1636
+\T1/futs/m/n/10 quindi se lungo una su-per-fi-cie iso-bar-ica e equipoten-ziale si hanno pres-sione ed en-er-gia poten-ziale costanti,
+ []
+
+[34] [35]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 1763.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 1763.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 1763.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6.8> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 1763.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 1763.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 1763.
+
+Overfull \hbox (1.56999pt too wide) in paragraph at lines 1739--1790
+$[]$ $[]$ 
+ []
+
+[36]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1841--1842
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 1851--1852
+\T1/futs/m/n/10 In sostanza è una de-scrizione \T1/futs/b/n/10 analoga a
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 1856--1857
+\T1/futs/m/n/10 flu-ida $\FML/futmi/m/it/10 P\T1/futs/m/n/10 (\FML/futmi/m/it/1
+0 x; y; z\T1/futs/m/n/10 )$ e si con-sid-era la ve-loc-ità
+ []
+
+[37]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1867--1868
+ [][][][][][] 
+ []
+
+contour: Using real outline for `$v_2$' on input line 1909.
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1927--1928
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 1943--1944
+ [][][][][][] 
+ []
+
+[38
+Non-PDF special ignored!
+Non-PDF special ignored!]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2059--2060
+ [][][][][][] 
+ []
+
+[39]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2170--2171
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2185--2187
+
+ []
+
+[40]
+Overfull \hbox (7.45264pt too wide) in paragraph at lines 2300--2301
+[]\T1/futs/m/n/10 Per ri-cavare un'espres-sione della forza pos-si-amo pas-sare dall'equazione di Bernoulli. Si hanno i seguenti
+ []
+
+[41
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 7 (U+0037) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 7 (U+0037) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 7 (U+0037) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 7 (U+0037) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no * (U+002A) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+] [42] (./onde.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `onde.out' has not changed.
-(rerunfilecheck)             Checksum: F0F12B113D65392C8E7337BA64C040F0;6173.
+(rerunfilecheck)             Checksum: FA783363AF96EA5D63A93A0FEB565256;10345.
 )
 
 Here is how much of LuaTeX's memory you used:
- 54413 strings out of 476447
- 125027,2373549 words of node,token memory allocated
- 1266 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 186 attribute, 62 glue_spe
-c, 186 attribute_list, 2 write nodes
-   avail lists: 2:1166,3:555,4:162,5:666,6:116,7:4961,8:95,9:1221,10:14,11:296
- 74712 multiletter control sequences out of 65536+600000
- 117 fonts using 7090319 bytes
- 117i,15n,109p,718b,1536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55997 strings out of 476447
+ 195365,2848258 words of node,token memory allocated
+ 1727 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 300 attribute, 63 glue_spe
+c, 300 attribute_list, 2 write nodes
+   avail lists: 1:1,2:20610,3:10462,4:700,5:784,6:131,7:13061,8:95,9:1334,10:14,
+11:326
+ 76181 multiletter control sequences out of 65536+600000
+ 155 fonts using 9447679 bytes
+ 117i,24n,109p,718b,1536s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
@@ -2172,10 +2455,10 @@ pe1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
 a/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts
 /type1/adobe/utopia/putri8a.pfb>
-Output written on onde.pdf (26 pages, 1428708 bytes).
+Output written on onde.pdf (43 pages, 1642740 bytes).
 
-PDF statistics: 418 PDF objects out of 1000 (max. 8388607)
- 345 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 131072)
- 320 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 666 PDF objects out of 1000 (max. 8388607)
+ 563 compressed objects within 6 object streams
+ 150 named destinations out of 1000 (max. 131072)
+ 554 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  6 SEP 2024 12:14
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  10 SEP 2024 15:17
  restricted system commands enabled.
 **analisi_2.tex
 (./analisi_2.tex
@@ -1510,67 +1510,82 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 282--283
 
 LaTeX Warning: Command \textbackslash invalid in math mode on input line 368.
 
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 433--434
+ [][][][][][] 
+ []
+
 [6]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 436--437
- [][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 446--447
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 455--456
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 464--465
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 473--474
- [][][][][][] 
- []
-
-
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 491--492
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 454--455
  [][][][][][] 
  []
 
 [7]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 527--528
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 478--479
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 573--574
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 505--506
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 604--605
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 514--515
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--635
-
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 523--524
+ [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 635--636
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 532--533
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 550--551
  [][][][][][] 
  []
 
 [8]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 643--644
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 586--587
  [][][][][][] 
  []
 
-[9] (./analisi_2.aux)
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 632--633
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 663--664
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--694
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 694--695
+ [][][][][][] 
+ []
+
+[9]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 702--703
+ [][][][][][] 
+ []
+
+[10] (./analisi_2.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1578,15 +1593,15 @@ L3 programming layer <2024-02-20>
 )
 
 Here is how much of LuaTeX's memory you used:
- 44691 strings out of 476447
+ 44700 strings out of 476447
  100000,2373549 words of node,token memory allocated
- 778 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 8 sub_mlist, 1 glyph, 64 attribute,
- 59 glue_spec, 64 attribute_list, 2 write nodes
-   avail lists: 2:1966,3:1211,4:184,5:486,6:86,7:4244,8:42,9:736,10:8,11:312
- 65524 multiletter control sequences out of 65536+600000
- 56 fonts using 3767983 bytes
- 117i,11n,109p,723b,1458s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 806 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 8 sub_mlist, 1 glyph, 71 attribute,
+ 59 glue_spec, 71 attribute_list, 2 write nodes
+   avail lists: 2:2172,3:1259,4:192,5:509,6:90,7:4412,8:55,9:790,10:8,11:322
+ 65533 multiletter control sequences out of 65536+600000
+ 62 fonts using 4140847 bytes
+ 117i,12n,109p,723b,1458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share
 /texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf-dist/f
 onts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/opent
@@ -1595,16 +1610,17 @@ nts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
 fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msbm7.pfb>
-Output written on analisi_2.pdf (10 pages, 148046 bytes).
+sfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
 
-PDF statistics: 114 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+Output written on analisi_2.pdf (11 pages, 161084 bytes).
+
+PDF statistics: 123 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

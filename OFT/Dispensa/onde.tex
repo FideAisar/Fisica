@@ -1269,1040 +1269,1055 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 		I = 4I_0 \cos^2\left(\textcolor{blue}{m\pi }\right) = 0 
 		\]
 	\end{es}
-%	
-%	\subsection{Interferenza con ampiezze diverse}
-%	Prendiamo in considerazine due onde \(\xi_1\) e \(\xi_2\) con ampiezze diverse. Ci è comodo rappresentare le onde in "forma vettoriale" così da poter esplicitare alcuni termini più agevolmente.
-%	\[ 
-%	\xi_1 = A_1 \cos\left(kx_1 - \omega t + \phi_1\right) = A_1 \cos\left(\omega t + \alpha_1\right)
-%	\]
-%	\[ 
-%	\xi_2 = A_2 \cos\left(kx_2 - \omega t + \phi_2\right) = A_2 \cos\left(\omega t + \alpha_2\right)
-%	\]
-%	\[ 
-%	\boldsymbol{\xi} = \xi _1 + \xi _2 = \boldsymbol{A}\cos\left(\omega t + \boldsymbol{\alpha}\right)
-%	\]
-%	Rappresentiamo \(A_1,A_2\) e \(A\) come dei vettori rotanti (per il contributo del coseno) visti all'istante \(t=0\), quindi senza il termine \(\omega t\):
-%	
-%	\begin{center}
-%		\textcolor{red}{inserire grafici}
-%	\end{center}
-%	
-%	Esplicitiamo l'angolo \(\alpha\):
-%	\[ 
-%	A\cos\alpha = A_1\cos\alpha_1 + A_2\cos\alpha_2		
-%	\]
-%	\[ 
-%	A\sin\alpha = A_1\sin\alpha_1 + A_2\sin\alpha_2		
-%	\]
-%	da cui, elevando al quadrato:
-%	\begin{align*} 
-%		A^2\cos^2\alpha + A^2\sin^2\alpha =& (A_1\cos\alpha_1 + A_2\cos\alpha_2)^2 + (A_1\sin\alpha_1 + A_2\sin\alpha_2)^2\\
-%		A^2 =& A_1^2\cos^2\alpha_1 + 2A_2A_1\cos\alpha_1\cos\alpha_2 + A_2^2\cos^2\alpha_2 + \\ &+ A_1^2\sin^2\alpha_1 + 2A_2A_1\sin\alpha_1\sin\alpha_2 + A_2^2\sin^2\alpha_2\\
-%		=& A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) + 2A_2A_1(\cos\alpha_1\cos\alpha_2 + \sin\alpha_1\sin\alpha_2)\\
-%		=&  A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) +  2A_2A_1\cos\left(\alpha_1 - \alpha_2\right)
-%	\end{align*} 
-%	
-%	\[ 
-%	\boxed{\delta = \alpha_1 - \alpha_2}
-%	\]
-%	
-%	\begin{equation}
-%		A = \sqrt{A_1^2 + A_2^2 + 2A_2A_1\cos\delta}
-%	\end{equation}
-%	Come prima, sapendo che l'intensità è proporzionale all'ampiezza al quadrato:
-%	\begin{align*}
-%		I =& KA^2 \\ 
-%		=& K\left(A_1^2 + A_2^2 + 2A_2A_1\cos\delta\right)\\
-%		=& \textcolor{cyan}{KA_1^2} + \textcolor{blue}{KA_2^2} + 2\textcolor{red}{KA_1A_2}\cos\delta
-%	\end{align*}
-%	
-%	\[ 
-%	\boxed{\textcolor{cyan}{KA_1^2}= I_1} \qquad \boxed{\textcolor{blue}{KA_2^2} = I_2 } 
-%	\]
-%	per esprimere il termine rettangolare in funzione di \(I_1\) e \(I_2\) sviluppo \(I_1I_2 = K^2A_1^2A_2^2\) e quindi
-%	
-%	\[ 
-%	\boxed{\sqrt{I_1I_2} = \textcolor{red}{KA_1A_2}}
-%	\]
-%	
-%	da cui
-%	
-%	\begin{equation}
-%		\viola{I = I_1 + I_2 + 2\sqrt{I_1I_2}\cos\delta}
-%	\end{equation}
-%	
-%	
-%	\begin{es}{}
-%		\subsection{Interferenza costruttiva e distruttiva}
-%		Nel caso di due onde con ampiezze diverse 
-%		\begin{center}
-%			\textcolor{red}{trova}
-%		\end{center}
-%		
-%	\end{es}
-%	
-%	
-%	\subsection{Sorgenti puntiformi}
-%	\begin{center}
-%		\textcolor{red}{guarda slides}
-%	\end{center}
-%	
-%	\newpage
-%	\section{Riflessione e trasmissione}
-%	Prendiamo in esame una corda divisa in due segmenti uniti ma con densità lineari differenti. La velocità, dipendendo da \(\mu\), sarà diversa nei due mezzi:
-%	\[ 
-%	v_1 = \sqrt{\frac{T}{\mu_1}} \qquad v_2 = \sqrt{\frac{T}{\mu_2}} 
-%	\]
-%	da cui, poiché \(k = \omega / v\), anche i due \(k\) saranno diversi
-%	\[ 
-%	k_1 = \omega \sqrt{\frac{\mu_1}{T}} \qquad k_2 = \omega \sqrt{\frac{\mu_2}{T}} 
-%	\]
-%	Andiamo quindi a distinguere tre tipi di onde che si propagano sulla corda: una incidente, una trasmessa e una riflessa:
-%	\[ 
-%	\xi_i = \xi_{0i}\sin\left(k_1 x - \omega t\right)
-%	\]
-%	\[ 
-%	\xi_r = \xi_{0r}\sin\left(k_1 x + \omega t\right)
-%	\]
-%	\[ 
-%	\xi_t = \xi_{0t}\sin\left(k_2 x - \omega t\right)
-%	\]
-%	Nel punto di contatto tra i due tratti \textbf{imponiamo la continuità della funzione d'onda}:
-%	
-%	
-%	\newpage
-%	\section{Onde stazionarie}
-%	Un'altro tipo di oscellazioni rilevanti sono le onde stazionarie, onde i cui punti oscillano con ampiezza che varia solo con la posizione. Si osserva che le posizioni di massima ampiezza e dei punti fermi (nodi) non variano nel tempo, per questo possiamo definire questo tipo di oscillazione un'\textbf{oscillazione collettiva} del fenomeno \textbf{cui non è associato un fenomeno di propagazione}. \\
-%	
-%	\begin{center}
-%		\textcolor{red}{inserire grafici}
-%	\end{center}
-%	
-%	\noindent
-%	Consideriamo una corda fissa ad un solo estremo \(\boldsymbol{O}\) su cui poniamo lo zero dell'asse \(x\); sull'estremo libero applichiamo una perturbazione \textbf{sinusoidale} regressiva di frequenza \(f\) tramite un diapason:
-%	\[ 
-%	\xi_1 (x,t) = A\sin\left(kx +\omega t\right) 
-%	\]
-%	L'onda si propaga fino all'estremo fisso \(\boldsymbol{O}\) che deve rimanere fermo, tuttavia sappiamo che in \(\boldsymbol{O}\) risulta una perturbazione \(\xi_1(0,t)\). Ci deve essere una seconda perturbazione \(\xi_2(0,t)\) generata dal vincolo tale che
-%	\[ 
-%	\xi _1(0,t) + \xi _2 (0,t) = 0 \quad \to \quad \xi _2 (0,t) = - A\sin\left(\omega t\right) = A\sin\left(-\omega t\right)
-%	\]
-%	quindi la seconda onda si propaga nel verso positivo dell'asse \(x\) con equazione
-%	\[ 
-%	\xi _2 (x,t) = A\sin\left(kx - \omega t\right)
-%	\]
-%	L'equazione complessiva dell'onda si ottiene sommando le due
-%	\[ 
-%	\xi(x,t) = \xi_1 (x,t) +  \xi _2 (x,t) = A\left[\sin\left(kx +\omega t\right)  + \sin\left(kx - \omega t\right)\right]
-%	\]
-%	\[
-%	\textcolor{gray}{\textit{prostaferesi: } \quad \sin\alpha + \sin\beta = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
-%	\]
-%	
-%	\begin{equation}
-%		\viola{\xi (x,t) = 2A\sin\left(kx\right)\cos\left(\omega t\right)}
-%	\end{equation}
-%	L'equazione rappresenta  un'oscillazione armonica semplice di pulsazione \(\omega \) e con \textbf{ampiezza che dipende dalla posizione}; come ci aspettavamo nell'equazione \textbf{non compare il termine \(\boldsymbol{kx \pm \omega t}\)} proprio perché l'oscillazione non si propaga. Troviamo i massimi e i minimi ponendo 
-%	\[ 
-%	\sin\left(kx\right) = \pm 1 \qquad \to \qquad kx = \frac{1}{2}\pi + m\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = \frac{\pi }{2}(1 + 2m) \quad \to 
-%	\]
-%	\begin{equation}
-%		\textbf{Ventri:} \quad	\viola{x = \frac{\lambda}{4}(1+2m)} \quad m=0,1,2,\dots
-%	\end{equation}
-%	invece i nodi li troviamo ponendo 
-%	\[ 
-%	\sin\left(kx\right) = 0 \qquad \to \qquad kx =  m'\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = m'\pi  \quad \to 
-%	\]
-%	\begin{equation}\label{nodi}
-%		\textbf{Nodi:} \quad	\viola{x = \frac{\lambda}{2} m'} \quad m'=0,1,2,\dots
-%	\end{equation}
-%	
-%	\subsection{Corda tesa con due estremi fissi}
-%	Supponiamo di avere una corda vibrante di lunghezza \(L\) con nodi nei punti di coordinate \(x=0\) e \(x=L\). Vediamo come fissata una lunghezza \(L\) della corda, in questa possono aver luogo soltanto le onde stazionarie di lunghezza d'onda \(\lambda_m\) e frequenza \(f_m\): dalla \ref{nodi} si ha che i nodi, in \(x=0\) e \(x=L\), sono descritti da
-%	\[ 
-%	x = \frac{\lambda}{2}m \quad \rightarrow \quad \begin{cases}
-%		0 = \frac{\lambda}{2}m\\ L = \frac{\lambda}{2}m
-%	\end{cases}
-%	\]
-%	\begin{equation}\label{lambdam}
-%		\text{dalla seconda: }\quad \to \quad \lambda = \viola{\lambda_m = \frac{2L}{\boldsymbol{m}}}
-%	\end{equation}
-%	Ricaviamo invece la frequenza dalla sua normale espressione utilizzando la \ref{corda} per la velocità:
-%	\[ 
-%	f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{2\frac{L}{m}} \quad \rightarrow \quad  \viola{f_m = \frac{\boldsymbol{m}}{2L}\sqrt{\frac{T}{\mu}}}
-%	\]
-%	In una corda tesa esiste dunque una \textbf{serie discreta} di lunghezze d'onda e frequenze detta \textbf{serie armonica} in  cui  la frequenza più bassa  \(f_1\) è chiamata \textbf{frequenza fondamentale} o \textbf{prima armonica}, tutte le altre sono dette \textbf{armoniche superiori}
-%	
-%	\begin{center}
-%		\fboxsep11pt
-%		\colorbox{yblue}{\begin{minipage}{5.75in}
-%				\begin{blues}{Modo della corda}
-%					Viene chiamato \textbf{modo} della corda una particolare onda stazionaria con \textit{tot} nodi. Una coda ha pertanto \(\infty^1\) modi discreti. Un particolare modo può essere eccitato pizzicando opporunamente la corda oppure per mezzo di un diapason.
-%				\end{blues}
-%		\end{minipage}}
-%	\end{center}
-%	
-%	
-%	Nel caso del diapason: se questo è posto su un estremo della corda così da fungere da nodo, genera un'onda che arrivata all'estremo opposto si andrà a riflettere tornando dal diapason per poi rifletersi nuovamente, tutto questo in un certo tempo \(t\) che possiamo trovare: sappiamo che l'onda viaggia a velocità \(v\) e deve percorrere un tratto lungo \(2L\), quindi 
-%	\[ 
-%	t = \frac{2L}{v}
-%	\]
-%	dalla \ref{lambdam} sappiamo che \(2L = \lambda \boldsymbol{m}\)
-%	\[ 
-%	t = \frac{\lambda m}{v}
-%	\]
-%	e sappiamo che il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T = \frac{\lambda}{v}\)
-%	\[ 
-%	t = mT
-%	\]
-%	quindi l'onda viene riflessa in un tempo multiplo del periodo e perciò l'onda sarà \textbf{in fase} con la crestà dell'onda che il diapason emette al tempo \(t + mT\) creando un fenomeno di \textbf{risonanza}. L'oscillazione tende quindi ad aumentare e il limite a questo aumento è solo posto a fenomeni di smorzamento dati da vincoli non ideali e attriti.
-%	
-%	Nel caso in cui non fosse soddisfattta la \ref{lambdam}, e quindi non si possa esprimere \(2L = \lambda m\) si stabilisce un'onda risultante di tutte le onde che hanno origine nelle varie riflessioni la cui ampiezza coincide con quella del diapason.
-%	
-%	\subsection{Corda tesa con un estremo fisso}
-%	La condizione da soddisfare per avere onde stazionarie stabili in una corda con un estremo libero è imporre che une dei due estremi rimanga fisso (nodo), e che l'altro sia un ventre:
-%	
-%	\[ 
-%	\text{Ventre:} \quad x = \frac{\lambda}{4}(1+2m) \quad \to \quad L = \frac{\lambda}{4}(1+2m) \quad \to 
-%	\]
-%	\begin{equation}\label{lambdam2}
-%		\lambda = \viola{\lambda_m  = \frac{4L}{1+2m}}
-%	\end{equation}
-%	come nel caso a due estremi fissi ricaviamo la frequenza:
-%	\[ 
-%	f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{\frac{4L}{1+2m}} \quad \to
-%	\]
-%	\begin{equation}
-%		\viola{f_m = \frac{1 + 2m}{4L} \sqrt{\frac{T}{\mu}}}
-%	\end{equation}
-%	Come prima se poniamo un diapason sull'estremo fisso si hanno le condizioni di risonanza: l'onda che arriva all'estremo libero viene riflessa senza capovolgersi, arrivata al diapason si capovolge e torna verso l'estremo libero; vediamo quanto impiega l'onda a percorrere la corda:
-%	\[ 
-%	t = \frac{2L}{v}
-%	\]
-%	dalla \ref{lambdam2} sappiamo che \(2L = \frac{1+2m}{2}\lambda\)
-%	\[ 
-%	t = \frac{1+2m}{2v}\lambda = \frac{1+2m}{2}\frac{\lambda}{v}
-%	\]
-%	e poiché il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T=\frac{\lambda}{v}\)
-%	\[ 
-%	t = \frac{1+2m}{2}T
-%	\]
-%	Anche in questo caso l'onda impiega un tempo proporzionale al periodo \textcolor{red}{nonm ho ben capito. riguarda questa parte sulle slide}
-%	
-%	\subsection{Onde stazionarie in una colonna di gas}
-%	Andiamo a considerare, in una canna di un organo per esempio, un'onda di pressione e una di spostamento. Se la canna è aperta in entrambi gli estremisi realizzano le stesse condizioni per la pressione e per lo spostamento, in sostanza la condizione è equivalente alla corda con due estremi fissi.
-%	
-%	Se invece un estremo è chiuso, nel punto di chiusura si avràun ventre di pressione (che sale) e un nodo di spostamento (l'aria si ferma); la situazione è quindi analoga a quella di una corda con un estremo fisso e uno libero.
-%	
-%	\begin{center}
-%		\textcolor{red}{riporta calcoli}
-%	\end{center}
-%	
-%	\subsection{Timbro}
-%	Uno strumento fornisce un massimo di potenza quando \textbf{la frequenza di eccitazione coincide con una delle frequenze della serie armonica}. Il fenomeno elle riflessioni multible \textbf{esalta le frequenze della serie armonica} e \textbf{smorza tute le altre} che risultano quasi assenti. Perciò comprendiamo come la stessa nota con frequenza fondamentale \(f_1\) abbia una composizione armonica che dipende dallo strumento, proprio perché ogni strumento fornisce frequenze di eccitazioni differenti.
-%	
-%	\begin{center}
-%		\fboxsep11pt
-%		\colorbox{yblue}{\begin{minipage}{5.75in}
-%				\begin{blues}{Timbro}
-%					La composizione armonica di una nota dipendente dallo strumento e dalla particolare frequenza di eccitazione è chiamata \textbf{timbro}
-%				\end{blues}
-%		\end{minipage}}
-%	\end{center}
-%	
-%	
-%	
-%	
-%	\chapter{Fluidodinamica}
-%	\section{Pressione}
-%	Poiché non possiamo parlare di forza applicata in un punto del fluido andiamo a considerare un elemento infinitesimo di massa \(dm\) e volume \(dV\) e andiamo a distinguere le forze agenti su di esso. Distinguiamo le \textbf{forze di volume}, ovvero tutte quelle forze proporzionali a \(dV\), e \textbf{forze di superficie} porporzionali a \(dS\). \textit{Nel caso delle forze di superficie è bene caratterizzarle come somma di un termine normal a S e uno parallelo; noi consideriamo il fluido in equilibrio quindi il termine parallelo è nullo.}
-%	
-%	\[ 
-%	\textbf{Forze di volume:} \quad dF_V = dma_z = \rho \boldsymbol{dV}a_z
-%	\]
-%	\[ 
-%	\textbf{Forze di superficie:} \quad dF_{S\perp} = p\boldsymbol{dS}
-%	\]
-%	
-%	\noindent
-%	Le forze di superficie si riducono quindi alla sola componente perpendicolare e sono caratterizzate dalla pressione. La pressione che funge da coefficiente alla superficie \textbf{non ha caratteristiche direzionali}, è funzione scalare del punto che si considera e \textbf{non dipende deall'orientazione della superficie}.
-%	
-%	\begin{center}
-%		\textcolor{red}{inserire grafici}
-%	\end{center}
-%	\[ 
-%	\boxed{CH = AH \cos\left(\theta\right)} \qquad \boxed{BH = AH \sin\left(\theta\right)}
-%	\]
-%	\[ 
-%	p_A = \frac{F_A}{AH}
-%	\]
-%	\[ 
-%	\begin{cases}
-%		F_C = \textcolor{blue}{F_A \cos\left(\theta\right)}\\
-%		F_B = F_A \sin\left(\theta\right)
-%	\end{cases} \quad \to \quad
-%	\begin{cases}
-%		p_C = \frac{F_C}{CH} = \frac{\textcolor{blue}{F_A \cos\left(\theta\right)}}{AH \cos\left(\theta\right)} = \frac{F_A}{AH} \\
-%		p_B = \frac{F_B}{BH} = \frac{F_A \sin\left(\theta\right)}{AH \sin\left(\theta\right)} = \frac{F_A}{AH}
-%	\end{cases}
-%	\]
-%	\[ 
-%	\Longrightarrow\quad p_A = p_B = p_C =\boldsymbol{p}
-%	\]
-%	Quindi la pressione è una \textbf{quantità scalare} e il suo valore \textbf{dipende} in generale \textbf{dalla posizione del punto} ma non dalla direzione.
-%	
-%	
-%	\subsection{Equilibrio statico di un fluido}
-%	La condizione di equilibrio è che la somma di tutte le forze di volume e di superficie si annulli
-%	\[ 
-%	\overrightarrow{F}_{Vtot} + \overrightarrow{F}_{Stot} = 0
-%	\]
-%	Considero solo le forze dovute ad un'accelerazione lungo l'asse \(z\)
-%	
-%	\begin{es}{}
-%		\begin{minipage}{0.5\textwidth}
-%			\[ 
-%			\textbf{Forze di volume: } \quad dF_V = dma_z = \rho a_z dV
-%			\]
-%			\begin{align*}
-%				\textbf{Forze di superficie:} \quad dF_{S\perp} &= p(z)\boldsymbol{dS} - p(z + dz)dS \\
-%				&= \textcolor{red}{p(z)dS - p(z)dS} - p(dz)\textcolor{blue}{dS} \\
-%				&= -\frac{\partial p}{\partial z}dz \textcolor{blue}{dxdy} \\
-%				&=-\frac{\partial p}{\partial z} dV 
-%			\end{align*}
-%		\end{minipage}
-%		\begin{minipage}{0.5\textwidth}
-%			\begin{center}
-%				\textcolor{red}{inserire grafici}
-%			\end{center}
-%		\end{minipage}
-%	\end{es}
-%	\noindent
-%	Quindi per soddisfare la condizione di equilibrio deve valere
-%	\[ 
-%	\rho a_z dV -\frac{\partial p}{\partial z} dV  = 0 \quad \to
-%	\]
-%	\begin{equation}
-%		\viola{\frac{\partial p}{\partial z} = \rho a_z }
-%	\end{equation}
-%	che se estendiamo su tutte e tre le dimensioni diventa
-%	\begin{equation}\label{pressione}
-%		\viola{\boxed{\overrightarrow{\nabla} p = \rho \vec{a}}}
-%	\end{equation}
-%	Quindi la pressione aumenta lungo il verso positivo della forza (determinata dall'accelerazione \(a_*\)). La forza di volume tende infatti a spostare il volumetto determinando una \textbf{reazione} del fluido che si manifesta come una variazione di pressione. \textit{Notare l'analogia della pressione con la tensione in un filo massivo}.\\
-%	
-%	\noindent
-%	Si ottiene inoltre che la pressione è uniforme solo quando \(\rho a = 0\) che sulla terra sembrerebbe non poter mai essere verificata data l'accelerazione di gravità. Tuttavia per densità molto basse o volumi molto piccoli la pressione può essere considerata uniforme. \\
-%	
-%	\noindent
-%	Se la forza di volume agente sul fluido è conservativa il lavoro compiuto non dipende dal particolare percorso seguito, ma solo dalle coordinate dal punto iniziale e finale; inoltre vale
-%	\[ 
-%	\overrightarrow{F} = m \vec{a} = -\overrightarrow{\nabla}E_p
-%	\]
-%	perciò si può esprimere la \ref{pressione} come \(-\rho\) per il gradiente dell'\textbf{energia potenziale per unità di massa}
-%	\[
-%	\overrightarrow{\nabla} p = -\rho \frac{\overrightarrow{\nabla}E_p}{m}
-%	\]
-%	\begin{equation}\label{gradiente pressione}
-%		\viola{\boxed{\overrightarrow{\nabla} p = -\rho \overrightarrow{\nabla}E_{p,m}}}
-%	\end{equation}
-%	Infatti le \textbf{superfici isobariche coincidono con quelle equipotenziali}, quindi le variazioni di pressione e di energia potenziale sono le stesse ovunque nel passaggio da una superficie equipotenziale ad un'altra. 
-%	
-%	Se espclicitiamo i due nabla otteniamo l'espressione della variazione infinitesima di pressione:
-%	
-%	\[ 
-%	\boxed{\left|\overrightarrow{\nabla}p \right|= \left|\frac{dp}{ds}\right|} \qquad \boxed{\left|\overrightarrow{\nabla}E_{p,m} \right|= \left|\frac{dE_{p,m}}{ds}\right|}
-%	\]
-%	
-%	\[ 
-%	|dp |= -\rho |dE_{p,m}|
-%	\]
-%	quindi se lungo una superficie isobarica e equipotenziale si hanno pressione ed energia potenziale costanti, anche la densità lo è. Pertanto in un fluido sottoposto a forze conservative la \textbf{variazione di densità} segue geometricamente qualla di pressione e di energia potenziale.
-%	
-%	\subsection{Lavoro della pressione}
-%	Nel caso di equilibrio statico non ci sono spostamenti di conseguenza il lavoro è nullo. Nel caso di non equilibrio invece, considerando una situazione semplice di una forza verticale ortogonale alla superficie:
-%	\[ 
-%	dW = dF dh = p\textcolor{blue}{S dh }= dp \textcolor{blue}{dV }
-%	\] 
-%	\begin{equation}
-%		W = \int{pdV}
-%	\end{equation}
-%	
-%	\subsection{Equilibrio in presenza di forza peso}
-%	Applichiamo i risultati ottenuti precedentemente. In questo caso abbiamo come accelerazione \(a_z = -g\), quindi secondo la \ref{pressione} la pressione \textbf{varia solo lungo l'asse z}. Esplicitiamo i due gradienti così da esplicitare la \ref{gradiente pressione}:
-%	\[ 
-%	\boxed{\nabla p_z = \frac{d p}{d z} }\qquad \boxed{\nabla E_{p,m,z} = \frac{d E_{p,m}}{d z} = g}
-%	\]
-%	\[ 
-%	\frac{dp}{dz} = -\rho g
-%	\]
-%	\[ 
-%	\int_{p_1}^{p_2}dp = -\rho g \int_{z_1}^{z_2}dz
-%	\]
-%	\[ 
-%	p_2 - p_1 = -\rho g (z_2 - z_1)
-%	\]
-%	Quindi se la densità è costante, la pressione in un fluido in equilibrio sotto l'azione della forza di gravità varia secondo la \textbf{legge di Stevino }(\(p_2 = p_0\) e \(z_2 = 0\) e \(z_1 = -h\))
-%	\begin{equation}\label{stevino}
-%		\viola{ p(h) = p_0 -\rho g h}
-%	\end{equation}
-%	
-%	\section{Principio di Archimede}
-%	Un corpo immerso in un fluido riceve una spinta verticale verso l'alto  pari al peso del volume di fluido spostato
-%	\begin{equation}
-%		\viola{	\overrightarrow{F}_A = -\rho V \vec{g}}
-%	\end{equation}
-%	
-%	
-%	
-%	Vediamo come ottenere questa relazione: immaginiamo una prozione di fluido "immerso" di volume \(V_{0}\); essendo in equilibrio la somma delle forze di volume e delle forze di pressione deve essere nulla
-%	\[ 
-%	\overrightarrow{F}_{V} + \overrightarrow{F}_{P} = 0 \quad \to \quad F_{P} = mg
-%	\]
-%	se andiamo a sostituire il volume di fluido con un altro corpo di densità \(\rho'\), allora le forze di pressione esercitate dal fluido circostante rimane la stessa, mentre varia la forza eso. Pertanto non sussiste più la condizione di equilibrio e vale
-%	\[ 
-%	(m' - m)\vec{g} = (\rho'-\rho)V_{0}\vec{g}
-%	\]
-%	
-%	\begin{center}
-%		% BUOYANT FORCE
-%		\begin{tikzpicture}
-%			\def\H{2.5}      % container height
-%			\def\W{2.5}      % container width
-%			\def\h{0.9*\H}   % water level height
-%			\def\my{0.33*\H} % mass y position
-%			\def\mh{0.28*\H} % mass height
-%			\def\mw{0.35*\H} % mass width
-%			
-%			% CONTAINER
-%			\draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
-%			\draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H);
-%			
-%			% MASS
-%			\draw[dashed]
-%			(-0.64*\W,\my) -- (0.64*\W,\my)
-%			(-0.64*\W,\my+\mh) -- (0.64*\W,\my+\mh);
-%			\draw[mass] (-\mw/2,\my) rectangle++ (\mw,\mh) node[midway] {$m$};
-%			\draw[force] (0.30*\mw,\my+0.7*\mh) --++ (0,\mh) node[below=4,right=0] {$\vbF_2$};
-%			\draw[force] (0.25*\mw,\my+0.2*\mh) --++ (0,-0.7*\mh) node[right=0] {$\vbF_1$};
-%			\draw[force] (-0.3*\mw,\my+0.3*\mh) --++ (0,-1.1*\mh) node[above=2,left=0] {$m\vb{g}$};
-%			
-%			% AXIS depth
-%			\draw[->,thick]
-%			(-0.64*\W,\H) --++ (0,-1.1*\H);
-%			\tick{-0.64*\W,\h}{0} node[left] {$0$};
-%			\tick{-0.64*\W,\my+\mh}{0} node[left] {$h_1$};
-%			\tick{-0.64*\W,\my}{0} node[left] {$h_2$};
-%			
-%			% AXIS pressure
-%			\draw[->,thick]
-%			(0.64*\W,\H) --++ (0,-1.1*\H) node[right] {$P$};
-%			\tick{0.64*\W,\h}{180} node[right] {$P_\mathrm{atm}$};
-%			\tick{0.64*\W,\my+\mh}{180} node[right] {$P_1$};
-%			\tick{0.64*\W,\my}{180} node[right] {$P_2$};
-%			
-%		\end{tikzpicture}
-%	\end{center}
-%	
-%	E' importante notare che la forza di Archimede si deve ritenere \textbf{applicata al centro di massa}, pertanto oltre alla spinta verso l'alto, nel caso di corpi estesi, si deve pensare anche ad un \textbf{momento risultante}.
-%	\begin{center}
-%		\textcolor{red}{inserire grafici}
-%	\end{center}
-%	
-%	
-%	\section{Liquido in rotazione}
-%	Andiamo a considerare un elemento \(dm\) di liquido e analiziamo le forze in gioco ponendoci nel sistema di riferimento non ineraziale del liquido rotante: 
-%	\begin{enumerate}
-%		\item Chiaramente la forza peso: \(\boldsymbol{dmg}\);
-%		\item Compiendo una traiettoria circolare è soggetto ad una forza centripeta: \(dm\omega^2R = \boldsymbol{\rho dV\omega^2 R}\);
-%		\item Infine una forza di pressione che va ad equilibrare le altre due: \(\boldsymbol{dF_{P}}\)
-%	\end{enumerate}
-%	L'elemento \(dm\) è quindi soggetto a due forze di volume (conservative) e a una forza di pressione. Essendo soggetto a forze conservative possiamo scrivere l'espressione della sua energia potenziale come
-%	\begin{align*}
-%		dW = \overrightarrow{F} \cdot d\vec{s} =& (dm \vec{g} - dm \omega^2 \vec{r}) \cdot \boldsymbol{d\vec{s}}\\
-%		=& dmg\boldsymbol{dz} - dm \omega^2(x+y)\boldsymbol{dxdy}
-%	\end{align*} 
-%	\begin{minipage}{0.5\textwidth}
-%		ponendo lo zero di energia potenziale a terra possiamo ottenere l'espressione di quest'ultima:
-%		\[ 
-%		E_{p} = mgz - \frac{1}{2}m\omega ^2(x^2 + y^2)
-%		\]
-%		o espressa in unità di massa
-%		\[ 
-%		E_{p,m} = gz - \frac{1}{2}\omega ^2(x^2 + y^2)
-%		\]
-%		da cui possiamo ottenere l'espressione della coordinata \(z\) in funzione di \(x,y\):
-%		\begin{equation}
-%			\viola{z = h +\frac{\omega ^2}{2g}(x^2 +y^2)}
-%		\end{equation}
-%		equazione di un \textbf{paraboloide di rotazione}
-%	\end{minipage}
-%	\begin{minipage}{0.5\textwidth}
-%		\begin{center}
-%			\tdplotsetmaincoords{60}{110}
-%			\begin{tikzpicture}[tdplot_main_coords,scale=2.0]
-%				\pgfmathsetmacro{\tini}{0.5*pi}
-%				\pgfmathsetmacro{\tfin}{1.85*pi}
-%				\pgfmathsetmacro{\tend}{2.5*pi}
-%				%%% Coordinate axis
-%				\draw[thick,->] (0,0,0) -- (1.5,0,0) node [below left] {\footnotesize$x$};
-%				\draw[dashed] (0,0,0) -- (-1.25,0,0);
-%				\draw[thick,->] (0,0,0) -- (0,1.5,0) node [right] {\footnotesize$y$};
-%				\draw[dashed] (0,0,0) -- (0,-1.25,0);
-%				% The curves slicing the surface
-%				\draw[mydarkblue,thick,opacity=0.5] plot[domain=-1:1,smooth,variable=\t] ({\t},0,{\t*\t}); 
-%				\draw[mydarkblue,thick,opacity=0.5] plot[domain=-1:1,smooth,variable=\t] (0,{\t},{\t*\t}); 
-%				% El paraboloid (for z = constant)
-%				\foreach \altura in {0.0125,0.025,...,1.0}{
-%					\pgfmathparse{sqrt(\altura)}
-%					\pgfmathsetmacro{\radio}{\pgfmathresult}
-%					\draw[myblue,thick,opacity=0.5] plot[domain=\tini:\tfin,smooth,variable=\t] ({\radio*cos(\t r)},{\radio*sin(\t r)},{\altura}); 
-%				}
-%				% Circunference bounding the surface (above, first part)
-%				\draw[mydarkblue,thick,opacity=0.75] plot[domain=pi:1.75*pi,smooth,variable=\t] ({cos(\t r)},{sin(\t r)},{1.0}); 
-%				% last part of the z axis
-%				\draw[thick,->] (0,0,0) -- (0,0,1.75) node [above] {\footnotesize$z$};	
-%				\foreach \altura in {0.0125,0.025,...,1.0}{
-%					\pgfmathparse{sqrt(\altura)}
-%					\pgfmathsetmacro{\radio}{\pgfmathresult}
-%					\draw[myblue,thick,opacity=0.5] plot[domain=\tfin:\tend,smooth,variable=\t] ({\radio*cos(\t r)},{\radio*sin(\t r)},{\altura}); 
-%				}
-%				% Circunference bounding the surface (above, last part)
-%				\draw[mydarkblue,thick,opacity=0.75] plot[domain=-0.25*pi:pi,smooth,variable=\t] ({cos(\t r)},{sin(\t r)},{1.0}); 
-%			\end{tikzpicture}
-%		\end{center}
-%	\end{minipage}
-%	
-%	\vspace{0.3cm}
-%	Andiamo ora studiare lo stesso caso ma in un sistema di riferimento inerziale. In questo caso l'elemento di liquido non  è più in quiete, la risultante delle forze su di esso dovrà dare un termine centripeto. La condizione di equilibrio è soddisfatta solamente lungo la direzione verticale e, come sappiamo dalla \ref{pressione}, vale
-%	
-%	\begin{align*}
-%		&\overrightarrow{F}_{V,z} + \overrightarrow{F}_{p,z} = 0 \\
-%		& dm g + p(z)dS - p(z+dz)dS = 0 \quad  \to \quad dmg - p(dz)dS = 0\\
-%		& dmg - \frac{\partial p}{\partial z}dzdxdy = 0 \\
-%		& dmg - \frac{\partial p}{\partial z}dV = 0  \quad \to \quad \rho dV g -  \frac{\partial p}{\partial z}dV = 0 \\
-%	\end{align*}
-%	\[ 
-%	\boxed{\rho g = \frac{\partial p}{\partial z}}
-%	\]
-%	Per le forze radiali invece non sono soddisfatte le condizioni di equilibrio (e ricordando che sono forze centripete):
-%	\begin{align*}
-%		dF_{r} =& p(r)dS - p(r+dr)dS \\
-%		=& - \frac{\partial p}{\partial r}drdS \\
-%		=& - \frac{\partial p}{\partial r}dV \\
-%		-dm \omega^2 r =& - \frac{\partial p}{\partial r}dV \\
-%		-\rho dV \omega^2 r =& - \frac{\partial p}{\partial r}dV \\
-%	\end{align*}
-%	\[ 
-%	\boxed{\rho \omega^2 r =  \frac{\partial p}{\partial r}}
-%	\]
-%	dalle due espressioni si ricava quella della pressione in funzione della distanza radiale e verticale:
-%	\begin{equation}
-%		p(r,z) = -\rho gz + \frac{1}{2}\rho \omega ^2 r^2 + p(0,0)
-%	\end{equation}
-%	dove \(p(0,0) = p_{0} + \rho gh\) e, ricordando che la superficie libera è isobarica, la pressione atmosferica \(p_{0}\) deve equilibrare \(p(r,z)\)
-%	\[ 
-%	p_{0} =  -\rho gz + \frac{1}{2}\rho \omega ^2 r^2 + p_{0} + \rho gh
-%	\]
-%	e quindi ritroviamo l'espressione di \(z\) di prima
-%	\[ 
-%	z = h +\frac{\omega ^2}{2g}(x^2 +y^2)
-%	\]
-%	
-%	\section{Moto  di un fluido}
-%	Durante lo scorrimento tra due elementi di fluiso compare una \textbf{forza di attrito interno} con verso opposto alla velocit relativa tra i due. Sperimentalmente si trova che il modulo della forza d attrito vale 
-%	\begin{equation}
-%		dF = \boldsymbol{\eta} dS \frac{dv}{dn}
-%	\end{equation}
-%	
-%	Il coefficiente \(\boldsymbol{\eta}\) indica la \textbf{viscosià del fluido}; nei liquidi decresce all'aumentare della temperatura, nei gas cresce. Chiamiamo \textbf{fluido ideale} o \textbf{non viscoso e incomprimibile} un fluido con \(\eta = 0\) e \(\rho = \) costante.
-%	
-%	\begin{center}
-%		\fboxsep11pt
-%		\colorbox{attenzione}{\begin{minipage}{5.75in}
-%				\begin{attenzione}{!!!}
-%					Il concetto di viscosità assume importanza \textbf{solo nei fluidi in movimento}. La condizione di equilibrio statico  \(dv/dn = 0\) non dipende da \(\eta\).
-%				\end{attenzione}
-%		\end{minipage}}
-%	\end{center}
-%	
-%	\noindent
-%	La variazione di forma discussa prima è in parte dovuta all'attrito interno. Il contenitore si mette in modo iniziando a trascinare gli elementi di liquido sulle pareti e sul fondo; glie lementi si portano verso l'esterno fino a che non si stabilisce l'equilibrio dinamico.
-%	
-%	\subsection{Descrizioni del moto}
-%	\begin{center}
-%		\begin{minipage}{0.49\textwidth}
-%			\begin{es}{Lagrangiana}
-%				Prende in esame un elemento di fluido e ne segue il moto dovuto alle varie forze agenti. In sostanza è una descrizione \textbf{analoga a quella di un punto materiale}.
-%			\end{es}
-%		\end{minipage}
-%		\begin{minipage}{0.49\textwidth}
-%			\begin{es}{Euleriana}
-%				Si fissa l'attenzione su un punto della massa fluida \(P(x,y,z)\) e si considera la velocità \(v(x,y,z,t)\) dell'elemento fluido che passa in \(P\) all'instante \(t\).
-%			\end{es}
-%		\end{minipage}
-%	\end{center}
-%	Spesso risulta più comoda la descrizione euleriana soprattuto se consideriamo la \textbf{velocità indipendente dal tempo}. In questo caso scompare la dipendenza dal tempo che sarebbe rimasta nella visuale lagrangiana (dove si segue il moto del punto).
-%	\begin{center}
-%		\fboxsep11pt
-%		\colorbox{yblue}{\begin{minipage}{5.75in}
-%				\begin{blues}{Regime stazionario}
-%					La situazione fisica in cui tutti gli elementi di fluido che passano in istanti diversi in \(P\) hanno in quella posizione sempre stessa velocità, è chiamata \textbf{regime stazionario}.
-%				\end{blues}
-%		\end{minipage}}
-%	\end{center}
-%	
-%	\subsection{Tubi di flusso e portata} Si tracciano delle linee orientate le cui tangenti  serovono a descrivere la direzione e la velocità in quel punto. L'insieme di tutte le linee di corrente attraverso una data sezione prende il nome di \textbf{tubo di flusso}.
-%	
-%	\vspace{0.8cm}
-%	\begin{center}
-%		\begin{tikzpicture}
-%			\def\L{8.0}          % total length
-%			\def\m{0.20*\L}      % length pipe middle
-%			\def\l{0.25*\L}      % length pipe outer
-%			\def\rx{0.08}        % small pipe horizontal radius left
-%			\def\ry{0.32}        % small pipe vertical radius left
-%			\def\Rx{0.18}        % big pipe vertical radius right
-%			\def\Ry{0.90}        % big pipe vertical radius right
-%			\def\v{1.3}          % velocity magnitude
-%			\contourlength{1.5pt}
-%			
-%			% WATER
-%			\draw[horizontal water,thick]
-%			(-\L/2,\Ry) --++ (0,-2*\Ry) coordinate (A1) --++ (\l,0) to[out=0,in=180]
-%			(-\m/2,-\ry) --++ (\m,0) to[out=0,in=180]
-%			(\L/2-\l,-\Ry) --++ (\l,0) arc(-90:90:{\Rx} and \Ry) --++ (-\l,0) to[out=180,in=0]
-%			(\m/2,\ry) --++ (-\m,0) to[out=180,in=0] (-\L/2+\l,\Ry) -- cycle;
-%			\draw[water,thick]
-%			(-\L/2,0) ellipse({\Rx} and \Ry);
-%			\node[above left=2] at (A1) {$S_1$};
-%			\node[below=-1] at (0,-\ry) {$S_2$};
-%			
-%			% VELOCITIES
-%			\draw[mydarkblue,dashed]
-%			(0,\ry) arc(90:270:{\rx} and \ry);
-%			\foreach \fy in {-0.28,-0.8,0.28,0.8}{
-%				\coordinate (A) at ($(-\L/2,0)+({asin(\fy/1.5)}:{1.5*\Rx} and {1.5*\Ry})$);
-%				\coordinate (B) at ($({\L/2-\Rx},0)+({asin(\fy/1.5)}:{1.5*\Rx} and {1.5*\Ry})$);
-%				\draw[vcol!80!black,very thin,postaction={decorate},decoration={markings,
-%					mark=at position {0.13-0.02*abs(\fy)} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
-%				(A) -- (-\L/2+0.9*\l,\fy*\Ry) to[out=0,in=180]
-%				(-0.6*\m,\fy*\ry) -- (0.6*\m,\fy*\ry) to[out=0,in=180] (\L/2-0.9*\l,\fy*\Ry) -- (B);
-%			}
-%			\draw[vvec] (-\L/2+0.5*\l,0) --++ (\v*\ry/\Ry,0) node[right=-2] {$v_1$};
-%			\draw[vvec] ( \L/2-0.7*\l,0) --++ (\v*\ry/\Ry,0) node[right=-2] {$v_1$};
-%			\draw[vvec] (-0.5*\v,0) --++ (\v,0) node[right=-2] {\contour{watercol!80}{$v_2$}};
-%			\draw[mydarkblue]
-%			(0,\ry) arc(90:-90:{\rx} and \ry);
-%			\node[above=-1] at (-\L/2+0.5*\l,\Ry) {$P_1$};
-%			\node[above=-1] at (0,\ry) {$P_2$};
-%		\end{tikzpicture}
-%	\end{center}
-%	\vspace{0.8cm}
-%	
-%	\begin{center}
-%		\fboxsep11pt
-%		\colorbox{yblue}{\begin{minipage}{5.75in}
-%				\begin{blues}{Portata}
-%					Viene definita \textbf{portata del tubo di flusso} il volume di fluido che è passato attraverso la sezione in un secondo:
-%					\begin{equation}
-%						dq = v dS
-%					\end{equation}
-%				\end{blues}
-%		\end{minipage}}
-%	\end{center}
-%	E' importante notare che se \textbf{la configurazione delle linee di corrente è immutabile}, quindi se il fluido è ideale e ci troviamo in condizioni di regime stazionario, \textbf{la portata deve essere la stessa} attraverso qualsiasi sezione. Il fluido in questione infatti, essendo ideale, al variare della sezione non può variare di densità.
-%	
-%	
-%	
-%	
-%	\begin{center}
-%		\fboxsep11pt
-%		\colorbox{yred}{\begin{minipage}{5.75in}
-%				\begin{redes}{}
-%					In regime stazionario, se la densità è costante, è costante la portata di un tubo di flusso infinitesimo:
-%					\[ 
-%					vdS = \text{ costante}
-%					\]
-%				\end{redes}
-%		\end{minipage}}
-%	\end{center}
-%	
-%	
-%	\subsection{Teorema di Bernoulli}
-%	Prendiamo un fluido ideale che scorre in conidzioni di regime stazionario. Il volume \(dV_{1} = S_{1}d\ell_{1}\) che attraversa la sezione \(S_{1}\) nel tempo \(dt\) è uguale a quello \(dV_{2} = S_{2}d\ell_2\) che attraversa nello stesso intervallo la sezionem \(S_{2}\):
-%	\[ 
-%	dV_{1} = dV_{2}
-%	\]
-%	\begin{center}
-%		\begin{tikzpicture}
-%			\def\LL{1.7}          % length pipe left
-%			\def\LR{1.7}          % length pipe right
-%			\def\L{3.5*\LL}       % total length
-%			\def\H{2.0}           % height
-%			\def\l{\L-\LL-\LR}    % length between pipes
-%			\def\xL{0.32*\LL}     % position volume left
-%			\def\xR{\L-0.80*\LR}  % position volume right
-%			\def\lL{0.2*\LR}      % length volume left
-%			\def\lR{\lL*\Ry/\ry}  % length volume right
-%			\def\rx{0.08}         % small pipe horizontal radius left
-%			\def\ry{0.32}         % small pipe vertical radius left
-%			\def\Rx{0.18}         % big pipe vertical radius right
-%			\def\Ry{0.90}         % big pipe vertical radius right
-%			\def\v{1.0}           % velocity magnitude
-%			\def\F{0.9}           % force magnitude
-%			\def\y{(\Ry+0.35*\H)} % height from ground
-%			
-%			% WATER
-%			\draw[horizontal water,thick]
-%			(0,\Ry) -- (0,-\Ry) coordinate (P1) --++ (\LL,0) to[out=0,in=180]
-%			(\L-\LR,\H-\ry) -- (\L,\H-\ry) coordinate (P2) arc(-90:90:{\rx} and \ry)
-%			--++ (-\LR,0)  to[out=180,in=0] (\LL,\Ry) -- cycle;
-%			\node[above left=2] at (P1) {$P_1$};
-%			\node[above=-1,right=0] at (P2) {$P_2$};
-%			
-%			% VOLUMES
-%			\draw[vvec] (\xL+\lL+\Rx,0) --++ (\v*1.2*\ry/\Ry,0) node[above=-1] {$v_1$};
-%			\draw[vvec] (\xR+\lR+\rx,\H-0.2*\ry) --++ (\v,0) node[right=-2] {$v_2$};
-%			\draw[force] (\L-0.7*\ry+0.8*\F,\H+0.2*\ry) --++ (-0.8*\F,0) node[pos=0.3,above] {$F_2$};
-%			\draw[dark water,dashed,very thin]
-%			(\xL,0) ellipse({\Rx} and \Ry)
-%			(\xR,\H) ellipse({\rx} and \ry);
-%			\draw[dark water]
-%			(\xL,\Ry)
-%			arc(90:-90:{\Rx} and \Ry) coordinate (A1) --++ (\lL,0)
-%			arc(-90:90:{\Rx} and \Ry) -- cycle;
-%			\draw[dark water]
-%			(\xR,\H+\ry) coordinate (A2)
-%			arc(90:-90:{\rx} and \ry) --++ (\lR,0)
-%			arc(-90:90:{\rx} and \ry) -- cycle;
-%			\draw[width]
-%			(\xL,1.15*\Ry) --++ (\lL,0) node[midway,above] {$d\ell_1$};
-%			\draw[width]
-%			(\xR,\H-1.6*\ry) --++ (\lR,0) node[midway,fill=white,inner sep=0] {$d\ell_2$};
-%			\node[left=1,below=-1] at (A1) {$S_1$};
-%			\node[left=1,above=-1] at (A2) {$S_2$};
-%			
-%			% CONTAINER
-%			\draw[mydarkblue,thick]
-%			(0,\Ry) -- (0,-\Ry)  coordinate (A1) --++ (\LL,0) to[out=0,in=180]
-%			(\L-\LR,\H-\ry) -- (\L,\H-\ry) coordinate (A2) arc(-90:90:{\rx} and \ry)
-%			--++ (-\LR,0)  to[out=180,in=0] (\LL,\Ry) -- cycle;
-%			\draw[water,thick]
-%			(0,0) ellipse({\Rx} and \Ry);
-%			
-%			% HEIGHT
-%			\draw[dashed] (0.23*\L,{-\y}) --++ (0.6*\L,0);
-%			\draw[<->]
-%			(1.1*\LL,{-\y}) --++ (0,{\y}) node[pos=0.13,above right=-1] {$h_1$};
-%			\draw[<->]
-%			(0.95*\xR,{-\y}) --++ (0,{\H+\y}) node[midway,fill=white,inner sep=1] {$h_2$};
-%			\draw[force] (0.1*\Ry-\F,0) --++ (\F,0) node[pos=0.4,above=-1] {$F_1$};
-%			
-%		\end{tikzpicture}
-%	\end{center}
-%	\vspace{0.8cm}
-%	Andiamo ora a studiare il lavoro delle forze di volume e delle forze di pressione sui due volumi in considerazione:
-%	
-%	\begin{center}
-%		\begin{minipage}{0.49\textwidth}
-%			\begin{es}{Lavoro forza peso}
-%				\begin{align*}
-%					dW_{G} =& =-dE_{p} = \\
-%					=& -dm(h_{2} - h_{1})g\\
-%					=& -\rho dV(h_{2} - h_{1})g
-%				\end{align*}
-%			\end{es}
-%		\end{minipage}
-%		\begin{minipage}{0.49\textwidth}
-%			\begin{es}{Lavoro forze di pressione}
-%				\begin{align*}
-%					dW_{P} =& \overrightarrow{F}_{1} \cdot d\vec{\ell}_{1} + \overrightarrow{F}_{2} \cdot d\vec{\ell}_{2} \\
-%					=& p_{1} S_{1} d\ell_{1} - p_{2} S_{2} d\ell_{2} \\
-%					=& (p_{1} - p_{2})dV
-%				\end{align*}
-%			\end{es}
-%		\end{minipage}
-%	\end{center}
-%	Da cui si ricava una variazione di energia cinetica (\(W = \Delta E_{K}\)) pari a
-%	\[ 
-%	dE_{K} = dW_{G} + dW_{P} =  (p_{1} - p_{2})dV-\rho dV(h_{2} - h_{1})g
-%	\]
-%	\begin{align*}
-%		dE_{K} =& dW_{G} + dW_{P} \\
-%		\frac{1}{2}\rho dVv_{2}^2 - \frac{1}{2}\rho dVv_{1}^2	=& (p_{1} - p_{2})dV-\rho dV(h_{2} - h_{1})g \\
-%	\end{align*}
-%	\begin{equation}\label{bernoulli}
-%		\viola{\boxed{p_{1} + \frac{1}{2}\rho v_{1}^2	+ \rho g h_{1} = p_{2} + \frac{1}{2}\rho v_{2}^2	+ \rho g h_{2}}}
-%	\end{equation}
-%	\begin{center}
-%		\fboxsep11pt
-%		\colorbox{yred}{\begin{minipage}{5.75in}
-%				\begin{redes}{Teorema di Bernoulli}
-%					In un fluido ideale in moto con regime stazionario la somma della: \textbf{pressione}, \textbf{densità di energia cinetica} e della \textbf{densità di energia potenziale} è costante lungo il condotto (lungo qualunque tubo di flusso).
-%				\end{redes}
-%		\end{minipage}}
-%	\end{center}
-%	Notare che dalla legge della dinamica appena presentata, si ricavano tutte le leggi della statica precedenti: \textbf{la statica è sempre un caso particolare della dinamica}. Inoltre si rileva che la pressione misurata in un fluido in movimento è sempre minore di quelal misurata in un fluido in quiete.
-%	
-%	\subsection{Moto laminare}
-%	Trattiamo ora il moto di \textbf{fluidi reali}, ovvero fludi di cui non si può più apprissimare \(\eta = 0\) e per cui la densità è approssimabile a un valore costante \(\rho \approx \) costante. A velocità \textit{non elevate} il moto è detto \textbf{laminare}: il regime è stazionario con le linee di corrente costanti nel tempo
-%	\begin{center}
-%		\begin{minipage}{0.48\textwidth}
-%			% LAMINAR FLOW LAYERS
-%			\hspace{0.6cm}
-%			\begin{tikzpicture}
-%				\def\L{5.0}   % total length
-%				\def\Rx{0.40} % big pipe vertical radius right
-%				\def\Ry{0.90} % big pipe vertical radius right
-%				\def\v{1.3}   % velocity magnitude
-%				\def\N{3}     % velocity magnitude
-%				
-%				% WATER
-%				\draw[horizontal water,thick]
-%				(0,\Ry) -- (0,-\Ry)  coordinate (A1) --++ (\L,0) arc(-90:90:{\Rx} and \Ry) -- cycle;
-%				\draw[water]
-%				(\L,0) ellipse({\Rx} and \Ry);
-%				
-%				\draw[water]
-%				(0,0) ellipse({\Rx} and \Ry);
-%				%\draw[horizontal water,line width=0.1] %draw=none
-%				%  (0,-\Ry) rectangle (\L,\Ry);
-%				\foreach \i [evaluate={\x=(\i-0.5)/(\N+0.5)}] in {1,...,\N}{
-%					\draw[mydarkblue] %,line width=0.05
-%					(0,0) ellipse({\x*\Rx} and \x*\Ry)
-%					(\L,0) ellipse({\x*\Rx} and \x*\Ry);
-%					\draw[mydarkblue] %,dashed]  %,line width=0.05
-%					(0, \x*\Ry) --++ (\L,0)
-%					(0,-\x*\Ry) --++ (\L,0); %arc(90:-90:{\x*\Rx} and \x*\Ry) --++ (-\L,0);
-%				}
-%				%\draw[horizontal water,draw=none]
-%				%  (0,{-\N/(\N+1)*\Ry}) rectangle (\L,{\N/(\N+1)*\Ry});
-%				\draw[water,thick]
-%				(0,0) ellipse({\Rx} and \Ry);
-%				\foreach \i [evaluate={\x=(\i-0.5)/(\N+0.5)}] in {1,...,\N}{
-%					\draw[mydarkblue] (0,0) ellipse({\x*\Rx} and \x*\Ry);
-%				}
-%				%\draw[mydarkblue,thick]
-%				%  (0,\Ry) arc(90:-90:{\Rx} and \Ry) coordinate (A1) --++ (\L,0) arc(-90:90:{\Rx} and \Ry) -- cycle;
-%				\draw[vcol!70!black,dashed,samples=100,smooth,variable=\y,domain=-1:1]
-%				plot({0.4*\L+\v*(1-0.7*\y*\y)},\y*\Ry);
-%				\draw[vvec] (0.4*\L,0) --++ (\v,0);
-%				\foreach \i [evaluate={\y=(\i)/(\N+0.5); \vy=\v*(1-0.7*\y^2);}] in {1,...,\N}{
-%					\draw[vvec] (0.4*\L, \y*\Ry) --++ (\vy,0);
-%					\draw[vvec] (0.4*\L,-\y*\Ry) --++ (\vy,0);
-%				}
-%				
-%			\end{tikzpicture}
-%		\end{minipage}
-%		\begin{minipage}{0.48\textwidth}
-%			% PRESSURE
-%			\hspace{1cm}
-%			\begin{tikzpicture}[x={(1cm,0)},y={(0.55cm,0.40cm)},z={(0,1cm)}]
-%				\def\L{1.8}   % cube side
-%				\def\H{1.2}   % total height
-%				\def\d{0.8}   % total distance
-%				\def\N{7}     % number of layers
-%				\def\t{\H/\N} % layer thickness
-%				%\draw[dark water] (0,0,0) -- (\L,0,0) -- (\L,\L,0) -- ( 0,\L,0) -- cycle;
-%				\def\layer#1#2#3#4{
-%					\draw[#1] (#2+\L,0,#3) --++ (0,\L,0) --++ (0,0,-#4) --++ (0,-\L,0) -- cycle;
-%					\draw[#1] (#2,0,#3) --++ (\L,0,0) --++ (0,0,-#4) --++ (-\L,0,0) -- cycle;
-%					\draw[#1] (#2,0,#3) --++ (\L,0,0) --++ (0,\L,0) --++ (-\L,0,0) -- cycle;
-%				}
-%				
-%				\layer{metal}{0}{0}{0.6*\t}
-%				\foreach \i [evaluate={\x=(\i-1)*\d/(\N-1); \ya=\i*\H/\N; \yb=(\i-1)*\H/\N;}] in {1,...,\N}{
-%					\layer{water}{\x}{\ya}{\t}
-%				}
-%				\layer{metal}{\d}{\H+0.6*\t}{0.6*\t}
-%				\draw[force] (\L+\d,0.7*\L,\H+0.3*\t) --++ (1.2,0,0) node[above=1,right=-2] {$\vb{F}$};
-%				\draw[vvec] (\L+\d,0.4*\L,\H-0.5*\t) --++ (1,0,0) node[below=0,right=-1] {$\vb{v}$};
-%				\node at (\d+0.45*\L,0.5*\L,\H+0.6*\t) {$A$};
-%				%\draw[width] (0.06*\L,0,0) --++ (0,0,\H) node[midway,fill=white,inner sep=0.5] {$h$};
-%				\draw[->,thick]
-%				(-0.1*\L,0,-0.1*\H) --++ (0,0,1.4*\H) node[above=-1] {$z$};
-%				\tick{-0.1*\L,0,0}{0} node[left=-1] {0};
-%				\tick{-0.1*\L,0,\H}{0} node[left=-1] {$h$};
-%				
-%			\end{tikzpicture}
-%		\end{minipage}
-%	\end{center}
-%	Considerando un condotto lungo \(l\) e di raggio \(R\) si dimostra che la velocità in base alla distanza radiale vale
-%	\begin{equation}
-%		\viola{v(r) = \frac{p_{1}-p_{2}}{4\eta l}(R^2-r^2)}
-%	\end{equation}
-%	In queste condizioni cambia la formula della portata che diventa
-%	\[ 
-%	q = \int_{0}^{R}v(r)2\pi r \ dr
-%	\]
-%	da cui si ottiene la \textbf{legge di Hagen-Poiseuille} (valida per raggi molto piccoli)
-%	\begin{equation}
-%		q = \frac{\pi R^4}{8\eta}\frac{p_{1} - p_{2}}{l}
-%	\end{equation}
-%	dalla quale possiamo trovare il valore della velocità media:
-%	\begin{equation}
-%		\viola{v_{m}= \frac{q}{S} = \frac{\frac{\pi R^4}{8\eta}\frac{p_{1} - p_{2}}{l}}{\pi R^2} = \frac{R^2}{8\eta}\frac{p_{1} - p_{2}}{l}}
-%	\end{equation}
-%	Come nel caso di un punto materiale in presenza di attrito radente, per mantenere il flusso di fluido è necessaria una differenza di pressione, ovvero una forza per vincere la resistenza del moto dovuta all'attrito interno.
-%	
-%	\begin{center}
-%		\fboxsep11pt
-%		\colorbox{attenzione}{\begin{minipage}{5.75in}
-%				\begin{attenzione}{!!!}
-%					Per i fluidi reali Bernoulli vale solo in misura approssimata  \(dv/dn = 0\) non dipende da \(\eta\).
-%				\end{attenzione}
-%		\end{minipage}}
-%	\end{center}
-%	
-%	\subsection{Moto turbolento}
-%	Al crescere del raggio del condotto compaiono vortici nel fluido e si parla di \textbf{moto turbolento o vorticoso}. I vortici sono causati da forti variazioni di velocità ortogonalmente alle linee di corrente, e quindi, a \textbf{notevoli forze di attrito interno} (altre cause sono variazione di forma del condotto...).
-%	
-%	Se il condotto è a sezione costante vale la legge sperimentale descritta da Reynolds che ha provato che si ha la transizione da regime laminare a turbolento quando il parametro \(\mathcal{R}\) detto numero di Reynolds super un certo valore critico:
-%	\[ 
-%	\mathcal{R} = \frac{\rho v L}{\eta} \qquad  v_{\text{crit}} = \mathcal{R}_{\text{crit}}\frac{\eta}{\rho L}
-%	\]
-%	dove \(L\) è la \textbf{lunghezza caratteristica convenzionale} (per tubazioni cilindriche è il diametro).
-%	
-%	All'aumentare della differenza di pressione si raggiunge un \textbf{regime di moto stabile in regime turbolento} e si trova che la velocità media si può esprimere come
-%	\[ 
-%	v_{m}^2 = 2\frac{L}{k}\frac{\rho }{2} \frac{p_{1} - p_{2}}{l} 
-%	\]
-%	Vediamo quindi come il gradiente di pressione \((p_{1}-p_{2}/l)\) sia necessario per mantenere una certa velocità di flusso, più precisamente in regime vorticoso questo è una funzione quadratica della velocità, in regime laminare è una funzione lineare. \\
-%	
-%	\noindent
-%	Consideriamo una sfera immers in un fluido in moto. Se il fluido è ideale si avrà \textbf{completa simmetria delle linee di corrente}, quindi eguale pressione a monte e a valle della sfera che rimarrà ferma; questo risultato è indicato come \textbf{paradosso di D'Alembert}. 
-%	
-%	Se invece il fluido è reale si forma una scia vorticosa con pressione a valle maggiore e conseguente applicazione di una forza sulla sfera.
-%	
-%	\begin{center}
-%		\begin{minipage}{0.49\textwidth}
-%			% LAMINAR FLOW around object
-%			\begin{tikzpicture}
-%				\def\W{7.0}   % total length
-%				\def\H{3.5}   % total height
-%				\def\R{1.0}   % total distance
-%				\def\N{5}     % number of layers
-%				\def\t{\H/\N} % layer thickness
-%				(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
-%				\draw[metal]
-%				(0,0) circle(\R);
-%				\foreach \s in {-1,1}{
-%					\foreach \i [evaluate={\fy=\s*(\i-0.5)/\N; \y=\fy*0.5*\H;}] in {1,...,\N}{
-%						\draw[myblue,thick,postaction={decorate},decoration={markings,
-%							mark=at position {0.2} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
-%						(-\W/2,\y) to[out=0,in=180] (0,\s*\R+0.7*\fy) to[out=0,in=180] (\W/2,\y);
-%					}
-%				}
-%			\end{tikzpicture}
-%			\begin{equation}
-%				\viola{F_{\text{res}}= 6\pi \eta R v}
-%			\end{equation}
-%		\end{minipage}
-%		\begin{minipage}{0.49\textwidth}
-%			% TURBULENCE around object
-%			\begin{tikzpicture}
-%				\def\W{7.0}   % total length
-%				\def\H{3.5}   % total height
-%				\def\R{1.0}   % total distance
-%				\def\N{5}     % number of layers
-%				\def\t{\H/\N} % layer thickness
-%				(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
-%				\draw[metal]
-%				(0,0) circle(\R);
-%				\foreach \s in {-1,1}{
-%					\foreach \i [evaluate={\fy=\s*(\i-0.5)/\N; \y=\fy*0.5*\H;}] in {3,...,\N}{
-%						\draw[myblue,thick,postaction={decorate},decoration={markings,
-%							mark=at position {0.2} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
-%						(-\W/2,\y) to[out=0,in=180] (0,\s*\R+0.7*\fy) to[out=0,in=180] (\W/2,\y);
-%					}
-%				}
-%				
-%				%\def\p{node[circle,fill=red,inner sep=0.9] {}} % probe dot
-%				\draw[myblue,thick,postaction={decorate},decoration={markings,
-%					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
-%				(-\W/2,{1.5/\N*0.5*\H}) to[out=0,in=180] (0,{\R+0.7*1.5/\N}) to[out=0,in=140,looseness=1.2]
-%				(0.28*\W,0.17*\H) to[out=-40,in=180,looseness=1.1] (0.40*\W,0.02*\H) to[out=0,in=50,looseness=4]
-%				(0.38*\W,0.15*\H);
-%				\draw[myblue,thick,postaction={decorate},decoration={markings,
-%					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
-%				(-\W/2,{0.5/\N*0.5*\H}) to[out=0,in=180] (0,{\R+0.7*0.5/\N}) to[out=0,in=140,looseness=1.0]
-%				(0.20*\W,0.20*\H) to[out=-40,in=-70,looseness=3] (0.16*\W,0.15*\H);
-%				\draw[myblue,thick,postaction={decorate},decoration={markings,
-%					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
-%				(-\W/2,{-0.5/\N*0.5*\H}) to[out=0,in=180] (0,{-\R-0.7*0.5/\N}) to[out=0,in=-140,looseness=1.1]
-%				(-40:1.15*\R) to[out=40,in=180,looseness=1.1] (0.27*\W,0.05*\H) to[out=0,in=-80,looseness=2]
-%				(0.22*\W,-0.10*\H);
-%				\draw[myblue,thick,postaction={decorate},decoration={markings,
-%					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
-%				(-\W/2,{-1.5/\N*0.5*\H}) to[out=0,in=180] (0,{-\R-0.7*1.5/\N}) to[out=0,in=-150,looseness=1.1]
-%				(0.30*\W,-0.16*\H) to[out=30,in=180,looseness=1.1] (0.46*\W,-0.05*\H) to[out=0,in=-110,looseness=4]
-%				(0.41*\W,-0.13*\H);
-%				
-%			\end{tikzpicture}
-%			\begin{equation}
-%				\viola{F_{\text{res}}= \frac{1}{2}cS\rho v^2}
-%			\end{equation}
-%		\end{minipage}
-%	\end{center}
-%	Dove la prima è detta \textbf{legge di Stokes} e vale per oggetti di forma sferica, mentre la seconda ha il coefficiente adimensionale \(c\) che dipende dalla forma dell'oggetto (soprattuto la parte posteriore).
-%	
-%	
-%	\subsection{Effetto Magnus e Portanza}
-%	Supponiamo che ora la sfera immersa nel fluido stia anche \textbf{ruotando su se stessa}. Ruotando trasporta per attrito una parte di fluido generando una \textbf{asimmetria} nelle velocità in alto e in basso. In generale la velocità del fluido sarà più alta dove viene trasportato il fluido dalla rotazione (in basso in figura). La differenza di velocità causa una differenza di pressione e quindi una spinta. Questo fenomeno prende il nome di \textbf{effetto Magnus}.
-%	\begin{center}
-%		% LAMINAR FLOW around object
-%		\begin{tikzpicture}
-%			\def\W{6.0}   % total length
-%			\def\H{3.1}   % total height
-%			\def\R{0.8}   % total distance
-%			
-%			% WATER
-%			(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
-%			\foreach \s in {-1,1}{
-%				\draw[myblue,thick,postaction={decorate},decoration={markings,
-%					mark=at position 0.20 with {\arrow{latex}},
-%					mark=at position 0.50 with {\arrow{latex}},
-%					mark=at position 0.80 with {\arrow{latex}}}]
-%				(\W/2,\s*0.3*\R) to[out=180,in=0] (0,{\s*\R+\s*0.2*(\H/2-\R)}) to[out=180,in=0] (-\W/2,\s*0.3*\R);
-%			}
-%			
-%			% OBJECT
-%			\draw[metal]
-%			(0,0) circle(\R);
-%			\draw[vvec] (0.8*\R,0) --++ (0.8*\R,0) node[right] {$\vb{v}$};
-%			\draw[vvec] (60:0.8*\R) arc(60:120:0.8*\R);
-%			\draw[vvec] (-120:0.8*\R) arc(-120:-60:0.8*\R);
-%			\draw[force] (95:0.9*\R) --++ (0,0.8*\R) node[below=2,right] {$\vb{F}_\mathrm{Mag}$};
-%			\node[below=-3,scale=0.8,align=center] at (-0.12*\W,0.5*\H) {bassa\\[-1mm]pressione};
-%			\node[above=-3,scale=0.8,align=center] at (0,-0.5*\H) {alta\\[-1mm]pressione};
-%			
-%		\end{tikzpicture}
-%	\end{center}
-%	\vspace{2cm}
-%	Un altro fenomeno importante è la \textbf{portanza}: una spinta verso l'alto dovuta alla differenza di pressioni nelle due parti inferiore e posteriore di un'ala.
-%	
-%	Per ricavare un'espressione della forza possiamo passare dall'equazione di Bernoulli. Si hanno i seguenti valori di pressione e velocità:
-%	\begin{itemize}
-%		\item \textbf{A monte}: \(p\) e \(v\);
-%		\item \textbf{Sopra}: \(p_{1}\) e \(v + \Delta v\);
-%		\item \textbf{Sotto}: \(p_{2}\) e \(v - \Delta v\).
-%	\end{itemize}
-%	Deve valere
-%	\[ 
-%	p + \frac{1}{2}\rho v^2 = p_{1} + \frac{1}{2}\rho (v+\Delta v)^2= p_{2} + \frac{1}{2}\rho (v-\Delta v)^2
-%	\]
-%	da cui 
-%	\[ 
-%	p_{2} - p_{1} = 2 \rho v \Delta v
-%	\]
-%	che, con una superficie alare \(A\), ci dà
-%	\begin{equation}
-%		\viola{F = 2A \rho v \Delta v}
-%	\end{equation}
-%	
-%	
-%	
+	
+	\subsection{Interferenza con ampiezze diverse}
+	Prendiamo in considerazine due onde \(\xi_1\) e \(\xi_2\) con ampiezze diverse. Ci è comodo rappresentare le onde in "forma vettoriale" così da poter esplicitare alcuni termini più agevolmente.
+	\[ 
+	\xi_1 = A_1 \cos\left(kx_1 - \omega t + \phi_1\right) = A_1 \cos\left(\omega t + \alpha_1\right)
+	\]
+	\[ 
+	\xi_2 = A_2 \cos\left(kx_2 - \omega t + \phi_2\right) = A_2 \cos\left(\omega t + \alpha_2\right)
+	\]
+	\[ 
+	\boldsymbol{\xi} = \xi _1 + \xi _2 = \boldsymbol{A}\cos\left(\omega t + \boldsymbol{\alpha}\right)
+	\]
+	Rappresentiamo \(A_1,A_2\) e \(A\) come dei vettori rotanti (per il contributo del coseno) visti all'istante \(t=0\), quindi senza il termine \(\omega t\):
+	
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	
+	Esplicitiamo l'angolo \(\alpha\):
+	\[ 
+	A\cos\alpha = A_1\cos\alpha_1 + A_2\cos\alpha_2		
+	\]
+	\[ 
+	A\sin\alpha = A_1\sin\alpha_1 + A_2\sin\alpha_2		
+	\]
+	da cui, elevando al quadrato:
+	\begin{align*} 
+		A^2\cos^2\alpha + A^2\sin^2\alpha =& (A_1\cos\alpha_1 + A_2\cos\alpha_2)^2 + (A_1\sin\alpha_1 + A_2\sin\alpha_2)^2\\
+		A^2 =& A_1^2\cos^2\alpha_1 + 2A_2A_1\cos\alpha_1\cos\alpha_2 + A_2^2\cos^2\alpha_2 + \\ &+ A_1^2\sin^2\alpha_1 + 2A_2A_1\sin\alpha_1\sin\alpha_2 + A_2^2\sin^2\alpha_2\\
+		=& A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) + 2A_2A_1(\cos\alpha_1\cos\alpha_2 + \sin\alpha_1\sin\alpha_2)\\
+		=&  A_1^2(\cos^2\alpha_1 + \sin^2\alpha_1) + A_2^2(\cos^2\alpha_2 + \sin^2\alpha_2) +  2A_2A_1\cos\left(\alpha_1 - \alpha_2\right)
+	\end{align*} 
+	
+	\[ 
+	\boxed{\delta = \alpha_1 - \alpha_2}
+	\]
+	
+	\begin{equation}
+		A = \sqrt{A_1^2 + A_2^2 + 2A_2A_1\cos\delta}
+	\end{equation}
+	Come prima, sapendo che l'intensità è proporzionale all'ampiezza al quadrato:
+	\begin{align*}
+		I =& KA^2 \\ 
+		=& K\left(A_1^2 + A_2^2 + 2A_2A_1\cos\delta\right)\\
+		=& \textcolor{cyan}{KA_1^2} + \textcolor{blue}{KA_2^2} + 2\textcolor{red}{KA_1A_2}\cos\delta
+	\end{align*}
+	
+	\[ 
+	\boxed{\textcolor{cyan}{KA_1^2}= I_1} \qquad \boxed{\textcolor{blue}{KA_2^2} = I_2 } 
+	\]
+	per esprimere il termine rettangolare in funzione di \(I_1\) e \(I_2\) sviluppo \(I_1I_2 = K^2A_1^2A_2^2\) e quindi
+	
+	\[ 
+	\boxed{\sqrt{I_1I_2} = \textcolor{red}{KA_1A_2}}
+	\]
+	
+	da cui
+	
+	\begin{equation}
+		\viola{I = I_1 + I_2 + 2\sqrt{I_1I_2}\cos\delta}
+	\end{equation}
+	
+	
+	\begin{es}{}
+		\subsection{Interferenza costruttiva e distruttiva}
+		Nel caso di due onde con ampiezze diverse 
+		\begin{center}
+			\textcolor{red}{trova}
+		\end{center}
+		
+	\end{es}
+	
+	
+	\subsection{Sorgenti puntiformi}
+	\begin{center}
+		\textcolor{red}{guarda slides}
+	\end{center}
+	
+	\newpage
+	\section{Riflessione e trasmissione}
+	Prendiamo in esame una corda divisa in due segmenti uniti ma con densità lineari differenti. La velocità, dipendendo da \(\mu\), sarà diversa nei due mezzi:
+	\[ 
+	v_1 = \sqrt{\frac{T}{\mu_1}} \qquad v_2 = \sqrt{\frac{T}{\mu_2}} 
+	\]
+	da cui, poiché \(k = \omega / v\), anche i due \(k\) saranno diversi
+	\[ 
+	k_1 = \omega \sqrt{\frac{\mu_1}{T}} \qquad k_2 = \omega \sqrt{\frac{\mu_2}{T}} 
+	\]
+	Andiamo quindi a distinguere tre tipi di onde che si propagano sulla corda: una incidente, una trasmessa e una riflessa:
+	\[ 
+	\xi_i = \xi_{0i}\sin\left(k_1 x - \omega t\right)
+	\]
+	\[ 
+	\xi_r = \xi_{0r}\sin\left(k_1 x + \omega t\right)
+	\]
+	\[ 
+	\xi_t = \xi_{0t}\sin\left(k_2 x - \omega t\right)
+	\]
+	Nel punto di contatto tra i due tratti \textbf{imponiamo la continuità della funzione d'onda}:
+	
+	
+	\newpage
+	\section{Onde stazionarie}
+	Un'altro tipo di oscellazioni rilevanti sono le onde stazionarie, onde i cui punti oscillano con ampiezza che varia solo con la posizione. Si osserva che le posizioni di massima ampiezza e dei punti fermi (nodi) non variano nel tempo, per questo possiamo definire questo tipo di oscillazione un'\textbf{oscillazione collettiva} del fenomeno \textbf{cui non è associato un fenomeno di propagazione}. \\
+	
+	\begin{center}
+		\includegraphics{imgs/stazionarie.png}
+	\end{center}
+	
+	\noindent
+	Consideriamo una corda fissa ad un solo estremo \(\boldsymbol{O}\) su cui poniamo lo zero dell'asse \(x\); sull'estremo libero applichiamo una perturbazione \textbf{sinusoidale} regressiva di frequenza \(f\) tramite un diapason:
+	\[ 
+	\xi_1 (x,t) = A\sin\left(kx +\omega t\right) 
+	\] \\
+	\begin{center}
+		\begin{minipage}{0.3\textwidth}
+			\begin{center}
+				\includegraphics[scale=0.11]{imgs/riflessa1.png}
+			\end{center}
+		\end{minipage}
+		\begin{minipage}{0.3\textwidth}
+			\begin{center}
+				\includegraphics[scale=0.11]{imgs/riflessa2.png}
+			\end{center}
+		\end{minipage} 
+	\end{center}
+	
+	\vspace{0.2cm}
+	
+	L'onda si propaga fino all'estremo fisso \(\boldsymbol{O}\) che deve rimanere fermo, tuttavia sappiamo che in \(\boldsymbol{O}\) risulta una perturbazione \(\xi_1(0,t)\). Ci deve essere una seconda perturbazione \(\xi_2(0,t)\) generata dal vincolo tale che
+	\[ 
+	\xi _1(0,t) + \xi _2 (0,t) = 0 \quad \to \quad \xi _2 (0,t) = - A\sin\left(\omega t\right) = A\sin\left(-\omega t\right)
+	\]
+	quindi la seconda onda si propaga nel verso positivo dell'asse \(x\) con equazione
+	\[ 
+	\xi _2 (x,t) = A\sin\left(kx - \omega t\right)
+	\]
+	L'equazione complessiva dell'onda si ottiene sommando le due
+	\[ 
+	\xi(x,t) = \xi_1 (x,t) +  \xi _2 (x,t) = A\left[\sin\left(kx +\omega t\right)  + \sin\left(kx - \omega t\right)\right]
+	\]
+	\[
+	\textcolor{gray}{\textit{prostaferesi: } \quad \sin\alpha + \sin\beta = 2\sin\left(\frac{\alpha + \beta}{2}\right)\cos\left(\frac{\alpha - \beta}{2}\right)}
+	\]
+	
+	\begin{equation}
+		\viola{\xi (x,t) = 2A\sin\left(kx\right)\cos\left(\omega t\right)}
+	\end{equation}
+	L'equazione rappresenta  un'oscillazione armonica semplice di pulsazione \(\omega \) e con \textbf{ampiezza che dipende dalla posizione}; come ci aspettavamo nell'equazione \textbf{non compare il termine \(\boldsymbol{kx \pm \omega t}\)} proprio perché l'oscillazione non si propaga. Troviamo i massimi e i minimi ponendo 
+	\[ 
+	\sin\left(kx\right) = \pm 1 \qquad \to \qquad kx = \frac{1}{2}\pi + m\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = \frac{\pi }{2}(1 + 2m) \quad \to 
+	\]
+	\begin{equation}
+		\textbf{Ventri:} \quad	\viola{x = \frac{\lambda}{4}(1+2m)} \quad m=0,1,2,\dots
+	\end{equation}
+	invece i nodi li troviamo ponendo 
+	\[ 
+	\sin\left(kx\right) = 0 \qquad \to \qquad kx =  m'\pi \qquad \to \qquad \frac{2\pi }{\lambda}x = m'\pi  \quad \to 
+	\]
+	\begin{equation}\label{nodi}
+		\textbf{Nodi:} \quad	\viola{x = \frac{\lambda}{2} m'} \quad m'=0,1,2,\dots
+	\end{equation}
+	
+	\subsection{Corda tesa con due estremi fissi}
+	Supponiamo di avere una corda vibrante di lunghezza \(L\) con nodi nei punti di coordinate \(x=0\) e \(x=L\). Vediamo come fissata una lunghezza \(L\) della corda, in questa possono aver luogo soltanto le onde stazionarie di lunghezza d'onda \(\lambda_m\) e frequenza \(f_m\): dalla \ref{nodi} si ha che i nodi, in \(x=0\) e \(x=L\), sono descritti da
+	\[ 
+	x = \frac{\lambda}{2}m \quad \rightarrow \quad \begin{cases}
+		0 = \frac{\lambda}{2}m\\ L = \frac{\lambda}{2}m
+	\end{cases}
+	\]
+	\begin{equation}\label{lambdam}
+		\text{dalla seconda: }\quad \to \quad \lambda = \viola{\lambda_m = \frac{2L}{\boldsymbol{m}}}
+	\end{equation}
+	Ricaviamo invece la frequenza dalla sua normale espressione utilizzando la \ref{corda} per la velocità:
+	\[ 
+	f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{2\frac{L}{m}} \quad \rightarrow \quad  \viola{f_m = \frac{\boldsymbol{m}}{2L}\sqrt{\frac{T}{\mu}}}
+	\]
+	In una corda tesa esiste dunque una \textbf{serie discreta} di lunghezze d'onda e frequenze detta \textbf{serie armonica} in  cui  la frequenza più bassa  \(f_1\) è chiamata \textbf{frequenza fondamentale} o \textbf{prima armonica}, tutte le altre sono dette \textbf{armoniche superiori}
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Modo della corda}
+					Viene chiamato \textbf{modo} della corda una particolare onda stazionaria con \textit{tot} nodi. Una coda ha pertanto \(\infty^1\) modi discreti. Un particolare modo può essere eccitato pizzicando opporunamente la corda oppure per mezzo di un diapason.
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	
+	
+	Nel caso del diapason: se questo è posto su un estremo della corda così da fungere da nodo, genera un'onda che arrivata all'estremo opposto si andrà a riflettere tornando dal diapason per poi rifletersi nuovamente, tutto questo in un certo tempo \(t\) che possiamo trovare: sappiamo che l'onda viaggia a velocità \(v\) e deve percorrere un tratto lungo \(2L\), quindi 
+	\[ 
+	t = \frac{2L}{v}
+	\]
+	dalla \ref{lambdam} sappiamo che \(2L = \lambda \boldsymbol{m}\)
+	\[ 
+	t = \frac{\lambda m}{v}
+	\]
+	e sappiamo che il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T = \frac{\lambda}{v}\)
+	\[ 
+	t = mT
+	\]
+	quindi l'onda viene riflessa in un tempo multiplo del periodo e perciò l'onda sarà \textbf{in fase} con la crestà dell'onda che il diapason emette al tempo \(t + mT\) creando un fenomeno di \textbf{risonanza}. L'oscillazione tende quindi ad aumentare e il limite a questo aumento è solo posto a fenomeni di smorzamento dati da vincoli non ideali e attriti.
+	
+	Nel caso in cui non fosse soddisfattta la \ref{lambdam}, e quindi non si possa esprimere \(2L = \lambda m\) si stabilisce un'onda risultante di tutte le onde che hanno origine nelle varie riflessioni la cui ampiezza coincide con quella del diapason.
+	
+	\subsection{Corda tesa con un estremo fisso}
+	La condizione da soddisfare per avere onde stazionarie stabili in una corda con un estremo libero è imporre che une dei due estremi rimanga fisso (nodo), e che l'altro sia un ventre:
+	
+	\[ 
+	\text{Ventre:} \quad x = \frac{\lambda}{4}(1+2m) \quad \to \quad L = \frac{\lambda}{4}(1+2m) \quad \to 
+	\]
+	\begin{equation}\label{lambdam2}
+		\lambda = \viola{\lambda_m  = \frac{4L}{1+2m}}
+	\end{equation}
+	come nel caso a due estremi fissi ricaviamo la frequenza:
+	\[ 
+	f_m = \frac{v}{\lambda_m} = \frac{\sqrt{\frac{T}{\mu}}}{\frac{4L}{1+2m}} \quad \to
+	\]
+	\begin{equation}
+		\viola{f_m = \frac{1 + 2m}{4L} \sqrt{\frac{T}{\mu}}}
+	\end{equation}
+	Come prima se poniamo un diapason sull'estremo fisso si hanno le condizioni di risonanza: l'onda che arriva all'estremo libero viene riflessa senza capovolgersi, arrivata al diapason si capovolge e torna verso l'estremo libero; vediamo quanto impiega l'onda a percorrere la corda:
+	\[ 
+	t = \frac{2L}{v}
+	\]
+	dalla \ref{lambdam2} sappiamo che \(2L = \frac{1+2m}{2}\lambda\)
+	\[ 
+	t = \frac{1+2m}{2v}\lambda = \frac{1+2m}{2}\frac{\lambda}{v}
+	\]
+	e poiché il periodo è il tempo impiegato a percorrere una lunghezza d'onda: \(T=\frac{\lambda}{v}\)
+	\[ 
+	t = \frac{1+2m}{2}T
+	\]
+	Anche in questo caso l'onda impiega un tempo proporzionale al periodo \textcolor{red}{nonm ho ben capito. riguarda questa parte sulle slide}
+	
+	\subsection{Onde stazionarie in una colonna di gas}
+	Andiamo a considerare, in una canna di un organo per esempio, un'onda di pressione e una di spostamento. Se la canna è aperta in entrambi gli estremisi realizzano le stesse condizioni per la pressione e per lo spostamento, in sostanza la condizione è equivalente alla corda con due estremi fissi.
+	
+	Se invece un estremo è chiuso, nel punto di chiusura si avràun ventre di pressione (che sale) e un nodo di spostamento (l'aria si ferma); la situazione è quindi analoga a quella di una corda con un estremo fisso e uno libero.
+	
+	\begin{center}
+		\textcolor{red}{riporta calcoli}
+	\end{center}
+	
+	\subsection{Timbro}
+	Uno strumento fornisce un massimo di potenza quando \textbf{la frequenza di eccitazione coincide con una delle frequenze della serie armonica}. Il fenomeno elle riflessioni multible \textbf{esalta le frequenze della serie armonica} e \textbf{smorza tute le altre} che risultano quasi assenti. Perciò comprendiamo come la stessa nota con frequenza fondamentale \(f_1\) abbia una composizione armonica che dipende dallo strumento, proprio perché ogni strumento fornisce frequenze di eccitazioni differenti.
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Timbro}
+					La composizione armonica di una nota dipendente dallo strumento e dalla particolare frequenza di eccitazione è chiamata \textbf{timbro}
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	
+	
+	
+	
+	\chapter{Fluidodinamica}
+	\section{Pressione}
+	Poiché non possiamo parlare di forza applicata in un punto del fluido andiamo a considerare un elemento infinitesimo di massa \(dm\) e volume \(dV\) e andiamo a distinguere le forze agenti su di esso. Distinguiamo le \textbf{forze di volume}, ovvero tutte quelle forze proporzionali a \(dV\), e \textbf{forze di superficie} porporzionali a \(dS\). \textit{Nel caso delle forze di superficie è bene caratterizzarle come somma di un termine normal a S e uno parallelo; noi consideriamo il fluido in equilibrio quindi il termine parallelo è nullo.}
+	
+	\[ 
+	\textbf{Forze di volume:} \quad dF_V = dma_z = \rho \boldsymbol{dV}a_z
+	\]
+	\[ 
+	\textbf{Forze di superficie:} \quad dF_{S\perp} = p\boldsymbol{dS}
+	\]
+	
+	\noindent
+	Le forze di superficie si riducono quindi alla sola componente perpendicolare e sono caratterizzate dalla pressione. La pressione che funge da coefficiente alla superficie \textbf{non ha caratteristiche direzionali}, è funzione scalare del punto che si considera e \textbf{non dipende deall'orientazione della superficie}.
+	
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	\[ 
+	\boxed{CH = AH \cos\left(\theta\right)} \qquad \boxed{BH = AH \sin\left(\theta\right)}
+	\]
+	\[ 
+	p_A = \frac{F_A}{AH}
+	\]
+	\[ 
+	\begin{cases}
+		F_C = \textcolor{blue}{F_A \cos\left(\theta\right)}\\
+		F_B = F_A \sin\left(\theta\right)
+	\end{cases} \quad \to \quad
+	\begin{cases}
+		p_C = \frac{F_C}{CH} = \frac{\textcolor{blue}{F_A \cos\left(\theta\right)}}{AH \cos\left(\theta\right)} = \frac{F_A}{AH} \\
+		p_B = \frac{F_B}{BH} = \frac{F_A \sin\left(\theta\right)}{AH \sin\left(\theta\right)} = \frac{F_A}{AH}
+	\end{cases}
+	\]
+	\[ 
+	\Longrightarrow\quad p_A = p_B = p_C =\boldsymbol{p}
+	\]
+	Quindi la pressione è una \textbf{quantità scalare} e il suo valore \textbf{dipende} in generale \textbf{dalla posizione del punto} ma non dalla direzione.
+	
+	
+	\subsection{Equilibrio statico di un fluido}
+	La condizione di equilibrio è che la somma di tutte le forze di volume e di superficie si annulli
+	\[ 
+	\overrightarrow{F}_{Vtot} + \overrightarrow{F}_{Stot} = 0
+	\]
+	Considero solo le forze dovute ad un'accelerazione lungo l'asse \(z\)
+	
+	\begin{es}{}
+		\begin{minipage}{0.5\textwidth}
+			\[ 
+			\textbf{Forze di volume: } \quad dF_V = dma_z = \rho a_z dV
+			\]
+			\begin{align*}
+				\textbf{Forze di superficie:} \quad dF_{S\perp} &= p(z)\boldsymbol{dS} - p(z + dz)dS \\
+				&= \textcolor{red}{p(z)dS - p(z)dS} - p(dz)\textcolor{blue}{dS} \\
+				&= -\frac{\partial p}{\partial z}dz \textcolor{blue}{dxdy} \\
+				&=-\frac{\partial p}{\partial z} dV 
+			\end{align*}
+		\end{minipage}
+		\begin{minipage}{0.5\textwidth}
+			\begin{center}
+				\textcolor{red}{inserire grafici}
+			\end{center}
+		\end{minipage}
+	\end{es}
+	\noindent
+	Quindi per soddisfare la condizione di equilibrio deve valere
+	\[ 
+	\rho a_z dV -\frac{\partial p}{\partial z} dV  = 0 \quad \to
+	\]
+	\begin{equation}
+		\viola{\frac{\partial p}{\partial z} = \rho a_z }
+	\end{equation}
+	che se estendiamo su tutte e tre le dimensioni diventa
+	\begin{equation}\label{pressione}
+		\viola{\boxed{\overrightarrow{\nabla} p = \rho \vec{a}}}
+	\end{equation}
+	Quindi la pressione aumenta lungo il verso positivo della forza (determinata dall'accelerazione \(a_*\)). La forza di volume tende infatti a spostare il volumetto determinando una \textbf{reazione} del fluido che si manifesta come una variazione di pressione. \textit{Notare l'analogia della pressione con la tensione in un filo massivo}.\\
+	Si ottiene inoltre che la pressione è uniforme solo quando \(\rho a = 0\) che sulla terra sembrerebbe non poter mai essere verificata data l'accelerazione di gravità. Tuttavia per densità molto basse o volumi molto piccoli la pressione può essere considerata uniforme. \\
+	
+	\noindent
+	Se la forza di volume agente sul fluido è conservativa il lavoro compiuto non dipende dal particolare percorso seguito, ma solo dalle coordinate dal punto iniziale e finale; inoltre vale
+	\[ 
+	\overrightarrow{F} = m \vec{a} = -\overrightarrow{\nabla}E_p
+	\]
+	perciò si può esprimere la \ref{pressione} come \(-\rho\) per il gradiente dell'\textbf{energia potenziale per unità%	
+	\noindent
+ di massa}
+	\[
+	\overrightarrow{\nabla} p = -\rho \frac{\overrightarrow{\nabla}E_p}{m}
+	\]
+	\begin{equation}\label{gradiente pressione}
+		\viola{\boxed{\overrightarrow{\nabla} p = -\rho \overrightarrow{\nabla}E_{p,m}}}
+	\end{equation}
+	Infatti le \textbf{superfici isobariche coincidono con quelle equipotenziali}, quindi le variazioni di pressione e di energia potenziale sono le stesse ovunque nel passaggio da una superficie equipotenziale ad un'altra. 
+	
+	Se espclicitiamo i due nabla otteniamo l'espressione della variazione infinitesima di pressione:
+	
+	\[ 
+	\boxed{\left|\overrightarrow{\nabla}p \right|= \left|\frac{dp}{ds}\right|} \qquad \boxed{\left|\overrightarrow{\nabla}E_{p,m} \right|= \left|\frac{dE_{p,m}}{ds}\right|}
+	\]
+	
+	\[ 
+	|dp |= -\rho |dE_{p,m}|
+	\]
+	quindi se lungo una superficie isobarica e equipotenziale si hanno pressione ed energia potenziale costanti, anche la densità lo è. Pertanto in un fluido sottoposto a forze conservative la \textbf{variazione di densità} segue geometricamente qualla di pressione e di energia potenziale.
+	
+	\subsection{Lavoro della pressione}
+	Nel caso di equilibrio statico non ci sono spostamenti di conseguenza il lavoro è nullo. Nel caso di non equilibrio invece, considerando una situazione semplice di una forza verticale ortogonale alla superficie:
+	\[ 
+	dW = dF dh = p\textcolor{blue}{S dh }= dp \textcolor{blue}{dV }
+	\] 
+	\begin{equation}
+		W = \int{pdV}
+	\end{equation}
+	
+	\subsection{Equilibrio in presenza di forza peso}
+	Applichiamo i risultati ottenuti precedentemente. In questo caso abbiamo come accelerazione \(a_z = -g\), quindi secondo la \ref{pressione} la pressione \textbf{varia solo lungo l'asse z}. Esplicitiamo i due gradienti così da esplicitare la \ref{gradiente pressione}:
+	\[ 
+	\boxed{\nabla p_z = \frac{d p}{d z} }\qquad \boxed{\nabla E_{p,m,z} = \frac{d E_{p,m}}{d z} = g}
+	\]
+	\[ 
+	\frac{dp}{dz} = -\rho g
+	\]
+	\[ 
+	\int_{p_1}^{p_2}dp = -\rho g \int_{z_1}^{z_2}dz
+	\]
+	\[ 
+	p_2 - p_1 = -\rho g (z_2 - z_1)
+	\]
+	Quindi se la densità è costante, la pressione in un fluido in equilibrio sotto l'azione della forza di gravità varia secondo la \textbf{legge di Stevino }(\(p_2 = p_0\) e \(z_2 = 0\) e \(z_1 = -h\))
+	\begin{equation}\label{stevino}
+		\viola{ p(h) = p_0 -\rho g h}
+	\end{equation}
+	
+	\section{Principio di Archimede}
+	Un corpo immerso in un fluido riceve una spinta verticale verso l'alto  pari al peso del volume di fluido spostato
+	\begin{equation}
+		\viola{	\overrightarrow{F}_A = -\rho V \vec{g}}
+	\end{equation}
+	
+	
+	
+	Vediamo come ottenere questa relazione: immaginiamo una prozione di fluido "immerso" di volume \(V_{0}\); essendo in equilibrio la somma delle forze di volume e delle forze di pressione deve essere nulla
+	\[ 
+	\overrightarrow{F}_{V} + \overrightarrow{F}_{P} = 0 \quad \to \quad F_{P} = mg
+	\]
+	se andiamo a sostituire il volume di fluido con un altro corpo di densità \(\rho'\), allora le forze di pressione esercitate dal fluido circostante rimane la stessa, mentre varia la forza eso. Pertanto non sussiste più la condizione di equilibrio e vale
+	\[ 
+	(m' - m)\vec{g} = (\rho'-\rho)V_{0}\vec{g}
+	\]
+	
+	\begin{center}
+		% BUOYANT FORCE
+		\begin{tikzpicture}
+			\def\H{2.5}      % container height
+			\def\W{2.5}      % container width
+			\def\h{0.9*\H}   % water level height
+			\def\my{0.33*\H} % mass y position
+			\def\mh{0.28*\H} % mass height
+			\def\mw{0.35*\H} % mass width
+			
+			% CONTAINER
+			\draw[water] (-\W/2,0) rectangle++ (\W,\h); %,rounded corners=2
+			\draw[thick,line cap=round] (-\W/2,\H) |-++ (\W,-\H) --++ (0,\H);
+			
+			% MASS
+			\draw[dashed]
+			(-0.64*\W,\my) -- (0.64*\W,\my)
+			(-0.64*\W,\my+\mh) -- (0.64*\W,\my+\mh);
+			\draw[mass] (-\mw/2,\my) rectangle++ (\mw,\mh) node[midway] {$m$};
+			\draw[force] (0.30*\mw,\my+0.7*\mh) --++ (0,\mh) node[below=4,right=0] {$\vbF_2$};
+			\draw[force] (0.25*\mw,\my+0.2*\mh) --++ (0,-0.7*\mh) node[right=0] {$\vbF_1$};
+			\draw[force] (-0.3*\mw,\my+0.3*\mh) --++ (0,-1.1*\mh) node[above=2,left=0] {$m\vb{g}$};
+			
+			% AXIS depth
+			\draw[->,thick]
+			(-0.64*\W,\H) --++ (0,-1.1*\H);
+			\tick{-0.64*\W,\h}{0} node[left] {$0$};
+			\tick{-0.64*\W,\my+\mh}{0} node[left] {$h_1$};
+			\tick{-0.64*\W,\my}{0} node[left] {$h_2$};
+			
+			% AXIS pressure
+			\draw[->,thick]
+			(0.64*\W,\H) --++ (0,-1.1*\H) node[right] {$P$};
+			\tick{0.64*\W,\h}{180} node[right] {$P_\mathrm{atm}$};
+			\tick{0.64*\W,\my+\mh}{180} node[right] {$P_1$};
+			\tick{0.64*\W,\my}{180} node[right] {$P_2$};
+			
+		\end{tikzpicture}
+	\end{center}
+	
+	E' importante notare che la forza di Archimede si deve ritenere \textbf{applicata al centro di massa}, pertanto oltre alla spinta verso l'alto, nel caso di corpi estesi, si deve pensare anche ad un \textbf{momento risultante}.
+	\begin{center}
+		\textcolor{red}{inserire grafici}
+	\end{center}
+	
+	
+	\section{Liquido in rotazione}
+	Andiamo a considerare un elemento \(dm\) di liquido e analiziamo le forze in gioco ponendoci nel sistema di riferimento non ineraziale del liquido rotante: 
+	\begin{enumerate}
+		\item Chiaramente la forza peso: \(\boldsymbol{dmg}\);
+		\item Compiendo una traiettoria circolare è soggetto ad una forza centripeta: \(dm\omega^2R = \boldsymbol{\rho dV\omega^2 R}\);
+		\item Infine una forza di pressione che va ad equilibrare le altre due: \(\boldsymbol{dF_{P}}\)
+	\end{enumerate}
+	L'elemento \(dm\) è quindi soggetto a due forze di volume (conservative) e a una forza di pressione. Essendo soggetto a forze conservative possiamo scrivere l'espressione della sua energia potenziale come
+	\begin{align*}
+		dW = \overrightarrow{F} \cdot d\vec{s} =& (dm \vec{g} - dm \omega^2 \vec{r}) \cdot \boldsymbol{d\vec{s}}\\
+		=& dmg\boldsymbol{dz} - dm \omega^2(x+y)\boldsymbol{dxdy}
+	\end{align*} 
+	\begin{minipage}{0.5\textwidth}
+		ponendo lo zero di energia potenziale a terra possiamo ottenere l'espressione di quest'ultima:
+		\[ 
+		E_{p} = mgz - \frac{1}{2}m\omega ^2(x^2 + y^2)
+		\]
+		o espressa in unità di massa
+		\[ 
+		E_{p,m} = gz - \frac{1}{2}\omega ^2(x^2 + y^2)
+		\]
+		da cui possiamo ottenere l'espressione della coordinata \(z\) in funzione di \(x,y\):
+		\begin{equation}
+			\viola{z = h +\frac{\omega ^2}{2g}(x^2 +y^2)}
+		\end{equation}
+		equazione di un \textbf{paraboloide di rotazione}
+	\end{minipage}
+	\begin{minipage}{0.5\textwidth}
+		\begin{center}
+			\tdplotsetmaincoords{60}{110}
+			\begin{tikzpicture}[tdplot_main_coords,scale=2.0]
+				\pgfmathsetmacro{\tini}{0.5*pi}
+				\pgfmathsetmacro{\tfin}{1.85*pi}
+				\pgfmathsetmacro{\tend}{2.5*pi}
+				%%% Coordinate axis
+				\draw[thick,->] (0,0,0) -- (1.5,0,0) node [below left] {\footnotesize$x$};
+				\draw[dashed] (0,0,0) -- (-1.25,0,0);
+				\draw[thick,->] (0,0,0) -- (0,1.5,0) node [right] {\footnotesize$y$};
+				\draw[dashed] (0,0,0) -- (0,-1.25,0);
+				% The curves slicing the surface
+				\draw[mydarkblue,thick,opacity=0.5] plot[domain=-1:1,smooth,variable=\t] ({\t},0,{\t*\t}); 
+				\draw[mydarkblue,thick,opacity=0.5] plot[domain=-1:1,smooth,variable=\t] (0,{\t},{\t*\t}); 
+				% El paraboloid (for z = constant)
+				\foreach \altura in {0.0125,0.025,...,1.0}{
+					\pgfmathparse{sqrt(\altura)}
+					\pgfmathsetmacro{\radio}{\pgfmathresult}
+					\draw[myblue,thick,opacity=0.5] plot[domain=\tini:\tfin,smooth,variable=\t] ({\radio*cos(\t r)},{\radio*sin(\t r)},{\altura}); 
+				}
+				% Circunference bounding the surface (above, first part)
+				\draw[mydarkblue,thick,opacity=0.75] plot[domain=pi:1.75*pi,smooth,variable=\t] ({cos(\t r)},{sin(\t r)},{1.0}); 
+				% last part of the z axis
+				\draw[thick,->] (0,0,0) -- (0,0,1.75) node [above] {\footnotesize$z$};	
+				\foreach \altura in {0.0125,0.025,...,1.0}{
+					\pgfmathparse{sqrt(\altura)}
+					\pgfmathsetmacro{\radio}{\pgfmathresult}
+					\draw[myblue,thick,opacity=0.5] plot[domain=\tfin:\tend,smooth,variable=\t] ({\radio*cos(\t r)},{\radio*sin(\t r)},{\altura}); 
+				}
+				% Circunference bounding the surface (above, last part)
+				\draw[mydarkblue,thick,opacity=0.75] plot[domain=-0.25*pi:pi,smooth,variable=\t] ({cos(\t r)},{sin(\t r)},{1.0}); 
+			\end{tikzpicture}
+		\end{center}
+	\end{minipage}
+	
+	\vspace{0.3cm}
+	Andiamo ora studiare lo stesso caso ma in un sistema di riferimento inerziale. In questo caso l'elemento di liquido non  è più in quiete, la risultante delle forze su di esso dovrà dare un termine centripeto. La condizione di equilibrio è soddisfatta solamente lungo la direzione verticale e, come sappiamo dalla \ref{pressione}, vale
+	
+	\begin{align*}
+		&\overrightarrow{F}_{V,z} + \overrightarrow{F}_{p,z} = 0 \\
+		& dm g + p(z)dS - p(z+dz)dS = 0 \quad  \to \quad dmg - p(dz)dS = 0\\
+		& dmg - \frac{\partial p}{\partial z}dzdxdy = 0 \\
+		& dmg - \frac{\partial p}{\partial z}dV = 0  \quad \to \quad \rho dV g -  \frac{\partial p}{\partial z}dV = 0 \\
+	\end{align*}
+	\[ 
+	\boxed{\rho g = \frac{\partial p}{\partial z}}
+	\]
+	Per le forze radiali invece non sono soddisfatte le condizioni di equilibrio (e ricordando che sono forze centripete):
+	\begin{align*}
+		dF_{r} =& p(r)dS - p(r+dr)dS \\
+		=& - \frac{\partial p}{\partial r}drdS \\
+		=& - \frac{\partial p}{\partial r}dV \\
+		-dm \omega^2 r =& - \frac{\partial p}{\partial r}dV \\
+		-\rho dV \omega^2 r =& - \frac{\partial p}{\partial r}dV \\
+	\end{align*}
+	\[ 
+	\boxed{\rho \omega^2 r =  \frac{\partial p}{\partial r}}
+	\]
+	dalle due espressioni si ricava quella della pressione in funzione della distanza radiale e verticale:
+	\begin{equation}
+		p(r,z) = -\rho gz + \frac{1}{2}\rho \omega ^2 r^2 + p(0,0)
+	\end{equation}
+	dove \(p(0,0) = p_{0} + \rho gh\) e, ricordando che la superficie libera è isobarica, la pressione atmosferica \(p_{0}\) deve equilibrare \(p(r,z)\)
+	\[ 
+	p_{0} =  -\rho gz + \frac{1}{2}\rho \omega ^2 r^2 + p_{0} + \rho gh
+	\]
+	e quindi ritroviamo l'espressione di \(z\) di prima
+	\[ 
+	z = h +\frac{\omega ^2}{2g}(x^2 +y^2)
+	\]
+	
+	\section{Moto  di un fluido}
+	Durante lo scorrimento tra due elementi di fluiso compare una \textbf{forza di attrito interno} con verso opposto alla velocit relativa tra i due. Sperimentalmente si trova che il modulo della forza d attrito vale 
+	\begin{equation}
+		dF = \boldsymbol{\eta} dS \frac{dv}{dn}
+	\end{equation}
+	
+	Il coefficiente \(\boldsymbol{\eta}\) indica la \textbf{viscosià del fluido}; nei liquidi decresce all'aumentare della temperatura, nei gas cresce. Chiamiamo \textbf{fluido ideale} o \textbf{non viscoso e incomprimibile} un fluido con \(\eta = 0\) e \(\rho = \) costante.
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{attenzione}{\begin{minipage}{5.75in}
+				\begin{attenzione}{!!!}
+					Il concetto di viscosità assume importanza \textbf{solo nei fluidi in movimento}. La condizione di equilibrio statico  \(dv/dn = 0\) non dipende da \(\eta\).
+				\end{attenzione}
+		\end{minipage}}
+	\end{center}
+	
+	\noindent
+	La variazione di forma discussa prima è in parte dovuta all'attrito interno. Il contenitore si mette in modo iniziando a trascinare gli elementi di liquido sulle pareti e sul fondo; glie lementi si portano verso l'esterno fino a che non si stabilisce l'equilibrio dinamico.
+	
+	\subsection{Descrizioni del moto}
+	\begin{center}
+		\begin{minipage}{0.49\textwidth}
+			\begin{es}{Lagrangiana}
+				Prende in esame un elemento di fluido e ne segue il moto dovuto alle varie forze agenti. In sostanza è una descrizione \textbf{analoga a quella di un punto materiale}.
+			\end{es}
+		\end{minipage}
+		\begin{minipage}{0.49\textwidth}
+			\begin{es}{Euleriana}
+				Si fissa l'attenzione su un punto della massa fluida \(P(x,y,z)\) e si considera la velocità \(v(x,y,z,t)\) dell'elemento fluido che passa in \(P\) all'instante \(t\).
+			\end{es}
+		\end{minipage}
+	\end{center}
+	Spesso risulta più comoda la descrizione euleriana soprattuto se consideriamo la \textbf{velocità indipendente dal tempo}. In questo caso scompare la dipendenza dal tempo che sarebbe rimasta nella visuale lagrangiana (dove si segue il moto del punto).
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Regime stazionario}
+					La situazione fisica in cui tutti gli elementi di fluido che passano in istanti diversi in \(P\) hanno in quella posizione sempre stessa velocità, è chiamata \textbf{regime stazionario}.
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	
+	\subsection{Tubi di flusso e portata} Si tracciano delle linee orientate le cui tangenti  serovono a descrivere la direzione e la velocità in quel punto. L'insieme di tutte le linee di corrente attraverso una data sezione prende il nome di \textbf{tubo di flusso}.
+	
+	\vspace{0.8cm}
+	\begin{center}
+		\begin{tikzpicture}
+			\def\L{8.0}          % total length
+			\def\m{0.20*\L}      % length pipe middle
+			\def\l{0.25*\L}      % length pipe outer
+			\def\rx{0.08}        % small pipe horizontal radius left
+			\def\ry{0.32}        % small pipe vertical radius left
+			\def\Rx{0.18}        % big pipe vertical radius right
+			\def\Ry{0.90}        % big pipe vertical radius right
+			\def\v{1.3}          % velocity magnitude
+			\contourlength{1.5pt}
+			
+			% WATER
+			\draw[horizontal water,thick]
+			(-\L/2,\Ry) --++ (0,-2*\Ry) coordinate (A1) --++ (\l,0) to[out=0,in=180]
+			(-\m/2,-\ry) --++ (\m,0) to[out=0,in=180]
+			(\L/2-\l,-\Ry) --++ (\l,0) arc(-90:90:{\Rx} and \Ry) --++ (-\l,0) to[out=180,in=0]
+			(\m/2,\ry) --++ (-\m,0) to[out=180,in=0] (-\L/2+\l,\Ry) -- cycle;
+			\draw[water,thick]
+			(-\L/2,0) ellipse({\Rx} and \Ry);
+			\node[above left=2] at (A1) {$S_1$};
+			\node[below=-1] at (0,-\ry) {$S_2$};
+			
+			% VELOCITIES
+			\draw[mydarkblue,dashed]
+			(0,\ry) arc(90:270:{\rx} and \ry);
+			\foreach \fy in {-0.28,-0.8,0.28,0.8}{
+				\coordinate (A) at ($(-\L/2,0)+({asin(\fy/1.5)}:{1.5*\Rx} and {1.5*\Ry})$);
+				\coordinate (B) at ($({\L/2-\Rx},0)+({asin(\fy/1.5)}:{1.5*\Rx} and {1.5*\Ry})$);
+				\draw[vcol!80!black,very thin,postaction={decorate},decoration={markings,
+					mark=at position {0.13-0.02*abs(\fy)} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
+				(A) -- (-\L/2+0.9*\l,\fy*\Ry) to[out=0,in=180]
+				(-0.6*\m,\fy*\ry) -- (0.6*\m,\fy*\ry) to[out=0,in=180] (\L/2-0.9*\l,\fy*\Ry) -- (B);
+			}
+			\draw[vvec] (-\L/2+0.5*\l,0) --++ (\v*\ry/\Ry,0) node[right=-2] {$v_1$};
+			\draw[vvec] ( \L/2-0.7*\l,0) --++ (\v*\ry/\Ry,0) node[right=-2] {$v_1$};
+			\draw[vvec] (-0.5*\v,0) --++ (\v,0) node[right=-2] {\contour{watercol!80}{$v_2$}};
+			\draw[mydarkblue]
+			(0,\ry) arc(90:-90:{\rx} and \ry);
+			\node[above=-1] at (-\L/2+0.5*\l,\Ry) {$P_1$};
+			\node[above=-1] at (0,\ry) {$P_2$};
+		\end{tikzpicture}
+	\end{center}
+	\vspace{0.8cm}
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Portata}
+					Viene definita \textbf{portata del tubo di flusso} il volume di fluido che è passato attraverso la sezione in un secondo:
+					\begin{equation}
+						dq = v dS
+					\end{equation}
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+	E' importante notare che se \textbf{la configurazione delle linee di corrente è immutabile}, quindi se il fluido è ideale e ci troviamo in condizioni di regime stazionario, \textbf{la portata deve essere la stessa} attraverso qualsiasi sezione. Il fluido in questione infatti, essendo ideale, al variare della sezione non può variare di densità.
+	
+	
+	
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					In regime stazionario, se la densità è costante, è costante la portata di un tubo di flusso infinitesimo:
+					\[ 
+					vdS = \text{ costante}
+					\]
+				\end{redes}
+		\end{minipage}}
+	\end{center}
+	
+	
+	\subsection{Teorema di Bernoulli}
+	Prendiamo un fluido ideale che scorre in conidzioni di regime stazionario. Il volume \(dV_{1} = S_{1}d\ell_{1}\) che attraversa la sezione \(S_{1}\) nel tempo \(dt\) è uguale a quello \(dV_{2} = S_{2}d\ell_2\) che attraversa nello stesso intervallo la sezionem \(S_{2}\):
+	\[ 
+	dV_{1} = dV_{2}
+	\]
+	\begin{center}
+		\begin{tikzpicture}
+			\def\LL{1.7}          % length pipe left
+			\def\LR{1.7}          % length pipe right
+			\def\L{3.5*\LL}       % total length
+			\def\H{2.0}           % height
+			\def\l{\L-\LL-\LR}    % length between pipes
+			\def\xL{0.32*\LL}     % position volume left
+			\def\xR{\L-0.80*\LR}  % position volume right
+			\def\lL{0.2*\LR}      % length volume left
+			\def\lR{\lL*\Ry/\ry}  % length volume right
+			\def\rx{0.08}         % small pipe horizontal radius left
+			\def\ry{0.32}         % small pipe vertical radius left
+			\def\Rx{0.18}         % big pipe vertical radius right
+			\def\Ry{0.90}         % big pipe vertical radius right
+			\def\v{1.0}           % velocity magnitude
+			\def\F{0.9}           % force magnitude
+			\def\y{(\Ry+0.35*\H)} % height from ground
+			
+			% WATER
+			\draw[horizontal water,thick]
+			(0,\Ry) -- (0,-\Ry) coordinate (P1) --++ (\LL,0) to[out=0,in=180]
+			(\L-\LR,\H-\ry) -- (\L,\H-\ry) coordinate (P2) arc(-90:90:{\rx} and \ry)
+			--++ (-\LR,0)  to[out=180,in=0] (\LL,\Ry) -- cycle;
+			\node[above left=2] at (P1) {$P_1$};
+			\node[above=-1,right=0] at (P2) {$P_2$};
+			
+			% VOLUMES
+			\draw[vvec] (\xL+\lL+\Rx,0) --++ (\v*1.2*\ry/\Ry,0) node[above=-1] {$v_1$};
+			\draw[vvec] (\xR+\lR+\rx,\H-0.2*\ry) --++ (\v,0) node[right=-2] {$v_2$};
+			\draw[force] (\L-0.7*\ry+0.8*\F,\H+0.2*\ry) --++ (-0.8*\F,0) node[pos=0.3,above] {$F_2$};
+			\draw[dark water,dashed,very thin]
+			(\xL,0) ellipse({\Rx} and \Ry)
+			(\xR,\H) ellipse({\rx} and \ry);
+			\draw[dark water]
+			(\xL,\Ry)
+			arc(90:-90:{\Rx} and \Ry) coordinate (A1) --++ (\lL,0)
+			arc(-90:90:{\Rx} and \Ry) -- cycle;
+			\draw[dark water]
+			(\xR,\H+\ry) coordinate (A2)
+			arc(90:-90:{\rx} and \ry) --++ (\lR,0)
+			arc(-90:90:{\rx} and \ry) -- cycle;
+			\draw[width]
+			(\xL,1.15*\Ry) --++ (\lL,0) node[midway,above] {$d\ell_1$};
+			\draw[width]
+			(\xR,\H-1.6*\ry) --++ (\lR,0) node[midway,fill=white,inner sep=0] {$d\ell_2$};
+			\node[left=1,below=-1] at (A1) {$S_1$};
+			\node[left=1,above=-1] at (A2) {$S_2$};
+			
+			% CONTAINER
+			\draw[mydarkblue,thick]
+			(0,\Ry) -- (0,-\Ry)  coordinate (A1) --++ (\LL,0) to[out=0,in=180]
+			(\L-\LR,\H-\ry) -- (\L,\H-\ry) coordinate (A2) arc(-90:90:{\rx} and \ry)
+			--++ (-\LR,0)  to[out=180,in=0] (\LL,\Ry) -- cycle;
+			\draw[water,thick]
+			(0,0) ellipse({\Rx} and \Ry);
+			
+			% HEIGHT
+			\draw[dashed] (0.23*\L,{-\y}) --++ (0.6*\L,0);
+			\draw[<->]
+			(1.1*\LL,{-\y}) --++ (0,{\y}) node[pos=0.13,above right=-1] {$h_1$};
+			\draw[<->]
+			(0.95*\xR,{-\y}) --++ (0,{\H+\y}) node[midway,fill=white,inner sep=1] {$h_2$};
+			\draw[force] (0.1*\Ry-\F,0) --++ (\F,0) node[pos=0.4,above=-1] {$F_1$};
+			
+		\end{tikzpicture}
+	\end{center}
+	\vspace{0.8cm}
+	Andiamo ora a studiare il lavoro delle forze di volume e delle forze di pressione sui due volumi in considerazione:
+	
+	\begin{center}
+		\begin{minipage}{0.49\textwidth}
+			\begin{es}{Lavoro forza peso}
+				\begin{align*}
+					dW_{G} =& =-dE_{p} = \\
+					=& -dm(h_{2} - h_{1})g\\
+					=& -\rho dV(h_{2} - h_{1})g
+				\end{align*}
+			\end{es}
+		\end{minipage}
+		\begin{minipage}{0.49\textwidth}
+			\begin{es}{Lavoro forze di pressione}
+				\begin{align*}
+					dW_{P} =& \overrightarrow{F}_{1} \cdot d\vec{\ell}_{1} + \overrightarrow{F}_{2} \cdot d\vec{\ell}_{2} \\
+					=& p_{1} S_{1} d\ell_{1} - p_{2} S_{2} d\ell_{2} \\
+					=& (p_{1} - p_{2})dV
+				\end{align*}
+			\end{es}
+		\end{minipage}
+	\end{center}
+	Da cui si ricava una variazione di energia cinetica (\(W = \Delta E_{K}\)) pari a
+	\[ 
+	dE_{K} = dW_{G} + dW_{P} =  (p_{1} - p_{2})dV-\rho dV(h_{2} - h_{1})g
+	\]
+	\begin{align*}
+		dE_{K} =& dW_{G} + dW_{P} \\
+		\frac{1}{2}\rho dVv_{2}^2 - \frac{1}{2}\rho dVv_{1}^2	=& (p_{1} - p_{2})dV-\rho dV(h_{2} - h_{1})g \\
+	\end{align*}
+	\begin{equation}\label{bernoulli}
+		\viola{\boxed{p_{1} + \frac{1}{2}\rho v_{1}^2	+ \rho g h_{1} = p_{2} + \frac{1}{2}\rho v_{2}^2	+ \rho g h_{2}}}
+	\end{equation}
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{yred}{\begin{minipage}{5.75in}
+				\begin{redes}{Teorema di Bernoulli}
+					In un fluido ideale in moto con regime stazionario la somma della: \textbf{pressione}, \textbf{densità di energia cinetica} e della \textbf{densità di energia potenziale} è costante lungo il condotto (lungo qualunque tubo di flusso).
+				\end{redes}
+		\end{minipage}}
+	\end{center}
+	Notare che dalla legge della dinamica appena presentata, si ricavano tutte le leggi della statica precedenti: \textbf{la statica è sempre un caso particolare della dinamica}. Inoltre si rileva che la pressione misurata in un fluido in movimento è sempre minore di quelal misurata in un fluido in quiete.
+	
+	\subsection{Moto laminare}
+	Trattiamo ora il moto di \textbf{fluidi reali}, ovvero fludi di cui non si può più apprissimare \(\eta = 0\) e per cui la densità è approssimabile a un valore costante \(\rho \approx \) costante. A velocità \textit{non elevate} il moto è detto \textbf{laminare}: il regime è stazionario con le linee di corrente costanti nel tempo
+	\begin{center}
+		\begin{minipage}{0.48\textwidth}
+			% LAMINAR FLOW LAYERS
+			\hspace{0.6cm}
+			\begin{tikzpicture}
+				\def\L{5.0}   % total length
+				\def\Rx{0.40} % big pipe vertical radius right
+				\def\Ry{0.90} % big pipe vertical radius right
+				\def\v{1.3}   % velocity magnitude
+				\def\N{3}     % velocity magnitude
+				
+				% WATER
+				\draw[horizontal water,thick]
+				(0,\Ry) -- (0,-\Ry)  coordinate (A1) --++ (\L,0) arc(-90:90:{\Rx} and \Ry) -- cycle;
+				\draw[water]
+				(\L,0) ellipse({\Rx} and \Ry);
+				
+				\draw[water]
+				(0,0) ellipse({\Rx} and \Ry);
+				%\draw[horizontal water,line width=0.1] %draw=none
+				%  (0,-\Ry) rectangle (\L,\Ry);
+				\foreach \i [evaluate={\x=(\i-0.5)/(\N+0.5)}] in {1,...,\N}{
+					\draw[mydarkblue] %,line width=0.05
+					(0,0) ellipse({\x*\Rx} and \x*\Ry)
+					(\L,0) ellipse({\x*\Rx} and \x*\Ry);
+					\draw[mydarkblue] %,dashed]  %,line width=0.05
+					(0, \x*\Ry) --++ (\L,0)
+					(0,-\x*\Ry) --++ (\L,0); %arc(90:-90:{\x*\Rx} and \x*\Ry) --++ (-\L,0);
+				}
+				%\draw[horizontal water,draw=none]
+				%  (0,{-\N/(\N+1)*\Ry}) rectangle (\L,{\N/(\N+1)*\Ry});
+				\draw[water,thick]
+				(0,0) ellipse({\Rx} and \Ry);
+				\foreach \i [evaluate={\x=(\i-0.5)/(\N+0.5)}] in {1,...,\N}{
+					\draw[mydarkblue] (0,0) ellipse({\x*\Rx} and \x*\Ry);
+				}
+				%\draw[mydarkblue,thick]
+				%  (0,\Ry) arc(90:-90:{\Rx} and \Ry) coordinate (A1) --++ (\L,0) arc(-90:90:{\Rx} and \Ry) -- cycle;
+				\draw[vcol!70!black,dashed,samples=100,smooth,variable=\y,domain=-1:1]
+				plot({0.4*\L+\v*(1-0.7*\y*\y)},\y*\Ry);
+				\draw[vvec] (0.4*\L,0) --++ (\v,0);
+				\foreach \i [evaluate={\y=(\i)/(\N+0.5); \vy=\v*(1-0.7*\y^2);}] in {1,...,\N}{
+					\draw[vvec] (0.4*\L, \y*\Ry) --++ (\vy,0);
+					\draw[vvec] (0.4*\L,-\y*\Ry) --++ (\vy,0);
+				}
+				
+			\end{tikzpicture}
+		\end{minipage}
+		\begin{minipage}{0.48\textwidth}
+			% PRESSURE
+			\hspace{1cm}
+			\begin{tikzpicture}[x={(1cm,0)},y={(0.55cm,0.40cm)},z={(0,1cm)}]
+				\def\L{1.8}   % cube side
+				\def\H{1.2}   % total height
+				\def\d{0.8}   % total distance
+				\def\N{7}     % number of layers
+				\def\t{\H/\N} % layer thickness
+				%\draw[dark water] (0,0,0) -- (\L,0,0) -- (\L,\L,0) -- ( 0,\L,0) -- cycle;
+				\def\layer#1#2#3#4{
+					\draw[#1] (#2+\L,0,#3) --++ (0,\L,0) --++ (0,0,-#4) --++ (0,-\L,0) -- cycle;
+					\draw[#1] (#2,0,#3) --++ (\L,0,0) --++ (0,0,-#4) --++ (-\L,0,0) -- cycle;
+					\draw[#1] (#2,0,#3) --++ (\L,0,0) --++ (0,\L,0) --++ (-\L,0,0) -- cycle;
+				}
+				
+				\layer{metal}{0}{0}{0.6*\t}
+				\foreach \i [evaluate={\x=(\i-1)*\d/(\N-1); \ya=\i*\H/\N; \yb=(\i-1)*\H/\N;}] in {1,...,\N}{
+					\layer{water}{\x}{\ya}{\t}
+				}
+				\layer{metal}{\d}{\H+0.6*\t}{0.6*\t}
+				\draw[force] (\L+\d,0.7*\L,\H+0.3*\t) --++ (1.2,0,0) node[above=1,right=-2] {$\vb{F}$};
+				\draw[vvec] (\L+\d,0.4*\L,\H-0.5*\t) --++ (1,0,0) node[below=0,right=-1] {$\vb{v}$};
+				\node at (\d+0.45*\L,0.5*\L,\H+0.6*\t) {$A$};
+				%\draw[width] (0.06*\L,0,0) --++ (0,0,\H) node[midway,fill=white,inner sep=0.5] {$h$};
+				\draw[->,thick]
+				(-0.1*\L,0,-0.1*\H) --++ (0,0,1.4*\H) node[above=-1] {$z$};
+				\tick{-0.1*\L,0,0}{0} node[left=-1] {0};
+				\tick{-0.1*\L,0,\H}{0} node[left=-1] {$h$};
+				
+			\end{tikzpicture}
+		\end{minipage}
+	\end{center}
+	Considerando un condotto lungo \(l\) e di raggio \(R\) si dimostra che la velocità in base alla distanza radiale vale
+	\begin{equation}
+		\viola{v(r) = \frac{p_{1}-p_{2}}{4\eta l}(R^2-r^2)}
+	\end{equation}
+	In queste condizioni cambia la formula della portata che diventa
+	\[ 
+	q = \int_{0}^{R}v(r)2\pi r \ dr
+	\]
+	da cui si ottiene la \textbf{legge di Hagen-Poiseuille} (valida per raggi molto piccoli)
+	\begin{equation}
+		q = \frac{\pi R^4}{8\eta}\frac{p_{1} - p_{2}}{l}
+	\end{equation}
+	dalla quale possiamo trovare il valore della velocità media:
+	\begin{equation}
+		\viola{v_{m}= \frac{q}{S} = \frac{\frac{\pi R^4}{8\eta}\frac{p_{1} - p_{2}}{l}}{\pi R^2} = \frac{R^2}{8\eta}\frac{p_{1} - p_{2}}{l}}
+	\end{equation}
+	Come nel caso di un punto materiale in presenza di attrito radente, per mantenere il flusso di fluido è necessaria una differenza di pressione, ovvero una forza per vincere la resistenza del moto dovuta all'attrito interno.
+	
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{attenzione}{\begin{minipage}{5.75in}
+				\begin{attenzione}{!!!}
+					Per i fluidi reali Bernoulli vale solo in misura approssimata  \(dv/dn = 0\) non dipende da \(\eta\).
+				\end{attenzione}
+		\end{minipage}}
+	\end{center}
+	
+	\subsection{Moto turbolento}
+	Al crescere del raggio del condotto compaiono vortici nel fluido e si parla di \textbf{moto turbolento o vorticoso}. I vortici sono causati da forti variazioni di velocità ortogonalmente alle linee di corrente, e quindi, a \textbf{notevoli forze di attrito interno} (altre cause sono variazione di forma del condotto...).
+	
+	Se il condotto è a sezione costante vale la legge sperimentale descritta da Reynolds che ha provato che si ha la transizione da regime laminare a turbolento quando il parametro \(\mathcal{R}\) detto numero di Reynolds super un certo valore critico:
+	\[ 
+	\mathcal{R} = \frac{\rho v L}{\eta} \qquad  v_{\text{crit}} = \mathcal{R}_{\text{crit}}\frac{\eta}{\rho L}
+	\]
+	dove \(L\) è la \textbf{lunghezza caratteristica convenzionale} (per tubazioni cilindriche è il diametro).
+	
+	All'aumentare della differenza di pressione si raggiunge un \textbf{regime di moto stabile in regime turbolento} e si trova che la velocità media si può esprimere come
+	\[ 
+	v_{m}^2 = 2\frac{L}{k}\frac{\rho }{2} \frac{p_{1} - p_{2}}{l} 
+	\]
+	Vediamo quindi come il gradiente di pressione \((p_{1}-p_{2}/l)\) sia necessario per mantenere una certa velocità di flusso, più precisamente in regime vorticoso questo è una funzione quadratica della velocità, in regime laminare è una funzione lineare. \\
+	
+	\noindent
+	Consideriamo una sfera immers in un fluido in moto. Se il fluido è ideale si avrà \textbf{completa simmetria delle linee di corrente}, quindi eguale pressione a monte e a valle della sfera che rimarrà ferma; questo risultato è indicato come \textbf{paradosso di D'Alembert}. 
+	
+	Se invece il fluido è reale si forma una scia vorticosa con pressione a valle maggiore e conseguente applicazione di una forza sulla sfera.
+	
+	\begin{center}
+		\begin{minipage}{0.49\textwidth}
+			% LAMINAR FLOW around object
+			\begin{tikzpicture}
+				\def\W{7.0}   % total length
+				\def\H{3.5}   % total height
+				\def\R{1.0}   % total distance
+				\def\N{5}     % number of layers
+				\def\t{\H/\N} % layer thickness
+				(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
+				\draw[metal]
+				(0,0) circle(\R);
+				\foreach \s in {-1,1}{
+					\foreach \i [evaluate={\fy=\s*(\i-0.5)/\N; \y=\fy*0.5*\H;}] in {1,...,\N}{
+						\draw[myblue,thick,postaction={decorate},decoration={markings,
+							mark=at position {0.2} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
+						(-\W/2,\y) to[out=0,in=180] (0,\s*\R+0.7*\fy) to[out=0,in=180] (\W/2,\y);
+					}
+				}
+			\end{tikzpicture}
+			\begin{equation}
+				\viola{F_{\text{res}}= 6\pi \eta R v}
+			\end{equation}
+		\end{minipage}
+		\begin{minipage}{0.49\textwidth}
+			% TURBULENCE around object
+			\begin{tikzpicture}
+				\def\W{7.0}   % total length
+				\def\H{3.5}   % total height
+				\def\R{1.0}   % total distance
+				\def\N{5}     % number of layers
+				\def\t{\H/\N} % layer thickness
+				(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
+				\draw[metal]
+				(0,0) circle(\R);
+				\foreach \s in {-1,1}{
+					\foreach \i [evaluate={\fy=\s*(\i-0.5)/\N; \y=\fy*0.5*\H;}] in {3,...,\N}{
+						\draw[myblue,thick,postaction={decorate},decoration={markings,
+							mark=at position {0.2} with {\arrow{latex}},mark=at position 0.9 with {\arrow{latex}}}]
+						(-\W/2,\y) to[out=0,in=180] (0,\s*\R+0.7*\fy) to[out=0,in=180] (\W/2,\y);
+					}
+				}
+				
+				%\def\p{node[circle,fill=red,inner sep=0.9] {}} % probe dot
+				\draw[myblue,thick,postaction={decorate},decoration={markings,
+					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
+				(-\W/2,{1.5/\N*0.5*\H}) to[out=0,in=180] (0,{\R+0.7*1.5/\N}) to[out=0,in=140,looseness=1.2]
+				(0.28*\W,0.17*\H) to[out=-40,in=180,looseness=1.1] (0.40*\W,0.02*\H) to[out=0,in=50,looseness=4]
+				(0.38*\W,0.15*\H);
+				\draw[myblue,thick,postaction={decorate},decoration={markings,
+					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
+				(-\W/2,{0.5/\N*0.5*\H}) to[out=0,in=180] (0,{\R+0.7*0.5/\N}) to[out=0,in=140,looseness=1.0]
+				(0.20*\W,0.20*\H) to[out=-40,in=-70,looseness=3] (0.16*\W,0.15*\H);
+				\draw[myblue,thick,postaction={decorate},decoration={markings,
+					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
+				(-\W/2,{-0.5/\N*0.5*\H}) to[out=0,in=180] (0,{-\R-0.7*0.5/\N}) to[out=0,in=-140,looseness=1.1]
+				(-40:1.15*\R) to[out=40,in=180,looseness=1.1] (0.27*\W,0.05*\H) to[out=0,in=-80,looseness=2]
+				(0.22*\W,-0.10*\H);
+				\draw[myblue,thick,postaction={decorate},decoration={markings,
+					mark=at position {0.2} with {\arrow{latex}},mark=at position 0.75 with {\arrow{latex}}}]
+				(-\W/2,{-1.5/\N*0.5*\H}) to[out=0,in=180] (0,{-\R-0.7*1.5/\N}) to[out=0,in=-150,looseness=1.1]
+				(0.30*\W,-0.16*\H) to[out=30,in=180,looseness=1.1] (0.46*\W,-0.05*\H) to[out=0,in=-110,looseness=4]
+				(0.41*\W,-0.13*\H);
+				
+			\end{tikzpicture}
+			\begin{equation}
+				\viola{F_{\text{res}}= \frac{1}{2}cS\rho v^2}
+			\end{equation}
+		\end{minipage}
+	\end{center}
+	Dove la prima è detta \textbf{legge di Stokes} e vale per oggetti di forma sferica, mentre la seconda ha il coefficiente adimensionale \(c\) che dipende dalla forma dell'oggetto (soprattuto la parte posteriore).
+	
+	
+	\subsection{Effetto Magnus e Portanza}
+	Supponiamo che ora la sfera immersa nel fluido stia anche \textbf{ruotando su se stessa}. Ruotando trasporta per attrito una parte di fluido generando una \textbf{asimmetria} nelle velocità in alto e in basso. In generale la velocità del fluido sarà più alta dove viene trasportato il fluido dalla rotazione (in basso in figura). La differenza di velocità causa una differenza di pressione e quindi una spinta. Questo fenomeno prende il nome di \textbf{effetto Magnus}.
+	\begin{center}
+		% LAMINAR FLOW around object
+		\begin{tikzpicture}
+			\def\W{6.0}   % total length
+			\def\H{3.1}   % total height
+			\def\R{0.8}   % total distance
+			
+			% WATER
+			(-0.52*\W,-0.52*\H) rectangle (0.52*\W,0.52*\H);
+			\foreach \s in {-1,1}{
+				\draw[myblue,thick,postaction={decorate},decoration={markings,
+					mark=at position 0.20 with {\arrow{latex}},
+					mark=at position 0.50 with {\arrow{latex}},
+					mark=at position 0.80 with {\arrow{latex}}}]
+				(\W/2,\s*0.3*\R) to[out=180,in=0] (0,{\s*\R+\s*0.2*(\H/2-\R)}) to[out=180,in=0] (-\W/2,\s*0.3*\R);
+			}
+			
+			% OBJECT
+			\draw[metal]
+			(0,0) circle(\R);
+			\draw[vvec] (0.8*\R,0) --++ (0.8*\R,0) node[right] {$\vb{v}$};
+			\draw[vvec] (60:0.8*\R) arc(60:120:0.8*\R);
+			\draw[vvec] (-120:0.8*\R) arc(-120:-60:0.8*\R);
+			\draw[force] (95:0.9*\R) --++ (0,0.8*\R) node[below=2,right] {$\vb{F}_\mathrm{Mag}$};
+			\node[below=-3,scale=0.8,align=center] at (-0.12*\W,0.5*\H) {bassa\\[-1mm]pressione};
+			\node[above=-3,scale=0.8,align=center] at (0,-0.5*\H) {alta\\[-1mm]pressione};
+			
+		\end{tikzpicture}
+	\end{center}
+	\vspace{2cm}
+	Un altro fenomeno importante è la \textbf{portanza}: una spinta verso l'alto dovuta alla differenza di pressioni nelle due parti inferiore e posteriore di un'ala.
+	
+	Per ricavare un'espressione della forza possiamo passare dall'equazione di Bernoulli. Si hanno i seguenti valori di pressione e velocità:
+	\begin{itemize}
+		\item \textbf{A monte}: \(p\) e \(v\);
+		\item \textbf{Sopra}: \(p_{1}\) e \(v + \Delta v\);
+		\item \textbf{Sotto}: \(p_{2}\) e \(v - \Delta v\).
+	\end{itemize}
+	Deve valere
+	\[ 
+	p + \frac{1}{2}\rho v^2 = p_{1} + \frac{1}{2}\rho (v+\Delta v)^2= p_{2} + \frac{1}{2}\rho (v-\Delta v)^2
+	\]
+	da cui 
+	\[ 
+	p_{2} - p_{1} = 2 \rho v \Delta v
+	\]
+	che, con una superficie alare \(A\), ci dà
+	\begin{equation}
+		\viola{F = 2A \rho v \Delta v}
+	\end{equation}
+	
+	
+	
 %	
 %	\newpage
 %	
@@ -2315,7 +2330,7 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %		\end{enumerate}
 %	\end{es}
 %	
-%	
+	
 %	\textcolor{red}{Inserire piccolo riassunto pagina 426}\\
 %	
 %	\textcolor{red}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}
@@ -2437,7 +2452,6 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %		Da cui troviamo anche che la costante \(a\) vale \(a = 273.16/X_{pt}\).
 %		
 %		Termometri diversi forniscono sempre letture diverse qando in equilibrio termico con lo stesso stato di un sistema anche se tarati per costruzione al punto triplo dell'acqua (\textit{mio guess: cambierà il tipo di andamento, forse non più lineare}).
-%		
 %	\end{enumerate}
 %	\subsection{Termometro a gas}
 %	\begin{center}
@@ -3329,6 +3343,40 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 %	
 %	\subsubsection{Scambi di calore tra corpi}
 %	\subsubsection{Cambiamenti di fase}
+%	
+%	\subsection{Energia inutilizzabile}
+%	Processi naturali irreversibili sono accompagnati da una \textbf{degradazione dell'energia}, ovvero la perdita di disponibilità di lavoro.
+%	\begin{center}
+%		\fboxsep11pt
+%		\colorbox{yred}{\begin{minipage}{5.75in}
+%				\begin{redes}{}
+%					Quando avviene un processo irreversibile in cui l'entropia dell'universo aumenta di \(\Delta S_{u}\), la grandezza
+%					\[ 
+%					E_{IN} = T\Delta S_{u}
+%					\]
+%					viene detta \textbf{energia inutilizzabile} ed è pari alla differenza tra il lavoro ottenibile se il processo fosse reversibile e il lavoro effettivamente ottenuto.
+%				\end{redes}
+%		\end{minipage}}
+%	\end{center}
+%	
+%	Prendiamo come esempio  una \textbf{espansione libera di un gas}: durante l'espansione libera non c'è equilibrio meccanico, il gas non produce lavoro e non scambia calore
+%	\[ 
+%	W = Q = 0
+%	\]
+%	quindi La temperatura resta costante e il suo volume aumenta. La variazione dell'entropia, vista l'adiabaticità del processo, coincide con quella dell'universo
+%	\[ 
+%	\Delta S_{u} = nR\log\left(\frac{V_{B}}{V_{A}}\right)
+%	\]
+%	La variazione di entropia può anche essere calcolata attraverso una trasformazione reversibile che collega gli stati \(A\) e \(B\). Pensiamo allora ad una trasformazione isoterma reversibile che assorbe il calore \(Q\) alla temperatura \(T\) producendo lavoro:
+%	\[ 
+%	dW_{R} = pdV = \frac{nRT}{V}dv
+%	\] 
+%	\[ 
+%	W_{R} = nRT\log\left(\frac{V_{B}}{V_{A}}\right) = \boldsymbol{T\Delta S_{u}}
+%	\]
+%	\[ 
+%	\boxed{W_{R} - W = T\Delta S_{u}}
+%	\]
 	
 \end{document} 
 

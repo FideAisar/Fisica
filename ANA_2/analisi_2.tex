@@ -416,6 +416,48 @@ Se \(x_{0}\) non è né interno né esterno è un putno di frontiera.
 	\item \(A\) è chiuso \(\Longleftrightarrow\) \(A = Int(A)\);
 \end{itemize}
 
+
+% Continuità per campi scalari
+
+\section{Continuità per campi scalari}
+
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myred}{\begin{minipage}{5.75in}
+				\begin{redes}{}
+					\subsubsection{Teorema di Weierstra{\ss}}
+					Sia \(f:K\subset \mathbb{R}^n \to \mathbb{R}\) con \(k\neq \varnothing\) e compatto.
+					
+					Se \(f\) è continua su \(K\) allora ammette un massimo su \(K\).
+				\end{redes}
+		\end{minipage}}        
+	\end{center}
+
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{myblue}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: Uniformemente continua}
+					Sia \(f:A\subseteq \mathbb{R}^n  \to \mathbb{R}\), \(f\) si dice uniformemente continua su \(A\) se
+					\[ 
+						\forall \varepsilon  > 0 \quad \exists \delta > 0 \quad | \quad \forall x,y \in A, \quad \|x-y\| < \delta
+					\]
+					allora 
+					\[ 
+					|f(x) - f(y)| < \varepsilon
+					\] \\
+					
+					Vale 
+					\[ 
+					f \text{ unif. cont. su } A \Longleftrightarrow f \text{ continua su } A
+					\]
+				\end{blues}
+		\end{minipage}}       
+	\end{center}
+
+
+
+
+
 % F.ni SCALARI 
 
 \newpage
@@ -442,6 +484,23 @@ Se \(x_{0}\) non è né interno né esterno è un putno di frontiera.
 		\fboxsep11pt
 		\colorbox{myblue}{\begin{minipage}{5.75in}
 			\begin{blues}{Definizione: Differenziabilità}
+				Sia \(f: A\subseteq \mathbb{R}^n \to \mathbb{R}\) e \(\boldsymbol{\bar{x}}\) punto interso ad \(A\). Si dice che \(f\) è differenziabile in \(\boldsymbol{\bar{x}}\) se esiste una fnzione \textit{lineare}
+				\[ 
+				\varphi: \mathbb{R}^n \to \mathbb{R} \quad \text{t.c.}
+				\]
+				\[ 
+				f(\boldsymbol{\bar{x}} + \boldsymbol{h}) - f(\boldsymbol{\bar{x}}) = \varphi(\boldsymbol{h}) + o(\|\boldsymbol{h}\|), \quad \boldsymbol{h} \to \boldsymbol{0} 
+				\]
+				\begin{itemize}
+					\item \(\boldsymbol{h} \to \boldsymbol{0} \Longleftrightarrow \sqrt{h_{1}^2 + \dots + h_{n}^2}\)
+					\item \(\varphi\) lineare se \(\exists \boldsymbol{\alpha} \in \mathbb{R}^n\), \(\boldsymbol{\alpha} = (\alpha_1, \dots, \alpha_{n})\) t.c. 
+					\[ 
+					\varphi(\boldsymbol{h}) = \boldsymbol{\alpha} \cdot \boldsymbol{h} = \alpha_1 h_{1} + \dots + \alpha_n h_{n}
+					\]
+					\[ 
+					\text{differenziabile}
+					\]
+				\end{itemize}
 			\end{blues}
 		\end{minipage}}       
 		\end{center}

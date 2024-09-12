@@ -1,40 +1,63 @@
-\contentsline {chapter}{\numberline {1}Onde}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Onde meccaniche}{2}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Onde in una sbarra solida}{3}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Onde in una corda tesa}{5}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Onde nei gas}{6}{subsection.1.1.3}%
-\contentsline {subsubsection}{Densità}{6}{section*.2}%
-\contentsline {subsubsection}{Pressione}{7}{equation.1.1.4}%
-\contentsline {subsubsection}{Forza}{7}{equation.1.1.5}%
-\contentsline {subsubsection}{Modulo di compressibilità adiabatica}{7}{equation.1.1.6}%
-\contentsline {section}{\numberline {1.2}Onde piane armoniche}{9}{section.1.2}%
-\contentsline {paragraph}{Periodo spaziale}{9}{section.1.2}%
-\contentsline {paragraph}{Periodo temporale}{9}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Propagazione dell'energia in una barra solida}{10}{subsection.1.2.1}%
-\contentsline {subsubsection}{Energia per unità di volume}{10}{equation.1.2.8}%
-\contentsline {subsubsection}{Intensità dell'onda}{11}{equation.1.2.9}%
-\contentsline {subsection}{\numberline {1.2.2}Propagazione dell'energia in una corda tesa}{11}{subsection.1.2.2}%
-\contentsline {subsubsection}{Energia per unità di lunghezza}{12}{equation.1.2.10}%
-\contentsline {section}{\numberline {1.3}Onde sonore}{12}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Pressione}{12}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Potenza}{13}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Intensità}{13}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Fonometria}{13}{subsection.1.3.4}%
-\contentsline {subsubsection}{Livello sonoro}{14}{section*.3}%
-\contentsline {section}{\numberline {1.4}Onde in più dimensioni}{14}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Onde elastiche in una membrana tesa}{15}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Onde sferiche}{16}{subsection.1.4.2}%
-\contentsline {subsubsection}{Intensità}{16}{equation.1.4.16}%
-\contentsline {subsection}{\numberline {1.4.3}Onde cilindriche}{16}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Assorbimento dell'energia}{18}{subsection.1.4.4}%
-\contentsline {section}{\numberline {1.5}Pacchetti d'onde}{19}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Velocità di fase e velocità di gruppo}{19}{subsection.1.5.1}%
-\contentsline {section}{\numberline {1.6}Effetto Doppler}{22}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Sorgente in moto}{22}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Rivelatore in moto}{23}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}Espressione generale}{23}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {1.6.4}Onda d'urto}{23}{subsection.1.6.4}%
-\contentsline {subsection}{\numberline {1.6.5}Onde sferiche}{24}{subsection.1.6.5}%
-\contentsline {section}{\numberline {1.7}Interferenza}{24}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Interferenza con stessa ampiezza}{24}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Interferenza costruttiva e distruttiva}{25}{subsection.1.7.2}%
+\contentsline {chapter}{\numberline {1}Onde}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Onde meccaniche}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Onde in una sbarra solida}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Onde in una corda tesa}{6}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Onde nei gas}{7}{subsection.1.1.3}%
+\contentsline {subsubsection}{Densità}{7}{section*.2}%
+\contentsline {subsubsection}{Pressione}{8}{equation.1.1.4}%
+\contentsline {subsubsection}{Forza}{8}{equation.1.1.5}%
+\contentsline {subsubsection}{Modulo di compressibilità adiabatica}{8}{equation.1.1.6}%
+\contentsline {section}{\numberline {1.2}Onde piane armoniche}{10}{section.1.2}%
+\contentsline {paragraph}{Periodo spaziale}{10}{section.1.2}%
+\contentsline {paragraph}{Periodo temporale}{10}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Propagazione dell'energia in una barra solida}{11}{subsection.1.2.1}%
+\contentsline {subsubsection}{Energia per unità di volume}{11}{equation.1.2.8}%
+\contentsline {subsubsection}{Intensità dell'onda}{12}{equation.1.2.9}%
+\contentsline {subsection}{\numberline {1.2.2}Propagazione dell'energia in una corda tesa}{12}{subsection.1.2.2}%
+\contentsline {subsubsection}{Energia per unità di lunghezza}{13}{equation.1.2.10}%
+\contentsline {section}{\numberline {1.3}Onde sonore}{13}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Pressione}{13}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Potenza}{14}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Intensità}{14}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Fonometria}{14}{subsection.1.3.4}%
+\contentsline {subsubsection}{Livello sonoro}{15}{section*.3}%
+\contentsline {section}{\numberline {1.4}Onde in più dimensioni}{15}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Onde elastiche in una membrana tesa}{16}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Onde sferiche}{17}{subsection.1.4.2}%
+\contentsline {subsubsection}{Intensità}{17}{equation.1.4.16}%
+\contentsline {subsection}{\numberline {1.4.3}Onde cilindriche}{17}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Assorbimento dell'energia}{19}{subsection.1.4.4}%
+\contentsline {section}{\numberline {1.5}Pacchetti d'onde}{20}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Velocità di fase e velocità di gruppo}{20}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.6}Effetto Doppler}{23}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Sorgente in moto}{23}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Rivelatore in moto}{24}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Espressione generale}{24}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Onda d'urto}{24}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}Onde sferiche}{25}{subsection.1.6.5}%
+\contentsline {section}{\numberline {1.7}Interferenza}{25}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Interferenza con stessa ampiezza}{25}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Interferenza costruttiva e distruttiva}{26}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Interferenza con ampiezze diverse}{26}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Interferenza costruttiva e distruttiva}{27}{subsection.1.7.4}%
+\contentsline {subsection}{\numberline {1.7.5}Sorgenti puntiformi}{27}{subsection.1.7.5}%
+\contentsline {section}{\numberline {1.8}Riflessione e trasmissione}{28}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Onde stazionarie}{29}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Corda tesa con due estremi fissi}{30}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}Corda tesa con un estremo fisso}{31}{subsection.1.9.2}%
+\contentsline {subsection}{\numberline {1.9.3}Onde stazionarie in una colonna di gas}{31}{subsection.1.9.3}%
+\contentsline {subsection}{\numberline {1.9.4}Timbro}{31}{subsection.1.9.4}%
+\contentsline {chapter}{\numberline {2}Fluidodinamica}{33}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Pressione}{33}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Equilibrio statico di un fluido}{33}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Lavoro della pressione}{35}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Equilibrio in presenza di forza peso}{35}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Principio di Archimede}{35}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Liquido in rotazione}{36}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Moto di un fluido}{37}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Descrizioni del moto}{38}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Tubi di flusso e portata}{38}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Teorema di Bernoulli}{39}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Moto laminare}{40}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Moto turbolento}{40}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Effetto Magnus e Portanza}{41}{subsection.2.4.6}%
