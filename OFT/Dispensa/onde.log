@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  11 SEP 2024 13:55
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.5.31)  16 SEP 2024 06:33
  restricted system commands enabled.
 **onde.tex
 (./onde.tex
@@ -1874,11 +1874,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
-])
+] [2])
 \tf@toc=\write7
 
 \openout7 = onde.toc
- [2]
+ [3]
 Chapter 1.
 
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 240--241
@@ -1898,15 +1898,15 @@ ale detta \T1/futs/b/n/10 equazione delle onde \T1/futs/m/n/10 o \T1/futs/b/n/1
 0 equazione
  []
 
-[3
+[4
 
 ]
-<imgs/ondeinsbarra.png, id=340, 877.77937pt x 605.26125pt>
+<imgs/ondeinsbarra.png, id=598, 877.77937pt x 605.26125pt>
 File: imgs/ondeinsbarra.png Graphic file (type png)
 <use imgs/ondeinsbarra.png>
 Package luatex.def Info: imgs/ondeinsbarra.png  used on input line 294.
 (luatex.def)             Requested size: 263.33585pt x 181.57976pt.
- [4<./imgs/ondeinsbarra.png>]
+ [5<./imgs/ondeinsbarra.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 318--320
 
  []
@@ -1926,13 +1926,13 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 356--357
  [][][][][][] 
  []
 
-[5]
-<imgs/corda1.png, id=352, 983.92593pt x 255.20343pt>
+[6]
+<imgs/corda1.png, id=610, 983.92593pt x 255.20343pt>
 File: imgs/corda1.png Graphic file (type png)
 <use imgs/corda1.png>
 Package luatex.def Info: imgs/corda1.png  used on input line 373.
 (luatex.def)             Requested size: 196.7817pt x 51.03978pt.
-<imgs/corda2.png, id=353, 599.23875pt x 383.93437pt>
+<imgs/corda2.png, id=611, 599.23875pt x 383.93437pt>
 File: imgs/corda2.png Graphic file (type png)
 <use imgs/corda2.png>
 Package luatex.def Info: imgs/corda2.png  used on input line 378.
@@ -1957,12 +1957,12 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 412--413
  [][][][][][] 
  []
 
-[6<./imgs/corda1.png><./imgs/corda2.png>]
+[7<./imgs/corda1.png><./imgs/corda2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
 
-<imgs/ondeingas.png, id=361, 804.75656pt x 383.93437pt>
+<imgs/ondeingas.png, id=619, 804.75656pt x 383.93437pt>
 File: imgs/ondeingas.png Graphic file (type png)
 <use imgs/ondeingas.png>
 Package luatex.def Info: imgs/ondeingas.png  used on input line 430.
@@ -1971,18 +1971,18 @@ Package luatex.def Info: imgs/ondeingas.png  used on input line 430.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 433.
 
-[7<./imgs/ondeingas.png>]
+[8<./imgs/ondeingas.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 489--491
 
  []
 
-[8] [9]
-<imgs/periodo1.png, id=379, 411.78844pt x 227.34938pt>
+[9] [10]
+<imgs/periodo1.png, id=638, 411.78844pt x 227.34938pt>
 File: imgs/periodo1.png Graphic file (type png)
 <use imgs/periodo1.png>
 Package luatex.def Info: imgs/periodo1.png  used on input line 541.
 (luatex.def)             Requested size: 164.71245pt x 90.93813pt.
-<imgs/periodo2.png, id=380, 411.78844pt x 227.34938pt>
+<imgs/periodo2.png, id=639, 411.78844pt x 227.34938pt>
 File: imgs/periodo2.png Graphic file (type png)
 <use imgs/periodo2.png>
 Package luatex.def Info: imgs/periodo2.png  used on input line 546.
@@ -2002,7 +2002,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 577--579
 
  []
 
-[10<./imgs/periodo1.png><./imgs/periodo2.png>]
+[11<./imgs/periodo1.png><./imgs/periodo2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 590--591
 
  []
@@ -2012,8 +2012,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 623--625
 
  []
 
-[11]
-<imgs/energiacorda.png, id=395, 568.37344pt x 429.10312pt>
+[12]
+<imgs/energiacorda.png, id=653, 568.37344pt x 429.10312pt>
 File: imgs/energiacorda.png Graphic file (type png)
 <use imgs/energiacorda.png>
 Package luatex.def Info: imgs/energiacorda.png  used on input line 661.
@@ -2023,8 +2023,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 688--690
 
  []
 
-[12<./imgs/energiacorda.png>] [13]
-<imgs/sogliadolore.png, id=409, 978.65625pt x 679.03688pt>
+[13<./imgs/energiacorda.png>] [14]
+<imgs/sogliadolore.png, id=668, 978.65625pt x 679.03688pt>
 File: imgs/sogliadolore.png Graphic file (type png)
 <use imgs/sogliadolore.png>
 Package luatex.def Info: imgs/sogliadolore.png  used on input line 777.
@@ -2034,7 +2034,7 @@ Overfull \hbox (27.85347pt too wide) in paragraph at lines 777--778
  [] 
  []
 
-<imgs/livello_sonoro.png, id=410, 685.05937pt x 504.38437pt>
+<imgs/livello_sonoro.png, id=669, 685.05937pt x 504.38437pt>
 File: imgs/livello_sonoro.png Graphic file (type png)
 <use imgs/livello_sonoro.png>
 Package luatex.def Info: imgs/livello_sonoro.png  used on input line 782.
@@ -2049,7 +2049,7 @@ Overfull \hbox (16.56999pt too wide) in paragraph at lines 775--785
 []$[]$ $[]$ 
  []
 
-[14<./imgs/sogliadolore.png><./imgs/livello_sonoro.png>]
+[15<./imgs/sogliadolore.png><./imgs/livello_sonoro.png>]
 LaTeX Font Info:    Trying to load font information for TS1+futs on input line 
 805.
 
@@ -2060,14 +2060,14 @@ File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 815.
 
-[15]
-<imgs/membrana.png, id=424, 365.86688pt x 299.61937pt>
+[16]
+<imgs/membrana.png, id=683, 365.86688pt x 299.61937pt>
 File: imgs/membrana.png Graphic file (type png)
 <use imgs/membrana.png>
 Package luatex.def Info: imgs/membrana.png  used on input line 861.
 (luatex.def)             Requested size: 128.05531pt x 104.86835pt.
- [16<./imgs/membrana.png>]
-<imgs/ondesferiche.png, id=431, 1027.58907pt x 642.90187pt>
+ [17<./imgs/membrana.png>]
+<imgs/ondesferiche.png, id=690, 1027.58907pt x 642.90187pt>
 File: imgs/ondesferiche.png Graphic file (type png)
 <use imgs/ondesferiche.png>
 Package luatex.def Info: imgs/ondesferiche.png  used on input line 891.
@@ -2089,22 +2089,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 894--895
 
  []
 
-<imgs/cilindro.png, id=433, 294.34969pt x 377.91188pt>
+<imgs/cilindro.png, id=692, 294.34969pt x 377.91188pt>
 File: imgs/cilindro.png Graphic file (type png)
 <use imgs/cilindro.png>
 Package luatex.def Info: imgs/cilindro.png  used on input line 931.
 (luatex.def)             Requested size: 88.30557pt x 113.37444pt.
-[17<./imgs/ondesferiche.png><./imgs/cilindro.png>] [18]
+[18<./imgs/ondesferiche.png><./imgs/cilindro.png>] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 968--970
 
  []
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 991--992
 
  []
 
-<imgs/pacchetti.png, id=451, 709.90219pt x 395.22656pt>
+<imgs/pacchetti.png, id=711, 709.90219pt x 395.22656pt>
 File: imgs/pacchetti.png Graphic file (type png)
 <use imgs/pacchetti.png>
 Package luatex.def Info: imgs/pacchetti.png  used on input line 1007.
@@ -2114,41 +2114,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 1029--1031
 
  []
 
-[20<./imgs/pacchetti.png>]
+[21<./imgs/pacchetti.png>]
 Overfull \hbox (1.25583pt too wide) in paragraph at lines 1062--1063
 []\T1/futs/m/n/10 Ab-bi-amo quindi un'onda di alta fre-quenza che si propaga con
  \T1/futs/b/n/10 ve-loc-ità di fase me-dia $\FML/futmi/m/it/10 v[]$ \T1/futs/m
 /n/10 e con ampiezza
  []
 
-[21] [22]
-<imgs/doppler.png, id=470, 801.74532pt x 346.29375pt>
+[22] [23]
+<imgs/doppler.png, id=728, 801.74532pt x 346.29375pt>
 File: imgs/doppler.png Graphic file (type png)
 <use imgs/doppler.png>
 Package luatex.def Info: imgs/doppler.png  used on input line 1124.
 (luatex.def)             Requested size: 320.69244pt x 138.51503pt.
- [23<./imgs/doppler.png>]
-<imgs/ondaurto.png, id=477, 376.40625pt x 376.40625pt>
+ [24<./imgs/doppler.png>]
+<imgs/ondaurto.png, id=735, 376.40625pt x 376.40625pt>
 File: imgs/ondaurto.png Graphic file (type png)
 <use imgs/ondaurto.png>
 Package luatex.def Info: imgs/ondaurto.png  used on input line 1163.
 (luatex.def)             Requested size: 150.55983pt x 150.55983pt.
- [24<./imgs/ondaurto.png>]
+ [25<./imgs/ondaurto.png>]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 1190--1191
  [][][][][][] 
  []
 
-[25]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 1242--1243
 
  []
 
-[26] [27] [28]
+<imgs/intervec.png, id=748, 770.88pt x 668.4975pt>
+File: imgs/intervec.png Graphic file (type png)
+<use imgs/intervec.png>
+Package luatex.def Info: imgs/intervec.png  used on input line 1287.
+(luatex.def)             Requested size: 154.17326pt x 133.69713pt.
+[27] [28<./imgs/intervec.png>] [29]
 Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
 
  []
 
-<imgs/stazionarie.png, id=505, 164.11313pt x 49.68562pt>
+<imgs/stazionarie.png, id=766, 164.11313pt x 49.68562pt>
 File: imgs/stazionarie.png Graphic file (type png)
 <use imgs/stazionarie.png>
 Package luatex.def Info: imgs/stazionarie.png  used on input line 1378.
@@ -2158,27 +2163,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 1385--1386
 
  []
 
-<imgs/riflessa1.png, id=506, 735.74875pt x 595.22375pt>
+<imgs/riflessa1.png, id=767, 735.74875pt x 595.22375pt>
 File: imgs/riflessa1.png Graphic file (type png)
 <use imgs/riflessa1.png>
 Package luatex.def Info: imgs/riflessa1.png  used on input line 1389.
 (luatex.def)             Requested size: 80.9326pt x 65.47481pt.
-<imgs/riflessa2.png, id=507, 735.74875pt x 595.22375pt>
+<imgs/riflessa2.png, id=768, 735.74875pt x 595.22375pt>
 File: imgs/riflessa2.png Graphic file (type png)
 <use imgs/riflessa2.png>
 Package luatex.def Info: imgs/riflessa2.png  used on input line 1394.
 (luatex.def)             Requested size: 80.9326pt x 65.47481pt.
-[29<./imgs/stazionarie.png><./imgs/riflessa1.png><./imgs/riflessa2.png>]
+[30<./imgs/stazionarie.png><./imgs/riflessa1.png><./imgs/riflessa2.png>]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 1457--1458
  [][][][][][] 
  []
 
-[30]
+[31]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 1525--1526
  [][][][][][] 
  []
 
-[31] [32]
+[32] [33]
 Chapter 2.
 
 Overfull \hbox (32.26317pt too wide) detected at line 1587
@@ -2190,7 +2195,7 @@ Overfull \hbox (33.83316pt too wide) in paragraph at lines 1578--1594
 []$[]$ $[]$ 
  []
 
-[33
+[34
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1606--1609
@@ -2202,7 +2207,7 @@ Overfull \hbox (5.27937pt too wide) in paragraph at lines 1634--1636
 \T1/futs/m/n/10 quindi se lungo una su-per-fi-cie iso-bar-ica e equipoten-ziale si hanno pres-sione ed en-er-gia poten-ziale costanti,
  []
 
-[34] [35]
+[35] [36]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 1763.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -2220,7 +2225,7 @@ Overfull \hbox (1.56999pt too wide) in paragraph at lines 1739--1790
 $[]$ $[]$ 
  []
 
-[36]
+[37]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 1841--1842
  [][][][][][] 
  []
@@ -2236,7 +2241,7 @@ Underfull \hbox (badness 1629) in paragraph at lines 1856--1857
 0 x; y; z\T1/futs/m/n/10 )$ e si con-sid-era la ve-loc-ità
  []
 
-[37]
+[38]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 1867--1868
  [][][][][][] 
  []
@@ -2252,14 +2257,14 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 1943--1944
  [][][][][][] 
  []
 
-[38
+[39
 Non-PDF special ignored!
 Non-PDF special ignored!]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 2059--2060
  [][][][][][] 
  []
 
-[39]
+[40]
 Overfull \hbox (3.9325pt too wide) in paragraph at lines 2170--2171
  [][][][][][] 
  []
@@ -2269,12 +2274,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2185--2187
 
  []
 
-[40]
+[41]
 Overfull \hbox (7.45264pt too wide) in paragraph at lines 2300--2301
 []\T1/futs/m/n/10 Per ri-cavare un'espres-sione della forza pos-si-amo pas-sare dall'equazione di Bernoulli. Si hanno i seguenti
  []
 
-[41
+[42
 Missing character: There is no ( (U+0028) in font nullfont!
 Missing character: There is no - (U+002D) in font nullfont!
 Missing character: There is no 0 (U+0030) in font nullfont!
@@ -2425,26 +2430,321 @@ Missing character: There is no . (U+002E) in font nullfont!
 Missing character: There is no 1 (U+0031) in font nullfont!
 Missing character: There is no ) (U+0029) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-] [42] (./onde.aux)
+] [43]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2334--2335
+
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 2360--2361
+[]\T1/futs/m/n/10 Vari-abili \T1/futs/m/it/10 ad-di-tive \T1/futs/m/n/10 che es-
+p-ri-mono pro-prità
+ []
+
+[44
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2375--2376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2381--2382
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2391--2392
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2402--2403
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2415--2416
+ [][][][][][] 
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 2430--2431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2448--2450
+
+ []
+
+[46] [47]
+Underfull \hbox (badness 10000) in paragraph at lines 2548--2548
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2548--2549
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2557--2558
+
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 2570--2572
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2579--2580
+
+ []
+
+
+Overfull \hbox (1.2515pt too wide) in paragraph at lines 2586--2587
+[]\T1/futs/b/n/10 Trasfor-mazioni adi-a-batiche\T1/futs/m/n/10 : una qual-si-asi
+ trasfor-mazione in cui $\FML/futmi/m/it/10 Q \T1/futs/m/n/10 = 0$ (si ot-tiene per trasfor-mazioni
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2592--2593
+
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 2611--2613
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2644--2645
+ [][][][][][] 
+ []
+
+[50]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2655--2656
+ [][][][][][] 
+ []
+
+[51]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2701--2702
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2711--2712
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2713--2714
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2727--2729
+
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 2792--2794
+
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2819
+
+ []
+
+[54] [55]
+Chapter 4.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 2877.
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2877--2878
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2891--2892
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 2909--2910
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (11.6093pt too wide) in paragraph at lines 2914--2916
+\T1/futs/m/n/10 Vo-lumi di gas di-versi, aventi stessa tem-per-atura e stessa pr
+es-sione, con-tengono lo stesso nu-mero di molecole. 
+ []
+
+[56
+
+]
+
+LaTeX Warning: Reference `lavoro' on page 57 undefined on input line 2949.
+
+
+LaTeX Warning: Reference `lavoro' on page 57 undefined on input line 2953.
+
+[57] [58]
+Chapter 5.
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 3018--3019
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3021--3022
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3031--3032
+
+ []
+
+[59
+
+]
+Overfull \hbox (2.50273pt too wide) in paragraph at lines 3044--3046
+\T1/futs/m/n/10 mente in con-trasto con l'enun-ci-ato di Clau-sius. Quindi l'uni
+ca situ-azione pos-si-bile per un \T1/futs/m/it/10 ci-clo monotermo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3052
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3057--3059
+
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 3098--3099
+ [][][][][][] 
+ []
+
+[60
+Missing character: There is no ’ (U+2019) in font futr8t!
+Missing character: There is no ’ (U+2019) in font futr8t!
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3100--3101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3117--3119
+
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3123.
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 3150--3151
+ [][][][][][] 
+ []
+
+[61]
+Overfull \hbox (9.71326pt too wide) in paragraph at lines 3157--3158
+[]\T1/futs/m/n/10 Per di-mostrarlo im-mag-ini-amo di met-tere $\FML/futmi/m/it/
+10 n$ \T1/futs/m/n/10 mac-chine re-versibili tra le sor-genti $\FML/futmi/m/it/
+10 T[]$ \T1/futs/m/n/10 e una nuova sorgente$\FML/futmi/m/it/10 T[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3204--3206
+
+ []
+
+[62]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 3229--3230
+ [][][][][][] 
+ []
+
+[63]
+Overfull \hbox (1.90926pt too wide) in paragraph at lines 3257--3258
+\T1/futs/m/n/10 Im-poni-amo che la prima trasfor-mazione sia ir-re-versibile e 
+la sec-onda re-versibile così che la trasfor-mazione
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 3283.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3288--3289
+
+ []
+
+[64]
+Overfull \hbox (7.90233pt too wide) in paragraph at lines 3290--3300
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3290--3300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3308--3309
+
+ []
+
+
+Overfull \hbox (7.90233pt too wide) in paragraph at lines 3310--3322
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 3359--3360
+ [][][][][][] 
+ []
+
+[65] [66] (./onde.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `onde.out' has not changed.
-(rerunfilecheck)             Checksum: FA783363AF96EA5D63A93A0FEB565256;10345.
+(rerunfilecheck)             Checksum: A50E4D73EDBE51B46AA3BDA534517CCD;19436.
 )
 
 Here is how much of LuaTeX's memory you used:
- 55997 strings out of 476447
- 195365,2848258 words of node,token memory allocated
- 1727 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 300 attribute, 63 glue_spe
-c, 300 attribute_list, 2 write nodes
-   avail lists: 1:1,2:20610,3:10462,4:700,5:784,6:131,7:13061,8:95,9:1334,10:14,
-11:326
- 76181 multiletter control sequences out of 65536+600000
+ 56224 strings out of 476447
+ 195369,2848258 words of node,token memory allocated
+ 2295 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 442 attribute, 63 glue_spe
+c, 442 attribute_list, 2 write nodes
+   avail lists: 1:1,2:20326,3:10462,4:700,5:792,6:159,7:13061,8:95,9:1334,10:25,
+11:508
+ 76300 multiletter control sequences out of 65536+600000
  155 fonts using 9447679 bytes
- 117i,24n,109p,718b,1536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,24n,109p,718b,2068s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/fourier/fourier-
@@ -2455,10 +2755,10 @@ pe1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopi
 a/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/fonts
 /type1/adobe/utopia/putri8a.pfb>
-Output written on onde.pdf (43 pages, 1642740 bytes).
+Output written on onde.pdf (67 pages, 2161374 bytes).
 
-PDF statistics: 666 PDF objects out of 1000 (max. 8388607)
- 563 compressed objects within 6 object streams
- 150 named destinations out of 1000 (max. 131072)
- 554 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1063 PDF objects out of 1200 (max. 8388607)
+ 930 compressed objects within 10 object streams
+ 255 named destinations out of 1000 (max. 131072)
+ 962 words of extra memory for PDF output out of 10000 (max. 100000000)
 
