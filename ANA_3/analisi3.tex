@@ -9,11 +9,11 @@
 \usepgflibrary{shapes.geometric}
 \usepackage{xcolor}
 \usepackage{amsmath}
-\usepackage{fouriernc}
+%\usepackage{fourier-oft}
 \usepackage{mathrsfs}
 \usepackage{amssymb}
 \usepackage{hyperref}
-
+\usepackage{enumitem}
 %% custom
 \renewcommand*\contentsname{Indice}
 \setcounter{tocdepth}{4}
@@ -22,17 +22,26 @@
 
 % boxes
 \definecolor{myblue}{RGB}{224, 245, 255} 
-\definecolor{myred}{RGB}{234, 222, 255}
+\definecolor{myred}{RGB}{198, 247, 211}
 \definecolor{myorange}{RGB}{255, 102, 0}
 
 \newtcolorbox{es}[2][]{%
-	enhanced,colback=white,colframe=black,coltitle=black,
-	sharp corners,boxrule=0.4pt,
-	fonttitle=\itshape,frame style={dash pattern=on 3pt off 3pt},
+	enhanced,
+	sharp corners, % Angoli netti
+	boxrule=0.4pt, % Spessore del bordo
+	colback=white, % Colore di sfondo
+	colframe=black, % Colore del bordo
+	coltitle=black, % Colore del titolo
+	fonttitle=\itshape, % Font del titolo in corsivo
 	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
-	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-		colback=white,before upper=\strut},
-	title=#2,#1
+	boxed title style={tile, size=minimal, left=0.5mm, right=0.5mm,
+		colback=white, before upper=\strut, boxrule=0.5pt, colframe=black},
+	title=#2, % Testo del titolo
+	borderline east={0.4pt}{0pt}{black,dashed}, % Bordo tratteggiato a est
+	borderline west={0.4pt}{0pt}{black,dashed}, % Bordo tratteggiato a ovest
+	borderline south={0.4pt}{0pt}{black,dashed}, % Bordo tratteggiato a sud
+	borderline north={0.4pt}{0pt}{black,dashed}, % Bordo tratteggiato a nord
+	#1 % Parametro opzionale aggiuntivo
 }
 \newtcolorbox{dym}[2][]{%
 	enhanced,colback=white,colframe=black,coltitle=black,
@@ -110,33 +119,96 @@
 	
 \section{Successioni di funzioni}
 
-\begin{center}
-\begin{tikzpicture}
-	\begin{axis}[my axis,xmin=-1,xmax=1]
-		\addplot[my plot, domain y=-pi/2:pi/2] {atan(x)};
-		\addplot[my plot, domain y=-pi/2:pi/2] {atan(2*x)};
-		\addplot[my plot, domain y=-pi/2:pi/2] {atan(20*x)};
-	\end{axis}
-\end{tikzpicture}
-\end{center}
+%\begin{center}
+%\begin{tikzpicture}
+%	\begin{axis}[my axis,xmin=-1,xmax=1]
+%		\addplot[my plot, domain y=-pi/2:pi/2] {atan(x)};
+%		\addplot[my plot, domain y=-pi/2:pi/2] {atan(2*x)};
+%		\addplot[my plot, domain y=-pi/2:pi/2] {atan(20*x)};
+%	\end{axis}
+%\end{tikzpicture}
+%\end{center}
+
+\[ 
+A \subseteq \mathbb{R} \;\ (\text{o } \mathbb{C}), \;\ f_{n}: A \to \mathbb{R} \;\ (\text{o } \mathbb{C}), \;\ n \in \mathbb{N} 
+\]
+\[ 
+\begin{array}{ccl}
+	N & \to & \{\text{f.ni definite su } A\} \\
+	n & \mapsto & f_{n}
+\end{array}
+\]
+Vogliamo studiare come si comporta \((f_{n})_{n}\) quando \(n\to +\infty\).
 
 \subsection{Limiti di successioni}
 
 
-\definizione{Convergenza puntuale}{}
+\definizione{Convergenza puntuale}
+{Diciamo che la successione di funzioni \((f_{n})_{n}\), \(f_{n}:A\subseteq \mathbb{R}\to \mathbb{R}  (\text{o } \mathbb{C})\) \textbf{converge puntualmente} (o semplicemente) a una funzione  \(f\) sull'insieme \(E \subseteq A\) se 
+\[ 
+\forall x \in E, \;\ \lim_{n\to + \infty}f_{n}(x) = f(x)
+\]
+Notiamo che quest'ultimo limite è un limite di successione numerica, quindi
+\[ 
+\forall x \in E, \quad  \forall \varepsilon > 0 \;\ \exists \bar{n} = \bar{n}(\varepsilon,x) \;\ \text{t.c.} \;\ |f_{n}(x) - f(x)| < \varepsilon, \quad \forall n \geq \bar{n}
+\]}
 
-\definizione{Convergenza uniforme}{}
+\definizione{Convergenza uniforme}{Diciamo che la successione di funzioni \((f_{n})_{n}\), \(f_{n}:A\to \mathbb{R}  \;\ (\text{o } \mathbb{C})\) \textbf{converge uniformemente} su \(E \subseteq A\) alla funzione \(f:E\to \mathbb{R}\) se
+\[ 
+\forall \varepsilon > 0 \quad \exists \bar{n} = \bar{n}(\varepsilon) \;\ \text{t.c.} \;\ |f_{n}(x) - f(x)| < \varepsilon \quad \forall n \geq \bar{n}
+\]
+equivalentemente
+\[ 
+\forall \varepsilon > 0 \quad \exists \bar{n} = \bar{n}(\varepsilon) \;\ \text{t.c.} \;\ \text{sup}|f_{n}(x) - f(x)| < \varepsilon \quad \forall n \geq \bar{n}
+\]
+dove l'estremo superiore viene denominato \(\alpha_n\) successione positiva (\(\geq 0\)):
+\[ 
+\forall \varepsilon > 0 \quad \exists \bar{n} = \bar{n}(\varepsilon) \;\ \text{t.c.} \;\ 0 \leq \alpha_n < \varepsilon \quad \forall n \geq \bar{n}
+\]
+opure
+\[ 
+\
+\]
+} 
 
 
-\esempio{1}{}
+\esempio{1}{SKJFSjkajdfdajf  jf adksòl jfd jsaf
+adf kjajsò fjkda òsf òdsa jf j
+
+fjalkdòjf kjdskfjkdsajfk jads jfd fkdsfjkjdakfj kjd fdjfkjdsfò afdjòasdjf  ds
+
+fjkad jfajdskòl jfòas jf jfkjò fjaò jfaò}
 \esempio{2}{}
 \esempio{3}{}
 
 
 
-\teorema{Teorema 1}{}
-\dimostrazione{}{}
-
+\teorema{Teorema 1 - La convergenza unifore preserva la continuità}{
+Sia \((f_{n})_{n}\) una successione di funzioni \(f_{n}:A\subseteq \mathbb{R}\to \mathbb{R} \;\ (\text{o } \mathbb{C})\) tali che
+\begin{enumerate}[start=1,label={(\itshape H\arabic*)}]
+	\item \(f_{n}\) sono funzioni continue su \(E\subseteq A\),
+	\item \(f_{n}\) converge uniformemente a \(f\) su \(E\)
+\end{enumerate}
+allora \(f\) è continua su \(E\)
+}
+\dimostrazione{}{
+La tesi è 
+\[ 
+\forall x_{0} \in E, \;\ \lim_{x\to x_{0}} f(x) = f(x_{0})
+\]
+ovvero che
+\[ 
+\forall x_{0} \in E \qquad \forall \varepsilon > 0 \;\ \exists \delta = \delta(x_{0},\varepsilon) \;\ \text{t.c.} \;\ |f(x) - f(x_{0})| < \varepsilon \qquad \forall x \in (x_{0}-\delta,x_{0}+\delta) \cap E 
+\]
+\begin{itemize}
+	\item Da (\textit{H2}) sappiamo che \( \lim_{n\to + \infty} \alpha _{n}\) quindi 
+	\[\exists \bar{n} = \bar{n}(\varepsilon) \;\ \text{tale che} \;\ \alpha_{n} < \frac{\varepsilon}{3} \quad \forall n\geq\bar{n}
+	\]
+	\item Da (\textit{H1}) abbiamo invece la continuità di \(f_{n}\) in \(x_{0}\):
+	\[ 
+	\exists \delta = \delta(x_{0},\varepsilon) \;\ : \;\ | f_{n}(x) - f
+	\]
+\end{itemize}
 \teorema{Teorema 2}{}
 \dimostrazione{}{}
 
@@ -192,12 +264,11 @@ Date
 	\item \((m_{n})_{n} \subseteq \mathbb{R}\) successione di numeri reali positivi. 
 \end{itemize}
 tali che
-\begin{itemize}
-	\item \((H_{1})\qquad\) \(|f_{n}(x)|\leq m_{n}\) \(\forall x \in E\), \(\forall n\);
-	\item \((H_{2})\qquad\) \(\sum m_{n}(x) < + \infty\).
-\end{itemize}
-Allora la serie \(\sum f_{n}(x)\) converge assolutamente in ongi punto di \(E\) è uniformemente su \(E\) \(\implies\) la serie converge totalmente.
-}
+\begin{enumerate}[start=1,label={(\itshape H\arabic*)}]
+	\item \(|f_{n}(x)|\leq m_{n}\) \(\forall x \in E\), \(\forall n\);
+	\item \(\sum m_{n}(x) < + \infty\).
+\end{enumerate}
+Allora la serie \(\sum f_{n}(x)\) converge assolutamente in ongi punto di \(E\) è uniformemente su \(E\) \(\implies\) la serie converge totalmente.}
 
 
 

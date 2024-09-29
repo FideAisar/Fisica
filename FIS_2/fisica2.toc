@@ -1,6 +1,5 @@
-\contentsline {subsection}{\numberline {0.1}Campo Elettico}{2}{subsection.0.1}%
-\contentsline {paragraph}{Campo elettrico di un anello}{2}{section*.2}%
-\contentsline {paragraph}{Campo elettrico di un disco}{2}{section*.3}%
-\contentsline {paragraph}{Campo elettrico di un piano}{2}{section*.4}%
-\contentsline {subsubsection}{Linee di campo}{2}{section*.5}%
-\contentsline {subsection}{\numberline {0.2}Tensione, forza elettromotrice e energia potenziale}{2}{subsection.0.2}%
+\contentsline {chapter}{\numberline {1}Elettrostatica}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Campo elettrico}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Campo Elettico}{2}{subsection.1.1.1}%
+\contentsline {subsubsection}{Linee di campo}{2}{section*.2}%
+\contentsline {subsection}{\numberline {1.1.2}Tensione, forza elettromotrice e energia potenziale}{2}{subsection.1.1.2}%
