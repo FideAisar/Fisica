@@ -9,7 +9,7 @@
 \usepgflibrary{shapes.geometric}
 \usepackage{xcolor}
 \usepackage{amsmath}
-%\usepackage{fourier-oft}
+\usepackage{fouriernc}
 \usepackage{mathrsfs}
 \usepackage{amssymb}
 \usepackage{hyperref}
@@ -22,8 +22,8 @@
 
 % boxes
 \definecolor{myblue}{RGB}{224, 245, 255} 
-\definecolor{myred}{RGB}{198, 247, 211}
-\definecolor{myorange}{RGB}{255, 102, 0}
+\definecolor{myred}{RGB}{198, 247, 211} 
+\definecolor{myorange}{RGB}{255, 102, 0} 
 
 \newtcolorbox{es}[2][]{%
 	enhanced,
@@ -172,12 +172,7 @@ opure
 } 
 
 
-\esempio{1}{SKJFSjkajdfdajf  jf adksòl jfd jsaf
-adf kjajsò fjkda òsf òdsa jf j
-
-fjalkdòjf kjdskfjkdsajfk jads jfd fkdsfjkjdakfj kjd fdjfkjdsfò afdjòasdjf  ds
-
-fjkad jfajdskòl jfòas jf jfkjò fjaò jfaò}
+\esempio{1}{}
 \esempio{2}{}
 \esempio{3}{}
 
@@ -201,32 +196,82 @@ ovvero che
 \forall x_{0} \in E \qquad \forall \varepsilon > 0 \;\ \exists \delta = \delta(x_{0},\varepsilon) \;\ \text{t.c.} \;\ |f(x) - f(x_{0})| < \varepsilon \qquad \forall x \in (x_{0}-\delta,x_{0}+\delta) \cap E 
 \]
 \begin{itemize}
-	\item Da (\textit{H2}) sappiamo che \( \lim_{n\to + \infty} \alpha _{n}\) quindi 
-	\[\exists \bar{n} = \bar{n}(\varepsilon) \;\ \text{tale che} \;\ \alpha_{n} < \frac{\varepsilon}{3} \quad \forall n\geq\bar{n}
+	\item Da (\textit{H2}) convergenza uniforme sappiamo che \( \lim_{n\to + \infty} \alpha _{n} = 0\) quindi 
+	\[\exists \hat{n} = \hat{n}(\varepsilon) \;\ : \;\ \alpha_{n} = \text{sup}|(f_{n}(x) - f(x))| < \frac{\varepsilon}{3} \quad \forall n\geq\hat{n}
 	\]
-	\item Da (\textit{H1}) abbiamo invece la continuità di \(f_{n}\) in \(x_{0}\):
+	\item Da (\textit{H1}) abbiamo invece la continuità di \(f_{\hat{n}}\) in \(x_{0}\):
 	\[ 
-	\exists \delta = \delta(x_{0},\varepsilon) \;\ : \;\ | f_{n}(x) - f
-	\]
-\end{itemize}
-\teorema{Teorema 2}{}
-\dimostrazione{}{}
+	\exists \delta = \delta(x_{0},\varepsilon) \;\ : \;\ | f_{\hat{n}}(x) - f_{\hat{n}}(x_{0}) | < \frac{\varepsilon}{3} \;\ \forall x \in I_{\delta}
+ 	\]
+ 	Ora utilizzando la riscrittura
+ 	\begin{align*}
+ 		| f(x) - f(x_{0}) |  =& | f(x) - f_{\hat{n}}(x) + f_{\hat{n}}(x)  - f_{\hat{n}}(x_{0}) + f_{\hat{n}}(x_{0}) - f(x_{0})| \\
+ 		\leq & |f(x) - f_{\hat{n}}(x)| + |f_{\hat{n}}(x) -f_{\hat{n}}(x_{0})| + |f_{\hat{n}}(x_{0}) - f(x_{0})| \\
+ 		= & \frac{\varepsilon}{3} + \frac{\varepsilon}{3} + \frac{\varepsilon}{3}  = \varepsilon
+ 	\end{align*}
+\end{itemize} }
+
+\teorema{Teorema 2 - Passa al limite sotto integrale}{
+Sia \((f_{n})_{n}\) una successione di funzioni \(f_{n}:[a,b]\to \mathbb{R}\) tale che
+\begin{enumerate}[start=1,label={(\itshape H\arabic*)}]
+	\item \(f_{n}\) sono funzioni continue su \([a,b]\),
+	\item \(f_{n}\) converge uniformemente su \([a,b]\)
+\end{enumerate}
+allora 
+\[ 
+\lim_{n\to+\infty} \int_{a}^{b}f_{n}(x) \: dx \quad = \quad \int_{a}^{b}\lim_{n\to+\infty} f_{n}(x) \quad = \quad \int_{a}^{b}f(x) \: dx
+\]
+}
+\dimostrazione{}{
+Dal \textit{\textbf{Teorema 1}} sappiamo che \(f\) è continua su \([a,b]\) e perciò è integrabile è 
+\[ 
+\int_{a}^{b}f(x)\: dx
+\]
+è ben definito.
+
+Vogliamo dimostrare che
+\[ 
+\lim_{n\to+\infty}\int_{a}^{b}f_{n}(x)\: dx = \int_{a}^{b}f(x)\: dx 
+\]
+ovvero che 
+\[ 
+\forall \varepsilon > 0 \;\ \exists\tilde{n} = \tilde{n}(\varepsilon) \;\ : \;\ |I_{n} - I| < \varepsilon \;\ \forall n \geq \tilde{n}
+\]
+Utilizziamo la disugualianza
+\begin{align*}
+	|I_{n} - I|  = \left|\int_{a}^{b}f_{n} - \int_{a}^{b}f\right| =& \left|\int_{a}^{b}f_{n} - f\right| \\
+    \leq & \int_{a}^{b}|f_{n} - f | \\
+	\leq & \int_{a}^{b} \alpha_{n} = \alpha_{n}(b-a)
+\end{align*}
+e poiché per \textit{(H2)} si ha \(\alpha_{n} \to 0\) 
+\[ 
+\exists\tilde{n} : \alpha_{n}(b-a) < \varepsilon \;\ \forall n \geq \tilde{n}
+\]
+}
 
 \esempio{4}{}
 
-\teorema{Teorema}{}
+\teorema{Teorema}{
+Sia \((f_{n})_{n}\), \(f_{n}:A\subseteq \mathbb{R}\to \mathbb{R}\) (o \(\mathbb{C}\)) tale che 
+\begin{itemize}
+	\item \(f_{n}\) converga uniformemente a \(f\) in \(E \subseteq A\),
+	\item \(f_{n}\) siano continue sulla chiusura di \(E\): \(\bar{E}\)
+\end{itemize}
+allora si ha che \(f_{n}\) converge uniformemente a \(f\) su \(\bar{E}\).
+}
 
 
 % SERIE DI FUNZIONI
 \section{Serie di funzioni}
-Presa \((f_{n})_{n}\) successione di funzioni, \(f_{n}:A\subseteq \mathbb{R} \to \mathbb{R}\) (o \(\mathbb{C}\)), chiamiamo \textbf{serie di funzioni}, indicata con
+Presa \((f_{n})_{n}\) successione di funzioni, \(f_{n}:A\subseteq \mathbb{R} \to \mathbb{R}\) (o \(\mathbb{C}\)), chiamiamo 
 \[ 
 \sum_n f_{n}(x)
 \]
-la successione delle ridotte 
+\textbf{serie di funzioni}. Definiamo
 \[ 
 S_{N} = \sum_{n=1}^N f_{n}(x)
 \]
+successione delle ridotte.
 \paragraph{Convergenza della serie} Diciamo che la serie converge (puntualmente o uniformemente) su un insieme \(E\subseteq A\) se lo fa la successione delle ridotte. Si andrà quindi a studiare il limite di \(S_{N}\) che chiamiamo somma della serie.
 
 \teorema{Teorema 1S}{
@@ -271,6 +316,14 @@ tali che
 Allora la serie \(\sum f_{n}(x)\) converge assolutamente in ongi punto di \(E\) è uniformemente su \(E\) \(\implies\) la serie converge totalmente.}
 
 
+\teorema{Teorema 3S}{
+	Data \(f:A\subseteq \mathbb{R} \to \mathbb{R}\) (o \(\mathbb{C}\)). Se
+	\begin{itemize}
+		\item \(\sum_n f_{n}\) converge uniformemente su \(E\),
+		\item \(f_{n}\) sono continue su \(\bar{E}\)
+	\end{itemize}
+	allora \(\sum_n f_{n}\) converge uniformemente su \(\bar{E}\).
+}
 
 
 	
