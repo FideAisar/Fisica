@@ -9,11 +9,12 @@
 \usepgflibrary{shapes.geometric}
 \usepackage{xcolor}
 \usepackage{amsmath}
-\usepackage{fouriernc}
+%\usepackage{fouriernc}
 \usepackage{mathrsfs}
 \usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{enumitem}
+
 %% custom
 \renewcommand*\contentsname{Indice}
 \setcounter{tocdepth}{4}
@@ -26,31 +27,20 @@
 \definecolor{myorange}{RGB}{255, 102, 0} 
 
 \newtcolorbox{es}[2][]{%
-	enhanced,
-	sharp corners, % Angoli netti
-	boxrule=0.4pt, % Spessore del bordo
-	colback=white, % Colore di sfondo
-	colframe=black, % Colore del bordo
-	coltitle=black, % Colore del titolo
-	fonttitle=\itshape, % Font del titolo in corsivo
+	enhanced,sharp corners,boxrule=0.4pt,colback=white, colframe=black, coltitle=black,fonttitle=\itshape, 
 	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
 	boxed title style={tile, size=minimal, left=0.5mm, right=0.5mm,
 		colback=white, before upper=\strut, boxrule=0.5pt, colframe=black},
-	title=#2, % Testo del titolo
-	borderline east={0.4pt}{0pt}{black,dashed}, % Bordo tratteggiato a est
-	borderline west={0.4pt}{0pt}{black,dashed}, % Bordo tratteggiato a ovest
-	borderline south={0.4pt}{0pt}{black,dashed}, % Bordo tratteggiato a sud
-	borderline north={0.4pt}{0pt}{black,dashed}, % Bordo tratteggiato a nord
-	#1 % Parametro opzionale aggiuntivo
+	title=#2,top=1em,#1 
 }
 \newtcolorbox{dym}[2][]{%
 	enhanced,colback=white,colframe=black,coltitle=black,
-	sharp corners,boxrule=0.4pt,
+	sharp corners,boxrule=0pt, %0.4pt
 	fonttitle=\itshape,,
 	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
-	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
+	boxed title style={tile,size=minimal,left=2.5mm,right=0.5mm,
 		colback=white,before upper=\strut},
-	title=#2,#1
+	title=#2,top=1em,#1
 }
 \newtcolorbox{blues}[2][]{%
 	enhanced,colback=myblue,colframe=black,coltitle=black,
@@ -59,7 +49,7 @@
 	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
 	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
 		colback=myblue,before upper=\strut},
-	title=#2,#1
+	title=#2,top=1em,#1
 }
 \newtcolorbox{redes}[2][]{%
 	enhanced,colback=myred,colframe=black,coltitle=black,
@@ -68,9 +58,20 @@
 	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
 	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
 		colback=myred,before upper=\strut},
-	title=#2,#1
+	title=#2,top=1em,#1
 }
-
+\newtcolorbox{coroll}[2][]{%
+	enhanced, colback=white, colframe=black, coltitle=black,
+	sharp corners, boxrule=0pt,
+	fonttitle=\bfseries\itshape,
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile,size=minimal,
+		left=1mm, right=1mm, % Horizontal padding
+		top=1mm, bottom=1mm, % Vertical padding
+		colback=myred,
+		before upper=\strut},
+	title=#2,top=1em,#1
+}
 
 \newcommand*{\QEDA}{\null\nobreak\hfill\ensuremath{\blacksquare}}%
 \newcommand*{\QEDB}{\null\nobreak\hfill\ensuremath{\square}}%
@@ -101,10 +102,17 @@
 	\end{center}
 }
 \newcommand{\dimostrazione}[2]{
-	\begin{dym}{dimostrazione: #1}
+	\begin{dym}{\(\cdots\)dimostrazione#1 \(\cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots\cdot\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\)}
 		#2
 		\QEDB
 	\end{dym}
+}
+\newcommand{\corollario}[2]{
+	\begin{center}
+		\begin{coroll}{corollario#1}
+			#2
+		\end{coroll}
+	\end{center}
 }
 
 \pgfplotsset{my axis/.append style={height=9cm,width=9cm,grid=major,samples=100,yticklabel=\empty,xticklabel=\empty}}
@@ -262,6 +270,7 @@ allora si ha che \(f_{n}\) converge uniformemente a \(f\) su \(\bar{E}\).
 
 
 % SERIE DI FUNZIONI
+\newpage
 \section{Serie di funzioni}
 Presa \((f_{n})_{n}\) successione di funzioni, \(f_{n}:A\subseteq \mathbb{R} \to \mathbb{R}\) (o \(\mathbb{C}\)), chiamiamo 
 \[ 
@@ -272,7 +281,7 @@ Presa \((f_{n})_{n}\) successione di funzioni, \(f_{n}:A\subseteq \mathbb{R} \to
 S_{N} = \sum_{n=1}^N f_{n}(x)
 \]
 successione delle ridotte.
-\paragraph{Convergenza della serie} Diciamo che la serie converge (puntualmente o uniformemente) su un insieme \(E\subseteq A\) se lo fa la successione delle ridotte. Si andrà quindi a studiare il limite di \(S_{N}\) che chiamiamo somma della serie.
+\paragraph*{Convergenza della serie} Diciamo che la serie converge (puntualmente o uniformemente) su un insieme \(E\subseteq A\) se lo fa la successione delle ridotte. Si andrà quindi a studiare il limite di \(S_{N}\) che chiamiamo somma della serie.
 
 \teorema{Teorema 1S}{
 Data \(f:A\subseteq \mathbb{R} \to \mathbb{R}\), se
@@ -325,6 +334,74 @@ Allora la serie \(\sum f_{n}(x)\) converge assolutamente in ongi punto di \(E\) 
 	allora \(\sum_n f_{n}\) converge uniformemente su \(\bar{E}\).
 }
 
+\subsection{Serie di potenze in \(\mathbb{C}\)}
+Intendiamo con serie di potenze in \(\mathbb{C}\) un espressione del tipo
+\[ 
+\sum_{n\geq 0}a_{n}(z-z_{0})^n
+\]
+dove \((a_{n})_{n}\) è una successione di numeri complessi, \(z_{0} \in \mathbb{C}\) è il \textit{centro} e \(z\) è la variabile complessa. I concetti di convergenza si estendono sostituendo il modulo al valore assoluto nelle relative definizioni.
 
+In campo complesso l'intervallo di convergenza viene sostituito da un \textbf{disco di convergenza}. \\
+
+\noindent
+La successione delle ridotte \(S_{N}(z)\) è un polinomio di grado \(N\) a variabile complessa.
+
+\teorema{Teorema: disco di convergenza}{
+Data una serie di potenze in \(\mathbb{C}\), \(\sum_{n\geq 0} a_{n}(z- z_{0})^n\), esiste \(R\geq 0\) detto raggio dei convergenze della serie tale che
+\begin{enumerate}
+	\item La serie \textbf{converge assolutamente} in \(D_{R}(z_{0}) = \{z\in \mathbb{C} : |z-z_{0}| < R\}\),
+	\item la serie \textbf{non converge semplicemente} in \(\mathbb{C} \setminus \overline{D_{R}(z_{0})}\),
+	
+	\[ 
+	D_{R}(z_{0}) \subseteq I_{a} \subseteq I_{s} \subseteq \overline{D_{R}(z_{0})}
+	\]
+	
+	\item la serie \textbf{converge uniformemente} su ogni \(\overline{D_{r}(z_{0})}\) con \(r \in (0,R)\).
+\end{enumerate}
+}
+\dimostrazione{}{
+Per prima cosa sappiamo che \(z_{0} \in I_{s}\) quindi \(I_{s} \neq \varnothing\).
+
+Definiamo 
+\[ 
+R := \text{sup}\{|z-z_{0}| : z \in I_{s}\}
+\]
+Ora andiamo a studiare quando \(R\) si annulla e quando è maggiore di zero:
+\begin{itemize}
+	\item \(\boxed{R = 0} \quad\) Se \(R\) è nullo il punto \(z_{0}\) corrisoponde all'insieme \(I_{s}\): 
+	\[ 
+	\{z_{0}\} = I_{s}
+	\]
+	La serie converge solo in un punto dove si riduce al primo termine \(a_{0}\), quindi \(I_{a} = I_{s}\).
+	\item \(\boxed{R > 0} \quad\) e \(r \in (0,R)\).
+	
+	Avendo definito \(R\) come il \textit{raggio dell'insieme} \(I_{s}\) di centro \(z_{0}\), il punto \(2\) è subito dimostrato.
+	
+	\begin{itemize}
+		\item considero \(\boxed{z_{1}:|z_{1} - z_{0}| \in (r,R)}\). Si ha che \(z_{1} \in I_{s}\) ovvero
+		\[ 
+		\sum_{n\geq 0} a_{n}(z_{1}-z_{0})^n \quad \text{convergente in } \mathbb{C}
+		\]
+		\begin{align*}
+			\implies& \lim_{n\to +\infty}a_{n}(z_{1}-z_{0})^n = 0 \\ 
+			\implies& \exists\tilde{n} \;\ : \;\ |a_{n}(z_{1}-z_{0})^n| < 1 \;\ \forall n \geq \tilde{n}
+		\end{align*}
+		
+		\item considero \(\boxed{z \in \overline{D_{r}(z_{0})}} \quad\). Vogliamo usare l'm-test per dedurre la convergenza assoluta in ongi \(\overline{D_{r}(z_{0})}\) e la convergeza uniforme in \(D_{r}(z_{0})\).
+		
+		Vogliamo maggiorare
+		\[ 
+		|a_{n}(z_{1}-z_{0})^n|
+		\]
+		con un numero \(m_{n}\) tale che \(\sum m_{n} < +\infty \;\ \forall t \in \overline{D_{r}(z_{0})}\):
+		\[ 
+		|a_{n}||(z_{1}-z_{0})^n| \leq |a_{n}|r^n\frac{|(z_{1}-z_{0})^n|}{}
+		\]
+	\end{itemize}
+\end{itemize}
+}
+\corollario{}{
+corpo
+}
 	
 \end{document}

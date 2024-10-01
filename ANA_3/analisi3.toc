@@ -1,4 +1,4 @@
 \contentsline {section}{\numberline {1}Successioni di funzioni}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Limiti di successioni}{2}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Serie di funzioni}{4}{section.2}%
-\contentsline {paragraph}{Convergenza della serie}{4}{section*.2}%
+\contentsline {section}{\numberline {2}Serie di funzioni}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Serie di potenze in \(\mathbb {C}\)}{6}{subsection.2.1}%

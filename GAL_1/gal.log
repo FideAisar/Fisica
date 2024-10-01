@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.9.24)  25 SEP 2024 10:34
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/Arch Linux)  (format=lualatex 2024.9.24)  30 SEP 2024 21:27
  restricted system commands enabled.
 **gal.tex
 (./gal.tex
@@ -1738,7 +1738,7 @@ Package hyperref Info: Link coloring OFF on input line 93.
 <pngegg.png, id=356, 1027.84pt x 1027.84pt>
 File: pngegg.png Graphic file (type png)
 <use pngegg.png>
-Package luatex.def Info: pngegg.png  used on input line 5.
+Package luatex.def Info: pngegg.png  used on input line 22.
 (luatex.def)             Requested size: 174.73048pt x 174.73048pt.
  [1
 
@@ -2461,7 +2461,7 @@ ia/putb8a.pfb></usr/share/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/
 share/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texmf-dist/font
 s/type1/adobe/utopia/putri8a.pfb></usr/share/texmf-dist/fonts/type1/public/rsfs/
 rsfs10.pfb>
-Output written on gal.pdf (51 pages, 928456 bytes).
+Output written on gal.pdf (51 pages, 928487 bytes).
 
 PDF statistics: 877 PDF objects out of 1000 (max. 8388607)
  764 compressed objects within 8 object streams
