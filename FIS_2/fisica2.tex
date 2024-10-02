@@ -9,7 +9,7 @@
 \usepgflibrary{shapes.geometric}
 \usepackage{xcolor}
 \usepackage{amsmath}
-\usepackage{fouriernc}
+%\usepackage{fouriernc}
 \usepackage{mathrsfs}
 \usepackage{amssymb}
 \usepackage{hyperref}
@@ -20,47 +20,65 @@
 \setcounter{secnumdepth}{2}
 \pgfplotsset{compat=1.15}
 
+\usepackage[pagestyles]{titlesec}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{mystyle}
+
+
 % boxes
 \definecolor{myblue}{RGB}{224, 245, 255} 
-\definecolor{myred}{RGB}{234, 222, 255}
-\definecolor{myorange}{RGB}{255, 102, 0}
+\definecolor{myred}{RGB}{198, 247, 211} 
+\definecolor{myorange}{RGB}{255, 102, 0} 
+\definecolor{mypurple}{RGB}{255, 102, 0} 
 
 \newtcolorbox{es}[2][]{%
-	enhanced,colback=white,colframe=black,coltitle=black,
-	sharp corners,boxrule=0.4pt,
-	fonttitle=\itshape,frame style={dash pattern=on 3pt off 3pt},
+	enhanced,sharp corners,boxrule=0.4pt,colback=white, colframe=black, coltitle=black,fonttitle=\itshape, 
 	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
-	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
-		colback=white,before upper=\strut},
-	title=#2,#1
+	boxed title style={tile, size=minimal, left=0.5mm, right=0.5mm,
+		colback=white, before upper=\strut, boxrule=0.5pt, colframe=black},
+	title=#2,top=1em,#1 
 }
 \newtcolorbox{dym}[2][]{%
 	enhanced,colback=white,colframe=black,coltitle=black,
-	sharp corners,boxrule=0.4pt,
+	sharp corners,boxrule=0pt, %0.4pt
 	fonttitle=\itshape,,
 	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
-	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
+	boxed title style={tile,size=minimal,left=2.5mm,right=0.5mm,
 		colback=white,before upper=\strut},
-	title=#2,#1
+	title=#2,top=1em,#1
 }
 \newtcolorbox{blues}[2][]{%
 	enhanced,colback=myblue,colframe=black,coltitle=black,
 	sharp corners,boxrule=0.4pt,
+	fonttitle=\bfseries\itshape,
 	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
 	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
 		colback=myblue,before upper=\strut},
-	title=#2,#1
+	title=#2,top=1em,#1
 }
 \newtcolorbox{redes}[2][]{%
 	enhanced,colback=myred,colframe=black,coltitle=black,
 	sharp corners,boxrule=0.4pt,
-	fonttitle=\itshape,
+	fonttitle=\bfseries\itshape,
 	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
 	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
 		colback=myred,before upper=\strut},
-	title=#2,#1
+	title=#2,top=1em,#1
 }
-
+\newtcolorbox{coroll}[2][]{%
+	enhanced, colback=white, colframe=black, coltitle=black,
+	sharp corners, boxrule=0pt,
+	fonttitle=\bfseries\itshape,
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile,size=minimal,
+		left=1mm, right=1mm, % Horizontal padding
+		top=1mm, bottom=1mm, % Vertical padding
+		colback=myred,
+		before upper=\strut},
+	title=#2,top=1em,#1
+}
 
 \newcommand*{\QEDA}{\null\nobreak\hfill\ensuremath{\blacksquare}}%
 \newcommand*{\QEDB}{\null\nobreak\hfill\ensuremath{\square}}%
@@ -91,11 +109,20 @@
 	\end{center}
 }
 \newcommand{\dimostrazione}[2]{
-	\begin{dym}{dimostrazione: #1}
+	\begin{dym}{dimostrazione#1}
 		#2
 		\QEDB
 	\end{dym}
 }
+\newcommand{\corollario}[2]{
+	\begin{center}
+		\begin{coroll}{corollario#1}
+			#2
+		\end{coroll}
+	\end{center}
+}
+
+\newcommand{\verde}[1]{\colorbox{myred}{$\displaystyle #1$}}
 
 \pgfplotsset{my axis/.append style={height=9cm,width=9cm,grid=major,samples=100,yticklabel=\empty,xticklabel=\empty}}
 \pgfplotsset{my plot/.append style={thick,samples=500}}
@@ -108,39 +135,90 @@
 	
 \chapter{Elettrostatica}
 \section{Campo elettrico}
-\subsection{Tensione elettrica}
-\subsection{Energia potenziale}
-\subsection{Campo Elettico}
+\subsection{Dipolo elettrico}
 
-\section{Distribuzioni di cariche}
 \section{Flusso di campo elettrico}
+Definiamo flusso di un campo vettoriale \(\vec{E}\) l'integrale
+\[
+\Phi (\vec{E}) = \int_{\Sigma} \vec{E}\cdot \hat{u}_n \: d\Sigma
+\]
+dove \(\hat{u}_n\) è il versore normale alla porzione infinitesima di superficie \(d\Sigma\). Vediamo che il prodotto scalare fa sì che contribuisca solo la componente di campo vettoriale ortogonale alla superficie. 
 
-\subsubsection{Linee di campo}
+Mostriamo come il flusso \textit{dipenda solo dall'angolo solido sotto il quale la superficie vede la carica}. Prima di tutto qualche osservazione geometrica:
 
-\subsection{Tensione, forza elettromotrice e energia potenziale}
-\[ 
-dW = \vec{F}\cdot d\vec{s} = q \vec{E} \cdot d\vec{s} = qE\cos\vartheta ds
+\[
+d\vartheta = \frac{ds}{r} \qquad \qquad ds' \cos\alpha = ds \;\ \to \;\ d\vartheta = \frac{ds'\cos\alpha}{r}
 \]
-\[ 
-W(C_{1}) = \int_{C_{1}} q\vec{E} \cdot d\vec{s}
+\[
+d\Omega= \frac{d\Sigma_0}{r^2} \qquad \qquad d\Sigma \cos\alpha = d\Sigma_0 \;\ \to \;\ d\Omega = \frac{d\Sigma\cos\alpha}{r^2}
 \]
-il valore
-\[ 
-\frac{W(C_{1})}{q} = \int_{C_{1}} \vec{E} \cdot d\vec{s}
+Andiamo ora a calcolare il flusso attraverso \(d\Sigma\):
+\begin{align*}
+	d\Phi =& \vec{E} \cdot \hat{u}_n d\Sigma \\ 
+		  =& \frac{q}{4\pi\varepsilon_0 r^2} \hat{u}_r \cdot \hat{u}_n \: d\Sigma \\
+		  =& \frac{q}{4\pi\varepsilon_0 r^2} |\hat{u}_r||\hat{u}_n|\textcolor{red}{\cos\alpha\: d\Sigma} \\ 
+		  =& \frac{q}{4\pi\varepsilon_0 r^2} |\hat{u}_r||\hat{u}_n|\textcolor{red}{\: d\Sigma_0} \\
+		  =& \frac{q}{4\pi\varepsilon_0  \textcolor{orange}{r^2}} \textcolor{orange}{\: d\Sigma_0} \\
+		  =& \frac{q}{4\pi\varepsilon_0}\: \textcolor{orange}{d\Omega} \quad \to \quad \Phi = \frac{q}{4\pi\varepsilon_0}\Omega
+\end{align*}
+Quindi se consideriamo una superficie chiusa si ha un angolo solido
+\[
+d\Omega = \frac{4\pi r^2}{r^2} = 4\pi
 \]
-prende il nome di \textbf{tensione elettrica} tra \(A\) e \(B\) lungo la traiettoria \(C_{1}\).
-\[ 
-W = \oint q\vec{E}\cdot d\vec{s}
+e di conseguenza
+\begin{equation}
+	\verde{\Phi = \frac{q}{\varepsilon_0}}
+\end{equation}
+Se la carica esterna il flusso è nullo (le cariche esterne contribuiscono solo al campo elettrico). Inoltre se consideriamo più cariche, o addirittura una distribuzione omogenea di cariche si hanno i seguenti valori di flusso:
+\[
+\text{distribuzione finita di cariche: }\qquad\oint \vec{E} \cdot \hat{u}_n \: d\Sigma \;\ = \;\ \sum_i \frac{q_{i(int)}}{\varepsilon_0}
 \]
-Se il campo è conservativo possiamo dare la definizione di energia potenziale
-\[ 
-\Delta U = -W_{AB} = - \int_{A}^B q\vec{E}\cdot d\vec{s}
-\]
-e di differenza di potenziale
-\[ 
-\Delta V = \frac{\Delta U}{q} = - \int_{A}^B \vec{E}\cdot d\vec{s}
+\[
+\text{distribuzione continua di cariche: }\qquad \frac{1}{\varepsilon_0}\int \rho(x,y,z) \:d\tau 
 \]
 
+
+
+
+\subsubsection*{Rotore di un campo vettoriale}
+Viene definito rotore del campo elettrico \(\vec{E}\) il prodotto vettoriale
+\[
+\vec{\nabla} \wedge \vec{E} = \left|\begin{array}{ccc}
+	\hat{u}_x & \hat{u}_y & \hat{u}_z \\
+	\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+	E_x & E_y & E_z 
+\end{array}\right| = \left(\frac{\partial E_z}{\partial y}-\frac{\partial E_y}{\partial z}\right)\hat{u}_x + \left(\frac{\partial E_x}{\partial z}-\frac{\partial E_z}{\partial x}\right)\hat{u}_y + \left(\frac{\partial E_y}{\partial x}-\frac{\partial E_x}{\partial y}\right)\hat{u}_z
+\]
+Questo rappresenta la capacità del campo elettrico di \textit{formare vortici}, ovvero di generare linee di forza che si richiudono su loro stesse.
+
+
+Poiché anche il rotore del campo elettrico è un campo vettoriale, è possibile definirne un suo flusso:
+
+\[
+\Phi(\vec{\nabla} \wedge \vec{E}) =  \int_{\Sigma}\left(\vec{\nabla} \wedge \vec{E}\right)\cdot \hat{u}_n \: d\Sigma
+\]
+
+\teorema{}{
+\subsubsection{Teorema di Stokes}
+La circuitazione è uguale al flusso del rotore:
+\[
+\oint_\gamma \vec{E}\cdot d\vec{s} = \int_{\Sigma_\gamma}\left(\vec{\nabla} \wedge \vec{E}\right)\cdot \hat{u}_n \: d\Sigma
+\]
+In questo caso è espresso nel caso del campo elettrico dove si ha che la circuitazione è nulla qualunque sia la curva \(\gamma\) (a patto che sia chiusa). Allora il flusso del rotore è nullo qualunque sia la superficie ed è possibile solo se il rotore di \(\vec{E}\) è nullo:
+
+\[
+\vec{\nabla} \wedge \vec{E} = 0
+\]
+
+Dire che il rotore è nullo equivale a dire che il capo elettrico è \textbf{irrotazionale}, ovvero che le sue linee di forza non possono chiudersi su loro stesse; il campo elettrico "non forma vortici".
+}
+
+L'annullarsi del rotore non è un fatto sorprendente. Sappiamo infatti che il rotore di un gradiente è sempre nullo e che il campo elettrostatico conservativo può essere scritto come gradiente della funzione scalare del potenziale elettrostatico \(V\):
+\[
+\vec{\nabla} \wedge \vec{E} = \vec{\nabla} \wedge \left(-\vec{\nabla}\cdot V\right)
+\]
+
+\subsection{Discontinuità di carica}
 
 
 \end{document}
