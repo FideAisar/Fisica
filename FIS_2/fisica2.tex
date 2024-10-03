@@ -136,6 +136,48 @@
 \chapter{Elettrostatica}
 \section{Campo elettrico}
 \subsection{Dipolo elettrico}
+Definiamo \textbf{momento del dipolo}
+\[
+\vec{p} = q\vec{a}
+\]
+Consideriamo un punto \(P\) nel quale misuriamo il potenziale, pari alla somma dei contributi delle due cariche:
+\[
+V(P) = \frac{q}{4\pi \varepsilon_0} \left(\frac{1}{r_1} - \frac{1}{r_2}\right) = \frac{q}{4\pi \varepsilon_0} \left(\frac{r_2 - r_1}{r_1r_2}\right)
+\]
+Ipotizziamo che \(P\) sia molto distante dal dipolo (rispetto alla distanza \(a\)) così che \(r_1\) e \(r_2\) siano sempre più assimilabili a due segmenti paralleli. Andiamo poi a tracciare un segmento perpendicolare a \(r_1\) fino a \(r_2\) evidenziando la distanza \(r_2 - r_1 \approx a\cos\vartheta\). 
+
+\subsubsection{Potenziale del dipolo}
+Con le seguenti approssimazioni andiamo a riscrivere il potenziale:
+\[
+r_2 - r_1 \approx a\cos\vartheta \qquad \qquad r_1r_2 \approx r^2
+\]
+\[
+V(P) = \frac{q}{4\pi \varepsilon_0} \left(\frac{a\cos\vartheta}{r^2}\right) = \frac{p}{4\pi \varepsilon_0 r^2}
+\]
+Vediamo come a grandi distanze il potenziale del punto \(P\) dia \textit{informazioni solo sul momento di dipolo} e non sulle due cariche o sulla loro distanza reciproca. A parità di momento si potranno avere due cariche ravvicinate e molto cariche o più distanti e meno cariche.
+
+
+\subsubsection{Campo elettrico del dipolo}
+Riscrivendo \(r\) e \(\cos\vartheta\) esprimiamo il potenziale come
+\[
+V(P) = \frac{q}{4\pi \varepsilon_0} \left(\frac{a\textcolor{orange}{\cos\vartheta}}{\textcolor{red}{r^2}}\right) 
+\]
+\[
+V(P)= \frac{p}{4\pi\varepsilon_0}\frac{1}{\textcolor{red}{x^2 + y^2 + z^2}}\textcolor{orange}{\frac{z}{\sqrt{x^2 + y^2 + z^2}}} = \frac{p}{4\pi\varepsilon_0}\frac{z}{(x^2+y^2+z^2)^{\frac{3}{2}}}
+\]\\
+
+\noindent
+Dalla relazione \(\vec{E} = -\vec{\nabla}V\) otteniamo l'espressioni del campo elettrico
+\[
+\vec{E} = \left( \frac{p}{4\pi\varepsilon_0}\frac{3xz}{r^5},\;\ \frac{p}{4\pi\varepsilon_0}\frac{3yz}{r^5},\;\ \frac{p}{4\pi\varepsilon_0}\left(\frac{3z^2}{r^5}-\frac{1}{r^3}\right)\right) 
+\]
+
+\[
+E(P) = \frac{p}{4\pi\varepsilon_0r^3}\sqrt{3\cos^2\vartheta + 1}
+\]
+Concludiamo osservando che il campo elettrico del dipolo varia con \(r^3\) (il monopolo con \(r^2\)) e dipende anche dall'angolo \(\vartheta\).
+
+
 
 \section{Flusso di campo elettrico}
 Definiamo flusso di un campo vettoriale \(\vec{E}\) l'integrale
@@ -171,10 +213,10 @@ e di conseguenza
 \end{equation}
 Se la carica esterna il flusso è nullo (le cariche esterne contribuiscono solo al campo elettrico). Inoltre se consideriamo più cariche, o addirittura una distribuzione omogenea di cariche si hanno i seguenti valori di flusso:
 \[
-\text{distribuzione finita di cariche: }\qquad\oint \vec{E} \cdot \hat{u}_n \: d\Sigma \;\ = \;\ \sum_i \frac{q_{i(int)}}{\varepsilon_0}
+\text{distribuzione finita di cariche: }\qquad \Phi = \oint \vec{E} \cdot \hat{u}_n \: d\Sigma \;\ = \;\ \sum_i \frac{q_{i(int)}}{\varepsilon_0}
 \]
 \[
-\text{distribuzione continua di cariche: }\qquad \frac{1}{\varepsilon_0}\int \rho(x,y,z) \:d\tau 
+\text{distribuzione continua di cariche: }\qquad \Phi = \frac{1}{\varepsilon_0}\int \rho(x,y,z) \:d\tau 
 \]
 
 
@@ -204,7 +246,7 @@ La circuitazione è uguale al flusso del rotore:
 \[
 \oint_\gamma \vec{E}\cdot d\vec{s} = \int_{\Sigma_\gamma}\left(\vec{\nabla} \wedge \vec{E}\right)\cdot \hat{u}_n \: d\Sigma
 \]
-In questo caso è espresso nel caso del campo elettrico dove si ha che la circuitazione è nulla qualunque sia la curva \(\gamma\) (a patto che sia chiusa). Allora il flusso del rotore è nullo qualunque sia la superficie ed è possibile solo se il rotore di \(\vec{E}\) è nullo:
+Qui è espresso nel caso del campo elettrico dove si ha che la circuitazione è nulla qualunque sia la curva \(\gamma\) (a patto che sia chiusa). Allora il flusso del rotore è nullo qualunque sia la superficie ed è possibile solo se il rotore di \(\vec{E}\) è nullo:
 
 \[
 \vec{\nabla} \wedge \vec{E} = 0
@@ -215,7 +257,7 @@ Dire che il rotore è nullo equivale a dire che il capo elettrico è \textbf{irr
 
 L'annullarsi del rotore non è un fatto sorprendente. Sappiamo infatti che il rotore di un gradiente è sempre nullo e che il campo elettrostatico conservativo può essere scritto come gradiente della funzione scalare del potenziale elettrostatico \(V\):
 \[
-\vec{\nabla} \wedge \vec{E} = \vec{\nabla} \wedge \left(-\vec{\nabla}\cdot V\right)
+\vec{\nabla} \wedge \vec{E} = \vec{\nabla} \wedge \left(-\vec{\nabla} V\right)
 \]
 
 \subsection{Discontinuità di carica}

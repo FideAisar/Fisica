@@ -102,7 +102,7 @@
 	\end{center}
 }
 \newcommand{\dimostrazione}[2]{
-	\begin{dym}{\(\cdots\)dimostrazione#1 \(\cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots \cdots\cdot\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\)}
+	\begin{dym}{dimostrazione#1}
 		#2
 		\QEDB
 	\end{dym}
@@ -398,13 +398,50 @@ Ora andiamo a studiare quando \(R\) si annulla e quando è maggiore di zero:
 		\]
 		con un numero \(m_{n}\) tale che \(\sum m_{n} < +\infty \;\ \forall t \in \overline{D_{r}(z_{0})}\):
 		\[ 
-		|a_{n}||(z_{1}-z_{0})^n| \leq |a_{n}|r^n\frac{|(z_{1}-z_{0})^n|}{}
+		|a_{n}||(z_{1}-z_{0})^n| \;\ \leq \;\ \textcolor{red}{|a_{n}|}r^n\frac{\textcolor{red}{|(z_{1}-z_{0})^n|}}{|(z_{1}-z_{0})^n|}\;\ \leq \;\ \frac{\textcolor{red}{1}\cdot r^n}{|(z_{1}-z_{0})^n|} \;\ = \;\ \left(\frac{r}{|z_{1}-z_{0}|}\right)^n  
 		\]
+		\[
+		\textcolor{red}{(\text{se }n \geq \tilde{n})}
+		\]
+		ma \(z_1 \in D_R(z_0) \setminus \overline{D_r(z_0)}\), \(|z-z_0| \in (r,R)\) e 
+		\[
+		m_n := \left(\frac{r}{|z_{1}-z_{0}|}\right)^n  
+		\]
+		è indipendente da \(z\) e permette di applicare l'm-test so ogni \(\overline{D_r(z_0)}\) con \(r\in (0,R)\).
+		\(\implies \;\ \) ho convergenza assoluta su ogni  \(\overline{D_r(z_0)}\) e assoluta in ogni punto di ogni  \(\overline{D_r(z_0)}\) \(\implies \;\ \) ho convergenza assoluta in \(\overline{D_R(z_0)}\)
 	\end{itemize}
 \end{itemize}
 }
 \corollario{}{
-
+La somma di una serie di potenze di raggio \(R\) è una funzione continua in ogni punto di \(\overline{D_R(z_0)}\).
 }
+\dimostrazione{}{
+\begin{itemize}
+	\item \(f_n(z_0) = a_n(z-z_0)^n\) sono tutte funzioni continue (in \(\mathbb{C}\)),
+	\item se \(z \in D_R(z_0)\) allora \(|z-z_0| = r \in [0,R)\), allora 
+	\[
+	 z \in \overline{D_r(z_0)} \text{ su cui abbiamo converg. uniforme} \implies \text{ continuità della somma}.
+	\]
+\end{itemize}
+}
+
+\teorema{Teorema del rapporto e della radice}{
+Data la serie \(\sum_n a_n(z-z_0)^n\) se esiste uno tra questi limiti 
+\[
+\lim_{n\to + \infty}\left|\frac{a_{n+1}}{a_n}\right| \qquad \qquad \lim_{n\to + \infty}\sqrt[n]{|a_n|}
+\]
+e vale \(L\geq 0\) allora
+\[
+R = \left\{\begin{array}{lcl}
+	+\infty & \text{se} & L = 0 \\
+	\frac{1}{L} & \text{se} & L \in (0,+\infty) \\
+	0 & \text{se} & L = +\infty 
+\end{array}\right.
+\] 
+}
+Non è detto che i limiti esistano, ma sappiamo che entrambe le serie ammettono un limite inferiore e uno superiore e si può dimostrare la formula di Hadamard
+\[
+R = \left(\lim_{n\to + \infty}\sqrt[n]{|a_n|}\right)^{-1}
+\]
 	
 \end{document}
