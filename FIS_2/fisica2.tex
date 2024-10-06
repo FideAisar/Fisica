@@ -134,7 +134,11 @@
 \newpage
 	
 \chapter{Elettrostatica}
-\section{Campo elettrico}
+\section{Campo elettrostatico}
+\definizione{Campo elettrostatico}{
+Il campo elettrostatico prodotto in un punto \(P\) da un sistema di cariche ferme è definito come forza elettrostatica risultante \(F\) che agisce su una carica di prova \(q_0\) posta in \(P\) divisa per la carica stessa.
+}
+In realtà la carica di prova può perturbare la distribuzione di cariche originale, per questo la definizione diventerebbe più precisa se si facesse tendere a zero il valore di \(q_0\). In pratica è sufficiente che \(q_0\) sia molto piccola rispetto alle altre cariche.
 \subsection{Dipolo elettrico}
 Definiamo \textbf{momento del dipolo}
 \[
@@ -178,6 +182,68 @@ E(P) = \frac{p}{4\pi\varepsilon_0r^3}\sqrt{3\cos^2\vartheta + 1}
 Concludiamo osservando che il campo elettrico del dipolo varia con \(r^3\) (il monopolo con \(r^2\)) e dipende anche dall'angolo \(\vartheta\).
 
 
+\section{Lavoro elettrico}
+Quando su una carica \(q_0\) agisce una forza \(\vec{F}\) \textit{di qualsiasi natura}, possiamo definire sempre un campo elettrico \(\vec{E}\) chi chiamiamo \textbf{campo elettromotore}
+\[
+\vec{E} = \frac{\vec{E}}{q_0} \;\ \to \;\ \vec{F} = q_0 \vec{E}
+\]
+di cui non conosciamo necessariamente la natura; nel caso di un insieme di cariche ferme questo coinciderà con il campo elettrostatico, ma in questo caso studiamo il caso più generale.
+
+Suddividendo il percorso da \(A\) a \(B\) in segmenti infinitesimi \(d\vec{s}\) calcoliamo il lavoro come integrale di linea del campo \(E\) lungo \(C_1\) 
+
+\[
+dW_1 = \vec{F}\cdot d\vec{s} = q_0\vec{E} \cdot d\vec{s}
+\]
+\[
+ W_1 =  q_0 \int_{C_1} \vec{E} \cdot d\vec{s}
+\]
+
+\subsection{Tensione elettrica e forza elettromotrice}
+\definizione{Tensione elettrica}{
+Il rapporto tra il lavoro compiuto dalla forza \(\vec{F}\) nello spostamento da \(A\) a \(B\) lungo il percorso \(C_1\) e la carica 
+
+\[
+T(A\to B,C_1) \;\ = \;\ \frac{W_1}{q_0} \;\ =\;\ \int_{C_1}\vec{E}\cdot d\vec{s}
+\]
+viene definito \textbf{tensione elettrica}.
+}
+Se si considera un secondo percorso \(C_2\) si trova in generale un lavoro diverso e quindi un diverso valore della tensione elettrica pur essendo i punti \(A\) e \(B\) gli stessi.
+
+
+Se studiamo il lavoro lungo un percorso chiuso invece troviamo
+\[
+W = \oint \vec{F} \cdot d\vec{s} = q_0\oint\vec{E}\cdot d\vec{s}
+\]
+\definizione{Forza elettromotrice}{
+Il rapporto tra lavoro compiuto sulla carica e la carica stessa per il percorso chiuso, ovvero l'integrale di linea circuitazione di campo elettrico
+\[
+\mathcal{E} = \oint\vec{E}\cdot d\vec{s}
+\]
+viene definito \textbf{forza elettromotrice} relativa al percorso chiuso \(C\).
+}
+Sviluppando l'integrale
+\begin{align*}
+	\oint\vec{F}\cdot d\vec{s} =& \int_{C_1}\vec{F}\cdot d\vec{s} + \int_{-C_2}\vec{F}\cdot d\vec{s} \\
+							   =& \int_{C_1}\vec{F}\cdot d\vec{s} - \int_{C_2}\vec{F}\cdot d\vec{s} \\
+							   =& W_1 - W_2
+\end{align*}
+vediamo che in generale per un percorso chiuso il lavoro è diverso da zero. Tuttavia andremo a studiare il comportamento del \textit{campo elettrostatico} che è conservativo e di conseguenza ha circuitazione nulla. 
+
+
+\subsection{Potenziale elettrostatico ed energia potenziale}
+Se il campo è conservativo, non dipendendo dal percorso  seguito l'espressione della tensione elettrica può essere riscritta semplicemente come l'integrale tra \(A\) e \(B\) 
+\[
+\int_{A}^B\vec{E}\cdot d\vec{s} = f(B) - f(A)
+\]
+dove \(f\) è una particolare funzione definita a meno di una costante arbitraria e che rinominiamo \(V\) \textbf{potenziale elettrostatico}. 
+\definizione{Differenza di potenziale}{
+Possiamo definire una \textbf{differenza di potenziale} pari a 
+\[
+\Delta V = - \int_{A}^B\vec{E}\cdot d\vec{s} 
+\]
+}
+
+
 
 \section{Flusso di campo elettrico}
 Definiamo flusso di un campo vettoriale \(\vec{E}\) l'integrale
@@ -203,7 +269,7 @@ Andiamo ora a calcolare il flusso attraverso \(d\Sigma\):
 		  =& \frac{q}{4\pi\varepsilon_0  \textcolor{orange}{r^2}} \textcolor{orange}{\: d\Sigma_0} \\
 		  =& \frac{q}{4\pi\varepsilon_0}\: \textcolor{orange}{d\Omega} \quad \to \quad \Phi = \frac{q}{4\pi\varepsilon_0}\Omega
 \end{align*}
-Quindi se consideriamo una superficie chiusa si ha un angolo solido
+Quindi se consideriamo una superficie chiusa si ha un angolo solido 
 \[
 d\Omega = \frac{4\pi r^2}{r^2} = 4\pi
 \]
@@ -261,6 +327,9 @@ L'annullarsi del rotore non è un fatto sorprendente. Sappiamo infatti che il ro
 \]
 
 \subsection{Discontinuità di carica}
+
+
+\section{Conduttori}
 
 
 \end{document}

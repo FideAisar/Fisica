@@ -1,8 +1,12 @@
 \contentsline {chapter}{\numberline {1}Elettrostatica}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Campo elettrico}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Campo elettrostatico}{2}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Dipolo elettrico}{2}{subsection.1.1.1}%
 \contentsline {subsubsection}{Potenziale del dipolo}{2}{section*.2}%
-\contentsline {subsubsection}{Campo elettrico del dipolo}{2}{section*.2}%
-\contentsline {section}{\numberline {1.2}Flusso di campo elettrico}{3}{section.1.2}%
-\contentsline {subsubsection}{Teorema di Stokes}{4}{equation.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.1}Discontinuità di carica}{4}{subsection.1.2.1}%
+\contentsline {subsubsection}{Campo elettrico del dipolo}{3}{section*.2}%
+\contentsline {section}{\numberline {1.2}Lavoro elettrico}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Tensione elettrica e forza elettromotrice}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Potenziale elettrostatico ed energia potenziale}{4}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Flusso di campo elettrico}{4}{section.1.3}%
+\contentsline {subsubsection}{Teorema di Stokes}{6}{equation.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.1}Discontinuità di carica}{6}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}Conduttori}{6}{section.1.4}%

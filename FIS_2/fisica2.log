@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.2)  3 OCT 2024 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.2)  6 OCT 2024 13:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -908,63 +908,88 @@ l.134 \newpage
 ]
 Chapter 1.
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 149.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 140--140
+ [][][][][][] 
  []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 153.
 
 
 
 [2
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
-[3]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 256.
+ []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 256--256
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 209--209
+ [][][][][][] 
+ []
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 223--223
  [][][][][][] 
  []
 
 
 
-[4] (./fisica2.aux (./titlepage.aux))
+[3]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 244--244
+ [][][][][][] 
+ []
+
+
+
+[4]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 322.
+
+
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 322--322
+ [][][][][][] 
+ []
+
+
+
+[5]
+
+[6] (./fisica2.aux (./titlepage.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
 Package rerunfilecheck Info: File `fisica2.out' has not changed.
-(rerunfilecheck)             Checksum: 874207BA9155AF5D7E19165059B0CA0E;1282.
+(rerunfilecheck)             Checksum: 21C77CF3412943AF866A887325A75FD0;2137.
  ) 
 Here is how much of TeX's memory you used:
- 36173 strings out of 473579
- 860809 string characters out of 5731252
- 1758218 words of memory out of 5000000
- 58531 multiletter control sequences out of 15000+600000
- 562434 words of font info for 54 fonts, out of 8000000 for 9000
+ 36214 strings out of 473579
+ 861546 string characters out of 5731252
+ 1758221 words of memory out of 5000000
+ 58565 multiletter control sequences out of 15000+600000
+ 562793 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,10n,136p,727b,2214s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt
 /texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texliv
-e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2024/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2024/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/texlive/2024/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr5.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></op
-t/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on fisica2.pdf (5 pages, 166942 bytes).
+e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></opt/texlive/202
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2024/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2024/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi5.pfb></opt/texlive/2024/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr5.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on fisica2.pdf (7 pages, 191146 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
