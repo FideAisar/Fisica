@@ -13,6 +13,9 @@
 \usepackage{mathrsfs}
 \usepackage{amssymb}
 \usepackage{hyperref}
+\usepackage{graphicx,import}
+\usepackage{float}
+\usepackage{wrapfig}
 
 %% custom
 \renewcommand*\contentsname{Indice}
@@ -124,6 +127,16 @@
 
 \newcommand{\verde}[1]{\colorbox{myred}{$\displaystyle #1$}}
 
+% svg + latex
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+
+\newcommand{\incfig}[1]{%
+	\import{./img/}{#1.pdf_tex}
+}
+
 \pgfplotsset{my axis/.append style={height=9cm,width=9cm,grid=major,samples=100,yticklabel=\empty,xticklabel=\empty}}
 \pgfplotsset{my plot/.append style={thick,samples=500}}
 
@@ -202,9 +215,11 @@ dW_1 = \vec{F}\cdot d\vec{s} = q_0\vec{E} \cdot d\vec{s}
 \definizione{Tensione elettrica}{
 Il rapporto tra il lavoro compiuto dalla forza \(\vec{F}\) nello spostamento da \(A\) a \(B\) lungo il percorso \(C_1\) e la carica 
 
-\[
-T(A\to B,C_1) \;\ = \;\ \frac{W_1}{q_0} \;\ =\;\ \int_{C_1}\vec{E}\cdot d\vec{s}
-\]
+
+\begin{equation}
+	T(A\to B,C_1) \;\ = \;\ \frac{W_1}{q_0} \;\ =\;\ \int_{C_1}\vec{E}\cdot d\vec{s}
+\end{equation}
+
 viene definito \textbf{tensione elettrica}.
 }
 Se si considera un secondo percorso \(C_2\) si trova in generale un lavoro diverso e quindi un diverso valore della tensione elettrica pur essendo i punti \(A\) e \(B\) gli stessi.
@@ -216,9 +231,9 @@ W = \oint \vec{F} \cdot d\vec{s} = q_0\oint\vec{E}\cdot d\vec{s}
 \]
 \definizione{Forza elettromotrice}{
 Il rapporto tra lavoro compiuto sulla carica e la carica stessa per il percorso chiuso, ovvero l'integrale di linea circuitazione di campo elettrico
-\[
+\begin{equation}
 \mathcal{E} = \oint\vec{E}\cdot d\vec{s}
-\]
+\end{equation}
 viene definito \textbf{forza elettromotrice} relativa al percorso chiuso \(C\).
 }
 Sviluppando l'integrale
@@ -236,14 +251,40 @@ Se il campo è conservativo, non dipendendo dal percorso  seguito l'espressione 
 \int_{A}^B\vec{E}\cdot d\vec{s} = f(B) - f(A)
 \]
 dove \(f\) è una particolare funzione definita a meno di una costante arbitraria e che rinominiamo \(V\) \textbf{potenziale elettrostatico}. 
-\definizione{Differenza di potenziale}{
+\definizione{Differenza di potenziale elettrostatico}{
 Possiamo definire una \textbf{differenza di potenziale} pari a 
-\[
+\begin{equation}
 \Delta V = - \int_{A}^B\vec{E}\cdot d\vec{s} 
-\]
+\end{equation}
 }
+Ricordando che ad ogni forza conservativa è associata una determinata energia potenziale e che il lavoro della forza conservativa è pari all'opposto della variazione della corrispondente energia potenziale
+\[
+W = -\Delta U_e
+\]
+\textit{Sono riportate in appendice alcune precisazioni sulle definizioni di potenziale elettrostatico e di energia potenziale (\ref{precisazioni potenziale})}. \\
 
 
+\noindent
+Dalle definizioni precedenti possiamo scrivere le seguenti relazioni
+\[
+W = q_0 \mathcal{E}  \qquad\qquad \Delta U_e = q_0 \Delta V
+\]
+\[
+W = -q_0 \Delta V \qquad\qquad  \Delta U_e = - q_0 \mathcal{E}
+\]
+
+\dimostrazione{: il "campo elettrostatico è conservativo"}{
+	Dimostriamo che il campo elettrostatico di una qualsiasi distribuzione di carica è conservativo; cominciamo dal caso più semplice del campo generato da una carica puntiforme:
+	\[
+	dW = \boldsymbol{q_0}\vec{E} \cdot d\vec{s} = \frac{\boldsymbol{q_0}q}{4\pi\varepsilon_0} \frac{\hat{u}_r \cdot d\vec{s}}{r^2} =  \frac{\boldsymbol{q_0}q}{4\pi\varepsilon_0} \frac{dr}{r^2}
+	\]
+	Si ottiene che il lavoro da \(A\) a \(B\), caratterizzati dalle distanze \(r_A\) e \(r_B\) dall'origine, vale
+	\begin{align*}\label{sviluppo lavoro}
+		W =&  \frac{\boldsymbol{q_0}q}{4\pi\varepsilon_0} \int_A^B  \frac{dr}{r^2} \\
+		=& -\left(\frac{q_0 q}{4\pi \varepsilon_0 r_B} - \frac{q_0 q}{4\pi \varepsilon_0 r_A}\right)
+	\end{align*}
+	indipendente dal percorso seguito.
+}
 
 \section{Flusso di campo elettrico}
 Definiamo flusso di un campo vettoriale \(\vec{E}\) l'integrale
@@ -251,6 +292,11 @@ Definiamo flusso di un campo vettoriale \(\vec{E}\) l'integrale
 \Phi (\vec{E}) = \int_{\Sigma} \vec{E}\cdot \hat{u}_n \: d\Sigma
 \]
 dove \(\hat{u}_n\) è il versore normale alla porzione infinitesima di superficie \(d\Sigma\). Vediamo che il prodotto scalare fa sì che contribuisca solo la componente di campo vettoriale ortogonale alla superficie. 
+
+\begin{figure}[h]
+	\centering
+	\incfig{gauss_subs_1}
+\end{figure}
 
 Mostriamo come il flusso \textit{dipenda solo dall'angolo solido sotto il quale la superficie vede la carica}. Prima di tutto qualche osservazione geometrica:
 
@@ -260,6 +306,13 @@ d\vartheta = \frac{ds}{r} \qquad \qquad ds' \cos\alpha = ds \;\ \to \;\ d\varthe
 \[
 d\Omega= \frac{d\Sigma_0}{r^2} \qquad \qquad d\Sigma \cos\alpha = d\Sigma_0 \;\ \to \;\ d\Omega = \frac{d\Sigma\cos\alpha}{r^2}
 \]
+
+\begin{figure}[h]
+	\centering
+	\incfig{gauss_1}
+\end{figure}
+
+
 Andiamo ora a calcolare il flusso attraverso \(d\Sigma\):
 \begin{align*}
 	d\Phi =& \vec{E} \cdot \hat{u}_n d\Sigma \\ 
@@ -330,6 +383,75 @@ L'annullarsi del rotore non è un fatto sorprendente. Sappiamo infatti che il ro
 
 
 \section{Conduttori}
+Chiamiamo conduttori materiali caratterizzati dal fatto che nel loro interno sono verificate particolari condizioni per cui è possibile il moto di alcune cariche (positive e negative in gas ionizzati e soluzioni elettrolitiche e negative nei conduttori solidi) che li costituiscono.
 
+Il moto degli elettroni liberi in un conduttore in equilibrio elettrostatico è completamente disordinato ottenendo perciò una velocità media nulla delle cariche. Si andrà quindi ad assumere che le cariche siano fisse all'interno di un conduttore e che di conseguenza il campo elettrico si annulli:
+\[
+\vec{E} = 0 \qquad\qquad \text{all'interno}
+\]
+fatto che comporta le seguenti conseguenze:
+\begin{enumerate}
+	\item \(\Phi(\vec{E}) = 0\) attraverso qualsiasi superficie gaussiana interna al conduttore. L'annullarsi del flusso implica l'annullarsi della carica. Si ha quindi che l'eccesso di carica su un conduttore può esistere solo in superficie con densità superficiale \(\sigma\);
+	\item Avendo definito \(\vec{E} = - \vec{\nabla}V\) si ha che il potenziale è costante in tutto il conduttore:
+	\[
+	V(P_1) - V(P_2) = \int_{P_1}^{P_2}\vec{E} \cdot d\vec{s} = 0 \quad \implies \quad V(P_1) = V(P_2) = V_0
+	\]
+	dove \(V_0\) corrisponde al lavoro di estrazione.
+	Questo fa sì che la superficie del conduttore sia equipotenziale e, quindi, che il campo elettrico sia localmente ortogonale alla superficie (il gradiente è ortogonale alle curve di livello) e valga
+	
+	\begin{figure}[H]
+		\centering
+		\incfig{cilindro_piano}
+	\end{figure}
+	\[
+	\Phi(\vec{E}) = 2 E\Sigma = 2 E\pi R^2 = \frac{q}{\varepsilon_0} = \frac{\sigma 2\pi R^2}{\varepsilon_0} \quad \implies \quad \vec{E} = \frac{\sigma}{\varepsilon_0}\hat{u}_n
+	\]
+\end{enumerate}
+
+\subsubsection{Campo elettrico indotto}
+Avvicinando un conduttore carico o scarico ad un altro corpo carico, ovvero introducendolo in un campo elettro esterno \(\vec{E}_\text{est}\) il campo elettrico interno non sarebbe più nullo; senonché questo fatto provoca un movimento di elettroni che si spostano per l'azione del campo elettrico esterno e si accumulano in una zona della superficie, lasciando sul resto della superficie un eccesso di carica positiva: tra queste zone si crea un campo elettrostatico indotto \(\vec{E}_i\) che contrasta il movimento degli elettroni fino a raggiungere l'equilibrio quando
+\[
+\vec{E}_i + \vec{E} = 0
+\]
+\begin{figure}[H]
+	\centering
+	\incfig{lastre_piastra}
+\end{figure}
+
+\section{Dielettrici}
+
+
+\chapter{Appendice}
+\section{Precisazioni sulle definizioni di potenziale elettrostatico ed energia potenziale}\label{precisazioni potenziale}
+Dallo sviluppo del lavoro della forza elettrostatica otteniamo
+\[
+W = -\left(\frac{q_0 q}{4\pi \varepsilon_0 r_B} - \frac{q_0 q}{4\pi \varepsilon_0 r_A}\right)
+\]\\
+Sapendo che
+\[
+W = -q_0 \Delta V = -\Delta U 
+\]\\
+possiamo definire le differenze di potenziale e di energia potenziale come
+\[
+V(B) - V(A) = \left(\frac{ q}{4\pi \varepsilon_0 r_B} - \frac{q}{4\pi \varepsilon_0 r_A}\right)
+\]
+\[
+U_e(B) - U_e(A) = \left(\frac{q_0 q}{4\pi \varepsilon_0 r_B} - \frac{q_0q}{4\pi \varepsilon_0 r_A}\right)
+\]\\
+Ricordando che sia il potenziale sia l'energia potenziale son definiti a meno di una costante additiva possiamo considerare le variazione delle funzioni
+\[
+V(r) = \frac{q}{4\pi\varepsilon_0 r} + C_V\qquad \qquad U_e(r) = \frac{q_0q}{4\pi\varepsilon_0 r} + C_{U_e}
+\]\\
+Possiamo determinare completamente \(V(r)\) e \(U_e(r)\) imponendo che  entrambi si annullino per \(r\to\infty\):
+\[
+r\to \infty \qquad V(\infty) = 0 \qquad U_e(\infty) = 0 \qquad \implies \;\ C_V = C_{U_e} = 0
+\]\\
+In conclusione abbiamo le seguenti definizioni di potenziale elettrostatico generato da una carica puntiforme \(q\) a distanza \(r\) e di energia potenziale di \(q_0\) nel campo di \(q\):
+\[
+V(r) = \int_{r}^{\infty} \vec{E}\cdot d\vec{s} = \frac{q}{4\pi\varepsilon_0 r}
+\]
+\[
+U_e(r) \;\ = \;\ q_0V(r) \;\ = \;\ q_0\int_{r}^{\infty} \vec{E}\cdot d\vec{s} = \frac{q_0q}{4\pi\varepsilon_0 r}
+\]
 
 \end{document}
