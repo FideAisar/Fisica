@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.2)  18 OCT 2024 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.2)  22 OCT 2024 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,24 +847,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./fisica2.aux (./titlepage.aux))
 \openout1 = `fisica2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -925,7 +925,7 @@ e
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
-Package hyperref Info: Link coloring OFF on input line 143.
+Package hyperref Info: Link coloring OFF on input line 148.
 (./fisica2.out) (./fisica2.out)
 \@outlinefile=\write4
 \openout4 = `fisica2.out'.
@@ -979,7 +979,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 \newpage
+l.152 \newpage
                [1
 
 
@@ -987,65 +987,65 @@ l.147 \newpage
 ]
 Chapter 1.
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 153--153
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 158--158
  [][][][][][] 
  []
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 166.
+(hyperref)                be the same. Added a new anchor on input line 171.
 
 
 
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 224--224
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 229--229
  [][][][][][] 
  []
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 238--238
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 243--243
  [][][][][][] 
  []
 
 
 
 [3]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 259--259
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 264--264
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
 
  []
 
 
 
 [4] (./img/gauss_subs_1.pdf_tex
-<./img/gauss_subs_1.pdf, id=123, page=1, 376.40622pt x 112.92188pt>
+<./img/gauss_subs_1.pdf, id=133, page=1, 376.40622pt x 112.92188pt>
 File: ./img/gauss_subs_1.pdf Graphic file (type pdf)
 <use ./img/gauss_subs_1.pdf, page 1>
 Package pdftex.def Info: ./img/gauss_subs_1.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
-<./img/gauss_subs_1.pdf, id=124, page=2, 376.40622pt x 112.92188pt>
+<./img/gauss_subs_1.pdf, id=134, page=2, 376.40622pt x 112.92188pt>
 File: ./img/gauss_subs_1.pdf Graphic file (type pdf)
 <use ./img/gauss_subs_1.pdf, page 2>
 Package pdftex.def Info: ./img/gauss_subs_1.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
 ) (./img/gauss_1.pdf_tex
-<./img/gauss_1.pdf, id=125, page=1, 376.40622pt x 112.92188pt>
+<./img/gauss_1.pdf, id=135, page=1, 376.40622pt x 112.92188pt>
 File: ./img/gauss_1.pdf Graphic file (type pdf)
 <use ./img/gauss_1.pdf, page 1>
 Package pdftex.def Info: ./img/gauss_1.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
-<./img/gauss_1.pdf, id=126, page=2, 376.40622pt x 112.92188pt>
+<./img/gauss_1.pdf, id=136, page=2, 376.40622pt x 112.92188pt>
 File: ./img/gauss_1.pdf Graphic file (type pdf)
 <use ./img/gauss_1.pdf, page 2>
 Package pdftex.def Info: ./img/gauss_1.pdf , page2 used on input line 64.
@@ -1064,10 +1064,10 @@ age
 >]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 375.
+(hyperref)                than one, level fixed on input line 380.
 
 
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 375--375
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 380--380
  [][][][][][] 
  []
 
@@ -1077,8 +1077,15 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 375--375
 
 pdfTeX warning: /opt/texlive/2024/bin/x86_64-linux/pdflatex (file ./img/gauss_1
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (./img/cilindro_piano.pdf_tex
-<./img/cilindro_piano.pdf, id=155, page=1, 376.40622pt x 112.92188pt>
+>]
+
+[7]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 393--393
+ [][][][][][] 
+ []
+
+(./img/cilindro_piano.pdf_tex
+<./img/cilindro_piano.pdf, id=171, page=1, 376.40622pt x 112.92188pt>
 File: ./img/cilindro_piano.pdf Graphic file (type pdf)
 <use ./img/cilindro_piano.pdf, page 1>
 Package pdftex.def Info: ./img/cilindro_piano.pdf , page1 used on input line 57
@@ -1086,19 +1093,17 @@ Package pdftex.def Info: ./img/cilindro_piano.pdf , page1 used on input line 57
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
 )
 
-[7]
-
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 411.
+(hyperref)                than one, level fixed on input line 419.
 
 (./img/lastre_piastra.pdf_tex
-<./img/lastre_piastra.pdf, id=163, page=1, 376.40622pt x 150.5625pt>
+<./img/lastre_piastra.pdf, id=172, page=1, 376.40622pt x 150.5625pt>
 File: ./img/lastre_piastra.pdf Graphic file (type pdf)
 <use ./img/lastre_piastra.pdf, page 1>
 Package pdftex.def Info: ./img/lastre_piastra.pdf , page1 used on input line 56
 .
 (pdftex.def)             Requested size: 376.4062pt x 150.5736pt.
-<./img/lastre_piastra.pdf, id=164, page=2, 376.40622pt x 150.5625pt>
+<./img/lastre_piastra.pdf, id=173, page=2, 376.40622pt x 150.5625pt>
 File: ./img/lastre_piastra.pdf Graphic file (type pdf)
 <use ./img/lastre_piastra.pdf, page 2>
 Package pdftex.def Info: ./img/lastre_piastra.pdf , page2 used on input line 61
@@ -1106,21 +1111,80 @@ Package pdftex.def Info: ./img/lastre_piastra.pdf , page2 used on input line 61
 (pdftex.def)             Requested size: 376.4062pt x 150.5736pt.
 )
 
-[8 <./img/cilindro_piano.pdf> <./img/lastre_piastra.pdf
+[8 <./img/cilindro_piano.pdf>]
 
-pdfTeX warning: /opt/texlive/2024/bin/x86_64-linux/pdflatex (file ./img/lastre_
-piastra.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./img/lastre_piastra.pdf
+[9 <./img/lastre_piastra.pdf> <./img/lastre_piastra.pdf
 
 pdfTeX warning: /opt/texlive/2024/bin/x86_64-linux/pdflatex (file ./img/lastre_
 piastra.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
 >]
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 441--441
+ [][][][][][] 
+ []
+
+(./img/condensatore_dielettrico.pdf_tex
+<./img/condensatore_dielettrico.pdf, id=211, page=1, 429.10312pt x 150.5625pt>
+File: ./img/condensatore_dielettrico.pdf Graphic file (type pdf)
+<use ./img/condensatore_dielettrico.pdf, page 1>
+Package pdftex.def Info: ./img/condensatore_dielettrico.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
+<./img/condensatore_dielettrico.pdf, id=212, page=2, 429.10312pt x 150.5625pt>
+File: ./img/condensatore_dielettrico.pdf Graphic file (type pdf)
+<use ./img/condensatore_dielettrico.pdf, page 2>
+Package pdftex.def Info: ./img/condensatore_dielettrico.pdf , page2 used on inp
+ut line 61.
+(pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
+<./img/condensatore_dielettrico.pdf, id=213, page=3, 429.10312pt x 150.5625pt>
+File: ./img/condensatore_dielettrico.pdf Graphic file (type pdf)
+<use ./img/condensatore_dielettrico.pdf, page 3>
+Package pdftex.def Info: ./img/condensatore_dielettrico.pdf , page3 used on inp
+ut line 64.
+(pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
+<./img/condensatore_dielettrico.pdf, id=214, page=4, 429.10312pt x 150.5625pt>
+File: ./img/condensatore_dielettrico.pdf Graphic file (type pdf)
+<use ./img/condensatore_dielettrico.pdf, page 4>
+Package pdftex.def Info: ./img/condensatore_dielettrico.pdf , page4 used on inp
+ut line 69.
+(pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
+)
+
+[10 <./img/condensatore_dielettrico.pdf> <./img/condensatore_dielettrico.pdf
+
+pdfTeX warning: /opt/texlive/2024/bin/x86_64-linux/pdflatex (file ./img/condens
+atore_dielettrico.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./img/condensatore_dielettrico.pdf
+
+pdfTeX warning: /opt/texlive/2024/bin/x86_64-linux/pdflatex (file ./img/condens
+atore_dielettrico.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./img/condensatore_dielettrico.pdf
+
+pdfTeX warning: /opt/texlive/2024/bin/x86_64-linux/pdflatex (file ./img/condens
+atore_dielettrico.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 503.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 503.
+
+
+
+[11]
 Chapter 2.
 
 
-[9
+[12
 
 ] (./fisica2.aux (./titlepage.aux))
  ***********
@@ -1128,13 +1192,13 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
 Package rerunfilecheck Info: File `fisica2.out' has not changed.
-(rerunfilecheck)             Checksum: E6E964DBAB44D09DCDB3B19C21BF8150;2993.
+(rerunfilecheck)             Checksum: 932E9FDA951E535BD3B392A7539961A3;3385.
  ) 
 Here is how much of TeX's memory you used:
- 37486 strings out of 473579
- 885173 string characters out of 5731252
- 1778263 words of memory out of 5000000
- 59750 multiletter control sequences out of 15000+600000
+ 37525 strings out of 473579
+ 886462 string characters out of 5731252
+ 1778386 words of memory out of 5000000
+ 59781 multiletter control sequences out of 15000+600000
  565242 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,17n,136p,727b,2225s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1146,17 +1210,19 @@ dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/texlive/2024/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb></opt/texlive/2024/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmmi5.pfb></opt/texlive/2024/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmib10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
-></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/te
-xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/2
-024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/2024/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/texlive/2024/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on fisica2.pdf (10 pages, 6529689 bytes).
+ts/cm/cmmib10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cme
+xtra/cmmib7.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+/opt/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/202
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></opt/texlive/2024/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/2024/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></opt/texlive/2024/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msam10.pfb>
+Output written on fisica2.pdf (13 pages, 7555450 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 30 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 

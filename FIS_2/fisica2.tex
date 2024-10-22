@@ -124,6 +124,11 @@
 		\end{coroll}
 	\end{center}
 }
+\newcommand{\mathbox}[1]{
+\begin{tcolorbox}[rounded corners, colback=blue!5, colframe=blue!80!black, title=Formule Matematiche]
+	#1
+\end{tcolorbox}
+}
 
 \newcommand{\verde}[1]{\colorbox{myred}{$\displaystyle #1$}}
 
@@ -381,9 +386,12 @@ L'annullarsi del rotore non è un fatto sorprendente. Sappiamo infatti che il ro
 
 \subsection{Discontinuità di carica}
 
-
+\newpage
 \section{Conduttori}
-Chiamiamo conduttori materiali caratterizzati dal fatto che nel loro interno sono verificate particolari condizioni per cui è possibile il moto di alcune cariche (positive e negative in gas ionizzati e soluzioni elettrolitiche e negative nei conduttori solidi) che li costituiscono.
+\definizione{Materiale conduttore}{
+	Un materiale è detto conduttore se l'elettrizzazione conseguente allo strofinio si diffonde rapidamente andando ad interessare anche zone lontane da quelle in cui è stata prodotta. 
+}
+I materiali conduttori sono caratterizzati dal fatto che nel loro interno sono verificate particolari condizioni per cui è possibile il moto di alcune cariche (positive e negative in gas ionizzati e soluzioni elettrolitiche e negative nei conduttori solidi) che li costituiscono.
 
 Il moto degli elettroni liberi in un conduttore in equilibrio elettrostatico è completamente disordinato ottenendo perciò una velocità media nulla delle cariche. Si andrà quindi ad assumere che le cariche siano fisse all'interno di un conduttore e che di conseguenza il campo elettrico si annulli:
 \[
@@ -418,8 +426,86 @@ Avvicinando un conduttore carico o scarico ad un altro corpo carico, ovvero intr
 	\incfig{lastre_piastra}
 \end{figure}
 
+\newpage
 \section{Dielettrici}
+Consideriamo un condensatore piano carico ed isolato; sulle armature si distribuisce una carica \(q_0\) uniforme distribuita con densità \(\sigma_0\). Tra le armature, poste a distanza \(h\), si genera il campo elettrico \(\vec{E}_0\) e una differenza di potenziale \(V_0\) che valgono
+\[
+\vec{E}_0 = \frac{\sigma_0}{\varepsilon_0} \qquad\qquad V_0 = \frac{q_0}{C_0} = E_0 h
+\]
+Introduciamo tra le armature una lastra conduttrice di spessore \(s < h\). Si osserva che la differenza di potenziale tra le armature diminuisce. Ciò accade a causa del campo elettrico indotto che va a generarsi nella lastra conduttrice che va ad annullare il campo \(E_0\) al suo interno. La nuova differenza di potenziale vale
+\[
+V = E_0h - E_0 s = E_0(h-s) < V_0
+\]
+\definizione{Materiale isolante}{
+Un materiale è detto isolante se l'elettrizzazione conseguente allo strofinio resta localizzata nella zona in cui è stata prodotta. All'interno di un materiale isolante non possono avvenire spostamenti di cariche di alcun tipo: non si osserva la presenza di carica elettrica libera.
+}
+Se ripetiamo l'esperimento con una lastra di materiale isolante si osserva che \(V\) è minore, a parità di spessore \(s\), di quello misurato con il materiale conduttore. Più precisamente la differenza di potenziale diminuisce linearmente all'aumentare di \(s\) fino a raggiungere un valore minimo \(V_k\) quando \(s\) è massima.
 
+Chiamiamo \textbf{costante dielettrica relativa} il valore, che si osserva essere sempre maggiore di 1,
+\[
+k_e = \frac{V_0}{V_k} > 1
+\] 
+\begin{figure}[H]
+	\centering
+	\incfig{condensatore_dielettrico}
+\end{figure}
+Vediamo come la capacità del condensatore aumenti se tra le armature è presente un materiale isolante:
+\[
+C_k = \frac{q_0}{V_k} = \frac{q_0}{V_0/k_e} = k_eC_0
+\]
+Il campo elettrico \(E_k\) interno al dielettrico vale
+\[
+E_k = \frac{\boldsymbol{V_k}}{h} = \frac{\boldsymbol{V_0}}{\boldsymbol{k_e}h} = \frac{E_0}{k_e} = \frac{\sigma_0}{k_e\varepsilon_0}
+\]
+Quindi la variazione di campo elettrico dovuta al materiale isolante vale
+\[
+E_0 - E_{k} = \frac{\sigma_0}{\varepsilon_0} -  \frac{\sigma_0}{k_e\varepsilon_0} = \frac{k_e - 1}{k_e}\frac{\sigma_0}{\varepsilon_0}
+\]
+da cui riscrivo \(E_k\) come 
+\[
+E_k = \frac{\sigma_0}{\varepsilon_0} - \frac{k_e - 1}{k_e}\frac{\sigma_0}{\varepsilon_0}
+\]
+dove \(\sigma_p =  \frac{k_e - 1}{k_e}\sigma_0\) è la densità di carica che immaginiamo depositata sulle facce della lastra dielettrica con segno opposto a quello della carica libera sull'armatura contigua. Queste cariche sono il risultato dei processi microscopici che avvengono all'interno del dielettrico sotto l'azione del campo elettrico esterno. 
+
+Introduciamo inoltre il concetto di \textbf{suscettività elettrica del dielettrico} \(\chi_e = k_e - 1\) che  misura di quanto questo si polarizza in risposta ad un campo elettrico. \\
+
+\noindent
+Nella nuova condizione del condensatore si misurano i seguenti valori:
+\[
+V_k = \frac{1}{k_e}V_0 \qquad\qquad E_k = \frac{1}{k_e}E_0 \qquad\qquad C_k = k_eC_0
+\]
+\[
+V_k = \frac{1}{\boldsymbol{k_e}}\frac{\sigma_0}{\boldsymbol{\varepsilon_0}}h \qquad\qquad E_k = \frac{1}{\boldsymbol{k_e}}\frac{\sigma_0}{\boldsymbol{\varepsilon_0}} \qquad\qquad C_k = \frac{\boldsymbol{k_e\varepsilon_0}}{h}\frac{q_0}{\sigma_0}
+\]\\
+chiamiamo \(\varepsilon = k_e\varepsilon_0\) \textbf{costante  dielettrica assoluta del dielettrico}
+\[
+V_k = \frac{\sigma_0}{\boldsymbol{\varepsilon}}h \qquad\qquad E_k = \frac{\sigma_0}{\boldsymbol{\varepsilon}} \qquad\qquad C_k = \frac{\boldsymbol{\varepsilon}}{h}\frac{q_0}{\sigma_0}
+\]
+\subsection{Polarizzazione}
+Se si applica un campo elettrico ad un materiale dielettrico, essendo gli elettroni legati agli atomi e non distribuiti in una sorta di gas libero di muoversi, avviene soltanto uno spostamento locale delle cariche.
+
+Possiamo dire che gli elettroni siano distribuiti in modo simmetrico rispetto al nucleo dell'atomo dove troviamo anche il centro di massa del sistema. Questo quando è sottoposto ad un campo elettrostatico esterno, il centro di massa subisce uno spostamento. \textit{In parole povere: gli elettroni vengono attratti dal campo e il nucleo viene respinto, raggiunto l'equilibrio ci troviamo con una nuova posizione del centro di massa}.
+
+L'atomo diventa ben descrivibile se pensato come un dipolo; chiamiamo \(\vec{x}\) il vettore che unisce il centro della carica negativa al nucleo e definiamo il momento di dipolo elettrico
+\[
+\vec{p} = Z e \vec{x}
+\]
+parallelo e concorde al vettore campo elettrico.
+
+\paragraph*{Polarizzazione per orientazione} In assenza di campo elettrostatico i dipoli molecolari sono orientati a caso, per via degli urti dovuti al moto di agitazione termica. Quando si applica un campo elettrostatico su ciascuno dei dipoli agisce il momento delle forze che ne causa un orientamento parziale con il campo: il grado di allineamento aumenta al diminuire della temperatura.
+
+Ogni molecola acquista un \textbf{momento di dipolo medio} \(\vec{p}_m\)
+\[
+ \vec{p}_m \;\ <  \;\ \vec{p}
+\]
+parallelo al campo elettrostatico.
+ 
+\paragraph{Definizione del vettore polarizzazione}
+Prendiamo in considerazione un volumetto \(\Delta\tau\) contenente \(\Delta N\) atomi/molecole, il momento di dipolo risultante è dato dal prodotto \(\Delta N \vec{p}_m\). Definiamo il momento di dipolo medio per unità di volume come
+\[
+\vec{P} = \frac{\Delta N }{\Delta \tau}\vec{p}_m = n\vec{p}
+\]
+con \(n\) numero atomi/molecole per unità di volume.
 
 \chapter{Appendice}
 \section{Precisazioni sulle definizioni di potenziale elettrostatico ed energia potenziale}\label{precisazioni potenziale}
