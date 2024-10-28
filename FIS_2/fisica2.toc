@@ -10,9 +10,15 @@
 \contentsline {subsubsection}{Teorema di Stokes}{7}{equation.1.3.4}%
 \contentsline {subsection}{\numberline {1.3.1}Discontinuità di carica}{7}{subsection.1.3.1}%
 \contentsline {section}{\numberline {1.4}Conduttori}{8}{section.1.4}%
-\contentsline {subsubsection}{Campo elettrico indotto}{8}{Item.2}%
 \contentsline {section}{\numberline {1.5}Dielettrici}{10}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Polarizzazione}{11}{subsection.1.5.1}%
-\contentsline {paragraph}{Definizione del vettore polarizzazione}{11}{section*.3}%
-\contentsline {chapter}{\numberline {2}Appendice}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Precisazioni sulle definizioni di potenziale elettrostatico ed energia potenziale}{12}{section.2.1}%
+\contentsline {subsubsection}{Campo elettrostatico prodotto da un dielettrico polarizzato}{12}{section*.3}%
+\contentsline {paragraph}{Polarizzazione uniforme}{13}{section*.3}%
+\contentsline {paragraph}{Polarizzazione non uniforme}{13}{section*.3}%
+\contentsline {subsection}{\numberline {1.5.2}Induzione dielettrica}{14}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Dielettrici isotropi e anisotropi}{14}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Dielettrici cavi}{14}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Energia elettrostatica nei dielettrici}{14}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Meccanismi di polarizzazione nei dielettrici}{14}{subsection.1.5.6}%
+\contentsline {chapter}{\numberline {2}Appendice}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Precisazioni sulle definizioni di potenziale elettrostatico ed energia potenziale}{16}{section.2.1}%

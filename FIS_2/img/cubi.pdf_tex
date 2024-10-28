@@ -1,0 +1,68 @@
+%% Creator: Inkscape 1.3.2 (091e20ef0f, 2023-11-25), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'cubi.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{427.5bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.35087719)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{cubi.pdf}}%
+    \put(0.41383262,0.23049416){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$d\Sigma$\end{tabular}}}}%
+    \put(0.75098109,0.17411217){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$dq_p = 0$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{cubi.pdf}}%
+    \put(0.39367921,0.14505087){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{P}$\end{tabular}}}}%
+    \put(0.71272263,0.11639377){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{P}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{cubi.pdf}}%
+    \put(0.75095212,0.28289429){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$+dq_p$\end{tabular}}}}%
+    \put(0.75098614,0.05929637){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-dq_p$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{cubi.pdf}}%
+    \put(0.23321548,0.1565145){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$dh$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

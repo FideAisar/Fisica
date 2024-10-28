@@ -9,7 +9,7 @@
 \usepgflibrary{shapes.geometric}
 \usepackage{xcolor}
 \usepackage{amsmath}
-%\usepackage{fouriernc}
+\usepackage{fouriernc}
 \usepackage{mathrsfs}
 \usepackage{amssymb}
 \usepackage{hyperref}
@@ -87,7 +87,7 @@
 \newcommand*{\QEDB}{\null\nobreak\hfill\ensuremath{\square}}%
 
 \newcommand{\esempio}[2]{
-	\begin{es}{esempio #1}
+	\begin{es}{#1}
 		#2
 	\end{es}
 }
@@ -416,7 +416,7 @@ fatto che comporta le seguenti conseguenze:
 	\]
 \end{enumerate}
 
-\subsubsection{Campo elettrico indotto}
+\paragraph*{Campo elettrico indotto}
 Avvicinando un conduttore carico o scarico ad un altro corpo carico, ovvero introducendolo in un campo elettro esterno \(\vec{E}_\text{est}\) il campo elettrico interno non sarebbe più nullo; senonché questo fatto provoca un movimento di elettroni che si spostano per l'azione del campo elettrico esterno e si accumulano in una zona della superficie, lasciando sul resto della superficie un eccesso di carica positiva: tra queste zone si crea un campo elettrostatico indotto \(\vec{E}_i\) che contrasta il movimento degli elettroni fino a raggiungere l'equilibrio quando
 \[
 \vec{E}_i + \vec{E} = 0
@@ -484,28 +484,167 @@ V_k = \frac{\sigma_0}{\boldsymbol{\varepsilon}}h \qquad\qquad E_k = \frac{\sigma
 \subsection{Polarizzazione}
 Se si applica un campo elettrico ad un materiale dielettrico, essendo gli elettroni legati agli atomi e non distribuiti in una sorta di gas libero di muoversi, avviene soltanto uno spostamento locale delle cariche.
 
-Possiamo dire che gli elettroni siano distribuiti in modo simmetrico rispetto al nucleo dell'atomo dove troviamo anche il centro di massa del sistema. Questo quando è sottoposto ad un campo elettrostatico esterno, il centro di massa subisce uno spostamento. \textit{In parole povere: gli elettroni vengono attratti dal campo e il nucleo viene respinto, raggiunto l'equilibrio ci troviamo con una nuova posizione del centro di massa}.
 
-L'atomo diventa ben descrivibile se pensato come un dipolo; chiamiamo \(\vec{x}\) il vettore che unisce il centro della carica negativa al nucleo e definiamo il momento di dipolo elettrico
+\paragraph*{Polarizzazione per deformazione}
+Possiamo dire che gli elettroni siano distribuiti in modo simmetrico rispetto al nucleo dell'atomo dove troviamo anche il centro di massa del sistema. Questo quando è sottoposto ad un campo elettrostatico esterno, il centro di massa subisce uno spostamento. Per effetto del campo elettrico esterno, gli atomi che erano privi di momento di dipolo elettrico assumono un dipolo elettrico pari alla carica del nucleo moltiplicata lo spostamento subito dal nucleo rispetto al centro degli orbitali.
+
+\begin{center}
+	\textcolor{red}{atomo}
+\end{center}
+
+L'atomo diventa quindi ben descrivibile se pensato come un dipolo; chiamiamo \(\vec{x}\) il vettore che unisce il centro della carica negativa al nucleo e definiamo il momento di dipolo elettrico
 \[
 \vec{p} = Z e \vec{x}
 \]
 parallelo e concorde al vettore campo elettrico.
 
-\paragraph*{Polarizzazione per orientazione} In assenza di campo elettrostatico i dipoli molecolari sono orientati a caso, per via degli urti dovuti al moto di agitazione termica. Quando si applica un campo elettrostatico su ciascuno dei dipoli agisce il momento delle forze che ne causa un orientamento parziale con il campo: il grado di allineamento aumenta al diminuire della temperatura.
+\paragraph*{Polarizzazione per orientamento} 
+Esistono sostanze le cui molecole presentano un momento di dipolo intrinseco: si tratta di molecole poliatomiche la cui distribuzione delle cariche è tale che il centro delle cariche negative non coincida quello delle cariche positive. 
 
-Ogni molecola acquista un \textbf{momento di dipolo medio} \(\vec{p}_m\)
+L'acqua è una delle molecole con valore molto maggiore della norma. Se non è presente nessun campo elettrico i singoli dipoli sono orientati casualmente per via degli urti dovuti al moto di agitazione termica e il momento totale del sistema macroscopico è nullo.se è presente un campo elettrico esterno, i momenti di dipolo si orientano parzialmente paralleli ad esso e il loro valore medio è quindi diverso da zero.
+
+Andando a considerare ogni momento di dipolo possiamo definirne uno medio concorde con \(\vec{E}\)
 \[
- \vec{p}_m \;\ <  \;\ \vec{p}
+\vec{p}_m \,\ < \,\ \vec{p}_0
 \]
-parallelo al campo elettrostatico.
+
+\begin{figure}[H]
+	\centering
+	\incfig{polarizzazione}
+\end{figure}
  
-\paragraph{Definizione del vettore polarizzazione}
-Prendiamo in considerazione un volumetto \(\Delta\tau\) contenente \(\Delta N\) atomi/molecole, il momento di dipolo risultante è dato dal prodotto \(\Delta N \vec{p}_m\). Definiamo il momento di dipolo medio per unità di volume come
+\paragraph*{Definizione del vettore polarizzazione}
+Prendiamo in considerazione un volumetto \(d\tau\) contenente \(dN\) atomi/molecole, il momento di dipolo risultante è dato dal prodotto \(\Delta\vec{p} = \Delta N \vec{p}_m\).  Il vettore intensità di polarizzazione, anche detto vettore di polarizzazione elettrica e indicato con \(\vec{P}\), è il momento di dipolo elettrico per unità di volume posseduto dal materiale. Lo definiamo come
 \[
-\vec{P} = \frac{\Delta N }{\Delta \tau}\vec{p}_m = n\vec{p}
+\vec{P} =\frac{\Delta \vec{p}}{\Delta\tau} = \frac{\Delta N}{\Delta \tau}\vec{p}_m
 \]
-con \(n\) numero atomi/molecole per unità di volume.
+più precisamente come il limite per \(\tau \to 0\)
+\[
+\vec{P} = \lim_{\Delta\tau\to 0}\frac{\Delta \vec{p}}{\Delta\tau} = \lim_{\Delta\tau\to 0}\frac{\Delta N}{\Delta \tau}\vec{p}_m
+\]
+
+che chiamiamo \textbf{vettore di polarizzazione} e dove \(n\) è il numero atomi/molecole per unità di volume. 
+\definizione{Polarizzazione elettrica (Wikipedia)}{
+La polarizzazione elettrica, in fisica, descrive la \textit{formazione di dipoli elettrici} all'interno di un materiale, costituiti dalla carica elettrica posseduta dagli atomi e dalle molecole di cui esso è composto, in seguito all'applicazione di un campo elettrico. La polarizzazione elettrica si manifesta in particolare nei materiali dielettrici, e genera la presenza di un campo elettrico aggiuntivo all'interno di essi.}
+
+
+La maggior parte dei dielettrici sono \textbf{lineari isotropi} e in essi risulta che \(\vec{P}\) è proporzionale al campo \(\vec{E}\):
+\[
+\vec{P} = \varepsilon_0(k_e -1)\vec{E} = \varepsilon_0 \chi_e \vec{E}
+\]
+Esistono mezzi anisotropi come i cristalli nei quali la suscettività elettrica \(\chi_e\) non è un numero ma bensì un tensore. Il parallelismo tra \(\vec{P}\) ed \(\vec{E}\) è mantenuto solo su alcune direzioni che coincidono con gli assi cristallografici.
+
+\subsubsection{Campo elettrostatico prodotto da un dielettrico polarizzato}
+Consideriamo il condensatore piano carico con all'interno una lastra di dielettrico polarizzato uniformemente, abbiamo quindi un vettore polarizzazione \(\vec{P}\) uguale in tutti i punti della lastra. Suddividiamo la lastra in tanti volumetti \(d\tau = d\Sigma_0 dh\). Come abbiamo visto prima il vettore polarizzazione vale
+\[
+\vec{P} = \frac{d\vec{p}}{d\tau}
+\]
+ovvero momento di dipolo complessivo per unità di volume.
+
+Sulle facce del prisma si vanno a depositare una serie di cariche \(\pm q_p\) con densità \(\pm \sigma_p\) dando un momento di dipolo al prisma.
+
+\paragraph{Polarizzazione uniforme}
+Per trovare il campo elettrico andremo a studiare quello generato dai tanti dipoli che formano il dielettrico attraverso l'espressione del momento di dipolo complessivo del prisma
+\[
+d\vec{p} = \vec{P}d\tau = P \,\ d\Sigma_0 d\vec{h}
+\]
+
+\begin{figure}[H]
+	\centering
+	\incfig{cubi}
+\end{figure}
+
+Sostituiamo al prisma un sistema costituito da cariche \(\pm dq_p\) distribuite con densità \(\pm\sigma_p\). Sapendo che 
+\[
+\vec{p} = q \vec{h} \quad \to \quad q = \frac{\vec{p}}{\vec{h}} \quad \implies \quad \boldsymbol{dq_p =} \frac{d\vec{p}}{d\vec{h}} \boldsymbol{= Pd\Sigma}
+\]
+notiamo quindi che la densità di carica vale quanto il modulo del vettore polarizzazione:
+\[
+\boldsymbol{\pm\sigma_p =} \pm\frac{dq_p}{d\Sigma} \boldsymbol{=\pm P}
+\]
+Se sovrapponiamo due volumetti di questo tipo si osserva che la carica sulla faccia in comune si annulla. Perciò la lastra di dielettrico è equivalente a due distribuzioni di carica \(\pm \sigma_p = \pm P\).
+
+Se generalizziamo il risultato per un dielettrico non simmetrico si hanno le seguenti espressioni 
+\[
+\boxed{\sigma_p = \vec{P} \cdot \hat{u}_n \qquad \qquad dq_p = \vec{P} \cdot \hat{u}_n \,\ d\Sigma}
+\]
+
+Se la polarizzazione è uniforme non si manifestano cariche all'interno del dielettrico, ma solo sulla superficie. Come abbiamo visto il processo che genera \(\pm \sigma_p\) fa sì che la somma delle cariche sia nulla:
+\[
+\oint dq_p =  \vec{P} \cdot \hat{u}_n \,\ d\Sigma = 0
+\]
+
+\paragraph{Polarizzazione non uniforme}
+Prendiamo in considerazione una polarizzazione non uniforme lungo l'asse \(x\)  ed esaminiamo il valore della carica sulla faccia comune \(d\Sigma = dy \,\ dz \) dei due prismi.
+
+\begin{figure}[H]
+	\centering
+	\incfig{parall}
+\end{figure}
+
+\[
+dq_p = \vec{P} \cdot \hat{u}_x d\Sigma = P_x dydz
+\]
+\[
+-dq'_p = \vec{P}'\cdot \hat{u}'_x d\Sigma = -P'_x dydz
+\]
+Studiamo la differenza
+\[
+dq_p -dq'_p = (P_x - P'_x)dydz = -\frac{\partial P}{\partial x} dx dy dz = -\frac{\partial P}{\partial x}
+\]
+Se estendiamo il risultato a tutte le dimensioni otteniamo che la di
+
+\subsection{Induzione dielettrica}
+\begin{figure}[H]
+	\centering
+	\incfig{gauss_vettore_D}
+\end{figure}
+
+\subsection{Dielettrici isotropi e anisotropi}
+
+\subsection{Dielettrici cavi}
+
+\subsection{Energia elettrostatica nei dielettrici}
+
+\subsection{Meccanismi di polarizzazione nei dielettrici}
+
+\newpage
+\esempio{espressione come condensatori in serie}{
+Quando andiamo ad inserire un dielettrico in un condensatore possiamo esprimere la capacità di quest'ultimo come la capacità equivalente di due condensatori, uno vuoto e l'altro riempito dal dielettrico.
+
+Partiamo con questi valori considerando il condensatore vuoto
+\[
+E_0 = \frac{\sigma_0}{\varepsilon_0} \qquad \qquad V_0 = E_0 h = \frac{\sigma_0 h}{\varepsilon_0} \qquad \qquad D = \varepsilon_0 E_0 = \sigma_0
+\]
+Inserendo il dielettrico troviamo il campo in esso \(\vec{E}_k\) e un nuovo potenzale \(V_k\):
+\[
+E_k = kE_0
+\]
+\[
+P = \varepsilon_0(k-1)\boldsymbol{E_k} = \varepsilon_0 \frac{k-1}{\boldsymbol{k}}\boldsymbol{E_0} = \frac{k-1}{k}D = \frac{k-1}{k}\sigma_0
+\]
+definiamo ora la differenza di potenziale \(V\)
+\begin{align*}
+	\boldsymbol{V= }\int_{0}^{h-s}\vec{E}_0\cdot d\vec{h} + \int_{0}^{s}\vec{E}_k\cdot d\vec{s} =& E_0(h-s) + E_ks \\
+	 =& \frac{\sigma_0}{\varepsilon_0}(h-s) + \frac{\sigma_0}{k\varepsilon_0}s \;\  = \;\ \frac{\sigma_0 h}{\varepsilon_0} \left(\frac{h-s}{h} + \frac{s}{hk}\right)\\
+	 =& \frac{\sigma_0 h}{\varepsilon_0} \left(\frac{k(h-s) + s}{hk} \right) \;\ = \;\ \frac{\sigma_0 h}{\varepsilon_0} \left(\frac{hk - sk +s}{hk} \right) \\
+	 =& \frac{\sigma_0 h}{\varepsilon_0} \left(1 + s\frac{1-k}{hk} \right) \;\ \boldsymbol{=} \;\ \boldsymbol{V_0\left(1 - \frac{k-1}{k}\frac{s}{h} \right)} \\
+\end{align*}
+La differenza di potenziale diminuisce linearmente con \(s\) ed è minima quando il dielettroc riempie completamente lo spazio tra le armature (\(s = h\)). In tal caso infatti il campo vale ovunque \(E = E_0/k\) e la differenza di potenzile, integrale di linea da \(0\) a \(h\) varrebbe \(V = E_0h/k = V_0/k\).
+
+Se andiamo a riscrivere il potenziale come
+\[
+V = \frac{\boldsymbol{\sigma_0}}{\varepsilon_0}\frac{\boldsymbol{\Sigma}}{\Sigma}\left(h - \frac{k-1}{k}s\right) = \frac{\boldsymbol{q}}{\varepsilon_0\Sigma}\left(h-\frac{k-1}{k}s\right)
+\]
+}
+dividendo per \(q\) carica libera sulle armature del condensatore si trova
+\[
+\frac{V}{q} = \frac{h-s}{\varepsilon_0 \Sigma} + \frac{s}{\varepsilon_0 k \Sigma}
+\]
+\[
+\frac{1}{C} = \frac{1}{C_0} + \frac{1}{C_k}
+\]
+La capacità equivalente del condensatore parzialmente riempito di dielettrico è uguale a quella di due condensatori in serie, uno vuoto e uno pieno di dielettrico.
 
 \chapter{Appendice}
 \section{Precisazioni sulle definizioni di potenziale elettrostatico ed energia potenziale}\label{precisazioni potenziale}
