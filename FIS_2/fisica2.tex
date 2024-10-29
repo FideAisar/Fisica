@@ -346,7 +346,7 @@ Se la carica esterna il flusso è nullo (le cariche esterne contribuiscono solo 
 
 
 
-\subsubsection*{Rotore di un campo vettoriale}
+\subsection{Rotore di un campo vettoriale}
 Viene definito rotore del campo elettrico \(\vec{E}\) il prodotto vettoriale
 \[
 \vec{\nabla} \wedge \vec{E} = \left|\begin{array}{ccc}
@@ -384,6 +384,17 @@ L'annullarsi del rotore non è un fatto sorprendente. Sappiamo infatti che il ro
 \vec{\nabla} \wedge \vec{E} = \vec{\nabla} \wedge \left(-\vec{\nabla} V\right)
 \]
 
+\subsection{Divergenza di un campo vettoriale}
+L'operatore divergenza si applica ad un campo vettoriale e dà origine ad un campo scalare. Il suo significato intrinseco è espresso da 
+\[
+d\Phi(\vec{E}) = \vec{\nabla}\cdot\vec{E}\,\ d\tau
+\]
+Prendendo in considerazioni tanti volumetti \(d\tau\) calcoliamo il flusso infinitesimo del campo \(\vec{E}\) attraverso la superficie infinitesima \(d\Sigma\) del volumetto. Estendendo il risultato a tutto il volume \(\tau\) si osserva che i contributi interni al volume si elidono a vicenda e le uniche superfici che contribuiscono al calolo del flusso sono quelle esterne:
+\[
+\int_\tau d\Phi(\vec{E}) = \int_\tau  \vec{\nabla}\cdot\vec{E}\,\ d\tau = \oint_\Sigma \vec{E}\cdot\hat{u}_n \,\ d\Sigma
+\]
+
+
 \subsection{Discontinuità di carica}
 
 \newpage
@@ -420,7 +431,7 @@ fatto che comporta le seguenti conseguenze:
 Avvicinando un conduttore carico o scarico ad un altro corpo carico, ovvero introducendolo in un campo elettro esterno \(\vec{E}_\text{est}\) il campo elettrico interno non sarebbe più nullo; senonché questo fatto provoca un movimento di elettroni che si spostano per l'azione del campo elettrico esterno e si accumulano in una zona della superficie, lasciando sul resto della superficie un eccesso di carica positiva: tra queste zone si crea un campo elettrostatico indotto \(\vec{E}_i\) che contrasta il movimento degli elettroni fino a raggiungere l'equilibrio quando
 \[
 \vec{E}_i + \vec{E} = 0
-\]
+	\]
 \begin{figure}[H]
 	\centering
 	\incfig{lastre_piastra}
@@ -590,15 +601,68 @@ dq_p = \vec{P} \cdot \hat{u}_x d\Sigma = P_x dydz
 \]
 Studiamo la differenza
 \[
-dq_p -dq'_p = (P_x - P'_x)dydz = -\frac{\partial P}{\partial x} dx dy dz = -\frac{\partial P}{\partial x}
+dq_p -dq'_p = \boldsymbol{(P_x - P'_x)}dydz = \boldsymbol{-\frac{\partial P}{\partial x} dx} dy dz = -\frac{\partial P}{\partial x}d\tau
 \]
-Se estendiamo il risultato a tutte le dimensioni otteniamo che la di
+Se estendiamo il risultato a tutte le dimensioni otteniamo 
+\[
+dq_p = \left(-\frac{\partial P_x}{\partial x}-\frac{\partial P_x}{\partial y}-\frac{\partial P_z}{\partial z}\right)d\tau = -\left(\vec{\nabla}\cdot\vec{P}\right)d\tau
+\]
+distribuita con densità \(\rho_p\) pari a meno la divergenza di \(\vec{P}\)
+\[
+\rho_p = \frac{dq_p}{d\tau} = -\vec{\nabla}\cdot\vec{P}
+\]
+In un dielettrico in cui la polarizzazione non è uniforme, oltre alla densità superficiale di carica di polarizzazione esiste una densità di carica di polarizzazione uguale in ogni punti all'opposto della divergenza del vettore polarizzazione \(\vec{P}\).
+
+Vediamo come, poiché la carica totale di polarizzazione deve essere nulla, ritroviamo il teorema della divergenza: esprimiamo la carica totale come somma di carica di polarizzazione di superficie e di volume
+\[
+\oint_\Sigma \sigma_p \, d\Sigma + \int_\tau \rho_p \, d\tau = 0
+\]
+dalle espressioni ottenute in precedenza di \(\sigma_p\) e da quella appena ottenuta di \(\rho_p\) 
+\[
+\sigma_p = \vec{P}\cdot\hat{u}_n \qquad \qquad \rho_p = - \vec{\nabla}\cdot\vec{P}
+\]
+riscriviamo gli integrali come
+\[
+\oint_\Sigma \vec{P}\cdot\hat{u}_n \, d\Sigma  - \int_\tau \vec{\nabla}\cdot\vec{P} \, d\tau = 0 \quad \to \quad \oint_\Sigma \vec{P}\cdot\hat{u}_n \, d\Sigma  = \int_\tau \vec{\nabla}\cdot\vec{P} \, d\tau
+\]
+
+\subsubsection{Calcolo di \(V\) e di \(\vec{E}\) conoscento \(\vec{P}\)}
 
 \subsection{Induzione dielettrica}
+
+
+\subsubsection{Il flusso di \(\vec{D}\) dipende solo dalle cariche libere}
+\subsubsection{Legge di Gauss per il vettore \(\vec{D}\)}
+Sia \(\Sigma\) una superficie chiusa che contenga una carica libera \(q_0\) e una parte del dielettrico polarizzato. 
+
+Calcoliamo il flusso di campo elettrico attraverso la superficie \(\Sigma\) come somma dei contributi di
+\begin{center}
+	 Carica libera \(q_0\) \hspace{0.2cm} Carica di polarizzazione di superficie (\(\sigma_p\)) \hspace{0.2cm} Carica di polarizzazione di volume (\(\rho_p\))
+\end{center}
+
 \begin{figure}[H]
 	\centering
 	\incfig{gauss_vettore_D}
-\end{figure}
+\end{figure}	
+\[
+\Phi(\vec{E}) = \frac{q_0}{\varepsilon_0} + \frac{\int_\Sigma \sigma_p \,\ d\Sigma}{\varepsilon_0} + \frac{\int_\tau \rho_p \,\ d\tau}{\varepsilon_0}
+\]
+sapendo che 
+\[
+\sigma_p = \vec{P}\cdot\hat{u}_n \qquad \qquad \rho_p = - \vec{\nabla}\cdot\vec{P}
+\]
+riscriviamo il flusso come 
+\[
+\Phi(\vec{E}) = \frac{q_0}{\varepsilon_0} + \frac{\int_\Sigma \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} - \frac{\int_\tau  \vec{\nabla}\cdot\vec{P} \,\ d\tau}{\varepsilon_0}
+\]
+dal teorema della divergenza sappiamo che 
+\[
+\int_\tau  \vec{\nabla}\cdot\vec{P} \,\ d\tau = \oint_{\Sigma_1 + \Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma
+\]
+quindi riscriviamo il flusso come 
+\[
+\Phi(\vec{E}) = \frac{q_0}{\varepsilon_0} + \frac{\int_\Sigma \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} - \frac{ \oint_{\Sigma_1 + \Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0}
+\]
 
 \subsection{Dielettrici isotropi e anisotropi}
 

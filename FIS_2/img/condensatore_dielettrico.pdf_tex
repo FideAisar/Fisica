@@ -50,22 +50,22 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.35087719)%
+  \begin{picture}(1,0.21403509)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{condensatore_dielettrico.pdf}}%
-    \put(0.46906241,0.16384018){\color[rgb]{0.44705882,0.44705882,0.44705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$s$\end{tabular}}}}%
-    \put(0.128513,0.1608652){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}$\end{tabular}}}}%
-    \put(0.23261829,0.16107859){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_k$\end{tabular}}}}%
-    \put(0.49591822,0.16379451){\color[rgb]{0.44705882,0.44705882,0.44705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$h$\end{tabular}}}}%
+    \put(0.47451072,0.12551682){\color[rgb]{0.44705882,0.44705882,0.44705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$s$\end{tabular}}}}%
+    \put(0.25900511,0.12363419){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}$\end{tabular}}}}%
+    \put(0.32488475,0.12376923){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_k$\end{tabular}}}}%
+    \put(0.49150556,0.12548791){\color[rgb]{0.44705882,0.44705882,0.44705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$h$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{condensatore_dielettrico.pdf}}%
-    \put(0.98192842,0.16381036){\color[rgb]{0.44705882,0.44705882,0.44705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$h=s$\end{tabular}}}}%
-    \put(0.76184482,0.16130778){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_k$\end{tabular}}}}%
+    \put(0.79906131,0.12549794){\color[rgb]{0.44705882,0.44705882,0.44705882}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$h=s$\end{tabular}}}}%
+    \put(0.65978851,0.12391427){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_k$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{condensatore_dielettrico.pdf}}%
-    \put(0.36712033,0.20887552){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $\sigma_0$\end{tabular}}}}%
-    \put(0.36012144,0.11803976){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $-\sigma_0$\end{tabular}}}}%
-    \put(0.35286478,0.186812){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $-\sigma_p$\end{tabular}}}}%
-    \put(0.35899254,0.14383666){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $\sigma_p$\end{tabular}}}}%
+    \put(0.41,0.15401602){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $\sigma_0$\end{tabular}}}}%
+    \put(0.40557097,0.09653348){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $-\sigma_0$\end{tabular}}}}%
+    \put(0.40097885,0.14005379){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $-\sigma_p$\end{tabular}}}}%
+    \put(0.40485659,0.11285822){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $\sigma_p$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{condensatore_dielettrico.pdf}}%
   \end{picture}%
 \endgroup%

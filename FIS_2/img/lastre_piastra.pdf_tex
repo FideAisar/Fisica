@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{374.99997711bp}%
+    \setlength{\unitlength}{427.5bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,17 +50,19 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.40000002)%
+  \begin{picture}(1,0.35087719)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{lastre_piastra.pdf}}%
-    \put(0.61310347,0.28856305){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}$\end{tabular}}}}%
-    \put(0.64590412,0.19801858){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_i$\end{tabular}}}}%
-    \put(0.61982251,0.34202371){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$+\sigma$\end{tabular}}}}%
-    \put(0.77777995,0.34350587){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-\sigma$\end{tabular}}}}%
+    \put(0.37717572,0.26101914){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{lastre_piastra.pdf}}%
-    \put(0.3108104,0.28841233){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}$\end{tabular}}}}%
-    \put(0.27958376,0.34335373){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$+\sigma$\end{tabular}}}}%
-    \put(0.43754235,0.34483588){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-\sigma$\end{tabular}}}}%
+    \put(0.55207947,0.13361162){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_i$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{lastre_piastra.pdf}}%
+    \put(0.55278001,0.26329151){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $-\sigma_i$\end{tabular}}}}%
+    \put(0.52210095,0.3037013){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $+\sigma$\end{tabular}}}}%
+    \put(0.60871326,0.30392904){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $-\sigma$\end{tabular}}}}%
+    \put(0.33576667,0.30348982){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $+\sigma$\end{tabular}}}}%
+    \put(0.42237962,0.30371756){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $-\sigma$\end{tabular}}}}%
+    \put(0.58203558,0.26357489){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny $-\sigma_i$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
