@@ -189,7 +189,7 @@ V(P)= \frac{p}{4\pi\varepsilon_0}\frac{1}{\textcolor{red}{x^2 + y^2 + z^2}}\text
 \]\\
 
 \noindent
-Dalla relazione \(\vec{E} = -\vec{\nabla}V\) otteniamo l'espressioni del campo elettrico
+Dalla relazione \(\vec{E} = -\vec{\nabla}V\) otteniamo l'espressione del campo elettrico
 \[
 \vec{E} = \left( \frac{p}{4\pi\varepsilon_0}\frac{3xz}{r^5},\;\ \frac{p}{4\pi\varepsilon_0}\frac{3yz}{r^5},\;\ \frac{p}{4\pi\varepsilon_0}\left(\frac{3z^2}{r^5}-\frac{1}{r^3}\right)\right) 
 \]
@@ -201,7 +201,7 @@ Concludiamo osservando che il campo elettrico del dipolo varia con \(r^3\) (il m
 
 
 \section{Lavoro elettrico}
-Quando su una carica \(q_0\) agisce una forza \(\vec{F}\) \textit{di qualsiasi natura}, possiamo definire sempre un campo elettrico \(\vec{E}\) chi chiamiamo \textbf{campo elettromotore}
+Quando su una carica \(q_0\) agisce una forza \(\vec{F}\) \textit{di qualsiasi natura}, possiamo definire sempre un campo elettrico \(\vec{E}\) che chiamiamo \textbf{campo elettromotore}
 \[
 \vec{E} = \frac{\vec{E}}{q_0} \;\ \to \;\ \vec{F} = q_0 \vec{E}
 \]
@@ -318,7 +318,7 @@ d\Omega= \frac{d\Sigma_0}{r^2} \qquad \qquad d\Sigma \cos\alpha = d\Sigma_0 \;\ 
 \end{figure}
 
 
-Andiamo ora a calcolare il flusso attraverso \(d\Sigma\):
+Andiamo ora a calcolare il flusso attravgausserso \(d\Sigma\):
 \begin{align*}
 	d\Phi =& \vec{E} \cdot \hat{u}_n d\Sigma \\ 
 		  =& \frac{q}{4\pi\varepsilon_0 r^2} \hat{u}_r \cdot \hat{u}_n \: d\Sigma \\
@@ -437,7 +437,6 @@ Avvicinando un conduttore carico o scarico ad un altro corpo carico, ovvero intr
 	\incfig{lastre_piastra}
 \end{figure}
 
-\newpage
 \section{Dielettrici}
 Consideriamo un condensatore piano carico ed isolato; sulle armature si distribuisce una carica \(q_0\) uniforme distribuita con densità \(\sigma_0\). Tra le armature, poste a distanza \(h\), si genera il campo elettrico \(\vec{E}_0\) e una differenza di potenziale \(V_0\) che valgono
 \[
@@ -629,10 +628,40 @@ riscriviamo gli integrali come
 \subsubsection{Calcolo di \(V\) e di \(\vec{E}\) conoscento \(\vec{P}\)}
 
 \subsection{Induzione dielettrica}
+Definiamo il vettore induzione elettrica
+\[
+\vec{D} = \varepsilon_0\vec{E} + \vec{P	}
+\]
+Per osservare perché questo è definito in questo modo studiamo l'espressione del flusso di campo elettrico in presenza di cariche di polarizzazione:
+\[
+\oint_{\Sigma} \vec{E} \cdot \hat{u}_n \,\ d\Sigma = \frac{q + q_p}{\varepsilon_0}
+\]
+dal teorema della divergenza sappiamo che 
+\[
+\oint_{\Sigma}\vec{E} \cdot \hat{u}_n \,\ d\Sigma = \int_{\tau} \vec{\nabla}\cdot \vec{E} \,\ d\tau
+\]
+quindi possiamo scrivere
+\[
+\int_{\tau} \vec{\nabla}\cdot \vec{E} \,\ d\tau = \frac{q + q_p}{\varepsilon_0} \quad \to \quad \vec{\nabla}\cdot \vec{E} \int_{\tau}  d\tau = \frac{q + q_p}{\varepsilon_0} \quad \to \quad \vec{\nabla}\cdot \vec{E} = \frac{1}{\tau}  \frac{q + q_p}{\varepsilon_0}
+\]
+\begin{center}
+	\textcolor{red}{Assumendo che la divergenza sia costante penso si ricavi così. guarda p.79 Mazzoldi}
+\end{center}
+da cui
+\[
+\vec{\nabla}\cdot \vec{E} = \frac{\rho + \rho_p}{\varepsilon_0}
+\]
+Ricordando che la densità volumica delle cariche polarizzate \(\rho_p\) è uguale a meno la divergenza del vettore polarizzazione: \(\rho_p = - \vec{\nabla}\cdot \vec{P}\), possiamo riscrivere la divergenza di campo elettrico come
 
+\[
+\vec{\nabla}\cdot \vec{E} = \frac{\rho - \vec{\nabla}\cdot \vec{P}}{\varepsilon_0}  \quad \to \quad \varepsilon_0\vec{\nabla}\cdot \vec{E} = \rho - \vec{\nabla}\cdot \vec{P} \quad \to \quad \vec{\nabla} \cdot \left(\varepsilon_0\vec{E} + \vec{P}\right) = \rho
+\]
+da cui otteniamo che \(\vec{D} = \varepsilon_0\vec{E} + \vec{P}\) è il vettore la cui divergenza è uguale alla densità volumica delle cariche libere:
+\[
+\vec{\nabla} \cdot \vec{D} = \rho
+\] 	
 
 \subsubsection{Il flusso di \(\vec{D}\) dipende solo dalle cariche libere}
-\subsubsection{Legge di Gauss per il vettore \(\vec{D}\)}
 Sia \(\Sigma\) una superficie chiusa che contenga una carica libera \(q_0\) e una parte del dielettrico polarizzato. 
 
 Calcoliamo il flusso di campo elettrico attraverso la superficie \(\Sigma\) come somma dei contributi di
@@ -645,7 +674,7 @@ Calcoliamo il flusso di campo elettrico attraverso la superficie \(\Sigma\) come
 	\incfig{gauss_vettore_D}
 \end{figure}	
 \[
-\Phi(\vec{E}) = \frac{q_0}{\varepsilon_0} + \frac{\int_\Sigma \sigma_p \,\ d\Sigma}{\varepsilon_0} + \frac{\int_\tau \rho_p \,\ d\tau}{\varepsilon_0}
+\Phi(\vec{E}) = \frac{q_0}{\varepsilon_0} + \frac{\int_{\Sigma_1} \sigma_p \,\ d\Sigma}{\varepsilon_0} + \frac{\int_\tau \rho_p \,\ d\tau}{\varepsilon_0}
 \]
 sapendo che 
 \[
@@ -653,15 +682,46 @@ sapendo che
 \]
 riscriviamo il flusso come 
 \[
-\Phi(\vec{E}) = \frac{q_0}{\varepsilon_0} + \frac{\int_\Sigma \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} - \frac{\int_\tau  \vec{\nabla}\cdot\vec{P} \,\ d\tau}{\varepsilon_0}
+\Phi(\vec{E}) = \frac{q_0}{\varepsilon_0} + \frac{\int_{\Sigma_1} \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} - \frac{\int_\tau  \vec{\nabla}\cdot\vec{P} \,\ d\tau}{\varepsilon_0}
 \]
 dal teorema della divergenza sappiamo che 
 \[
 \int_\tau  \vec{\nabla}\cdot\vec{P} \,\ d\tau = \oint_{\Sigma_1 + \Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma
 \]
 quindi riscriviamo il flusso come 
+\begin{align*}
+	\Phi(\vec{E}) =& \frac{q_0}{\varepsilon_0} + \frac{\int_{\Sigma_1} \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} - \frac{ \oint_{\Sigma_1 + \Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} \\
+				  =& \frac{q_0}{\varepsilon_0} + \frac{\int_{\Sigma_1} \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} - \frac{ \int_{\Sigma_1} \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} - \frac{ \int_{\Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} \\
+				  =& \frac{q_0}{\varepsilon_0} - \frac{1}{\varepsilon_0} \int_{\Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma
+\end{align*}
+Il flusso del campo elettrostatico \(\vec{E}\) attraverso \(\Sigma\) contiene un contributo non nullo dovuto alla carica di polarizzazione. Poiché nella parte esterna al dielettrico si annulla il vettore polarizzazione \(\vec{P} = 0\), calcolare il flusso attraverso \(\Sigma_2\)
+
+Poiché \(\vec{P}\) è nullo fuori dal dielettrico, il flusso di \(\vec{P}\) "investe" solamente la superficie \(\Sigma_2\); per questo motivo calcolarlo su tutta \(\Sigma\) o solamente su \(\Sigma_2\) è indifferente:
 \[
-\Phi(\vec{E}) = \frac{q_0}{\varepsilon_0} + \frac{\int_\Sigma \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0} - \frac{ \oint_{\Sigma_1 + \Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma}{\varepsilon_0}
+\int_{\Sigma_2}\vec{P}\cdot\hat{u}_n \,\ d\Sigma = \oint_{\Sigma}\vec{P}\cdot\hat{u}_n \,\ d\Sigma
+\]
+Ora dalla definizione di \(\vec{D}\)
+\[
+\vec{D} = \varepsilon_0 \vec{E} + \vec{P}
+\]
+definiamo il flusso di \(\vec{D}\) attraverso \(\Sigma\) come
+\begin{align*}
+	\oint_\Sigma \left(\varepsilon_0 \vec{E} + \vec{P}\right)\cdot\hat{u}_n \,\ d\Sigma =& \oint_\Sigma \varepsilon_0 \vec{E}\cdot\hat{u}_n \,\ d\Sigma +  \oint_\Sigma\vec{P}\cdot\hat{u}_n \,\ d\Sigma  \\
+	=& \varepsilon_0 \Phi(\vec{E}) +  \oint_\Sigma\vec{P}\cdot\hat{u}_n \,\ d\Sigma
+\end{align*}
+Sapendo che
+\[
+\Phi(\vec{E}) = \frac{q_0}{\varepsilon_0} - \frac{1}{\varepsilon_0} \int_{\Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma \qquad \qquad   \oint_{\Sigma}\vec{P}\cdot\hat{u}_n \,\ d\Sigma = \int_{\Sigma_2}\vec{P}\cdot\hat{u}_n \,\ d\Sigma 
+\]
+riscriviamo il flusso di \(\vec{D}\) come 
+\begin{align*}
+	\oint_\Sigma \left(\varepsilon_0 \vec{E} + \vec{P}\right)\cdot\hat{u}_n \,\ d\Sigma =& \varepsilon_0\left(\frac{q_0}{\varepsilon_0} - \frac{1}{\varepsilon_0} \int_{\Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma\right) + \int_{\Sigma_2}\vec{P}\cdot\hat{u}_n \,\ d\Sigma \\
+	=& q_0 - \int_{\Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma+ \int_{\Sigma_2}\vec{P}\cdot\hat{u}_n \,\ d\Sigma \\
+	=& q_0
+\end{align*}
+Quindi in generale detto \(q\) l'insieme delle cariche libere possiamo scrivere
+\[
+\oint_\Sigma \vec{D}\cdot\hat{u}_n \,\ d\Sigma = q
 \]
 
 \subsection{Dielettrici isotropi e anisotropi}
