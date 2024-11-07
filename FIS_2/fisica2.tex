@@ -16,6 +16,8 @@
 \usepackage{graphicx,import}
 \usepackage{float}
 \usepackage{wrapfig}
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
 
 %% custom
 \renewcommand*\contentsname{Indice}
@@ -141,6 +143,9 @@
 \newcommand{\incfig}[1]{%
 	\import{./img/}{#1.pdf_tex}
 }
+\newcommand{\viola}[1]{%
+	\colorbox{myblue}{$\displaystyle #1$}
+}
 
 \pgfplotsset{my axis/.append style={height=9cm,width=9cm,grid=major,samples=100,yticklabel=\empty,xticklabel=\empty}}
 \pgfplotsset{my plot/.append style={thick,samples=500}}
@@ -159,9 +164,11 @@ Il campo elettrostatico prodotto in un punto \(P\) da un sistema di cariche ferm
 In realtà la carica di prova può perturbare la distribuzione di cariche originale, per questo la definizione diventerebbe più precisa se si facesse tendere a zero il valore di \(q_0\). In pratica è sufficiente che \(q_0\) sia molto piccola rispetto alle altre cariche.
 \subsection{Dipolo elettrico}
 Definiamo \textbf{momento del dipolo}
-\[
-\vec{p} = q\vec{a}
-\]
+\begin{equation}
+	\viola{\vec{p} = q\vec{a}}
+\end{equation}
+
+
 Consideriamo un punto \(P\) nel quale misuriamo il potenziale, pari alla somma dei contributi delle due cariche:
 \[
 V(P) = \frac{q}{4\pi \varepsilon_0} \left(\frac{1}{r_1} - \frac{1}{r_2}\right) = \frac{q}{4\pi \varepsilon_0} \left(\frac{r_2 - r_1}{r_1r_2}\right)
@@ -176,6 +183,9 @@ r_2 - r_1 \approx a\cos\vartheta \qquad \qquad r_1r_2 \approx r^2
 \[
 V(P) = \frac{q}{4\pi \varepsilon_0} \left(\frac{a\cos\vartheta}{r^2}\right) = \frac{p}{4\pi \varepsilon_0 r^2}
 \]
+\begin{equation}
+	\viola{V(P) =\frac{p}{4\pi \varepsilon_0 r^2}}
+\end{equation}
 Vediamo come a grandi distanze il potenziale del punto \(P\) dia \textit{informazioni solo sul momento di dipolo} e non sulle due cariche o sulla loro distanza reciproca. A parità di momento si potranno avere due cariche ravvicinate e molto cariche o più distanti e meno cariche.
 
 
@@ -193,10 +203,9 @@ Dalla relazione \(\vec{E} = -\vec{\nabla}V\) otteniamo l'espressione del campo e
 \[
 \vec{E} = \left( \frac{p}{4\pi\varepsilon_0}\frac{3xz}{r^5},\;\ \frac{p}{4\pi\varepsilon_0}\frac{3yz}{r^5},\;\ \frac{p}{4\pi\varepsilon_0}\left(\frac{3z^2}{r^5}-\frac{1}{r^3}\right)\right) 
 \]
-
-\[
-E(P) = \frac{p}{4\pi\varepsilon_0r^3}\sqrt{3\cos^2\vartheta + 1}
-\]
+\begin{equation}
+	\viola{E(P) = \frac{p}{4\pi\varepsilon_0r^3}\sqrt{3\cos^2\vartheta + 1}}
+\end{equation}
 Concludiamo osservando che il campo elettrico del dipolo varia con \(r^3\) (il monopolo con \(r^2\)) e dipende anche dall'angolo \(\vartheta\).
 
 
@@ -333,7 +342,7 @@ d\Omega = \frac{4\pi r^2}{r^2} = 4\pi
 \]
 e di conseguenza
 \begin{equation}
-	\verde{\Phi = \frac{q}{\varepsilon_0}}
+	\viola{\Phi = \frac{q}{\varepsilon_0}}
 \end{equation}
 Se la carica esterna il flusso è nullo (le cariche esterne contribuiscono solo al campo elettrico). Inoltre se consideriamo più cariche, o addirittura una distribuzione omogenea di cariche si hanno i seguenti valori di flusso:
 \[
@@ -386,16 +395,15 @@ L'annullarsi del rotore non è un fatto sorprendente. Sappiamo infatti che il ro
 
 \subsection{Divergenza di un campo vettoriale}
 L'operatore divergenza si applica ad un campo vettoriale e dà origine ad un campo scalare. Il suo significato intrinseco è espresso da 
-\[
-d\Phi(\vec{E}) = \vec{\nabla}\cdot\vec{E}\,\ d\tau
-\]
+\begin{equation}
+	\viola{d\Phi(\vec{E}) = \vec{\nabla}\cdot\vec{E}\,\ d\tau}
+\end{equation}
+
+
 Prendendo in considerazioni tanti volumetti \(d\tau\) calcoliamo il flusso infinitesimo del campo \(\vec{E}\) attraverso la superficie infinitesima \(d\Sigma\) del volumetto. Estendendo il risultato a tutto il volume \(\tau\) si osserva che i contributi interni al volume si elidono a vicenda e le uniche superfici che contribuiscono al calolo del flusso sono quelle esterne:
 \[
 \int_\tau d\Phi(\vec{E}) = \int_\tau  \vec{\nabla}\cdot\vec{E}\,\ d\tau = \oint_\Sigma \vec{E}\cdot\hat{u}_n \,\ d\Sigma
 \]
-
-
-\subsection{Discontinuità di carica}
 
 \newpage
 \section{Conduttori}
@@ -436,6 +444,47 @@ Avvicinando un conduttore carico o scarico ad un altro corpo carico, ovvero intr
 	\centering
 	\incfig{lastre_piastra}
 \end{figure}
+
+\subsection{Discontinuità di carica nei conduttori}
+Prendiamo in considerazione un percorso chiuso che interseca la lastra carica in modo che i lati verticali siano infinitesimi di ordine superiore ai lati orizzontali.\textcolor{white}{che cafonata ma qua serve spazio}
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\hspace{1cm}
+	\incfig{gauss_ABCD}
+\end{wrapfigure}
+
+Il campo elettrico è conservativo perciò la circuitazione lungo il percorso chiuso scelto è nulla:
+\[
+\oint_\gamma \vec{E}\cdot d\vec{s} = \int_{AB} \vec{E_1}\cdot d\vec{s} + \int_{CD}  \vec{E_2}\cdot  d\vec{s} = 0
+\]
+che si verifica solo se
+\[
+\vec{E_1}\cdot  d\vec{s} + \vec{E_2}\cdot  d\vec{s} =( E_{1t}  - E_{2t})ds = 0 \quad \implies \quad  E_{1t} = E_{2t}
+\]
+\begin{wrapfigure}{l}{0.3\textwidth}
+	%\hspace{-1.5cm}
+	\incfig{gauss_cilindro_vert}
+\end{wrapfigure}
+Appurato che la componente tangenziale alla lastra del campo elettrico è costante, consideriamo un cilindro gaussiano che interseca la superficie carica così da poter sfruttare la componente normale del campo elettrico e tale che la superficie laterale sia infinitesima di ordine superiore rispetto a \(d\Sigma\). \\
+
+Dal teorema di Gauss sappiamo che il flusso attraverso il cilindro è uguale alla carica totale interna
+ \(\sigma d\Sigma\) su \(\varepsilon_0\):
+\[
+\Phi(\vec{E}) = \frac{\sigma d\Sigma}{\varepsilon_0}
+\]
+Calcoliamo il flusso come la componente normale di campo elettrico che attraversa la superficie \(d\Sigma\):
+\begin{align*}
+	\Phi(\vec{E}) = \vec{E}\cdot \hat{u}_n  d\Sigma =& \left(\vec{E}_2\cdot\hat{u}_{n2} + \vec{E}_1\cdot\hat{u}_{n1} \right) d\Sigma\\ =& \left(\vec{E}_2\cdot\hat{u}_{n} - \vec{E}_1\cdot\hat{u}_{n} \right) d\Sigma = \left(E_{2n} - E_{1n}\right)d\Sigma
+\end{align*}
+Unendo le uguaglianze otteniamo che la componente normale del campo elettrico subisce una discontinuità pari a 
+\[
+\left(E_{2n} - E_{1n}\right)d\Sigma = \frac{\sigma d\Sigma}{\varepsilon_0} \quad \to \quad \left(E_{2n} - E_{1n}\right) = \frac{\sigma}{\varepsilon_0}
+\]
+da cui concludiamo che il campo elettrico \(\vec{E}\) subisce una discontinuità 
+\begin{equation}
+	\viola{\vec{E}_{2} - \vec{E}_{1} = \frac{\sigma}{\varepsilon_0}\hat{u}_n}
+\end{equation}
+
+
 
 \section{Dielettrici}
 Consideriamo un condensatore piano carico ed isolato; sulle armature si distribuisce una carica \(q_0\) uniforme distribuita con densità \(\sigma_0\). Tra le armature, poste a distanza \(h\), si genera il campo elettrico \(\vec{E}_0\) e una differenza di potenziale \(V_0\) che valgono
@@ -529,9 +578,10 @@ Prendiamo in considerazione un volumetto \(d\tau\) contenente \(dN\) atomi/molec
 \vec{P} =\frac{\Delta \vec{p}}{\Delta\tau} = \frac{\Delta N}{\Delta \tau}\vec{p}_m
 \]
 più precisamente come il limite per \(\tau \to 0\)
-\[
-\vec{P} = \lim_{\Delta\tau\to 0}\frac{\Delta \vec{p}}{\Delta\tau} = \lim_{\Delta\tau\to 0}\frac{\Delta N}{\Delta \tau}\vec{p}_m
-\]
+\begin{equation}
+\viola{\vec{P} = \lim_{\Delta\tau\to 0}\frac{\Delta \vec{p}}{\Delta\tau}} = \lim_{\Delta\tau\to 0}\frac{\Delta N}{\Delta \tau}\vec{p}_m
+\end{equation}
+
 
 che chiamiamo \textbf{vettore di polarizzazione} e dove \(n\) è il numero atomi/molecole per unità di volume. 
 \definizione{Polarizzazione elettrica (Wikipedia)}{
@@ -570,14 +620,16 @@ Sostituiamo al prisma un sistema costituito da cariche \(\pm dq_p\) distribuite 
 \]
 notiamo quindi che la densità di carica vale quanto il modulo del vettore polarizzazione:
 \[
-\boldsymbol{\pm\sigma_p =} \pm\frac{dq_p}{d\Sigma} \boldsymbol{=\pm P}
+\pm\sigma_p = \pm\frac{dq_p}{d\Sigma} =\pm P
 \]
 Se sovrapponiamo due volumetti di questo tipo si osserva che la carica sulla faccia in comune si annulla. Perciò la lastra di dielettrico è equivalente a due distribuzioni di carica \(\pm \sigma_p = \pm P\).
 
 Se generalizziamo il risultato per un dielettrico non simmetrico si hanno le seguenti espressioni 
-\[
-\boxed{\sigma_p = \vec{P} \cdot \hat{u}_n \qquad \qquad dq_p = \vec{P} \cdot \hat{u}_n \,\ d\Sigma}
-\]
+\begin{equation}
+	\frac{dq_p}{d\Sigma} = \viola{\sigma_p = \vec{P} \cdot \hat{u}_n  }
+\end{equation}
+
+
 
 Se la polarizzazione è uniforme non si manifestano cariche all'interno del dielettrico, ma solo sulla superficie. Come abbiamo visto il processo che genera \(\pm \sigma_p\) fa sì che la somma delle cariche sia nulla:
 \[
@@ -607,9 +659,9 @@ Se estendiamo il risultato a tutte le dimensioni otteniamo
 dq_p = \left(-\frac{\partial P_x}{\partial x}-\frac{\partial P_x}{\partial y}-\frac{\partial P_z}{\partial z}\right)d\tau = -\left(\vec{\nabla}\cdot\vec{P}\right)d\tau
 \]
 distribuita con densità \(\rho_p\) pari a meno la divergenza di \(\vec{P}\)
-\[
-\rho_p = \frac{dq_p}{d\tau} = -\vec{\nabla}\cdot\vec{P}
-\]
+\begin{equation}
+	 \frac{dq_p}{d\tau} = \viola{\rho_p = -\vec{\nabla}\cdot\vec{P}}
+\end{equation}
 In un dielettrico in cui la polarizzazione non è uniforme, oltre alla densità superficiale di carica di polarizzazione esiste una densità di carica di polarizzazione uguale in ogni punti all'opposto della divergenza del vettore polarizzazione \(\vec{P}\).
 
 Vediamo come, poiché la carica totale di polarizzazione deve essere nulla, ritroviamo il teorema della divergenza: esprimiamo la carica totale come somma di carica di polarizzazione di superficie e di volume
@@ -625,7 +677,7 @@ riscriviamo gli integrali come
 \oint_\Sigma \vec{P}\cdot\hat{u}_n \, d\Sigma  - \int_\tau \vec{\nabla}\cdot\vec{P} \, d\tau = 0 \quad \to \quad \oint_\Sigma \vec{P}\cdot\hat{u}_n \, d\Sigma  = \int_\tau \vec{\nabla}\cdot\vec{P} \, d\tau
 \]
 
-\subsubsection{Calcolo di \(V\) e di \(\vec{E}\) conoscento \(\vec{P}\)}
+\subsubsection{Calcolo di \(V\) e di \(\vec{E}\) conoscendo \(\vec{P}\)}
 
 \subsection{Induzione dielettrica}
 Definiamo il vettore induzione elettrica
@@ -657,9 +709,9 @@ Ricordando che la densità volumica delle cariche polarizzate \(\rho_p\) è ugua
 \vec{\nabla}\cdot \vec{E} = \frac{\rho - \vec{\nabla}\cdot \vec{P}}{\varepsilon_0}  \quad \to \quad \varepsilon_0\vec{\nabla}\cdot \vec{E} = \rho - \vec{\nabla}\cdot \vec{P} \quad \to \quad \vec{\nabla} \cdot \left(\varepsilon_0\vec{E} + \vec{P}\right) = \rho
 \]
 da cui otteniamo che \(\vec{D} = \varepsilon_0\vec{E} + \vec{P}\) è il vettore la cui divergenza è uguale alla densità volumica delle cariche libere:
-\[
-\vec{\nabla} \cdot \vec{D} = \rho
-\] 	
+\begin{equation}
+	\viola{\vec{\nabla} \cdot \vec{D}= \rho} 
+\end{equation}
 
 \subsubsection{Il flusso di \(\vec{D}\) dipende solo dalle cariche libere}
 Sia \(\Sigma\) una superficie chiusa che contenga una carica libera \(q_0\) e una parte del dielettrico polarizzato. 
@@ -719,18 +771,120 @@ riscriviamo il flusso di \(\vec{D}\) come
 	=& q_0 - \int_{\Sigma_2} \vec{P}\cdot\hat{u}_n \,\ d\Sigma+ \int_{\Sigma_2}\vec{P}\cdot\hat{u}_n \,\ d\Sigma \\
 	=& q_0
 \end{align*}
-Quindi in generale detto \(q\) l'insieme delle cariche libere possiamo scrivere
-\[
-\oint_\Sigma \vec{D}\cdot\hat{u}_n \,\ d\Sigma = q
-\]
+
+\begin{equation}
+	\viola{\oint_\Sigma \vec{D}\cdot\hat{u}_n \,\ d\Sigma = q}
+\end{equation}
+Il flusso del vettore induzione elettrica \(\vec{D}\) attraverso una superficie chiusa \(\Sigma\) contenente in generale sia cariche libere sia cariche di polarizzazione, dipende soltanto dalle cariche libere.
+
 
 \subsection{Dielettrici isotropi e anisotropi}
+Fino ad ora abbiamo trattato solo dielettrici lineari isotropi, ovvero che seguono la relazione \(\vec{P} = \varepsilon_0(k_e - 1)\vec{E}\).
 
-\subsection{Dielettrici cavi}
+Per i dielettrici lineari anisotropi, come i cristalli, nè \(\vec{P}\) nè \(\vec{D}\) sono in generale paralleli al campo elettrostatico \(\vec{E}\); in questi la suscettività elettrica \(k_e-1 = \chi_e\) è sostituita da un tensore simmetrico suscettività elettrica. Esistono tuttavia tre assi tra loro ortogonali, detti assi cristallografici o assi ottici del dielettrico, lungo ciascuno dei quali \(\vec{E},\vec{P},\vec{D}\) sono paralleli.
+
+\subsubsection{Isotropi}
+Definiamo i vettori \(\vec{P}\) e \(\vec{D}\)  \\
+\begin{minipage}{0.4\textwidth}
+	\begin{align*}
+	\vec{P} =& \varepsilon_0(k_e -1)\vec{E} \\
+	        =& \varepsilon_0\chi_e\vec{E}
+\end{align*}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+	\begin{align*}
+		\vec{D} =& \varepsilon_0\vec{E} + \vec{P} = \varepsilon_0\vec{E} + \varepsilon_0(k_e -1)\vec{E} = \varepsilon_0\vec{E}(1 + k_e - 1) \\
+		=& \varepsilon_0k_e\vec{E}
+	\end{align*}
+\end{minipage} \vspace{0.4cm}
+
+\noindent
+Da queste espressioni vediamo che possiamo evidenziare il fatto che i due siano perpendicolari tramite la seguente scrittura 
+\[
+\vec{P} = \frac{k_e - 1}{k_e}\vec{D}
+\]
+Inoltre se il dielettrico è anche omogeneo, ovvero se è a densità uniforme con \(k_e\) costante, si ricava
+\[
+\vec{\nabla} \cdot \vec{P} =  \frac{k_e - 1}{k_e}\vec{\nabla} \cdot \vec{D}
+\]
+\subsubsection{Anisotropi}
+In generale il vettore polarizzazione e il vettore induzione elettrica hanno le seguenti espressioni
+\begin{minipage}{0.5\textwidth}
+	\begin{gather*}
+		P_x = \varepsilon_0\left(\chi_{1}E_x + \chi_{2}E_y + \chi_{3}E_z \right) \\
+		P_y = \varepsilon_0\left(\chi_{2}E_x + \chi_{4}E_y + \chi_{5}E_z \right)\\
+		P_z = \varepsilon_0\left(\chi_{4}E_x + \chi_{5}E_y + \chi_{6}E_z \right)
+	\end{gather*}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\begin{gather*}
+		D_x = \varepsilon_0\left[(1+\chi_{11})E_x + \chi_{12}E_y + \chi_{13}E_z \right] \\
+		D_y = \varepsilon_0\left[\chi_{21}E_x + (1+\chi_{22})E_y + \chi_{23}E_z \right] \\
+		D_z = \varepsilon_0\left[\chi_{31}E_x + \chi_{32}E_y + (1+\chi_{33})E_z \right]
+	\end{gather*}
+\end{minipage}\vspace{0.4cm}
+\noindent
+Lungo gli assi cristallografici, con \(\vec{E},\vec{P},\vec{D}\) paralleli,  \(\vec{D}\) assume la forma
+ \begin{gather*}
+	D_x = \varepsilon_0\left(1 + \chi_{x}\right)E_x = \varepsilon_x E_x \\
+	D_y = \varepsilon_0\left(1 + \chi_{y}\right)E_y = \varepsilon_y E_y\\
+	D_z = \varepsilon_0\left(1 + \chi_{z}\right)E_z = \varepsilon_z E_z
+\end{gather*}
+In tae sistema di riferimento il tensore è diagonalizzato e, seppur le componenti di \(\vec{D}\) e \(\vec{E}\) sono parallele, i vettori non è detto che lo siano; per esserlo dovrebbe valere
+\[
+\varepsilon_x = \varepsilon_y = \varepsilon_z 
+\]
+
+\subsection{Discontinuità di carica nei dielettrici}
+Studiamo la discontinuità di campo elettrco tra due dielettrici di costante dielettrica \(k_{e1}\) e \(k_{e2}\).
+
+Dallo studio della circuitazione di un percorso chiuso che interseca perpendicolarmente la superficie di separazione dei due dielettrici possiamo far vedere che \textbf{la componente tangenziale del campo elettrico è costante}. Il campo elettrico è conservativo perciò la circuitazione lungo il percorso chiuso scelto è nulla:
+\[
+\oint_\gamma \vec{E}\cdot d\vec{s} = \int_{AB} \vec{E_1}\cdot d\vec{s} + \int_{CD}  \vec{E_2}\cdot  d\vec{s} = 0
+\]
+che si verifica solo se
+\[
+\vec{E_1}\cdot  d\vec{s} + \vec{E_2}\cdot  d\vec{s} =( E_{1t}  - E_{2t})ds = 0 \quad \implies \quad  E_{1t} = E_{2t}
+\]
+
+\begin{figure}[H]
+	\centering
+	\incfig{disc_dielett}
+\end{figure}
+
+Attraverso l'utilizzo di una superficie gaussiana cilindrica che interseca \(\Sigma\) mostriamo che \textbf{la componente normale del vettore induzione elettrica non varia}:
+\[
+\vec{D}_2 \cdot \hat{u}_{n_2} d\Sigma + \vec{D}_1 \cdot \hat{u}_{n_1} d\Sigma = (D_{2n} - D_{1n})d\Sigma = 0 \quad \implies \quad D_{1n} = D_{2n}
+\]
+ovvero
+\begin{gather*}
+	\varepsilon_0 E_{1n} + P_{1n} = \varepsilon_0 E_{2n} + P_{2n} \\
+	\varepsilon_0\left(E_{1n} - E_{2n}\right) = P_{2n} - P_{1n} \\
+	E_{1n} - E_{2n} = \frac{P_{2n} - P_{1n}}{\varepsilon_0} = \frac{\sigma_{1p} - \sigma_{2p}}{\varepsilon_0}
+\end{gather*}
+Otteniamo che la componente normale del campo elettrico subisce una discontinuità pari a 
+\begin{equation}
+	\viola{E_{1n} - E_{2n} = \frac{\sigma_{1p} - \sigma_{2p}}{\varepsilon_0}}
+\end{equation}
+
+Abbiamo visto che \(\vec{D}\) è esprimibile nei dielettrici isotropi come \(\vec{D} = \varepsilon_0 k_e\vec{E}\), quindi, sapendo che
+\begin{gather*}
+	E_{1t} = E_{2t} \quad \to \quad E_1\sin\vartheta_1 = E_2\sin\vartheta_2 \quad \to \quad \frac{E_1}{E_2} = \frac{\sin\vartheta_2}{\sin\vartheta_1} 
+\end{gather*}
+riscriviamo l'uguaglianza \(D_{1n} = D_{2n}\) come 
+\begin{gather*}
+	\varepsilon_0 k_{e1} E_1\cos\vartheta_1 = \varepsilon_0 k_{e2} E_2\cos\vartheta_2 \\
+	\frac{k_{e1}}{k_{e2}}\frac{E_1}{E_2} = \frac{\cos\vartheta_2}{\cos\vartheta_1} \\
+	\frac{k_{e1}}{k_{e2}}\frac{\sin\vartheta_2}{\sin\vartheta_1} = \frac{\cos\vartheta_2}{\cos\vartheta_1} \\
+	\frac{k_{e1}}{k_{e2}} =\frac{\tan\vartheta_2}{\tan\vartheta_1}
+\end{gather*}
 
 \subsection{Energia elettrostatica nei dielettrici}
 
 \subsection{Meccanismi di polarizzazione nei dielettrici}
+\subsubsection{Polarizzazione elettronica in un gas}
+\subsubsection{Polarizzazione per orientamento in un gas}
+La funzione che descrive il comportamento statistico di un insieme di 
 
 \newpage
 \esempio{espressione come condensatori in serie}{
@@ -770,6 +924,92 @@ dividendo per \(q\) carica libera sulle armature del condensatore si trova
 \]
 La capacità equivalente del condensatore parzialmente riempito di dielettrico è uguale a quella di due condensatori in serie, uno vuoto e uno pieno di dielettrico.
 
+\section{Corrente elettrica}
+Per avere un moto di cariche tra due punti deve essere presente una differenza di potenziale. Occorre quindi che ci sia un meccanismo che mantenga questa differenza di potenziale: un \textit{generatore di forza elettromotrice} che compie lavoro così da vincere la resistenza del materiale conduttore.
+\[
+i =  \lim_{\Delta t \to 0} \frac{\Delta q}{\Delta t} = \frac{dq}{dt}
+\]
+Prendiamo in considerazione una regione di conduttore con \(n_+\) cariche positive di carica \(e\). Le cariche subiscono una forza \(\vec{F} = e\vec{E}\) e vengono portate a una velocità costante \(\vec{v}_d\) detta \textit{velocità di deriva} (non ci aspettiamo che la velocità sia costante dato il moto apparentemente uniformemente accelerato, tuttavia la velocità è "stabilizzata" dagli urti interni tra le cariche).
+
+All'interno del volume \(d\tau\) troviamo la carica \(dq\):
+\begin{gather*}
+	d\tau = \vec{v}_d dt \cdot \hat{u}_n d\Sigma = v_d dt d\Sigma \cos\vartheta \\
+	dq = n_+ e d\tau = n_+ e v_d dt d\Sigma \cos\vartheta
+\end{gather*}
+si ha quindi una corrente \(i = \frac{dq}{dt}\) 
+\[
+i =  n_+ e d\tau = n_+ e v_d  d\Sigma \cos\vartheta
+\]
+
+\definizione{Densità di corrente}{
+Definiamo il vettore \(\vec{j}\) densità di corrente 
+\[
+\vec{j} = n_+ e \vec{v}_d 
+\]
+che utilizziamo per un'espessione più compatta della corrente
+\[
+di = \vec{j}\cdot\hat{u}_n d\Sigma \quad \to \quad i = \Phi(\vec{j}) = \oint_\Sigma  \vec{j} \cdot \hat{u}_n \,\ d\Sigma
+\]
+La densità di corrente è definita positiva:
+\[
+n e v_d = n (-e)(-v_d) > 0
+\]
+}
+\subsection{Legge di conservazione della carica}
+Prendiamo una superficie arbitraria \(\Sigma\) contenente il volume \(\tau\). Diciamo che il volume sia caricato con una certa densità di carica \(\rho\) e che contenga la carica
+\[
+q = \int_\tau \rho \,\ d\tau
+\]
+\begin{center}
+	\textcolor{red}{patatoide}
+\end{center}
+La regione è sede di una corrente elettrica definita dal vettore densità di corrente \(\vec{j}\), la carica totale che passa nell'unità di tempo attraverso \(\Sigma\) è data, come abbiamo visto prima, dal flusso di \(\vec{j}\) attraverso \(\Sigma\)
+\[
+i = \oint_{\Sigma} \vec{j}\cdot \hat{u}_n \,\ d\Sigma
+\]
+Il \textit{principio di conservazione della carica} richiede che \(i\) sia uguale alla variazione nell'unità di tempo della carica complessiva contenuta in \(\Sigma\). Chiaramente la carica interna diminuisce uscendo dalla superficie, quindi possiamo scrivere
+\[
+i = - \frac{\partial q}{\partial t} = -\frac{\partial}{\partial t}\int_\tau \rho \,\ d\tau = -\int_\tau \frac{\partial\rho}{\partial t} \,\ d\tau
+\]
+poiché le operazioni di integrazione su \(\tau\) e di derivazione rispetto al tempo sono indipendenti in quanto \(\Sigma\) e \(\tau\) non variano nel tempo.
+
+Unendo le uguaglianze si ottiene
+\[
+\oint_{\Sigma} \vec{j}\cdot \hat{u}_n \,\ d\Sigma = -\int_\tau \frac{\partial\rho}{\partial t} \,\ d\tau
+\]
+Riscrivendo il primo integrale come ntegrale della divergenza di \(\vec{j}\) in \(d\tau\) otteniamo
+\begin{gather}
+	\int_\tau \vec{\nabla} \cdot \vec{j} \,\ d\tau = - \int_\tau \frac{\partial\rho}{\partial t} \,\ d\tau \\
+	\int_\tau \left(\vec{\nabla} \cdot \vec{j} + \frac{\partial\rho}{\partial t}\right)\,\ d\tau = 0
+\end{gather}
+Poiché la relazione deve valere qualunque sia il volume \(\tau\), questa è verificata se si annulla la funzione integranda: otteniamo l'\textit{equazione di continuità della corrente elettrica}
+\begin{equation}
+	\viola{\vec{\nabla} \cdot \vec{j} + \frac{\partial\rho}{\partial t} = 0}
+\end{equation}
+\definizione{Corrente stazionaria}{
+Una corrente è detta stazionara se è nulla la divergenza di flusso di corrente, ovvero se "entra tanta corrente quanta ne esce" da una superficie chiusa interna al conduttore.
+\begin{equation}
+	\vec{\nabla} \cdot \vec{j} = 0
+\end{equation}
+}
+
+
+\subsection{Conduzione elettrica}
+\subsection{Forza elettromotrice e generatori}
+\subsection{Carica e scarica di un condensatore}
+
+
+\chapter{Magnetismo}
+\begin{equation}
+	\viola{\vec{F} = k_m\frac{q_{1}^{*}q_{2}^{*}}{r^2}} \qquad \qquad q^{*} = \text{ massa magnetica}
+\end{equation}
+
+\section{title}
+
+% FINE DOCUMENTO ---------------------------------------------------------------------%
+% FINE DOCUMENTO
+% ----------------------------------------------------------------------------------- %
+
 \chapter{Appendice}
 \section{Precisazioni sulle definizioni di potenziale elettrostatico ed energia potenziale}\label{precisazioni potenziale}
 Dallo sviluppo del lavoro della forza elettrostatica otteniamo
@@ -802,5 +1042,7 @@ V(r) = \int_{r}^{\infty} \vec{E}\cdot d\vec{s} = \frac{q}{4\pi\varepsilon_0 r}
 \[
 U_e(r) \;\ = \;\ q_0V(r) \;\ = \;\ q_0\int_{r}^{\infty} \vec{E}\cdot d\vec{s} = \frac{q_0q}{4\pi\varepsilon_0 r}
 \]
+
+
 
 \end{document}

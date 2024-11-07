@@ -1,0 +1,86 @@
+%% Creator: Inkscape 1.3.2 (091e20ef0f, 2023-11-25), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'disc_dielett.png' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{374.99997711bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.30000002)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{disc_dielett.png}}%
+    \put(0.85200087,0.26483041){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{D}_2$\end{tabular}}}}%
+    \put(0.65602088,0.09098405){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{D}_1$\end{tabular}}}}%
+    \put(0.75803121,0.11867499){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{D}_{1n}$\end{tabular}}}}%
+    \put(0.6949206,0.01830076){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{D}_{1n} = \vec{D}_{2n}$\end{tabular}}}}%
+    \put(0.7048403,0.20798877){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{D}_{2n}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{disc_dielett.png}}%
+    \put(0.71908334,0.07930496){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vartheta_1$\end{tabular}}}}%
+    \put(0.77530986,0.23303422){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vartheta_2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{disc_dielett.png}}%
+    \put(0.55605739,0.25156088){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_{e2}$\end{tabular}}}}%
+    \put(0.55981683,0.07973784){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_{e1}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{disc_dielett.png}}%
+    \put(0.12519379,0.09818907){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
+    \put(0.18900539,0.11230648){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vartheta_1$\end{tabular}}}}%
+    \put(0.24949303,0.25127762){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vartheta_2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{disc_dielett.png}}%
+    \put(0.33658635,0.1007419){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$B$\end{tabular}}}}%
+    \put(0.33440652,0.23613887){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
+    \put(0.12415749,0.23241227){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$D$\end{tabular}}}}%
+    \put(0.03504561,0.24902489){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_{e2}$\end{tabular}}}}%
+    \put(0.03923031,0.07622278){\color[rgb]{0,0,0}\transparent{0.99859899}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_{e1}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{disc_dielett.png}}%
+    \put(0.26862382,0.27824977){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_2$\end{tabular}}}}%
+    \put(0.0890242,0.13411817){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_1$\end{tabular}}}}%
+    \put(0.09442614,0.18214699){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_{1t}$\end{tabular}}}}%
+    \put(0.18405016,0.01788957){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_{1t} = \vec{E}_{2t}$\end{tabular}}}}%
+    \put(0.27666548,0.18366553){\color[rgb]{0,0,0}\transparent{0.98818499}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{E}_{2t}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{disc_dielett.png}}%
+  \end{picture}%
+\endgroup%

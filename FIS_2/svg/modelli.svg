@@ -23,12 +23,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.9362514"
-     inkscape:cx="92.294549"
-     inkscape:cy="123.96759"
+     inkscape:zoom="4.1524866"
+     inkscape:cx="121.37306"
+     inkscape:cy="106.08102"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
-     inkscape:window-x="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -93,6 +93,25 @@
          d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
          id="path4-6-2-9-1-1-5" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowTriangleStylized-0-6-8-7-39-7-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Stylized triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
+         id="path4-6-2-9-1-1-5-6" />
+    </marker>
   </defs>
   <g
      inkscape:label="Livello 1"
@@ -104,6 +123,11 @@
        id="path6-5-2-4-3-9-5"
        sodipodi:nodetypes="cc" />
     <path
+       style="fill:#2800b6;fill-opacity:1;stroke:#2800b6;stroke-width:0.331511;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized-0-6-8-7-39-7-3)"
+       d="m 12.978959,19.374131 17.173573,0.101045"
+       id="path6-5-2-4-3-9-5-3"
+       sodipodi:nodetypes="cc" />
+    <path
        style="fill:none;fill-opacity:0.988185;stroke:#727272;stroke-width:0.15;stroke-dasharray:0.6, 1.2;stroke-dashoffset:0;stroke-opacity:0.988767"
        d="M 13.401171,23.070497 H 28.188469"
        id="path1-0" />
@@ -112,5 +136,15 @@
        d="M 23.399948,16.746022 H 13.25152"
        id="path2"
        sodipodi:nodetypes="cc" />
+    <path
+       d="m 46.655919,13.640596 h 0.628536 v 0.628536 h 0.191839 v -0.628536 h 0.628526 v -0.189578 h -0.628526 v -0.628535 h -0.191839 v 0.628535 h -0.628536 z"
+       id="text7-4-2-1-6-0-2"
+       style="font-size:1.74281px;fill-opacity:0.988185;stroke:#000000;stroke-width:0.0924414;stroke-opacity:0.988767"
+       aria-label="+" />
+    <path
+       d="M 49.507076,13.577551 H 48.89885 v 0.185059 h 0.608226 z"
+       id="text7-6-7-0-5-4-2-4-2"
+       style="font-size:1.74281px;fill:#b27676;fill-opacity:1;stroke:#b27676;stroke-width:0.0924414;stroke-opacity:1"
+       aria-label="-" />
   </g>
 </svg>
