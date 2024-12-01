@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.2)  7 NOV 2024 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.2)  24 NOV 2024 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,28 +1378,28 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 
 
 [4] (./img/gauss_subs_1.pdf_tex
-<./img/gauss_subs_1.pdf, id=236, page=1, 376.40622pt x 112.92188pt>
+<./img/gauss_subs_1.pdf, id=241, page=1, 376.40622pt x 112.92188pt>
 File: ./img/gauss_subs_1.pdf Graphic file (type pdf)
 <use ./img/gauss_subs_1.pdf, page 1>
 Package pdftex.def Info: ./img/gauss_subs_1.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
-<./img/gauss_subs_1.pdf, id=237, page=2, 376.40622pt x 112.92188pt>
+<./img/gauss_subs_1.pdf, id=242, page=2, 376.40622pt x 112.92188pt>
 File: ./img/gauss_subs_1.pdf Graphic file (type pdf)
 <use ./img/gauss_subs_1.pdf, page 2>
 Package pdftex.def Info: ./img/gauss_subs_1.pdf , page2 used on input line 60.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
 ) (./img/gauss_1.pdf_tex
-<./img/gauss_1.pdf, id=238, page=1, 376.40622pt x 116.68594pt>
+<./img/gauss_1.pdf, id=243, page=1, 376.40622pt x 116.68594pt>
 File: ./img/gauss_1.pdf Graphic file (type pdf)
 <use ./img/gauss_1.pdf, page 1>
 Package pdftex.def Info: ./img/gauss_1.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 376.4062pt x 116.69453pt.
-<./img/gauss_1.pdf, id=239, page=2, 376.40622pt x 116.68594pt>
+<./img/gauss_1.pdf, id=244, page=2, 376.40622pt x 116.68594pt>
 File: ./img/gauss_1.pdf Graphic file (type pdf)
 <use ./img/gauss_1.pdf, page 2>
 Package pdftex.def Info: ./img/gauss_1.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 376.4062pt x 116.69453pt.
-<./img/gauss_1.pdf, id=240, page=3, 376.40622pt x 116.68594pt>
+<./img/gauss_1.pdf, id=245, page=3, 376.40622pt x 116.68594pt>
 File: ./img/gauss_1.pdf Graphic file (type pdf)
 <use ./img/gauss_1.pdf, page 3>
 Package pdftex.def Info: ./img/gauss_1.pdf , page3 used on input line 64.
@@ -1443,26 +1443,26 @@ Overfull \hbox (3.9325pt too wide) in paragraph at lines 412--412
  []
 
 (./img/cilindro_piano.pdf_tex
-<./img/cilindro_piano.pdf, id=277, page=1, 376.40622pt x 112.92188pt>
+<./img/cilindro_piano.pdf, id=282, page=1, 376.40622pt x 112.92188pt>
 File: ./img/cilindro_piano.pdf Graphic file (type pdf)
 <use ./img/cilindro_piano.pdf, page 1>
 Package pdftex.def Info: ./img/cilindro_piano.pdf , page1 used on input line 57
 .
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
 ) (./img/lastre_piastra.pdf_tex
-<./img/lastre_piastra.pdf, id=278, page=1, 429.10312pt x 150.5625pt>
+<./img/lastre_piastra.pdf, id=283, page=1, 429.10312pt x 150.5625pt>
 File: ./img/lastre_piastra.pdf Graphic file (type pdf)
 <use ./img/lastre_piastra.pdf, page 1>
 Package pdftex.def Info: ./img/lastre_piastra.pdf , page1 used on input line 56
 .
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
-<./img/lastre_piastra.pdf, id=279, page=2, 429.10312pt x 150.5625pt>
+<./img/lastre_piastra.pdf, id=284, page=2, 429.10312pt x 150.5625pt>
 File: ./img/lastre_piastra.pdf Graphic file (type pdf)
 <use ./img/lastre_piastra.pdf, page 2>
 Package pdftex.def Info: ./img/lastre_piastra.pdf , page2 used on input line 58
 .
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
-<./img/lastre_piastra.pdf, id=280, page=3, 429.10312pt x 150.5625pt>
+<./img/lastre_piastra.pdf, id=285, page=3, 429.10312pt x 150.5625pt>
 File: ./img/lastre_piastra.pdf Graphic file (type pdf)
 <use ./img/lastre_piastra.pdf, page 3>
 Package pdftex.def Info: ./img/lastre_piastra.pdf , page3 used on input line 60
@@ -1473,17 +1473,17 @@ LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 )
 
 [8 <./img/cilindro_piano.pdf>] (./img/gauss_ABCD.pdf_tex
-<./img/gauss_ABCD.pdf, id=293, page=1, 165.61874pt x 116.68594pt>
+<./img/gauss_ABCD.pdf, id=298, page=1, 165.61874pt x 116.68594pt>
 File: ./img/gauss_ABCD.pdf Graphic file (type pdf)
 <use ./img/gauss_ABCD.pdf, page 1>
 Package pdftex.def Info: ./img/gauss_ABCD.pdf , page1 used on input line 62.
 (pdftex.def)             Requested size: 165.61874pt x 116.69098pt.
-<./img/gauss_ABCD.pdf, id=294, page=2, 165.61874pt x 116.68594pt>
+<./img/gauss_ABCD.pdf, id=299, page=2, 165.61874pt x 116.68594pt>
 File: ./img/gauss_ABCD.pdf Graphic file (type pdf)
 <use ./img/gauss_ABCD.pdf, page 2>
 Package pdftex.def Info: ./img/gauss_ABCD.pdf , page2 used on input line 65.
 (pdftex.def)             Requested size: 165.61874pt x 116.69098pt.
-<./img/gauss_ABCD.pdf, id=295, page=3, 165.61874pt x 116.68594pt>
+<./img/gauss_ABCD.pdf, id=300, page=3, 165.61874pt x 116.68594pt>
 File: ./img/gauss_ABCD.pdf Graphic file (type pdf)
 <use ./img/gauss_ABCD.pdf, page 3>
 Package pdftex.def Info: ./img/gauss_ABCD.pdf , page3 used on input line 67.
@@ -1502,7 +1502,7 @@ Package wrapfig Warning: Collision between wrapping environments on input line
 463.
 
 (./img/gauss_cilindro_vert.pdf_tex
-<./img/gauss_cilindro_vert.pdf, id=296, page=1, 143.03438pt x 116.68594pt>
+<./img/gauss_cilindro_vert.pdf, id=301, page=1, 143.03438pt x 116.68594pt>
 File: ./img/gauss_cilindro_vert.pdf Graphic file (type pdf)
 <use ./img/gauss_cilindro_vert.pdf, page 1>
 Package pdftex.def Info: ./img/gauss_cilindro_vert.pdf , page1 used on input li
@@ -1565,30 +1565,30 @@ pdfTeX warning: /opt/texlive/2024/bin/x86_64-linux/pdflatex (file ./img/gauss_c
 ilindro_vert.pdf): PDF inclusion: multiple pdfs with page group included in a s
 ingle page
 >]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 500--500
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 501--501
  [][][][][][] 
  []
 
 (./img/condensatore_dielettrico.pdf_tex
-<./img/condensatore_dielettrico.pdf, id=335, page=1, 429.10312pt x 91.84312pt>
+<./img/condensatore_dielettrico.pdf, id=341, page=1, 429.10312pt x 91.84312pt>
 File: ./img/condensatore_dielettrico.pdf Graphic file (type pdf)
 <use ./img/condensatore_dielettrico.pdf, page 1>
 Package pdftex.def Info: ./img/condensatore_dielettrico.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 429.10312pt x 91.84427pt.
-<./img/condensatore_dielettrico.pdf, id=336, page=2, 429.10312pt x 91.84312pt>
+<./img/condensatore_dielettrico.pdf, id=342, page=2, 429.10312pt x 91.84312pt>
 File: ./img/condensatore_dielettrico.pdf Graphic file (type pdf)
 <use ./img/condensatore_dielettrico.pdf, page 2>
 Package pdftex.def Info: ./img/condensatore_dielettrico.pdf , page2 used on inp
 ut line 61.
 (pdftex.def)             Requested size: 429.10312pt x 91.84427pt.
-<./img/condensatore_dielettrico.pdf, id=337, page=3, 429.10312pt x 91.84312pt>
+<./img/condensatore_dielettrico.pdf, id=343, page=3, 429.10312pt x 91.84312pt>
 File: ./img/condensatore_dielettrico.pdf Graphic file (type pdf)
 <use ./img/condensatore_dielettrico.pdf, page 3>
 Package pdftex.def Info: ./img/condensatore_dielettrico.pdf , page3 used on inp
 ut line 64.
 (pdftex.def)             Requested size: 429.10312pt x 91.84427pt.
-<./img/condensatore_dielettrico.pdf, id=338, page=4, 429.10312pt x 91.84312pt>
+<./img/condensatore_dielettrico.pdf, id=344, page=4, 429.10312pt x 91.84312pt>
 File: ./img/condensatore_dielettrico.pdf Graphic file (type pdf)
 <use ./img/condensatore_dielettrico.pdf, page 4>
 Package pdftex.def Info: ./img/condensatore_dielettrico.pdf , page4 used on inp
@@ -1612,24 +1612,24 @@ pdfTeX warning: /opt/texlive/2024/bin/x86_64-linux/pdflatex (file ./img/condens
 atore_dielettrico.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 529--530
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
 
  []
 
 (./img/polarizzazione.pdf_tex
-<./img/polarizzazione.pdf, id=353, page=1, 429.10312pt x 100.12407pt>
+<./img/polarizzazione.pdf, id=359, page=1, 429.10312pt x 100.12407pt>
 File: ./img/polarizzazione.pdf Graphic file (type pdf)
 <use ./img/polarizzazione.pdf, page 1>
 Package pdftex.def Info: ./img/polarizzazione.pdf , page1 used on input line 56
 .
 (pdftex.def)             Requested size: 429.10312pt x 100.12534pt.
-<./img/polarizzazione.pdf, id=354, page=2, 429.10312pt x 100.12407pt>
+<./img/polarizzazione.pdf, id=360, page=2, 429.10312pt x 100.12407pt>
 File: ./img/polarizzazione.pdf Graphic file (type pdf)
 <use ./img/polarizzazione.pdf, page 2>
 Package pdftex.def Info: ./img/polarizzazione.pdf , page2 used on input line 58
 .
 (pdftex.def)             Requested size: 429.10312pt x 100.12534pt.
-<./img/polarizzazione.pdf, id=355, page=3, 429.10312pt x 100.12407pt>
+<./img/polarizzazione.pdf, id=361, page=3, 429.10312pt x 100.12407pt>
 File: ./img/polarizzazione.pdf Graphic file (type pdf)
 <use ./img/polarizzazione.pdf, page 3>
 Package pdftex.def Info: ./img/polarizzazione.pdf , page3 used on input line 60
@@ -1638,13 +1638,13 @@ Package pdftex.def Info: ./img/polarizzazione.pdf , page3 used on input line 60
 )
 
 [11]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 588--588
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 589--589
  [][][][][][] 
  []
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 606.
+(hyperref)                be the same. Added a new anchor on input line 607.
 
 
 
@@ -1659,54 +1659,54 @@ pdfTeX warning: /opt/texlive/2024/bin/x86_64-linux/pdflatex (file ./img/polariz
 zazione.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
 >] (./img/cubi.pdf_tex
-<./img/cubi.pdf, id=368, page=1, 429.10312pt x 150.5625pt>
+<./img/cubi.pdf, id=374, page=1, 429.10312pt x 150.5625pt>
 File: ./img/cubi.pdf Graphic file (type pdf)
 <use ./img/cubi.pdf, page 1>
 Package pdftex.def Info: ./img/cubi.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
-<./img/cubi.pdf, id=369, page=2, 429.10312pt x 150.5625pt>
+<./img/cubi.pdf, id=375, page=2, 429.10312pt x 150.5625pt>
 File: ./img/cubi.pdf Graphic file (type pdf)
 <use ./img/cubi.pdf, page 2>
 Package pdftex.def Info: ./img/cubi.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
-<./img/cubi.pdf, id=370, page=3, 429.10312pt x 150.5625pt>
+<./img/cubi.pdf, id=376, page=3, 429.10312pt x 150.5625pt>
 File: ./img/cubi.pdf Graphic file (type pdf)
 <use ./img/cubi.pdf, page 3>
 Package pdftex.def Info: ./img/cubi.pdf , page3 used on input line 62.
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
-<./img/cubi.pdf, id=371, page=4, 429.10312pt x 150.5625pt>
+<./img/cubi.pdf, id=377, page=4, 429.10312pt x 150.5625pt>
 File: ./img/cubi.pdf Graphic file (type pdf)
 <use ./img/cubi.pdf, page 4>
 Package pdftex.def Info: ./img/cubi.pdf , page4 used on input line 65.
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
 )
-Overfull \hbox (3.25232pt too wide) in paragraph at lines 640--641
+Overfull \hbox (3.25232pt too wide) in paragraph at lines 641--642
 [] []\T1/fnc/b/n/10 Po-lar-iz-zazione non uni-forme[] \T1/fnc/m/n/10 Pren-di-am
 o in con-sid-er-azione una po-lar-iz-zazione non uni-forme lungo
  []
 
 (./img/parall.pdf_tex
-<./img/parall.pdf, id=372, page=1, 429.10312pt x 150.5625pt>
+<./img/parall.pdf, id=378, page=1, 429.10312pt x 150.5625pt>
 File: ./img/parall.pdf Graphic file (type pdf)
 <use ./img/parall.pdf, page 1>
 Package pdftex.def Info: ./img/parall.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
-<./img/parall.pdf, id=373, page=2, 429.10312pt x 150.5625pt>
+<./img/parall.pdf, id=379, page=2, 429.10312pt x 150.5625pt>
 File: ./img/parall.pdf Graphic file (type pdf)
 <use ./img/parall.pdf, page 2>
 Package pdftex.def Info: ./img/parall.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
-<./img/parall.pdf, id=374, page=3, 429.10312pt x 150.5625pt>
+<./img/parall.pdf, id=380, page=3, 429.10312pt x 150.5625pt>
 File: ./img/parall.pdf Graphic file (type pdf)
 <use ./img/parall.pdf, page 3>
 Package pdftex.def Info: ./img/parall.pdf , page3 used on input line 68.
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
-<./img/parall.pdf, id=375, page=4, 429.10312pt x 150.5625pt>
+<./img/parall.pdf, id=381, page=4, 429.10312pt x 150.5625pt>
 File: ./img/parall.pdf Graphic file (type pdf)
 <use ./img/parall.pdf, page 4>
 Package pdftex.def Info: ./img/parall.pdf , page4 used on input line 70.
 (pdftex.def)             Requested size: 429.10312pt x 150.5644pt.
-<./img/parall.pdf, id=376, page=5, 429.10312pt x 150.5625pt>
+<./img/parall.pdf, id=382, page=5, 429.10312pt x 150.5625pt>
 File: ./img/parall.pdf Graphic file (type pdf)
 <use ./img/parall.pdf, page 5>
 Package pdftex.def Info: ./img/parall.pdf , page5 used on input line 72.
@@ -1748,25 +1748,25 @@ pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 680.
+(hyperref)                removing `math shift' on input line 681.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 680.
+(hyperref)                removing `math shift' on input line 681.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 680.
+(hyperref)                removing `math shift' on input line 681.
 
 
 
 [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 716.
+(hyperref)                removing `math shift' on input line 717.
 
 (./img/gauss_vettore_D.pdf_tex
-<./img/gauss_vettore_D.pdf, id=405, page=1, 429.10312pt x 150.5625pt>
+<./img/gauss_vettore_D.pdf, id=411, page=1, 429.10312pt x 150.5625pt>
 File: ./img/gauss_vettore_D.pdf Graphic file (type pdf)
 <use ./img/gauss_vettore_D.pdf, page 1>
 Package pdftex.def Info: ./img/gauss_vettore_D.pdf , page1 used on input line 5
@@ -1777,52 +1777,52 @@ Package pdftex.def Info: ./img/gauss_vettore_D.pdf , page1 used on input line 5
 [15 <./img/gauss_vettore_D.pdf>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 786.
+(hyperref)                be the same. Added a new anchor on input line 787.
 
 
-Overfull \hbox (1.97156pt too wide) in paragraph at lines 787--800
+Overfull \hbox (1.97156pt too wide) in paragraph at lines 788--801
 []$ $[]$
  []
 
 
 
 [16]
-Overfull \hbox (1.97157pt too wide) in paragraph at lines 811--828
+Overfull \hbox (1.97157pt too wide) in paragraph at lines 812--829
 []$ $[]$
  []
 
 (./img/disc_dielett.pdf_tex
-<./img/disc_dielett.pdf, id=421, page=1, 376.40622pt x 112.92188pt>
+<./img/disc_dielett.pdf, id=427, page=1, 376.40622pt x 112.92188pt>
 File: ./img/disc_dielett.pdf Graphic file (type pdf)
 <use ./img/disc_dielett.pdf, page 1>
 Package pdftex.def Info: ./img/disc_dielett.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
-<./img/disc_dielett.pdf, id=422, page=2, 376.40622pt x 112.92188pt>
+<./img/disc_dielett.pdf, id=428, page=2, 376.40622pt x 112.92188pt>
 File: ./img/disc_dielett.pdf Graphic file (type pdf)
 <use ./img/disc_dielett.pdf, page 2>
 Package pdftex.def Info: ./img/disc_dielett.pdf , page2 used on input line 62.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
-<./img/disc_dielett.pdf, id=423, page=3, 376.40622pt x 112.92188pt>
+<./img/disc_dielett.pdf, id=429, page=3, 376.40622pt x 112.92188pt>
 File: ./img/disc_dielett.pdf Graphic file (type pdf)
 <use ./img/disc_dielett.pdf, page 3>
 Package pdftex.def Info: ./img/disc_dielett.pdf , page3 used on input line 65.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
-<./img/disc_dielett.pdf, id=424, page=4, 376.40622pt x 112.92188pt>
+<./img/disc_dielett.pdf, id=430, page=4, 376.40622pt x 112.92188pt>
 File: ./img/disc_dielett.pdf Graphic file (type pdf)
 <use ./img/disc_dielett.pdf, page 4>
 Package pdftex.def Info: ./img/disc_dielett.pdf , page4 used on input line 68.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
-<./img/disc_dielett.pdf, id=425, page=5, 376.40622pt x 112.92188pt>
+<./img/disc_dielett.pdf, id=431, page=5, 376.40622pt x 112.92188pt>
 File: ./img/disc_dielett.pdf Graphic file (type pdf)
 <use ./img/disc_dielett.pdf, page 5>
 Package pdftex.def Info: ./img/disc_dielett.pdf , page5 used on input line 72.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
-<./img/disc_dielett.pdf, id=426, page=6, 376.40622pt x 112.92188pt>
+<./img/disc_dielett.pdf, id=432, page=6, 376.40622pt x 112.92188pt>
 File: ./img/disc_dielett.pdf Graphic file (type pdf)
 <use ./img/disc_dielett.pdf, page 6>
 Package pdftex.def Info: ./img/disc_dielett.pdf , page6 used on input line 78.
 (pdftex.def)             Requested size: 376.4062pt x 112.93019pt.
-<./img/disc_dielett.pdf, id=427, page=7, 376.40622pt x 112.92188pt>
+<./img/disc_dielett.pdf, id=433, page=7, 376.40622pt x 112.92188pt>
 File: ./img/disc_dielett.pdf Graphic file (type pdf)
 <use ./img/disc_dielett.pdf, page 7>
 Package pdftex.def Info: ./img/disc_dielett.pdf , page7 used on input line 84.
@@ -1862,51 +1862,60 @@ age
 >]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 885.
+(hyperref)                be the same. Added a new anchor on input line 886.
 
 
 
 [18]
 
 [19]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 957--957
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 958--958
  [][][][][][] 
  []
 
 
 
 [20]
-Overfull \hbox (3.9325pt too wide) in paragraph at lines 994--994
+Overfull \hbox (3.9325pt too wide) in paragraph at lines 996--996
  [][][][][][] 
  []
 
 
 
 [21]
+
+[22]
 Chapter 2.
 
 
-[22
+[23
 
 ]
 Chapter 3.
 
 
-[23
+[24
 
 ] (./fisica2.aux (./titlepage.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
-Package rerunfilecheck Info: File `fisica2.out' has not changed.
-(rerunfilecheck)             Checksum: E960BD77AFC92FAB0C00A6FDE4886555;8028.
+
+
+Package rerunfilecheck Warning: File `fisica2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `fisica2.out':
+(rerunfilecheck)             Before: D393422B8845E2CCCEFBA44F364F872D;8249
+(rerunfilecheck)             After:  5692BA587DDE6A629DC9C17F731C04A5;8371.
  ) 
 Here is how much of TeX's memory you used:
- 38602 strings out of 473579
- 904412 string characters out of 5731252
+ 38607 strings out of 473579
+ 904488 string characters out of 5731252
  1785569 words of memory out of 5000000
- 60718 multiletter control sequences out of 15000+600000
+ 60720 multiletter control sequences out of 15000+600000
  615338 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,17n,136p,727b,2225s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1921,10 +1930,10 @@ e1/public/amsfonts/symbols/msam10.pfb></opt/texlive/2024/texmf-dist/fonts/type1
 /urw/ncntrsbk/uncb8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/ncntrsbk
 /uncbi8a.pfb></opt/texlive/2024/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
 </opt/texlive/2024/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on fisica2.pdf (24 pages, 12843339 bytes).
+Output written on fisica2.pdf (25 pages, 12845492 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 412 compressed objects within 5 object streams
- 78 named destinations out of 1000 (max. 500000)
- 510 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 423 compressed objects within 5 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
 

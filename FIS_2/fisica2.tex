@@ -484,6 +484,7 @@ da cui concludiamo che il campo elettrico \(\vec{E}\) subisce una discontinuità
 	\viola{\vec{E}_{2} - \vec{E}_{1} = \frac{\sigma}{\varepsilon_0}\hat{u}_n}
 \end{equation}
 
+\subsection{Condensatori}
 
 
 \section{Dielettrici}
@@ -987,14 +988,41 @@ Poiché la relazione deve valere qualunque sia il volume \(\tau\), questa è ver
 	\viola{\vec{\nabla} \cdot \vec{j} + \frac{\partial\rho}{\partial t} = 0}
 \end{equation}
 \definizione{Corrente stazionaria}{
-Una corrente è detta stazionara se è nulla la divergenza di flusso di corrente, ovvero se "entra tanta corrente quanta ne esce" da una superficie chiusa interna al conduttore.
+Una corrente è detta stazionara se vale \(\partial q/\partial t = 0\), ovvero se "entra tanta corrente quanta ne esce". Questo fa sì che si annulli la divergenza di flusso di corrente.
 \begin{equation}
 	\vec{\nabla} \cdot \vec{j} = 0
 \end{equation}
+Il vettore densità di corrente \(\vec{j}\) in condizioni stazionarie è \textit{solenoidale}.
 }
-
-
+\subsection{Regime di corrente stazionaria}
+Il fatto che \(\vec{j}\) sia solenoidale in condizioni stazionarie è utile per mostrare una proprietà della corrente stazionaria: possiamo far vedere che preso un conduttore percorso da corrente, in condizioni stazionarie l'intensità di corrente è la stessa attraverso ogni sezione del conduttore.
+\begin{align*}
+	\oint \vec{j}\cdot \hat{u}_n \,\ d\Sigma =& 0 \\
+	=& \int_{\Sigma_1}\vec{j}_1\cdot \hat{u}_1 \,\ d\Sigma - \int_{\Sigma_2}\vec{j}_2\cdot \hat{u}_2 \,\ d\Sigma \\
+\end{align*}
+da cui
+\[
+i_1 = i_2
+\]
 \subsection{Conduzione elettrica}
+Prendiamo una carica \(e\) di massa \(m\) immersa in un campo elettrico che si muove con velocità iniziale \(\vec{v}_{t_0} = \vec{v}_i\). La carica è accelerata con un'accelerazione \(\vec{a}\):
+\[
+\vec{F} = -e\vec{E} \qquad \qquad \vec{F} = m \vec{a} \qquad \qquad \vec{a} = -\frac{e\vec{E}}{m}
+\]
+Al tempo \(t_0 + dt\) la carica subisce l'effetto dell'accelerazione
+\[
+\vec{v}_{t_0+dt} = \vec{v}_i -\frac{e\vec{E}}{m}t
+\]
+Definiamo la \textit{velocità di deriva} la media delle componenti delle velocità degli elettroni nella direzione e nel verso della corrente
+\begin{align*}
+	\frac{1}{N}\sum_i \vec{v}_{t_0 + dt} =& \frac{1}{N}\sum_i \vec{v}_i - \frac{1}{N}\sum_i\frac{e\vec{E}}{m}t \\
+	=& \frac{e\vec{E}}{m}t
+\end{align*}
+\begin{center}
+	\textcolor{red}{}
+\end{center}
+
+
 \subsection{Forza elettromotrice e generatori}
 \subsection{Carica e scarica di un condensatore}
 
