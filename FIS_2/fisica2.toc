@@ -1,41 +1,70 @@
-\contentsline {chapter}{\numberline {1}Elettrostatica}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Campo elettrostatico}{2}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Dipolo elettrico}{2}{subsection.1.1.1}%
-\contentsline {subsubsection}{Potenziale del dipolo}{2}{equation.1.1.1}%
-\contentsline {subsubsection}{Campo elettrico del dipolo}{3}{equation.1.1.2}%
-\contentsline {section}{\numberline {1.2}Lavoro elettrico}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Tensione elettrica e forza elettromotrice}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Potenziale elettrostatico ed energia potenziale}{4}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Flusso di campo elettrico}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Rotore di un campo vettoriale}{6}{subsection.1.3.1}%
-\contentsline {subsubsection}{Teorema di Stokes}{7}{section*.2}%
-\contentsline {subsection}{\numberline {1.3.2}Divergenza di un campo vettoriale}{7}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Conduttori}{8}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Discontinuità di carica nei conduttori}{9}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Condensatori}{10}{subsection.1.4.2}%
-\contentsline {section}{\numberline {1.5}Dielettrici}{10}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Polarizzazione}{11}{subsection.1.5.1}%
-\contentsline {subsubsection}{Campo elettrostatico prodotto da un dielettrico polarizzato}{12}{equation.1.5.10}%
-\contentsline {paragraph}{Polarizzazione uniforme}{13}{section*.3}%
-\contentsline {paragraph}{Polarizzazione non uniforme}{13}{equation.1.5.11}%
-\contentsline {subsubsection}{Calcolo di \(V\) e di \(\vec {E}\) conoscendo \(\vec {P}\)}{14}{equation.1.5.12}%
-\contentsline {subsection}{\numberline {1.5.2}Induzione dielettrica}{14}{subsection.1.5.2}%
-\contentsline {subsubsection}{Il flusso di \(\vec {D}\) dipende solo dalle cariche libere}{15}{equation.1.5.13}%
-\contentsline {subsection}{\numberline {1.5.3}Dielettrici isotropi e anisotropi}{16}{subsection.1.5.3}%
-\contentsline {subsubsection}{Isotropi}{16}{section*.4}%
-\contentsline {subsubsection}{Anisotropi}{17}{section*.4}%
-\contentsline {subsection}{\numberline {1.5.4}Discontinuità di carica nei dielettrici}{17}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}Energia elettrostatica nei dielettrici}{18}{subsection.1.5.5}%
-\contentsline {subsection}{\numberline {1.5.6}Meccanismi di polarizzazione nei dielettrici}{18}{subsection.1.5.6}%
-\contentsline {subsubsection}{Polarizzazione elettronica in un gas}{18}{section*.5}%
-\contentsline {subsubsection}{Polarizzazione per orientamento in un gas}{18}{section*.5}%
-\contentsline {section}{\numberline {1.6}Corrente elettrica}{19}{section.1.6}%
+\contentsline {chapter}{\numberline {1}Elettrostatica}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Campo elettrostatico}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Dipolo elettrico}{3}{subsection.1.1.1}%
+\contentsline {subsubsection}{Potenziale del dipolo}{3}{equation.1.1.1}%
+\contentsline {subsubsection}{Campo elettrico del dipolo}{4}{equation.1.1.2}%
+\contentsline {section}{\numberline {1.2}Lavoro elettrico}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Tensione elettrica e forza elettromotrice}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Potenziale elettrostatico ed energia potenziale}{5}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Flusso di campo elettrico}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Rotore di un campo vettoriale}{7}{subsection.1.3.1}%
+\contentsline {subsubsection}{Teorema di Stokes}{8}{section*.2}%
+\contentsline {subsection}{\numberline {1.3.2}Divergenza di un campo vettoriale}{8}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Conduttori}{9}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Discontinuità di carica nei conduttori}{10}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Condensatori}{11}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Dielettrici}{11}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Polarizzazione}{12}{subsection.1.5.1}%
+\contentsline {subsubsection}{Campo elettrostatico prodotto da un dielettrico polarizzato}{13}{equation.1.5.10}%
+\contentsline {paragraph}{Polarizzazione uniforme}{14}{section*.3}%
+\contentsline {paragraph}{Polarizzazione non uniforme}{14}{equation.1.5.11}%
+\contentsline {subsubsection}{Calcolo di \(V\) e di \(\vec {E}\) conoscendo \(\vec {P}\)}{15}{equation.1.5.12}%
+\contentsline {subsection}{\numberline {1.5.2}Induzione dielettrica}{15}{subsection.1.5.2}%
+\contentsline {subsubsection}{Il flusso di \(\vec {D}\) dipende solo dalle cariche libere}{16}{equation.1.5.13}%
+\contentsline {subsection}{\numberline {1.5.3}Dielettrici isotropi e anisotropi}{17}{subsection.1.5.3}%
+\contentsline {subsubsection}{Isotropi}{17}{section*.4}%
+\contentsline {subsubsection}{Anisotropi}{18}{section*.4}%
+\contentsline {subsection}{\numberline {1.5.4}Discontinuità di carica nei dielettrici}{18}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Energia elettrostatica nei dielettrici}{19}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Meccanismi di polarizzazione nei dielettrici}{19}{subsection.1.5.6}%
+\contentsline {subsubsection}{Polarizzazione elettronica in un gas}{19}{section*.5}%
+\contentsline {subsubsection}{Polarizzazione per orientamento in un gas}{19}{section*.5}%
+\contentsline {section}{\numberline {1.6}Corrente elettrica}{20}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}Legge di conservazione della carica}{20}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1.6.2}Regime di corrente stazionaria}{21}{subsection.1.6.2}%
 \contentsline {subsection}{\numberline {1.6.3}Conduzione elettrica}{21}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {1.6.4}Forza elettromotrice e generatori}{22}{subsection.1.6.4}%
-\contentsline {subsection}{\numberline {1.6.5}Carica e scarica di un condensatore}{22}{subsection.1.6.5}%
-\contentsline {chapter}{\numberline {2}Magnetismo}{23}{chapter.2}%
-\contentsline {section}{\numberline {2.1}title}{23}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Appendice}{24}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Precisazioni sulle definizioni di potenziale elettrostatico ed energia potenziale}{24}{section.3.1}%
+\contentsline {subsection}{\numberline {1.6.4}Forza elettromotrice e generatori}{23}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}Carica e scarica di un condensatore}{23}{subsection.1.6.5}%
+\contentsline {chapter}{\numberline {2}Magnetismo}{24}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Campo magnetico}{24}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Flusso di campo magnetico}{24}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Forza di Lorentz}{24}{subsection.2.1.2}%
+\contentsline {subsubsection}{Forza esercitata su un filo percorso da corrente}{24}{equation.2.1.3}%
+\contentsline {subsubsection}{Campo magnetico prodotto da una carica in moto}{25}{equation.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.3}Momenti e applicazioni del flusso}{25}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Effetto Hall}{26}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Legge di Laplace e legge di Ampére}{26}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Proprietà magnetiche della materia}{27}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Magnetizzazione}{27}{subsection.2.2.1}%
+\contentsline {paragraph}{Definizione del vettore magnetizzazione}{28}{section*.6}%
+\contentsline {subsection}{\numberline {2.2.2}Correnti ampériane}{28}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Il campo \(\vec {H}\)}{28}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Discontinuità dei campi tra due mezzi magnetizzati}{28}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Campi elettrici e magnetici variabili nel tempo}{28}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Induzione elettromagnetica}{28}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Correnti sinusoidali}{29}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Autonduzione}{29}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Energia magnetica}{30}{subsection.2.3.4}%
+\contentsline {paragraph}{Chiusura circuito}{30}{section*.7}%
+\contentsline {paragraph}{Apertura circuito}{30}{equation.2.3.14}%
+\contentsline {subsubsection}{Generalizzazione}{30}{equation.2.3.15}%
+\contentsline {subsubsection}{Applicazione nel ciclo di isteresi}{31}{equation.2.3.16}%
+\contentsline {section}{\numberline {2.4}Applicazioni in alcuni macchinari}{31}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Spettrometro di massa}{31}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Selettore di velocità}{31}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Ciclotrone}{31}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Betatrone}{31}{subsection.2.4.4}%
+\contentsline {chapter}{\numberline {3}Appendice}{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Precisazioni sulle definizioni di potenziale elettrostatico ed energia potenziale}{32}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Calcoli di campi magnetici}{32}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Circuiti}{32}{section.3.3}%

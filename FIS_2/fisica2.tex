@@ -558,7 +558,7 @@ L'atomo diventa quindi ben descrivibile se pensato come un dipolo; chiamiamo \(\
 \]
 parallelo e concorde al vettore campo elettrico.
 
-\paragraph*{Polarizzazione per orientamento} 
+\paragraph*{Polarizzazione per orientamento} \label{orient}
 Esistono sostanze le cui molecole presentano un momento di dipolo intrinseco: si tratta di molecole poliatomiche la cui distribuzione delle cariche è tale che il centro delle cariche negative non coincida quello delle cariche positive. 
 
 L'acqua è una delle molecole con valore molto maggiore della norma. Se non è presente nessun campo elettrico i singoli dipoli sono orientati casualmente per via degli urti dovuti al moto di agitazione termica e il momento totale del sistema macroscopico è nullo.se è presente un campo elettrico esterno, i momenti di dipolo si orientano parzialmente paralleli ad esso e il loro valore medio è quindi diverso da zero.
@@ -579,12 +579,13 @@ Prendiamo in considerazione un volumetto \(d\tau\) contenente \(dN\) atomi/molec
 \vec{P} =\frac{\Delta \vec{p}}{\Delta\tau} = \frac{\Delta N}{\Delta \tau}\vec{p}_m
 \]
 più precisamente come il limite per \(\tau \to 0\)
+\[
+\vec{P} = \lim_{\Delta\tau\to 0}\frac{\Delta \vec{p}}{\Delta\tau} = \lim_{\Delta\tau\to 0}\frac{\Delta N}{\Delta \tau}\vec{p}_m
+\]
 \begin{equation}
-\viola{\vec{P} = \lim_{\Delta\tau\to 0}\frac{\Delta \vec{p}}{\Delta\tau}} = \lim_{\Delta\tau\to 0}\frac{\Delta N}{\Delta \tau}\vec{p}_m
+\viola{\vec{P}= \frac{d \vec{p}}{d\tau}} \qquad \qquad	\viola{\vec{P} = n\vec{p}_m}
 \end{equation}
-
-
-che chiamiamo \textbf{vettore di polarizzazione} e dove \(n\) è il numero atomi/molecole per unità di volume. 
+dove \(n\) è il numero atomi/molecole per unità di volume. 
 \definizione{Polarizzazione elettrica (Wikipedia)}{
 La polarizzazione elettrica, in fisica, descrive la \textit{formazione di dipoli elettrici} all'interno di un materiale, costituiti dalla carica elettrica posseduta dagli atomi e dalle molecole di cui esso è composto, in seguito all'applicazione di un campo elettrico. La polarizzazione elettrica si manifesta in particolare nei materiali dielettrici, e genera la presenza di un campo elettrico aggiuntivo all'interno di essi.}
 
@@ -888,42 +889,7 @@ riscriviamo l'uguaglianza \(D_{1n} = D_{2n}\) come
 La funzione che descrive il comportamento statistico di un insieme di 
 
 \newpage
-\esempio{espressione come condensatori in serie}{
-Quando andiamo ad inserire un dielettrico in un condensatore possiamo esprimere la capacità di quest'ultimo come la capacità equivalente di due condensatori, uno vuoto e l'altro riempito dal dielettrico.
 
-Partiamo con questi valori considerando il condensatore vuoto
-\[
-E_0 = \frac{\sigma_0}{\varepsilon_0} \qquad \qquad V_0 = E_0 h = \frac{\sigma_0 h}{\varepsilon_0} \qquad \qquad D = \varepsilon_0 E_0 = \sigma_0
-\]
-Inserendo il dielettrico troviamo il campo in esso \(\vec{E}_k\) e un nuovo potenzale \(V_k\):
-\[
-E_k = kE_0
-\]
-\[
-P = \varepsilon_0(k-1)\boldsymbol{E_k} = \varepsilon_0 \frac{k-1}{\boldsymbol{k}}\boldsymbol{E_0} = \frac{k-1}{k}D = \frac{k-1}{k}\sigma_0
-\]
-definiamo ora la differenza di potenziale \(V\)
-\begin{align*}
-	\boldsymbol{V= }\int_{0}^{h-s}\vec{E}_0\cdot d\vec{h} + \int_{0}^{s}\vec{E}_k\cdot d\vec{s} =& E_0(h-s) + E_ks \\
-	 =& \frac{\sigma_0}{\varepsilon_0}(h-s) + \frac{\sigma_0}{k\varepsilon_0}s \;\  = \;\ \frac{\sigma_0 h}{\varepsilon_0} \left(\frac{h-s}{h} + \frac{s}{hk}\right)\\
-	 =& \frac{\sigma_0 h}{\varepsilon_0} \left(\frac{k(h-s) + s}{hk} \right) \;\ = \;\ \frac{\sigma_0 h}{\varepsilon_0} \left(\frac{hk - sk +s}{hk} \right) \\
-	 =& \frac{\sigma_0 h}{\varepsilon_0} \left(1 + s\frac{1-k}{hk} \right) \;\ \boldsymbol{=} \;\ \boldsymbol{V_0\left(1 - \frac{k-1}{k}\frac{s}{h} \right)} \\
-\end{align*}
-La differenza di potenziale diminuisce linearmente con \(s\) ed è minima quando il dielettroc riempie completamente lo spazio tra le armature (\(s = h\)). In tal caso infatti il campo vale ovunque \(E = E_0/k\) e la differenza di potenzile, integrale di linea da \(0\) a \(h\) varrebbe \(V = E_0h/k = V_0/k\).
-
-Se andiamo a riscrivere il potenziale come
-\[
-V = \frac{\boldsymbol{\sigma_0}}{\varepsilon_0}\frac{\boldsymbol{\Sigma}}{\Sigma}\left(h - \frac{k-1}{k}s\right) = \frac{\boldsymbol{q}}{\varepsilon_0\Sigma}\left(h-\frac{k-1}{k}s\right)
-\]
-}
-dividendo per \(q\) carica libera sulle armature del condensatore si trova
-\[
-\frac{V}{q} = \frac{h-s}{\varepsilon_0 \Sigma} + \frac{s}{\varepsilon_0 k \Sigma}
-\]
-\[
-\frac{1}{C} = \frac{1}{C_0} + \frac{1}{C_k}
-\]
-La capacità equivalente del condensatore parzialmente riempito di dielettrico è uguale a quella di due condensatori in serie, uno vuoto e uno pieno di dielettrico.
 
 \section{Corrente elettrica}
 Per avere un moto di cariche tra due punti deve essere presente una differenza di potenziale. Occorre quindi che ci sia un meccanismo che mantenga questa differenza di potenziale: un \textit{generatore di forza elettromotrice} che compie lavoro così da vincere la resistenza del materiale conduttore.
@@ -1026,13 +992,417 @@ Definiamo la \textit{velocità di deriva} la media delle componenti delle veloci
 \subsection{Forza elettromotrice e generatori}
 \subsection{Carica e scarica di un condensatore}
 
+\esempio{espressione come condensatori in serie}{
+	Quando andiamo ad inserire un dielettrico in un condensatore possiamo esprimere la capacità di quest'ultimo come la capacità equivalente di due condensatori, uno vuoto e l'altro riempito dal dielettrico.
+	
+	Partiamo con questi valori considerando il condensatore vuoto
+	\[
+	E_0 = \frac{\sigma_0}{\varepsilon_0} \qquad \qquad V_0 = E_0 h = \frac{\sigma_0 h}{\varepsilon_0} \qquad \qquad D = \varepsilon_0 E_0 = \sigma_0
+	\]
+	Inserendo il dielettrico troviamo il campo in esso \(\vec{E}_k\) e un nuovo potenzale \(V_k\):
+	\[
+	E_k = kE_0
+	\]
+	\[
+	P = \varepsilon_0(k-1)\boldsymbol{E_k} = \varepsilon_0 \frac{k-1}{\boldsymbol{k}}\boldsymbol{E_0} = \frac{k-1}{k}D = \frac{k-1}{k}\sigma_0
+	\]
+	definiamo ora la differenza di potenziale \(V\)
+	\begin{align*}
+		\boldsymbol{V= }\int_{0}^{h-s}\vec{E}_0\cdot d\vec{h} + \int_{0}^{s}\vec{E}_k\cdot d\vec{s} =& E_0(h-s) + E_ks \\
+		=& \frac{\sigma_0}{\varepsilon_0}(h-s) + \frac{\sigma_0}{k\varepsilon_0}s \;\  = \;\ \frac{\sigma_0 h}{\varepsilon_0} \left(\frac{h-s}{h} + \frac{s}{hk}\right)\\
+		=& \frac{\sigma_0 h}{\varepsilon_0} \left(\frac{k(h-s) + s}{hk} \right) \;\ = \;\ \frac{\sigma_0 h}{\varepsilon_0} \left(\frac{hk - sk +s}{hk} \right) \\
+		=& \frac{\sigma_0 h}{\varepsilon_0} \left(1 + s\frac{1-k}{hk} \right) \;\ \boldsymbol{=} \;\ \boldsymbol{V_0\left(1 - \frac{k-1}{k}\frac{s}{h} \right)} \\
+	\end{align*}
+	La differenza di potenziale diminuisce linearmente con \(s\) ed è minima quando il dielettroc riempie completamente lo spazio tra le armature (\(s = h\)). In tal caso infatti il campo vale ovunque \(E = E_0/k\) e la differenza di potenzile, integrale di linea da \(0\) a \(h\) varrebbe \(V = E_0h/k = V_0/k\).
+	
+	Se andiamo a riscrivere il potenziale come
+	\[
+	V = \frac{\boldsymbol{\sigma_0}}{\varepsilon_0}\frac{\boldsymbol{\Sigma}}{\Sigma}\left(h - \frac{k-1}{k}s\right) = \frac{\boldsymbol{q}}{\varepsilon_0\Sigma}\left(h-\frac{k-1}{k}s\right)
+	\]
+	
+	dividendo per \(q\) carica libera sulle armature del condensatore si trova
+	\[
+	\frac{V}{q} = \frac{h-s}{\varepsilon_0 \Sigma} + \frac{s}{\varepsilon_0 k \Sigma}
+	\]
+	\[
+	\frac{1}{C} = \frac{1}{C_0} + \frac{1}{C_k}
+	\]
+	La capacità equivalente del condensatore parzialmente riempito di dielettrico è uguale a quella di due condensatori in serie, uno vuoto e uno pieno di dielettrico.}
+
 
 \chapter{Magnetismo}
+
+
+\section{Campo magnetico}
+
+
 \begin{equation}
-	\viola{\vec{F} = k_m\frac{q_{1}^{*}q_{2}^{*}}{r^2}} \qquad \qquad q^{*} = \text{ massa magnetica}
+	\viola{\vec{F} = k_m\frac{q_{1}^{*}q_{2}^{*}}{r^2}}
+\end{equation}
+dove \(q^{*} = \text{ massa magnetica}\).
+
+\subsection{Flusso di campo magnetico}
+All'interno di una superficie chiusa sono contenuti un numero intero di dipoli magnetici, ovvero nessuna superficie potrà mai tagliare un dipolo magnetico: non esistono monopoli magnetici.
+\[
+\oint_\Sigma \vec{B}\cdot \hat{u}_n \, d\Sigma = 0
+\]
+Ricordando che \(d\Phi(B) = \vec{\nabla} \cdot \vec{B} \, d\tau\) possiamo scrivere una delle quattro equazioni di maxwell
+\begin{equation}
+	\vec{\nabla} \cdot \vec{B}  = 0
+\end{equation}
+\subsection{Forza di Lorentz}
+Sperimentalmente si osserva che il campo magnetico esercita una forza su una carica in movimento pari a
+\begin{equation}
+	\viola{\vec{F}_L = q\vec{v} \wedge \vec{B}}
+\end{equation}
+che chiamiamo forza di Lorentz. Possiamo definire anche un campo di Lorentz
+\[
+\vec{E}_L = \frac{\vec{F}_L}{q} = \vec{v} \wedge \vec{B}
+\]
+\subsubsection{Forza esercitata su un filo percorso da corrente}
+Nel filo troviamo un insieme  di \(n\) cariche per parte infinitesima di volume \(d\tau = \Sigma ds\) confinate con densità di corrente \(\vec{j}\).
+
+Ogni carica \(-e\) è soggetta ad una forza di Lorentz pari a 
+\[
+\vec{F}_L = -e\vec{v}_d \wedge \vec{B}
+\] 
+Scriviamo la forza totale alla quale sono soggette le \(N = nd\tau = n\Sigma ds\) cariche presenti nel filo come
+\begin{align*}
+	d\vec{F} =& n d\tau \vec{F}_L  \\
+			 =& -\boldsymbol{n} d\tau \boldsymbol{e\vec{v}_d} \wedge \vec{B}  \\
+			 =&  -d\tau \boldsymbol{\vec{j}}\wedge \vec{B}
+\end{align*}
+Possiamo definire una forza di Lorentz per unità di volume del filo pari a 
+\[
+\vec{F}_\tau = \vec{j}\wedge \vec{B}
+\]
+\teorema{Seconda legge elementare di Laplace}{
+Sapendo che 
+\[
+\vec{j} \, d\tau = \vec{j}\Sigma \, d\vec{s} = i \, d\vec{s}
+\]
+possiamo definire una relazione tra la forza esercitata sul filo dal campo magnetico e la corrente \(i\) che scorre al suo interno:
+\begin{equation}
+	d\vec{F} = id\vec{s}\wedge \vec{B}
+\end{equation}
+}
+Notare che se il filo conduttore è curvilineo la forza non dipenda dal suo percorso; dato un conduttore che va da \(A\) a \(B\) questo è approssimabile a un filo rettilineo \(AB\).
+
+\teorema{Prima legge elementare di Laplace}{
+	In condizione di corrente stazionaria, sperimentalmente si ottiene che il campo magnetico prodotto da correnti in conduttori filifrmi vale
+	\begin{equation}
+		d\vec{B} = \frac{\mu_0}{4\pi} \frac{i \, ds}{r^2}\hat{u}_t \wedge \hat{u}_r
+	\end{equation}
+	con 
+	\[
+	k_m = 10^{-7} \frac{Tm}{A} = \frac{\mu_0}{4\pi}
+	\]
+}
+
+\subsubsection{Campo magnetico prodotto da una carica in moto}
+Sapendo che \(\vec{j} \, d\tau = i \, d\vec{s}\)
+\[
+d\vec{B} = \frac{\mu_0}{4\pi} \frac{i \, ds}{r^2}\hat{u}_t \wedge \hat{u}_r \quad  = \quad \frac{\mu_0}{4\pi} \frac{\vec{j} \wedge \hat{u}_r}{r^2} \, d\tau 
+\]
+sostituendo \(\vec{j} = n q \vec{v}_d\) otteniamo
+\[
+d\vec{B} = \quad \frac{\mu_0}{4\pi} \frac{q\vec{v}_d \wedge \hat{u}_r}{r^2} \, n \, d\tau 
+\]
+Notare che il campo magnetico misurato dipende dal sistema di riferimento nel quale le cariche hanno velocità \(\vec{v}_d\). Inoltre sapendo l'espressione del campo elettrico
+\[
+d\vec{E} = \frac{q}{4\pi \varepsilon_0}\hat{u}_r
+\]
+ci accorgiamo di poter esprimere il campo magnetico in funzione di \(\vec{E}\):
+\begin{equation}
+	\viola{\vec{B} = \varepsilon_0 \mu_0 \vec{v}\wedge\vec{E}} = \frac{1}{c^2} \vec{v}\wedge\vec{E}
 \end{equation}
 
-\section{title}
+
+
+
+\subsection{Momenti e applicazioni del flusso}
+Consideriamo una spira rettangolare di lati \(a\) e \(b\) percorsa dalla corrente \(i\) e immersa nel campo magnetico \(\vec{B}\) uniforme. Abbiamo due forze uguali e contrarie che formano una coppia di braccio \(b\sin\vartheta\) e di modulo \(F = i \vec{a}\wedge\vec{B} = i a B\) che generano un momento meccanico \(\tau\)
+\begin{align*}
+	\tau = b\sin\vartheta F =& \boldsymbol{b}\sin\vartheta i \boldsymbol{a} B \\
+	                     =& i\boldsymbol{\Sigma}B\sin\vartheta
+\end{align*}
+A partire dal momento meccanico definiamo un \textit{momento magnetico} della spira \(\vec{\mu} = i\Sigma\hat{u}_n\)
+\[
+d\vec{\tau} = d\vec{\mu}\wedge\vec{B}
+\]
+
+\teorema{Principio di equivalenza di Ampére}{
+Una spira di area \(d\Sigma\) precorsa dalla corrente \(i\) equivale, in relazione agli effetti che un campo magnetico esercita su di essa, ad un dipolo magnetico perpendicolare al piano della spira e orientato al verso del corrente
+\begin{equation}
+	d\vec{\mu} = i \, d\Sigma \hat{u}_n
+\end{equation}}
+Nel caso in cui il campo magnetico \(\vec{B}\) anche se non uniforme assume lo stesso valore su tutti i punti della superficie \(\Sigma\). Per la spira (o dipolo) si definisce un'energia potenziale
+\begin{align*}
+	dU =& -d\vec{\mu}\cdot\vec{B} \\
+	   =& -i \, d\Sigma \hat{u}_n \cdot \vec{B} \\
+	   =& -i\vec{B}\cdot \hat{u}_n  d\Sigma
+\end{align*}
+\begin{equation}
+	\viola{dU =-i \, d\Phi(\vec{B})}
+\end{equation}
+per la quale sussiste la relazione
+\[
+\tau= - \frac{dU}{d\vartheta}
+\]
+Dall'espressione dell'energia potenziale possiaom esprimere la forza come 
+\[
+\vec{F} = -\vec{\nabla} U \qquad  \to \qquad \vec{F} = i \, \nabla\Phi(\vec{B})
+\]
+\subsection{Effetto Hall}
+Prendiamo in considerazione un conduttore a forma di nastro sottile di sezione \(\Sigma = ab\) percorso da una corrente \(i\) e con \(\vec{j} = (i/ab) \hat{u}_x = nq\vec{v}_d\). Il nastro è investito da un campo magnetico \(\vec{B}\), su ciascun portatore di carica agisce la forza di Lorentz
+\[
+\vec{F}_L = q\vec{v}_b \wedge \vec{B} \qquad \to \qquad \vec{E}_{em} = \vec{v}_b \wedge \vec{B}
+\]
+Questo è un aspetto molto importante della forza magnetica su una carica in moivmento, la qale permetto in ogni caso di definire un acmpo elettrico di origine magnetica che chiamiamo \textit{campo elettromotore} \(\vec{E}_{em}\).
+
+Il campo elettromotore provoca una separazione delle cariche positive dalle cariche negative, fatto che genere un secondo campo elettrostatico \(\vec{E}_H\) detto \textit{campo di Hall} che si oppone a un ulteriore accumulo.
+
+\subsection{Legge di Laplace e legge di Ampére}
+Consideriamo un filo rettilineo percorso dalla corrente \(i\) che produce  il capo magnetico 
+\[
+\vec{B} = \frac{\mu_0 i}{2\pi r} \hat{u}_\vartheta
+\]
+Preso un tratto infinitesimo \(d\vec{s}\) di una circonferenza che circonda il filo e calcoliamo il prodotto scalare \(\vec{B}\cdot d\vec{s}\):
+\begin{gather*}
+	\vec{B}\cdot d\vec{s} = \frac{\mu_0 i}{2\pi r} \hat{u}_\vartheta \cdot d\vec{s} = \frac{\mu_0 i}{2\pi\boldsymbol{ r}} \, \boldsymbol{ds} = \frac{\mu_0 i}{2\pi} \, \boldsymbol{d\vartheta} \\
+	\int_P^Q \vec{B}\cdot d\vec{s} =  \frac{\mu_0 i}{2\pi} \int_P^Q \, d\vartheta =  \frac{\mu_0 i}{2\pi} \vartheta
+\end{gather*}
+Notiamo che l'integrale dipende solo dall'angolo \(\vartheta\) sotteso all'arco \(PQ\). Se calcoliamo l'integrale lungo una curva di senso opposto tra gli stessi estremi \(P\) e \(Q\) otteniamo il risultato opposto. Se andiamo a calclare l'integrale lungo la somma delle due curve si hanno due risultati differenti a seconda che la curva chiusa concateni o meno la corrente \(i\):
+\[
+\oint_{C_1 + C_2} \frac{\mu_0 i}{2\pi} \, d\vartheta = 
+\left\{\begin{array}{lr}
+	\frac{\mu_0 i}{2\pi}2\pi =\boldsymbol{ \mu_0 i} & \text{se la curva concatena } i\\ \\
+	\frac{\mu_0 i}{2\pi}\vartheta - \frac{\mu_0 i}{2\pi}\vartheta = \boldsymbol{0} & \text{se la curva non concatena } i
+\end{array}\right.
+\]
+
+\teorema{Legge di Ampére}{
+La circiutazione del campo magnetico attraverso una linea chiusa è uguale a \(\mu_0\) per la somma algebrica delle correti concatenate
+\begin{equation}
+	\oint_\gamma \vec{B}\cdot d\vec{s} = \mu_0 i
+\end{equation}
+}
+Evidenziamo il fatto che il campo magnetico in questione è generato da \textit{tutte} le correnti, anche quelle non concatenate, tuttavia queste non contrubuiscono alla circuitazione del campo magnetico.
+
+Il risultato è reso più evidente se esprimiamo \(i\) in funzione della sua densità di corrente: \(i = \vec{j}\cdot \hat{u}_n \, d\Sigma\) dove \(\Sigma\) e una qualsiasi superficie che poggia su \(\gamma\):
+\[
+\oint _\gamma \vec{B}\cdot d\vec{s} = \mu_0 \oint_\Sigma \vec{j}\cdot \hat{u}_n \, d\Sigma
+\]
+dove è evidente che tutte le correnti "esterne" alla superficie non contribuiscono al calcolo dell'integrale.
+
+Il teorema di Stokes permette di trasformare la circuitazione lungo \(\gamma\) di \(\vec{B}\) nel flusso del rotore di \(\vec{B}\) attraverso \(\Sigma\):
+\[
+\int_\Sigma (\vec{\nabla}\wedge\vec{B})\cdot \hat{u}_n \, d\Sigma \quad = \quad \mu_0 \int_\Sigma \vec{j}\cdot \hat{u}_n \, d\Sigma
+\]
+da cui
+\begin{equation}
+	\viola{\vec{\nabla}\wedge\vec{B} = \mu_0 \vec{j}}
+\end{equation}
+
+
+\section{Proprietà magnetiche della materia}
+Prendiamo in esame un corpo di un certo materiale investito dal campo magnetico di un solenoide. Si nota sperimentalmente in base al materiale di cui è costituito il corpo questo viene respinto e attratto.
+Chiamiamo \textit{diamagnetici} i materiali che vengono debolmente respinti e \textit{paramagnetici} quelli che vengono debolmente attratti.
+
+Il materiale, investito dal campo magnetico \(\vec{B}\), acquisisce un momento di dipolo \(\vec{\mu}\) proporzionale a \(\vec{B}\):
+\[
+\begin{array}{rc}
+	\text{Diamagnetici: } & \vec{\mu} = - |k| \vec{B} \\
+	\text{Paramagnetici: } & \vec{\mu} = + |k| \vec{B}
+\end{array}
+\]
+\subsection{Magnetizzazione}
+Il moto delgi elettroni intorno al nucle piò essere assimilato a correnti microscopiche alle quali è associato un momento magnetico (ricordiamo che una spira percorsa da corrente, in relazione agli effetti che un campo magnetico esercita su di essa, equivale a un dipolo magnetico perpendicolare alla normale della spira). Nella gran parte dei materiali i momenti magnetici si compensano e l'atomo non ha momento magnetico.
+
+Chiamiamo \textit{diamagnetici} i materiali nei quali, se perturbati da un campo magnnetico, si genera un momento magnetico opposto al campo esterno. Si dicono  \textit{paramagnetici} i materiali nei quali si genera un momento magnetico concorde al campo esterno. (Il concetto è simile alla polarizzazione per orientamento nei dielettrici \ref{orient}). Per ultimi chiamiamo \textit{ferromagnetici}  i materiali ai quali è sufficiente un campo magnetico esterno molto debole per ottenere un'orientazione quasi completa dei momenti magnetici.
+
+Possiamo definire un momento magnetico medio \(\vec{\mu}_m\) orientato parallelamente a \(\vec{B}\).
+
+\paragraph{Definizione del vettore magnetizzazione}
+Prendiamo in considerazione un volumetto \(\Delta\tau\) contenente \(\Delta N\) atomi o molecole. Il momento magnetico di dipolo risultante sarà pari a \(\Delta\vec{\mu} = \Delta N \vec{\mu}_m\). Definiamo \textit{vettore magnetizzazione}, definito come il momento di dipolo per unità di volume e indicato con \(\vec{M}\), il vettore
+\[
+\vec{M} = \Delta\vec{\mu} = \frac{\Delta \vec{\mu}}{\Delta\tau} =\frac{\Delta N}{\Delta\tau} \vec{\mu}_m
+\]
+più precisamente per \(\tau \to 0\)
+\[
+\vec{M} = \lim_{\Delta\tau \to 0}\frac{\Delta \vec{\mu}}{\Delta\tau} = \lim_{\Delta\tau \to 0}\frac{\Delta N}{\Delta\tau} \vec{\mu}_m
+\]
+\begin{equation}
+	\viola{\vec{M}= \frac{d \vec{\mu}}{d\tau}} \qquad \qquad	\viola{\vec{M} = n\vec{\mu}_m}
+\end{equation}
+dove \(n\) è il numero di atomi/molecole per unità di volume.
+
+
+\subsection{Correnti ampériane}
+\subsection{Il campo \(\vec{H}\)}
+\subsection{Discontinuità dei campi tra due mezzi magnetizzati}
+
+
+\section{Campi elettrici e magnetici variabili nel tempo}
+\subsection{Induzione elettromagnetica}
+\teorema{Faraday-Neumann-Lenz}{
+Sperimentalmente si osserva che in un circuito conduttore investito da un campo magnetico variabile nel tempo si genera una \textit{forza elettromotrice indotta} pari a meno la varizione di flusso di campo magnetico nel tempo
+\begin{equation}
+	\mathcal{E}_i = -\frac{d\Phi(\vec{B})}{dt}
+\end{equation}}
+Ricordando la definizione di forza elettromotrice si deduce che la variazione di flusso del campo magnetico dà origine a un \textit{campo elettrico indotto} \(\vec{E}_i\)
+\[
+\mathcal{E}_i = \oint_\gamma \vec{E}_i \cdot d\vec{s}
+\]
+
+Se quindi a essere investito dal campo magnetico variabile è un circuito nel quale scorre una corrente \(i = \frac{\mathcal{E}}{R}\) la nuova espressione della corrente è 
+\[
+i = \frac{\mathcal{E} + \mathcal{E}_i}{R}
+\]
+
+\subsubsection*{Origine fisica (forza di Lorentz)}
+Possiamo dimostrare che all'origine del fenomeno di induzione c'è la forza di Lorentz. Sugli elettroni di conudzione in moto con velocità \(\vec{v}\) nel circuito conduttore agisce un campo di Lorentz \(\vec{E}_L\) pari a
+\[
+\vec{E}_L = \vec{v}\wedge\vec{B}
+\]
+Le cariche messe in movimento danno luogo a una forza elettromotrice
+\[
+d\mathcal{E} = \vec{E}_L \cdot d\vec{s} = \vec{v}\wedge\vec{B} \cdot d\vec{s}
+\]
+riscrivendo la velocità come \(\vec{v}=d\vec{r}/dt\) possiamo scrivere
+\[
+\mathcal{E} = \oint  \frac{d\vec{r}}{dt}\wedge\vec{B}\cdot d\vec{s} = \oint  d\vec{s}\wedge\frac{d\vec{r}}{dt}\cdot \vec{B}
+\]
+Il prodotto vettoriale \(d\vec{s}\wedge d\vec{r}\) rappresenta l'area infinitesima \(d\Sigma'\) del parallelogramma spazzato nel tempo \(dt\) dal circuito. Quindi il prodotto scalare \(d\vec{s}\wedge d\vec{r}\cdot \vec{B}\) rappresenta il flusso \(d\Phi'(\vec{B})\) attraverso la superficie suddetta superficie. Se andiamo a considerare la superficie infinitesima "circolare" \(d\Sigma_e\) possiamo definire un flusso attraverso di essa
+\[
+d\Phi_e = \oint d\vec{s}\wedge d\vec{r}\cdot \vec{B} = \int_{d\Sigma_e} \vec{B}\cdot \hat{u}_n \, d\Sigma_e
+\]
+Andando a calcolare il flusso attraverso le due sezioni iniziale \(\Sigma_1\) e finale \(\Sigma_2\) così da formare insieme alla superficie laterale \(d\Sigma_e\) una superficie chiusa, possiamo scrivere
+\[
+\Phi_2 (\vec{B})- \Phi_1(\vec{B}) + d\Phi_e(\vec{B}) = 0  \qquad \to \qquad \Phi_2 (\vec{B})- \Phi_1(\vec{B}) =  -d\Phi_e(\vec{B}) 
+\]
+La variazione di flusso attraverso la spira vale
+\[
+d\Phi(\vec{B}) = \Phi_2 (\vec{B})- \Phi_1(\vec{B}) = -d\Phi_e(\vec{B}) 
+\]
+da cui troviamo
+\begin{equation}
+	\mathcal{E} = \mathcal{E}_i = \oint \vec{v}\wedge\vec{B}\cdot d\vec{s} = -\frac{d\Phi(\vec{B})}{dt}
+\end{equation}
+
+\subsection{Correnti sinusoidali}
+Calcoliamo il flusso di campo magnetico attraverso una spira rotante (\(\vec
+\omega\)) rettangolare di lati 
+\[
+MN = PQ = s \qquad NP = QM = s'
+\]
+Lungo i lati \(NP\) e \(QM\) si ha \(\vec{v}\wedge\vec{B}\) perpendicolare ai due lati quindi non si genera nessuna forza di Lorentz. Invece lungo \(MN\) e \(PQ\) possiamo scirvere
+\[
+\mathcal{E}_i = \oint \vec{v}\wedge\vec{B} \cdot d\vec{s} = 2svB\sin\vartheta
+\]
+dove \(\vartheta\) è l'angolo tra la normale della spira e il campo magnetico. Siccome \(v=2r\omega\) dove \(r = s'/2\) possiamo scrivere
+\[
+\mathcal{E}_i = 2svB\sin\vartheta = ss'\omega B\sin\vartheta = \Sigma \omega B\sin\omega t
+\]
+
+\subsection{Autonduzione}
+Un circuito di forma qualunqe percorso da corrente produce un campo magnetico. Il flusso di questo capo concatenato con il circuito stesso, detto \textit{autoflusso}, è dato da 
+\begin{align*}
+	\Phi(\vec{B}) =& \int_\Sigma \left(\oint_\gamma \frac{\mu_0 i}{4\pi}\frac{d\vec{s}\wedge\hat{u}_r}{r^2}\right) \cdot \hat{u}_n \, d\Sigma \\
+	=& Li
+\end{align*}
+dove \(L\) è detto coefficiente di autoinduzione. 
+
+L'autoflusso fa comparire nel circuito un forza elettromotrice autoindotta pari a 
+\[
+\mathcal{E}_L= - \frac{d\Phi(\vec{B})}{dt} = - L\frac{di}{dt}
+\]
+
+\subsection{Energia magnetica}
+Al fine di arrivare a una definizione di energia intrinseca della corrente ci è utile studiare il comportamento di un \textit{circuito RL} negli istante di sua apertura e chiusura. Sappiamo che in un tempo infinitesimo nel circuito scorre una carica \(dq = i \, dt\).
+
+L'energia dissipata nel circuto è
+\[
+\mathcal{E}i = \left(Ri + L\frac{di}{dt}\right)i
+\]
+da cui il lavoro in un tempo infinitesimo \(dt\) vale
+\[
+\mathcal{E}i \, dt = Ri^2 \, dt + Li \, di
+\]
+dove il primo termine è il lavoro compiuto dal generatore per spostare la carica \(dq\) (infatti \(\mathcal{E}i \, dt  = \mathcal{E} \, dq \)), il secondo è l'energia dissipata per effetto Joule e il terzo è il lavoro speso contro la \(\mathcal{E}_L = -L \, di/dt\) autoindotta per far aumentare la corrente da \(i\) a \(i + di\).
+
+\paragraph{Chiusura circuito} A seguito della chiusura del cricuito la corrente passa da \(0\) al valore \(i\) in un certo intervallo di tempo \(t\). Oltre al lavoro speso in effetto Joule pari a \(Ri^2\) deve spendere contro \(\mathcal{E}_L\) il lavoro
+\[
+W = \int_{0}^{i}Li \, di = \frac{1}{2}Li^2
+\]
+che definiamo \textit{energia intrinseca della corrente}
+\begin{equation}
+	\viola{U_L = \frac{1}{2}Li^2}
+\end{equation}
+Io chiudo il circuito, il generatore compie lavoro per contrastare l'induttanza che fa sì che la corrente salga in modo graduale, questo lavoro è "immagazzinato" nell'induttanza.
+
+\paragraph{Apertura circuito} 
+Considerando un intervallo di tempo da \(0\) a \(\infty\) l'energia dissipata è 
+\[
+E_{\text{diss.}} = \int_{0}^{\infty} R'i^2(t) \, dt \qquad \qquad \text{dove} \quad i(t) = \frac{\mathcal{E}}{R}e^{-t\frac{R'}{L}} 
+\]
+risolvendo l'integrale
+\[
+ E_{\text{diss.}} = \int_{0}^{\infty} R'i^2(t) \, dt \: = \: R'\frac{\mathcal{E}^2}{R^2} \frac{L}{2R'}\left[e^{-t\frac{2R'}{L}}\right]_0^\infty \: = \: \frac{1}{L}\frac{\mathcal{E}^2}{R^2} = \frac{1}{2}Li^2
+\]
+Durante l'apertura è la forza elettromotrice autoindotta che fornisce energia. L'energia immagazzinata nell'induttanza si ritrova alla fine completamente dissipata sotto forma di calore nella resistenza.
+
+L'energia intrinseca della corrente appare come energia magnetica nello stesso senso con cui abbiamo definito un'energia elettrostatica legata al campo elettrostatico \(\vec{E}\). Vediamo come l'energia intrinseca della corrente si lega al campo magnetico \(\vec{B}\):
+\[
+U_L = U_L = \frac{1}{2}Li^2 = U_L = \frac{1}{2}\left(\mu_0 n^2 \Sigma d\right)i^2 = \frac{B^2}{2\mu_0}\Sigma d
+\]
+dove \(\Sigma d = \tau\). Definiamo quindi \textit{energia magnetica} e \textit{densità di energia magnetica}:
+\begin{equation}
+	 \viola{\mathcal{U}_m = \frac{B^2}{2\mu_0}}\qquad \qquad \viola{dU_m = \frac{B^2}{2\mu_0} \, d\tau} 
+\end{equation}
+
+
+\subsubsection{Generalizzazione}
+\begin{wrapfigure}{r}{0.3\textwidth}
+	%\hspace{-1.5cm}
+	\incfig{torus}
+\end{wrapfigure}
+Consideriamo un ferromagnete toroidale avente \(N\); con le dovute approssimazioni facciamo sì che il campo magnetico sia uniforme su tutta la sua sezione \(\Sigma\). Facendo scorrere una corrente \(i\) nelle spire si ha una variazione del flusso di \(\vec{B}\) con una conseguente forza elettromotrice autoindotta
+\[
+\mathcal{E}_i  =- \frac{d\Phi(\vec{B})}{dt} = -N\Sigma \frac{dB}{dt}
+\]
+La forza elettromotrice nel circuito perciò vale 
+\[
+\mathcal{E} = Ri - \mathcal{E}_i = Ri + N\Sigma \frac{dB}{dt}
+\]
+con un lavoro speso dal generatore nel tempo \(dt\) pari a 
+\[
+W \, dt = \mathcal{E}i \, dt = Ri^2 + N\Sigma \, dB i
+\]
+dove \(Ri^2\) è l'energia dissipata per effetto Joule e \(N\Sigma \, dB i\) è l'energia magnetica in quanto legata alla variazione di flusso di campo magnetico:
+\[
+dU_m = N\Sigma \, dB i
+\]
+Sapendo che
+\[
+\oint_\gamma \vec{H} \cdot d\vec{l} = Ni \qquad \to \qquad 2\pi r H = Ni 
+\]
+e sapendo che il volume del toroide è \(\tau = 2\pi r \Sigma\) riscriviamo
+\[
+dU_m = 2\pi r H \Sigma  \, dB  \qquad \to \qquad dU_m = \tau H \, dB
+\]
+da cui troviamo un'espressione più generale per la densità di energia magnetica
+\begin{equation}
+	\viola{d\mathcal{U}_m = H \, dB}
+\end{equation}
+
+\subsubsection{Applicazione nel ciclo di isteresi}
+
+\section{Applicazioni in alcuni macchinari}
+\subsection{Spettrometro di massa}
+\subsection{Selettore di velocità}
+\subsection{Ciclotrone}
+\subsection{Betatrone}
 
 % FINE DOCUMENTO ---------------------------------------------------------------------%
 % FINE DOCUMENTO
@@ -1071,6 +1441,9 @@ V(r) = \int_{r}^{\infty} \vec{E}\cdot d\vec{s} = \frac{q}{4\pi\varepsilon_0 r}
 U_e(r) \;\ = \;\ q_0V(r) \;\ = \;\ q_0\int_{r}^{\infty} \vec{E}\cdot d\vec{s} = \frac{q_0q}{4\pi\varepsilon_0 r}
 \]
 
+\section{Calcoli di campi magnetici}
+
+\section{Circuiti}
 
 
 \end{document}
