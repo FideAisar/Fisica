@@ -373,11 +373,11 @@ Poiché anche il rotore del campo elettrico è un campo vettoriale, è possibile
 \Phi(\vec{\nabla} \wedge \vec{E}) =  \int_{\Sigma}\left(\vec{\nabla} \wedge \vec{E}\right)\cdot \hat{u}_n \: d\Sigma
 \]
 
-\teorema{}{
+\teorema{}{\label{stokes}
 \subsubsection{Teorema di Stokes}
 La circuitazione è uguale al flusso del rotore:
 \[
-\oint_\gamma \vec{E}\cdot d\vec{s} = \int_{\Sigma_\gamma}\left(\vec{\nabla} \wedge \vec{E}\right)\cdot \hat{u}_n \: d\Sigma
+\oint_{\partial\Sigma} \vec{E}\cdot d\vec{s} = \int_{\Sigma}\left(\vec{\nabla} \wedge \vec{E}\right)\cdot \hat{u}_n \: d\Sigma
 \]
 Qui è espresso nel caso del campo elettrico dove si ha che la circuitazione è nulla qualunque sia la curva \(\gamma\) (a patto che sia chiusa). Allora il flusso del rotore è nullo qualunque sia la superficie ed è possibile solo se il rotore di \(\vec{E}\) è nullo:
 
@@ -605,7 +605,7 @@ ovvero momento di dipolo complessivo per unità di volume.
 
 Sulle facce del prisma si vanno a depositare una serie di cariche \(\pm q_p\) con densità \(\pm \sigma_p\) dando un momento di dipolo al prisma.
 
-\paragraph{Polarizzazione uniforme}
+\subsubsection{Polarizzazione uniforme (densità superficiale di polarizzazione)}
 Per trovare il campo elettrico andremo a studiare quello generato dai tanti dipoli che formano il dielettrico attraverso l'espressione del momento di dipolo complessivo del prisma
 \[
 d\vec{p} = \vec{P}d\tau = P \,\ d\Sigma_0 d\vec{h}
@@ -638,7 +638,7 @@ Se la polarizzazione è uniforme non si manifestano cariche all'interno del diel
 \oint dq_p =  \vec{P} \cdot \hat{u}_n \,\ d\Sigma = 0
 \]
 
-\paragraph{Polarizzazione non uniforme}
+\subsubsection{Polarizzazione non uniforme (densità volumica di polarizzazione)}
 Prendiamo in considerazione una polarizzazione non uniforme lungo l'asse \(x\)  ed esaminiamo il valore della carica sulla faccia comune \(d\Sigma = dy \,\ dz \) dei due prismi.
 
 \begin{figure}[H]
@@ -698,9 +698,6 @@ quindi possiamo scrivere
 \[
 \int_{\tau} \vec{\nabla}\cdot \vec{E} \,\ d\tau = \frac{q + q_p}{\varepsilon_0} \quad \to \quad \vec{\nabla}\cdot \vec{E} \int_{\tau}  d\tau = \frac{q + q_p}{\varepsilon_0} \quad \to \quad \vec{\nabla}\cdot \vec{E} = \frac{1}{\tau}  \frac{q + q_p}{\varepsilon_0}
 \]
-\begin{center}
-	\textcolor{red}{Assumendo che la divergenza sia costante penso si ricavi così. guarda p.79 Mazzoldi}
-\end{center}
 da cui
 \[
 \vec{\nabla}\cdot \vec{E} = \frac{\rho + \rho_p}{\varepsilon_0}
@@ -1158,9 +1155,9 @@ Prendiamo in considerazione un conduttore a forma di nastro sottile di sezione \
 \[
 \vec{F}_L = q\vec{v}_b \wedge \vec{B} \qquad \to \qquad \vec{E}_{em} = \vec{v}_b \wedge \vec{B}
 \]
-Questo è un aspetto molto importante della forza magnetica su una carica in moivmento, la qale permetto in ogni caso di definire un acmpo elettrico di origine magnetica che chiamiamo \textit{campo elettromotore} \(\vec{E}_{em}\).
+Questo è un aspetto molto importante della forza magnetica su una carica in moivmento, la qale permetto in ogni caso di definire un acmpo elettrico di origine magnetica che chiamiamo \textbf{campo elettromotore} \(\vec{E}_{em}\).
 
-Il campo elettromotore provoca una separazione delle cariche positive dalle cariche negative, fatto che genere un secondo campo elettrostatico \(\vec{E}_H\) detto \textit{campo di Hall} che si oppone a un ulteriore accumulo.
+Il campo elettromotore provoca una separazione delle cariche positive dalle cariche negative, fatto che genere un secondo campo elettrostatico \(\vec{E}_H\) detto \textbf{campo di Hall} che si oppone a un ulteriore accumulo.
 
 \subsection{Legge di Laplace e legge di Ampére}
 Consideriamo un filo rettilineo percorso dalla corrente \(i\) che produce  il capo magnetico 
@@ -1181,7 +1178,7 @@ Notiamo che l'integrale dipende solo dall'angolo \(\vartheta\) sotteso all'arco 
 \end{array}\right.
 \]
 
-\teorema{Legge di Ampére}{
+\teorema{Legge di Ampére}{\label{legge ampere}
 La circiutazione del campo magnetico attraverso una linea chiusa è uguale a \(\mu_0\) per la somma algebrica delle correti concatenate
 \begin{equation}
 	\oint_\gamma \vec{B}\cdot d\vec{s} = \mu_0 i
@@ -1206,25 +1203,16 @@ da cui
 
 
 \section{Proprietà magnetiche della materia}
-Prendiamo in esame un corpo di un certo materiale investito dal campo magnetico di un solenoide. Si nota sperimentalmente in base al materiale di cui è costituito il corpo questo viene respinto e attratto.
-Chiamiamo \textit{diamagnetici} i materiali che vengono debolmente respinti e \textit{paramagnetici} quelli che vengono debolmente attratti.
 
-Il materiale, investito dal campo magnetico \(\vec{B}\), acquisisce un momento di dipolo \(\vec{\mu}\) proporzionale a \(\vec{B}\):
-\[
-\begin{array}{rc}
-	\text{Diamagnetici: } & \vec{\mu} = - |k| \vec{B} \\
-	\text{Paramagnetici: } & \vec{\mu} = + |k| \vec{B}
-\end{array}
-\]
 \subsection{Magnetizzazione}
 Il moto delgi elettroni intorno al nucle piò essere assimilato a correnti microscopiche alle quali è associato un momento magnetico (ricordiamo che una spira percorsa da corrente, in relazione agli effetti che un campo magnetico esercita su di essa, equivale a un dipolo magnetico perpendicolare alla normale della spira). Nella gran parte dei materiali i momenti magnetici si compensano e l'atomo non ha momento magnetico.
 
-Chiamiamo \textit{diamagnetici} i materiali nei quali, se perturbati da un campo magnnetico, si genera un momento magnetico opposto al campo esterno. Si dicono  \textit{paramagnetici} i materiali nei quali si genera un momento magnetico concorde al campo esterno. (Il concetto è simile alla polarizzazione per orientamento nei dielettrici \ref{orient}). Per ultimi chiamiamo \textit{ferromagnetici}  i materiali ai quali è sufficiente un campo magnetico esterno molto debole per ottenere un'orientazione quasi completa dei momenti magnetici.
+Chiamiamo \textbf{diamagnetici} i materiali nei quali, se perturbati da un campo magnnetico, si genera un momento magnetico opposto al campo esterno. Si dicono  \textbf{paramagnetici} i materiali nei quali si genera un momento magnetico concorde al campo esterno. (Il concetto è simile alla polarizzazione per orientamento nei dielettrici \ref{orient}). Per ultimi chiamiamo \textbf{ferromagnetici}  i materiali ai quali è sufficiente un campo magnetico esterno molto debole per ottenere un'orientazione quasi completa dei momenti magnetici.
 
 Possiamo definire un momento magnetico medio \(\vec{\mu}_m\) orientato parallelamente a \(\vec{B}\).
 
 \paragraph{Definizione del vettore magnetizzazione}
-Prendiamo in considerazione un volumetto \(\Delta\tau\) contenente \(\Delta N\) atomi o molecole. Il momento magnetico di dipolo risultante sarà pari a \(\Delta\vec{\mu} = \Delta N \vec{\mu}_m\). Definiamo \textit{vettore magnetizzazione}, definito come il momento di dipolo per unità di volume e indicato con \(\vec{M}\), il vettore
+Prendiamo in considerazione un volumetto \(\Delta\tau\) contenente \(\Delta N\) atomi o molecole. Il momento magnetico di dipolo risultante sarà pari a \(\Delta\vec{\mu} = \Delta N \vec{\mu}_m\). Definiamo \textbf{vettore magnetizzazione}, definito come il momento di dipolo per unità di volume e indicato con \(\vec{M}\), il vettore
 \[
 \vec{M} = \Delta\vec{\mu} = \frac{\Delta \vec{\mu}}{\Delta\tau} =\frac{\Delta N}{\Delta\tau} \vec{\mu}_m
 \]
@@ -1235,12 +1223,191 @@ più precisamente per \(\tau \to 0\)
 \begin{equation}
 	\viola{\vec{M}= \frac{d \vec{\mu}}{d\tau}} \qquad \qquad	\viola{\vec{M} = n\vec{\mu}_m}
 \end{equation}
-dove \(n\) è il numero di atomi/molecole per unità di volume.
-
+dove \(n\) è il numero di atomi/molecole per unità di volume. Valgono inoltre le seguenti relazioni:
+\[
+\begin{array}{rc}
+	\text{Diamagneti: } & \vec{\mu} = - |k| \vec{B} \\
+	\text{Paramagneti: } & \vec{\mu} = + |k| \vec{B}
+\end{array}
+\]
+per le quali definiamo questi tipi di materiali, \textbf{materiali lineari}. I ferromagneti non hanno caratteristiche lineari
 
 \subsection{Correnti ampériane}
+Prendiamo in considerazione un solenoide che, nel vuoto, produce un campo \(\vec{B}_0 = \mu_0 n i\) e nel materiale \(\vec{B} = k_m\vec{B}_0\) dove \(k_m > 0\) è la \textbf{permeabilità magnetica relativa}
+
+\begin{figure}[H]
+	\centering
+	\incfig{solenoide_1}
+\end{figure}
+\[
+B = k_m \mu_0 n i \qquad \qquad k_m\mu_0 = \mu \: \text{ \textbf{Permeabilità} magnetica assoluta} 
+\]
+\begin{align*}
+	B - B_0 =&  k_m \mu_0 n i - \mu_0 n i \\
+			=& \mu_0 n i\left(k_m -1\right) \qquad \qquad k_m - 1= \chi_m \: \text{ \textbf{Suscettività} magnetica } \\
+\end{align*}
+Possiamo scrivere il campo magnetico come somma di due contributi:
+\[
+B = B_0  + B_0\chi_m = \mu_0 n i + \mu_0 n i\left(k_m -1\right)
+\]
+il primo è il contributo di un solenoide nel vuoto percoro dalla corrente di coduzione \(i\), il secondo è quello di un solenoide fittizio nel vuoto percorso da corrente \(\chi_m i\) che prende ilnome di \textbf{corrente amperiana}	. In questo tipo di correnti non ci sono vere e proprie carche in movimento, hanno natura microscopica e dipendono dall'attività del campo magnetico nel materiale.
+
+Valgono le seguenti proprietà:
+\[
+\begin{array}{rccc}
+	\text{Diamagneti: } & k_m < 1 & \chi_m < 0 & |\chi_m| \thicksim 10^{-5}\\
+	\text{Paramagneti: } & km > 1 & \chi_m > 0 & |\chi_m| \thicksim 10^{-3} \\
+	\text{Ferromagneti: }& km >> 1 & \chi_m > 0 & |\chi_m| \thicksim (10^{3},10^{5})\\
+\end{array}
+\]
+\[
+\begin{array}{cc}
+	\text{Dia/paramagneti} & \text{Ferromagneti} \\ & \\
+	\chi_m = \frac{C\rho}{T} & \chi_m = \frac{C\rho}{T-T_c}
+\end{array}
+\]
+
+\subsubsection{Cilindro uniformemente magnetizzato (densità di corrente lineare)}
+Supponiamo di avere un cilindro uniformemente magnetizzao con \(\vec{M}\) parallelo all'asse. Isoliamo un disco di spessore \(dz\) e suddividiamo ulteriormente quest'ultiimo in prismi di volume \(d\tau = d\Sigma \times dz\).
+\[
+\vec{M} = \frac{d\vec{\mu}}{d\tau} \quad \to \quad d\vec{\mu} = \vec{M} \, d\Sigma \, dz \hat{u}_z
+\]
+Secondo il principio di equivalenza di Ampére lo stesso momento magnetico è posseduto da una spira di area \(d\Sigma\) percorsa da una certa corrente \(di_m\) tale che 
+\[
+d\vec{\mu} = di_m \, d\Sigma \, dz \hat{u}_n 
+\]
+Possiamo riscrivere \(di_m\) in funzione del vettore magnetizzazione:
+\[
+\vec{M} \, d\Sigma \, dz \hat{u}_z=d\vec{\mu} = di_m \, d\Sigma \, dz \hat{u}_n 
+\]
+\[
+di_m = M \, dz
+\]
+Andado a integrare su tutta l'altezza del cilindro
+\[
+i_m = M \int_{0}^{h} dz = Mh
+\]
+e introducendo \(j_{m,s} = \frac{di_m}{dz} = M\) \textbf{densità di corrente lineare} possiamo scrivere un'espressione generale che lega vettorialmente la corrente e il vettore magnetizzazione:
+\begin{equation}
+	\viola{\vec{j}_{m,s} = \vec{M}\wedge\hat{u}_n} 
+\end{equation}
+\vspace{-0.4cm}
+ \textcolor{gray}{\[
+\sigma_p = \vec{P}\cdot\hat{u}_n
+\]}
+
+\subsubsection{Materiale non uniformemente magnetizzato (densità di corrente superficiale)}
+\begin{align*}
+	di_1 - di_2 =& Mz(x)\, dz - M_z(x+dx)\, dz = \left[M_z(x) - M_z(x+dx)\right]\, dz \\
+	 =& -\frac{\partial M_z}{\partial x} dx \, dz
+\end{align*}
+\begin{align*}
+	di_4 - di_3 =& M_x(z+dz)\, dx - M_x(z)\, dx  = \left[M_x(z+dz) - M_x(z)\right]\, dx \\
+	=& \frac{\partial M_x}{\partial z} dx \, dz
+\end{align*}
+\[
+di_y = (di_1 - di_2) + (di_4 - di_3) = \left(\frac{\partial M_x}{\partial z} dx \, dz -\frac{\partial M_z}{\partial x}\right) dx \, dz 
+\]
+dove la parentesi è l'elemento \(y\) del rotore di \(\vec{M}\) e \(dx \, dz = d\Sigma\)
+\[
+di_y = \left(\vec{\nabla} \wedge \vec{M} \right)_y d\Sigma
+\]
+\[
+d\vec{j}_y = \frac{di_m}{d\Sigma} =  \left(\vec{\nabla} \wedge \vec{M} \right)_y 
+\]
+da cui possiamo generalizzare 
+\begin{equation}
+	\viola{\vec{j}_{m,v} =  \vec{\nabla} \wedge \vec{M} }
+\end{equation}
+\vspace{-0.3cm}
+\textcolor{gray}{\[
+	\rho_p = - \vec{\nabla}\cdot \vec{P}
+	\]}
+\esempio{\(\vec{j}_{m,s}\) caso particolare di \(\vec{j}_{m,v}\)}{
+se andiamo a riconsiderare il cilindro uniformemente magnetizzao con \(\vec{M}\) parallelo e concorde all'asse \(z\) si ha
+\[
+\vec{j}_{m,v} = \vec{\nabla} \wedge \vec{M} = - \frac{\partial \vec{M}_z(r)}{\partial r}\hat{u}_\vartheta
+\]
+dove consideriamo solo la variazione lungo l'asse \(xy\) e dunque lungo \(r\).
+\[
+\vec{j}_{m,v} \, dr = - \hat{u}_\vartheta \, dM_z(r) 
+\]
+\begin{gather*}
+	\int_{a-\varepsilon}^{a+\varepsilon} \vec{j}_{m,v} \, dr  = \int_{a-\varepsilon}^{a+\varepsilon}-\hat{u}_\vartheta \, dM_z(r) = -M_z(a+\varepsilon) + M_z(a-\varepsilon) = M\hat{u}\theta = \vec{M}\wedge\hat{u}_n = \vec{j}_{m,s}
+\end{gather*}
+dove il  termine in \(a+\varepsilon\) si annulla perché "esce" dal cilindro.
+\begin{center}
+	\textcolor{red}{non ho capito}
+\end{center}}
+Utilizzando il teorema di Stokes possiamo scrivere la corrente \(i_m\) come \textbf{circuitazione del vettore magnetizzazione}:
+\[
+di_m = d\vec{j}_{m,v} \cdot d\vec{\Sigma} \qquad \to \qquad i_m = \int_\Sigma \vec{j}_{m,v} \cdot d\vec{\Sigma} = \int_\Sigma \left(\vec{\nabla}\wedge\vec{M}\right) \cdot d\vec{\Sigma} = \oint_{\partial\Sigma} \vec{M}\cdot d\vec{l}
+\]
+
 \subsection{Il campo \(\vec{H}\)}
+Per i dielettrici abbiamo definito il campo \(\vec{D}\), che ha il vantaggio di avere la divergenza indipendente dalle cariche di polarizzazione. Con lo stesso intento definiamo un campo \(\vec{H}\) il cui rotore non dipenda dalle correnti di magnetizzazione.
+
+Vista la comparsa di nuove correnti \(i_m\) di magnetizzazione, riscriviamo la legge di Ampére (\ref{legge ampere}) tenendo conto del contributo delle suddette:
+\[
+\oint_\gamma \vec{B}\cdot d\vec{l} = \mu_0(i+i_m) = \mu_0\left[i + \oint_\gamma \vec{M}\cdot d\vec{l}\right]
+\]
+Riscrivo "cambiando le circuitazioni in rotori" (ci siamo capiti) utilizzando il teorema di Stokes (\ref{stokes}) 
+\[
+\int_\Sigma \left(\vec{\nabla}\wedge\vec{B}\right)\cdot d\vec{\Sigma}  =  \mu_0\left[i + \int_\Sigma\left(\vec{\nabla}\wedge\vec{M}\right)\cdot d\vec{\Sigma}\right]
+\]
+porto a sinistra l'integrale di destra 
+\begin{gather*}
+	\int_\Sigma \left(\vec{\nabla}\wedge\vec{B}\right)\cdot d\vec{\Sigma} - \mu_0\int_\Sigma\left(\vec{\nabla}\wedge\vec{M}\right)\cdot d\vec{\Sigma} = \mu_0 i \\
+	\int_\Sigma \left[\vec{\nabla}\wedge \frac{\vec{B}-\mu_0\vec{M}}{\mu_0}\right] \cdot d\vec{\Sigma} = \quad i \quad = \int_\Sigma \vec{j} \cdot d\vec{\Sigma}
+\end{gather*}
+\begin{equation}
+		\viola{\vec{H} = \frac{\vec{B}-\mu_0\vec{M}}{\mu_0}} \qquad \qquad \viola{\oint \vec{H} \cdot d\vec{l} = i} \qquad \qquad \viola{\vec{\nabla} \wedge \vec{H} = \vec{j}}
+\end{equation}
+Tuttavia il contributo delle correnti amperiane ricompare nel legame tra \(\vec{B}\) e \(\vec{H}\): nell'espressione di \(\vec{B}\), se per esempio consideriamo un solenoide \(\vec{B} = \mu_0n(i + i_m)\). Per eliminare questo contributo possiamo metter in evidenza la proporzionalità tra \(\vec{H}\), \(\vec{M}\) e \(\vec{B}\) considerando un campo magnetico nel vuoto (\textcolor{red}{forse, non capisco perché toglie tutti i termini di magnetizzazione}):
+\[
+i = \oint_\gamma \vec{H} \cdot d\vec{l} = \oint_\gamma \frac{\vec{B} - \mu_0 \vec{M}}{\mu_0} \cdot d\vec{l} = \oint \frac{\vec{B}_0}{\mu_0} \cdot d\vec{l}
+\]
+con 
+\[
+\vec{B} = k_m\vec{B}_0  \quad \to \quad \vec{B}_0
+\]
+Si ha quindi
+\[
+\vec{H} = \frac{\vec{B}}{k_m\mu_0} \quad \implies \quad \boxed{\vec{B} = \vec{H}\mu_0 k_m}
+\]
+dalla definizione di \(\vec{H}\) riscriviamo
+\[
+\vec{H} = \frac{\vec{H}\mu_0 k_m - \mu_0 \vec{M}}{\mu_0} = \vec{H} k_m - \vec{M} \quad \implies \quad \vec{M} = (k_m + 1)\vec{H} = \chi_m \vec{H}
+\]
+Abbiamo trovato le relazioni
+\[
+\boxed{\vec{M} = \chi_m \vec{H}} \qquad \qquad\boxed{\vec{M} = \frac{\chi_m}{\mu_0 k_m}\vec{B}}
+\]
+
 \subsection{Discontinuità dei campi tra due mezzi magnetizzati}
+Studiamo le condizioni di raccordo di \(\vec{B}\) e \(\vec{H}\) all'interfaccia tra il mezzo \(1\) e il mezzo \(2\). Prendo una curva \(\Gamma\) con lati infinitesimi in modo che i lati corti siano infinitesimi di ordine superiore di quelli lunghi (\(|dl_1| = |dl_2|\))
+
+Poiché non sono presenti correnti di conduzione la circuitazione di \(\vec{H}\) è nulla:
+\begin{gather*}
+	\oint_\Gamma \vec{H} \cdot d\vec{l} = 0 = \vec{H}_1 \cdot d\vec{l}_1 + \vec{H}_1 \cdot d\vec{l}_2 = (H_{1t} - H_{2t})|dl_1| = 0 \\
+	\implies H_{1t} = H_{2t}
+\end{gather*}
+Considero ora un cilindro con superficie laterale infinitesio superiore della superficie di base (\(d\Sigma_1 = d\Sigma_2\))
+\begin{gather*}
+	\int_\Sigma \vec{B} \cdot d\vec{\Sigma} = 0 = \vec{B}_1 \cdot d\vec{\Sigma}_1 + \vec{B}_2 \cdot d\vec{\Sigma}_2 = (B_{1n} - B_{2n}) |d\Sigma_1| \\
+	\implies B_{1n} = B_{2n}
+\end{gather*}
+Ricordando la relazione \(\vec{B} = \mu_0 k_m \vec{H}\) scriviamo
+\[
+\begin{cases}
+	B_{1t} = \mu_0 k_m H_{1t} \\
+	B_{2t} = \mu_0 k_m H_{2t}
+\end{cases} \quad \implies \quad
+\frac{B_{1t}}{B_{2t}} = \frac{H_{1t}}{H_{2t}}
+\]
+
+\textcolor{red}{finisci}
+
 
 
 \section{Campi elettrici e magnetici variabili nel tempo}
