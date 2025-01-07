@@ -9,7 +9,7 @@
 \usepgflibrary{shapes.geometric}
 \usepackage{xcolor}
 \usepackage{amsmath}
-\usepackage{fouriernc}
+%\usepackage{fouriernc}
 \usepackage{mathrsfs}
 \usepackage{amssymb}
 \usepackage{hyperref}
@@ -17,11 +17,12 @@
 \usepackage{float}
 \usepackage{wrapfig}
 \usepackage{multicol}
+\usepackage{cancel}
 \setlength{\columnsep}{1cm}
 
 %% custom
 \renewcommand*\contentsname{Indice}
-\setcounter{tocdepth}{4}
+\setcounter{tocdepth}{2}
 \setcounter{secnumdepth}{2}
 \pgfplotsset{compat=1.15}
 
@@ -37,6 +38,7 @@
 \definecolor{myred}{RGB}{198, 247, 211} 
 \definecolor{myorange}{RGB}{255, 102, 0} 
 \definecolor{mypurple}{RGB}{255, 102, 0} 
+\definecolor{attenzione}{RGB}{255, 108, 94}
 
 \newtcolorbox{es}[2][]{%
 	enhanced,sharp corners,boxrule=0.4pt,colback=white, colframe=black, coltitle=black,fonttitle=\itshape, 
@@ -84,6 +86,15 @@
 		before upper=\strut},
 	title=#2,top=1em,#1
 }
+\newtcolorbox{attenzione}[2][]{%
+	enhanced,colback=white,colframe=attenzione,coltitle=attenzione,
+	sharp corners,boxrule=0.4pt,
+	fonttitle=\itshape,
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
+		colback=white,before upper=\strut},
+	title=#2,#1
+}
 
 \newcommand*{\QEDA}{\null\nobreak\hfill\ensuremath{\blacksquare}}%
 \newcommand*{\QEDB}{\null\nobreak\hfill\ensuremath{\square}}%
@@ -126,13 +137,19 @@
 		\end{coroll}
 	\end{center}
 }
+\newcommand{\nota}[2]{
+	\begin{attenzione}{Nota:}
+		#2
+	\end{attenzione}
+}
+
 \newcommand{\mathbox}[1]{
 \begin{tcolorbox}[rounded corners, colback=blue!5, colframe=blue!80!black, title=Formule Matematiche]
 	#1
 \end{tcolorbox}
 }
 
-\newcommand{\verde}[1]{\colorbox{myred}{$\displaystyle #1$}}
+
 
 % svg + latex
 \usepackage{import}
@@ -146,6 +163,8 @@
 \newcommand{\viola}[1]{%
 	\colorbox{myblue}{$\displaystyle #1$}
 }
+\newcommand{\rosso}[1]{%
+	\colorbox{myred}{$\displaystyle #1$}}
 
 \pgfplotsset{my axis/.append style={height=9cm,width=9cm,grid=major,samples=100,yticklabel=\empty,xticklabel=\empty}}
 \pgfplotsset{my plot/.append style={thick,samples=500}}
@@ -379,13 +398,15 @@ La circuitazione è uguale al flusso del rotore:
 \[
 \oint_{\partial\Sigma} \vec{E}\cdot d\vec{s} = \int_{\Sigma}\left(\vec{\nabla} \wedge \vec{E}\right)\cdot \hat{u}_n \: d\Sigma
 \]
-Qui è espresso nel caso del campo elettrico dove si ha che la circuitazione è nulla qualunque sia la curva \(\gamma\) (a patto che sia chiusa). Allora il flusso del rotore è nullo qualunque sia la superficie ed è possibile solo se il rotore di \(\vec{E}\) è nullo:
+Qui è espresso nel caso del campo elettrico dove si ha che la circuitazione è nulla qualunque sia la curva \(\gamma = \partial \Sigma\) (a patto che sia chiusa). Allora il flusso del rotore è nullo qualunque sia la superficie ed è possibile solo se il rotore di \(\vec{E}\) è nullo:
 
 \[
 \vec{\nabla} \wedge \vec{E} = 0
 \]
 
 Dire che il rotore è nullo equivale a dire che il capo elettrico è \textbf{irrotazionale}, ovvero che le sue linee di forza non possono chiudersi su loro stesse; il campo elettrico "non forma vortici".
+
+\textcolor{gray}{\textit{Vedremo che in presenza di un campo magnetico variabile il rotore del campo elettrico non è più nullo.}}
 }
 
 L'annullarsi del rotore non è un fatto sorprendente. Sappiamo infatti che il rotore di un gradiente è sempre nullo e che il campo elettrostatico conservativo può essere scritto come gradiente della funzione scalare del potenziale elettrostatico \(V\):
@@ -711,6 +732,17 @@ da cui otteniamo che \(\vec{D} = \varepsilon_0\vec{E} + \vec{P}\) è il vettore 
 \begin{equation}
 	\viola{\vec{\nabla} \cdot \vec{D}= \rho} 
 \end{equation}
+\nota{}{
+\label{approx senza p}
+Nel caso in cui la polarizzazione è nulla si ha
+\[
+\vec{\nabla} \cdot \vec{E} = \frac{\rho}{\varepsilon_0}
+\]
+fatto in perfetto accordo con l'espressione del flusso di Gauss: sapendo che la divergenza è un flusso per unità di volume infatti possiamo riscrivere 
+\[
+\frac{\Phi}{\tau} = \frac{\rho}{\varepsilon_0} \quad \to \quad \Phi = \frac{q}{\varepsilon_0}
+\]
+}
 
 \subsubsection{Il flusso di \(\vec{D}\) dipende solo dalle cariche libere}
 Sia \(\Sigma\) una superficie chiusa che contenga una carica libera \(q_0\) e una parte del dielettrico polarizzato. 
@@ -948,6 +980,7 @@ Riscrivendo il primo integrale come ntegrale della divergenza di \(\vec{j}\) in 
 \end{gather}
 Poiché la relazione deve valere qualunque sia il volume \(\tau\), questa è verificata se si annulla la funzione integranda: otteniamo l'\textit{equazione di continuità della corrente elettrica}
 \begin{equation}
+	\label{cont corr}
 	\viola{\vec{\nabla} \cdot \vec{j} + \frac{\partial\rho}{\partial t} = 0}
 \end{equation}
 \definizione{Corrente stazionaria}{
@@ -1270,7 +1303,7 @@ Valgono le seguenti proprietà:
 \subsubsection{Cilindro uniformemente magnetizzato (densità di corrente lineare)}
 Supponiamo di avere un cilindro uniformemente magnetizzao con \(\vec{M}\) parallelo all'asse. Isoliamo un disco di spessore \(dz\) e suddividiamo ulteriormente quest'ultiimo in prismi di volume \(d\tau = d\Sigma \times dz\).
 \[
-\vec{M} = \frac{d\vec{\mu}}{d\tau} \quad \to \quad d\vec{\mu} = \vec{M} \, d\Sigma \, dz \hat{u}_z
+\vec{M} = \frac{d\vec{\mu}}{d\tau} \quad \to \quad d\vec{\mu} = M \, d\Sigma \, dz \hat{u}_z
 \]
 Secondo il principio di equivalenza di Ampére lo stesso momento magnetico è posseduto da una spira di area \(d\Sigma\) percorsa da una certa corrente \(di_m\) tale che 
 \[
@@ -1278,7 +1311,7 @@ d\vec{\mu} = di_m \, d\Sigma \, dz \hat{u}_n
 \]
 Possiamo riscrivere \(di_m\) in funzione del vettore magnetizzazione:
 \[
-\vec{M} \, d\Sigma \, dz \hat{u}_z=d\vec{\mu} = di_m \, d\Sigma \, dz \hat{u}_n 
+M \, d\Sigma \, dz \hat{u}_z=d\vec{\mu} = di_m \, d\Sigma \, dz \hat{u}_n 
 \]
 \[
 di_m = M \, dz
@@ -1345,7 +1378,7 @@ di_m = d\vec{j}_{m,v} \cdot d\vec{\Sigma} \qquad \to \qquad i_m = \int_\Sigma \v
 \]
 
 \subsection{Il campo \(\vec{H}\)}
-Per i dielettrici abbiamo definito il campo \(\vec{D}\), che ha il vantaggio di avere la divergenza indipendente dalle cariche di polarizzazione. Con lo stesso intento definiamo un campo \(\vec{H}\) il cui rotore non dipenda dalle correnti di magnetizzazione.
+Per i dielettrici abbiamo definito il campo \(\vec{D}\), che ha il vantaggio di avere la divergenza indipendente dalle cariche di polarizzazione. Con lo stesso intento definiamo un campo \(\vec{H}\) il cui rotore (anche la divergenza) non dipenda dalle correnti di magnetizzazione.
 
 Vista la comparsa di nuove correnti \(i_m\) di magnetizzazione, riscriviamo la legge di Ampére (\ref{legge ampere}) tenendo conto del contributo delle suddette:
 \[
@@ -1369,7 +1402,7 @@ i = \oint_\gamma \vec{H} \cdot d\vec{l} = \oint_\gamma \frac{\vec{B} - \mu_0 \ve
 \]
 con 
 \[
-\vec{B} = k_m\vec{B}_0  \quad \to \quad \vec{B}_0
+\vec{B} = k_m\vec{B}_0  \quad \to \quad \vec{B}_0 = \frac{\vec{B}}{k_m}
 \]
 Si ha quindi
 \[
@@ -1408,11 +1441,14 @@ Ricordando la relazione \(\vec{B} = \mu_0 k_m \vec{H}\) scriviamo
 
 \textcolor{red}{finisci}
 
+\subsection{Teoria microscopica}
+
+\subsection{Ferromagneti}
 
 
 \section{Campi elettrici e magnetici variabili nel tempo}
 \subsection{Induzione elettromagnetica}
-\teorema{Faraday-Neumann-Lenz}{
+\teorema{Legge di Faraday-Neumann-Lenz}{
 Sperimentalmente si osserva che in un circuito conduttore investito da un campo magnetico variabile nel tempo si genera una \textit{forza elettromotrice indotta} pari a meno la varizione di flusso di campo magnetico nel tempo
 \begin{equation}
 	\mathcal{E}_i = -\frac{d\Phi(\vec{B})}{dt}
@@ -1427,8 +1463,8 @@ Se quindi a essere investito dal campo magnetico variabile è un circuito nel qu
 i = \frac{\mathcal{E} + \mathcal{E}_i}{R}
 \]
 
-\subsubsection*{Origine fisica (forza di Lorentz)}
-Possiamo dimostrare che all'origine del fenomeno di induzione c'è la forza di Lorentz. Sugli elettroni di conudzione in moto con velocità \(\vec{v}\) nel circuito conduttore agisce un campo di Lorentz \(\vec{E}_L\) pari a
+\subsubsection*{Circuito in moto (origine fisica = forza di Lorentz)}
+Possiamo dimostrare che all'origine del fenomeno di induzione c'è la forza di Lorentz. Immaginiamo un circuito \(\gamma\) in movimento con velocità \(\vec{v}\). Sugli elettroni di conudzione in moto con velocità \(\vec{v}\) nel circuito conduttore agisce un campo di Lorentz \(\vec{E}_L\) pari a
 \[
 \vec{E}_L = \vec{v}\wedge\vec{B}
 \]
@@ -1457,6 +1493,37 @@ da cui troviamo
 	\mathcal{E} = \mathcal{E}_i = \oint \vec{v}\wedge\vec{B}\cdot d\vec{s} = -\frac{d\Phi(\vec{B})}{dt}
 \end{equation}
 
+\subsubsection{Sorgente in moto}
+Poiché il circuito è fisso si ha \(\vec{v}=0\) e di conseguenza un modulo della forza di Lorentz nullo \(q\vec{v}\wedge\vec{B} = 0\). L'unica forza che agisce sulle cariche è quella di Coulomb
+\[
+\vec{F} = q\left(\vec{E} + \vec{v}\wedge\vec{B}\right) = q\vec{E}
+\]
+Le evidenze sperimentali di Faraday-Neumann mostrano la comparsa di una forza elettromotrice nel circuito, dobbiamo perciò supporre chi in una regione in cui il campo magnetico varia nel tempo venga indotto un campo elettrico. Riscriviamo la legge di Faraday-Neumann-Lenz portando dentro l'integrale la derivata
+\[
+\mathcal{E} = \oint \vec{E}\cdot \, d\vec{l} = \int_\Sigma \frac{\partial \vec{B}}{\partial t} \cdot \hat{u}_n  \, d\Sigma \neq 0
+\]
+Il campo elettrico \(\vec{E}\) deve essere \textbf{non conservativo}. Applicando il teorema di Stokes
+\[
+\oint \vec{E}\cdot \, d\vec{l} = \int_\Sigma\left(\vec{\nabla}\wedge\vec{E}\right)\cdot \hat{u}_n \, d\Sigma = \int_\Sigma -\frac{\partial \vec{B}}{\partial t} \cdot \hat{u}_n  \, d\Sigma
+\]
+da cui otteniamo una riscrittura generalizzata del rotore del campo elettrico
+\begin{equation}
+	\viola{\vec{\nabla}\wedge\vec{E} = -\frac{\partial \vec{B}}{\partial t}}
+\end{equation}
+Possiamo scrivere il campo elettrico come
+\begin{equation}
+	\vec{E} = -\frac{\partial \vec{A}}{\partial t} - \vec{\nabla}V
+\end{equation}
+
+\esempio{nota}{Vediamo come a seconda del sistema di riferimento in cui ci poniamo, si \textit{percepisce} un campo elettrico non conservativo oppure una forza elettromotrice indotta. \textcolor{red}{forse rivedi}}
+
+\teorema{Legge di Felici}{
+La carica totale che flusice in un circuito di resitenza \(R\) nell'intervallo \([t_i,t_f]\) è pari alla differenza tra flusso iniziale e finale sulla resistenza:
+\begin{equation}
+	q = \frac{\Phi_i - \Phi_f}{R}
+\end{equation}
+}
+
 \subsection{Correnti sinusoidali}
 Calcoliamo il flusso di campo magnetico attraverso una spira rotante (\(\vec
 \omega\)) rettangolare di lati 
@@ -1473,19 +1540,19 @@ dove \(\vartheta\) è l'angolo tra la normale della spira e il campo magnetico. 
 \]
 
 \subsection{Autonduzione}
-Un circuito di forma qualunqe percorso da corrente produce un campo magnetico. Il flusso di questo capo concatenato con il circuito stesso, detto \textit{autoflusso}, è dato da 
+Un circuito di forma qualunqe percorso da corrente produce un campo magnetico. Il flusso di questo concatenato con il circuito stesso, detto \textit{autoflusso}, è dato da 
 \begin{align*}
-	\Phi(\vec{B}) =& \int_\Sigma \left(\oint_\gamma \frac{\mu_0 i}{4\pi}\frac{d\vec{s}\wedge\hat{u}_r}{r^2}\right) \cdot \hat{u}_n \, d\Sigma \\
+	\Phi(\vec{B}) = \int_\Sigma \vec{B}\cdot \hat{u}_n \, d\Sigma =& \int_\Sigma \left(\oint_{\partial\Sigma} \frac{\mu_0 i}{4\pi}\frac{d\vec{s}\wedge\hat{u}_r}{r^2}\right) \cdot \hat{u}_n \, d\Sigma \\
 	=& Li
 \end{align*}
-dove \(L\) è detto coefficiente di autoinduzione. 
+dove \(L\) è detto coefficiente di autoinduzione, costante se non vi è deformazione del circuito. 
 
 L'autoflusso fa comparire nel circuito un forza elettromotrice autoindotta pari a 
 \[
 \mathcal{E}_L= - \frac{d\Phi(\vec{B})}{dt} = - L\frac{di}{dt}
 \]
 
-\subsection{Energia magnetica}
+\subsection{Energia magnetica (atto 1)}
 Al fine di arrivare a una definizione di energia intrinseca della corrente ci è utile studiare il comportamento di un \textit{circuito RL} negli istante di sua apertura e chiusura. Sappiamo che in un tempo infinitesimo nel circuito scorre una carica \(dq = i \, dt\).
 
 L'energia dissipata nel circuto è
@@ -1515,7 +1582,7 @@ E_{\text{diss.}} = \int_{0}^{\infty} R'i^2(t) \, dt \qquad \qquad \text{dove} \q
 \]
 risolvendo l'integrale
 \[
- E_{\text{diss.}} = \int_{0}^{\infty} R'i^2(t) \, dt \: = \: R'\frac{\mathcal{E}^2}{R^2} \frac{L}{2R'}\left[e^{-t\frac{2R'}{L}}\right]_0^\infty \: = \: \frac{1}{L}\frac{\mathcal{E}^2}{R^2} = \frac{1}{2}Li^2
+ E_{\text{diss.}} = \int_{0}^{\infty} R'i^2(t) \, dt \: = \: R'\frac{\mathcal{E}^2}{R^2} \frac{L}{2R'}\left[e^{-t\frac{2R'}{L}}\right]_0^\infty \: = \: \frac{1}{2}L\frac{\mathcal{E}^2}{R^2} = \frac{1}{2}Li^2
 \]
 Durante l'apertura è la forza elettromotrice autoindotta che fornisce energia. L'energia immagazzinata nell'induttanza si ritrova alla fine completamente dissipata sotto forma di calore nella resistenza.
 
@@ -1565,11 +1632,240 @@ da cui troviamo un'espressione più generale per la densità di energia magnetic
 
 \subsubsection{Applicazione nel ciclo di isteresi}
 
+\subsection{Mutua induzione}
+Con lo stesso ragionamento dell'autoinduzione dobbiamo prendere in considerazione il flusso di campo magnetico nel circuito \(2\) causato dallo scorrere della corrente in un circuito \(1\)
+\[
+\Phi_{12} = \int_{\Sigma_2}\vec{B}_1 \cdot \hat{u}_{n} \, d\Sigma
+\]
+dove \(\Sigma_2\) è una qualsiasi superficie su cui poggia il circuito \(2\). Dal momento che \(B_1\) è proporzionale a \(i_1\) possiamo scrivere 
+\[
+\Phi_{12} = M_{12}i_1
+\]
+dove \(M_{12}\) è i \textbf{coefficiente di mutua induzione} dipendente da tutti i fattori geometrici e dalle proprietà magnetiche del mezzo in cui sono immersi i circuiti. 
+
+Se andiamo a stdiare il comportamento di due circuiti 
+\begin{center}
+	\textcolor{red}{circuiti}
+\end{center}
+\[
+\begin{cases}
+	\mathcal{E}_1 = R_1i_1 + L_1\frac{di_1}{dt} + M_{12}\frac{di_1}{dt} \\
+	\mathcal{E}_e = R_2i_2 + L_2\frac{di_2}{dt} + M_{21}\frac{di_2}{dt}
+\end{cases}
+\]
+Perciò per \(N\) circuiti accoppiati
+\begin{equation}
+	\mathcal{E}_k = R_ki_k + L_k\frac{di_k}{dt} + \sum_{j\neq k}^{N}M_{jk}\frac{di_k}{dt} \qquad \forall k = 1,\dots,N
+\end{equation}
+\subsection{Energia magnetica (atto 2)} 
+Consideriamo due circuiti. Eseguiamo lo stesso procedimento per entrambi e studiamo il lavoro compiuto dai generatori. 
+
+\vspace{0.5cm}
+\hspace{-0.7cm}
+\begin{minipage}{0.5\textwidth}
+	\begin{enumerate}
+		\item Porto \(i_1\) a regime mentre \(i_2 = 0\): 
+		\[ U_1=\frac{1}{2}Li_1^2\]
+		\item Porto anche \(i_2\) a regime mantentendo costante \(i_1\): \[U_2=\frac{1}{2}Li_2^2\]
+		\item Il circuito \(1\) risente della variazione di \(i_2\) e compie lavoro al fine di mantenere costante \(i_1\):
+		\[U_{21} = M_{21} i_1 i_2\]
+	\end{enumerate}
+	Si ha un lavoro totale compiuto pari a 
+	\[
+	\frac{1}{2}Li_1^2 + \frac{1}{2}Li_2^2 + M_{21} i_1 i_2
+	\]
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\begin{enumerate}
+		\item Porto \(i_2\) a regime mentre \(i_1 = 0\): 
+		\[ U_2=\frac{1}{2}Li_2^2\]
+		\item Porto anche \(i_1\) a regime mantentendo costante \(i_2\): \[U_1=\frac{1}{2}Li_1^2\]
+		\item Il circuito \(2\) risente della variazione di \(i_1\) e compie lavoro al fine di mantenere costante \(i_2\):
+		\[U_{12} = M_{12} i_1 i_2\]
+	\end{enumerate}
+	Si ha un lavoro totale compiuto pari a 
+	\[
+	\frac{1}{2}Li_1^2 + \frac{1}{2}Li_2^2 + M_{12} i_1 i_2
+	\]
+\end{minipage}
+\vspace{0.5cm}
+
+\noindent
+In entrambi i casi siamo partiti con due circuiti spenti e siamo arrivati con entrambe le correnti a regime; il consumo energetico deve essere perciò lo stesso e per questo motivo deve valere \(M_{12} = M_{21}\).
+
+Grazie a questa uguaglianza possiamo scrivere
+\[
+Mi_1i_2 = \frac{1}{2}M_{12}i_1i_2 + \frac{1}{2}M_{21}i_1i_2 
+\]
+da cui possiamo generalizzare un'espressione per l'energia in \(N\) circuiti accoppiati pari a 
+\begin{equation}
+	\viola{U_M = \frac{1}{2}\sum_{k=1}^N\sum_{k=1}^N M_{jk}i_ji_k}
+\end{equation}
+\nota{}{Il coefficiente di induzione \(L\) è considerato sempre positivo, invece \(M\) è da considerarsi con segno e di conseguenza anche l'energia \(U_M\) può assumere valori positivi o negativi.}
+
+\subsection{Corrente di spostamento}
+Ricordiamo le quattro equazioni di Maxwell che abbiamo ricavato fin'ora:
+
+\[
+\begin{array}{ccc}
+	\vec{\nabla}\cdot \vec{E} = \frac{\rho}{\varepsilon_0} & & \vec{\nabla}\wedge \vec{E} = -\frac{\partial \vec{B}}{\partial t} \\ \\
+	\vec{\nabla}\cdot \vec{B} = 0 & & \vec{\nabla}\wedge \vec{B} = \mu_0 \vec{j}
+\end{array}
+\]
+Prendiamo in esame la quarta: il rotore del campo magnetico è pari alla permeabilità magnetica per il vettore densità di corrente. Bene, se ne calcoliamo la divergenza ci accorgiamo di un'incongruenza:
+\[
+\vec{\nabla}\cdot\left(\vec{\nabla}\wedge \vec{B}\right) = \vec{\nabla}\cdot\left(\mu_0 \vec{j}\right) 
+\]
+dove il primo membro è nullo, mentre il secondo per la \textit{legge di continuità della corrente elettrica} (\ref{cont corr}) sappiamo non esserlo
+\[
+\vec{\nabla}\cdot \vec{j} = - \frac{\partial \rho}{\partial t}
+\]
+
+Studiamo il fenomeno nel processo di carica di un condensatore. Sappiamo esserci una variazione di carica nel tempo tra le due armature pari a \(-dq/dt\) corrispondente a una \textit{possibile ma non presente} corrente uscente. Se andiamo a considerare il flusso di \(\vec{j}\) attraverso una superficie chiusa \(\Sigma = \Sigma_1 + \Sigma_2\) questo, non essendo presente nessuna carica uscente, non si annulla, seppur sapendo che \(\vec{j}\) è un campo solenoidale secondo \(\vec{\nabla}\cdot\left(\vec{\nabla}\wedge \vec{B}\right) = \vec{\nabla}\cdot\mu_0 \vec{j} = 0\) e che quindi deve avere flusso attraverso superifici chiuse identicamente nullo.
+
+
+\begin{figure}[H]
+	\centering
+	\incfig{spostamento}
+\end{figure}
+
+\begin{minipage}{0.5\textwidth}
+	\[
+	\boxed{\vec{\nabla}\wedge \vec{B}}
+	\]
+	\begin{gather*}
+		\int_{\Sigma_1}\left(\vec{\nabla}\wedge \vec{B}\right)\cdot \hat{u}_n \, d\Sigma = \oint_\gamma \vec{B} \cdot d\vec{l} \\
+		\int_{\Sigma_2}\left(\vec{\nabla}\wedge \vec{B}\right)\cdot \hat{u}_n \, d\Sigma = \oint_\gamma \vec{B} \cdot d\vec{l}
+	\end{gather*}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\[
+	\boxed{\vec{\nabla}\cdot \vec{j}}
+	\]
+	\begin{gather*}
+		\int_{\Sigma_1} \mu_0 \vec{j} \cdot \hat{u}_n \, d\Sigma = \mu_0 i \\
+		\int_{\Sigma_2} \mu_0 \vec{j} \cdot \hat{u}_n \, d\Sigma = 0
+	\end{gather*}
+\end{minipage}\vspace{0.8cm}
+Vediamo che il rotore del campo magnetico è uguale per qualsiasi superficie che poggia su \(\gamma\), invece la corrente si annulla tra le armature del condensatore (flusso attraverso \(\Sigma_2\)) dove immaginiamo non ci sia densità di corrente. 
+
+Maxwell aggiunge un termine \textit{densità di corrente di spostamento} \(\boldsymbol{\vec{j}_s}\)
+\[
+\vec{\nabla}\wedge \vec{B} = \mu_0 \vec{j} + \mu_0 \boldsymbol{\vec{j}_s}
+\]
+da cui possiamo scrivere
+\begin{gather*}
+	\vec{\nabla}\cdot\left(\vec{\nabla}\wedge \vec{B}\right) = \vec{\nabla}\cdot\mu_0 \vec{j} + \vec{\nabla}\cdot\mu_0 \vec{j}_s = 0 \\
+	-\vec{\nabla}\cdot\vec{j} = \vec{\nabla}\cdot\vec{j}_s \\
+	\frac{\partial \rho}{\partial t} = \vec{\nabla}\cdot\vec{j}_s
+\end{gather*}
+ricordando che \(\rho = \varepsilon_0\vec{\nabla}\cdot\vec{E}\) (\ref{approx senza p}) riscriviamo
+\[
+\frac{\partial}{\partial t}\left(\varepsilon_0\vec{\nabla}\cdot\vec{E}\right)=\vec{\nabla}\cdot\vec{j}_s
+\]
+spostiamo la derivata parziale sul campo elettrico e otteniamo
+\[
+\vec{\nabla}\cdot\left(\varepsilon_0\frac{\partial\vec{E}}{\partial t}\right) = \vec{\nabla}\cdot\left(\vec{j}_s\right) 
+\]
+da cui otteniamo le espressioni della densità di corrente di spostamento e della corrente di spostamento (\(i = \int_\Sigma \vec{j}\cdot\hat{u}_n \, d\Sigma\))
+\begin{equation}
+	\viola{\vec{j}_s = \varepsilon_0\frac{\partial\vec{E}}{\partial t}} \qquad \viola{i_s = \varepsilon_0\frac{d\Phi(\vec{E})}{dt}}
+\end{equation}
+Abbiamo perciò trovato un'espressione per \(\vec{j}_s\) affinché la divergenza di \(\mu\vec{j}+\mu\vec{j}_s\) sia identicamente nulla; ora \(\vec{\nabla}\wedge \vec{B} = \mu_0 \vec{j} + \mu_0 \boldsymbol{\vec{j}_s}\) dà risultato identicamente nullo sia a primo sia a secondo membro.
+Con questa nuova corrente di spostamento possiamo aggiornare i quattro flussi come segue:
+
+\begin{minipage}{0.5\textwidth}
+	\[
+	\boxed{\vec{\nabla}\wedge \vec{B}}
+	\]
+	\begin{gather*}
+		\int_{\Sigma_1}\left(\vec{\nabla}\wedge \vec{B}\right)\cdot \hat{u}_n \, d\Sigma = \oint_\gamma \vec{B} \cdot d\vec{l} \\
+		\int_{\Sigma_2}\left(\vec{\nabla}\wedge \vec{B}\right)\cdot \hat{u}_n \, d\Sigma = \oint_\gamma \vec{B} \cdot d\vec{l}
+	\end{gather*}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	\[
+	\boxed{\vec{\nabla}\cdot \vec{j}}
+	\]
+	\begin{gather*}
+		\int_{\Sigma_1} \mu_0 \vec{j} \cdot \hat{u}_n \, d\Sigma = \mu_0 i \\
+		\int_{\Sigma_2} \mu_0\left(\vec{j} + \boldsymbol{\varepsilon_0\frac{\partial\vec{E}}{\partial t}}\right) \vec{j} \cdot \hat{u}_n \, d\Sigma = \mu_0 i_s
+	\end{gather*}
+\end{minipage}\vspace{0.8cm}
+Facendo così superiamo l'incongruenza che ci si era presentata e possiamo "aggiornare" le equazioni di Maxwell nelle seguenti
+
+\begin{equation}
+	\viola{
+		\begin{array}{lcl}
+			\vec{\nabla}\cdot \vec{E} = \frac{\rho}{\varepsilon_0} & & \vec{\nabla}\wedge \vec{E} = -\frac{\partial \vec{B}}{\partial t} \\ \\
+			\vec{\nabla}\cdot \vec{B} = 0 & & \vec{\nabla}\wedge \vec{B} = \mu_0 \vec{j} + \mu_0\vec{j}_s
+	\end{array}}
+\end{equation}
+\esempio{Applicazione per ricavare la velocità della luce \(c\)}{
+\[
+\vec{\nabla}\wedge\left(\vec{\nabla} \wedge\vec{B}\right) = \vec{\nabla}\left(\vec{\nabla}\cdot\vec{B}\right) - \left(\vec{\nabla}\cdot\vec{\nabla}\right)\vec{B} = -\nabla^2\vec{B}
+\]
+riscriviamo il rotore di campo elettrico come \(\vec{\nabla} \wedge\vec{B} = \cancel{\mu_0\vec{j}} + \mu_0\varepsilon_0\frac{\partial \vec{E}}{\partial t}\) dove cancelliamo il primo termine perché trovandoci nel vuoto non sono presenti cariche e correnti.
+\[
+ \vec{\nabla}\wedge\mu_0\varepsilon_0\frac{\partial \vec{E}}{\partial t} = \mu_0\varepsilon_0\frac{\partial}{\partial t}\left(\vec{\nabla}\wedge\vec{E}\right) = \mu_0\varepsilon_0\frac{\partial^2 \vec{B}}{\partial t^2}
+\]
+unendo le due possiamo scrivere (\textcolor{red}{il segno nell'eq. di d'Alembert è sus.})
+\begin{equation}
+	-\nabla^2\vec{B} =  \mu_0\varepsilon_0\frac{\partial^2 \vec{B}}{\partial t^2}
+\end{equation}
+da cui
+\[
+v = \frac{1}{\sqrt{\varepsilon_0\mu_0}} = c
+\]
+Le equazioni di Maxwell sono coerenti con le equazioni delle onde.
+}
+
+\section{Equazioni di Maxwell}
+Siamo arrivati a delle espressioni finali per le equazioni di Maxwell. Rivediamo cosa esprimono fisicamente e le loro versioni in mezzi materiali in quiete.
+\[
+\viola{\vec{\nabla}\cdot \vec{E} = \frac{\rho}{\varepsilon_0}} \qquad \qquad \rosso{\vec{\nabla}\cdot \vec{D} = \rho}
+\]
+stabilisce il legame tra carica elettrica e campo elettrico: la struttura è la stessa sia per campi statici sia per campi variabili.
+\[
+\viola{\vec{\nabla}\wedge \vec{E} = -\frac{\partial \vec{B}}{\partial t}} 
+\]
+mostra che acnhe un campo magnetico variabile è sorgente di un campo elettrico.
+\[
+\viola{\vec{\nabla}\cdot \vec{B} = 0}
+\]
+un campo magnetico è sempre solenoidale e che quindo non esistono monopoli magnetici.
+\[
+\viola{\vec{\nabla}\wedge \vec{B} = \mu_0 \vec{j} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}} \qquad \qquad \rosso{\vec{\nabla} \wedge \vec{H} = \vec{j} + \frac{\partial \vec{D}}{\partial t}}
+\]
+individua come sorgenti del capo magnetico le correnti di conduzioni e le variazioni di campo elettrico.
+\newpage
 \section{Applicazioni in alcuni macchinari}
 \subsection{Spettrometro di massa}
 \subsection{Selettore di velocità}
+\begin{wrapfigure}{r}{0.3\textwidth}
+	%\hspace{-1.5cm}
+	\incfig{sel_vel}
+\end{wrapfigure}
+Facendo agire nella stessa regione un campo elettrostatico \(\vec{E}\) e un campo magnetico \(\vec{B}\) uniformi e ortogonali tra loro possiamo selezionare quali cariche passeranno attraverso alla fenditura:
+\[
+\vec{F} = q\vec{E} + q\vec{v}\wedge\vec{B} = 0 \quad \implies\quad \vec{E} + \vec{v} \wedge \vec{B} = 0
+\]
+vista la nostra situazione possiamo riscrivire
+\[
+E = vB = 0
+\]
+da cui ricaviamo che la carica dello ione in esame è ininfluente e gli ioni a passare nella fenditura saranno solo quelli la cui velocità è pari a
+\[
+v = \frac{E}{B}
+\]
+Oltrepassata la fenditura lo ione entra in uno \textbf{spettrometro di massa} che fornisce un'accelerazione centripeta e un conseguente raggio di rotazione:
+\[
+qvB' = \frac{mv^2}{r} \quad \implies \quad r = \frac{mv}{qB'} = \frac{m}{q}\frac{E}{BB'}
+\]
 \subsection{Ciclotrone}
 \subsection{Betatrone}
+\subsection{Generatori}
+\subsection{Disco di Barlow}
 
 % FINE DOCUMENTO ---------------------------------------------------------------------%
 % FINE DOCUMENTO
@@ -1611,6 +1907,52 @@ U_e(r) \;\ = \;\ q_0V(r) \;\ = \;\ q_0\int_{r}^{\infty} \vec{E}\cdot d\vec{s} = 
 \section{Calcoli di campi magnetici}
 
 \section{Circuiti}
+\subsection{Circuito RC}
+\begin{wrapfigure}{r}{0.3\textwidth}
+	%\hspace{-1.5cm}
+	\incfig{RC}
+\end{wrapfigure}
+\begin{gather*}
+	\frac{q}{C}=Ri \quad \to \quad \frac{di}{dt} = CRi \quad \to \quad \int\frac{di}{i} = -RC \int \, dt \\
+	\log(i) =- RC t + K \quad \to \quad i(t) = e^{-RCt + K}
+\end{gather*}
+
+
+
+
+\subsection{Circuito RL}
+\begin{figure}[H]
+	\centering
+	\incfig{RL}
+\end{figure}
+\[
+\mathcal{E} = Ri - \mathcal{E}_L \quad \to \quad \mathcal{E} = Ri + L\frac{di}{dt} \quad \to \quad \frac{dt}{L} = \frac{di}{\mathcal{E}-Ri}
+\]
+\[
+\frac{1}{L}\int dt = \int \frac{di}{\mathcal{E}-Ri} \quad \to \quad \frac{t}{L} + A = -\frac{1}{R}\log\left(\mathcal{E} - Ri\right) + B
+\]
+\[
+\log\left(\mathcal{E} - Ri\right) = -R\left(\frac{t}{L} + C\right)
+\]
+\[
+\mathcal{E} - Ri = e^{-R\frac{t}{L} + C}  \quad \to \quad Ri = \mathcal{E} - e^{-R\frac{t}{L} + C} = \mathcal{E} - Ke^{-R\frac{t}{L}}
+\]
+\[
+i(t) = \frac{\mathcal{E}}{R}\left(1 - e^{-\frac{t}{\tau}}\right) + i(0)e^{-\frac{t}{\tau}}
+\]
+Notiamo he
+
+\subsection{Circuito LC}
+\begin{figure}[H]
+	\centering
+	\incfig{LC}
+\end{figure}
+
+\subsection{Circuito RLC}
+\begin{figure}[H]
+	\centering
+	\incfig{RLC}
+\end{figure}
 
 
 \end{document}
