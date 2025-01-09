@@ -1863,7 +1863,88 @@ Oltrepassata la fenditura lo ione entra in uno \textbf{spettrometro di massa} ch
 qvB' = \frac{mv^2}{r} \quad \implies \quad r = \frac{mv}{qB'} = \frac{m}{q}\frac{E}{BB'}
 \]
 \subsection{Ciclotrone}
+L'accelerazione di particelle tramite l'utilizzo di campi elettrostatici ci pone a delle limitazioni fisiche difficili da aggirare. Il limite è posto dalla massima differenza di potenziale raggiungibile tra due punti (nell'ordine di \(10^7 \, V\)) in un certo mezzo. Quando il campo \(E_\text{max}\) eguaglia la rigidità dielettrica \(E_s\) del mezzo ha origine una dispersione di carica verso l'esterno e il potenziale non cresce più.
+
+Tra due lastre semicilindriche viene applicata una differenza di potenziale variabile
+\[
+V = V_0\sin(\omega_{RF} t)
+\]
+che faccia sì che il senso del campo elettrico sia sempre concorde al verso della velocità della particella accelerata. Le lastre sono poi immerse in n campo magnetico uniforme \(\vec{B}\) ortogonale e rivolto verso il basso.
+
+\begin{enumerate}
+	\item Viene posizionato uno ione al centro e viene mandato in una delle due lastre a velocità \(v\) spinto dal campo elettrico
+	\[
+	\frac{1}{2}mv^2 = qV \quad \to\quad v = \sqrt{\frac{2qV}{m}}
+	\]
+	\item Lo ione subisce una forza di Lorentz che lo fa deviare di un raggio
+	\[
+	r = \frac{mv}{qB}
+	\]
+	\item Dopo un tempo \(t\) nel quale percorre mezza circonferenza \(\pi r\) a velocità \(v\) lo ione esce dalla prima lastra
+	\[
+	t = \frac{\pi r}{v} = \frac{\pi m}{qB}
+	\]
+	\item Lo ione subisce una seconda accelerazione aumentando la sua velocità e di conseguenza il suo raggio di curvatura. Il tempo di percorrenza dell'orbita circolare non cambia poiché questo non dipende dalla velocità della particella: vale per tutte le velocità \(\pi m/qB\).
+\end{enumerate}
+
+L'unica condizione per il funzionamento del ciclotrone è che la frequenza con cui  la particella compie mezzo giro si uguale a quella con cui cambia verso il campo elettrico tra le lastre (radiofrequenza):
+\[
+\omega = \omega_{RF} \quad \to \quad \frac{\pi}{t} =  \omega_{RF}\quad \to \quad \frac{\pi}{\frac{\pi m}{qB}} = \frac{qB}{m} = \omega_{RF}
+\]
+\begin{equation}
+	\omega = \frac{qB}{m} = \omega_{RF}
+\end{equation}
+Il processo si conclude quando lo ione raggiunge il confine del ciclotrone e quindi ha rotazione di raggio \(R\); dall'equazione che descrive il raggio troviamo la velocità a raggio \(R\):
+\[
+v_\text{max} = \frac{qBR}{m}
+\]
+
+
 \subsection{Betatrone}
+Nell'intraferro è presente un anello cavo nel quale si genera un campo elettrico \(\vec{E}\) dovuto al campo magnetico variabile \(\vec{B}\). 
+
+\paragraph{Situazione iniziale}
+Studiamo la forza elettromotrice indotta sull'anello e la esprimiamo come circuitazione di campo elettrico e come variazione di flusso di campo magnetico:
+\begin{align*}
+	\oint \vec{E}\cdot d\vec{s} &= \mathcal{E} = -\frac{d}{dt}\int_\Sigma \vec{B}\cdot \hat{u}_n \, d\Sigma 
+\end{align*}
+Definisco un campo magnetico medio \(B_m\) attraverso \(\Sigma\) pari alla media integrale
+\[
+B_m = \frac{1}{\Sigma}\frac{d}{dt}\int_\Sigma \vec{B}\cdot \hat{u}_n \, d\Sigma \quad \to \quad \frac{d}{dt}\int_\Sigma \vec{B}\cdot \hat{u}_n \, d\Sigma = \Sigma B_m
+\]
+Riscrivo la circuitazione come \(2\pi R E\) e sostutuisco l'integrale del flusso con quello appena ricavato
+\[
+2\pi R E = \mathcal{E} = -\frac{d}{dt}\Sigma B_m
+\]
+sapendo che \(\Sigma = \pi R^2\)
+\[
+2\pi R E = -\pi R^2\frac{d}{dt}B_m\ 
+\]
+\begin{equation}
+	E = --\frac{R}{2}\frac{dB_m}{dt}
+\end{equation}
+
+\paragraph{Condizioni per moto circolare}
+Per avere moto circolare si deve far sì che l'accelerazione tangenziale sia sempre proporzionata a quella radiale seondo precise considerazioni.
+\[
+F_e = \frac{dp}{dt} = eE \quad \implies \quad \frac{dp}{\cancel{dt}} = -e\frac{R}{2}\frac{dB_m}{\cancel{dt}}
+\]
+al finito scriviamo
+\[
+\Delta p = -|e|\frac{R}{2}\Delta B_m
+\]
+Trovo il raggio di rotazione
+\[
+F = \frac{mv^2}{R} \quad \to \quad |e| v B(R) = \frac{mv^2}{R} \quad \implies \quad R = \frac{mv}{|e|B(R)}
+\]
+e lo ficco nella differenza di quantità di moto, che scrivo come \(\Delta p = mv\)
+\[
+mv = -|e|\frac{\frac{mv}{|e|B(R)}}{2}\Delta B_m
+\]
+da cui trovo
+\begin{equation}
+	\Delta B_m = 2B(R)
+\end{equation}
 \subsection{Generatori}
 \subsection{Disco di Barlow}
 

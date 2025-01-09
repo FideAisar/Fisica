@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.10)  7 JAN 2025 03:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.10)  8 JAN 2025 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1564,45 +1564,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--1848
 
  []
 
-[41 <./img/sel_vel.pdf>]
+[41 <./img/sel_vel.pdf>] [42] [43]
 Chapter 3.
 (./img/RC.pdf_tex
-<./img/RC.pdf, id=2079, page=1, 143.53625pt x 73.27374pt>
+<./img/RC.pdf, id=2095, page=1, 143.53625pt x 73.27374pt>
 File: ./img/RC.pdf Graphic file (type pdf)
 <use ./img/RC.pdf, page 1>
 Package pdftex.def Info: ./img/RC.pdf , page1 used on input line 58.
 (pdftex.def)             Requested size: 143.03436pt x 73.01973pt.
 )
-Overfull \hbox (12.94705pt too wide) in paragraph at lines 59--1914
+Overfull \hbox (12.94705pt too wide) in paragraph at lines 59--1995
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--1914
+Underfull \hbox (badness 10000) in paragraph at lines 59--1995
 
  []
 
-[42
+[44
 
 ] (./img/RL.pdf_tex
-<./img/RL.pdf, id=2085, page=1, 143.53625pt x 73.27374pt>
+<./img/RL.pdf, id=2100, page=1, 143.53625pt x 73.27374pt>
 File: ./img/RL.pdf Graphic file (type pdf)
 <use ./img/RL.pdf, page 1>
 Package pdftex.def Info: ./img/RL.pdf , page1 used on input line 61.
 (pdftex.def)             Requested size: 143.03436pt x 73.01973pt.
 ) (./img/LC.pdf_tex
-<./img/LC.pdf, id=2086, page=1, 143.53625pt x 73.27374pt>
+<./img/LC.pdf, id=2101, page=1, 143.53625pt x 73.27374pt>
 File: ./img/LC.pdf Graphic file (type pdf)
 <use ./img/LC.pdf, page 1>
 Package pdftex.def Info: ./img/LC.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 143.03436pt x 73.01973pt.
 ) (./img/RLC.pdf_tex
-<./img/RLC.pdf, id=2087, page=1, 143.53625pt x 73.27374pt>
+<./img/RLC.pdf, id=2102, page=1, 143.53625pt x 73.27374pt>
 File: ./img/RLC.pdf Graphic file (type pdf)
 <use ./img/RLC.pdf, page 1>
 Package pdftex.def Info: ./img/RLC.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 143.03436pt x 73.01973pt.
-) [43 <./img/RC.pdf> <./img/RL.pdf
+) [45 <./img/RC.pdf> <./img/RL.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/RL.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
@@ -1623,8 +1623,8 @@ Package rerunfilecheck Info: File `fisica2.out' has not changed.
 (rerunfilecheck)             Checksum: 2FF2805FFED9B225297772FEF216EAE5;11556.
  ) 
 Here is how much of TeX's memory you used:
- 38088 strings out of 476076
- 894716 string characters out of 5793774
+ 38097 strings out of 476076
+ 894802 string characters out of 5793774
  1969187 words of memory out of 5000000
  59371 multiletter control sequences out of 15000+600000
  570083 words of font info for 83 fonts, out of 8000000 for 9000
@@ -1650,10 +1650,10 @@ fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/latxfont/line10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on fisica2.pdf (44 pages, 13169650 bytes).
+Output written on fisica2.pdf (46 pages, 13176371 bytes).
 PDF statistics:
- 2231 PDF objects out of 2487 (max. 8388607)
- 1965 compressed objects within 20 object streams
- 162 named destinations out of 1000 (max. 500000)
+ 2248 PDF objects out of 2487 (max. 8388607)
+ 1980 compressed objects within 20 object streams
+ 171 named destinations out of 1000 (max. 500000)
  747 words of extra memory for PDF output out of 10000 (max. 10000000)
 
