@@ -611,6 +611,11 @@ da cui
 	\viola{\mathcal{U}_e = \frac{1}{2}\varepsilon_0 E^2}
 \end{equation}
 
+\begin{center}
+	\textcolor{red}{sistema di cariche}
+\end{center}
+
+
 \subsection{Discontinuità di carica nei conduttori}
 Prendiamo in considerazione un percorso chiuso che interseca la lastra carica in modo che i lati verticali siano infinitesimi di ordine superiore ai lati orizzontali.\textcolor{white}{che cafonata ma qua serve spazio}
 \begin{wrapfigure}{r}{0.5\textwidth}
@@ -1054,6 +1059,7 @@ riscriviamo l'uguaglianza \(D_{1n} = D_{2n}\) come
 \end{gather*}
 
 \subsection{Energia elettrostatica nei dielettrici}
+Sapendo la nuova espressione della capaità in un materiale dielettrico
 
 \subsection{Meccanismi di polarizzazione nei dielettrici}
 \subsubsection{Polarizzazione elettronica in un gas}
@@ -1309,6 +1315,27 @@ Una spira di area \(d\Sigma\) precorsa dalla corrente \(i\) equivale, in relazio
 \begin{equation}
 	d\vec{\mu} = i \, d\Sigma \hat{u}_n
 \end{equation}}
+\subsubsection{Piccole oscillazioni}
+Ricordando l'espressione del momento meccanico \(\tau = I\alpha\) 
+
+\begin{gather}
+	\tau = -\mu B \sin\vartheta \approx -\mu B \vartheta \\
+	\tau = I\frac{d^2\vartheta}{dt^2}
+\end{gather}
+dalle quali riscriviamo
+\[
+\frac{d^2\vartheta}{dt^2} + \frac{\mu B}{I} \vartheta = 0
+\]
+dove
+\[
+\frac{\mu B}{I} = \omega^2 \quad \to \quad \omega = \sqrt{\frac{\mu B}{I}}
+\]
+da cui troviamo il periodo delle piccole oscillazioni
+\[
+T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{I}{mB}} = 2\pi \sqrt{\frac{I}{i\Sigma B}}
+\]
+
+\subsubsection{Energia potenziale dal flusso}
 Nel caso in cui il campo magnetico \(\vec{B}\) anche se non uniforme assume lo stesso valore su tutti i punti della superficie \(\Sigma\). Per la spira (o dipolo) si definisce un'energia potenziale
 \begin{align*}
 	dU =& -d\vec{\mu}\cdot\vec{B} \\
@@ -1329,12 +1356,27 @@ Dall'espressione dell'energia potenziale possiaom esprimere la forza come
 \subsection{Effetto Hall}
 Prendiamo in considerazione un conduttore a forma di nastro sottile di sezione \(\Sigma = ab\) percorso da una corrente \(i\) e con \(\vec{j} = (i/ab) \hat{u}_x = nq\vec{v}_d\). Il nastro è investito da un campo magnetico \(\vec{B}\), su ciascun portatore di carica agisce la forza di Lorentz
 \[
-\vec{F}_L = q\vec{v}_b \wedge \vec{B} \qquad \to \qquad \vec{E}_{em} = \vec{v}_b \wedge \vec{B}
+\vec{F}_L = q\vec{v}_b \wedge \vec{B} \qquad \to \qquad \vec{E}_{em} = \vec{v}_b \wedge \vec{B} = \frac{j}{nq} \wedge B
 \]
 Questo è un aspetto molto importante della forza magnetica su una carica in moivmento, la qale permetto in ogni caso di definire un acmpo elettrico di origine magnetica che chiamiamo \textbf{campo elettromotore} \(\vec{E}_{em}\).
-
+\begin{figure}[H]
+	\centering
+	\incfig{hall_1}
+\end{figure}
 Il campo elettromotore provoca una separazione delle cariche positive dalle cariche negative, fatto che genere un secondo campo elettrostatico \(\vec{E}_H\) detto \textbf{campo di Hall} che si oppone a un ulteriore accumulo.
-
+\begin{figure}[H]
+	\centering
+	\incfig{hall_2}
+\end{figure}
+Si raggiunge rapidamente un equilibrio perciò vale
+\[
+\vec{E}_H + \vec{E}_{em} = 0
+\]
+Possiamo inoltre definire una tensione di Hall \(\mathcal{E}_H\) pari a 
+\[
+\mathcal{E}_H = \int \vec{E}_{em} \cdot d\vec{s} = \vec{E}_{em} \cdot \vec{b} = E_{em}b = \frac{jBb}{nq} = \frac{iB}{nqa}
+\]
+Conoscendo la costante di proporzionalità tra \(\mathcal{E}_H\) e il campo magnetico \(B\) possiamo costruire dei misuratori di campo magnetico detti sonde di Hall.
 \subsection{Legge di Laplace e legge di Ampére}
 Consideriamo un filo rettilineo percorso dalla corrente \(i\) che produce  il capo magnetico 
 \[
