@@ -1,0 +1,73 @@
+%% Creator: Inkscape 1.4 (e7c3feb100, 2024-10-09), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ampere.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{375bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.32)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.4399901,0.18026041){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_2$\end{tabular}}}}%
+    \put(0.41244642,0.29364778){\color[rgb]{0.14117647,0.18039216,0.89411765}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{B}$\end{tabular}}}}%
+    \put(0.27782697,0.2181189){\color[rgb]{0.94901961,0.10196078,0.10196078}\transparent{0.89803898}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_1$\end{tabular}}}}%
+    \put(0.23922083,0.00828938){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
+    \put(0.20752167,0.17435925){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vartheta$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{ampere.pdf}}%
+    \put(0.77692366,0.29949637){\color[rgb]{0.14117647,0.18039216,0.89411765}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\vec{B}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{ampere.pdf}}%
+    \put(0.14437781,0.19688882){\color[rgb]{0.8627451,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$i$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{ampere.pdf}}%
+    \put(0.80708599,0.18112468){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_2$\end{tabular}}}}%
+    \put(0.64492402,0.21898317){\color[rgb]{0.94901961,0.10196078,0.10196078}\transparent{0.89803898}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_1$\end{tabular}}}}%
+    \put(0.60631802,0.00915367){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
+    \put(0.70023352,0.13476116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$2\pi$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{ampere.pdf}}%
+    \put(0.71009497,0.17422336){\color[rgb]{0.8627451,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$i$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

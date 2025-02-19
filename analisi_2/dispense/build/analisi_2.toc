@@ -1,0 +1,69 @@
+\contentsline {section}{\numberline {1}Serie numeriche}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Successioni di numeri complessi}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Carattere di una serie}{2}{}%
+\contentsline {subsubsection}{Teorema: Condizione necessaria di convergenza}{2}{}%
+\contentsline {subsubsection}{Teorema: "Linearità delle serie"}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Serie geometrica, serie telescopiche e armoniche}{3}{}%
+\contentsline {subsubsection}{Serie geometrica}{3}{}%
+\contentsline {subsubsection}{Serie telescopiche}{4}{}%
+\contentsline {subsubsection}{Serie armonica}{4}{}%
+\contentsline {subsection}{\numberline {1.4}Serie a termini non negativie a segni alterni}{5}{}%
+\contentsline {subsubsection}{Teorema: Le serie a termini non negativi o convergono o divergono}{5}{}%
+\contentsline {subsubsection}{Teorema: Convergenza assoluta implica convergenza semplice}{6}{}%
+\contentsline {subsection}{\numberline {1.5}Criteri applicabili alle serie}{6}{}%
+\contentsline {subsubsection}{Criterio del confronto}{6}{}%
+\contentsline {subsubsection}{Criterio del confronto asintotico}{7}{}%
+\contentsline {subsubsection}{Criterio della radice}{7}{}%
+\contentsline {subsubsection}{Criterio del rapporto}{7}{}%
+\contentsline {subsubsection}{Criterio dell'integrale di Mc. Laurin}{7}{}%
+\contentsline {subsubsection}{Criterio di Leibniz}{7}{}%
+\contentsline {subsection}{\numberline {1.6}Procedimento per la risoluzione degli esercizi}{8}{}%
+\contentsline {section}{\numberline {2}Topologia di \({R}^n\)}{9}{}%
+\contentsline {section}{\numberline {3}Limiti di funzioni in più variabili}{10}{}%
+\contentsline {subsubsection}{Teorema: Equivalenza tra limite globale e limite componente per componente}{10}{}%
+\contentsline {paragraph}{Punto all'infinito}{11}{}%
+\contentsline {subsection}{\numberline {3.1}Utilizzo delle curve}{11}{}%
+\contentsline {subsubsection}{Proprietà}{11}{}%
+\contentsline {paragraph}{Corollario}{11}{}%
+\contentsline {subsection}{\numberline {3.2}Punti stazionari per campi scalari e vettoriali}{11}{}%
+\contentsline {subsubsection}{\textbf {Teorema di Weierstra{\ss }}}{11}{}%
+\contentsline {subsubsection}{\textbf {Teorema di Fermat}}{12}{}%
+\contentsline {subsubsection}{Teorema: Condizione necessaria per essere min/max locale}{14}{}%
+\contentsline {subsubsection}{Teorema: Condizioni Sufficienti}{15}{}%
+\contentsline {section}{\numberline {4}Calcolo differenziale per funzioni scalari}{16}{}%
+\contentsline {subsection}{\numberline {4.1}Derivate parziali}{16}{}%
+\contentsline {subsubsection}{Derivate direzionali}{16}{}%
+\contentsline {paragraph}{Corollario}{16}{}%
+\contentsline {paragraph}{Gradiente come vettore di massima crescita}{16}{}%
+\contentsline {paragraph}{Ortogonalità del gradiente agli insiemi di livello}{16}{}%
+\contentsline {subsection}{\numberline {4.2}\textbf {Differenziabilità}}{17}{}%
+\contentsline {subsubsection}{Teorema: differenziabilità implica esistenza della derivata direzionale}{17}{}%
+\contentsline {subsubsection}{Teorema: differenziabilità implica continità}{18}{}%
+\contentsline {subsubsection}{Teorema: condizione sufficiente di differenziabilità}{19}{}%
+\contentsline {paragraph}{Corollario}{19}{}%
+\contentsline {subsection}{\numberline {4.3}Derivate seconde}{19}{}%
+\contentsline {subsubsection}{Matrice Hessiana}{19}{}%
+\contentsline {subsubsection}{Teorema di Schwartz}{19}{}%
+\contentsline {section}{\numberline {5}Calcolo differenziale per funzioni vettoriali}{20}{}%
+\contentsline {subsection}{\numberline {5.1}Curve parametriche}{20}{}%
+\contentsline {paragraph}{Sostegno}{20}{}%
+\contentsline {paragraph}{Curva semplice}{20}{}%
+\contentsline {paragraph}{Arco di curva}{20}{}%
+\contentsline {paragraph}{Estremi}{20}{}%
+\contentsline {paragraph}{Curva di Jordan}{20}{}%
+\contentsline {paragraph}{Curva regolare}{20}{}%
+\contentsline {subsection}{\numberline {5.2}Derivate parziali}{21}{}%
+\contentsline {subsubsection}{Derivate direzionali}{21}{}%
+\contentsline {paragraph}{Differenziale}{21}{}%
+\contentsline {subsection}{\numberline {5.3}Composizione di campi vettoirali}{22}{}%
+\contentsline {subsubsection}{\textbf {Chain rule}}{22}{}%
+\contentsline {subsection}{\numberline {5.4}Teorema di inversione locale}{22}{}%
+\contentsline {subsubsection}{\textbf {TIL}}{22}{}%
+\contentsline {subsection}{\numberline {5.5}Teoremi della funzione implicita}{23}{}%
+\contentsline {subsubsection}{\textbf {Dini in 2 dimensioni}}{23}{}%
+\contentsline {paragraph}{Corollario}{23}{}%
+\contentsline {section}{\numberline {6}Superfici in \({R}^3\)}{24}{}%
+\contentsline {section}{\numberline {7}Calcolo integrale per funzioni in più variabili}{25}{}%
+\contentsline {subsection}{\numberline {7.1}Insiemi misurabili}{25}{}%
+\contentsline {subsubsection}{Teorema: Condizione di miusurabilità}{25}{}%
+\contentsline {subsection}{\numberline {7.2}Funzioni integrabili}{25}{}%
