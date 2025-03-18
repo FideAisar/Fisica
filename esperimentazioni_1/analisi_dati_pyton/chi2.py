@@ -60,7 +60,6 @@ def phantom_classes(xcentr_array, abs_freq_array, n, std_dev, mean, bin_width):
     # Calcolo della costante b per la distribuzione normale
     b = (1 / (std_dev * (np.sqrt(2 * np.pi)))).item()
     
-    # Copia degli array di input
     phantom_xcentr_array = xcentr_array.copy()
     phantom_abs_freq_obs = abs_freq_array.copy()
     phantom_arg_exp = [0] * len(xcentr_array)
@@ -68,36 +67,29 @@ def phantom_classes(xcentr_array, abs_freq_array, n, std_dev, mean, bin_width):
     phantom_prob = [0] * len(xcentr_array)
     phantom_abs_freq_expe = [0] * len(xcentr_array)
     
-    # Calcolo dei valori iniziali
+    # valori iniziali
     for i in range(len(xcentr_array)):
         phantom_arg_exp[i] = (xcentr_array[i] - mean)**2 / (2 * (std_dev**2))
         phantom_prob_density[i] = b * np.exp(-phantom_arg_exp[i])
         phantom_prob[i] = phantom_prob_density[i] * bin_width
         phantom_abs_freq_expe[i] = n * phantom_prob[i]
     
-    # Valore obiettivo (goal) e somma iniziale (shot)
     goal = n
     shot = np.sum(phantom_abs_freq_expe).item()
 
-    # Aggiunta di nuovi elementi finché shot / goal < 0.995
-    while shot / goal < 0.995:
-        # Decide se aggiungere all'inizio o alla fine
+    while shot / goal < 0.9995:
         if phantom_prob_density[0] > phantom_prob_density[-1]:
-            # Aggiungi all'inizio
             new_xcentr = phantom_xcentr_array[0] - bin_width
             insert_index = 0
         else:
-            # Aggiungi alla fine
             new_xcentr = phantom_xcentr_array[-1] + bin_width
             insert_index = len(phantom_xcentr_array)
         
-        # Calcola i nuovi valori
         new_arg_exp = (new_xcentr - mean)**2 / (2 * (std_dev**2))
         new_prob_density = b * np.exp(-new_arg_exp)
         new_prob = new_prob_density * bin_width
         new_abs_freq_expe = new_prob * n
-        
-        # Inserisci i nuovi valori negli array
+       
         phantom_xcentr_array.insert(insert_index, new_xcentr)
         phantom_abs_freq_obs.insert(insert_index, 0)
         phantom_arg_exp.insert(insert_index, new_arg_exp)
@@ -105,10 +97,43 @@ def phantom_classes(xcentr_array, abs_freq_array, n, std_dev, mean, bin_width):
         phantom_prob.insert(insert_index, new_prob)
         phantom_abs_freq_expe.insert(insert_index, new_abs_freq_expe)
         
-        # Aggiorna la somma totale
         shot = np.sum(phantom_abs_freq_expe).item()
 
     return phantom_xcentr_array, phantom_abs_freq_obs, phantom_arg_exp, phantom_prob_density, phantom_prob, phantom_abs_freq_expe
+
+def merger(arrays):
+    arrays = [array.copy() for array in arrays]
+    radq = [0] * len(arrays[0])
+    squared = [0] * len(arrays[0])
+
+    while len(arrays[0]) > 1 and arrays[0][-1]  < 6:
+        merged_value = arrays[0][-1] + arrays[0][-2]
+        arrays[0][-2] = merged_value
+        arrays[0].pop(-1)
+
+        for i in range(1, len(arrays)):
+            merged_value = arrays[i][-1] + arrays[i][-2]
+            arrays[i][-2] = merged_value
+            arrays[i].pop(-1)
+
+    while len(arrays[0]) > 1 and arrays[0][0]  < 6:
+        merged_value = arrays[0][0] + arrays[0][1]
+        arrays[0][1] = merged_value
+        arrays[0].pop(0)
+
+        for i in range(1, len(arrays)):
+            merged_value = arrays[i][0] + arrays[i][1]
+            arrays[i][1] = merged_value
+            arrays[i].pop(0)
+    
+    for i in range(len(arrays[0])):
+        radq[i] = np.sqrt(arrays[1][i]*(1-arrays[2][i]))
+        squared[i] = ((arrays[1][i]-arrays[0][i])/radq[i])**2
+    
+    arrays.append(radq)
+    arrays.append(squared)
+
+    return arrays
 
 
 def read_data(file_path):
@@ -144,10 +169,16 @@ def main():
     #print("xcentr * f. ass:",  xcentr_times_abs_freq_array, "\n")
     #print("f. ass * (xcentr - media)^2:", abs_freq_times_diff_squared_array, "\n")
 
-    phantom_xcentr_array,phantom_abs_freq_obs,phantom_arg_exp,phantom_prob_density,phantom_prob,phantom_abs_freq_expe = phantom_classes(xcentr_array,abs_freq_array,n,std_dev,mean,bin_width)
+    phantom_xcentr_array,phantom_abs_freq_obs,phantom_arg_exp,phantom_prob_density,phantom_prob,phantom_abs_freq_expe= phantom_classes(xcentr_array,abs_freq_array,n,std_dev,mean,bin_width)
     
+    matrix_of_arrays = [phantom_abs_freq_obs,phantom_abs_freq_expe,phantom_prob]
+    matrix_of_merged = merger(matrix_of_arrays)
+    merged_ok = matrix_of_merged[0]
+    merged_ek = matrix_of_merged[1]
+    merged_prob = matrix_of_merged[2]
+    merged_radq = matrix_of_merged[3]
+    merged_squared = matrix_of_merged[4]
 
-    # TABELLE
 
     # Prima tabella
     print("\n\n")
@@ -160,7 +191,6 @@ def main():
         abs_freq_times_diff_squared_array    
     ):
         print(f"{xcentr:^12.1f} {abs_freq:^12} {rel_freq:^12.4f} {freq_dens:^12.4f} {molt:^12.4f} {squared:^12.3f}")
-    print("\n\n")
     
     # Classi fantasma
     print("\n\n")
@@ -175,12 +205,24 @@ def main():
    
     sum_abs_freq_expe = np.sum(phantom_abs_freq_expe)
 
-    # Stampa la somma allineata sotto la colonna 'abs_freq_expe'
     print("-" * 85)
-    print(f"{'':^12} {'':^12} {'':^12} {'':^12} {'':^12} {sum_abs_freq_expe:^12.2f}")
+    print(f"{'':^12} {'':^12} {'':^12} {'':^12} {'':^12} {sum_abs_freq_expe:^12.6f}")
 
-    
+    # Tabella merged con chi quadro
+    print("\n\n")
+    print(f"{'ok':^12} {'ek':^12}  {'prob':^12} {'radq':^12} {'squared':^12}")
+    print("-" * 65)
+    for ok, ek, prob, radq, squared in zip(
+    merged_ok, merged_ek, merged_prob, merged_radq, merged_squared
+    ):
+        print(f"{ok:^12.0f} {ek:^12.2f} {prob:^12.4f} {radq:^12.4f} {squared:^12.4f}")   
+    print("-" * 65)
 
+    chi2 = np.sum(merged_squared)
+
+    print(f"{'':^12} {'':^12}  {'':^12} {'':^12} {chi2:^12.2f}")
+
+    print("\n\n")
     
 if __name__ == "__main__":
     main()
