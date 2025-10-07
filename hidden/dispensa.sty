@@ -1,0 +1,165 @@
+\ProvidesPackage{dispensa}
+\usepackage[a4paper, total={6in, 9in}]{geometry}
+\usepackage[skins]{tcolorbox}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{calc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepgflibrary{shapes.geometric}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{graphicx,import}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{cancel}
+\setlength{\columnsep}{1cm}
+
+% Titoli
+\usepackage[pagestyles]{titlesec}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+\newpagestyle{mystyle}
+{\sethead[\thepage][][\chaptertitle]{}{}{\thepage}}
+\pagestyle{mystyle}
+
+% Indice
+\renewcommand*\contentsname{Indice}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
+\pgfplotsset{compat=1.15}
+
+% 
+\newcommand*{\QEDA}{\null\nobreak\hfill\ensuremath{\blacksquare}}%
+\newcommand*{\QEDB}{\null\nobreak\hfill\ensuremath{\square}}%
+
+% Colori
+\definecolor{BLUE}{RGB}{224, 245, 255} 
+\definecolor{RED}{RGB}{198, 247, 211} 
+\definecolor{ORANGE}{RGB}{255, 102, 0} 
+\definecolor{VIOLET}{RGB}{255, 102, 0} 
+\definecolor{ATTENZIONE}{RGB}{255, 108, 94}
+
+% box
+\newtcolorbox{es}[2][]{%
+	enhanced,sharp corners,boxrule=0.4pt,colback=white, colframe=black, coltitle=black,fonttitle=\itshape, 
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile, size=minimal, left=0.5mm, right=0.5mm,
+		colback=white, before upper=\strut, boxrule=0.5pt, colframe=black},
+	title=#2,top=1em,#1 
+}
+\newtcolorbox{dym}[2][]{%
+	enhanced,sharp corners,boxrule=0.4pt,colback=white, colframe=black, coltitle=black,fonttitle=\itshape, 
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile, size=minimal, left=0.5mm, right=0.5mm,
+		colback=white, before upper=\strut, boxrule=0.5pt, colframe=black},
+	title=#2,top=1em,#1 
+}
+\newtcolorbox{blues}[2][]{%
+	enhanced,colback=BLUE,colframe=black,coltitle=black,
+	sharp corners,boxrule=0.4pt,
+	fonttitle=\bfseries\itshape,
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
+		colback=BLUE,before upper=\strut},
+	title=#2,top=1em,#1
+}
+\newtcolorbox{redes}[2][]{%
+	enhanced,colback=RED,colframe=black,coltitle=black,
+	sharp corners,boxrule=0.4pt,
+	fonttitle=\bfseries\itshape,
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
+		colback=RED,before upper=\strut},
+	title=#2,top=1em,#1
+}
+\newtcolorbox{coroll}[2][]{%
+	enhanced, colback=white, colframe=black, coltitle=black,
+	sharp corners, boxrule=0pt,
+	fonttitle=\bfseries\itshape,
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile,size=minimal,
+		left=1mm, right=1mm, % Horizontal padding
+		top=1mm, bottom=1mm, % Vertical padding
+		colback=RED,
+		before upper=\strut},
+	title=#2,top=1em,#1
+}
+\newtcolorbox{attenzione}[2][]{%
+	enhanced,colback=white,colframe=ATTENZIONE,coltitle=ATTENZIONE,
+	sharp corners,boxrule=0.4pt,
+	fonttitle=\itshape,
+	attach boxed title to top left={yshift=-0.5\baselineskip-0.4pt,xshift=2mm},
+	boxed title style={tile,size=minimal,left=0.5mm,right=0.5mm,
+		colback=white,before upper=\strut},
+	title=#2,#1
+}
+
+% esempio,teorema,definizione
+\newcommand{\esempio}[2]{
+	\begin{es}{#1}
+		#2
+	\end{es}
+}
+\newcommand{\definizione}[2]{
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{BLUE}{\begin{minipage}{5.75in}
+				\begin{blues}{Definizione: #1}
+					#2
+				\end{blues}
+		\end{minipage}}
+	\end{center}
+}
+\newcommand{\teorema}[2]{
+	\begin{center}
+		\fboxsep11pt
+		\colorbox{RED}{\begin{minipage}{5.75in}
+				\begin{redes}{#1}
+					#2
+				\end{redes}
+		\end{minipage}}
+	\end{center}
+}
+\newcommand{\dimostrazione}[2]{
+	\begin{dym}{dimostrazione#1}
+		#2
+		\QEDB
+	\end{dym}
+}
+\newcommand{\corollario}[2]{
+	\begin{center}
+		\begin{coroll}{corollario#1}
+			#2
+		\end{coroll}
+	\end{center}
+}
+\newcommand{\nota}[2]{
+	\begin{attenzione}{Nota:}
+		#2
+	\end{attenzione}
+}
+
+% Immagini
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+
+\newcommand{\incfig}[1]{%
+	\import{./img/}{#1.pdf_tex}
+}
+\newcommand{\viola}[1]{%
+	\colorbox{BLUE}{$\displaystyle #1$}
+}
+\newcommand{\rosso}[1]{%
+	\colorbox{RED}{$\displaystyle #1$}}
+	
+% compiler
+\makeatletter
+\def\input@path{{build/}}
+\makeatother
+
