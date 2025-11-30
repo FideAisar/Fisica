@@ -1,0 +1,62 @@
+
+#include <iostream>
+#include <fstream>
+#include "TH1D.h"
+#include "TApplication.h"
+#include "TCanvas.h"
+#include "TF1.h"        
+#include "TF2.h"        
+#include "TLegend.h"   
+using namespace std;
+
+
+void signalextraction(){
+
+  // setup histogram
+  TH1D *hist = new TH1D("hist","Invariant mass distribution",100,1.3,5);
+  
+  // read from file
+  double readvalue;
+  ifstream infile("jpsimass.txt");
+  while(infile >> readvalue){
+      hist->Fill(readvalue);
+  }
+  
+  // fit
+  TF1 *modelfit = new TF1("modelfit","gaus()+pol1()",1,5);
+  modelfit->SetNpx(5000);
+  modelfit->SetParameters(50e06,3.1,0.14,30e06,-1,0.5,3.6,0.14);
+  for(int i=0; i<2; i++){
+    hist->Fit(modelfit,"0");
+  }
+
+  // canvas
+  TCanvas *can = new TCanvas("can","can",1000,1000);
+  can->SetMargin(0.15,0.05,0.1,0.1);
+  can->cd();
+  hist->GetXaxis()->SetTitle("m_{#mu^{+}#mu^{-}}");
+  hist->GetYaxis()->SetTitle("counts");
+
+  // draw
+  hist->Draw("E");
+  modelfit->Draw("same");
+}
+
+
+//void interpolation()
+
+
+
+
+int main() {
+  TApplication app("app",0,0);
+
+
+
+  signalextraction();
+
+
+
+  app.Run();
+  return 0;
+}

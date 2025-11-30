@@ -1,0 +1,130 @@
+PIANO CARRIERA DI MAURO ROSSI
+
+-----------------------------
+
+Risultano sostenuti i seguenti esami di profitto:
+
+NOME: Tecniche informatiche per la fisica
+SSD: INF/01
+CFU: 3
+VOTO: 28/30
+
+NOME: Analisi I
+SSD: MAT/05
+CFU: 9
+VOTO: 23/30
+
+NOME: Esperimentazioni I
+SSD: FIS/01
+CFU: 12
+VOTO: 27/30
+
+NOME: Analisi II
+SSD: MAT/05
+CFU: 7
+VOTO: 30L/30
+
+NOME: Meccanica
+SSD: FIS/01
+CFU: 9
+VOTO: 29/30
+
+NOME: Onde, fluidi e termodinamica
+SSD: FIS/01
+CFU: 8
+VOTO: 25/30
+
+NOME: Lean Management
+SSD: ECO/07
+CFU: 3
+VOTO: Approvato
+
+NOME: Introduzione alla programmazione
+SSD: INF/01
+CFU: 3
+VOTO: 30/30
+
+NOME: Geometria e algebra lineare I
+SSD: MAT/03
+CFU: 9
+VOTO: 30/30
+
+NOME: Fisica 2
+SSD: FIS/01
+CFU: 10
+VOTO: 24/30
+
+NOME: Esperimentazioni II
+SSD: FIS/01
+CFU: 12
+VOTO: 27/30
+
+NOME: Chimica
+SSD: CHIM/06
+CFU: 6
+VOTO: 21/30
+
+NOME: Laboratorio di elettronica
+SSD: FIS/01
+CFU: 6
+VOTO: 30/30
+
+NOME: Metodi matematici della fisica - Introduzione
+SSD: MAT/07
+CFU: 6
+VOTO: 26/30
+
+NOME: Metodi matematici della meccanica classica
+SSD: MAT/07
+CFU: 6
+VOTO: 28/30
+
+NOME: Fisica 3
+SSD: FIS/01
+CFU: 11
+VOTO: 27/30
+
+NOME: Meccanica quantistica I
+SSD: FIS/02
+CFU: 10
+VOTO: 24/30
+
+NOME: Analisi III
+SSD: MAT/05
+CFU: 5
+VOTO: 22/30
+
+NOME: Tecniche di calcolo per la fisica
+SSD: FIS/01
+CFU: 6
+VOTO: 30/30
+
+NOME: Lingua 1
+SSD: LIN/12
+CFU: 3
+VOTO: Approvato
+
+NOME: Physics today
+SSD: LIN/12
+CFU: 3
+VOTO: Approvato
+
+NOME: Struttura della materia con laboratorio
+SSD: FIS/03
+CFU: 9
+VOTO: 29/30
+
+NOME: Introduzione al sistema climatico
+SSD: FIS/06
+CFU: 6
+VOTO: 30L/30
+
+NOME: Introduzione alla fisica nucleare e subnucleare con laboratorio
+SSD: FIS/04
+CFU: 9
+VOTO: 30/30
+
+NOME: Storia medievale
+SSD: STO/04
+CFU: 6
+VOTO: 30L/30
